@@ -1,0 +1,2045 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="3.0" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.5.e11732</article-id>
+      <article-id pub-id-type="publisher-id">11732</article-id>
+      <article-id pub-id-type="manuscript">6757</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Plantae</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Forestry</subject>
+          <subject>Ecology &amp; Environmental sciences</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>Japan</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Time series data of a broadleaved secondary forest in Japan as affected by deer and mass mortality of oak trees</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes" xlink:type="simple">
+          <name name-style="western">
+            <surname>Itô</surname>
+            <given-names>Hiroki</given-names>
+          </name>
+          <email xlink:type="simple">abies.firma@gmail.com</email>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Hokkaido Research Center, Forestry and Forest Products Research Institute, Sapporo, Japan</addr-line>
+        <institution xlink:type="simple">Hokkaido Research Center, Forestry and Forest Products Research Institute</institution>
+        <addr-line content-type="city">Sapporo</addr-line>
+        <country>Japan</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Hiroki Itô (<email xlink:type="simple">abies.firma@gmail.com</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Pavel Stoev</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2017</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>17</day>
+        <month>03</month>
+        <year>2017</year>
+      </pub-date>
+      <volume>5</volume>
+      <elocation-id>e11732</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/FF90FF95-3B21-FF91-FFBC-2E7BBE0DFFED">FF90FF95-3B21-FF91-FFBC-2E7BBE0DFFED</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/574584">574584</uri>
+      <history>
+        <date date-type="received">
+          <day>07</day>
+          <month>01</month>
+          <year>2017</year>
+        </date>
+        <date date-type="accepted">
+          <day>14</day>
+          <month>03</month>
+          <year>2017</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Hiroki Itô</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License 4.0 (CC-BY), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>Abandonment of broadleaved secondary forests that have been used for various purposes may cause the loss of biodiversity. Some of these forests suffer from diseases such as Japanese oak wilt. An increasing number of deer also impact some of them. Monitoring and recording the status of such forests is important for their proper management.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>This data set provides a concrete example of temporal changes in a temperate broadleaved secondary forest. The forest has been damaged by mass mortality of oak trees caused by Japanese oak wilt disease. In addition, the forest has been under foraging pressure by sika deer (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Cervus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">nippon</tp:taxon-name-part></tp:taxon-name></italic> Temminck). The data set can provide information on how such a forest has changed in species composition of the canopy and sub-canopy layers and in species occurrence in the understory layer.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>broadleaved secondary forest</kwd>
+        <kwd>conifer plantation</kwd>
+        <kwd>deer impact</kwd>
+        <kwd>mass mortality of oak trees</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group xlink:type="simple">
+          <funding-source xlink:type="simple">
+            <named-content content-type="funder_name" xlink:type="simple">Japan Society for the Promotion of Science</named-content>
+            <named-content content-type="funder_identifier" xlink:type="simple">501100001691</named-content>
+            <named-content content-type="funder_doi" xlink:type="simple">http://doi.org/10.13039/501100001691</named-content>
+          </funding-source>
+        </award-group>
+      </funding-group>
+      <counts>
+        <fig-count count="2"/>
+        <table-count count="2"/>
+        <ref-count count="18"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>The progress of succession due to underuse or abandonment of secondary forests that have been used for various purposes, such as sources of firewood and charcoal wood, may cause loss of biodiversity in Japan (<xref ref-type="bibr" rid="B3528033">Washitani 2001</xref>, <xref ref-type="bibr" rid="B3528023">Takeuchi 2010</xref>) as well as Europe (<xref ref-type="bibr" rid="B3528003">Rackham 2008</xref>, <xref ref-type="bibr" rid="B3527971">Müllerová et al. 2015</xref>). For example, the loss of mosaic land use maintained by human activity can cause habitat loss for various species which depend on the mosaic (<xref ref-type="bibr" rid="B3528033">Washitani 2001</xref>). Some of these forests suffer from diseases. In Japan, the mass mortality of oak trees caused by Japanese oak wilt disease severely affected oak-dominant secondary forests (<xref ref-type="bibr" rid="B3527961">Kuroda et al. 2012</xref>, <xref ref-type="bibr" rid="B3527981">Nakajima and Ishida 2014</xref>). The pathogen is a fungus, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Raffaelea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">quercivora</tp:taxon-name-part></tp:taxon-name></italic> Kubono &amp; Shin.Ito, which is carried by a specific beetle, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Platypus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">quercivorus</tp:taxon-name-part></tp:taxon-name></italic> Murayama (<xref ref-type="bibr" rid="B3577895">Kubono and Ito 2002</xref>, <xref ref-type="bibr" rid="B3577905">Kinuura and Kobayashi 2006</xref>). Though the pathogen and the vector are both native to Japan, abandonment of the secondary forest in recent decades may be related to the epidemic (<xref ref-type="bibr" rid="B3527981">Nakajima and Ishida 2014</xref>).</p>
+      <p>In addition, deer impact also affects broadleaved forests in Japan (<xref ref-type="bibr" rid="B3528013">Takatsuki 2009</xref>) and other regions of the world (<xref ref-type="bibr" rid="B3527908">Côté et al. 2004</xref>, <xref ref-type="bibr" rid="B3527920">Gerhardt et al. 2013</xref>). In Japan, an increased number of sika deer (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Cervus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">nippon</tp:taxon-name-part></tp:taxon-name></italic> Temminck) has impacted many plantations and natural forests (<xref ref-type="bibr" rid="B3528013">Takatsuki 2009</xref>). Their foraging can suppress regeneration of trees except for deer-unpalatable species (<xref ref-type="bibr" rid="B3527940">Itô 2015</xref>, <xref ref-type="bibr" rid="B3527951">Itô 2016</xref>).</p>
+      <p>It is important to monitor and record the changes in such forests to manage them properly. This data set provides information on how succession has proceeded in a broadleaf secondary forest in Japan and how the combined effects of the mass mortality of oak trees and deer impacts altered the forest. The data set consists of changes in species composition, stem density and stem diameter at breast height in the canopy and sub-canopy layer from 1993 to 2014, and changes in occurrence of woody species in the understory layer from 1992 to 2014.</p>
+    </sec>
+    <sec sec-type="General description">
+      <title>General description</title>
+      <sec sec-type="Purpose">
+        <title>Purpose</title>
+        <p>This study was initiated in 1992 to monitor the dynamics of broadleaved secondary forests adjacent to urban areas. Although the study site also contained a conifer plantation, regeneration of broadleaved species within the plantation was also monitored. After periodic surveys (1993, 1996, 1999, 2002 and 2005) were completed (<xref ref-type="bibr" rid="B3527930">Itô 2007</xref>), mass mortality of oak trees affected the forest, alongside deer impacts. To evaluate the compound effect of both types of damage, the study site was surveyed again in 2014 (<xref ref-type="bibr" rid="B3527940">Itô 2015</xref>, <xref ref-type="bibr" rid="B3527951">Itô 2016</xref>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Study extent">
+        <title>Study extent</title>
+        <p>This study was conducted in the Ginkakuzi-san (also spelled Ginkakuji-san) National Forest, Kyôto City, Japan. This area is located in the warm-temperate zone. The dominant vegetation of the area had been evergreen oak forest approximately 7000 to 1000 years ago, but secondary forests composed of pines and deciduous oaks increased after that (<xref ref-type="bibr" rid="B3528068">Takahara 2015</xref>). In the late 19th century, the forest around the study site was estimated to be covered with small pines, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Pinus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">densiflora</tp:taxon-name-part></tp:taxon-name></italic> Siebold &amp; Zucc., due to human impact (<xref ref-type="bibr" rid="B3528047">Ogura 2015</xref>). After nationalization (in the 1870s), the forest has been protected from felling as a rule. In the 1930s, a mixed forest of pines and deciduous tree species such as <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Quercus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">serrata</tp:taxon-name-part></tp:taxon-name></italic> Murray covered the site (<xref ref-type="bibr" rid="B3528083">Osaka Regional Forest Office 1936</xref>). However, the forest has not been completely free from felling; e.g., trees were cut for fuel wood during World War II, and part of the forest was converted to conifer (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Cryptomeria</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">japonica</tp:taxon-name-part></tp:taxon-name></italic> (L.f) D.Don and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Chamaecyparis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">obtusa</tp:taxon-name-part></tp:taxon-name></italic> (Siebold &amp; Zucc.) Endl.) plantations in the 1970s. Recently, broadleaved evergreen trees, such as <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Symplocos</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">prunifolia</tp:taxon-name-part></tp:taxon-name></italic> Siebold &amp; Zucc. and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Ilex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">pedunculosa</tp:taxon-name-part></tp:taxon-name></italic> Miq., were thinned in some parts of the forest, probably to improve light penetration into the forest. Forest diseases also affected the forest. After the 1960s, pine wilt disease strongly affected the national forest and numerous <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">P.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">densiflora</tp:taxon-name-part></tp:taxon-name></italic> trees died. The responsible pathogen is the nematode <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Bursaphelenchus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">xylophilus</tp:taxon-name-part></tp:taxon-name></italic> (Steiner &amp; Buhrer) Nickle, which is thought to have been brought from North America (<xref ref-type="bibr" rid="B3577915">Mamiya 1988</xref>). In the last decade, mass mortality of oak trees affected the forest, as described above. In addition, increased numbers of sika deer have affected the forest (<xref ref-type="bibr" rid="B3527940">Itô 2015</xref>, <xref ref-type="bibr" rid="B3527951">Itô 2016</xref>). Though the population density of the deer in the forest is unknown, camera trap data showed that they inhabited the forest in all seasons (<xref ref-type="bibr" rid="B3527940">Itô 2015</xref>).</p>
+      </sec>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>A 1.05 ha (210 m × 50 m) study site was established in 1992 (Fig. <xref ref-type="fig" rid="F3528137">1</xref>). The site was divided into 420 quadrats of 5 × 5 m. The study site mainly consisted of broadleaved secondary forest stands, and the rest was a conifer plantation. The plantation was thinned in 1996, and some of the evergreen broadleaved trees were thinned in the eastern part of the site in 2005. After mass mortality, dead stems of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Q.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">serrata</tp:taxon-name-part></tp:taxon-name></italic> were felled, and some stems surrounding the dead stems were also felled. The felled trunks were cut into about 1 m lengths and piled on the floor. The infected wood was covered with plastic sheets and disinfected. The cut stems are denoted in the measurement data file.</p>
+        <p>Two classes of forest layers were defined: the canopy and sub-canopy layer and the understory layer. Stems in the canopy and sub-canopy layer were defined as having a diameter at breast height (dbh) at least 3.0 cm, and stems in the understory layer were defined as those with a dbh smaller than 3.0 cm or a height shorter than 1.3 m (not including those seedlings and shoots sprouted in the current year). During the period from December 1993 to February 1994, all stems in the canopy and sub-canopy layer were marked, identified by species name, and their dbh measured using a measuring tape with 1 mm precision. After that, dbh was measured in 1996, 1999, 2002, 2005 and 2014 during the non-growing season (October to January of the following year) in the same way. Measurement values in 1999 are missing in the most eastern half of the study site because slope collapse prevention works were conducted near the area.</p>
+        <p>In 1992, the species of woody plants found in the understory layer were recorded for each quadrat to obtain the understory species composition of the forest in autumn (September to November). The same survey was conducted again in 2014 (July to November). The dynamics of the half of the study site that solely consisted of broadleaved forest was reported in <xref ref-type="bibr" rid="B3527940">Itô (2015)</xref> and <xref ref-type="bibr" rid="B3527951">Itô (2016)</xref>, but this is the first report of the whole study site.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>Ginkakuzi-san National Forest, Kyôto City, Japan</p>
+      </sec>
+      <sec sec-type="Coordinates">
+        <title>Coordinates</title>
+        <p>35.028 and 35.029 Latitude; 135.802 and 135.800 Longitude.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The six surveys from 1993 to 2014 found 61 species in the canopy and sub-canopy layer. Table <xref ref-type="table" rid="T3528140">1</xref> shows their stem density (stems/ha) and basal area (m<sup>2</sup>/ha) in 1993 and 2014. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Clerodendrum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">trichotomum</tp:taxon-name-part></tp:taxon-name></italic> Thunb. was not included in Table <xref ref-type="table" rid="T3528140">1</xref>, because it had only one stem, which was first found in 2002 but had disappeared in 2005.</p>
+        <p>The most abundant species was <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Symplocos</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">prunifolia</tp:taxon-name-part></tp:taxon-name> Siebold &amp; Zucc. in 1993, but <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Quercus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">glauca</tp:taxon-name-part></tp:taxon-name></italic> Thunb. surpassed it by 2014. The dominant species in the basal area was consistently <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Chamaecyparis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">obtusa</tp:taxon-name-part></tp:taxon-name>, which occupied most of the plantation area of the study site. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Quercus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">serrata</tp:taxon-name-part></tp:taxon-name></italic> decreased in density from 37.1 to 14.3 stems/ha and in basal area from 2.8 to 1.5 m<sup>2</sup>/ha (Table <xref ref-type="table" rid="T3528140">1</xref>, Fig. <xref ref-type="fig" rid="F3582372">2</xref>).</p>
+        <p>In the understory layer, 88 woody species were found over the two surveys in 1992 and 2014 excluding unidentified species. Table <xref ref-type="table" rid="T3528141">2</xref> shows the species and the number of quadrats where they were found. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Quercus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">glauca</tp:taxon-name-part></tp:taxon-name></italic> was the most frequent species in both 1992 and 2014. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Symplocos</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">prunifolia</tp:taxon-name-part></tp:taxon-name></italic> increased in the number of quadrats from 75 to 274. This may related to gap formation by oak tree deaths and thinning of upper trees as well as the deer-unpalatable trait of the species.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <p><bold>Data range:</bold> 1992-9-18 – 2014-12-19.</p>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Open Data Commons Attribution License</p>
+      </sec>
+      <sec sec-type="IP rights notes">
+        <title>IP rights notes</title>
+        <p>Forestry and Forest Products Research Institute (Matsunosato 1, Tsukuba 305-8687, Japan) has ownership of this data set.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>Forest dynamics data in the Ginkakuzi-san National Forest, Kyôto, Japan</p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>6</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Site data</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>CSV</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>4</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5061/dryad.7f399" xlink:type="simple">http://dx.doi.org/10.5061/dryad.7f399</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>Location and stand type of each quadrat.</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">X</td>
+                  <td rowspan="1" colspan="1">Position of the northwest corner of the quadrat along the X axis (m).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Y</td>
+                  <td rowspan="1" colspan="1">Position of the northwest corner of the quadrat along the Y axis (m).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Type1992</td>
+                  <td rowspan="1" colspan="1">Stand type of the quadrat (B: broadleaved forest, C: conifer plantation, G: gap).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Type2014</td>
+                  <td rowspan="1" colspan="1">Stand type of the quadrat (B: broadleaved forest, C: conifer plantation, G: gap (not related to mass mortality of oak trees), GM: gap created or affected by the mass mortality of oak trees).</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+      <sec sec-type="Data set 2">
+        <title>Data set 2.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Elevation data</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>CSV</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>3</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5061/dryad.7f399" xlink:type="simple">http://dx.doi.org/10.5061/dryad.7f399</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>Elevation of grid points (5 m × 5 m) of the study site.</p>
+          <table-wrap id="DS2" orientation="portrait" position="anchor">
+            <label>Data set 2.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">X</td>
+                  <td rowspan="1" colspan="1">Location along the X axis (m).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Y</td>
+                  <td rowspan="1" colspan="1">Location along the Y axis (m).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Elevation</td>
+                  <td rowspan="1" colspan="1">Elevation (m; precision: 0.1 m).</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+      <sec sec-type="Data set 3">
+        <title>Data set 3.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Stem data</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>CSV</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>9</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5061/dryad.7f399" xlink:type="simple">http://dx.doi.org/10.5061/dryad.7f399</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>List of all stems found from 1993 to 2014.</p>
+          <table-wrap id="DS3" orientation="portrait" position="anchor">
+            <label>Data set 3.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">Indv</td>
+                  <td rowspan="1" colspan="1">Individual ID</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Stem</td>
+                  <td rowspan="1" colspan="1">Stem ID</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">X</td>
+                  <td rowspan="1" colspan="1">Position of the northwest corner of the quadrat where the stem was located along the X axis (m).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Y</td>
+                  <td rowspan="1" colspan="1">Position of the northwest corner of the quadrat where the stem was located along the Y axis (m).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">X1</td>
+                  <td rowspan="1" colspan="1">Position of the stem along the X axis (m; precision: 0.1 m).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Y1</td>
+                  <td rowspan="1" colspan="1">Position of the stem along the X axis (m; precision: 0.1 m).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Species</td>
+                  <td rowspan="1" colspan="1">Species of the stem.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Start</td>
+                  <td rowspan="1" colspan="1">Year when the stem was first marked.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">End</td>
+                  <td rowspan="1" colspan="1">Year when the stem was last found alive (NA denotes that the stem was still alive in 2014).</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+      <sec sec-type="Data set 4">
+        <title>Data set 4.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Stem measurement data</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>4</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5061/dryad.7f399" xlink:type="simple">http://dx.doi.org/10.5061/dryad.7f399</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>Measurements of dbh for each stem from 1993 to 2014. Measurement values in 1999 are missing in the most eastern half of the study site because slope collapse prevention works were conducted near the area.</p>
+          <table-wrap id="DS4" orientation="portrait" position="anchor">
+            <label>Data set 4.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">Stem</td>
+                  <td rowspan="1" colspan="1">Stem ID</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Year</td>
+                  <td rowspan="1" colspan="1">Year of the measurement.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">DBH</td>
+                  <td rowspan="1" colspan="1">Diameter at breast height (cm; precision: 0.1 cm). NA denotes missing data.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Comment</td>
+                  <td rowspan="1" colspan="1">Comment on the measurement.</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+      <sec sec-type="Data set 5">
+        <title>Data set 5.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Understory data</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>CSV</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>4</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5061/dryad.7f399" xlink:type="simple">http://dx.doi.org/10.5061/dryad.7f399</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>Occurrence of woody species in the understory layer for each quadrat.</p>
+          <table-wrap id="DS5" orientation="portrait" position="anchor">
+            <label>Data set 5.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">Year</td>
+                  <td rowspan="1" colspan="1">Survey year.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">X</td>
+                  <td rowspan="1" colspan="1">Position of the northwest corner of the quadrat along the X axis (m).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Y</td>
+                  <td rowspan="1" colspan="1">Position of the northwest corner of the quadrat along the Y axis (m).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Species</td>
+                  <td rowspan="1" colspan="1">Species found in the quadrat.</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+      <sec sec-type="Data set 6">
+        <title>Data set 6.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Occurrence data of woody species</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Darwin Core Archive</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>23</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="http://www.gbif.org/dataset/d5d92045-cbd8-453a-9b4e-25a7b74c51c5" xlink:type="simple">http://www.gbif.org/dataset/d5d92045-cbd8-453a-9b4e-25a7b74c51c5</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>Occurrence data of woody species in the Ginkakuzi-san National Forest.</p>
+          <table-wrap id="DS6" orientation="portrait" position="anchor">
+            <label>Data set 6.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceID</td>
+                  <td rowspan="1" colspan="1">An identifier for the Occurrence.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">modified</td>
+                  <td rowspan="1" colspan="1">The most recent date-time on which the resource was changed.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">rights</td>
+                  <td rowspan="1" colspan="1">Information about who can access the resource or an indication of its security status.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">rightsHolder</td>
+                  <td rowspan="1" colspan="1">A person or organization owning or managing rights over the resource.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">institutionCode</td>
+                  <td rowspan="1" colspan="1">The name (or acronym) in use by the institution having custody of the object(s) or information referred to in the record.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">collectionCode</td>
+                  <td rowspan="1" colspan="1">The name, acronym, coden, or initialism identifying the collection or data set from which the record was derived.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">datasetName</td>
+                  <td rowspan="1" colspan="1">The name identifying the data set from which the record was derived.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">basisOfRecord</td>
+                  <td rowspan="1" colspan="1">The specific nature of the data record.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">catalogNumber</td>
+                  <td rowspan="1" colspan="1">An identifier (preferably unique) for the record within the data set or collection.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">year</td>
+                  <td rowspan="1" colspan="1">The four-digit year in which the Event occurred, according to the Common Era Calendar.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">country</td>
+                  <td rowspan="1" colspan="1">The name of the country or major administrative unit in which the Location occurs.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">countryCode</td>
+                  <td rowspan="1" colspan="1">The standard code for the country in which the Location occurs.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">verbatimLocality</td>
+                  <td rowspan="1" colspan="1">The original textual description of the place.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLatitude</td>
+                  <td rowspan="1" colspan="1">The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLongitude</td>
+                  <td rowspan="1" colspan="1">The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">coordinateUncertaintyInMeters</td>
+                  <td rowspan="1" colspan="1">The horizontal distance (in meters) from the given decimalLatitude and decimalLongitude describing the smallest circle containing the whole of the Location.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificName</td>
+                  <td rowspan="1" colspan="1">The full scientific name, with authorship and date information if known.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">kingdom</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the kingdom in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">phylum</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the phylum or division in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">family</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the family in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">genus</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the genus in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">specificEpithe</td>
+                  <td rowspan="1" colspan="1">The name of the first or species epithet of the scientificName.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">infraspecificEpithet</td>
+                  <td rowspan="1" colspan="1">The name of the lowest or terminal infraspecific epithet of the scientificName, excluding any rank designation.</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>The author thanks Dr. T. Osawa (National Agriculture and Food Research Organization) for giving suggestions on the Darwin Core format. The author also thanks the Kyoto-Osaka District Forest Office for permitting the field study. This study was partially supported by research grant #201504 of the Forestry and Forest Products Research Institute and JSPS KAKENHI JP26450215.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B3527908">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Côté</surname>
+              <given-names>Steeve D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rooney</surname>
+              <given-names>Thomas P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tremblay</surname>
+              <given-names>Jean-Pierre</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dussault</surname>
+              <given-names>Christian</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Waller</surname>
+              <given-names>Donald M.</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <article-title>Ecological Impacts of Deer Overabundance</article-title>
+          <source>Annual Review of Ecology, Evolution, and Systematics</source>
+          <volume>35</volume>
+          <issue>1</issue>
+          <fpage>113</fpage>
+          <lpage>147</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1146/annurev.ecolsys.35.021103.105725</uri>
+          <pub-id pub-id-type="doi">10.1146/annurev.ecolsys.35.021103.105725</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3527920">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Gerhardt</surname>
+              <given-names>Philipp</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Arnold</surname>
+              <given-names>Johanna Maria</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hackländer</surname>
+              <given-names>Klaus</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hochbichler</surname>
+              <given-names>Eduard</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Determinants of deer impact in European forests – A systematic literature analysis</article-title>
+          <source>Forest Ecology and Management</source>
+          <volume>310</volume>
+          <fpage>173</fpage>
+          <lpage>186</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1016/j.foreco.2013.08.030</uri>
+          <pub-id pub-id-type="doi">10.1016/j.foreco.2013.08.030</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3527930">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Itô</surname>
+              <given-names>Hiroki</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <article-title>Twelve years change of a broad leaved secondary forest in Ginkakuji-san National Forest</article-title>
+          <source>Bulletin of FFPRI</source>
+          <volume>6</volume>
+          <fpage>93</fpage>
+          <lpage>100</lpage>
+          <comment content-type="language">Japanese</comment>
+          <uri xlink:type="simple">https://www.ffpri.affrc.go.jp/labs/kanko/403_2.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B3527940">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Itô</surname>
+              <given-names>Hiroki</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Effects of Sika Deer （<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Cervus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">nippon</tp:taxon-name-part></tp:taxon-name></italic>） on the Dynamics of a Broadleaved Secondary Forest after Mass Mortality of Oak Trees</article-title>
+          <source>Journal of the Japanese Forest Society</source>
+          <volume>97</volume>
+          <issue>6</issue>
+          <fpage>304</fpage>
+          <lpage>308</lpage>
+          <comment content-type="language">Japanese</comment>
+          <uri xlink:type="simple">http://dx.doi.org/10.4005/jjfs.97.304</uri>
+          <pub-id pub-id-type="doi">10.4005/jjfs.97.304</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3527951">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Itô</surname>
+              <given-names>Hiroki</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Changes in understory species occurrence of a secondary broadleaved forest after mass mortality of oak trees under deer foraging pressure</article-title>
+          <source>PeerJ</source>
+          <volume>4</volume>
+          <fpage>e2816</fpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.7717/peerj.2816</uri>
+          <pub-id pub-id-type="doi">10.7717/peerj.2816</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3577905">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kinuura</surname>
+              <given-names>Haruo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kobayashi</surname>
+              <given-names>Masahide</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <article-title>Death of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Quercus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">crispula</tp:taxon-name-part></tp:taxon-name> by inoculation with adult <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Platypus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">quercivorus</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Coleoptera</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Platypodidae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Applied Entomology and Zoology</source>
+          <volume>41</volume>
+          <issue>1</issue>
+          <fpage>123</fpage>
+          <lpage>128</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1303/aez.2006.123</uri>
+          <pub-id pub-id-type="doi">10.1303/aez.2006.123</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3577895">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kubono</surname>
+              <given-names>Takanori</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ito</surname>
+              <given-names>Shin-ichiro</given-names>
+            </name>
+          </person-group>
+          <year>2002</year>
+          <article-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Raffaelea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">quercivora</tp:taxon-name-part></tp:taxon-name> sp. nov. associated with mass mortality of Japanese oak, and the ambrosia beetle (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Platypus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">quercivorus</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Mycoscience</source>
+          <volume>43</volume>
+          <issue>3</issue>
+          <fpage>255</fpage>
+          <lpage>260</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1007/s102670200037</uri>
+          <pub-id pub-id-type="doi">10.1007/s102670200037</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3527961">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kuroda</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Osumi</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Oku</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Reestablishing the health of secondary forests “Satoyama” endangered by Japanese oak wilt: A preliminary report</article-title>
+          <source>Journal of Agricultural Extension and Rural Development</source>
+          <volume>4</volume>
+          <fpage>192</fpage>
+          <lpage>198</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.5897/jaerd12.047</uri>
+          <pub-id pub-id-type="doi">10.5897/jaerd12.047</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3577915">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Mamiya</surname>
+              <given-names>Y</given-names>
+            </name>
+          </person-group>
+          <year>1988</year>
+          <article-title>History of pine wilt disease in Japan.</article-title>
+          <source>Journal of nematology</source>
+          <volume>20</volume>
+          <issue>2</issue>
+          <fpage>219</fpage>
+          <lpage>26</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3527971">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Müllerová</surname>
+              <given-names>Jana</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hédl</surname>
+              <given-names>Radim</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Szabó</surname>
+              <given-names>Péter</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Coppice abandonment and its implications for species diversity in forest vegetation</article-title>
+          <source>Forest Ecology and Management</source>
+          <volume>343</volume>
+          <fpage>88</fpage>
+          <lpage>100</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1016/j.foreco.2015.02.003</uri>
+          <pub-id pub-id-type="doi">10.1016/j.foreco.2015.02.003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3527981">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Nakajima</surname>
+              <given-names>Haruki</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ishida</surname>
+              <given-names>Megumi</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>Decline of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Quercus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">crispula</tp:taxon-name-part></tp:taxon-name></italic> in abandoned coppice forests caused by secondary succession and Japanese oak wilt disease: Stand dynamics over twenty years</article-title>
+          <source>Forest Ecology and Management</source>
+          <volume>334</volume>
+          <fpage>18</fpage>
+          <lpage>27</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1016/j.foreco.2014.08.021</uri>
+          <pub-id pub-id-type="doi">10.1016/j.foreco.2014.08.021</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3528047">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ogura</surname>
+              <given-names>Jun'ich</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <chapter-title><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Satotyama</tp:taxon-name-part></tp:taxon-name></italic> vegetation landscape in the southern part of the Kyoto Prefecture in the Meiji Era</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Nature and Environmental Conservation Division</surname>
+              <given-names>Department of the Environment of the Kyoto Prefecture</given-names>
+            </name>
+          </person-group>
+          <source>Red Data Book of the Kyoto Prefecture</source>
+          <volume>3</volume>
+          <publisher-name>Kyoto Prefecture</publisher-name>
+          <publisher-loc>Kyoto</publisher-loc>
+          <comment content-type="language">Japanese</comment>
+        </element-citation>
+      </ref>
+      <ref id="B3528083">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Office</surname>
+              <given-names>Osaka Regional Forest</given-names>
+            </name>
+          </person-group>
+          <year>1936</year>
+          <source>Landscape planning of the Higashiayama National Forest</source>
+          <publisher-name>Osaka Regional Forest Office</publisher-name>
+          <publisher-loc>Osaka</publisher-loc>
+          <size units="page">20</size>
+        </element-citation>
+      </ref>
+      <ref id="B3528003">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Rackham</surname>
+              <given-names>Oliver</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Ancient woodlands: modern threats</article-title>
+          <source>New Phytologist</source>
+          <volume>180</volume>
+          <issue>3</issue>
+          <fpage>571</fpage>
+          <lpage>586</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1111/j.1469-8137.2008.02579.x</uri>
+          <pub-id pub-id-type="doi">10.1111/j.1469-8137.2008.02579.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3528068">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Takahara</surname>
+              <given-names>Hikaru</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <chapter-title>Vegetation history of Kyoto Prefecture after the last interglacial period</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Nature and Environmental Conservation Division</surname>
+              <given-names>Department of the Environment of the Kyoto Prefecture</given-names>
+            </name>
+          </person-group>
+          <source>Red Data Book of the Kyoto Prefecture</source>
+          <volume>3</volume>
+          <publisher-name>Kyoto Prefecture</publisher-name>
+          <publisher-loc>Kyoto</publisher-loc>
+          <comment content-type="language">Japanese</comment>
+        </element-citation>
+      </ref>
+      <ref id="B3528013">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Takatsuki</surname>
+              <given-names>Seiki</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>Effects of sika deer on vegetation in Japan: A review</article-title>
+          <source>Biological Conservation</source>
+          <volume>142</volume>
+          <issue>9</issue>
+          <fpage>1922</fpage>
+          <lpage>1929</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1016/j.biocon.2009.02.011</uri>
+          <pub-id pub-id-type="doi">10.1016/j.biocon.2009.02.011</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3528023">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Takeuchi</surname>
+              <given-names>Kazuhiko</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>Rebuilding the relationship between people and nature: the Satoyama Initiative</article-title>
+          <source>Ecological Research</source>
+          <volume>25</volume>
+          <issue>5</issue>
+          <fpage>891</fpage>
+          <lpage>897</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1007/s11284-010-0745-8</uri>
+          <pub-id pub-id-type="doi">10.1007/s11284-010-0745-8</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3528033">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Washitani</surname>
+              <given-names>Izumi</given-names>
+            </name>
+          </person-group>
+          <year>2001</year>
+          <article-title>Traditional sustainable ecosystem ‘SATOYAMA’ and biodiversity crisis in Japan: Conservation ecological perspective</article-title>
+          <source>Global Environment Research</source>
+          <volume>5</volume>
+          <fpage>119</fpage>
+          <lpage>133</lpage>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F3528137" position="float" orientation="portrait">
+      <object-id content-type="arpha">A2E8B3B6-2B6E-5E10-AAA1-C85845F286C1</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Outline of the study site. A) Contour map. B) Stand type. B: broadleaved, BT: broadleaved (thinned), C: conifer plantation, G: gap (not related to mass mortality of oak trees), GM: gap created or affected by mass mortality of oak trees. A GM in the conifer plantation was generated by a dead oak stem that remained in the plantation.</p>
+      </caption>
+      <graphic xlink:href="bdj-05-e11732-g001.png" position="float" id="oo_116903.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/116903</uri>
+      </graphic>
+    </fig>
+    <fig id="F3582372" position="float" orientation="portrait">
+      <object-id content-type="arpha">55BD6B63-9F49-5335-AE5E-5D404EF43454</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>Changes in dominance of major species. A: stem density, and B: basal area.</p>
+      </caption>
+      <graphic xlink:href="bdj-05-e11732-g002.png" position="float" id="oo_124287.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/124287</uri>
+      </graphic>
+    </fig>
+    <table-wrap id="T3528140" position="float" orientation="portrait">
+      <label>Table 1.</label>
+      <caption>
+        <p>Changes in number of stems and basal area for each species in the canopy and sub-canopy layer.</p>
+      </caption>
+      <table rules="all" border="0">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">Species</td>
+            <td rowspan="1" colspan="1">D1993</td>
+            <td rowspan="1" colspan="1">D2014</td>
+            <td rowspan="1" colspan="1">B1993</td>
+            <td rowspan="1" colspan="1">B2014</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Chamaecyparis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">obtusa</tp:taxon-name-part></tp:taxon-name></italic> (Siebold &amp; Zucc.) Endl.</td>
+            <td rowspan="1" colspan="1">375.2</td>
+            <td rowspan="1" colspan="1">218.1</td>
+            <td rowspan="1" colspan="1">8.5E+00</td>
+            <td rowspan="1" colspan="1">1.2E+01</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Quercus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">glauca</tp:taxon-name-part></tp:taxon-name></italic> Thunb.</td>
+            <td rowspan="1" colspan="1">412.4</td>
+            <td rowspan="1" colspan="1">515.2</td>
+            <td rowspan="1" colspan="1">2.5E+00</td>
+            <td rowspan="1" colspan="1">4.7E+00</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Symplocos</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">prunifolia</tp:taxon-name-part></tp:taxon-name></italic> Siebold &amp; Zucc.</td>
+            <td rowspan="1" colspan="1">491.4</td>
+            <td rowspan="1" colspan="1">261.9</td>
+            <td rowspan="1" colspan="1">4.8E+00</td>
+            <td rowspan="1" colspan="1">3.7E+00</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Cryptomeria</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">japonica</tp:taxon-name-part></tp:taxon-name></italic> (L.f.) D.Don</td>
+            <td rowspan="1" colspan="1">81.9</td>
+            <td rowspan="1" colspan="1">61.9</td>
+            <td rowspan="1" colspan="1">2.3E+00</td>
+            <td rowspan="1" colspan="1">3.2E+00</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Ilex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">macropoda</tp:taxon-name-part></tp:taxon-name></italic> Miq.</td>
+            <td rowspan="1" colspan="1">138.1</td>
+            <td rowspan="1" colspan="1">103.8</td>
+            <td rowspan="1" colspan="1">3.0E+00</td>
+            <td rowspan="1" colspan="1">3.1E+00</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Ilex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">pedunculosa</tp:taxon-name-part></tp:taxon-name></italic> Miq.</td>
+            <td rowspan="1" colspan="1">193.3</td>
+            <td rowspan="1" colspan="1">141.0</td>
+            <td rowspan="1" colspan="1">2.9E+00</td>
+            <td rowspan="1" colspan="1">2.3E+00</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Gamblea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">innovans</tp:taxon-name-part></tp:taxon-name></italic> (Siebold &amp; Zucc.) C.B.Shang, Lowry &amp; Frodin</td>
+            <td rowspan="1" colspan="1">361.0</td>
+            <td rowspan="1" colspan="1">81.9</td>
+            <td rowspan="1" colspan="1">3.0E+00</td>
+            <td rowspan="1" colspan="1">1.5E+00</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Quercus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">serrata</tp:taxon-name-part></tp:taxon-name></italic> Murray</td>
+            <td rowspan="1" colspan="1">37.1</td>
+            <td rowspan="1" colspan="1">14.3</td>
+            <td rowspan="1" colspan="1">2.8E+00</td>
+            <td rowspan="1" colspan="1">1.5E+00</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Chengiopanax</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">sciadophylloides</tp:taxon-name-part></tp:taxon-name></italic> (Franch. &amp; Sav.) C.B.Shang et J.Y.Huang</td>
+            <td rowspan="1" colspan="1">78.1</td>
+            <td rowspan="1" colspan="1">20.0</td>
+            <td rowspan="1" colspan="1">1.5E+00</td>
+            <td rowspan="1" colspan="1">8.1E-01</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Cleyera</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">japonica</tp:taxon-name-part></tp:taxon-name></italic> Thunb.</td>
+            <td rowspan="1" colspan="1">70.5</td>
+            <td rowspan="1" colspan="1">386.7</td>
+            <td rowspan="1" colspan="1">8.7E-02</td>
+            <td rowspan="1" colspan="1">8.1E-01</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Carpinus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">laxiflora</tp:taxon-name-part></tp:taxon-name></italic> (Siebold &amp; Zucc.) Blume</td>
+            <td rowspan="1" colspan="1">29.5</td>
+            <td rowspan="1" colspan="1">18.1</td>
+            <td rowspan="1" colspan="1">7.6E-01</td>
+            <td rowspan="1" colspan="1">7.8E-01</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Cerasus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">jamasakura</tp:taxon-name-part></tp:taxon-name></italic> (Siebold ex Koidz.) H.Ohba</td>
+            <td rowspan="1" colspan="1">12.4</td>
+            <td rowspan="1" colspan="1">6.7</td>
+            <td rowspan="1" colspan="1">3.4E-01</td>
+            <td rowspan="1" colspan="1">6.3E-01</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Photinia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">glabra</tp:taxon-name-part></tp:taxon-name></italic> (Thunb.) Maxim.</td>
+            <td rowspan="1" colspan="1">79.0</td>
+            <td rowspan="1" colspan="1">85.7</td>
+            <td rowspan="1" colspan="1">4.1E-01</td>
+            <td rowspan="1" colspan="1">5.3E-01</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Carpinus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">tschonoskii</tp:taxon-name-part></tp:taxon-name></italic> Maxim.</td>
+            <td rowspan="1" colspan="1">8.6</td>
+            <td rowspan="1" colspan="1">5.7</td>
+            <td rowspan="1" colspan="1">3.7E-01</td>
+            <td rowspan="1" colspan="1">5.1E-01</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Wisteria</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">floribunda</tp:taxon-name-part></tp:taxon-name></italic> (Willd.) DC.</td>
+            <td rowspan="1" colspan="1">119.0</td>
+            <td rowspan="1" colspan="1">90.5</td>
+            <td rowspan="1" colspan="1">3.3E-01</td>
+            <td rowspan="1" colspan="1">4.9E-01</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Padus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">grayana</tp:taxon-name-part></tp:taxon-name></italic> (Maxim.) C.K.Schneid.</td>
+            <td rowspan="1" colspan="1">17.1</td>
+            <td rowspan="1" colspan="1">10.5</td>
+            <td rowspan="1" colspan="1">2.6E-01</td>
+            <td rowspan="1" colspan="1">3.9E-01</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Abies</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">firma</tp:taxon-name-part></tp:taxon-name></italic> Siebold &amp; Zucc.</td>
+            <td rowspan="1" colspan="1">3.8</td>
+            <td rowspan="1" colspan="1">2.9</td>
+            <td rowspan="1" colspan="1">1.8E-01</td>
+            <td rowspan="1" colspan="1">3.4E-01</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="genus">Eurya</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="species">japonica</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="authority">Thunb.</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">var.</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="variety">japonica</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">112.4</td>
+            <td rowspan="1" colspan="1">246.7</td>
+            <td rowspan="1" colspan="1">1.2E-01</td>
+            <td rowspan="1" colspan="1">3.3E-01</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Lyonia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">ovalifolia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="basionym-authority">(Wall.)</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="authority">Drude</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">var.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="variety">elliptica</tp:taxon-name-part></tp:taxon-name> (Siebold &amp; Zucc.) Hand.-Mazz.</td>
+            <td rowspan="1" colspan="1">61.9</td>
+            <td rowspan="1" colspan="1">19.0</td>
+            <td rowspan="1" colspan="1">3.9E-01</td>
+            <td rowspan="1" colspan="1">2.3E-01</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Albizia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">julibrissin</tp:taxon-name-part></tp:taxon-name></italic> Durazz.</td>
+            <td rowspan="1" colspan="1">13.3</td>
+            <td rowspan="1" colspan="1">1.9</td>
+            <td rowspan="1" colspan="1">4.1E-01</td>
+            <td rowspan="1" colspan="1">2.2E-01</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Aria</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">japonica</tp:taxon-name-part></tp:taxon-name></italic> Decne.</td>
+            <td rowspan="1" colspan="1">1.0</td>
+            <td rowspan="1" colspan="1">1.0</td>
+            <td rowspan="1" colspan="1">1.2E-01</td>
+            <td rowspan="1" colspan="1">1.6E-01</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Acer</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">palmatum</tp:taxon-name-part></tp:taxon-name></italic> Thunb.</td>
+            <td rowspan="1" colspan="1">2.9</td>
+            <td rowspan="1" colspan="1">6.7</td>
+            <td rowspan="1" colspan="1">1.2E-01</td>
+            <td rowspan="1" colspan="1">1.5E-01</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Ilex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">chinensis</tp:taxon-name-part></tp:taxon-name></italic> Sims</td>
+            <td rowspan="1" colspan="1">1.9</td>
+            <td rowspan="1" colspan="1">1.9</td>
+            <td rowspan="1" colspan="1">2.2E-01</td>
+            <td rowspan="1" colspan="1">1.4E-01</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Fraxinus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">sieboldiana</tp:taxon-name-part></tp:taxon-name></italic> Blume</td>
+            <td rowspan="1" colspan="1">22.9</td>
+            <td rowspan="1" colspan="1">10.5</td>
+            <td rowspan="1" colspan="1">2.0E-01</td>
+            <td rowspan="1" colspan="1">1.3E-01</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Mallotus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">japonicus</tp:taxon-name-part></tp:taxon-name></italic> (L.f.) Müll.Arg.</td>
+            <td rowspan="1" colspan="1">4.8</td>
+            <td rowspan="1" colspan="1">1.9</td>
+            <td rowspan="1" colspan="1">1.5E-01</td>
+            <td rowspan="1" colspan="1">1.3E-01</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Camellia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">japonica</tp:taxon-name-part></tp:taxon-name></italic> L.</td>
+            <td rowspan="1" colspan="1">25.7</td>
+            <td rowspan="1" colspan="1">27.6</td>
+            <td rowspan="1" colspan="1">5.6E-02</td>
+            <td rowspan="1" colspan="1">1.2E-01</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Styrax</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">japonica</tp:taxon-name-part></tp:taxon-name></italic> Siebold &amp; Zucc.</td>
+            <td rowspan="1" colspan="1">35.2</td>
+            <td rowspan="1" colspan="1">9.5</td>
+            <td rowspan="1" colspan="1">3.0E-01</td>
+            <td rowspan="1" colspan="1">1.2E-01</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Clethra</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">barbinervis</tp:taxon-name-part></tp:taxon-name></italic> Siebold &amp; Zucc.</td>
+            <td rowspan="1" colspan="1">22.9</td>
+            <td rowspan="1" colspan="1">10.5</td>
+            <td rowspan="1" colspan="1">2.5E-01</td>
+            <td rowspan="1" colspan="1">1.0E-01</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Dendropanax</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">trifidus</tp:taxon-name-part></tp:taxon-name></italic> (Thunb.) Makino ex H.Hara</td>
+            <td rowspan="1" colspan="1">4.8</td>
+            <td rowspan="1" colspan="1">4.8</td>
+            <td rowspan="1" colspan="1">8.8E-02</td>
+            <td rowspan="1" colspan="1">9.9E-02</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Cinnamomum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">camphora</tp:taxon-name-part></tp:taxon-name></italic> (L.) J.Presl</td>
+            <td rowspan="1" colspan="1">1.0</td>
+            <td rowspan="1" colspan="1">3.8</td>
+            <td rowspan="1" colspan="1">7.8E-03</td>
+            <td rowspan="1" colspan="1">9.6E-02</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Ilex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">rotunda</tp:taxon-name-part></tp:taxon-name></italic> Thunb.</td>
+            <td rowspan="1" colspan="1">1.9</td>
+            <td rowspan="1" colspan="1">1.9</td>
+            <td rowspan="1" colspan="1">5.2E-02</td>
+            <td rowspan="1" colspan="1">8.8E-02</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Diospyros</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">kaki</tp:taxon-name-part></tp:taxon-name></italic> Thunb.</td>
+            <td rowspan="1" colspan="1">5.7</td>
+            <td rowspan="1" colspan="1">1.9</td>
+            <td rowspan="1" colspan="1">8.3E-02</td>
+            <td rowspan="1" colspan="1">8.2E-02</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Laurocerasus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">spinulosa</tp:taxon-name-part></tp:taxon-name></italic> (Siebold &amp; Zucc.) C.K.Schneid.</td>
+            <td rowspan="1" colspan="1">3.8</td>
+            <td rowspan="1" colspan="1">1.9</td>
+            <td rowspan="1" colspan="1">2.0E-01</td>
+            <td rowspan="1" colspan="1">8.0E-02</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Ligustrum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">japonicum</tp:taxon-name-part></tp:taxon-name></italic> Thunb.</td>
+            <td rowspan="1" colspan="1">15.2</td>
+            <td rowspan="1" colspan="1">17.1</td>
+            <td rowspan="1" colspan="1">3.3E-02</td>
+            <td rowspan="1" colspan="1">6.4E-02</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Idesia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polycarpa</tp:taxon-name-part></tp:taxon-name></italic> Maxim.</td>
+            <td rowspan="1" colspan="1">1.9</td>
+            <td rowspan="1" colspan="1">1.0</td>
+            <td rowspan="1" colspan="1">2.2E-02</td>
+            <td rowspan="1" colspan="1">6.3E-02</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Alnus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">sieboldiana</tp:taxon-name-part></tp:taxon-name></italic> Matsum.</td>
+            <td rowspan="1" colspan="1">2.9</td>
+            <td rowspan="1" colspan="1">1.0</td>
+            <td rowspan="1" colspan="1">1.9E-01</td>
+            <td rowspan="1" colspan="1">6.2E-02</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Zanthoxylum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">ailanthoides</tp:taxon-name-part></tp:taxon-name></italic> Siebold &amp; Zucc.</td>
+            <td rowspan="1" colspan="1">3.8</td>
+            <td rowspan="1" colspan="1">1.9</td>
+            <td rowspan="1" colspan="1">1.8E-01</td>
+            <td rowspan="1" colspan="1">4.8E-02</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Castanopsis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">cuspidata</tp:taxon-name-part></tp:taxon-name></italic> (Thunb.) Schottky</td>
+            <td rowspan="1" colspan="1">1.0</td>
+            <td rowspan="1" colspan="1">10.5</td>
+            <td rowspan="1" colspan="1">1.6E-02</td>
+            <td rowspan="1" colspan="1">4.7E-02</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Vaccinium</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">bracteatum</tp:taxon-name-part></tp:taxon-name></italic> Thunb.</td>
+            <td rowspan="1" colspan="1">17.1</td>
+            <td rowspan="1" colspan="1">4.8</td>
+            <td rowspan="1" colspan="1">3.6E-02</td>
+            <td rowspan="1" colspan="1">3.9E-02</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Euscaphis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">japonica</tp:taxon-name-part></tp:taxon-name></italic> (Thunb.) Kanitz</td>
+            <td rowspan="1" colspan="1">6.7</td>
+            <td rowspan="1" colspan="1">1.0</td>
+            <td rowspan="1" colspan="1">8.0E-03</td>
+            <td rowspan="1" colspan="1">2.5E-02</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Toxicodendron</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">sylvestre</tp:taxon-name-part></tp:taxon-name></italic> (Siebold &amp; Zucc.) Kuntze</td>
+            <td rowspan="1" colspan="1">2.9</td>
+            <td rowspan="1" colspan="1">1.0</td>
+            <td rowspan="1" colspan="1">3.4E-02</td>
+            <td rowspan="1" colspan="1">1.1E-02</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Magnolia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">compressa</tp:taxon-name-part></tp:taxon-name></italic> Maxim.</td>
+            <td rowspan="1" colspan="1">0.0</td>
+            <td rowspan="1" colspan="1">1.0</td>
+            <td rowspan="1" colspan="1">0.0E+00</td>
+            <td rowspan="1" colspan="1">3.7E-03</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Rhododendron</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">reticulatum</tp:taxon-name-part></tp:taxon-name></italic> D.Don ex G.Don</td>
+            <td rowspan="1" colspan="1">9.5</td>
+            <td rowspan="1" colspan="1">3.8</td>
+            <td rowspan="1" colspan="1">9.2E-03</td>
+            <td rowspan="1" colspan="1">3.6E-03</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Osmanthus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">heterophyllus</tp:taxon-name-part></tp:taxon-name></italic> (G.Don) P.S.Green</td>
+            <td rowspan="1" colspan="1">3.8</td>
+            <td rowspan="1" colspan="1">2.9</td>
+            <td rowspan="1" colspan="1">4.9E-03</td>
+            <td rowspan="1" colspan="1">3.5E-03</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Pieris</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">japonica</tp:taxon-name-part></tp:taxon-name></italic> (Thunb.) D.Don ex G.Don</td>
+            <td rowspan="1" colspan="1">5.7</td>
+            <td rowspan="1" colspan="1">1.0</td>
+            <td rowspan="1" colspan="1">1.1E-02</td>
+            <td rowspan="1" colspan="1">3.2E-03</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Symplocos</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">sawafutagi</tp:taxon-name-part></tp:taxon-name></italic> Nagam.</td>
+            <td rowspan="1" colspan="1">1.9</td>
+            <td rowspan="1" colspan="1">2.9</td>
+            <td rowspan="1" colspan="1">1.6E-03</td>
+            <td rowspan="1" colspan="1">3.2E-03</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="genus">Pourthiaea</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="species">villosa</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="basionym-authority">(Thunb.)</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="authority">Decne.</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">var.</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="variety">villosa</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">1.0</td>
+            <td rowspan="1" colspan="1">1.0</td>
+            <td rowspan="1" colspan="1">8.6E-04</td>
+            <td rowspan="1" colspan="1">2.5E-03</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Triadica</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">sebifera</tp:taxon-name-part></tp:taxon-name></italic> (L.) Small</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">1.0</td>
+            <td rowspan="1" colspan="1">0.0E+00</td>
+            <td rowspan="1" colspan="1">2.2E-03</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Acer</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">crataegifolium</tp:taxon-name-part></tp:taxon-name></italic> Siebold &amp; Zucc.</td>
+            <td rowspan="1" colspan="1">1.9</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">3.9E-03</td>
+            <td rowspan="1" colspan="1">0.0E+00</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Alnus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">firma</tp:taxon-name-part></tp:taxon-name></italic> Siebold &amp; Zucc.</td>
+            <td rowspan="1" colspan="1">1.0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">2.3E-03</td>
+            <td rowspan="1" colspan="1">0.0E+00</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Amelanchier</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">asiatica</tp:taxon-name-part></tp:taxon-name></italic> (Siebold &amp; Zucc.) Endl. ex Walp.</td>
+            <td rowspan="1" colspan="1">2.9</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">1.1E-02</td>
+            <td rowspan="1" colspan="1">0.0E+00</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="genus">Aucuba</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="species">japonica</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="authority">Thunb.</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">var.</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="variety">japonica</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">1.0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">9.7E-04</td>
+            <td rowspan="1" colspan="1">0.0E+00</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Castanea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">crenata</tp:taxon-name-part></tp:taxon-name></italic> Siebold &amp; Zucc.</td>
+            <td rowspan="1" colspan="1">1.9</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">3.0E-02</td>
+            <td rowspan="1" colspan="1">0.0E+00</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Cinnamomum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">yabunikkei</tp:taxon-name-part></tp:taxon-name></italic> H.Ohba</td>
+            <td rowspan="1" colspan="1">1.0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">1.7E-03</td>
+            <td rowspan="1" colspan="1">0.0E+00</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Elaeagnus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">glabra</tp:taxon-name-part></tp:taxon-name></italic> Thunb.</td>
+            <td rowspan="1" colspan="1">1.0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">2.3E-03</td>
+            <td rowspan="1" colspan="1">0.0E+00</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Ilex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">crenata</tp:taxon-name-part></tp:taxon-name></italic> Thunb.</td>
+            <td rowspan="1" colspan="1">1.0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">8.6E-04</td>
+            <td rowspan="1" colspan="1">0.0E+00</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Ilex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">micrococca</tp:taxon-name-part></tp:taxon-name></italic> Maxim.</td>
+            <td rowspan="1" colspan="1">1.0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">1.3E-01</td>
+            <td rowspan="1" colspan="1">0.0E+00</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Pinus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">densiflora</tp:taxon-name-part></tp:taxon-name></italic> Siebold &amp; Zucc.</td>
+            <td rowspan="1" colspan="1">20.0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">1.5E+00</td>
+            <td rowspan="1" colspan="1">0.0E+00</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Quercus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">acutissima</tp:taxon-name-part></tp:taxon-name></italic> Carruth.</td>
+            <td rowspan="1" colspan="1">1.0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">1.7E-03</td>
+            <td rowspan="1" colspan="1">0.0E+00</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Toxicodendron</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">trichocarpum</tp:taxon-name-part></tp:taxon-name></italic> (Miq.) Kuntze</td>
+            <td rowspan="1" colspan="1">23.8</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">5.8E-02</td>
+            <td rowspan="1" colspan="1">0.0E+00</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Total</td>
+            <td rowspan="1" colspan="1">2961.4</td>
+            <td rowspan="1" colspan="1">2428.3</td>
+            <td rowspan="1" colspan="1">3.91E+01</td>
+            <td rowspan="1" colspan="1">3.99E+01</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T3528141" position="float" orientation="portrait">
+      <label>Table 2.</label>
+      <caption>
+        <p>Changes in number of quadrats where each species was found (out of 420 quadrats) in the understory layer.</p>
+      </caption>
+      <table rules="all" border="0">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">Species</td>
+            <td rowspan="1" colspan="1">1992</td>
+            <td rowspan="1" colspan="1">2014</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Quercus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">glauca</tp:taxon-name-part></tp:taxon-name></italic> Thunb.</td>
+            <td rowspan="1" colspan="1">361</td>
+            <td rowspan="1" colspan="1">392</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="genus">Eurya</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="species">japonica</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="authority">Thunb.</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">var.</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="variety">japonica</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">362</td>
+            <td rowspan="1" colspan="1">304</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Symplocos</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">prunifolia</tp:taxon-name-part></tp:taxon-name></italic> Siebold &amp; Zucc.</td>
+            <td rowspan="1" colspan="1">75</td>
+            <td rowspan="1" colspan="1">274</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Cryptomeria</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">japonica</tp:taxon-name-part></tp:taxon-name></italic> (L.f.) D.Don</td>
+            <td rowspan="1" colspan="1">190</td>
+            <td rowspan="1" colspan="1">163</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Photinia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">glabra</tp:taxon-name-part></tp:taxon-name></italic> (Thunb.) Maxim.</td>
+            <td rowspan="1" colspan="1">168</td>
+            <td rowspan="1" colspan="1">114</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Cryptomeria</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">japonica</tp:taxon-name-part></tp:taxon-name></italic> (L.f.) D.Don</td>
+            <td rowspan="1" colspan="1">26</td>
+            <td rowspan="1" colspan="1">79</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Ilex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">pedunculosa</tp:taxon-name-part></tp:taxon-name></italic> Miq.</td>
+            <td rowspan="1" colspan="1">36</td>
+            <td rowspan="1" colspan="1">72</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Carpinus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">laxiflora</tp:taxon-name-part></tp:taxon-name></italic> (Siebold &amp; Zucc.) Blume</td>
+            <td rowspan="1" colspan="1">15</td>
+            <td rowspan="1" colspan="1">58</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Chamaecyparis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">obtusa</tp:taxon-name-part></tp:taxon-name></italic> (Siebold &amp; Zucc.) Endl.</td>
+            <td rowspan="1" colspan="1">13</td>
+            <td rowspan="1" colspan="1">58</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Styrax</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">japonica</tp:taxon-name-part></tp:taxon-name></italic> Siebold et Zucc.</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">53</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Camellia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">japonica</tp:taxon-name-part></tp:taxon-name></italic> L.</td>
+            <td rowspan="1" colspan="1">64</td>
+            <td rowspan="1" colspan="1">51</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Mallotus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">japonicus</tp:taxon-name-part></tp:taxon-name></italic> (L.f.) Müll.Arg.</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">46</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Ilex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">macropoda</tp:taxon-name-part></tp:taxon-name></italic> Miq.</td>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1">45</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Cleyera</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">japonica</tp:taxon-name-part></tp:taxon-name></italic> Thunb.</td>
+            <td rowspan="1" colspan="1">7</td>
+            <td rowspan="1" colspan="1">44</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Celtis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">sinensis</tp:taxon-name-part></tp:taxon-name></italic> Pers.</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">40</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Zanthoxylum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">ailanthoides</tp:taxon-name-part></tp:taxon-name></italic> Siebold &amp; Zucc.</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">37</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Osmanthus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">heterophyllus</tp:taxon-name-part></tp:taxon-name></italic> (G.Don) P.S.Green</td>
+            <td rowspan="1" colspan="1">26</td>
+            <td rowspan="1" colspan="1">35</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Carpinus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">tschonoskii</tp:taxon-name-part></tp:taxon-name></italic> Maxim.</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">29</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Fraxinus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">sieboldiana</tp:taxon-name-part></tp:taxon-name></italic> Blume</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">28</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Callicarpa</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">mollis</tp:taxon-name-part></tp:taxon-name></italic> Siebold &amp; Zucc.</td>
+            <td rowspan="1" colspan="1">13</td>
+            <td rowspan="1" colspan="1">25</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Castanopsis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">cuspidata</tp:taxon-name-part></tp:taxon-name></italic> (Thunb.) Schottky</td>
+            <td rowspan="1" colspan="1">19</td>
+            <td rowspan="1" colspan="1">22</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Ilex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">micrococca</tp:taxon-name-part></tp:taxon-name></italic> Maxim.</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">22</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Zelkova</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">serrata</tp:taxon-name-part></tp:taxon-name></italic> (Thunb.) Makino</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">20</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Gamblea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">innovans</tp:taxon-name-part></tp:taxon-name></italic> (Siebold &amp; Zucc.) C.B.Shang, Lowry &amp; Frodin</td>
+            <td rowspan="1" colspan="1">24</td>
+            <td rowspan="1" colspan="1">18</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Aphananthe</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">aspera</tp:taxon-name-part></tp:taxon-name></italic> (Thunb.) Planch.</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">18</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Pinus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">densiflora</tp:taxon-name-part></tp:taxon-name></italic> Siebold &amp; Zucc.</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">17</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Cinnamomum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">yabunikkei</tp:taxon-name-part></tp:taxon-name></italic> H.Ohba</td>
+            <td rowspan="1" colspan="1">26</td>
+            <td rowspan="1" colspan="1">16</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Quercus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">serrata</tp:taxon-name-part></tp:taxon-name></italic> Murray</td>
+            <td rowspan="1" colspan="1">14</td>
+            <td rowspan="1" colspan="1">16</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Ilex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">crenata</tp:taxon-name-part></tp:taxon-name></italic> Thunb.</td>
+            <td rowspan="1" colspan="1">143</td>
+            <td rowspan="1" colspan="1">15</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Abelia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">serrata</tp:taxon-name-part></tp:taxon-name></italic> Siebold &amp; Zucc.</td>
+            <td rowspan="1" colspan="1">17</td>
+            <td rowspan="1" colspan="1">15</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Acer</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">palmatum</tp:taxon-name-part></tp:taxon-name></italic> Thunb.</td>
+            <td rowspan="1" colspan="1">9</td>
+            <td rowspan="1" colspan="1">15</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Chengiopanax</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">sciadophylloides</tp:taxon-name-part></tp:taxon-name></italic> (Franch. &amp; Sav.) C.B.Shang &amp; J.Y.Huang</td>
+            <td rowspan="1" colspan="1">13</td>
+            <td rowspan="1" colspan="1">14</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Triadica</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">sebifera</tp:taxon-name-part></tp:taxon-name></italic> (L.) Small</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">14</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Ligustrum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">japonicum</tp:taxon-name-part></tp:taxon-name></italic> Thunb.</td>
+            <td rowspan="1" colspan="1">68</td>
+            <td rowspan="1" colspan="1">13</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Aria</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">japonica</tp:taxon-name-part></tp:taxon-name></italic> Decne.</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">12</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Idesia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polycarpa</tp:taxon-name-part></tp:taxon-name></italic> Maxim.</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">12</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Rubus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">microphyllus</tp:taxon-name-part></tp:taxon-name></italic> L.f.</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">11</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Laurocerasus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">spinulosa</tp:taxon-name-part></tp:taxon-name></italic> (Siebold &amp; Zucc.) C.K.Schneid.</td>
+            <td rowspan="1" colspan="1">20</td>
+            <td rowspan="1" colspan="1">10</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Pieris</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">japonica</tp:taxon-name-part></tp:taxon-name></italic> (Thunb.) D.Don ex G.Don</td>
+            <td rowspan="1" colspan="1">12</td>
+            <td rowspan="1" colspan="1">10</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Rhododendron</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">reticulatum</tp:taxon-name-part></tp:taxon-name></italic> D.Don ex G.Don</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">7</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Albizia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">julibrissin</tp:taxon-name-part></tp:taxon-name></italic> Durazz.</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">7</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Cinnamomum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">camphora</tp:taxon-name-part></tp:taxon-name></italic> (L.) J.Presl</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">7</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Rhododendron</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">macrosepalum</tp:taxon-name-part></tp:taxon-name></italic> Maxim.</td>
+            <td rowspan="1" colspan="1">26</td>
+            <td rowspan="1" colspan="1">6</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Cornus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">macrophylla</tp:taxon-name-part></tp:taxon-name></italic> Wall.</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">6</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="genus">Aucuba</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="species">japonica</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="authority">Thunb.</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">var.</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="variety">japonica</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">211</td>
+            <td rowspan="1" colspan="1">5</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Vaccinium</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">bracteatum</tp:taxon-name-part></tp:taxon-name></italic> Thunb.</td>
+            <td rowspan="1" colspan="1">61</td>
+            <td rowspan="1" colspan="1">5</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Toxicodendron</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">trichocarpum</tp:taxon-name-part></tp:taxon-name></italic> (Miq.) Kuntze</td>
+            <td rowspan="1" colspan="1">42</td>
+            <td rowspan="1" colspan="1">5</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Lyonia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">ovalifolia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="basionym-authority">(Wall.)</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="authority">Drude</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">var.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="variety">elliptica</tp:taxon-name-part></tp:taxon-name> (Siebold &amp; Zucc.) Hand.-Mazz.</td>
+            <td rowspan="1" colspan="1">20</td>
+            <td rowspan="1" colspan="1">5</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Abies</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">firma</tp:taxon-name-part></tp:taxon-name></italic> Siebold &amp; Zucc.</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">5</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Symplocos</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">sawafutagi</tp:taxon-name-part></tp:taxon-name></italic> Nagam.</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">5</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Ardisia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">crenata</tp:taxon-name-part></tp:taxon-name></italic> Sims</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">4</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Rubus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">buergeri</tp:taxon-name-part></tp:taxon-name></italic> Miq.</td>
+            <td rowspan="1" colspan="1">64</td>
+            <td rowspan="1" colspan="1">3</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Lindera</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">umbellata</tp:taxon-name-part></tp:taxon-name></italic> Thunb.</td>
+            <td rowspan="1" colspan="1">39</td>
+            <td rowspan="1" colspan="1">3</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Elaeagnus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">pungens</tp:taxon-name-part></tp:taxon-name></italic> Thunb.</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">3</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="genus">Rubus</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="species">palmatus</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="authority">Thunb.</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">var.</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="variety">palmatus</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">3</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Rubus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">phoenicolasius</tp:taxon-name-part></tp:taxon-name></italic> Maxim.</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">3</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Acer</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">crataegifolium</tp:taxon-name-part></tp:taxon-name></italic> Siebold &amp; Zucc.</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Padus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">grayana</tp:taxon-name-part></tp:taxon-name></italic> (Maxim.) C.K.Schneid.</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="genus">Damnacanthus</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="species">indicus</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="authority">C.F.Gaertn.</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">var.</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="variety">indicus</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Aralia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">elata</tp:taxon-name-part></tp:taxon-name></italic> (Miq.) Seem.</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Cerasus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">jamasakura</tp:taxon-name-part></tp:taxon-name></italic> (Siebold ex Koidz.) H.Ohba</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Ilex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">chinensis</tp:taxon-name-part></tp:taxon-name></italic> Sims</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Rosa</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">multiflora</tp:taxon-name-part></tp:taxon-name></italic> Thunb.</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Rubus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">hirsutus</tp:taxon-name-part></tp:taxon-name></italic> Thunb.</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Unidentified</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Vaccinium</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">hirtum</tp:taxon-name-part></tp:taxon-name></italic> Thunb.</td>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Vaccinium</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">smallii</tp:taxon-name-part></tp:taxon-name></italic> A.Gray</td>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Castanea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">crenata</tp:taxon-name-part></tp:taxon-name></italic> Siebold &amp; Zucc.</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Clerodendrum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">trichotomum</tp:taxon-name-part></tp:taxon-name></italic> Thunb.</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Illicium</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">anisatum</tp:taxon-name-part></tp:taxon-name></italic> L.</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Broussonetia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">monoica</tp:taxon-name-part></tp:taxon-name></italic> Hance</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Epigaea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">asiatica</tp:taxon-name-part></tp:taxon-name></italic> Maxim.</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Ilex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">integra</tp:taxon-name-part></tp:taxon-name></italic> Thunb.</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Zanthoxylum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">piperitum</tp:taxon-name-part></tp:taxon-name></italic> (L.) DC.</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Viburnum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">erosum</tp:taxon-name-part></tp:taxon-name></italic> Thunb.</td>
+            <td rowspan="1" colspan="1">11</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Ardisia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">japonica</tp:taxon-name-part></tp:taxon-name></italic> (Thunb.) Blume</td>
+            <td rowspan="1" colspan="1">10</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Trachycarpus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">fortunei</tp:taxon-name-part></tp:taxon-name></italic> (Hook.) H.Wendl.</td>
+            <td rowspan="1" colspan="1">7</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Euscaphis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">japonica</tp:taxon-name-part></tp:taxon-name></italic> (Thunb.) Kanitz</td>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="genus">Rhododendron</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="species">kaempferi</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="authority">Planch.</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">var.</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="variety">kaempferi</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Dendropanax</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">trifidus</tp:taxon-name-part></tp:taxon-name></italic> (Thunb.) Makino ex H.Hara</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Neolitsea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">sericea</tp:taxon-name-part></tp:taxon-name></italic> (Blume) Koidz.</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Camellia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">sinensis</tp:taxon-name-part></tp:taxon-name></italic> (L.) Kuntze</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Carpinus</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Diospyros</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">kaki</tp:taxon-name-part></tp:taxon-name></italic> Thunb.</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Neolitsea</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="genus">Pourthiaea</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="species">villosa</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="basionym-authority">(Thunb.)</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="authority">Decne.</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">var.</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="variety">villosa</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="genus">Cephalotaxus</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="species">harringtonia</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="basionym-authority">(Knight ex Forbes)</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="authority">K.Koch</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">var.</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="variety">harringtonia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Elaeagnus</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Fatsia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">japonica</tp:taxon-name-part></tp:taxon-name></italic> (Thunb.) Decne. &amp; Planch.</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Quercus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">acutissima</tp:taxon-name-part></tp:taxon-name></italic> Carruth.</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Symplocos</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">lancifolia</tp:taxon-name-part></tp:taxon-name></italic> Siebold &amp; Zucc.</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Vaccinium</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">japonicum</tp:taxon-name-part></tp:taxon-name></italic> Miq.</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Vaccinium</tp:taxon-name-part></tp:taxon-name> sp.</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+  </floats-group>
+</article>

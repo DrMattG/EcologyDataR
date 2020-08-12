@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="3.0" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.5.e14789</article-id>
+      <article-id pub-id-type="publisher-id">14789</article-id>
+      <article-id pub-id-type="manuscript">6332</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Animalia</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Biodiversity &amp; Conservation</subject>
+          <subject>Ecology &amp; Environmental sciences</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>Asia</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Specimen records of spiders (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Arachnida</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>) by monthly census for 3 years in forest areas of Yakushima Island, Japan</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes" xlink:type="simple">
+          <name name-style="western">
+            <surname>Osawa</surname>
+            <given-names>Takeshi</given-names>
+          </name>
+          <email xlink:type="simple">arosawa@gmail.com</email>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Baba</surname>
+            <given-names>Yuki G</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Suguro</surname>
+            <given-names>Tatsumi</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Naya</surname>
+            <given-names>Noriaki</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Yamauchi</surname>
+            <given-names>Takeo</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Institute for Agro-environmental Sciences, Tsukuba, Japan</addr-line>
+        <institution xlink:type="simple">Institute for Agro-environmental Sciences</institution>
+        <addr-line content-type="city">Tsukuba</addr-line>
+        <country>Japan</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">Keio Yochisha Elementary School, Tokyo, Japan</addr-line>
+        <institution xlink:type="simple">Keio Yochisha Elementary School</institution>
+        <addr-line content-type="city">Tokyo</addr-line>
+        <country>Japan</country>
+      </aff>
+      <aff id="A3">
+        <label>3</label>
+        <addr-line content-type="verbatim">Graduate School of Life and Environmental Sciences, University of Tsukuba, Tsukuba, Japan</addr-line>
+        <institution xlink:type="simple">Graduate School of Life and Environmental Sciences, University of Tsukuba</institution>
+        <addr-line content-type="city">Tsukuba</addr-line>
+        <country>Japan</country>
+      </aff>
+      <aff id="A4">
+        <label>4</label>
+        <addr-line content-type="verbatim">Museum of Nature and Human Activities, Hyogo, Sanda, Japan</addr-line>
+        <institution xlink:type="simple">Museum of Nature and Human Activities, Hyogo</institution>
+        <addr-line content-type="city">Sanda</addr-line>
+        <country>Japan</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Takeshi Osawa (<email xlink:type="simple">arosawa@gmail.com</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Robert Mesibov</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2017</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>25</day>
+        <month>07</month>
+        <year>2017</year>
+      </pub-date>
+      <volume>5</volume>
+      <elocation-id>e14789</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/1E0AFF81-934F-FFD0-FB65-FF9CFD52FFF3">1E0AFF81-934F-FFD0-FB65-FF9CFD52FFF3</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/1115616">1115616</uri>
+      <history>
+        <date date-type="received">
+          <day>29</day>
+          <month>06</month>
+          <year>2017</year>
+        </date>
+        <date date-type="accepted">
+          <day>18</day>
+          <month>07</month>
+          <year>2017</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Takeshi Osawa, Yuki G Baba, Tatsumi Suguro, Noriaki Naya, Takeo Yamauchi</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License 4.0 (CC-BY), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>Spiders (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Arachnida</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>) are a classic indicator taxon for evaluating the health of natural environments. However, studies of spiders’ responses to forest succession under natural and anthropogenic disturbance regimes are lacking. Yakushima Island in southwestern Japan has a unique forest ecosystem, and part of the island is designated as a world natural heritage site by UNESCO. Approximately 90% of Yakushima is covered by forest, including both plantations and natural forests.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>We made an inventory of spiders on Yakushima Island by collecting specimens in five forests (two plantations and three natural forests) with Malaise and window traps from 2006 to 2008 (a total of 637 traps). We collected 3487 specimens, representing 31 families and 165 species or morphotypes, including undescribed and unidentified species. All specimens were preserved in 70% ethanol, and all data were gathered into a Darwin Core Archives as sample event data. The data set is available from the GBIF network (<ext-link ext-link-type="uri" xlink:href="http://www.gbif.org/dataset/f851fd75-32b2-4a23-8046-9c8ae7013a3c" xlink:type="simple">http://www.gbif.org/dataset/f851fd75-32b2-4a23-8046-9c8ae7013a3c</ext-link>). Because there have been no spider inventories based on such a systematic trapping survey in Japan, this data set provides new insight into the biodiversity on Yakushima Island.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>Darwin Core Archive</kwd>
+        <kwd>GBIF</kwd>
+        <kwd>monitoring</kwd>
+        <kwd>sample event data</kwd>
+      </kwd-group>
+      <funding-group>
+        <funding-statement>The project was launched by the Research Institute for Humanity and Nature.</funding-statement>
+      </funding-group>
+      <counts>
+        <fig-count count="1"/>
+        <table-count count="0"/>
+        <ref-count count="15"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>Taxa that are suitable as ecological indicators are sensitive to environmental changes and therefore demonstrate negative effects of anthropogenic disturbance on the processes or functioning of an ecosystem (<xref ref-type="bibr" rid="B3665752">Pearce and Venier 2006</xref>). Although several animal taxa have been proposed as environmental indicators, both ground beetles and spiders are widely used as indicator taxa (<xref ref-type="bibr" rid="B3665692">Bedford and Usher 1994</xref>, <xref ref-type="bibr" rid="B3665752">Pearce and Venier 2006</xref>, <xref ref-type="bibr" rid="B3665702">Buchholz 2010</xref>, <xref ref-type="bibr" rid="B3665762">Tanaka and Ihara 2012</xref>, <xref ref-type="bibr" rid="B3665742">Osawa et al. 2014</xref>). Both taxa are economically and logistically feasible to survey, being sampled simultaneously in large numbers using passive sampling techniques (<xref ref-type="bibr" rid="B3665837">Thiele 1977</xref>, <xref ref-type="bibr" rid="B3665851">Wise 1995</xref>, <xref ref-type="bibr" rid="B3665752">Pearce and Venier 2006</xref>). Although many studies have used these taxa as indicators, some knowledge gaps remain. In particular, Peace and Venier (2006) advocated using these taxa as indicators in studies of responses to forest succession under natural and anthropogenic disturbance regimes in order to provide forest managers with better decision tools. Thus, establishing an inventory of these organisms in several types of forests is important for developing conservation and environmental management strategies.</p>
+      <p>Yakushima Island in southwestern Japan is home to a unique forest ecosystem in which a gradient of subtropical to subarctic vegetation remains along the elevational gradient (<xref ref-type="bibr" rid="B3665682">Agetsuma et al. 1994</xref>). Part of the island has been designated as a world natural heritage site by UNESCO because of the unique fauna, flora, and landscape (<ext-link ext-link-type="uri" xlink:href="http://whc.unesco.org/en/list/662" xlink:type="simple">http://whc.unesco.org/en/list/662</ext-link> accessed 14, July, 2017). Many endemic species are found on Yakushima Island, but we still lack basic information on the island’s fauna (<xref ref-type="bibr" rid="B3665804">Watanabe and T. Yamauchi 2014</xref>). About 90% of Yakushima Island’s 505 km<sup>2</sup> area is covered by forest, including natural rain forest and cedar plantations <xref ref-type="bibr" rid="B3665794">Tokumaru (2003)</xref>. In addition to UNESCO, both the Japanese government and the local Kagoshima government are involved in nature conservation efforts on Yakushima Island (<xref ref-type="bibr" rid="B3665732">Okano and Matsuda 2013</xref>, <xref ref-type="bibr" rid="B3665794">Tokumaru 2003</xref>), but these efforts require more knowledge, particularly regarding environmental indicator species.</p>
+      <p>We surveyed spider (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>) species from 2006 to 2008 to make an inventory of spiders across different types of forests on Yakushima Island. We conducted monthly censuses with two types of trap in both plantations and natural forests. The aim of this data paper is to share the inventory of spider species on Yakushima Island using the standard Darwin Core data format to increase its availability. This is the first inventory of spiders in Japan constructed by using a systematic sampling method and will provide important knowledge on the biodiversity of Yakushima Island.</p>
+    </sec>
+    <sec sec-type="Project description">
+      <title>Project description</title>
+      <sec sec-type="Title">
+        <title>Title</title>
+        <p>Sustainability and biodiversity assessment on forest utilization options</p>
+      </sec>
+      <sec sec-type="Study area description">
+        <title>Study area description</title>
+        <p>Yakushima Island is a granite island (ca. 505 km<sup>2</sup>) surrounded by sedimentary rocks and is located approximately 70 km south of Kyushu, Japan (Fig. <xref ref-type="fig" rid="F3712381">1</xref>). The island has precipitous terrain, including mountains approximately 2000 m in elevation, and about 90% of the island is covered by forest. On the plains, the average annual temperature is 19.1°C and the average annual precipitation exceeds 4000 mm, with 10,000 mm of precipitation in the mountainous areas. In 1993, UNESCO designated 21% of Yakushima as a world natural heritage site because of the unique fauna, flora, and landscape (<ext-link ext-link-type="uri" xlink:href="http://whc.unesco.org/en/list/662" xlink:type="simple">http://whc.unesco.org/en/list/662</ext-link> accessed at 15, July, 2017).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Study extent">
+        <title>Study extent</title>
+        <p>Fig. <xref ref-type="fig" rid="F3712381">1</xref></p>
+      </sec>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>Insect traps were set at five sites in three regions: old-growth evergreen forests (Aikodake and Han-yama) and neighboring 40-year-old Japanese cedar (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cryptomeria">Cryptomeria</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="japonica">japonica</tp:taxon-name-part></tp:taxon-name></italic>) plantation forests (Aikodake and Kankake) in the low mountainous region (150-250 m elevation), and an old-growth mixed forest (Arakawa) higher in the mountains (1200 m elevation) (Fig. <xref ref-type="fig" rid="F3712381">1</xref>). The old-growth evergreen forest and the Japanese cedar plantation in Aikodake are part of a continuous forest, and they are only 100 m away from each other.</p>
+        <p>A Townes-type Malaise trap and IBOY-type window trap were used for sampling spiders. These types of trap are suited to a monitoring program in forest habitat because they capture a wide range of spiders, excluding some ground-dwelling forms. The Malaise trap had openings with a height of 1.8 m and a length of 1.8 m on both sides, and the attached bottles contain a mixture of 70% ethanol and a small amount of ethylene glycol for fixation and preservation of samples. Three Malaise traps were set at each study site at intervals of about 20 m (15 in total). Malaise traps were set continuously from July 2006 to March 2008, and samples were collected about once every month. The IBOY window trap consists of crossed transparent acrylic collision boards on a yellow bucket with a diameter of 36 cm, in which 1.5 L of water containing 10 ml of neutral detergent and 10% acetic acid aqueous solution is placed. We hunged these window traps at a height of about 30 cm above the ground. The window traps were set for 3 days in the latter half of each month from July 2006 to February 2008. The samples collected by each trap were brought back to the laboratory, and spiders were identified and counted.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The census was conducted in three regions on Yakushima: Aikodake, with both natural (<named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">30.381°N, 130.627°E</named-content>) and cedar plantation forest (<named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">30.384°N, 130.627°E</named-content>); Kankake, with Japanese cedar plantation forest (<named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">30.381°N, 130.412°E</named-content>); Han-yama, with natural forest (<named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">30.364°N, 130.389°E</named-content>); and Arakawa, with natural forest (<named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">30.299°N, 130.556°E</named-content>) (Fig. <xref ref-type="fig" rid="F3712381">1</xref>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>In total, 3487 individuals belonging to 162 species, including morphotypes from 31 families, were collected during the censuses. Of these collections, two records have already been published as papers (<xref ref-type="bibr" rid="B3681473">Baba et al. 2016</xref>, <xref ref-type="bibr" rid="B3681483">Baba et al. 2015</xref>).</p>
+        <p>All specimens were identified by the authors according to <xref ref-type="bibr" rid="B3665785">Ono (2009)</xref> and scientific names were determined according to the World Spider Catalog <xref ref-type="bibr" rid="B3665814">Natural History Museum (2017)</xref>. If we could not obtain sufficient information for proper identification, we determined the order, family, and genus of each species on the basis of the relevant morphotypes. Thus, some records have only order, family, or genus rank for the taxonomic information. The species name genus and family sequence are arranged in alphabetical order.</p>
+        <p>Order: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name></p>
+        <p>Family: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Agelenidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Anyphaenidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Araneidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Atypidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Clubionidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Ctenidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Ctenizidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Dictynidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Eutichuridae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Gnaphosidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Leptonetidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Liphistiidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Lycosidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Miturgidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Mysmenidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Oonopidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Oxyopidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Philodromidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Phrurolithidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Pimoidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Pisauridae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Salticidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Segestriidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Sparassidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Tetragnathidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Theridiidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Theridiosomatidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Thomisidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Zodariidae</tp:taxon-name-part></tp:taxon-name>.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <sec sec-type="Notes">
+        <title>Notes</title>
+        <p>The term of this census was 3 years (2006–2008). The 2006 census was from July to December, with 227 events (traps) in total; in 2007 from January to December, with 351 events in total; and in 2008 from January to March, with 58 events in total. Each event has a term of 3 days to about 1 month.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Other</p>
+      </sec>
+      <sec sec-type="IP rights notes">
+        <title>IP rights notes</title>
+        <p>Creative Commons CC-BY 4.0</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>dwca-yakushimaspyder01-v1.1</p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="http://www.gbif.org/dataset/f851fd75-32b2-4a23-8046-9c8ae7013a3c" xlink:type="simple">http://www.gbif.org/dataset/f851fd75-32b2-4a23-8046-9c8ae7013a3c</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>1</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Specimen records of spiders (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Arachnida</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>) by monthly census for 3 years in forest areas of Yakushima Island, Japan</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Darwin Core Archive</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>1</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="http://osawa.nomaki.jp/dl/dwca-yakushimaspyder01-v1.1.zip" xlink:type="simple">http://osawa.nomaki.jp/dl/dwca-yakushimaspyder01-v1.1.zip</ext-link>
+            <ext-link ext-link-type="uri" xlink:href="http://www.gbif.org/dataset/f851fd75-32b2-4a23-8046-9c8ae7013a3c" xlink:type="simple">http://www.gbif.org/dataset/f851fd75-32b2-4a23-8046-9c8ae7013a3c</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>The data sets are stored on the website of the corresponding author and have been uploaded to the JBIF (GBIF Japan) portal.</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">darwin core event</td>
+                  <td rowspan="1" colspan="1">darwin core event</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>We sincerely thank Dr. Shin-ichiro Aiba (Kagoshima University), Dr. Ryo Tsujino (Nara University of Education), and Dr. Takakazu Yumoto (Kyoto University) for setting traps, and we thank Mr. Kenji Tezuka, Mrs. Tatsuko Tezuka, and Mr. Toshihiro Saito for collecting samples from the traps. This study was partly supported by the research project “Sustainability and biodiversity assessment on forest utilization options” launched by the Research Institute for Humanity and Nature.</p>
+    </ack>
+    <notes>
+      <sec sec-type="Author contributions">
+        <title>Author contributions</title>
+        <p>A. Dataset owner, identification and contact person - Name: Yuki Baba</p>
+        <p>B. Data management and release on GBIF network - Name: Takeshi Osawa</p>
+        <p>C. Data collection and identification - Name: Takeo Yamauchi</p>
+        <p>D. Identification and data cleaning - Names: Tatsumi Suguro, Noriaki Naya</p>
+      </sec>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B3665682">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Agetsuma</surname>
+              <given-names>Naoki</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sugiura</surname>
+              <given-names>Hideki</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tanaka</surname>
+              <given-names>Toshiaki</given-names>
+            </name>
+          </person-group>
+          <year>1994</year>
+          <article-title>Influences of Seibu Road on the World Heritage Forest of Yakushima Island, Japan</article-title>
+          <source>Primate Research</source>
+          <volume>10</volume>
+          <issue>1</issue>
+          <fpage>41</fpage>
+          <lpage>47</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.2354/psj.10.41</uri>
+          <pub-id pub-id-type="doi">10.2354/psj.10.41</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3681473">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Baba</surname>
+              <given-names>Yuki G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Suguro</surname>
+              <given-names>Tatsumi</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Naya</surname>
+              <given-names>Noriaki</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Yamauchi</surname>
+              <given-names>Takeo</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>A gynandromorph of the funnel-web spider <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Allagelena">Allagelena</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="opulenta">opulenta</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Agelenidae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Acta Arachnologica</source>
+          <volume>65</volume>
+          <issue>1</issue>
+          <fpage>11</fpage>
+          <lpage>13</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.2476/asjaa.65.11</uri>
+          <pub-id pub-id-type="doi">10.2476/asjaa.65.11</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3681483">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Baba</surname>
+              <given-names>Y. G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Suguro</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Yamauchi</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>A record of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Anepsion">Anepsion</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="japonicum">japonicum</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Araneidae</tp:taxon-name-part></tp:taxon-name>) from Yakushima Island, Ryukyu Islands, Japan, after an interval of 47 years</article-title>
+          <source>Fauna Ryukyuana</source>
+          <volume>26</volume>
+          <fpage>23</fpage>
+          <lpage>26</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3665692">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Bedford</surname>
+              <given-names>S. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Usher</surname>
+              <given-names>M. B.</given-names>
+            </name>
+          </person-group>
+          <year>1994</year>
+          <article-title>Distribution of arthropod species across the margins of farm woodlands</article-title>
+          <source>Agriculture, Ecosystems &amp; Environment</source>
+          <volume>48</volume>
+          <issue>3</issue>
+          <fpage>295</fpage>
+          <lpage>305</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1016/0167-8809(94)90111-2</uri>
+          <pub-id pub-id-type="doi">10.1016/0167-8809(94)90111-2</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3665702">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Buchholz</surname>
+              <given-names>Sascha</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>Ground spider assemblages as indicators for habitat structure in inland sand ecosystems</article-title>
+          <source>Biodiversity and Conservation</source>
+          <volume>19</volume>
+          <issue>9</issue>
+          <fpage>2565</fpage>
+          <lpage>2595</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1007/s10531-010-9860-7</uri>
+          <pub-id pub-id-type="doi">10.1007/s10531-010-9860-7</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3665814">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Museum</surname>
+              <given-names>Natural History</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <source>World Spider Catalog. Version 18.0</source>
+          <publisher-name>Natural History Museum</publisher-name>
+          <uri xlink:type="simple">http://wsc.nmbe.ch</uri>
+        </element-citation>
+      </ref>
+      <ref id="B3665732">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Okano</surname>
+              <given-names>Takahiro</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Matsuda</surname>
+              <given-names>Hiroyuki</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Biocultural diversity of Yakushima Island: Mountains, beaches, and sea</article-title>
+          <source>Journal of Marine and Island Cultures</source>
+          <volume>2</volume>
+          <issue>2</issue>
+          <fpage>69</fpage>
+          <lpage>77</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1016/j.imic.2013.11.008</uri>
+          <pub-id pub-id-type="doi">10.1016/j.imic.2013.11.008</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3665785">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ono</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <source>The Spiders of Japan: with keys to the families and genera and illustrations of the species</source>
+          <publisher-name>Tokai University Press, Japan</publisher-name>
+          <publisher-loc>Hadano</publisher-loc>
+          <comment content-type="language">Japanese</comment>
+          <isbn>4486017919</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B3665742">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Osawa</surname>
+              <given-names>Takeshi</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Watanabe</surname>
+              <given-names>Kyohei</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ikeda</surname>
+              <given-names>Hiroaki</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Yamamoto</surname>
+              <given-names>Shori</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>New approach for evaluating habitat stability using scarce records for both historical and contemporary specimens: a case study using <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Carabidae</tp:taxon-name-part></tp:taxon-name> specimen records</article-title>
+          <source>Entomological Science</source>
+          <volume>17</volume>
+          <issue>4</issue>
+          <fpage>425</fpage>
+          <lpage>431</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1111/ens.12075</uri>
+          <pub-id pub-id-type="doi">10.1111/ens.12075</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3665752">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Pearce</surname>
+              <given-names>Jennie L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Venier</surname>
+              <given-names>Lisa A.</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <article-title>The use of ground beetles (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Coleoptera</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Carabidae</tp:taxon-name-part></tp:taxon-name>) and spiders (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>) as bioindicators of sustainable forest management: A review</article-title>
+          <source>Ecological Indicators</source>
+          <volume>6</volume>
+          <issue>4</issue>
+          <fpage>780</fpage>
+          <lpage>793</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1016/j.ecolind.2005.03.005</uri>
+          <pub-id pub-id-type="doi">10.1016/j.ecolind.2005.03.005</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3665762">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Tanaka</surname>
+              <given-names>Koichi</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ihara</surname>
+              <given-names>Fumio</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <chapter-title>Biodiversity Research for the Development of Indicator Organisms in Environment-Preserving Agriculture</chapter-title>
+          <source>Ecological Research Monographs</source>
+          <uri xlink:type="simple">http://dx.doi.org/10.1007/978-4-431-54032-8_26</uri>
+          <pub-id pub-id-type="doi">10.1007/978-4-431-54032-8_26</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3665837">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Thiele</surname>
+              <given-names>H. U.</given-names>
+            </name>
+          </person-group>
+          <year>1977</year>
+          <chapter-title>Carabid beetles in their environments: a study on habitat selection by adaptation in physiology and behavior</chapter-title>
+          <source>Zoophysiology and Ecology 10</source>
+          <publisher-name>Springer</publisher-name>
+          <publisher-loc>Berlin</publisher-loc>
+          <size units="page">369</size>
+        </element-citation>
+      </ref>
+      <ref id="B3665794">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Tokumaru</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <year>2003</year>
+          <article-title>Nature conservation on Yakushima Island: Kagoshima Prefecture’s efforts</article-title>
+          <source>Global Environmental Research English Edition</source>
+          <volume>7</volume>
+          <fpage>103</fpage>
+          <comment content-type="language">English</comment>
+        </element-citation>
+      </ref>
+      <ref id="B3665804">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Watanabe</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>T. Yamauchi</surname>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>Records of ichneumonid wasps (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hymenoptera</tp:taxon-name-part></tp:taxon-name>) from Yakushima Island, the Ryukyu Islands, Japan</article-title>
+          <source>Japanese Journal of Systematic Entomology</source>
+          <volume>20</volume>
+          <fpage>81</fpage>
+          <lpage>90</lpage>
+          <comment content-type="language">English</comment>
+        </element-citation>
+      </ref>
+      <ref id="B3665851">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Wise</surname>
+              <given-names>D. H.</given-names>
+            </name>
+          </person-group>
+          <year>1995</year>
+          <source>Spiders in ecological webs</source>
+          <publisher-name>Cambridge University Press, Cambridge</publisher-name>
+          <publisher-loc>Cambridge</publisher-loc>
+          <size units="page">328</size>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F3712381" position="float" orientation="portrait">
+      <object-id content-type="arpha">73BA61C3-12CF-5161-88E7-AE474711D6B5</object-id>
+      <object-id content-type="doi">10.3897/BDJ.5.e14789.figure1</object-id>
+      <object-id content-type="zenodo_dep_id">918230</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Study area and monitoring sites.</p>
+      </caption>
+      <graphic xlink:href="bdj-05-e14789-g001.jpg" position="float" id="oo_145443.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/145443</uri>
+      </graphic>
+    </fig>
+  </floats-group>
+</article>

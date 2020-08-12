@@ -1,0 +1,1247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="3.0" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.6.e26101</article-id>
+      <article-id pub-id-type="publisher-id">26101</article-id>
+      <article-id pub-id-type="manuscript">9595</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Bivalvia</subject>
+          <subject>Polyplacophora</subject>
+          <subject>Animalia</subject>
+          <subject>Gastropoda</subject>
+          <subject>Invertebrata</subject>
+          <subject>Mollusca</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Ecology &amp; Environmental sciences</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>Japan</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>A dataset of molluscan fauna sampled in river estuaries of medium and small size river in Kyushu island, Japan</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes" xlink:type="simple">
+          <name name-style="western">
+            <surname>Itsukushima</surname>
+            <given-names>Rei</given-names>
+          </name>
+          <email xlink:type="simple">itsukushima@civil.kyushu-u.ac.jp</email>
+          <uri content-type="orcid" xlink:type="simple">https://orcid.org/0000-0003-2645-6068</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Yoshikawa</surname>
+            <given-names>Hiroaki</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Morita</surname>
+            <given-names>Kai</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Department of Decision Science for a Sustainable Society, Kyushu University, Fukuoka, Japan</addr-line>
+        <institution xlink:type="simple">Department of Decision Science for a Sustainable Society, Kyushu University</institution>
+        <addr-line content-type="city">Fukuoka</addr-line>
+        <country>Japan</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">Department of Urban and Environmental Engineering, Graduate School of Engineering, Kyushu University, Fukuoka, Japan</addr-line>
+        <institution xlink:type="simple">Department of Urban and Environmental Engineering, Graduate School of Engineering, Kyushu University</institution>
+        <addr-line content-type="city">Fukuoka</addr-line>
+        <country>Japan</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Rei Itsukushima (<email xlink:type="simple">itsukushima@civil.kyushu-u.ac.jp</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Dimitris Poursanidis</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>11</day>
+        <month>07</month>
+        <year>2018</year>
+      </pub-date>
+      <volume>6</volume>
+      <elocation-id>e26101</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/FFA7F44F-833B-9137-BA60-9E2B064B0559">FFA7F44F-833B-9137-BA60-9E2B064B0559</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/1315101">1315101</uri>
+      <uri content-type="zoobank" xlink:href="http://zoobank.org/CD27DAB9-EC73-4B52-96CB-74028146647A">CD27DAB9-EC73-4B52-96CB-74028146647A</uri>
+      <history>
+        <date date-type="received">
+          <day>23</day>
+          <month>04</month>
+          <year>2018</year>
+        </date>
+        <date date-type="accepted">
+          <day>05</day>
+          <month>07</month>
+          <year>2018</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Rei Itsukushima, Hiroaki  Yoshikawa, Kai  Morita</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>Many studies have evaluated the ecological integrity of large-scale estuaries of continental rivers using biotic indicators such as fish, phytoplankton and benthic communities. However, few studies have focused on the river estuaries of small and medium rivers. Molluscan fauna data in large estuaries or in the estuaries of large rivers have been collected by the The National Census on River Environments (conducted by the Ministry of Land, Infrastructure, Transport and Tourism) or National Survey on the Natural Environment (conducted by the Ministry of Environment). On the other hand, molluscan fauna of small and medium rivers are managed by local governments and have rarely been investigated.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>This paper provides basic information on the molluscan fauna of 70 rivers in Kyushu, Japan, collected with the aim of conserving estuaries of small and medium rivers. In total, 37 families, 82 species and 21,827 individuals were collected. The data are all accessible from the document “A dataset of shellfish fauna sampled in estuaries of medium and small rivers in Kyushu, Japan (<ext-link ext-link-type="uri" xlink:href="http://ipt.pensoft.net/resource.do?r=shellfishes_in_kyushu" xlink:type="simple">http://ipt.pensoft.net/resource.do?r=shellfishes_in_kyushu</ext-link>)”. According to the Red Data Book published by the Japanese Ministry of Environment in 2018, 3 species were determined as Critically endangered and Endangered, 6 species were determined as Vulnerable and 13 species were determined as Near Threatened. The proportions of individuals classified as Critically endangered and Endangered from the total number of individuals were extremely low, but the proportions of Near Threatened individuals were high. Our results indicate that the risk of molluscan extinction in small- and medium-sized river estuaries in Kyushu is high and that immediate conservation is necessary.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>river estuary</kwd>
+        <kwd>molluscan fauna</kwd>
+        <kwd>endangered species</kwd>
+        <kwd>environmental conservation</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="6"/>
+        <table-count count="0"/>
+        <ref-count count="23"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>Estuaries are located at the boundary between the land and sea and present particular environments that constantly fluctuate with the periodic function of waves or tides (<xref ref-type="bibr" rid="B4308747">Dyer 1997</xref>, <xref ref-type="bibr" rid="B4308896">Schröder-Adams et al. 2014</xref>). Estuaries provide multiple ecosystem services such as nutrient cycling, mitigation of climate change and habitat provision (<xref ref-type="bibr" rid="B4308706">Carpenter et al. 2009</xref>). However, because of the abundance of biodiversity, land nutrients and natural resources, human beings have exploited estuaries for long periods of time and the anthropogenic impact on estuaries is very high (<xref ref-type="bibr" rid="B4308737">Cohen 1998</xref>, <xref ref-type="bibr" rid="B4308757">Edgar et al. 2000</xref>). Anthropogenic impact causes degradation of water quality, disappearance of habitat and decreasing natural resources (<xref ref-type="bibr" rid="B4308842">McIntyre 1995</xref>, <xref ref-type="bibr" rid="B4308787">Kennish 2002</xref>, <xref ref-type="bibr" rid="B4308777">Howarth 2008</xref>). Many studies have been conducted using biotic indicators, such as fish fauna (<xref ref-type="bibr" rid="B4308629">Albouy et al. 2011</xref>, <xref ref-type="bibr" rid="B4308767">Halpern and Floeter 2008</xref>, <xref ref-type="bibr" rid="B4308862">Reserarits and Chalcraft 2007</xref>, <xref ref-type="bibr" rid="B4308906">Silva-Júnior et al. 2017</xref>), phytoplankton communities (<xref ref-type="bibr" rid="B4308727">Cloern and Dufford 2005</xref>, <xref ref-type="bibr" rid="B4308852">Paerl et al. 2007</xref>, <xref ref-type="bibr" rid="B4308655">Bhattacharjee et al. 2013</xref>, <xref ref-type="bibr" rid="B4308872">Roshith et al. 2018</xref>) and benthic communities (<xref ref-type="bibr" rid="B4308644">Alexandridis et al. 2017</xref>, <xref ref-type="bibr" rid="B4308807">Kristensen et al. 2014</xref>, <xref ref-type="bibr" rid="B4308827">Martin et al. 2010</xref>), mainly on the large-scale estuaries of continental rivers. However, there are very few studies which have focused on the estuaries of small and medium rivers.</p>
+      <p>In this paper, we investigated molluscan fauna to provide basic information for the environmental conservation of estuaries of small and medium rivers. The river estuaries assessed in this study constitute environments with large environmental gradients, in which water quality, riverbank sediment material and micro-topography change in the longitudinal and transverse sections of the river (<xref ref-type="bibr" rid="B4308818">Kusuda and Yamamoto 2008</xref>). Molluscan fauna data in large estuaries or in the estuaries of large rivers have been collected by the The National Census on River Environments (conducted by the Ministry of Land, Infrastructure, Transport and Tourism) or National Survey on the Natural Environment (conducted by the Ministry of Environment). On the other hand, molluscan fauna of small and medium rivers are managed by local governments and have rarely been investigated. In addition, studies evaluating estuarine habitats in small and medium river estuaries have focused primarily on fish and crustaceans, but brackish fish accidentally invade river estuaries. Therefore, the relationship between the habitat and occurrence of brackish fish remains unclear. There is a possibility that brackish fish constitute poor indicator species.</p>
+      <p>We selected molluscan fauna to evaluate the integrity of river estuaries. Molluscan fauna respond sensitively to water quality and bottom sediments and include species that inhabit only one particular environment or have a low capacity to thrive in different habitats. Molluscan species at individual locations directly reflect the environmental conditions at these sites (<xref ref-type="bibr" rid="B4308886">Sato 2011</xref>). Therefore, molluscan species are ideal for evaluating the environmental conditions and determining the impact of human activities on estuarine environments (<xref ref-type="bibr" rid="B4308677">Blanchet et al. 2014</xref>, <xref ref-type="bibr" rid="B4308797">Koutsoubas 2000</xref>).</p>
+      <p>In this paper, we report data of molluscan fauna collected in 70 rivers in Kyushu, Japan with the aim of providing information for the conservation of estuaries of small and medium rivers.</p>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Study extent">
+        <title>Study extent</title>
+        <p>We defined the land of the low flow channel as a habitat and set one to three sampling points at each habitat according to the habitat area. Eight kinds of habitats were set from the viewpoint of particle size of the sediment, vegetation and artificial structure (silt, sand, gravel, boulder, bedrock, riprap, concrete construct and vegetation). Habitats at mid tide and spring tide belonging to one reach section (approximately 10 times the width of the river) were selected as investigation sites. At each habitat, we identified the species after collecting molluscan fauna (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Bivalvia">Bivalvia</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Gastropoda">Gastropoda</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Polyplacophora">Polyplacophora</tp:taxon-name-part></tp:taxon-name></italic>) from the surface layer and from10-cm deep in the ground with 50-cm square quadrats. 3–15 quadrats were investigated in each site.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>We surveyed 70 river estuaries in the Kyushu region in Japan (Fig. <xref ref-type="fig" rid="F4308939">1</xref>). Watershed areas of investigated rivers ranged from 1 km<sup>2</sup> to 60 km<sup>2</sup>. The rivers were selected based on the variation in environmental conditions, such as the Ariake Sea and Buzen Sea, where the tide range is large and the rivers flowing to the Sea of Japan, where the wave energy is dominant.</p>
+      </sec>
+      <sec sec-type="Coordinates">
+        <title>Coordinates</title>
+        <p>31.006 and 33.925 Latitude; 129.54 and 132.012 Longitude.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The orders are <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Veneroida</tp:taxon-name-part></tp:taxon-name> (19 species), Docoglossa (14 species), Sorbeoconcha (12 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Vetigastropoda</tp:taxon-name-part></tp:taxon-name> (6 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subclass">Neritimorpha</tp:taxon-name-part></tp:taxon-name> (5 species), Discopod (5 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Mytiloida</tp:taxon-name-part></tp:taxon-name> (5 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Chitonida</tp:taxon-name-part></tp:taxon-name> (3 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Neogastropoda</tp:taxon-name-part></tp:taxon-name> (2 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="infraclass">Pulmonata</tp:taxon-name-part></tp:taxon-name> (2 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Basommatophora</tp:taxon-name-part></tp:taxon-name> (2 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Anomalodesmata</tp:taxon-name-part></tp:taxon-name> (2 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Arcoida</tp:taxon-name-part></tp:taxon-name> (1 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Architaenioglossa</tp:taxon-name-part></tp:taxon-name> (1 species), Systelommatophora (1 species) and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Pterioida</tp:taxon-name-part></tp:taxon-name> (1 species) (Fig. <xref ref-type="fig" rid="F4308935">2</xref>). We recorded species in the families <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Lottiidae</tp:taxon-name-part></tp:taxon-name> (12 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Veneridae</tp:taxon-name-part></tp:taxon-name> (6 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Potamididae</tp:taxon-name-part></tp:taxon-name> (5 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Mytilidae</tp:taxon-name-part></tp:taxon-name> (5 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Neritidae</tp:taxon-name-part></tp:taxon-name> (4 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Littorinidae</tp:taxon-name-part></tp:taxon-name> (4 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Psammobiidae</tp:taxon-name-part></tp:taxon-name> (3 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Tellinidae</tp:taxon-name-part></tp:taxon-name> (3 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Phenacolepadidae</tp:taxon-name-part></tp:taxon-name> (2 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Nacellidae</tp:taxon-name-part></tp:taxon-name> (2 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Batillariidae</tp:taxon-name-part></tp:taxon-name> (2 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Muricidae</tp:taxon-name-part></tp:taxon-name> (2 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Turbinidae</tp:taxon-name-part></tp:taxon-name> (2 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Nassariidae</tp:taxon-name-part></tp:taxon-name> (2 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Ellobiidae</tp:taxon-name-part></tp:taxon-name> (2 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Siphonariidae</tp:taxon-name-part></tp:taxon-name> (2 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Laternulidae</tp:taxon-name-part></tp:taxon-name> (2 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Tegulidae</tp:taxon-name-part></tp:taxon-name> (2 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Trochidae</tp:taxon-name-part></tp:taxon-name> (2 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Mactridae</tp:taxon-name-part></tp:taxon-name> (1 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Mesodesmatidae</tp:taxon-name-part></tp:taxon-name> (1 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Cyrenidae</tp:taxon-name-part></tp:taxon-name> (1 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Glauconomidae</tp:taxon-name-part></tp:taxon-name> (1 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solenidae</tp:taxon-name-part></tp:taxon-name> (1 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Cerithiidae</tp:taxon-name-part></tp:taxon-name> (1 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Assimineidae</tp:taxon-name-part></tp:taxon-name> (1 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Buccinidae</tp:taxon-name-part></tp:taxon-name> (1 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Vermetidae</tp:taxon-name-part></tp:taxon-name> (1 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Ischnochitonidae</tp:taxon-name-part></tp:taxon-name> (1 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Acanthochitonidae</tp:taxon-name-part></tp:taxon-name> (1 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Chitonidae</tp:taxon-name-part></tp:taxon-name> (1 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Arcidae</tp:taxon-name-part></tp:taxon-name> (1 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Ampullariidae</tp:taxon-name-part></tp:taxon-name> (1 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Onchidiidae</tp:taxon-name-part></tp:taxon-name> (1 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Anatinellidae</tp:taxon-name-part></tp:taxon-name> (1 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Trapezidae</tp:taxon-name-part></tp:taxon-name> (1 species) and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Pteriidae</tp:taxon-name-part></tp:taxon-name> (1 species) (Fig. <xref ref-type="fig" rid="F4308943">3</xref>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <sec sec-type="Notes">
+        <title>Notes</title>
+        <p>The survey was conducted from 28 April 2015 to 23 November 2017.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Creative Commons Public Domain Waiver (CC-Zero)</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>A dataset of shellfish fauna sampled in estuaries of medium and small rivers in Kyushu, Japan</p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="http://ipt.pensoft.net/resource.do?r=shellfishes_in_kyushu" xlink:type="simple">http://ipt.pensoft.net/resource.do?r=shellfishes_in_kyushu</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>1</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>A dataset of molluscan fauna sampled in estuaries of medium and small rivers in Kyushu, Japan</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>30</p>
+        </sec>
+        <sec sec-type="">
+          <title/>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceID</td>
+                  <td rowspan="1" colspan="1">An identifier for the Occurrence.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">basisOfRecord</td>
+                  <td rowspan="1" colspan="1">The specific nature of the data record.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventDate</td>
+                  <td rowspan="1" colspan="1">The date-time or interval during which an Event occurred.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificName</td>
+                  <td rowspan="1" colspan="1">The full scientific name.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">kingdom</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the kingdom in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">phylum</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the phylum or division in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">class</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the class in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">order</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the order in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">family</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the family in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">taxonRank</td>
+                  <td rowspan="1" colspan="1">The taxonomic rank of the most specific name in the scientificName as it appears in the original record.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">identifiedBy</td>
+                  <td rowspan="1" colspan="1">A list (concatenated and separated) of names of people, groups or organisations who assigned the Taxon to the subject.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLatitude</td>
+                  <td rowspan="1" colspan="1">The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic centre of a Location.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLongitude</td>
+                  <td rowspan="1" colspan="1">The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic centre of a Location.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">geodeticDatum</td>
+                  <td rowspan="1" colspan="1">The ellipsoid, geodetic datum or spatial reference system (SRS) upon which the geographic coordinates given in decimalLatitude and decimalLongitude as based.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">countryCode</td>
+                  <td rowspan="1" colspan="1">The standard code for the country in which the Location occurs. Recommended best practice is to use ISO 3166-1-alpha-2 country codes.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">individualCount</td>
+                  <td rowspan="1" colspan="1">The number of individuals represented present at the time of the Occurrence.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">organismQuantity</td>
+                  <td rowspan="1" colspan="1">A number or enumeration value for the quantity of organisms.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">organismQuantityType</td>
+                  <td rowspan="1" colspan="1">The type of quantification system used for the quantity of organisms.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">habitat</td>
+                  <td rowspan="1" colspan="1">A category or description of the habitat in which the Event occurred.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">catalogNumber</td>
+                  <td rowspan="1" colspan="1">A list (concatenated and separated) of previous or alternate fully qualified catalogue numbers or other human-used identifiers for the same Occurrence, whether in the current or any other data set or collection.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">language</td>
+                  <td rowspan="1" colspan="1">A language of the resource. Recommended best practice is to use a controlled vocabulary such as RFC 4646 [RFC4646]</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">country</td>
+                  <td rowspan="1" colspan="1">The name of the country or major administrative unit in which the Location occurs. Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">stateProvince</td>
+                  <td rowspan="1" colspan="1">The name of the next smallest administrative region than country (state, province, canton, department, region etc.) in which the Location occurs.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">municipality</td>
+                  <td rowspan="1" colspan="1">The full, unabbreviated name of the next smallest administrative region than county (city, municipality etc.) in which the Location occurs. Do not use this term for a nearby named place that does not contain the actual location.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">locality</td>
+                  <td rowspan="1" colspan="1">The specific description of the place. Less specific geographic information can be provided in other geographic terms (higherGeography, continent, country, stateProvince, county, municipality, waterBody, island, islandGroup). This term may contain information modified from the original to correct perceived errors or standardise the description.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">modified</td>
+                  <td rowspan="1" colspan="1">The most recent date-time on which the resource was changed. For Darwin Core, recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">year</td>
+                  <td rowspan="1" colspan="1">The four-digit year in which the Event occurred, according to the Common Era Calendar.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">month</td>
+                  <td rowspan="1" colspan="1">The ordinal month in which the Event occurred.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">day</td>
+                  <td rowspan="1" colspan="1">The integer day of the month on which the Event occurred.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">locationID</td>
+                  <td rowspan="1" colspan="1">An identifier for the set of location information (data associated with dcterms:Location). May be a global unique identifier or an identifier specific to the data set.</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+    <sec sec-type="Additional information">
+      <title>Additional information</title>
+      <p>Of the molluscan fauna that occurred in each river, we focused on the endangered species described in the Red List (Japanese Ministry of the Environment 2018). Simple environmental evaluation of the target river was conducted using species registered as Critically endangered and Endangered (CR + EN), Vulnerable (VU) and Near Threatened (NT) in the Red List. We assessed species composition by threatened status for rivers where more than 5 threatened species appeared. We also assessed population structure (i.e. number of individuals) by threatened status for rivers where more than 5 threatened species occurred.</p>
+      <p>According to the Red Data Book published by the Japanese Ministry of Environment in 2018, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cerithidea">Cerithidea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="largillierti">largillierti</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cerithidea">C.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="ornata">ornata</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Laternula">Laternula</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="boschasina">boschasina</tp:taxon-name-part></tp:taxon-name></italic> were listed as CR + EN. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cerithium">Cerithium</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="coralium">coralium</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pirenella">Pirenella</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="alata">alata</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ellobium">Ellobium</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="chinense">chinense</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Moerella">Moerella</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="iridescens">iridescens</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Glauconome">Glauconome</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="chinensis">chinensis</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Meretrix">Meretrix</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="lusoria">lusoria</tp:taxon-name-part></tp:taxon-name></italic> were classified as VU. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Neripteron">Neripteron</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="cornucopia">cornucopia</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phenacolepas">Phenacolepas</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pulchella">pulchella</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Batillaria">Batillaria</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="multiformis">multiformis</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cerithidea">C.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="rhizophorarum">rhizophorarum</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cerithidea">C.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="cingulata">cingulata</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Laemodonta">Laemodonta</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="exaratoides">exaratoides</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Coecella">Coecella</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="chinensis">chinensis</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Nitidotellina">Nitidotellina</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="hokkaidoensis">hokkaidoensis</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Moerella">Moerella</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="rutila">rutila</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Psammotaea">Psammotaea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="minor">minor</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Trapezium">Trapezium</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="liratum">liratum</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Corbicula">Corbicula</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="javanica">javanica</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Anomalodiscus">Anomalodiscus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="squamosus">squamosus</tp:taxon-name-part></tp:taxon-name></italic> were classified as NT.</p>
+      <p>The occurrence of endangered species differed amongst rivers (Fig. <xref ref-type="fig" rid="F4308947">4</xref>); the proportion of threatened species exceeding 50% in the Kusami and Yamashiro Rivers (Fig. <xref ref-type="fig" rid="F4308951">5</xref>). The proportion of threatened species was approximately 20% in the Kotaura River. The proportions of CR + EN species were low in most rivers and the highest (20%) in the Yamashiro River (Fig. <xref ref-type="fig" rid="F4308951">5</xref>). Over 40% of individuals belonged to threatened species in all rivers (Fig. <xref ref-type="fig" rid="F4308951">5</xref>). In the Yamashiro, Kotaura, Sozoro and Masuerakan Rivers, approximately 80% of occurrences were of individuals classified as endangered (Fig. <xref ref-type="fig" rid="F4308955">6</xref>). In the Sozoro River and the Hai Rivers, 30% of recorded individuals belonged to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pirenella">Pirenella</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="alata">alata</tp:taxon-name-part></tp:taxon-name></italic>, a VU species. On the other hand, the proportion of species classified as CR + EN in the total number of individuals was extremely low (Fig. <xref ref-type="fig" rid="F4308955">6</xref>).</p>
+      <p>We found threatened species in 50 out of the 70 target rivers with important implications for the conservation of estuarine species and environments. The number of threatened species was the highest in the Sozoro River (8 species) located in Imari Bay, followed by the Kusami River (7 species) flowing into the Buzen Sea. Many endangered species were found in rivers flowing into large-scale bays with high tide ranges such as the Buzen Sea, the Ariake Sea and the Yatsushiro Sea. There were few threatened species in river estuaries influenced by high wave energy flowing into the open seas such as the Sea of Genkai and the Sea of Hyuganada. This may be explained by the large tidelands formed in bays with large tidal differences, which potentially lead to high species diversity. In contrast, in river estuaries influenced by large wave energies, the diversity of the physical environment is lower than that of tidal flats and this seems to affect the number of endangered species. Therefore, consideration of the potential physical environment formed by external forces acting on the river estuaries is essential when evaluating biota for environmental conservation and restoration. Our results indicate that the risk of molluscan extinction in Kyushu is high and that immediate conservation is necessary.</p>
+      <p>Images of the specimen was presented (Suppl. material <xref ref-type="supplementary-material" rid="S4410363">1</xref>). A simple list of the taxa included in the study describing family, genus, species author and date was also presented (Suppl. material <xref ref-type="supplementary-material" rid="S4410364">2</xref>).</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>This work was supported by JSPS KAKENHI Grant Number JP15K18144 and the River Fund managed by The River Foundation.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B4308629">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Albouy</surname>
+              <given-names>C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Guilhaumon</surname>
+              <given-names>F</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Villéger</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mouchet</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mercier</surname>
+              <given-names>L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Culioli</surname>
+              <given-names>J M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tomasini</surname>
+              <given-names>J A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Loc’h</surname>
+              <given-names>F Le</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mouillot</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>Predicting trophic guild and diet overlap from functional traits: statistics, opportunities and limitations for marine ecology</article-title>
+          <source>Marine Ecology Progress Series</source>
+          <volume>436</volume>
+          <fpage>17</fpage>
+          <lpage>28</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.3354/meps09240</uri>
+          <pub-id pub-id-type="doi">10.3354/meps09240</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4308644">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Alexandridis</surname>
+              <given-names>Nikolaos</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dambacher</surname>
+              <given-names>J. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jean</surname>
+              <given-names>Fred</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Desroy</surname>
+              <given-names>Nicolas</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bacher</surname>
+              <given-names>Cédric</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Qualitative modelling of functional relationships in marine benthic communities</article-title>
+          <source>Ecological Modelling</source>
+          <volume>360</volume>
+          <fpage>300</fpage>
+          <lpage>312</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1016/j.ecolmodel.2017.07.021</uri>
+          <pub-id pub-id-type="doi">10.1016/j.ecolmodel.2017.07.021</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4308655">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Bhattacharjee</surname>
+              <given-names>Dola</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Samanta</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Danda</surname>
+              <given-names>A. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bhadury</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Temporal succession of phytoplankton assemblages in a tidal creek system of the Sundarbans mangroves: an integrated approach</article-title>
+          <source>International Journal of Biodiversity</source>
+          <volume>2013</volume>
+          <fpage>1</fpage>
+          <lpage>15</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1155/2013/824543</uri>
+          <pub-id pub-id-type="doi">10.1155/2013/824543</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4308677">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Blanchet</surname>
+              <given-names>Hugues</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gouillieux</surname>
+              <given-names>Benoît</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Alizier</surname>
+              <given-names>Sandrine</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Amouroux</surname>
+              <given-names>Jean-Michel</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bachelet</surname>
+              <given-names>Guy</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barillé</surname>
+              <given-names>Anne-Laure</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dauvin</surname>
+              <given-names>Jean-Claude</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Montaudouin</surname>
+              <given-names>Xavier de</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Derolez</surname>
+              <given-names>Valérie</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Desroy</surname>
+              <given-names>Nicolas</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Grall</surname>
+              <given-names>Jacques</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Grémare</surname>
+              <given-names>Antoine</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hacquebart</surname>
+              <given-names>Pascal</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jourde</surname>
+              <given-names>Jérôme</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Labrune</surname>
+              <given-names>Céline</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lavesque</surname>
+              <given-names>Nicolas</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Meirland</surname>
+              <given-names>Alain</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nebout</surname>
+              <given-names>Thiebaut</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Olivier</surname>
+              <given-names>Frédéric</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pelaprat</surname>
+              <given-names>Corine</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ruellet</surname>
+              <given-names>Thierry</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sauriau</surname>
+              <given-names>Pierre-Guy</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Thorin</surname>
+              <given-names>Sébastien</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>Multiscale patterns in the diversity and organization of benthic intertidal fauna among French Atlantic estuaries</article-title>
+          <source>Journal of Sea Research</source>
+          <volume>90</volume>
+          <fpage>95</fpage>
+          <lpage>110</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1016/j.seares.2014.02.014</uri>
+          <pub-id pub-id-type="doi">10.1016/j.seares.2014.02.014</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4308706">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Carpenter</surname>
+              <given-names>S. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mooney</surname>
+              <given-names>H. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Agard</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Capistrano</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>DeFries</surname>
+              <given-names>R. S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Diaz</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dietz</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Duraiappah</surname>
+              <given-names>A. K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Oteng-Yeboah</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pereira</surname>
+              <given-names>H. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Perrings</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Reid</surname>
+              <given-names>W. V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sarukhan</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Scholes</surname>
+              <given-names>R. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Whyte</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>Science for managing ecosystem services: beyond the Millennium Ecosystem Assessment</article-title>
+          <source>Proceedings of the National Academy of Sciences</source>
+          <volume>106</volume>
+          <issue>5</issue>
+          <fpage>1305</fpage>
+          <lpage>1312</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1073/pnas.0808772106</uri>
+          <pub-id pub-id-type="doi">10.1073/pnas.0808772106</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4308727">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Cloern</surname>
+              <given-names>J E</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dufford</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <article-title>Phytoplankton community ecology: principles applied in San Francisco Bay</article-title>
+          <source>Marine Ecology Progress Series</source>
+          <volume>285</volume>
+          <fpage>11</fpage>
+          <lpage>28</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.3354/meps285011</uri>
+          <pub-id pub-id-type="doi">10.3354/meps285011</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4308737">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Cohen</surname>
+              <given-names>A. N.</given-names>
+            </name>
+          </person-group>
+          <year>1998</year>
+          <article-title>Accelerating invasion rate in a highly invaded estuary</article-title>
+          <source>Science</source>
+          <volume>279</volume>
+          <issue>5350</issue>
+          <fpage>555</fpage>
+          <lpage>558</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1126/science.279.5350.555</uri>
+          <pub-id pub-id-type="doi">10.1126/science.279.5350.555</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4308747">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Dyer</surname>
+              <given-names>K. R.</given-names>
+            </name>
+          </person-group>
+          <year>1997</year>
+          <source>Estuaries, a Physical Introduction</source>
+          <edition>2nd edition</edition>
+          <publisher-name>John Wiley &amp; Sons</publisher-name>
+          <publisher-loc>Chichester, UK</publisher-loc>
+          <isbn>978-0-471-97471-0</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B4308757">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Edgar</surname>
+              <given-names>G. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barrett</surname>
+              <given-names>N. S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Graddon</surname>
+              <given-names>D. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Last</surname>
+              <given-names>P. R.</given-names>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <article-title>The conservation significance of estuaries: a classification of Tasmanian estuaries using ecological, physical and demographic attributes as a case study</article-title>
+          <source>Biological Conservation</source>
+          <volume>92</volume>
+          <issue>3</issue>
+          <fpage>383</fpage>
+          <lpage>397</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1016/s0006-3207(99)00111-1</uri>
+          <pub-id pub-id-type="doi">10.1016/s0006-3207(99)00111-1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4308767">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Halpern</surname>
+              <given-names>B S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Floeter</surname>
+              <given-names>S R</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Functional diversity responses to changing species richness in reef fish communities</article-title>
+          <source>Marine Ecology Progress Series</source>
+          <volume>364</volume>
+          <fpage>147</fpage>
+          <lpage>156</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.3354/meps07553</uri>
+          <pub-id pub-id-type="doi">10.3354/meps07553</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4308777">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Howarth</surname>
+              <given-names>Robert W.</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Coastal nitrogen pollution: A review of sources and trends globally and regionally</article-title>
+          <source>Harmful <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="above-genus">Algae</tp:taxon-name-part></tp:taxon-name></source>
+          <volume>8</volume>
+          <issue>1</issue>
+          <fpage>14</fpage>
+          <lpage>20</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1016/j.hal.2008.08.015</uri>
+          <pub-id pub-id-type="doi">10.1016/j.hal.2008.08.015</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4308787">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kennish</surname>
+              <given-names>Michael J.</given-names>
+            </name>
+          </person-group>
+          <year>2002</year>
+          <article-title>Environmental threats and environmental future of estuaries</article-title>
+          <source>Environmental Conservation</source>
+          <volume>29</volume>
+          <issue>01</issue>
+          <uri xlink:type="simple">http://dx.doi.org/10.1017/s0376892902000061</uri>
+          <pub-id pub-id-type="doi">10.1017/s0376892902000061</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4308797">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Koutsoubas</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <article-title>Macrobenthic community structure and disturbance assessment in Gialova Lagoon, Ionian Sea</article-title>
+          <source>ICES Journal of Marine Science</source>
+          <volume>57</volume>
+          <issue>5</issue>
+          <fpage>1472</fpage>
+          <lpage>1480</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1006/jmsc.2000.0905</uri>
+          <pub-id pub-id-type="doi">10.1006/jmsc.2000.0905</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4308807">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kristensen</surname>
+              <given-names>Erik</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Delefosse</surname>
+              <given-names>Matthieu</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Quintana</surname>
+              <given-names>C. O.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Flindt</surname>
+              <given-names>M. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Valdemarsen</surname>
+              <given-names>Thomas</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>Influence of benthic macrofauna community shifts on ecosystem functioning in shallow estuaries</article-title>
+          <source>Frontiers in Marine Science</source>
+          <volume>1</volume>
+          <uri xlink:type="simple">http://dx.doi.org/10.3389/fmars.2014.00041</uri>
+          <pub-id pub-id-type="doi">10.3389/fmars.2014.00041</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4308818">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kusuda</surname>
+              <given-names>Tetsuya</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Yamamoto</surname>
+              <given-names>Koichi</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <source>River Brackish Area</source>
+          <publisher-name>Gihodo Shuppan</publisher-name>
+          <publisher-loc>Tokyo, Japan</publisher-loc>
+          <isbn>978-4-7655-3429-1</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B4308827">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Martin</surname>
+              <given-names>G. D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nisha</surname>
+              <given-names>P. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Balachandran</surname>
+              <given-names>K. K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Madhu</surname>
+              <given-names>N. V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nair</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Shaiju</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Joseph</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Srinivas</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gupta</surname>
+              <given-names>G. V. M.</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>Eutrophication induced changes in benthic community structure of a flow-restricted tropical estuary (Cochin backwaters), India</article-title>
+          <source>Environmental Monitoring and Assessment</source>
+          <volume>176</volume>
+          <fpage>427</fpage>
+          <lpage>438</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1007/s10661-010-1594-1</uri>
+          <pub-id pub-id-type="doi">10.1007/s10661-010-1594-1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4308842">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>McIntyre</surname>
+              <given-names>A. D.</given-names>
+            </name>
+          </person-group>
+          <year>1995</year>
+          <article-title>Human impact on the oceans: the 1990s and beyond</article-title>
+          <source>Marine Pollution Bulletin</source>
+          <volume>31</volume>
+          <fpage>147</fpage>
+          <lpage>151</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1016/0025-326x(95)00099-9</uri>
+          <pub-id pub-id-type="doi">10.1016/0025-326x(95)00099-9</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4308852">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Paerl</surname>
+              <given-names>H. W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Valdes-Weaver</surname>
+              <given-names>L. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Joyner</surname>
+              <given-names>A. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Winkelmann</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <article-title>Phytoplankton indicators of ecological change in the eutrophying Pamlico Sound system, North Carolina.</article-title>
+          <source>Ecological Applications</source>
+          <volume>17</volume>
+          <fpage>S88</fpage>
+          <lpage>S101</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1890/05-0840.1</uri>
+          <pub-id pub-id-type="doi">10.1890/05-0840.1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4308862">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Reserarits</surname>
+              <given-names>W. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chalcraft</surname>
+              <given-names>D. R.</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <article-title>Functional diversity within a morphologically conservative genus of predators: implications for functional equivalence and redundancy in ecological communities</article-title>
+          <source>Functional Ecology</source>
+          <volume>21</volume>
+          <issue>4</issue>
+          <fpage>793</fpage>
+          <lpage>804</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1111/j.1365-2435.2007.01282.x</uri>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2435.2007.01282.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4308872">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Roshith</surname>
+              <given-names>C. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Meena</surname>
+              <given-names>D. K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Manna</surname>
+              <given-names>R. K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sahoo</surname>
+              <given-names>A. K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Swain</surname>
+              <given-names>H. S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Raman</surname>
+              <given-names>R. K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sengupta</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Das</surname>
+              <given-names>B. K.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Phytoplankton community structure of the Gangetic (Hooghly-Matla) estuary: Status and ecological implications in relation to eco-climatic variability</article-title>
+          <source>Flora</source>
+          <volume>240</volume>
+          <fpage>133</fpage>
+          <lpage>143</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1016/j.flora.2018.01.001</uri>
+          <pub-id pub-id-type="doi">10.1016/j.flora.2018.01.001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4308886">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Sato</surname>
+              <given-names>Shinichi</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>Report on four Academic Societies Joint Symposium of Biodiversity Conservation of Ariake Bay</article-title>
+          <source>Japanese Journal of Benthology</source>
+          <volume>66</volume>
+          <fpage>102</fpage>
+          <lpage>116</lpage>
+          <comment content-type="language">Japanese</comment>
+          <pub-id pub-id-type="doi">10.5179/benthos.66.102</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4308896">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Schröder-Adams</surname>
+              <given-names>C. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Boyd</surname>
+              <given-names>R. L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tran</surname>
+              <given-names>Tanya</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>Estuarine foraminiferal biofacies pattern compared to the brackish ichnofacies model: Port Stephens, southeast Australia</article-title>
+          <source>Estuarine, Coastal and Shelf Science</source>
+          <volume>139</volume>
+          <fpage>78</fpage>
+          <lpage>87</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1016/j.ecss.2013.12.006</uri>
+          <pub-id pub-id-type="doi">10.1016/j.ecss.2013.12.006</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4308906">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Silva-Júnior</surname>
+              <given-names>C. A. B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mérigot</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lucena-Frédou</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ferreira</surname>
+              <given-names>B. P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Coxey</surname>
+              <given-names>M. S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rezende</surname>
+              <given-names>S. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Frédou</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Functional diversity of fish in tropical estuaries: A traits-based approach of communities in Pernambuco, Brazil</article-title>
+          <source>Estuarine, Coastal and Shelf Science</source>
+          <volume>198</volume>
+          <fpage>413</fpage>
+          <lpage>420</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1016/j.ecss.2016.08.030</uri>
+          <pub-id pub-id-type="doi">10.1016/j.ecss.2016.08.030</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F4308939" position="float" orientation="portrait">
+      <object-id content-type="arpha">F5D517DD-9867-5876-BD6E-A99FA4C51BC4</object-id>
+      <object-id content-type="doi">10.3897/BDJ.6.e26101.figure1</object-id>
+      <object-id content-type="zenodo_dep_id">1315109</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Locations of study area.</p>
+      </caption>
+      <graphic xlink:href="bdj-06-e26101-g001.jpg" position="float" id="oo_194338.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/194338</uri>
+      </graphic>
+    </fig>
+    <fig id="F4308935" position="float" orientation="portrait">
+      <object-id content-type="arpha">4A4F21A4-4F02-57DA-B11B-0D8ED62626A9</object-id>
+      <object-id content-type="doi">10.3897/BDJ.6.e26101.figure2</object-id>
+      <object-id content-type="zenodo_dep_id">1315111</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>Taxonomic coverage (by taxonomic order).</p>
+      </caption>
+      <graphic xlink:href="bdj-06-e26101-g002.jpg" position="float" id="oo_194337.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/194337</uri>
+      </graphic>
+    </fig>
+    <fig id="F4308943" position="float" orientation="portrait">
+      <object-id content-type="arpha">49332375-1EB4-539B-9BE4-4E8BC1B673C0</object-id>
+      <object-id content-type="doi">10.3897/BDJ.6.e26101.figure3</object-id>
+      <object-id content-type="zenodo_dep_id">1315113</object-id>
+      <label>Figure 3.</label>
+      <caption>
+        <p>Taxonomic coverage (by taxonomic family).</p>
+      </caption>
+      <graphic xlink:href="bdj-06-e26101-g003.png" position="float" id="oo_212078.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/212078</uri>
+      </graphic>
+    </fig>
+    <fig id="F4308947" position="float" orientation="portrait">
+      <object-id content-type="arpha">870A1569-3B82-50E1-879B-413C713C302B</object-id>
+      <object-id content-type="doi">10.3897/BDJ.6.e26101.figure4</object-id>
+      <object-id content-type="zenodo_dep_id">1315115</object-id>
+      <label>Figure 4.</label>
+      <caption>
+        <p>Geographical distribution of threatened species.</p>
+      </caption>
+      <graphic xlink:href="bdj-06-e26101-g004.jpg" position="float" id="oo_194340.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/194340</uri>
+      </graphic>
+    </fig>
+    <fig id="F4308951" position="float" orientation="portrait">
+      <object-id content-type="arpha">5C70CA71-0DD2-5AD8-8680-3878F0843646</object-id>
+      <object-id content-type="doi">10.3897/BDJ.6.e26101.figure5</object-id>
+      <object-id content-type="zenodo_dep_id">1315117</object-id>
+      <label>Figure 5.</label>
+      <caption>
+        <p>Species composition in rivers with more than 5 threatened species.</p>
+      </caption>
+      <graphic xlink:href="bdj-06-e26101-g005.jpg" position="float" id="oo_194341.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/194341</uri>
+      </graphic>
+    </fig>
+    <fig id="F4308955" position="float" orientation="portrait">
+      <object-id content-type="arpha">BF94144D-9C17-5665-86EC-80E10AC48CF7</object-id>
+      <object-id content-type="doi">10.3897/BDJ.6.e26101.figure6</object-id>
+      <object-id content-type="zenodo_dep_id">1315119</object-id>
+      <label>Figure 6.</label>
+      <caption>
+        <p>Population structure (i.e. numbers of individuals) in rivers with more than 5 threatened species.</p>
+      </caption>
+      <graphic xlink:href="bdj-06-e26101-g006.jpg" position="float" id="oo_194342.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/194342</uri>
+      </graphic>
+    </fig>
+    <supplementary-material id="S4410363" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">1CA95983-A20F-5B39-AC17-DE2AC3490BA4</object-id>
+      <object-id content-type="doi">10.3897/BDJ.6.e26101.suppl1</object-id>
+      <object-id content-type="zenodo_dep_id">1315147</object-id>
+      <label>Supplementary material 1</label>
+      <caption>
+        <p>Images of specimen</p>
+      </caption>
+      <p>Data type: images</p>
+      <p>Brief description: images of specimen</p>
+      <p>File: oo_212074.pdf</p>
+      <media xlink:href="bdj-06-e26101-s001.pdf" mimetype="Adobe Acrobat Document" mime-subtype="pdf" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/212074</uri>
+      </media>
+      <attrib specific-use="authors">Rei Itsukushima</attrib>
+    </supplementary-material>
+    <supplementary-material id="S4410364" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">D5144806-70AE-59EF-B127-930B0F331CB1</object-id>
+      <object-id content-type="doi">10.3897/BDJ.6.e26101.suppl2</object-id>
+      <object-id content-type="zenodo_dep_id">1315149</object-id>
+      <label>Supplementary material 2</label>
+      <caption>
+        <p>Sepecies list</p>
+      </caption>
+      <p>Data type: occurences</p>
+      <p>Brief description: simple sepecies list</p>
+      <p>File: oo_212077.xlsx</p>
+      <media xlink:href="bdj-06-e26101-s002.xlsx" mimetype="Microsoft Excel Document" mime-subtype="xlsx" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/212077</uri>
+      </media>
+      <attrib specific-use="authors">Rei Itsukushima</attrib>
+    </supplementary-material>
+  </floats-group>
+</article>

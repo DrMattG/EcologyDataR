@@ -1,0 +1,85 @@
+---
+title: "Ecology data quick run through"
+author: "Matt"
+date: "12 8 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(packagefinder)
+library(datasets.load)
+
+```
+
+### What types of data are there in ecology?
+
+My quick thoughts and some example code on how we can get a representive (ish) sample of data from "ecological" focused R packages and to get an understanding of what types of data there are.
+
+### Step 1 - get a list of ecology packages
+
+```{r step 1}
+packagefinder::findPackage(keywords = "ecology",display = "console",limit.results = 1000)
+
+```
+
+**Current challenges are:** 
+
+* we need a better set of search terms as this really only gives a small subset of ecology focused packages (maybe someone somewhere has a list - maybe I can ask on Twitter)
+
+* how do I get a list of packages from this? I submitted an issue at the package github page in the meantime it will have to be our old friend excel
+
+
+### Step 2 - install all these packages 
+
+```{r step 2}
+pkgs<-c("AHMbook","algaeClassify","allelematch","analogue","aPCoA","BayesComm","bcpa","betaper","BIEN","BiodiversityR","blmeco","boral","cepreader","CNull","CommEcol","CoordinateCleaner","DAISIE","dave","DSAIDE","EcoSimR",#"ecospace",
+        "ecospat","EMbC","ENMTools","enveomics.R","eRTG3D","expp","FD","FLightR","foieGras","forams","fso","genotypeR","gfcanalysis","hydrostats","inpdfr","labdsv","lconnect","letsR","loop","m2b","MCMC.OTU","mefa","meteR","move","mvabund","nicheROVER","nimbleEcology","NitrogenUptake2016","NLMR","nlraa","nna","nodiv","nsRFA","NST","OCNet","paleoMAS","petitr","pgirmess","philentropy","phyloregion","picante","polyfreqs","pop","primer","QFASA","raceland","RADanalysis","RAM","rangeMapper","Rbeast","Rdistance","RevEcoR","rfishbase","RRPP","SADISA","sampSurf","seas","Select","sharx","SiMRiv","SitesInterest","soundecology","SP2000","SSP","StAMPP","stockR","swapClass","TipDatingBeast","TITAN2","treeclim","TreeSimGM","tsvr","vegan","VGAM","VGAMdata","virtualNicheR","virtualspecies","wsyn","zoon")
+#ecospace not available
+
+#install all packages
+list.of.packages <- pkgs
+new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
+if(length(new.packages)) install.packages(new.packages)
+
+```
+
+
+### Step 3 - explore the datasets for each package
+
+```{r step 3}
+datasets_list<-datasets.load::getDatasetInfo(pkgs)
+datasets_tibble<-as_tibble(datasets_list)
+datasets_tibble %>% 
+  select(Package,Item, Title)
+
+```
+
+### Step 4 - use custom functions to get the R documentation for the data from within the package
+
+```{r custom functions}
+get_data_help<-function(dat,packname){
+  dat=as.character(dat)
+  packname=as.character(packname)
+  find.package(packname)
+  helptxt<-capture.output(tools::Rd2txt(utils:::.getHelpFile(utils::help(dat,paste0(packname))),options = list(sectionIndent = 0)))
+return(helptxt)  
+}
+
+get_description_data<-function(helptxt){
+  first<-which(grepl("n:",helptxt)==TRUE)
+  last<-which(grepl("U_",helptxt)==TRUE)
+  
+  helptxt[first:last]
+ }
+
+
+```
+
+```{r step 4}
+helptxt<-get_data_help("EurasianLynx","AHMbook")
+get_description_data(helptxt = helptxt)
+
+```
+

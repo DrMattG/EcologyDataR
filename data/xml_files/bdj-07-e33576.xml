@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="3.0" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.7.e33576</article-id>
+      <article-id pub-id-type="publisher-id">33576</article-id>
+      <article-id pub-id-type="manuscript">10723</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Animalia</subject>
+          <subject>Invertebrata</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Aquatic biology</subject>
+          <subject>Freshwater Biota &amp; Ecosystems</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>Alps</subject>
+          <subject>Europe</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Stream benthic macroinvertebrates abundances over a 6-year monitoring period of an Italian glacier-fed stream</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes" xlink:type="simple">
+          <name name-style="western">
+            <surname>Scotti</surname>
+            <given-names>Alberto</given-names>
+          </name>
+          <email xlink:type="simple">alberto.scotti@student.uibk.ac.at</email>
+          <uri content-type="orcid" xlink:type="simple">https://orcid.org/0000-0002-5861-7551</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Tappeiner</surname>
+            <given-names>Ulrike</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Bottarin</surname>
+            <given-names>Roberta</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Institute for Alpine Environment, EURAC Research, Bolzano, Italy</addr-line>
+        <institution xlink:type="simple">Institute for Alpine Environment, EURAC Research</institution>
+        <addr-line content-type="city">Bolzano</addr-line>
+        <country>Italy</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">Institute of Ecology, University of Innsbruck, Innsbruck, Austria</addr-line>
+        <institution xlink:type="simple">Institute of Ecology, University of Innsbruck</institution>
+        <addr-line content-type="city">Innsbruck</addr-line>
+        <country>Austria</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Alberto Scotti (<email xlink:type="simple">alberto.scotti@student.uibk.ac.at</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Benjamin Price</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>06</day>
+        <month>03</month>
+        <year>2019</year>
+      </pub-date>
+      <volume>7</volume>
+      <elocation-id>e33576</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/EA0392BD-D72A-5D15-8F90-362F8CD37569">EA0392BD-D72A-5D15-8F90-362F8CD37569</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/2592847">2592847</uri>
+      <history>
+        <date date-type="received">
+          <day>01</day>
+          <month>02</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>25</day>
+          <month>02</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Alberto Scotti, Ulrike Tappeiner, Roberta Bottarin</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>Aquatic macroinvertebrates are widely used as bioindicators for water quality assessments involving different kinds of disruptive factors, such as hydrological regime variations or pollutant spills. Recently, they demonstrated to be effective in monitoring effects of climate change in alpine stream and rivers. Indeed, since the distribution of macroinvertebrates in glacier-fed streams has been succesfully investigated and described by several authors, the discrepancy in presence/absence and quantity of specific taxa from the established models may represent an early warning of the effects of climatic changes occurring in alpine riverine ecosystems.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>Together with the present paper, we provide a dataset covering a period of 6 years (2010-2015) sampling of aquatic macroinvertebrates along a longitudinal transect of a glacier-fed stream located in the Italian Alps, inside the International Long Term Ecological Research (ILTER) macrosite of Matsch|Mazia (IT-25). Data were collected during the glacial melt period (April - September), with monthly resolution. Owing to the unique temporal resolution of the dataset, we aim to produce a reliable tool (i.e. reference point) for future ecological assessment on the same stream, but also to similar streams worldwide.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>macroinvertebrates</kwd>
+        <kwd>community structure</kwd>
+        <kwd>biodiversity</kwd>
+        <kwd>stream</kwd>
+        <kwd>ILTER</kwd>
+        <kwd>Alps</kwd>
+        <kwd>mountains</kwd>
+        <kwd>climate change</kwd>
+        <kwd>biomonitoring</kwd>
+        <kwd>insects</kwd>
+        <kwd>Saldur</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="1"/>
+        <table-count count="1"/>
+        <ref-count count="13"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>Aquatic macroinvertebrates are commonly used for biomonitoring of lotic environments (<xref ref-type="bibr" rid="B4994456">Resh 2008</xref>). The main reasons for the successful utilisation of aquatic macroinvertebrates as bioindicators are their ubiquity, their generally sedentary behaviour associated with relatively long life cycles, and the high diversity (<xref ref-type="bibr" rid="B4994797">Abel 2014</xref>). As a result, macroinvertebrates allow for detailed, long-term analyses of the quality of the freshwater environment, potentially affected by different factors (e.g. discharge variations, pollutant spills) (<xref ref-type="bibr" rid="B4994806">Rosenberg and Resh 1993</xref>).</p>
+      <p>Recently, aquatic macroinvertebrates have been suggested to be used as sentinels for climate change, especially in relation to glacier retreat (<xref ref-type="bibr" rid="B5011321">Jacobsen et al. 2012</xref>, <xref ref-type="bibr" rid="B4994843">Khamis et al. 2014</xref>). Indeed, a very recent study found a direct relationship between the loss of insects in alpine riverine environments and the consequences of the changing climate (<xref ref-type="bibr" rid="B4994865">Giersch et al. 2017</xref>). In greater detail, forecasted trends in climate for glacier-fed rivers in the upcoming years suggest severe disruptions of the thermal and hydrological regime and of the sediment budget (<xref ref-type="bibr" rid="B4994935">Huss and Hoch 2018</xref>).</p>
+      <p>In this context, characterisation of abiotic and biotic factors (i.e. macroinvertebrates) in alpine streams and rivers have been of interest to ecologists for long time (e.g. <xref ref-type="bibr" rid="B4994965">Ward 1994</xref>, <xref ref-type="bibr" rid="B4994975">Milner et al. 2010</xref>). In particular, several studies have defined the distribution and diversity of benthic macroinvertebrate communities along longitudinal transects of several glacier-fed streams (summarised by <xref ref-type="bibr" rid="B4994989">Milner et al. 2001</xref>). Nevertheless, the temporal resolution of these data is often quite limited, generally not allowing long term monitoring of the study sites.</p>
+      <p>Here, we provide a dataset that contains aquatic macroinvertebrate records collected in 6 consecutive years along a longitudinal transect of the Saldur stream, an almost pristine glacier-fed small river located in the Italian Central Eastern Alps. The Saldur stream has been part of the International Long Term Ecological Research (ILTER) network since 2014 (site code: LTER_EU_IT_100). Our purpose is to release a valuable dataset that has been only partly explored by the studies carried out by <xref ref-type="bibr" rid="B4995009">Rogora et al. (2018)</xref> and <xref ref-type="bibr" rid="B4994999">Scotti et al. (2019)</xref>. Moreover, since no similar datasets have been previously published, it constitutes a reference point and a relevant tool of comparison for aquatic ecologists eager to analyse the effects of climate change in other similar glacier-fed streams, given the widely reported constant distribution of aquatic macroinvertebrates found in this freshwater habitat (<xref ref-type="bibr" rid="B4994989">Milner et al. 2001</xref>).</p>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Study extent">
+        <title>Study extent</title>
+        <p>Data were collected inside Matscher valley (South Tyrol, Italy; 46°N, 10°E), whose surface almost completely overlaps the Saldur stream catchment (101 km<sup>2</sup>) Fig. <xref ref-type="fig" rid="F4995060">1</xref>.</p>
+      </sec>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>For each sampling occasion at each site, we randomly collected 12 Surber samples (0.0506 square metres, mesh size 500 µm) covering all the main substrate typologies present, that were previously examined and estimated. All samples were labelled and preserved in the field with 70% ethanol. Once in the laboratory, the samples were sorted and identified.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>Saldur stream, Matscher Valley, South Tyrol (Autonomous Province of Bolzano/Bozen), Italy.</p>
+        <p>Distance from glacial source, geographic coordinates, elevation, mean stream width and depth, and size of the catchment, calculated for each sampling site, are reported in Table <xref ref-type="table" rid="T4995082">1</xref>.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>All the sampled invertebrate organisms were considered in the study. Macroinvertebrates were identified to family or genus level referring to <xref ref-type="bibr" rid="B4996250">Sansoni and Ghetti (1998)</xref>.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <sec sec-type="Notes">
+        <title>Notes</title>
+        <p>Sampling campaigns were carried out in 6 consecutive years (2010 - 2015), during the glacial melt period (April - September). Depending on the specific years, 5 to 6 samples per year were collected, thus keeping a monthly resolution for the dataset.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Other</p>
+      </sec>
+      <sec sec-type="IP rights notes">
+        <title>IP rights notes</title>
+        <p>CC-BY-NC: Creative Commons Attribution-NonCommercial 4.0 International</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>Bottarin, Roberta; Scotti, Alberto (2019): Abundances of stream benthic macroinvertebrates during a 6-year monitoring period of a glacier-fed stream in South Tyrol, Italy. <italic>Eurac Research, PANGAEA</italic>, <ext-link ext-link-type="uri" xlink:href="https://doi.pangaea.de/10.1594/PANGAEA.897915" xlink:type="simple">https://doi.pangaea.de/10.1594/PANGAEA.897915</ext-link></p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="https://doi.pangaea.de/10.1594/PANGAEA.897915" xlink:type="simple">https://doi.pangaea.de/10.1594/PANGAEA.897915</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>1</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Saldur_invertebrates_abundance</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>tab-delimited text</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>9</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="https://doi.pangaea.de/10.1594/PANGAEA.897915" xlink:type="simple">https://doi.pangaea.de/10.1594/PANGAEA.897915</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>Stream benthic macroinvertebrates have been collected for a period of 6 consecutive years (2010-2015, from April to September, during the glacial melting) along a longitudinal transect of the Saldur stream, a near pristine glacier-fed stream located in South Tyrol, Italy (46°N, 10°E), part of the International Long Term Ecological Research (ILTER) network (site code: LTER_EU_IT_100).</p>
+          <p>Organisms were collected through Surber samplings (0.0506 square metres, mesh size 500 µm) in 3 sites at different elevation and distance from the glacial source: Saldur 1 (2,030 m a.s.l.; 4.962 km), Saldur 2 (2,016 m a.s.l.; 5.325 km), Saldur 3 (1,645 m a.s.l.; 11.123 km).</p>
+          <p>Dataset contains 1901 records, metadata as header.</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">Event</td>
+                  <td rowspan="1" colspan="1">Sampling site</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Latitude</td>
+                  <td rowspan="1" colspan="1">Latitude (DD)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Longitude</td>
+                  <td rowspan="1" colspan="1">Longitude (DD)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Date/Time</td>
+                  <td rowspan="1" colspan="1">Date of sampling</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">ID</td>
+                  <td rowspan="1" colspan="1">Number of consecutive record</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Order</td>
+                  <td rowspan="1" colspan="1">Macroinvertebrate order</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Family</td>
+                  <td rowspan="1" colspan="1">Macroinvertebrate family</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Genus</td>
+                  <td rowspan="1" colspan="1">Macroinvertebrate genus (if available)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Macrof abund [#/m**2]</td>
+                  <td rowspan="1" colspan="1">Abundance of macroinvertebrates [organisms per square metre]</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>The authors thank Silvia Folegot, Andrea Aiello, Francesca Nardin and all the trainees who contributed to the fieldwork campaigns.</p>
+      <p>The site Matsch|Mazia belongs to the national and international long term ecological research networks (LTER-Italy, LTER Europe, and ILTER).</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B4994797">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Abel</surname>
+              <given-names>P. D.</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <source>Water pollution biology</source>
+          <publisher-name>CRC Press</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B4994865">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Giersch</surname>
+              <given-names>J. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hotaling</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kovach</surname>
+              <given-names>R. P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jones</surname>
+              <given-names>L. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Muhlfeld</surname>
+              <given-names>C. C.</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Climate-induced glacier and snow loss imperils alpine stream insects</article-title>
+          <source>Global Change Biology</source>
+          <volume>23</volume>
+          <issue>7</issue>
+          <fpage>2577</fpage>
+          <lpage>2589</lpage>
+          <pub-id pub-id-type="doi">10.1111/gcb.13565</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4994935">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Huss</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hoch</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Global-scale hydrological response to future glacier mass loss</article-title>
+          <source>Nature Climate Change</source>
+          <volume>8</volume>
+          <issue>2</issue>
+          <fpage>135</fpage>
+          <lpage>140</lpage>
+          <pub-id pub-id-type="doi">10.1038/s41558-017-0049-x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5011321">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Jacobsen</surname>
+              <given-names>D</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Milner</surname>
+              <given-names>A. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brown</surname>
+              <given-names>L. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dangles</surname>
+              <given-names>O.</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Biodiversity under threat in glacier-fed river systems</article-title>
+          <source>Nature Climate Change</source>
+          <volume>2</volume>
+          <fpage>361</fpage>
+          <lpage>364</lpage>
+          <pub-id pub-id-type="doi">10.1038/nclimate1435</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4994843">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Khamis</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hannah</surname>
+              <given-names>D. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brown</surname>
+              <given-names>L. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tiberti</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Milner</surname>
+              <given-names>A. M.</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>The use of invertebrates as indicators of environmental change in alpine rivers and lakes</article-title>
+          <source>Science of the Total Environment</source>
+          <volume>493</volume>
+          <fpage>1242</fpage>
+          <lpage>1254</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.scitotenv.2014.02.126</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4994989">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Milner</surname>
+              <given-names>A. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brittain</surname>
+              <given-names>J. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Castella</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Petts</surname>
+              <given-names>G. E.</given-names>
+            </name>
+          </person-group>
+          <year>2001</year>
+          <article-title>Trends of macroinvertebrate community structure in glacier-fed rivers in relation to environmental conditions: a synthesis</article-title>
+          <source>Freshwater Biology</source>
+          <volume>46</volume>
+          <issue>12</issue>
+          <fpage>1833</fpage>
+          <lpage>1847</lpage>
+          <pub-id pub-id-type="doi">10.1046/j.1365-2427.2001.00861.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4994975">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Milner</surname>
+              <given-names>A. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brittain</surname>
+              <given-names>J. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brown</surname>
+              <given-names>L. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hannah</surname>
+              <given-names>D. M.</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <chapter-title>Water sources and habitat of alpine streams</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Bundi</surname>
+              <given-names>U.</given-names>
+            </name>
+          </person-group>
+          <source>Alpine waters. The handbook of environmental chemistry</source>
+          <volume>Vol. 6</volume>
+          <publisher-name>Springer</publisher-name>
+          <publisher-loc>Berlin, Heidelberg</publisher-loc>
+          <size units="page">175-191</size>
+          <pub-id pub-id-type="doi">10.1007/978-3-540-88275-6_9</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4994456">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Resh</surname>
+              <given-names>V. H.</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Which group is best? Attributes of different biological assemblages used in freshwater biomonitoring programs</article-title>
+          <source>Environmental Monitoring and Assessment</source>
+          <volume>138</volume>
+          <fpage>131</fpage>
+          <lpage>138</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10661-007-9749-4</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4995009">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Rogora</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Frate</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Carranza</surname>
+              <given-names>M. L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Freppaz</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stanisci</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bertani</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bottarin</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brambilla</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Canullo</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Carbognani</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cerrato</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chelli</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cremonese</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cutini</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Musciano</surname>
+              <given-names>M. Di</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Erschbamer</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Godone</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Iocchi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Isabellon</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Magnani</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mazzola</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Morra di Cella</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pauli</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Petey</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Petriccione</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Porro</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Psenner</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rossetti</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Scotti</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sommaruga</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tappeiner</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Theurillat</surname>
+              <given-names>J. P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tomaselli</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Viglietti</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Viterbi</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vittoz</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Winkler</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Matteucci</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Assessment of climate change effects on mountain ecosystems through a cross-site analysis in the Alps and Apennines</article-title>
+          <source>Science of The Total Environment</source>
+          <volume>624</volume>
+          <fpage>1429</fpage>
+          <lpage>1442</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.scitotenv.2017.12.155</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4994806">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Rosenberg</surname>
+              <given-names>D. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Resh</surname>
+              <given-names>V. H.</given-names>
+            </name>
+          </person-group>
+          <year>1993</year>
+          <source>Freshwater biomonitoring and benthic macroinvertebrates</source>
+          <publisher-name>Chapman &amp; Hall</publisher-name>
+          <isbn>978-0-412-02251-7</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B4996250">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Sansoni</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ghetti</surname>
+              <given-names>P. F.</given-names>
+            </name>
+          </person-group>
+          <year>1998</year>
+          <source>Atlante per il riconoscimento dei macroinvertebrati dei corsi d’acqua italiani</source>
+          <publisher-name>Provincia Autonoma di Trento</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B4994999">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Scotti</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jacobsen</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tappeiner</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bottarin</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Spatial and temporal variation of benthic macroinvertebrate assemblages during the glacial melt season in an Italian glacier-fed stream</article-title>
+          <source>Hydrobiologia</source>
+          <volume>827</volume>
+          <issue>1</issue>
+          <fpage>123</fpage>
+          <lpage>139</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10750-018-3731-8</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4994965">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ward</surname>
+              <given-names>J. V.</given-names>
+            </name>
+          </person-group>
+          <year>1994</year>
+          <article-title>Ecology of alpine streams</article-title>
+          <source>Freshwater Biology</source>
+          <volume>32</volume>
+          <issue>2</issue>
+          <fpage>277</fpage>
+          <lpage>294</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2427.1994.tb01126.x</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F4995060" position="float" orientation="portrait">
+      <object-id content-type="arpha">AC833344-3C30-5B05-BD53-36EB10B53F4A</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e33576.figure1</object-id>
+      <object-id content-type="zenodo_dep_id">2592865</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Saldur stream in July 2015, during the glacial melting period. Distance from the glacial source of the shown location is about 2 km. Picture: R. Bottarin.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e33576-g001.jpg" position="float" id="oo_259211.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/259211</uri>
+      </graphic>
+    </fig>
+    <table-wrap id="T4995082" position="float" orientation="portrait">
+      <label>Table 1.</label>
+      <caption>
+        <p>Geographical and local characteristics for each of the monitored sampling sites: latitude and longitude (DD), elevation (m a.s.l.), mean stream width and depth (m), catchment area (km<sup>2</sup>).</p>
+      </caption>
+      <table rules="all" border="0">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Site</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Distance from glacial source (km)</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Latitude (DD)</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Longitude (DD)</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Elevation (m a.s.l.)</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Mean stream width (m)</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Mean stream depth (m)</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Catchment area (km<sup>2</sup>)</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Saldur 1</td>
+            <td rowspan="1" colspan="1">4.962</td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">46.743549</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">10.70131</named-content>
+            </td>
+            <td rowspan="1" colspan="1">2,030</td>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1">0.4</td>
+            <td rowspan="1" colspan="1">19.7</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Saldur 2</td>
+            <td rowspan="1" colspan="1">5.325</td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">46.742365</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">10.699572</named-content>
+            </td>
+            <td rowspan="1" colspan="1">2,016</td>
+            <td rowspan="1" colspan="1">8</td>
+            <td rowspan="1" colspan="1">0.3</td>
+            <td rowspan="1" colspan="1">25.6</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Saldur 3</td>
+            <td rowspan="1" colspan="1">11.123</td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">46.711499</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">10.647516</named-content>
+            </td>
+            <td rowspan="1" colspan="1">1,645</td>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1">0.4</td>
+            <td rowspan="1" colspan="1">61.5</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+  </floats-group>
+</article>

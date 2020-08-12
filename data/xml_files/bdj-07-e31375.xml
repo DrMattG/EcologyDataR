@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="3.0" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.7.e31375</article-id>
+      <article-id pub-id-type="publisher-id">31375</article-id>
+      <article-id pub-id-type="manuscript">6904</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Animalia</subject>
+          <subject>Solenoidea</subject>
+          <subject>Solenidae</subject>
+          <subject>Veneroida</subject>
+          <subject>Bivalvia</subject>
+          <subject>Invertebrata</subject>
+          <subject>Mollusca</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Biodiversity &amp; Conservation</subject>
+          <subject>Biogeography</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>Oceans</subject>
+          <subject>World</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>A world dataset on the geographic distributions of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solenidae</tp:taxon-name-part></tp:taxon-name> razor clams (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Mollusca</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Bivalvia</tp:taxon-name-part></tp:taxon-name>)</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes" xlink:type="simple">
+          <name name-style="western">
+            <surname>Saeedi</surname>
+            <given-names>Hanieh</given-names>
+          </name>
+          <email xlink:type="simple">hanieh.saeedi@gmail.com</email>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Costello</surname>
+            <given-names>Mark J</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Department of Marine Zoology, Crustaceans, Senckenberg Research Institute and Natural History Museum , 60325 Frankfurt am Main, Germany</addr-line>
+        <institution xlink:type="simple">Department of Marine Zoology, Crustaceans, Senckenberg Research Institute and Natural History Museum </institution>
+        <addr-line content-type="city">60325 Frankfurt am Main</addr-line>
+        <country>Germany</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">Institute for Ecology, Diversity and Evolution, Goethe University Frankfurt, Frankfurt am Main, Germany</addr-line>
+        <institution xlink:type="simple">Institute for Ecology, Diversity and Evolution, Goethe University Frankfurt</institution>
+        <addr-line content-type="city">Frankfurt am Main</addr-line>
+        <country>Germany</country>
+      </aff>
+      <aff id="A3">
+        <label>3</label>
+        <addr-line content-type="verbatim">OBIS data manager, deep-sea node, Frankfurt am Main, Germany</addr-line>
+        <institution xlink:type="simple">OBIS data manager, deep-sea node</institution>
+        <addr-line content-type="city">Frankfurt am Main</addr-line>
+        <country>Germany</country>
+      </aff>
+      <aff id="A4">
+        <label>4</label>
+        <addr-line content-type="verbatim">Institute of Marine Science, University of Auckland, Auckland 1142, New Zealand</addr-line>
+        <institution xlink:type="simple">Institute of Marine Science, University of Auckland</institution>
+        <addr-line content-type="city">Auckland 1142</addr-line>
+        <country>New Zealand</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Hanieh Saeedi (<email xlink:type="simple">hanieh.saeedi@gmail.com</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Dimitris Poursanidis</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>01</month>
+        <year>2019</year>
+      </pub-date>
+      <volume>7</volume>
+      <elocation-id>e31375</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/66788213-2FE3-51B9-8321-732338FC2AD7">66788213-2FE3-51B9-8321-732338FC2AD7</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/2559689">2559689</uri>
+      <history>
+        <date date-type="received">
+          <day>05</day>
+          <month>11</month>
+          <year>2018</year>
+        </date>
+        <date date-type="accepted">
+          <day>09</day>
+          <month>01</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Hanieh Saeedi, Mark Costello</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>Using this dataset, we examined the global geographical distributions of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solenidae</tp:taxon-name-part></tp:taxon-name> species in relation to their endemicity, species richness and latitudinal ranges and then predicted their distributions under future climate change using species distribution modelling techniques (<xref ref-type="bibr" rid="B3541828">Saeedi et al. 2016a</xref>, <xref ref-type="bibr" rid="B3541848">Saeedi et al. 2016b</xref>). We found that the global latitudinal species richness in <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solenidae</tp:taxon-name-part></tp:taxon-name> is bi-modal, dipping at the equator most likely derived by high sea surface temperature (<xref ref-type="bibr" rid="B3541848">Saeedi et al. 2016b</xref>). We also found that most of the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solenidae</tp:taxon-name-part></tp:taxon-name> species will shift their distribution ranges polewards due to global warming (<xref ref-type="bibr" rid="B3541828">Saeedi et al. 2016a</xref>). We also provided a comprehensive review of the taxon to test whether the latitudinal gradient in species richness was uni-modal with a peak in the tropics or northern hemisphere or asymmetric and bimodal as proposed previously (<xref ref-type="bibr" rid="B3541858">Chaudhary et al. 2016</xref>).</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>This paper presents an integrated global geographic distribution dataset for 77 <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solenidae</tp:taxon-name-part></tp:taxon-name> taxa, including 3,034 geographic distribution records. This dataset was compiled after a careful data-collection and cleaning procedure over four years. Data were collected using field sampling, literature and from open-access databases. Then all the records went through quality control procedures such as validating the taxonomy of the species by examining and re-identifying the specimens in museum collections and using taxonomic and geographic data quality control tools in the World Register of Marine Species (WoRMS) and the r-OBIS package (<xref ref-type="bibr" rid="B4783595">Provoost and Bosch 2017</xref>). This dataset can thus be further used for taxonomical and biogeographical studies of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solenidae</tp:taxon-name-part></tp:taxon-name>.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>Global</kwd>
+        <kwd>geographic distributions</kwd>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="family">Solenidae</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>razor clams</kwd>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="phylum">Mollusca</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>dataset</kwd>
+        <kwd>quality control</kwd>
+        <kwd>museum collections</kwd>
+        <kwd>latitudinal gradient in species richness.</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group xlink:type="simple">
+          <funding-source xlink:type="simple">
+            <named-content content-type="funder_name" xlink:type="simple">University of Auckland</named-content>
+            <named-content content-type="funder_identifier" xlink:type="simple">501100001537</named-content>
+            <named-content content-type="funder_doi" xlink:type="simple">http://doi.org/10.13039/501100001537</named-content>
+          </funding-source>
+        </award-group>
+      </funding-group>
+      <counts>
+        <fig-count count="2"/>
+        <table-count count="0"/>
+        <ref-count count="17"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solenidae</tp:taxon-name-part></tp:taxon-name> is an ecologically and economically important family of marine bivalves called razor clams (<xref ref-type="bibr" rid="B3541891">Cosel 1990</xref>, <xref ref-type="bibr" rid="B3541927">Saeedi et al. 2009</xref>, <xref ref-type="bibr" rid="B3541938">Saeedi et al. 2011</xref>, <xref ref-type="bibr" rid="B3541969">Saeedi et al. 2012</xref>). They comprise three genera, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solen">Solen</tp:taxon-name-part></tp:taxon-name></italic> Linnaeus, 1758 with 67 accepted species and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solena">Solena</tp:taxon-name-part></tp:taxon-name></italic> Mörch, 1853 with two accepted species, including <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solena">S.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="obliqua">obliqua</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solena">S.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="rudis">rudis</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Neosolen">Neosolen</tp:taxon-name-part></tp:taxon-name></italic> (Ghosh, 1920), including species <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Neosolen">N.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="aquaedulcioris">aquaedulcioris</tp:taxon-name-part></tp:taxon-name></italic> (<xref ref-type="bibr" rid="B3541997">Cosel 1989</xref>, <xref ref-type="bibr" rid="B3542061">Cosel 2002</xref>, <xref ref-type="bibr" rid="B3542075">Saeedi and Costello 2013</xref>, <xref ref-type="bibr" rid="B3541948">Saeedi et al. 2013</xref>, <xref ref-type="bibr" rid="B3542089">Bouchet 2014</xref>). These bivalves burrow down to about 30 cm in low intertidal and sub-tidal sandy – muddy sediments (<xref ref-type="bibr" rid="B3541927">Saeedi et al. 2009</xref>, <xref ref-type="bibr" rid="B3541948">Saeedi et al. 2013</xref>). They are suspension feeding bivalves with a free-swimming larva and adults can grow 20-30 mm per year in length (<xref ref-type="bibr" rid="B3541927">Saeedi et al. 2009</xref>). <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solenidae</tp:taxon-name-part></tp:taxon-name> are distributed worldwide in marine coastal and shelf ecosystems down to a depth of 100 m (<xref ref-type="bibr" rid="B3541948">Saeedi et al. 2013</xref>). The highest <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solenidae</tp:taxon-name-part></tp:taxon-name> species richness is in the Indo-Pacific and the family is absent from the polar regions and some oceanic islands such as New Zealand (<xref ref-type="bibr" rid="B3541948">Saeedi et al. 2013</xref>, <xref ref-type="bibr" rid="B3541848">Saeedi et al. 2016b</xref>).</p>
+      <p>Here, we publish a world dataset of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solenidae</tp:taxon-name-part></tp:taxon-name> species distribution records that was compiled from our personal observations, literature, the Global Biodiversity Information Facility (GBIF) and the Ocean Biogeographic Information System (OBIS). A concern in using these data is that its fitness for use may be compromised by misapplication of species names, misspellings of names, occurrence of synonyms, errors in geo-referencing and mis-identification of specimens in museum collections (<xref ref-type="bibr" rid="B3542098">Costello et al. 2007</xref>, <xref ref-type="bibr" rid="B3542117">Robertson 2008</xref>, <xref ref-type="bibr" rid="B3542075">Saeedi and Costello 2013</xref>). Having an accurate and reliable geographic distribution dataset is necessary to study the global biodiversity and biogeography of the selected taxa. The present data have been vetted and used in several publications on species biogeography.</p>
+    </sec>
+    <sec sec-type="General description">
+      <title>General description</title>
+      <sec sec-type="Purpose">
+        <title>Purpose</title>
+        <p>Publishing a standardised geographic distribution dataset that can be further used to study the taxonomy, biogeography, latitudinal species richness patterns and model future distributions of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solenidae</tp:taxon-name-part></tp:taxon-name>.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Study extent">
+        <title>Study extent</title>
+        <p>Global</p>
+      </sec>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>Data on <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solenidae</tp:taxon-name-part></tp:taxon-name> species’ geographic distributions were obtained from the Global Biodiversity Information Facility (GBIF), Ocean Biogeographic Information System (OBIS), published literature, museum collections, personal correspondence and field sampling (). In addition, specimens of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solen">Solen</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="dactylus">dactylus</tp:taxon-name-part></tp:taxon-name></italic> were collected between 2006 to 2013 from Bandar Abbas in the south of Iran, northern Persian Gulf. Individuals were collected using a long steel wire with a V shape hook at one end) (<xref ref-type="bibr" rid="B3542127">Saeedi 2015</xref>). Specimens of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solen">Solen</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="marginatus">marginatus</tp:taxon-name-part></tp:taxon-name></italic> were collected using the salt method at A Pobra do Caraminal, A Coruna, Spain (42°36'47.6202" N, 8°55'38.5644" S) in February 2013 (<xref ref-type="bibr" rid="B3542136">Saeedi 2016</xref>).</p>
+      </sec>
+      <sec sec-type="Quality control">
+        <title>Quality control</title>
+        <p>We cross-referenced OBIS and GBIF data to avoid duplication of records. We excluded all records that were classified as fossils, were mapped on land and where location precision was unknown or more than 100 km. Regarding geographic data quality control, we used a gazetteer (http://www.marineregions.org/gazetteer.php?p=search) and r-OBIS R-package created by OBIS to quality control the data.</p>
+        <p>Regarding taxonomic quality control, all species’ names were verified in WoRMS (<ext-link ext-link-type="uri" xlink:href="http://www.marinespecies.org/aphia.php?p=match" xlink:type="simple">http://www.marinespecies.org/aphia.php?p=match</ext-link>) (<xref ref-type="bibr" rid="B3542075">Saeedi and Costello 2013</xref>, <xref ref-type="bibr" rid="B3542089">Bouchet 2014</xref>) and their synonyms and misspellings were reconciled.</p>
+        <p>We also manually examined and re-identified specimens at the Natural History Museum of Paris (France), Auckland Museum (New Zealand), the National Museum of Natural History (Smithsonian) in Washington D.C. (USA) and the Natural History Museum of London (Fig. <xref ref-type="fig" rid="F3542152">1</xref>) and recorded where they had been collected.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>This study provides an integrated global geographic distribution dataset of all accepted <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solenidae</tp:taxon-name-part></tp:taxon-name> species.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>After the data-cleaning, a total of 3,034 <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solen">Solen</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solena">Solena</tp:taxon-name-part></tp:taxon-name></italic> species records (Suppl. materials <xref ref-type="supplementary-material" rid="S4993760">1</xref>, <xref ref-type="supplementary-material" rid="S3542156">2</xref>, <xref ref-type="supplementary-material" rid="S3542145">3</xref>, <xref ref-type="supplementary-material" rid="S3542146">4</xref>) were collated and used to plot the global distributions of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solenidae</tp:taxon-name-part></tp:taxon-name> species (Fig. <xref ref-type="fig" rid="F3542154">2</xref>). About 38% of distribution records (1,150 records) were extracted from GBIF and OBIS; about 58% of the records were collected from museum collections (1,733 records) and about 4% were sourced from literature and personal correspondence. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solen">Solen</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="marginatus">marginatus</tp:taxon-name-part></tp:taxon-name></italic> had the highest number of records, with about 20% of the total number of records of all <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solenidae</tp:taxon-name-part></tp:taxon-name> species. We found reliable coordinates for 67 of the 69 accepted <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solen">Solen</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solena">Solena</tp:taxon-name-part></tp:taxon-name></italic> species, listed in WoRMS. We found another nine potential species described as aff. and cf. In total, 77 <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solenidae</tp:taxon-name-part></tp:taxon-name> taxa (we use the term 'taxa' as some species in Tables 1 and 2 were not identified to the species level) were used in this study (Suppl. material <xref ref-type="supplementary-material" rid="S4993760">1</xref>).</p>
+        <p><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solenidae</tp:taxon-name-part></tp:taxon-name> species are distributed worldwide from -60 to +60 degree in latitude and they are absent from the polar regions and some oceanic islands such as New Zealand. In total, the eastern Pacific has 10 endemic <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solen">Solen</tp:taxon-name-part></tp:taxon-name></italic> species and one endemic <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solena">Solena</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solena">S.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="rudis">rudis</tp:taxon-name-part></tp:taxon-name></italic>. The Atlantic Ocean has eight <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solen">Solen</tp:taxon-name-part></tp:taxon-name></italic> species and one endemic <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solena">Solena</tp:taxon-name-part></tp:taxon-name></italic> species, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solena">S.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="obliqua">obliqua</tp:taxon-name-part></tp:taxon-name></italic>, which occurs along the tropical mid-west Atlantic coasts of the Caribbean Sea. Europe and the Mediterranean Sea have only one species, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solen">S.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="marginatus">marginatus</tp:taxon-name-part></tp:taxon-name></italic>, which is endemic. The Indo-West Pacific and north-west Pacific has the highest number of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solenidae</tp:taxon-name-part></tp:taxon-name> species (about 50). New Caledonia has two <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solen">Solen</tp:taxon-name-part></tp:taxon-name></italic> species that are both endemic.</p>
+      </sec>
+      <sec sec-type="Taxa included">
+        <title>Taxa included</title>
+        <table-wrap id="taxonomic_coverage" position="anchor" orientation="portrait">
+          <table rules="all">
+            <thead>
+              <tr>
+                <th rowspan="1" colspan="1">Rank</th>
+                <th rowspan="1" colspan="1">Scientific Name</th>
+                <th rowspan="1" colspan="1"/>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">kingdom</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="kingdom">Animalia</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">phylum</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="phylum">Mollusca</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">kingdom</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="class">Bivalvia</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">kingdom</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="superfamily">Solenoidea</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1">Razor clams</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Solenidae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">genus</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="genus" reg="Solen">Solen</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">genus</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="genus" reg="Solena">Solena</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">genus</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="genus" reg="Neosolen">Neosolen</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <sec sec-type="Notes">
+        <title>Notes</title>
+        <p>1958 1 01 - 2013 2 01</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Оpen Data Commons Open Database License (ODbL)</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>Global geographic distributions of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solenidae</tp:taxon-name-part></tp:taxon-name></p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>1</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>A world dataset on geographic distributions of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solenidae</tp:taxon-name-part></tp:taxon-name></p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Excel</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>31</p>
+        </sec>
+        <sec sec-type="">
+          <title/>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">eventID</td>
+                  <td rowspan="1" colspan="1">An identifier created for each record as a combination of the source where the record was obtained and the available catalogue number where available. For example "urn:catalog:GBIF:<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solenidae</tp:taxon-name-part></tp:taxon-name>:20545" means that the record was obtained from GBIF with a catalogue number of 20545. Autonumber were used in the absence of a catalogue number.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventDate</td>
+                  <td rowspan="1" colspan="1">An identifier showing the date and time at which an occurrence was recorded where applicable.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">minimumDepthInMeters</td>
+                  <td rowspan="1" colspan="1">Minimum depth reported fro the record, in metres.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">maximumDepthInMeters</td>
+                  <td rowspan="1" colspan="1">Maximum depth reported for the record, in metres.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLatitude</td>
+                  <td rowspan="1" colspan="1">The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the location where record was reported.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLongitude</td>
+                  <td rowspan="1" colspan="1">The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the location where record was reported.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceID</td>
+                  <td rowspan="1" colspan="1">A unique identifier for the occurrence record specifically created for this dataset.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificName</td>
+                  <td rowspan="1" colspan="1">The accepted scientific name of the record.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificNameAuthorship</td>
+                  <td rowspan="1" colspan="1">The accepted authorship of the scientific name.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificNameID</td>
+                  <td rowspan="1" colspan="1">LSID number recorded for the accepted scientific name of the record.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">kingdom</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the kingdom in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">taxonRank</td>
+                  <td rowspan="1" colspan="1">The lowest taxonomic level where the record is identified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">identificationQualifier</td>
+                  <td rowspan="1" colspan="1">Identification qualifications of the record for scientific names identified at the genus level (such as ?, confer or affinity).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceStatus</td>
+                  <td rowspan="1" colspan="1">A statement about the presence or absence of the record reported from a location.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">catalogNumber</td>
+                  <td rowspan="1" colspan="1">Catalogue number of the record where available.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">basisOfRecord</td>
+                  <td rowspan="1" colspan="1">The nature of the record, i.e. whether the occurrence record is based on a stored specimen or an observation.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">identificationReferences</td>
+                  <td rowspan="1" colspan="1">A link to the original source where the record was obtained if available.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">datasetName</td>
+                  <td rowspan="1" colspan="1">The name identifying the dataset from which the record was derived.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">institutionCode</td>
+                  <td rowspan="1" colspan="1">The name (or acronym) in use by the institution having custody of the object(s) or information referred to in the record.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">collectionCode</td>
+                  <td rowspan="1" colspan="1">The name, acronym, coden or initialism identifying the collection or dataset from which the record was derived.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">recordedBy</td>
+                  <td rowspan="1" colspan="1">The names of people, groups or organisations responsible for recording the original occurrence.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">dateIdentified</td>
+                  <td rowspan="1" colspan="1">The date on which the subject was identified as representing the record.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">identifiedBy</td>
+                  <td rowspan="1" colspan="1">A list of names of people, groups or organisations who assigned the record to the subject.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">countryCode</td>
+                  <td rowspan="1" colspan="1">A unique identifier for the taxon represented in the row obtained from <ext-link ext-link-type="uri" xlink:href="http://rs.gbif.org/vocabulary/iso/3166-1_alpha2.xml" xlink:type="simple">http://rs.gbif.org/vocabulary/iso/3166-1_alpha2.xml</ext-link></td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">locality</td>
+                  <td rowspan="1" colspan="1">The specific description of the place where the record was reported.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">locationAccordingTo</td>
+                  <td rowspan="1" colspan="1">Information about the source of this location information. Here we mentioned the source where we extracted the data.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">county</td>
+                  <td rowspan="1" colspan="1">The full, unabbreviated name of the next smaller administrative region than country in which the location occurs.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">stateProvince</td>
+                  <td rowspan="1" colspan="1">The name of the next smaller administrative region than country in which the location occurs.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">continent</td>
+                  <td rowspan="1" colspan="1">The name of the continent in which the location occurs.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">associatedMedia</td>
+                  <td rowspan="1" colspan="1">A list of identifiers (e.g. publication, global unique identifier, URI) of media associated with the occurrence.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">higherGeography</td>
+                  <td rowspan="1" colspan="1">An identifier for the geographic region within which the Location occurred.</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>HS was supported by a New Zealand International Doctoral Scholarship (NZIDRS) and a University of Auckland Doctoral Scholarship. We acknowledge Rudo von Cosel at the Natural History Museum of Paris for his taxonomic advice during this research. We would like to thank Suzanne T Williams at the Natural History Musum of London, Auckland Museum in New Zealand and Ellen Strong at the National Museum of Natural History (Smithsonian) in Washington, D.C.</p>
+    </ack>
+    <sec sec-type="Author contributions">
+      <title>Author contributions</title>
+      <p>H.S. original hypothesis, data collection and preparation, analysis, writing the paper; M.J.C. advice and guidance in the research and assistance in writing the paper.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="B3542089">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Bouchet</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solenidae</tp:taxon-name-part></tp:taxon-name>. Accessed through: World Register of Marine Species</article-title>
+          <uri xlink:type="simple">http://www.marinespecies.org/aphia.php?p=taxdetails&amp;id=236</uri>
+          <date-in-citation content-type="access-date">2014-01-12T00:00:00+02:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B3541858">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Chaudhary</surname>
+              <given-names>Chhaya</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Saeedi</surname>
+              <given-names>Hanieh</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Costello</surname>
+              <given-names>Mark J.</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Bimodality of latitudinal gradients in marine species richness</article-title>
+          <source>Trends in Ecology &amp; Evolution</source>
+          <volume>31</volume>
+          <issue>9</issue>
+          <fpage>670</fpage>
+          <lpage>676</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tree.2016.06.001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3541997">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Cosel</surname>
+              <given-names>Rudo v</given-names>
+            </name>
+          </person-group>
+          <year>1989</year>
+          <article-title>Three new species of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solen">Solen</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Bivalvia</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solenidae</tp:taxon-name-part></tp:taxon-name>) from the Indian Ocean, with remarks on the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solenidae</tp:taxon-name-part></tp:taxon-name> of Madagascar</article-title>
+          <source>Journal of Conchology</source>
+          <volume>33</volume>
+          <issue>4</issue>
+          <fpage>189</fpage>
+          <lpage>208</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3541891">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Cosel</surname>
+              <given-names>Rudo v</given-names>
+            </name>
+          </person-group>
+          <year>1990</year>
+          <chapter-title>An introduction to the razor shells (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Bivalvia</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name>Solenacea</tp:taxon-name>)</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Morton</surname>
+              <given-names>Brian S</given-names>
+            </name>
+          </person-group>
+          <source>The <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Bivalvia</tp:taxon-name-part></tp:taxon-name></source>
+          <publisher-name>Proceedings of a memorial symposium in honour of Sir Charles Maurice Yonge, Edinburgh, 1986. Hong Kong University, Hong Kong</publisher-name>
+          <size units="page">283-311</size>
+        </element-citation>
+      </ref>
+      <ref id="B3542061">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Cosel</surname>
+              <given-names>R v</given-names>
+            </name>
+          </person-group>
+          <year>2002</year>
+          <chapter-title>Seven new species of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solen">Solen</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Bivalvia</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solenidae</tp:taxon-name-part></tp:taxon-name>) from the tropical Western Pacific, with remarks on other species</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Falkner</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Groh</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Speight</surname>
+              <given-names>C. D.</given-names>
+            </name>
+          </person-group>
+          <source>Collectanea Malacologica</source>
+          <publisher-name>Festschrift für Gerhard Falkner. Conchbooks, Hackenheim/Frierich-Held-Gesellschaft</publisher-name>
+          <publisher-loc>München</publisher-loc>
+        </element-citation>
+      </ref>
+      <ref id="B3542098">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Costello</surname>
+              <given-names>M. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stocks</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Grassle</surname>
+              <given-names>J. F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fautin</surname>
+              <given-names>D. G.</given-names>
+            </name>
+          </person-group>
+          <article-title>About the Ocean Biogeographic Information System</article-title>
+          <uri xlink:type="simple">https://researchspace.auckland.ac.nz/docs/uoa-docs/rights.htm</uri>
+          <date-in-citation content-type="access-date">2013-01-12T00:00:00+02:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B4783595">
+        <element-citation publication-type="software" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Provoost</surname>
+              <given-names>Peter</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bosch</surname>
+              <given-names>Samuel</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>robis: R Client to access data from the OBIS API. Ocean Biogeographic Information System. Intergovernmental Oceanographic Commission of UNESCO.</article-title>
+          <uri xlink:type="simple">https://cran.r-project.org/package=robis</uri>
+        </element-citation>
+      </ref>
+      <ref id="B3542117">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Robertson</surname>
+              <given-names>D. Ross</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Global biogeographical data bases on marine fishes: caveat emptor</article-title>
+          <source>Diversity and Distributions</source>
+          <volume>14</volume>
+          <issue>6</issue>
+          <fpage>891</fpage>
+          <lpage>892</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1472-4642.2008.00519.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3541927">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Saeedi</surname>
+              <given-names>Hanieh</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Raad</surname>
+              <given-names>Shahrokh P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ardalan</surname>
+              <given-names>Aria A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kamrani</surname>
+              <given-names>Ehsan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kiabi</surname>
+              <given-names>Bahram H.</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>Growth and reproduction of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solen">Solen</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="dactylus">dactylus</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Bivalvia</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solenidae</tp:taxon-name-part></tp:taxon-name>) on northern coast of the Persian Gulf (Iran)</article-title>
+          <source>Journal of the Marine Biological Association of the United Kingdom</source>
+          <volume>89</volume>
+          <issue>8</issue>
+          <fpage>1635</fpage>
+          <pub-id pub-id-type="doi">10.1017/s0025315409000964</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3541938">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Saeedi</surname>
+              <given-names>Hanieh</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kamrani</surname>
+              <given-names>Ehsan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Matsuoka</surname>
+              <given-names>Kazumi</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>Catastrophic impact of red tides of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cochlodinium">Cochlodinium</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="polykrikoides">polykrikoides</tp:taxon-name-part></tp:taxon-name></italic> on razor clam <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solen">Solen</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="dactylus">dactylus</tp:taxon-name-part></tp:taxon-name></italic> in coastal waters of northern Persian Gulf</article-title>
+          <source>Journal of the Persian Gulf (Marine Science)</source>
+          <volume>2</volume>
+          <issue>6</issue>
+          <fpage>13</fpage>
+          <lpage>20</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3541969">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Saeedi</surname>
+              <given-names>Hanieh</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ardalan</surname>
+              <given-names>Aria A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kiabi</surname>
+              <given-names>Bahram H</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zibaseresht</surname>
+              <given-names>Ramin</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Metal concentrations in razor clam <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solen">Solen</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="dactylus">dactylus</tp:taxon-name-part></tp:taxon-name></italic> (Von Cosel, 1989) (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Bivalvia</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solenidae</tp:taxon-name-part></tp:taxon-name>), sediments and water in Golshahr coast of Bandar Abbas, Persian Gulf</article-title>
+          <source>Iranian Journal of Fisheries Sciences</source>
+          <volume>11</volume>
+          <issue>1</issue>
+          <fpage>165</fpage>
+          <lpage>183</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3542075">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Saeedi</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Costello</surname>
+              <given-names>M. J.</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <chapter-title>Aspects of global distribution of six marine bivalve mollusc families</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Costa</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <source>Clam Fisheries and Aquaculture</source>
+          <publisher-name>Nova Science Publishers Inc.</publisher-name>
+          <publisher-loc>New York</publisher-loc>
+          <size units="page">17</size>
+        </element-citation>
+      </ref>
+      <ref id="B3541948">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Saeedi</surname>
+              <given-names>Hanieh</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Costello</surname>
+              <given-names>Mark J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cosel</surname>
+              <given-names>Rudo von</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>First report of anterior pallial tentacles in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solen">Solen</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="dactylus">dactylus</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Bivalvia</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solenidae</tp:taxon-name-part></tp:taxon-name>) from the Northern Persian Gulf, Iran</article-title>
+          <source>PLoS ONE</source>
+          <volume>8</volume>
+          <issue>5</issue>
+          <fpage>e63487</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0063487</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3542127">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Saeedi</surname>
+              <given-names>Hanieh</given-names>
+            </name>
+          </person-group>
+          <article-title>Razor clam fishing technique in Bandar Abbas, Iran (northern Persian Gulf)</article-title>
+          <uri xlink:type="simple">https://www.youtube.com/watch?v=8SrVPK3IN2c</uri>
+        </element-citation>
+      </ref>
+      <ref id="B3542136">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Saeedi</surname>
+              <given-names>Hanieh</given-names>
+            </name>
+          </person-group>
+          <article-title>Razor clam fishing using the salt method at A Pobra do Caraminal, A Coruna, Spain</article-title>
+          <uri xlink:type="simple">https://www.youtube.com/watch?v=YZlcqGD9rGM</uri>
+        </element-citation>
+      </ref>
+      <ref id="B3541828">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Saeedi</surname>
+              <given-names>Hanieh</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Basher</surname>
+              <given-names>Zeenatul</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Costello</surname>
+              <given-names>Mark J.</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Modelling present and future global distributions of razor clams (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Bivalvia</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solenidae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Helgoland Marine Research</source>
+          <volume>70</volume>
+          <issue>1</issue>
+          <pub-id pub-id-type="doi">10.1186/s10152-016-0477-4</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3541848">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Saeedi</surname>
+              <given-names>Hanieh</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dennis</surname>
+              <given-names>Todd E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Costello</surname>
+              <given-names>Mark J.</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Bimodal latitudinal species richness and high endemicity of razor clams (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Mollusca</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Journal of Biogeography</source>
+          <pub-id pub-id-type="doi">10.1111/jbi.12903</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F3542152" position="float" orientation="portrait">
+      <object-id content-type="arpha">DA77D411-28A4-56C5-81B2-D229299248A3</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e31375.figure1</object-id>
+      <object-id content-type="zenodo_dep_id">2559713</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Mis-identifications of five species in Auckland and Smithsonian museums. About 35 species (150 specimens) in different museums were re-identified. The top three species were re-identified in Smithsonian (correct identification labels as pink sticker). The last two images show that <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solen">Solen</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="fonesii">fonesii</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solen">Solen</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="marginatus">marginatus</tp:taxon-name-part></tp:taxon-name></italic> (correct identification labels as yellow sticker) were mis-identified as <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solen">Solen</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="vagina">vagina</tp:taxon-name-part></tp:taxon-name></italic>.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e31375-g001.png" position="float" id="oo_118415.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/118415</uri>
+      </graphic>
+    </fig>
+    <fig id="F3542154" position="float" orientation="portrait">
+      <object-id content-type="arpha">6BF22963-90FF-5AF8-9EBA-5FCCF728DC34</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e31375.figure2</object-id>
+      <object-id content-type="zenodo_dep_id">2559715</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>Global distribution of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solenidae</tp:taxon-name-part></tp:taxon-name> species plotted using this dataset. Coloured circles show different species listed in Table 1. Dashed-line represents the Equator.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e31375-g002.jpg" position="float" id="oo_118416.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/118416</uri>
+      </graphic>
+    </fig>
+    <supplementary-material id="S4993760" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">E44D5A9F-175C-5B0B-ADE8-4D1AA1389D5F</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e31375.suppl1</object-id>
+      <object-id content-type="zenodo_dep_id">2559959</object-id>
+      <label>Supplementary material 1</label>
+      <caption>
+        <p>Geographic distribution of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solenidae</tp:taxon-name-part></tp:taxon-name> and number of distribution point records (latitude and longitude) extracted from all databases.</p>
+      </caption>
+      <p>Data type: Geographic Distributions</p>
+      <p>Brief description: Numbers in the references indicate datasets extracted from GBIF and OBIS (Supplementary file 1). All other references cited in this table are listed in Supplementary file 2. WoRMS (World Register of Marine Species); MNHN (National Museum of Natural History); WAM (Western Australian Museum); QM (Queensland Museum); MV (Museum Victoria); AUSM (Australian Museum); AUCM (Auckland Museum); Smithsonian (Smithsonian Museum of Natural History); SBMNH (Santa Barbara Museum of Natural History).</p>
+      <p>File: oo_258680.docx</p>
+      <media xlink:href="bdj-07-e31375-s001.docx" mimetype="Microsoft Word Document" mime-subtype="docx" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/258680</uri>
+      </media>
+      <attrib specific-use="authors">Hanieh Saeedi and Mark J Costello</attrib>
+    </supplementary-material>
+    <supplementary-material id="S3542156" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">F49BD9EE-A7AC-5D4E-92A9-727EE25184FF</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e31375.suppl2</object-id>
+      <object-id content-type="zenodo_dep_id">2559961</object-id>
+      <label>Supplementary material 2</label>
+      <caption>
+        <p>A world dataset on geographic distributions of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solenidae</tp:taxon-name-part></tp:taxon-name></p>
+      </caption>
+      <p>Data type: Occurrences</p>
+      <p>File: oo_240562.xlsx</p>
+      <media xlink:href="bdj-07-e31375-s002.xlsx" mimetype="Microsoft Excel Document" mime-subtype="xlsx" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/240562</uri>
+      </media>
+      <attrib specific-use="authors">Hanieh Saeedi and Mark J Costello</attrib>
+    </supplementary-material>
+    <supplementary-material id="S3542145" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">B5113556-D64C-5B31-8183-BABFCE1C9D31</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e31375.suppl3</object-id>
+      <object-id content-type="zenodo_dep_id">2559963</object-id>
+      <label>Supplementary material 3</label>
+      <caption>
+        <p>Datasets used in this study from GBIF and OBIS, 2012-2014</p>
+      </caption>
+      <p>Data type: Reference Dataset</p>
+      <p>Brief description: When similar data in both GBIF and OBIS were available, only OBIS data have been used</p>
+      <p>File: oo_118409.docx</p>
+      <media xlink:href="bdj-07-e31375-s003.docx" mimetype="Microsoft Word Document" mime-subtype="docx" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/118409</uri>
+      </media>
+      <attrib specific-use="authors">Hanieh Saeedi and Mark J Costello</attrib>
+    </supplementary-material>
+    <supplementary-material id="S3542146" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">CD314850-E90A-5A8C-ADF5-CEAB6FF77244</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e31375.suppl4</object-id>
+      <object-id content-type="zenodo_dep_id">2559965</object-id>
+      <label>Supplementary material 4</label>
+      <caption>
+        <p>Literature list used to extract the distribution point records (latitude and longitude) of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solenidae</tp:taxon-name-part></tp:taxon-name> species</p>
+      </caption>
+      <p>Data type: Reference Dataset</p>
+      <p>File: oo_118410.docx</p>
+      <media xlink:href="bdj-07-e31375-s004.docx" mimetype="Microsoft Word Document" mime-subtype="docx" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/118410</uri>
+      </media>
+      <attrib specific-use="authors">Hanieh Saeedi and Mark JCostello</attrib>
+    </supplementary-material>
+  </floats-group>
+</article>

@@ -1,0 +1,1644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="3.0" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.6.e29081</article-id>
+      <article-id pub-id-type="publisher-id">29081</article-id>
+      <article-id pub-id-type="manuscript">10046</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Animalia</subject>
+          <subject>Invertebrata</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Ecology &amp; Environmental sciences</subject>
+          <subject>Biogeography</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>North America</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Aggregated occurrence records of the federally endangered Poweshiek skipperling (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oarisma">Oarisma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="poweshiek">poweshiek</tp:taxon-name-part></tp:taxon-name></italic>)</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Belitz</surname>
+            <given-names>Michael W</given-names>
+          </name>
+          <uri content-type="orcid" xlink:type="simple">https://orcid.org/0000-0002-8162-5998</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Hendrick</surname>
+            <given-names>Lillian K</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Monfils</surname>
+            <given-names>Michael J</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Cuthrell</surname>
+            <given-names>David L</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Marshall</surname>
+            <given-names>Christopher J</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Kawahara</surname>
+            <given-names>Akito Y</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Cobb</surname>
+            <given-names>Neil S</given-names>
+          </name>
+          <xref ref-type="aff" rid="A5">5</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Zaspel</surname>
+            <given-names>Jennifer M</given-names>
+          </name>
+          <xref ref-type="aff" rid="A6">6</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Horton</surname>
+            <given-names>Andrew M</given-names>
+          </name>
+          <xref ref-type="aff" rid="A7">7</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Huber</surname>
+            <given-names>Stacey L</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Warren</surname>
+            <given-names>Andrew D</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Forthaus</surname>
+            <given-names>Grace A</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes" xlink:type="simple">
+          <name name-style="western">
+            <surname>Monfils</surname>
+            <given-names>Anna K</given-names>
+          </name>
+          <email xlink:type="simple">monfi1ak@cmich.edu</email>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Central Michigan University and Institute for Great Lakes Research, Mount Pleasant, United States of America</addr-line>
+        <institution xlink:type="simple">Central Michigan University and Institute for Great Lakes Research</institution>
+        <addr-line content-type="city">Mount Pleasant</addr-line>
+        <country>United States of America</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">Michigan Natural Features Inventory, Michigan State University Extension, Lansing, United States of America</addr-line>
+        <institution xlink:type="simple">Michigan Natural Features Inventory, Michigan State University Extension</institution>
+        <addr-line content-type="city">Lansing</addr-line>
+        <country>United States of America</country>
+      </aff>
+      <aff id="A3">
+        <label>3</label>
+        <addr-line content-type="verbatim">Oregon State Arthropod Collection, Department of Integrative Biology, Corvallis, United States of America</addr-line>
+        <institution xlink:type="simple">Oregon State Arthropod Collection, Department of Integrative Biology</institution>
+        <addr-line content-type="city">Corvallis</addr-line>
+        <country>United States of America</country>
+      </aff>
+      <aff id="A4">
+        <label>4</label>
+        <addr-line content-type="verbatim">McGuire Center for Lepidoptera and Biodiversity, Florida Museum of Natural History, University of Florida, Gainesville, United States of America</addr-line>
+        <institution xlink:type="simple">McGuire Center for Lepidoptera and Biodiversity, Florida Museum of Natural History, University of Florida</institution>
+        <addr-line content-type="city">Gainesville</addr-line>
+        <country>United States of America</country>
+      </aff>
+      <aff id="A5">
+        <label>5</label>
+        <addr-line content-type="verbatim">Merriam-Powell Center for Environmental Research and Department of Biological Sciences, Northern Arizona University, Flagstaff, United States of America</addr-line>
+        <institution xlink:type="simple">Merriam-Powell Center for Environmental Research and Department of Biological Sciences, Northern Arizona University</institution>
+        <addr-line content-type="city">Flagstaff</addr-line>
+        <country>United States of America</country>
+      </aff>
+      <aff id="A6">
+        <label>6</label>
+        <addr-line content-type="verbatim">Department of Zoology, Milwaukee Public Museum, Milwaukee, United States of America</addr-line>
+        <institution xlink:type="simple">Department of Zoology, Milwaukee Public Museum</institution>
+        <addr-line content-type="city">Milwaukee</addr-line>
+        <country>United States of America</country>
+      </aff>
+      <aff id="A7">
+        <label>7</label>
+        <addr-line content-type="verbatim">Minnesota-Wisconsin Ecological Services Field Office, U.S. Fish and Wildlife Service, Bloomington, United States of America</addr-line>
+        <institution xlink:type="simple">Minnesota-Wisconsin Ecological Services Field Office, U.S. Fish and Wildlife Service</institution>
+        <addr-line content-type="city">Bloomington</addr-line>
+        <country>United States of America</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Anna K Monfils (<email xlink:type="simple">monfi1ak@cmich.edu</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Martin Wiemers</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>27</day>
+        <month>09</month>
+        <year>2018</year>
+      </pub-date>
+      <volume>6</volume>
+      <elocation-id>e29081</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/B3BA4374-3C04-580E-9D56-51CD652C2F03">B3BA4374-3C04-580E-9D56-51CD652C2F03</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/1445845">1445845</uri>
+      <uri content-type="zoobank" xlink:href="http://zoobank.org/E2520F44-993A-4D8B-8E58-28D3D4F9BBD7">E2520F44-993A-4D8B-8E58-28D3D4F9BBD7</uri>
+      <history>
+        <date date-type="received">
+          <day>14</day>
+          <month>08</month>
+          <year>2018</year>
+        </date>
+        <date date-type="accepted">
+          <day>07</day>
+          <month>09</month>
+          <year>2018</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement/>
+        <license license-type="creative-commons-attribution" xlink:href="https://creativecommons.org/share-your-work/public-domain/cc0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the CC0 Public Domain Dedication.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>Primary biodiversity data records that are open access and available in a standardised format are essential for conservation planning and research on policy-relevant time-scales. We created a dataset to document all known occurrence data for the Federally Endangered Poweshiek skipperling butterfly [<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oarisma">Oarisma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="poweshiek">poweshiek</tp:taxon-name-part></tp:taxon-name></italic> (Parker, 1870; <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Lepidoptera</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Hesperiidae</tp:taxon-name-part></tp:taxon-name>)]. The Poweshiek skipperling was a historically common species in prairie systems across the upper Midwest, United States and Manitoba, Canada. Rapid declines have reduced the number of verified extant sites to six. Aggregating and curating Poweshiek skipperling occurrence records documents and preserves all known distributional data, which can be used to address questions related to Poweshiek skipperling conservation, ecology and biogeography. Over 3500 occurrence records were aggregated over a temporal coverage from 1872 to present. Occurrence records were obtained from 37 data providers in the conservation and natural history collection community using both “HumanObservation” and “PreservedSpecimen” as an acceptable basisOfRecord. Data were obtained in different formats and with differing degrees of quality control. During the data aggregation and cleaning process, we transcribed specimen label data, georeferenced occurrences, adopted a controlled vocabulary, removed duplicates and standardised formatting. We examined the dataset for inconsistencies with known Poweshiek skipperling biogeography and phenology and we verified or removed inconsistencies by working with the original data providers. In total, 12 occurrence records were removed because we identified them to be the western congener <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oarisma">Oarisma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="garita">garita</tp:taxon-name-part></tp:taxon-name></italic> (Reakirt, 1866). This resulting dataset enhances the permanency of Poweshiek skipperling occurrence data in a standardised format.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>This is a validated and comprehensive dataset of occurrence records for the Poweshiek skipperling (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oarisma">Oarisma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="poweshiek">poweshiek</tp:taxon-name-part></tp:taxon-name></italic>) utilising both observation and specimen-based records. Occurrence data are preserved and available for continued research and conservation projects using standardised Darwin Core formatting where possible. Prior to this project, much of these occurrence records were not mobilised and were being stored in individual institutional databases, researcher datasets and personal records. This dataset aggregates presence data from state conservation agencies, natural heritage programmes, natural history collections, citizen scientists, researchers and the U.S. Fish &amp; Wildlife Service. The data include opportunistic observations and collections, research vouchers, observations collected for population monitoring and observations collected using standardised research methodologies. The aggregated occurrence records underwent cleaning efforts that improved data interoperablitity, removed transcription errors and verified or removed uncertain data. This dataset enhances available information on the spatiotemporal distribution of this Federally Endangered species. As part of this aggregation process, we discovered and verified Poweshiek skipperling occurrence records from two previously unknown states, Nebraska and Ohio.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>Butterfly Conservation</kwd>
+        <kwd>Distribution</kwd>
+        <kwd>Endangered Species</kwd>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="family">Hesperiidae</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>Location</kwd>
+        <kwd>Occurrence</kwd>
+        <kwd>
+          <italic>
+            <tp:taxon-name>
+              <tp:taxon-name-part taxon-name-part-type="genus">Oarisma</tp:taxon-name-part>
+              <tp:taxon-name-part taxon-name-part-type="species">poweshiek</tp:taxon-name-part>
+            </tp:taxon-name>
+          </italic>
+        </kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="2"/>
+        <table-count count="2"/>
+        <ref-count count="19"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>The Poweshiek skipperling [<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oarisma">Oarisma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="poweshiek">poweshiek</tp:taxon-name-part></tp:taxon-name></italic> (Parker, 1870) (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Lepidoptera</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Hesperiidae</tp:taxon-name-part></tp:taxon-name>)] is a small-bodied (approximately 2.3 – 3.0 cm), univoltine butterfly that was listed in 2014 as Federally Endangered in both the United States and Canada (<xref ref-type="bibr" rid="B4506836">COSEWIC - Committee on the Status of Endangered Wildlife in Canada 2014</xref>, <xref ref-type="bibr" rid="B4506926">USFWS - U.S. Fish and Wildlife Service 2014</xref>). As recently as the mid-1990s, Poweshiek skipperling were widespread and reliably observed in prairie systems of western Minnesota and eastern South Dakota (<xref ref-type="bibr" rid="B4507761">Schlicht et al. 2008</xref>), but in the past two decades, a dramatic range-wide reduction in populations has occurred (<xref ref-type="bibr" rid="B4506700">Swengel et al. 2010</xref>, <xref ref-type="bibr" rid="B4506763">Pogue et al. 2016</xref>). The Poweshiek skipperling is now known only from approximately 1% of the sites where it once occurred (<xref ref-type="bibr" rid="B4506688">Marquardt et al. 2018</xref>).</p>
+      <p>Historically, the core range of Poweshiek skipperling was in prairies of western Minnesota and eastern South Dakota (<xref ref-type="bibr" rid="B4506917">Selby 2005</xref>, <xref ref-type="bibr" rid="B4506774">Saarinen et al. 2016</xref>). Currently, there are six extant populations of Poweshiek skipperling known that occur on the margins of its historic range. Four populations occur in prairie fens in Michigan, USA, one in a mesic prairie in Wisconsin, USA and one in a tallgrass prairie system in Manitoba, Canada (<xref ref-type="bibr" rid="B4506886">Delphey et al. 2016</xref>). Although conservation initiatives focused on captive rearing and habitat management are underway (<xref ref-type="bibr" rid="B4506886">Delphey et al. 2016</xref>), limited information on the biology and biogeography of the Poweshiek skipperling is available, possibly further restricting the current success of these projects.</p>
+      <p>Primary biodiversity data are critical in driving conservation management of endangered species and ecosystems (<xref ref-type="bibr" rid="B4506794">Hardisty et al. 2013</xref>). Refined, validated and reformatted spatiotemporal distribution data can provide information for research and management projects related to the conservation and ecology of the Poweshiek skipperling. Our goal was to leverage the collected knowledge and expertise of the natural history collection and conservation community to aggregate a comprehensive and validated dataset of Poweshiek skipperling occurrence records. Aggregating, cleaning and verifying occurrences inclusive of both human observations and preserved specimens naturally promoted interdisciplinary collaboration between project partners. Mobilising the collective knowledge and expertise of interdisciplinary groups can broaden the effect of research by addressing the complexities and challenges related to biodiversity decline (<xref ref-type="bibr" rid="B4506688">Marquardt et al. 2018</xref>). Here, we compile occurrence records from both human observations and preserved specimens that have undergone a comprehensive cleaning process, providing accessible and curated data.</p>
+    </sec>
+    <sec sec-type="General description">
+      <title>General description</title>
+      <sec sec-type="Purpose">
+        <title>Purpose</title>
+        <p>Poweshiek skipperling face a high risk of extinction (<xref ref-type="bibr" rid="B4506836">COSEWIC - Committee on the Status of Endangered Wildlife in Canada 2014</xref>, <xref ref-type="bibr" rid="B4506926">USFWS - U.S. Fish and Wildlife Service 2014</xref>), making data discovery, aggregation and sharing an urgent and valuable endeavour. We aggregated and curated occurrence records of the Federally Endangered Poweshiek skipperling to examine and validate the distribution of this species. To this degree, the data are being used in developing ecological niche models to examine the correlation between climate and land use variables and the presence of Poweshiek skipperling through space and time (Belitz et al. unpublished data). The publication of occurrence records will provide information and encourage continued research into the biology and conservation of Poweshiek skipperling, while also preserving aggregated data in a standardised format that has undergone a cleaning process.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Project description">
+      <title>Project description</title>
+      <sec sec-type="Title">
+        <title>Title</title>
+        <p>Aggregated occurrence records of the Federally Endangered Poweshiek skipperling (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oarisma">Oarisma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="poweshiek">poweshiek</tp:taxon-name-part></tp:taxon-name></italic>)</p>
+      </sec>
+      <sec sec-type="Study area description">
+        <title>Study area description</title>
+        <p>The study area covered all sites within the historic range of Poweshiek skipperling, including ten states (Illinois, Indiana, Iowa, Michigan, Minnesota, Nebraska, North Dakota, South Dakota, Ohio and Wisconsin) in the Midwest, United States and southeast Manitoba, Canada.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>Poweshiek skipperling occurrence records were aggregated from the following sources: federal agencies (e.g. U.S. Fish &amp; Wildlife Service), natural heritage member programmes (e.g. Michigan Natural Features Inventory), state conservation agencies (e.g. Minnesota DNR, South Dakota GFP), citizen scientists (e.g. iNaturalist, The Lepidopterists’ Society) and natural history collections (Table <xref ref-type="table" rid="T4507193">1</xref>). Both “HumanObservation” and “PreservedSpecimen” were included as occurrence records. Occurrence records were also gathered from the following data aggregators: Global Biodiversity Information Facility (GBIF) and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Lepidoptera</tp:taxon-name-part></tp:taxon-name> of North America Network (LepNet). LepNet is a thematic collection network (TCN), whose data included human observations from citizen scientists (via iNaturalist and The Lepidopterists' Society) and preserved specimens from natural history collections (<xref ref-type="bibr" rid="B4506710">Seltmann et al. 2017</xref>). Many records from LepNet were uploaded in response to requests that we sent to the collections' community (<xref ref-type="bibr" rid="B4506969">Shepard and Marshall 2017</xref>). Prior to our study, there were seven Poweshiek skipperling records in the LepNet repository. As of July 2018, there were 776 records. LepNet also assisted in procuring data from regional collections whose data were not available through publicly accessible repositories. Data from regional collections and smaller projects can enhance scientific inquiry and statistical modelling (<xref ref-type="bibr" rid="B4506958">Glon et al. 2017</xref>, <xref ref-type="bibr" rid="B4506804">Heidorn 2008</xref>). We accessed these data sources by transcribing and standardising specimen metadata that we gathered by transcribing metadata at the physical collection or by curating metadata that was sent in a variety of spreadsheet, text files and word document formats. A part of our data aggregation effort mobilised citizen scientists through a Notes from Nature expedition, where citizen scientists transcribed specimen label data (<xref ref-type="bibr" rid="B4506814">Hill et al. 2012</xref>). Aggregated data included research vouchers, opportunistic observations and collections, observations collected for population monitoring (<xref ref-type="bibr" rid="B4506917">Selby 2005</xref>, <xref ref-type="bibr" rid="B4506700">Swengel et al. 2010</xref>) and observations collected using standardised research methodologies (<xref ref-type="bibr" rid="B4506763">Pogue et al. 2016</xref>).</p>
+        <p>Occurrence data, lacking associated geographical coordinates, were georeferenced using GEOLocate (<xref ref-type="bibr" rid="B4506935">Rios and Bart 2010</xref>). Records with TRS (Township, Range and Section) data were georeferenced using the Bureau of Land Management (BLM) single point translation using Earthpoint (<underline><ext-link ext-link-type="uri" xlink:href="http://www.earthpoint.us/Townships.aspx" xlink:type="simple">www.earthpoint.us/Townships.aspx</ext-link></underline>). If geographic coordinates were not originally provided in decimal degrees, they were converted to decimal degrees, datum WGS84.</p>
+      </sec>
+      <sec sec-type="Quality control">
+        <title>Quality control</title>
+        <p>In the process of vetting the dataset, we identified records that appeared to be outside the range of the Poweshiek skipperling. Images of specimens georeferenced outside the previously known range of the Poweshiek skipperling were obtained and checked by DL Cuthrell, who has worked with this species for over 20 years, to ensure the correct identification of the specimen. Specimens collected in Montana, Colorado, Western Nebraska and Western Manitoba were misidentified as <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oarisma">O.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="poweshiek">poweshiek</tp:taxon-name-part></tp:taxon-name></italic> and instead were <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oarisma">O.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="garita">garita.</tp:taxon-name-part></tp:taxon-name></italic> However, five specimens collected from Nebraska and one collected in Ohio were confirmed as <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oarisma">O.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="poweshiek">poweshiek</tp:taxon-name-part></tp:taxon-name></italic>, expanding the known states that once had Poweshiek skipperling. Using our collective knowledge of historic Poweshiek skipperling sites and our aggregated dataset, we were able to check and refine georeferenced occurrence records. Geographic coordinates of occurrence records that were incorrectly georeferenced were changed to represent coordinates consistent with the locality listed in the occurrence metadata. We mask the locality information of the six extant Poweshiek skipperling sites to protect the Federally Endangered species and its vulnerable prairie habitat.</p>
+        <p>basisOfRecord: Data records with an unknown basisOfRecord were removed from our dataset to ensure the specific nature of the data record was documented.</p>
+        <p>scientificName: The Poweshiek skipperling was originally described as <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hesperia">Hesperia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="powesheik">powesheik</tp:taxon-name-part></tp:taxon-name></italic> by <xref ref-type="bibr" rid="B4506979">Parker (1870)</xref> and numerous occurrence records were listed as <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oarisma">Oarisma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="powesheik">powesheik</tp:taxon-name-part></tp:taxon-name></italic>. The butterfly's type series includes 33 specimens collected in Poweshiek County, Iowa. We aggregated occurrence records listed as <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oarisma">O.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="poweshiek">poweshiek</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oarisma">O.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="powesheik">powesheik</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hesperia">H.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="poweshiek">poweshiek</tp:taxon-name-part></tp:taxon-name></italic> and chose to standardise all taxonomic names to reflect the accepted spelling, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oarisma">Oarisma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="poweshiek">poweshiek</tp:taxon-name-part></tp:taxon-name></italic> (Parker, 1870) as printed in <xref ref-type="bibr" rid="B4506907">Pelham (2008)</xref>.</p>
+        <p>eventDate: We contacted original data providers to check label transcription and identification of Poweshiek skipperling occurrences that were listed outside the expected Poweshiek skipperling flight period of mid-June to mid-July. We removed eventDates, that were automatically filled with an institution’s default date (e.g. 1700-01-01). Any cells in the dataset that were filled with N/A abbreviations were removed.</p>
+        <p>Data within columns were edited to adopt a controlled vocabulary and the Darwin Core standards were used when applicable. Original data were retained when controlled vocabulary could not be utilised. Spelling errors or errors in transcription were noted and changed to reflect correct spelling. We removed any duplicate records that were gathered from multiple sources by removing occurrences with duplicate occurrenceID and/or catalogNumber. Original data were received and downloaded with varying degrees of indexing. Cleaned data were formatted according to Darwin Core standards (<xref ref-type="bibr" rid="B4506944">Wieczorek et al. 2012</xref>) and primary data providers were informed of any edits.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The geographic range of the dataset covers nine U.S. states (North Dakota, South Dakota, Nebraska, Minnesota, Iowa, Wisconsin, Illinois, Michigan and Ohio) and one Canadian province (Manitoba; Fig. <xref ref-type="fig" rid="F4507109">1</xref>). The state with the greatest number of Poweshiek skipperling occurrence records was Michigan (Table <xref ref-type="table" rid="T4507192">2</xref>).</p>
+      </sec>
+      <sec sec-type="Coordinates">
+        <title>Coordinates</title>
+        <p>38.669 and 49.133 Latitude; -98.253 and -83.468 Longitude.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>This dataset is devoted to one species of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Lepidoptera</tp:taxon-name-part></tp:taxon-name> in the family <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Hesperiidae</tp:taxon-name-part></tp:taxon-name>. The species is <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oarisma">Oarisma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="poweshiek">poweshiek</tp:taxon-name-part></tp:taxon-name></italic> (Parker, 1870).</p>
+      </sec>
+      <sec sec-type="Taxa included">
+        <title>Taxa included</title>
+        <table-wrap id="taxonomic_coverage" position="anchor" orientation="portrait">
+          <table rules="all">
+            <thead>
+              <tr>
+                <th rowspan="1" colspan="1">Rank</th>
+                <th rowspan="1" colspan="1">Scientific Name</th>
+                <th rowspan="1" colspan="1">Common Name</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">kingdom</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="kingdom">Animalia</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1">Animals</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">phylum</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="phylum">Arthropoda</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1">Arthropods</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">class</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="class">Insecta</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1">Insects</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">order</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="order">Lepidoptera</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1">Butterflies and Moths</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Hesperiidae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1">Skippers</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1">
+                  <italic>
+                    <tp:taxon-name>
+                      <tp:taxon-name-part taxon-name-part-type="genus" reg="Oarisma">Oarisma</tp:taxon-name-part>
+                      <tp:taxon-name-part taxon-name-part-type="species" reg="poweshiek">poweshiek</tp:taxon-name-part>
+                    </tp:taxon-name>
+                  </italic>
+                </td>
+                <td rowspan="1" colspan="1">Poweshiek skipperling</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <sec sec-type="Notes">
+        <title>Notes</title>
+        <p>1872 – present (Fig. <xref ref-type="fig" rid="F4507113">2</xref>). Poweshiek skipperling were originally described by Parker (1870) based on 33 individuals collected in Grinnell, Iowa. Occurrence records of Poweshiek skipperling specimen collected by HW Parker in Grinnell, Iowa are aggregated in our dataset but do not have an associated eventDate.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Other</p>
+      </sec>
+      <sec sec-type="IP rights notes">
+        <title>IP rights notes</title>
+        <p>See individual records for usage rights.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>Aggregated occurrence records of the federally endangered Poweshiek skipperling (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oarisma">Oarisma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="poweshiek">poweshiek</tp:taxon-name-part></tp:taxon-name></italic>)</p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>1</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oarisma">Oarisma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="poweshiek">poweshiek</tp:taxon-name-part></tp:taxon-name> occurrences</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Darwin Core Archive</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>49</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>http://ipt.idigbio.org/resource?r=cmc</p>
+        </sec>
+        <sec sec-type="Data format version">
+          <title>Data format version</title>
+          <p>1.8</p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>Data are formatted according to Darwin Core standards (<ext-link ext-link-type="uri" xlink:href="http://rs.tdwg.org/dwc/terms" xlink:type="simple">http://rs.tdwg.org/dwc/terms</ext-link>) and the column labels and column descriptions are based on this standard.</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">institutionCode</td>
+                  <td rowspan="1" colspan="1">The name or acronym in use by the institution having custody of the object(s) or information referred to in the record.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">collectionCode</td>
+                  <td rowspan="1" colspan="1">The name, acronym, coden or initialism identifying the collection or dataset from which the record was derived.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">basisOfRecord</td>
+                  <td rowspan="1" colspan="1">The specific nature of the data record. We used a Darwin Core controlled vocabulary for our basisOfRecord that included "PreservedSpecimen" and "HumanObservation".</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceID</td>
+                  <td rowspan="1" colspan="1">An identifier for the Occurrence (as opposed to a particular digital record of the occurrence). In the absence of a persistent global unique identifier, construct one from a combination of identifiers in the record that will most closely make the occurrence ID globally unique. In this dataset, occurrence records use the ID number from its holding facility when applicable. Occurrence records that did not have a unique ID were given their own unique observation ID.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">catalogNumber</td>
+                  <td rowspan="1" colspan="1">An identifier for the record within the data set or collection.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">otherCatalogNumbers</td>
+                  <td rowspan="1" colspan="1">A list of previous or alternative fully qualified catalogue numbers of the catalogued item whether in the current collection or in any other.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificName</td>
+                  <td rowspan="1" colspan="1">The full scientific name.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificNameAuthorship</td>
+                  <td rowspan="1" colspan="1">The authorship information for the scientificName formatted according to the conventions of the applicable nomenclaturalCode.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">genus</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the genus in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">specificEpithet</td>
+                  <td rowspan="1" colspan="1">The name of the first or species epithet of the scientificName.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">identifiedBy</td>
+                  <td rowspan="1" colspan="1">A list of names of people, groups or organisations who assigned the taxon to the subject.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">dateIdentified</td>
+                  <td rowspan="1" colspan="1">The date-time in the Common Era calendar in which the object or observation was identified as being a member of the taxon given in the scientificName.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">recordedBy</td>
+                  <td rowspan="1" colspan="1">A list of names of people, groups or organisations responsible for recording the original Occurrence. The primary collector or observer.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventDate</td>
+                  <td rowspan="1" colspan="1">The date-time or interval during which an Event occurred. For occurrences, this is the data-time when the event was recorded.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">year</td>
+                  <td rowspan="1" colspan="1">The four-digit year in which the Event occurred, according to the Common Era Calendar.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">day</td>
+                  <td rowspan="1" colspan="1">The integer day of the month on which the Event occurred.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">month</td>
+                  <td rowspan="1" colspan="1">The ordinal month in which the Event occurred.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">verbatimEventDate</td>
+                  <td rowspan="1" colspan="1">The verbatim original representation of the date and time information for an Event.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">habitat</td>
+                  <td rowspan="1" colspan="1">A category or description of the habitat in which the Event occurred.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">lifeStage</td>
+                  <td rowspan="1" colspan="1">Indicates the life stage present.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">sex</td>
+                  <td rowspan="1" colspan="1">The sex of the individual represented.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">individualCount</td>
+                  <td rowspan="1" colspan="1">The number of individuals represented present at the time of the Occurrence.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">samplingProtocol</td>
+                  <td rowspan="1" colspan="1">The name of, reference to or description of the method or protocol used during an Event.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">samplingEffort</td>
+                  <td rowspan="1" colspan="1">The amount of effort expended during an Event.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">preparations</td>
+                  <td rowspan="1" colspan="1">A list of preparations and preservation methods for a specimen.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">country</td>
+                  <td rowspan="1" colspan="1">The name of the country or major administrative unit in which the Location occurs. We used the recommended best practice to use the Getty Thesaurus of Geographic Names as the controlled vocabulary.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">stateProvince</td>
+                  <td rowspan="1" colspan="1">The name of the next smaller administrative region than country (state, province, canton, department, region etc.) in which the Location occurs.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">county</td>
+                  <td rowspan="1" colspan="1">The full, unabbreviated name of the next smaller administrative region than stateProvince (county, shire, department etc.) in which the Location occurs.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">municipality</td>
+                  <td rowspan="1" colspan="1">The full, unabbreviated name of the next smaller administrative region than county (city, municipality etc.) in which the Location occurs.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">locality</td>
+                  <td rowspan="1" colspan="1">The specific description of the place. Less specific geographic information can be provided in other geographic terms (higherGeography, continent, country, stateProvince, county, municipality, waterBody, island, islandGroup). This term may contain information modified from the original to correct perceived errors or to standardise the description.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">locationRemarks</td>
+                  <td rowspan="1" colspan="1">Comments or notes about the Location.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLatitude</td>
+                  <td rowspan="1" colspan="1">The latitude of the location from which the catalogued item was collected, expressed in decimal degrees.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLongitude</td>
+                  <td rowspan="1" colspan="1">The longitude of the location from which the catalogued item was collected, expressed in decimal degrees.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">geodeticDatum</td>
+                  <td rowspan="1" colspan="1">The ellipsoid, geodetic datum or spatial reference system (SRS) upon which the geographic coordinates given in decimalLatitude and decimalLongitude are based. Recommended best practice is use of the EPSG code as a controlled vocabulary to provide an SRS, if unknown. Otherwise use of a controlled vocabulary for the name or code of the geodetic datum, if unknown.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">coordinateUncertaintyInMeters</td>
+                  <td rowspan="1" colspan="1">The horizontal distance (in metres) from the given decimalLatitude and decimalLongitude describing the smallest circle containing the whole of the Location. Leave the value empty if the uncertainty is unknown, cannot be estimated or is not applicable (because there are no coordinates). Zero is not a valid value for this term.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">verbatimCoordinates</td>
+                  <td rowspan="1" colspan="1">The verbatim original spatial coordinates of the Location. The coordinate ellipsoid, geodeticDatum or full Spatial Reference System (SRS) for these coordinates should be stored in verbatimSRS.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">georeferencedBy</td>
+                  <td rowspan="1" colspan="1">A list (concatenated and separated) of names of people, groups or organisations who determined the georeference (spatial representation) for the Location.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">georeferenceProtocol</td>
+                  <td rowspan="1" colspan="1">A description or reference to the methods used to determine the spatial footprint, coordinates and uncertainties.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">georeferenceSources</td>
+                  <td rowspan="1" colspan="1">A list (concatenated and separated) of maps, gazetteers or other resources used to georeference the Location, described specifically enough to allow anyone in the future to use the same resources.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">georeferenceRemarks</td>
+                  <td rowspan="1" colspan="1">Notes or comments about the spatial description determination, explaining assumptions made in addition or opposition to those formalised in the method referred to in georeferenceProtocol.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">modified</td>
+                  <td rowspan="1" colspan="1">The most recent data-time on which the resource was changed.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">rightsHolder</td>
+                  <td rowspan="1" colspan="1">A person or organisation owning or managing rights over the resource.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">license</td>
+                  <td rowspan="1" colspan="1">A legal document giving official permission to do something with the resource.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">references</td>
+                  <td rowspan="1" colspan="1">A related resource that is referenced, cited or otherwise pointed to by the described resource.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">bibliographicCitation</td>
+                  <td rowspan="1" colspan="1">A bibliographic reference for the resource as a statement indicating how this record should be cited (attributed) when used. Any data records that were edited cite this data paper in this column.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">ownerInstitutionCode</td>
+                  <td rowspan="1" colspan="1">The name (or acronym) in use by the institution having ownership of the object(s) or infomation referred to in the record.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceRemarks</td>
+                  <td rowspan="1" colspan="1">Comments or notes about the occurrence.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">informationWithheld</td>
+                  <td rowspan="1" colspan="1">Additional information that exists, but that has not been shared in the given record. In this dataset, we withhold information regarding location of extant sites and locality information from specific agencies.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventTime</td>
+                  <td rowspan="1" colspan="1">The time or interval during which an Event occurred. Time is listed in time zone of the respective occurrence record.</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>We are thankful to many people for their efforts in collecting and aggregating data. Our thanks extend to Casey Heimeral, Melissa Doperalski, Lisa Joyal and Rich Baker for providing occurrence records that were aggregated for the South Dakota Department of Game, Fish and Parks and Minnesota Department of Natural Resources. We are especially grateful for the time and effort of Susan Borkin for gathering and transcribing occurrence records gathered over her years researching this species. We thank Sarah Warner for her continued support of Poweshiek skipperling research. We are also thankful to the time and effort of many collection curators and managers, including but not limited to Don Harvey, Nicole Gunter, Anthony Cognato, Tommy McElrath, Christopher Grinter, Karen Wright, Rachel Hawkins, Mark O’Brien, Robin Thomson, Julia Colby, Luciana Musetti, Dawn Roberts and Gerald Fauske. Special thanks to the Partnership for Poweshiek skipperling Conservation for their continued dedication to this species. We greatly appreciate the efforts of Notes from Nature with funding from the National Science Foundation Award # 1458527 for partnering in mobilising citizen scientists in transcribing specimen label data. We thank the National Science Foundation for providing financial support for LepNet projects through the following awards: DBI-1602081, DBI- DBI-1601888, DBI-1601369, DBI-1601002, DBI-1600616, DBI-1601957, DBI-1601164, DBI-1601124, DBI-1600556 and DBI-1601461. Funding also came from the National Science Foundation award DBI-1730526 to develop educational materials for biodiversity data literacy (https://www.biodiversityliteracy.com/poweshiek-skipperling). Financial support also came from Central Michigan University – College of Science and Engineering’s Dean’s Research Assistantship. This paper is contribution number 108 of the Central Michigan University Institute for Great Lakes Research. Additionally, funding for this project was provided by the Great Lakes Restoration Initiative through the U.S. Fish and Wildlife Service’s Endangered Species Program. The findings and conclusions in this project are those of the authors and do not necessarily represent the views of the U.S. Fish and Wildlife Service or the U.S. Environmental Protection Agency.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B4506836">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Canada</surname>
+              <given-names>COSEWIC - Committee on the Status of Endangered Wildlife in</given-names>
+            </name>
+          </person-group>
+          <article-title>Assessment and Status Report on the Poweshiek skipperling <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oarisma">Oarisma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="poweshiek">poweshiek</tp:taxon-name-part></tp:taxon-name></italic></article-title>
+          <uri xlink:type="simple">https://www.registrelep-sararegistry.gc.ca/virtual_sara/files/cosewic/sr_Poweshiek%20Skipperling_2014_e.pdf</uri>
+          <date-in-citation content-type="access-date">2018-07-16T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B4506886">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Delphey</surname>
+              <given-names>P</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Runquist</surname>
+              <given-names>E</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Harris</surname>
+              <given-names>T</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nordmeyer</surname>
+              <given-names>C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Smity</surname>
+              <given-names>T</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Traylor-Hozer</surname>
+              <given-names>K</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Miller</surname>
+              <given-names>PS</given-names>
+            </name>
+          </person-group>
+          <article-title>Poweshiek skipperling and Dakota skipper: <italic>Ex situ</italic> feasibility assessment and planning workshop. Apple Valley, MN: IUCN/SSC Conservation Breeding Specialist Group</article-title>
+          <uri xlink:type="simple">http://www.cpsg.org/sites/cbsg.org/files/documents/PS_DS_WorkshopReport_FINAL.pdf</uri>
+          <date-in-citation content-type="access-date">2018-07-16T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B4506958">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Glon</surname>
+              <given-names>Heather E</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Heumann</surname>
+              <given-names>Benjamin W</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Carter</surname>
+              <given-names>J. Richard</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bartek</surname>
+              <given-names>Jessica M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Monfils</surname>
+              <given-names>Anna K</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>The contribution of small collections to species distribution modelling: A case study from Fuireneae (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Cyperaceae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Ecological Informatics</source>
+          <volume>42</volume>
+          <fpage>67</fpage>
+          <lpage>78</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1016/j.ecoinf.2017.09.009</uri>
+          <pub-id pub-id-type="doi">10.1016/j.ecoinf.2017.09.009</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4506794">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Hardisty</surname>
+              <given-names>Alex</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Roberts</surname>
+              <given-names>Dave</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Biodiversity Informatics Community</surname>
+              <given-names>The</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>A decadal view of biodiversity informatics: challenges and priorities</article-title>
+          <source>BMC Ecology</source>
+          <volume>13</volume>
+          <issue>1</issue>
+          <fpage>16</fpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1186/1472-6785-13-16</uri>
+          <pub-id pub-id-type="doi">10.1186/1472-6785-13-16</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4506804">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Heidorn</surname>
+              <given-names>P. Bryan</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Shedding light on the dark data in the long tail of science</article-title>
+          <source>Library Trends</source>
+          <volume>57</volume>
+          <issue>2</issue>
+          <fpage>280</fpage>
+          <lpage>299</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1353/lib.0.0036</uri>
+          <pub-id pub-id-type="doi">10.1353/lib.0.0036</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4506814">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Hill</surname>
+              <given-names>Andrew</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Guralnick</surname>
+              <given-names>Robert</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Smith</surname>
+              <given-names>Arfon</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sallans</surname>
+              <given-names>Andrew</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gillespie</surname>
+              <given-names>Rosemary</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Denslow</surname>
+              <given-names>Michael</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gross</surname>
+              <given-names>Joyce</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Murrell</surname>
+              <given-names>Zack</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Conyers</surname>
+              <given-names>Tim</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Oboyski</surname>
+              <given-names>Peter</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ball</surname>
+              <given-names>Joan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Thomer</surname>
+              <given-names>Andrea</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Prys-Jones</surname>
+              <given-names>Robert</given-names>
+            </name>
+            <name name-style="western">
+              <surname>la Torre</surname>
+              <given-names>Javier de</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kociolek</surname>
+              <given-names>Patrick</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fortson</surname>
+              <given-names>Lucy</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>The notes from nature tool for unlocking biodiversity records from museum records through citizen science</article-title>
+          <source>ZooKeys</source>
+          <volume>209</volume>
+          <fpage>219</fpage>
+          <lpage>233</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.3897/zookeys.209.3472</uri>
+          <pub-id pub-id-type="doi">10.3897/zookeys.209.3472</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4506688">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Marquardt</surname>
+              <given-names>Shauna R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Annis</surname>
+              <given-names>Mandy</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Drum</surname>
+              <given-names>Ryan G</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hummel</surname>
+              <given-names>Stephanie Longstaff</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mosby</surname>
+              <given-names>David E</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Smith</surname>
+              <given-names>Tamara</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>On the cutting edge of research to conserve at-risk species: maximizing impact through partnerships.</article-title>
+          <source>Integrative and comparative biology</source>
+          <uri xlink:type="simple">http://dx.doi.org/10.1093/icb/icy009</uri>
+          <pub-id pub-id-type="doi">10.1093/icb/icy009</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4506979">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Parker</surname>
+              <given-names>R M</given-names>
+            </name>
+          </person-group>
+          <year>1870</year>
+          <article-title>A new hesperian</article-title>
+          <source>The American Entomologist and Botanist</source>
+          <volume>2</volume>
+          <fpage>271</fpage>
+          <lpage>272</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B4506907">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Pelham</surname>
+              <given-names>JP</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>A catalogue of the butterflies of the United States and Canada.</article-title>
+          <source>The Journal of Research on the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Lepidoptera</tp:taxon-name-part></tp:taxon-name></source>
+          <volume>40</volume>
+          <fpage>1</fpage>
+          <lpage>658</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B4506763">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Pogue</surname>
+              <given-names>Clint D</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Monfils</surname>
+              <given-names>Michael J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cuthrell</surname>
+              <given-names>David L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Heumann</surname>
+              <given-names>Benjamin W</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Monfils</surname>
+              <given-names>Anna K</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Habitat suitability modeling of the federally endangered Poweshiek skipperling in Michigan</article-title>
+          <source>Journal of Fish and Wildlife Management</source>
+          <volume>7</volume>
+          <issue>2</issue>
+          <fpage>359</fpage>
+          <lpage>368</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.3996/052015-jfwm-049</uri>
+          <pub-id pub-id-type="doi">10.3996/052015-jfwm-049</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4506935">
+        <element-citation publication-type="software" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Rios</surname>
+              <given-names>N</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bart</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>GEOLocate</article-title>
+          <publisher-name>Tulane University Museum of Natural History</publisher-name>
+          <uri xlink:type="simple">http://www.geo-locate.org/</uri>
+          <comment content-type="Version">3.22</comment>
+        </element-citation>
+      </ref>
+      <ref id="B4506774">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Saarinen</surname>
+              <given-names>Emily V</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Reilly</surname>
+              <given-names>Patrick F</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Austin</surname>
+              <given-names>James D</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Conservation genetics of an endangered grassland butterfly (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oarisma">Oarisma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="poweshiek">poweshiek</tp:taxon-name-part></tp:taxon-name>) reveals historically high gene flow despite recent and rapid range loss</article-title>
+          <source>Insect Conservation and Diversity</source>
+          <volume>9</volume>
+          <issue>6</issue>
+          <fpage>517</fpage>
+          <lpage>528</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1111/icad.12192</uri>
+          <pub-id pub-id-type="doi">10.1111/icad.12192</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4507761">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Schlicht</surname>
+              <given-names>Dennis</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Swengel</surname>
+              <given-names>Ann</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Swengel</surname>
+              <given-names>Scott</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Meta-analysis of survey data to assess trends of prairie butterflies in Minnesota, USA during 1979–2005</article-title>
+          <source>Journal of Insect Conservation</source>
+          <volume>13</volume>
+          <issue>4</issue>
+          <fpage>429</fpage>
+          <lpage>447</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1007/s10841-008-9192-z</uri>
+          <pub-id pub-id-type="doi">10.1007/s10841-008-9192-z</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4506917">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Selby</surname>
+              <given-names>Gerald</given-names>
+            </name>
+          </person-group>
+          <article-title>Status assessment and conservation guidelines : Poweshiek skipperling <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oarisma">Oarisma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="poweshiek">poweshiek</tp:taxon-name-part></tp:taxon-name></italic> (Parker) (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Lepidoptera</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Hesperiidae</tp:taxon-name-part></tp:taxon-name>). Prepared for Twin Cities Field Office, U.S. Fish and Wildlife Service, Bloomington, MN.</article-title>
+          <uri xlink:type="simple">http://www.fwspubs.org/doi/suppl/10.3996/052015-JFWM-049/suppl_file/052015-jfwm-049.s8.pdf?code=ufws-site</uri>
+          <date-in-citation content-type="access-date">2018-07-16T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B4506710">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Seltmann</surname>
+              <given-names>Katja C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cobb</surname>
+              <given-names>Neil S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gall</surname>
+              <given-names>Lawrence F</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bartlett</surname>
+              <given-names>Charles R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Basham</surname>
+              <given-names>M. Anne</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Betancourt</surname>
+              <given-names>Isabelle</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bills</surname>
+              <given-names>Christy</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brandt</surname>
+              <given-names>Benjamin</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brown</surname>
+              <given-names>Richard L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bundy</surname>
+              <given-names>Charles</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Caterino</surname>
+              <given-names>Michael S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chapman</surname>
+              <given-names>Caitlin</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cognato</surname>
+              <given-names>Anthony</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Colby</surname>
+              <given-names>Julia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cook</surname>
+              <given-names>Stephen P</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Daly</surname>
+              <given-names>Kathryn M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dyer</surname>
+              <given-names>Lee A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Franz</surname>
+              <given-names>Nico M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gelhaus</surname>
+              <given-names>Jon K</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Grinter</surname>
+              <given-names>Christopher C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Harp</surname>
+              <given-names>Charles E</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hawkins</surname>
+              <given-names>Rachel L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Heydon</surname>
+              <given-names>Steve L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hill</surname>
+              <given-names>Geena M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Huber</surname>
+              <given-names>Stacy</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Johnson</surname>
+              <given-names>Norman</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kawahara</surname>
+              <given-names>Akito Y</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kimsey</surname>
+              <given-names>Lynn S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kondratieff</surname>
+              <given-names>Boris C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Krell</surname>
+              <given-names>Frank-Thorsten</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Leblanc</surname>
+              <given-names>Luc</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lee</surname>
+              <given-names>Sangmi</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Marshall</surname>
+              <given-names>Christopher J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>McCabe</surname>
+              <given-names>Lindsie M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>McHugh</surname>
+              <given-names>Joseph V</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Menard</surname>
+              <given-names>Katrina L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Opler</surname>
+              <given-names>Paul A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Palffy-Muhoray</surname>
+              <given-names>Nicole</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pardikes</surname>
+              <given-names>Nick</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Peterson</surname>
+              <given-names>Merrill A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pierce</surname>
+              <given-names>Naomi E</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Poremski</surname>
+              <given-names>Andre</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sikes</surname>
+              <given-names>Derek S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Weintraub</surname>
+              <given-names>Jason D</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wikle</surname>
+              <given-names>David</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zaspel</surname>
+              <given-names>Jennifer M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zolnerowich</surname>
+              <given-names>Gregory</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>LepNet: The <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Lepidoptera</tp:taxon-name-part></tp:taxon-name> of North America Network</article-title>
+          <source>Zootaxa</source>
+          <volume>4247</volume>
+          <issue>1</issue>
+          <fpage>73</fpage>
+          <lpage>77</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.11646/zootaxa.4247.1.10</uri>
+          <pub-id pub-id-type="doi">10.11646/zootaxa.4247.1.10</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4506969">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Shepard</surname>
+              <given-names>Jon</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Marshall</surname>
+              <given-names>Christopher</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Specimen records of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oarisma">Oarisma</tp:taxon-name-part></tp:taxon-name></italic> Scudder 1872 (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Lepidoptera</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Hesperiidae</tp:taxon-name-part></tp:taxon-name>) in the Oregon State Arthropod Collection, OSU, Corvallis OR.</article-title>
+          <source>Catalog: Oregon State Arthropod Collection</source>
+          <volume>1</volume>
+          <issue>1</issue>
+          <fpage>1</fpage>
+          <lpage>3</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.5399/osu/cat_osac.1.1.3995</uri>
+          <pub-id pub-id-type="doi">10.5399/osu/cat_osac.1.1.3995</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4506700">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Swengel</surname>
+              <given-names>Scott R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schlicht</surname>
+              <given-names>Dennis</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Olsen</surname>
+              <given-names>Frank</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Swengel</surname>
+              <given-names>Ann B</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>Declines of prairie butterflies in the midwestern USA</article-title>
+          <source>Journal of Insect Conservation</source>
+          <volume>15</volume>
+          <fpage>327</fpage>
+          <lpage>339</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1007/s10841-010-9323-1</uri>
+          <pub-id pub-id-type="doi">10.1007/s10841-010-9323-1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4506926">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Service</surname>
+              <given-names>USFWS - U. S. Fish and Wildlife</given-names>
+            </name>
+          </person-group>
+          <article-title>Endangered and threatened wildlife and plants; threatened species status for Dakota skipper and endangered species status for Poweshiek skipperling; final rule. Federal Register 79: 63672-748</article-title>
+          <uri xlink:type="simple">https://www.fws.gov/midwest/endangered/insects/dask/pdf/FRButterflyFinalListing24Oct2014.pdf</uri>
+          <date-in-citation content-type="access-date">2018-07-16T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B4506944">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Wieczorek</surname>
+              <given-names>John</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bloom</surname>
+              <given-names>David</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Guralnick</surname>
+              <given-names>Robert</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Blum</surname>
+              <given-names>Stan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Döring</surname>
+              <given-names>Markus</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Giovanni</surname>
+              <given-names>Renato</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Robertson</surname>
+              <given-names>Tim</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vieglais</surname>
+              <given-names>David</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Darwin Core: An evolving community-developed biodiversity data standard</article-title>
+          <source>PLoS ONE</source>
+          <volume>7</volume>
+          <issue>1</issue>
+          <fpage>e29715</fpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1371/journal.pone.0029715</uri>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0029715</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F4507109" position="float" orientation="portrait">
+      <object-id content-type="arpha">C66272EA-4671-5289-A9F7-12E4476CC5EF</object-id>
+      <object-id content-type="doi">10.3897/BDJ.6.e29081.figure1</object-id>
+      <object-id content-type="zenodo_dep_id">1445855</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Distribution of Poweshiek skipperling occurrence records. Occurrence records that are georeferenced at a state centroid resolution are not shown. Stars display the six extant sites (four occur in eastern Michigan, one in Wisconsin and one in Manitoba).</p>
+      </caption>
+      <graphic xlink:href="bdj-06-e29081-g001.png" position="float" id="oo_217601.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/217601</uri>
+      </graphic>
+    </fig>
+    <fig id="F4507113" position="float" orientation="portrait">
+      <object-id content-type="arpha">EA6AAE32-549F-5CE0-8749-1CE424E6AD96</object-id>
+      <object-id content-type="doi">10.3897/BDJ.6.e29081.figure2</object-id>
+      <object-id content-type="zenodo_dep_id">1445857</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>Temporal profile of the number of Poweshiek skipperling occurrences that were documented on unique days. Survey effort for this species increased in the mid-1990s (<xref ref-type="bibr" rid="B4506917">Selby 2005</xref>, <xref ref-type="bibr" rid="B4506700">Swengel et al. 2010</xref>). Poweshiek skipperling were listed as federally endangered in the United States and Canada in 2014 (<xref ref-type="bibr" rid="B4506836">COSEWIC - Committee on the Status of Endangered Wildlife in Canada 2014</xref>, <xref ref-type="bibr" rid="B4506926">USFWS - U.S. Fish and Wildlife Service 2014</xref>).</p>
+      </caption>
+      <graphic xlink:href="bdj-06-e29081-g002.png" position="float" id="oo_221589.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/221589</uri>
+      </graphic>
+    </fig>
+    <table-wrap id="T4507193" position="float" orientation="portrait">
+      <label>Table 1.</label>
+      <caption>
+        <p>Source of Poweshiek skipperling occurrence records. The total number of occurrences (3676) obtained from each source are listed as of July 2018.</p>
+      </caption>
+      <table rules="all" border="0">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Source</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Total Occurrences</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">BugGuide (LepNet)</td>
+            <td rowspan="1" colspan="1">4</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Cal Academy of Sciences</td>
+            <td rowspan="1" colspan="1">68</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Canadian National Collection</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Cleveland Museum of Natural History Invertebrate Zoology (InvertEBase)</td>
+            <td rowspan="1" colspan="1">6</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Chicago Academy of Sciences - Peggy Notebaert Nature Museum</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Colorado State University - C.P. Gillette Museum of Arthropod Diversity (LepNet)</td>
+            <td rowspan="1" colspan="1">22</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Denver Museum of Nature &amp; Science - (LepNet)</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Drexel University - Academy of Natural Sciences (LepNet)</td>
+            <td rowspan="1" colspan="1">6</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Field Museum of Natural History</td>
+            <td rowspan="1" colspan="1">5</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Florida Museum of Natural History (LepNet)</td>
+            <td rowspan="1" colspan="1">155</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Georgia Museum of Natural History – University of Georgia Collection of Arthropods (LepNet)</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Harvard University - Museum of Comparative Zoology (LepNet)</td>
+            <td rowspan="1" colspan="1">11</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Illinois Natural History Survey</td>
+            <td rowspan="1" colspan="1">61</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">iNaturalist (LepNet)</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Manitoba Conservation Data Centre</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Michigan Natural Features Inventory</td>
+            <td rowspan="1" colspan="1">1790</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Michigan State University - Albert J. Cook Arthropod Research Collection (LepNet)</td>
+            <td rowspan="1" colspan="1">48</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Milwaukee Public Museum (LepNet)</td>
+            <td rowspan="1" colspan="1">66</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Minnesota Department of Natural Resources</td>
+            <td rowspan="1" colspan="1">180</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Minnesota Natural Heritage Program</td>
+            <td rowspan="1" colspan="1">11</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Mississippi State University - Mississippi Entomological Museum (LepNet)</td>
+            <td rowspan="1" colspan="1">12</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">National Museum of Natural History</td>
+            <td rowspan="1" colspan="1">82</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">North Dakota State University</td>
+            <td rowspan="1" colspan="1">31</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Oregon State University - Arthropod Collection (LepNet)</td>
+            <td rowspan="1" colspan="1">14</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">South Dakota Department of Game, Fish, and Parks</td>
+            <td rowspan="1" colspan="1">39</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">South Dakota Natural Heritage Program</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">South Dakota State University</td>
+            <td rowspan="1" colspan="1">36</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Texas A&amp;M University - Biodiversity Research and Teaching Collection</td>
+            <td rowspan="1" colspan="1">33</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">The Lepidopterists' Society (LepNet)</td>
+            <td rowspan="1" colspan="1">28</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">The Manitoba Museum (LepNet)</td>
+            <td rowspan="1" colspan="1">206</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">The Ohio State University - C.A. Triplehorn Insect Collection (LepNet)</td>
+            <td rowspan="1" colspan="1">65</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">U.S. Fish and Wildlife Service</td>
+            <td rowspan="1" colspan="1">549</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">UC Davis - Bohart Museum of Entomology (LepNet)</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">University of California Berkeley - Essig Museum of Entomology Collection (LepNet)</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">University of Minnesota - Insect Collection (LepNet)</td>
+            <td rowspan="1" colspan="1">113</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">University of Utah - Natural History Museum of Utah (LepNet)</td>
+            <td rowspan="1" colspan="1">4</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Yale University - Peabody Museum (LepNet)</td>
+            <td rowspan="1" colspan="1">17</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T4507192" position="float" orientation="portrait">
+      <label>Table 2.</label>
+      <caption>
+        <p>The number of Poweshiek skipperling occurrence records across the study area as of July 2018.</p>
+      </caption>
+      <table rules="all" border="0" style="width:254px">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Country</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>State/Province</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Total</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">United States</td>
+            <td rowspan="1" colspan="1">Illinois</td>
+            <td rowspan="1" colspan="1">10</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">United States</td>
+            <td rowspan="1" colspan="1">Iowa</td>
+            <td rowspan="1" colspan="1">352</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">United States</td>
+            <td rowspan="1" colspan="1">Michigan</td>
+            <td rowspan="1" colspan="1">2043</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">United States</td>
+            <td rowspan="1" colspan="1">Minnesota</td>
+            <td rowspan="1" colspan="1">624</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">United States</td>
+            <td rowspan="1" colspan="1">Nebraska</td>
+            <td rowspan="1" colspan="1">5</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">United States</td>
+            <td rowspan="1" colspan="1">North Dakota</td>
+            <td rowspan="1" colspan="1">56</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">United States</td>
+            <td rowspan="1" colspan="1">Ohio</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">United States</td>
+            <td rowspan="1" colspan="1">South Dakota</td>
+            <td rowspan="1" colspan="1">238</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">United States</td>
+            <td rowspan="1" colspan="1">Wisconsin</td>
+            <td rowspan="1" colspan="1">96</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Canada</td>
+            <td rowspan="1" colspan="1">Manitoba</td>
+            <td rowspan="1" colspan="1">228</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+  </floats-group>
+</article>

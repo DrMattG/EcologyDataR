@@ -1,0 +1,2312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.7.e38492</article-id>
+      <article-id pub-id-type="publisher-id">38492</article-id>
+      <article-id pub-id-type="manuscript">12039</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Chelicerata</subject>
+          <subject>Araneae</subject>
+          <subject>Arachnida</subject>
+          <subject>Arthropoda</subject>
+          <subject>Invertebrata</subject>
+          <subject>Animalia</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Zoology &amp; Animal Biology</subject>
+          <subject>Ecology &amp; Environmental sciences</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>Europe</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Continental data on cave-dwelling spider communities across Europe (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Arachnida</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes">
+          <name name-style="western">
+            <surname>Mammola</surname>
+            <given-names>Stefano</given-names>
+          </name>
+          <email xlink:type="simple">stefano.mammola@helsinki.fi</email>
+          <uri content-type="orcid">https://orcid.org/0000-0002-4471-9055</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <name name-style="western">
+            <surname>Cardoso</surname>
+            <given-names>Pedro</given-names>
+          </name>
+          <email xlink:type="simple">pedro.cardoso@helsinki.fi</email>
+          <uri content-type="orcid">https://orcid.org/0000-0001-8119-9960</uri>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Angyal</surname>
+            <given-names>Dorottya</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Balázs</surname>
+            <given-names>Gergely</given-names>
+          </name>
+          <xref ref-type="aff" rid="A5">5</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Blick</surname>
+            <given-names>Theo</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0003-0799-2674</uri>
+          <xref ref-type="aff" rid="A6">6</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Brustel</surname>
+            <given-names>Hervé</given-names>
+          </name>
+          <xref ref-type="aff" rid="A7">7</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Carter</surname>
+            <given-names>Julian</given-names>
+          </name>
+          <xref ref-type="aff" rid="A8">8</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Ćurčić</surname>
+            <given-names>Srećko</given-names>
+          </name>
+          <xref ref-type="aff" rid="A9">9</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Danflous</surname>
+            <given-names>Samuel</given-names>
+          </name>
+          <xref ref-type="aff" rid="A10">10</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Dányi</surname>
+            <given-names>László</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0003-0646-2639</uri>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Déjean</surname>
+            <given-names>Sylvain</given-names>
+          </name>
+          <xref ref-type="aff" rid="A11">11</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Deltshev</surname>
+            <given-names>Christo</given-names>
+          </name>
+          <xref ref-type="aff" rid="A12">12</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Elverici</surname>
+            <given-names>Mert</given-names>
+          </name>
+          <xref ref-type="aff" rid="A13">13</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Fernández</surname>
+            <given-names>Jon</given-names>
+          </name>
+          <xref ref-type="aff" rid="A14">14</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Gasparo</surname>
+            <given-names>Fulvio</given-names>
+          </name>
+          <xref ref-type="aff" rid="A15">15</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Komnenov</surname>
+            <given-names>Marjan</given-names>
+          </name>
+          <xref ref-type="aff" rid="A16">16</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Komposch</surname>
+            <given-names>Christian</given-names>
+          </name>
+          <xref ref-type="aff" rid="A17">17</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Kováč</surname>
+            <given-names>L’ubomír</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0001-8194-2128</uri>
+          <xref ref-type="aff" rid="A18">18</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Kunt</surname>
+            <given-names>Kadir Boğaç</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0003-3137-5510</uri>
+          <xref ref-type="aff" rid="A19">19</xref>
+          <xref ref-type="aff" rid="A20">20</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Mock</surname>
+            <given-names>Andrej</given-names>
+          </name>
+          <xref ref-type="aff" rid="A18">18</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Moldovan</surname>
+            <given-names>Oana</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-1262-0675</uri>
+          <xref ref-type="aff" rid="A21">21</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Naumova</surname>
+            <given-names>Maria</given-names>
+          </name>
+          <xref ref-type="aff" rid="A22">22</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Pavlek</surname>
+            <given-names>Martina</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0001-6710-0581</uri>
+          <xref ref-type="aff" rid="A23">23</xref>
+          <xref ref-type="aff" rid="A24">24</xref>
+          <xref ref-type="aff" rid="A25">25</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Prieto</surname>
+            <given-names>Carlos E.</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0003-2064-4842</uri>
+          <xref ref-type="aff" rid="A26">26</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Ribera</surname>
+            <given-names>Carles</given-names>
+          </name>
+          <xref ref-type="aff" rid="A25">25</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Rozwałka</surname>
+            <given-names>Robert</given-names>
+          </name>
+          <xref ref-type="aff" rid="A27">27</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Růžička</surname>
+            <given-names>Vlastimil</given-names>
+          </name>
+          <xref ref-type="aff" rid="A28">28</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Vargovitsh</surname>
+            <given-names>Robert S.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A29">29</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Zaenker</surname>
+            <given-names>Stefan</given-names>
+          </name>
+          <xref ref-type="aff" rid="A30">30</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <name name-style="western">
+            <surname>Isaia</surname>
+            <given-names>Marco</given-names>
+          </name>
+          <email xlink:type="simple">marco.isaia@unito.it</email>
+          <uri content-type="orcid">https://orcid.org/0000-0001-5434-2127</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Department of Life Sciences and Systems Biology, University of Turin, Turin, Italy</addr-line>
+        <institution>Department of Life Sciences and Systems Biology, University of Turin</institution>
+        <addr-line content-type="city">Turin</addr-line>
+        <country>Italy</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">Laboratory for Integrative Biodiversity Research (LIBRe), Finnish Museum of Natural History, University of Helsinki, Helsinki, Finland</addr-line>
+        <institution>Laboratory for Integrative Biodiversity Research (LIBRe), Finnish Museum of Natural History, University of Helsinki</institution>
+        <addr-line content-type="city">Helsinki</addr-line>
+        <country>Finland</country>
+      </aff>
+      <aff id="A3">
+        <label>3</label>
+        <addr-line content-type="verbatim">Department of Zoology, Hungarian Natural History Museum, Budapest, Hungary</addr-line>
+        <institution>Department of Zoology, Hungarian Natural History Museum</institution>
+        <addr-line content-type="city">Budapest</addr-line>
+        <country>Hungary</country>
+      </aff>
+      <aff id="A4">
+        <label>4</label>
+        <addr-line content-type="verbatim">UMDI, Faculty of Sciences, UNAM National Autonomous University of Mexico, Sisal, Mexico</addr-line>
+        <institution>UMDI, Faculty of Sciences, UNAM National Autonomous University of Mexico</institution>
+        <addr-line content-type="city">Sisal</addr-line>
+        <country>Mexico</country>
+      </aff>
+      <aff id="A5">
+        <label>5</label>
+        <addr-line content-type="verbatim">Department of Systematic Zoology and Ecology, Eötvös Loránd University, Budapest, Hungary</addr-line>
+        <institution>Department of Systematic Zoology and Ecology, Eötvös Loránd University</institution>
+        <addr-line content-type="city">Budapest</addr-line>
+        <country>Hungary</country>
+      </aff>
+      <aff id="A6">
+        <label>6</label>
+        <addr-line content-type="verbatim">Independent Researcher, Hummeltal, Germany</addr-line>
+        <institution>Independent Researcher</institution>
+        <addr-line content-type="city">Hummeltal</addr-line>
+        <country>Germany</country>
+      </aff>
+      <aff id="A7">
+        <label>7</label>
+        <addr-line content-type="verbatim">Ecole d'Ingénieur de Purpan, Toulouse, France</addr-line>
+        <institution>Ecole d'Ingénieur de Purpan</institution>
+        <addr-line content-type="city">Toulouse</addr-line>
+        <country>France</country>
+      </aff>
+      <aff id="A8">
+        <label>8</label>
+        <addr-line content-type="verbatim">Amgueddfa Cymru National Museum Wales, Cardiff, United Kingdom</addr-line>
+        <institution>Amgueddfa Cymru National Museum Wales</institution>
+        <addr-line content-type="city">Cardiff</addr-line>
+        <country>United Kingdom</country>
+      </aff>
+      <aff id="A9">
+        <label>9</label>
+        <addr-line content-type="verbatim">Faculty of Biology, Institute of Zoology, University of Belgrade, Belgrade, Serbia</addr-line>
+        <institution>Faculty of Biology, Institute of Zoology, University of Belgrade</institution>
+        <addr-line content-type="city">Belgrade</addr-line>
+        <country>Serbia</country>
+      </aff>
+      <aff id="A10">
+        <label>10</label>
+        <addr-line content-type="verbatim">Conservatoire d'Espaces Naturels de Midi-Pyrénées, Toulouse, France</addr-line>
+        <institution>Conservatoire d'Espaces Naturels de Midi-Pyrénées</institution>
+        <addr-line content-type="city">Toulouse</addr-line>
+        <country>France</country>
+      </aff>
+      <aff id="A11">
+        <label>11</label>
+        <addr-line content-type="verbatim">Conservatoire d'Espaces Naturels de Midi-Pyrénées, Tolouse, France</addr-line>
+        <institution>Conservatoire d'Espaces Naturels de Midi-Pyrénées</institution>
+        <addr-line content-type="city">Tolouse</addr-line>
+        <country>France</country>
+      </aff>
+      <aff id="A12">
+        <label>12</label>
+        <addr-line content-type="verbatim">National Museum of Natural History, Bulgarian Academy of Sciences, Sofia, Bulgaria</addr-line>
+        <institution>National Museum of Natural History, Bulgarian Academy of Sciences</institution>
+        <addr-line content-type="city">Sofia</addr-line>
+        <country>Bulgaria</country>
+      </aff>
+      <aff id="A13">
+        <label>13</label>
+        <addr-line content-type="verbatim">Department of Biology, Faculty of Science and Arts, Erzincan Binali Yıldırım University, Erzincan, Turkey</addr-line>
+        <institution>Department of Biology, Faculty of Science and Arts, Erzincan Binali Yıldırım University</institution>
+        <addr-line content-type="city">Erzincan</addr-line>
+        <country>Turkey</country>
+      </aff>
+      <aff id="A14">
+        <label>14</label>
+        <addr-line content-type="verbatim">Independent researcher, Basque Country, Spain</addr-line>
+        <institution>Independent researcher</institution>
+        <addr-line content-type="city">Basque Country</addr-line>
+        <country>Spain</country>
+      </aff>
+      <aff id="A15">
+        <label>15</label>
+        <addr-line content-type="verbatim">Commissione Grotte “E. Boegan”, Società Alpina delle Giulie, C.A.I., Trieste, Italy</addr-line>
+        <institution>Commissione Grotte “E. Boegan”, Società Alpina delle Giulie, C.A.I.</institution>
+        <addr-line content-type="city">Trieste</addr-line>
+        <country>Italy</country>
+      </aff>
+      <aff id="A16">
+        <label>16</label>
+        <addr-line content-type="verbatim">Independent Researcher, Blwd Kuzman Josifovski Pitu, Skopje, Macedonia</addr-line>
+        <institution>Independent Researcher, Blwd Kuzman Josifovski Pitu</institution>
+        <addr-line content-type="city">Skopje</addr-line>
+        <country>Macedonia</country>
+      </aff>
+      <aff id="A17">
+        <label>17</label>
+        <addr-line content-type="verbatim">OEKOTEAM - Institute for Animal Ecology and Landscape Planning, Graz, Austria</addr-line>
+        <institution>OEKOTEAM - Institute for Animal Ecology and Landscape Planning</institution>
+        <addr-line content-type="city">Graz</addr-line>
+        <country>Austria</country>
+      </aff>
+      <aff id="A18">
+        <label>18</label>
+        <addr-line content-type="verbatim">Institute of Biology and Ecology, Faculty of Science, Pavol Jozef Šafárik University, Košice, Slovakia</addr-line>
+        <institution>Institute of Biology and Ecology, Faculty of Science, Pavol Jozef Šafárik University</institution>
+        <addr-line content-type="city">Košice</addr-line>
+        <country>Slovakia</country>
+      </aff>
+      <aff id="A19">
+        <label>19</label>
+        <addr-line content-type="verbatim">Zoological Collection of Cyprus Wildlife Research Institute, Kyrenia, Cyprus</addr-line>
+        <institution>Zoological Collection of Cyprus Wildlife Research Institute</institution>
+        <addr-line content-type="city">Kyrenia</addr-line>
+        <country>Cyprus</country>
+      </aff>
+      <aff id="A20">
+        <label>20</label>
+        <addr-line content-type="verbatim">Department of Biology, Faculty of Science, Eskişehir Technical University, Eskişehir, Turkey</addr-line>
+        <institution>Department of Biology, Faculty of Science, Eskişehir Technical University</institution>
+        <addr-line content-type="city">Eskişehir</addr-line>
+        <country>Turkey</country>
+      </aff>
+      <aff id="A21">
+        <label>21</label>
+        <addr-line content-type="verbatim">Emil Racovitza Institute of Speleology, Cluj-Napoca, Romania</addr-line>
+        <institution>Emil Racovitza Institute of Speleology</institution>
+        <addr-line content-type="city">Cluj-Napoca</addr-line>
+        <country>Romania</country>
+      </aff>
+      <aff id="A22">
+        <label>22</label>
+        <addr-line content-type="verbatim">Institute of Biodiversity and Ecosystem Research, Bulgarian Academy of Sciences, Sofia, Bulgaria</addr-line>
+        <institution>Institute of Biodiversity and Ecosystem Research, Bulgarian Academy of Sciences</institution>
+        <addr-line content-type="city">Sofia</addr-line>
+        <country>Bulgaria</country>
+      </aff>
+      <aff id="A23">
+        <label>23</label>
+        <addr-line content-type="verbatim">Ruđer Bošković Institute, Zagreb, Croatia</addr-line>
+        <institution>Ruđer Bošković Institute</institution>
+        <addr-line content-type="city">Zagreb</addr-line>
+        <country>Croatia</country>
+      </aff>
+      <aff id="A24">
+        <label>24</label>
+        <addr-line content-type="verbatim">Croatian Biospeleological Society, Zagreb, Croatia</addr-line>
+        <institution>Croatian Biospeleological Society</institution>
+        <addr-line content-type="city">Zagreb</addr-line>
+        <country>Croatia</country>
+      </aff>
+      <aff id="A25">
+        <label>25</label>
+        <addr-line content-type="verbatim">Department of Evolutionary Biology, Ecology and Environmental Sciences &amp; Biodiversity Research Institute, University of Barcelona, Barcelona, Spain</addr-line>
+        <institution>Department of Evolutionary Biology, Ecology and Environmental Sciences &amp; Biodiversity Research Institute, University of Barcelona</institution>
+        <addr-line content-type="city">Barcelona</addr-line>
+        <country>Spain</country>
+      </aff>
+      <aff id="A26">
+        <label>26</label>
+        <addr-line content-type="verbatim">Department of Zoology &amp; Animal Cell Biology, Faculty of Science and Technology, University of the Basque Country, Bilbao, Spain</addr-line>
+        <institution>Department of Zoology &amp; Animal Cell Biology, Faculty of Science and Technology, University of the Basque Country</institution>
+        <addr-line content-type="city">Bilbao</addr-line>
+        <country>Spain</country>
+      </aff>
+      <aff id="A27">
+        <label>27</label>
+        <addr-line content-type="verbatim">Faculty of Biology and Environmental Sciences, Cardinal Stefan Wyszyński University, Warsaw, Poland</addr-line>
+        <institution>Faculty of Biology and Environmental Sciences, Cardinal Stefan Wyszyński University</institution>
+        <addr-line content-type="city">Warsaw</addr-line>
+        <country>Poland</country>
+      </aff>
+      <aff id="A28">
+        <label>28</label>
+        <addr-line content-type="verbatim">Biology Centre, Institute of Entomology, České Budějovice, Czech Republic</addr-line>
+        <institution>Biology Centre, Institute of Entomology</institution>
+        <addr-line content-type="city">České Budějovice</addr-line>
+        <country>Czech Republic</country>
+      </aff>
+      <aff id="A29">
+        <label>29</label>
+        <addr-line content-type="verbatim">Schmalhausen Institute of Zoology, National Academy of Sciences of Ukraine, Kiev, Ukraine</addr-line>
+        <institution>Schmalhausen Institute of Zoology, National Academy of Sciences of Ukraine</institution>
+        <addr-line content-type="city">Kiev</addr-line>
+        <country>Ukraine</country>
+      </aff>
+      <aff id="A30">
+        <label>30</label>
+        <addr-line content-type="verbatim">Verband der deutschen Höhlen- und Karstforscher e.V., Fulda, Germany</addr-line>
+        <institution>Verband der deutschen Höhlen- und Karstforscher e.V.</institution>
+        <addr-line content-type="city">Fulda</addr-line>
+        <country>Germany</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding authors: Stefano Mammola (<email xlink:type="simple">stefano.mammola@helsinki.fi</email>), Pedro Cardoso (<email xlink:type="simple">pedro.cardoso@helsinki.fi</email>), Marco Isaia (<email xlink:type="simple">marco.isaia@unito.it</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Jeremy Miller</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>08</day>
+        <month>10</month>
+        <year>2019</year>
+      </pub-date>
+      <volume>7</volume>
+      <elocation-id>e38492</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/4FD8D77E-6025-5DA8-828C-F1BA1E2CE905">4FD8D77E-6025-5DA8-828C-F1BA1E2CE905</uri>
+      <history>
+        <date date-type="received">
+          <day>24</day>
+          <month>07</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>07</day>
+          <month>10</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Stefano Mammola, Pedro Cardoso, Dorottya Angyal, Gergely Balázs, Theo Blick, Hervé Brustel, Julian Carter, Srećko Ćurčić, Samuel Danflous, László Dányi, Sylvain Déjean, Christo Deltshev, Mert Elverici, Jon Fernández, Fulvio Gasparo, Marjan Komnenov, Christian Komposch, L’ubomír Kováč, Kadir Boğaç Kunt, Andrej Mock, Oana Moldovan, Maria Naumova, Martina Pavlek, Carlos E. Prieto, Carles Ribera, Robert Rozwałka, Vlastimil Růžička, Robert S. Vargovitsh, Stefan Zaenker, Marco Isaia</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>Spiders (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Arachnida</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>) are widespread in subterranean ecosystems worldwide and represent an important component of subterranean trophic webs. Yet, global-scale diversity patterns of subterranean spiders are still mostly unknown. In the frame of the CAWEB project, a European joint network of cave arachnologists, we collected data on cave-dwelling spider communities across Europe in order to explore their continental diversity patterns. Two main datasets were compiled: one listing all subterranean spider species recorded in numerous subterranean localities across Europe and another with high resolution data about the subterranean habitat in which they were collected. From these two datasets, we further generated a third dataset with individual geo-referenced occurrence records for all these species.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>Data from 475 geo-referenced subterranean localities (caves, mines and other artificial subterranean sites, interstitial habitats) are herein made available. For each subterranean locality, information about the composition of the spider community is provided, along with local geomorphological and habitat features. Altogether, these communities account for &gt; 300 unique taxonomic entities and 2,091 unique geo-referenced occurrence records, that are made available via the Global Biodiversity Information Facility (GBIF) (<xref ref-type="bibr" rid="B5370086">Mammola and Cardoso 2019</xref>). This dataset is unique in that it covers both a large geographic extent (from 35° south to 67° north) and contains high-resolution local data on geomorphological and habitat features. Given that this kind of high-resolution data are rarely associated with broad-scale datasets used in macroecology, this dataset has high potential for helping researchers in tackling a range of biogeographical and macroecological questions, not necessarily uniquely related to arachnology or subterranean biology.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>cave</kwd>
+        <kwd>Europe</kwd>
+        <kwd>spiders</kwd>
+        <kwd>subterranean biology</kwd>
+        <kwd>troglophile</kwd>
+        <kwd>troglobiont</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="6"/>
+        <table-count count="0"/>
+        <ref-count count="39"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>Spiders (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Arachnida</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>) are widespread in caves and other subterranean ecosystems worldwide, representing an important component of subterranean trophic webs (<xref ref-type="bibr" rid="B5246383">Deharveng and Bedos 2019</xref>). They are distinctive for their key ecological role as predators and for the variety of functional adaptations, representing therefore ideal model organisms for exploring a variety of ecological and evolutionary topics (<xref ref-type="bibr" rid="B5243612">Mammola and Isaia 2017</xref>). For example, different spider species have been used for studying silk's mechanical and structural properties (<xref ref-type="bibr" rid="B5244887">Lepore et al. 2012</xref>, <xref ref-type="bibr" rid="B5244898">Piorkowski et al. 2017</xref>), for exploring a range of morphological, metabolic and behavioural adaptations (<xref ref-type="bibr" rid="B5244836">Cardoso and Scharff 2009</xref>, <xref ref-type="bibr" rid="B5245047">Doran et al. 2001</xref>, <xref ref-type="bibr" rid="B5245037">Doran et al. 2017</xref>, <xref ref-type="bibr" rid="B5245067">Hadley et al. 1981</xref>, <xref ref-type="bibr" rid="B5244936">Lipovšek et al. 2018</xref>, <xref ref-type="bibr" rid="B5244947">Lipovšek et al. 2017</xref>, <xref ref-type="bibr" rid="B5245077">Miller 2005</xref>, <xref ref-type="bibr" rid="B5245120">Yancey et al. 2018</xref>, <xref ref-type="bibr" rid="B5245024">Chiavazzo et al. 2015</xref>, <xref ref-type="bibr" rid="B5245057">Michalik et al. 2014</xref>,<xref ref-type="bibr" rid="B5294304">Hesselberg et al. 2019</xref>), for shedding light on the mechanisms of speciation and the processes underpinning biological radiations (<xref ref-type="bibr" rid="B5244960">Arnedo et al. 2007</xref>, <xref ref-type="bibr" rid="B5244993">Hedin 2015</xref>, <xref ref-type="bibr" rid="B5244983">Růžička et al. 2013</xref>, <xref ref-type="bibr" rid="B5245013">Yao et al. 2016</xref>, <xref ref-type="bibr" rid="B5245003">Zhang and Li 2013</xref>), as well as for testing ecological hypotheses (<xref ref-type="bibr" rid="B5244808">Cardoso 2012</xref>, <xref ref-type="bibr" rid="B5245087">Mammola et al. 2016</xref>, <xref ref-type="bibr" rid="B5275050">Mammola et al. 2019</xref>, <xref ref-type="bibr" rid="B5245107">Novak et al. 2010</xref>, <xref ref-type="bibr" rid="B5245097">Lunghi 2018</xref>).</p>
+      <p>Yet, the accessible information about the ecology of most subterranean spiders is still limited, especially when considering broad-scale spatial and temporal patterns of subterranean communities (that is, a macroecological perspective). Indeed, due to the general paucity of information on most subterranean spiders (e.g. <xref ref-type="bibr" rid="B5244757">Huber 2018</xref>, <xref ref-type="bibr" rid="B5243633">Mammola et al. 2018</xref>, <xref ref-type="bibr" rid="B5244808">Cardoso 2012</xref>) and the lack of broad-scale databases about their distribution (<xref ref-type="bibr" rid="B5244767">Culver et al. 2013</xref>, <xref ref-type="bibr" rid="B5244777">Mammola 2019</xref>), global-scale diversity patterns of subterranean spiders remain virtually undescribed (<xref ref-type="bibr" rid="B5243633">Mammola et al. 2018a</xref>, <xref ref-type="bibr" rid="B5243612">Mammola and Isaia 2017</xref>). In an attempt to overcome this impediment, we created an international network of araneologists and cavers (that we called the "CAWEB" network; <xref ref-type="bibr" rid="B5254747">Mammola et al. 2017</xref>) to compile the first continental-scale geo-referenced dataset of cave-dwelling and other subterranean spider communities (<xref ref-type="bibr" rid="B5367557">Mammola et al. 2019b</xref>). In this data paper, we describe these datasets and make them freely available online for future use. We aim to provide an accessible tool for exploring continental patterns of subterranean species distribution, as well as to further expand the CAWEB network and thus the geographical coverage of these datasets.</p>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>Europe.</p>
+      </sec>
+      <sec sec-type="Coordinates">
+        <title>Coordinates</title>
+        <p>35.0 and 67.0 Latitude; –9.0 and 37.0 Longitude.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Taxa included">
+        <title>Taxa included</title>
+        <table-wrap id="taxonomic_coverage" position="anchor" orientation="portrait">
+          <table rules="all">
+            <thead>
+              <tr>
+                <th rowspan="1" colspan="1">Rank</th>
+                <th rowspan="1" colspan="1">Scientific Name</th>
+                <th rowspan="1" colspan="1">Common Name</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">order</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1">Spiders</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Creative Commons Public Domain Waiver (CC-Zero)</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>Cave_dwelling_spiders_Europe</p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>3</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>GBIF_occurrence_cave_spiders</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Tab delimited file (.csv).</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>22</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>https://doi.org/10.15468/ygocko</p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>A dataset with all the referenced distribution points of the species considered in the subterranean localities included in the CAWEB project. This biodiversity dataset is constructed following the Darwin Core standard.</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">id</td>
+                  <td rowspan="1" colspan="1">An alphanumeric identifier ("Ara" followed by a progressive number; e.g. Ara0001) for the Occurrence (as opposed to a particular digital record of the occurrence).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">basisOfRecord</td>
+                  <td rowspan="1" colspan="1">The specific nature of the data record. Categorical vairable. Either 'PreservedSpecimens' (data record based on specimens stored in a museum or private collection), 'Literature' (data record based on literature information) or HumanObservation (data record based on personal observations by the author of each records). See "notes" and "referencesSpecies" columns in the "Cave description.csv" dataset for full bibliographic details.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">collectionCode</td>
+                  <td rowspan="1" colspan="1">For "PreservedSpecimens", the name identifying the collection or dataset from which the record was derived. Note that, in spelling institutions and collection names, we have omitted accents (e.g. á, è, ò) and special characters (e.g. ä, č, ê) in order to avoid formatting problems.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">informationWithheld</td>
+                  <td rowspan="1" colspan="1">Additional information relative to each record, indicating the person to contact for information about the record. Note that, in spelling contact names, we have omitted accents (e.g. á, è, ò) and special characters (e.g. ä, č, ê) in order to avoid formatting problems.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">datasetName</td>
+                  <td rowspan="1" colspan="1">The name of the dataset from which the record was derived.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">bibliographicCitation</td>
+                  <td rowspan="1" colspan="1">The bibliographic reference for the resource, indicating how individual records should be cited (attributed) when used.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">country</td>
+                  <td rowspan="1" colspan="1">The name of the country or major administrative unit in which the verbatimLocality is situated.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">locationID</td>
+                  <td rowspan="1" colspan="1">An identifier for the set of location information. Same as the column ID in the "Cave_description" dataset.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">verbatimLocality</td>
+                  <td rowspan="1" colspan="1">The original textual description of the locality.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLatitude</td>
+                  <td rowspan="1" colspan="1">The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic centre of a location.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLongitude</td>
+                  <td rowspan="1" colspan="1">The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic centre of a location.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">geodeticDatum</td>
+                  <td rowspan="1" colspan="1">The ellipsoid, geodetic datum or spatial reference system (SRS) upon which the geographic coordinates, given in decimalLatitude and decimalLongitude, are based.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">georeferenceProtocol</td>
+                  <td rowspan="1" colspan="1">A description or reference to the methods used to determine the spatial footprint, coordinates and uncertainties.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">phylum</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the phylum or division in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">class</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the class in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">order</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the order in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">family</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the family in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">genus</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the genus in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">specificEpithet</td>
+                  <td rowspan="1" colspan="1">Specific epithet of the taxonomic record.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">specificName</td>
+                  <td rowspan="1" colspan="1">The full scientific name, with authorship and date information if known.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificNameAuthorship</td>
+                  <td rowspan="1" colspan="1">The authorship information for the scientific name formatted according to the conventions of the applicable nomenclatural code.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">taxonRank</td>
+                  <td rowspan="1" colspan="1">The highest taxonomic rank in the specificName – either a genus or a species.</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+      <sec sec-type="Data set 2">
+        <title>Data set 2.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Cave_description</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Tab delimited file (.csv)</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>25</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.6084/m9.figshare.8224025">10.6084/m9.figshare.8224025</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>A dataset with all the information about the subterranean localities included in the CAWEB project. The R notation 'NA' is used for missing values.</p>
+          <table-wrap id="DS2" orientation="portrait" position="anchor">
+            <label>Data set 2.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">ID</td>
+                  <td rowspan="1" colspan="1">An alphanumeric identifier ("CAVE_" followed by a progressive number; e.g. CAVE_001) for the subterranean locality. Note that the exact same "ID" is used in the "Community_composition" dataset, in order to unambiguously link each subterranean locality with its spider community's composition.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">locality</td>
+                  <td rowspan="1" colspan="1">Name of the cave/subterranean locality. Not translated in English.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">country</td>
+                  <td rowspan="1" colspan="1">The name of the country or major administrative unit in which the subterranean locality is situated.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLongitude</td>
+                  <td rowspan="1" colspan="1">The geographic longitude of the entrance of the subterranean locality.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLatitude</td>
+                  <td rowspan="1" colspan="1">The geographic latitude of the entrance of the subterranean locality.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">geodeticDatum</td>
+                  <td rowspan="1" colspan="1">The ellipsoid, geodetic datum or spatial reference system (SRS) upon which the geographic coordinates given in decimalLatitude and decimalLongitude are based.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">elevation</td>
+                  <td rowspan="1" colspan="1">Altitude a.s.l. of the subterranean locality's main entrance in metres (m).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">aspect</td>
+                  <td rowspan="1" colspan="1">The direction that the main entrance of the cave/subterranean locality faces. Categorical variables. N = North; S = South; E = East; W = West; flat = entrance in a plane terrain.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">entranceNumber</td>
+                  <td rowspan="1" colspan="1">Number of known subterranean localities' entrances (if any).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">entranceType</td>
+                  <td rowspan="1" colspan="1">The general morphology of the subterranean locality's main entrance. Categorical variables. ascendent = ascending; descendent = descending entrance; horizontal = horizontal entrance; pit = vertical entrance.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">entranceSize</td>
+                  <td rowspan="1" colspan="1">Size (base x height) of the subterranean locality's main entrance in square metres (m<sup>2</sup>).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">entranceHabitat</td>
+                  <td rowspan="1" colspan="1">Prevalent habitat in which the subterranean locality opens. Categorical variables. Either "agricultural", "forest", "grass", "rocky", "shrubs" or "urbanized".</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">entranceHabitatVerbatim</td>
+                  <td rowspan="1" colspan="1">A verbatim description of the habitat in which the subterranean locality opens.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">development</td>
+                  <td rowspan="1" colspan="1">The subterranean locality total planimetric development in metres (m).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">positiveDrop</td>
+                  <td rowspan="1" colspan="1">Total ascent of the subterranean locality in metres (m).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">negativeDrop</td>
+                  <td rowspan="1" colspan="1">Total descent of the subterranean locality in metres (m).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">caveType</td>
+                  <td rowspan="1" colspan="1">The type of subterranean locality. Categorical variable. Either "artificial" (e.g. mine, mineshafts, military bunkers, railways, subterranean blockhouses, cellars etc.), "ialine" (ialine caves), "ice" (ice caves), "karst" (karst caves, dolines etc.), "other" (other types; e.g. interstitial habitats), "tectonic" (talus caves, cracks, faults etc.), "volcanic" (volcanic caves, lava tubes etc.).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">caveMorphology</td>
+                  <td rowspan="1" colspan="1">The general morphology of the subterranean locality (i.e. prevalent morphology along the locality). Categorical variables. ascendent = prevalently an ascending morphology; descendent = prevalently a descending morphology; horizontal = prevalently a horizontal morphology; pit = primarily a vertical pit/abyss.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">caveActive</td>
+                  <td rowspan="1" colspan="1">Binary variable. If the subterranean locality is active (1) or not (0). An active cave is a cave which has a stream flowing in it.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">caveTouristic</td>
+                  <td rowspan="1" colspan="1">Binary variable. If the subterranean locality is open to general tourists (1) or not (0).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">notes</td>
+                  <td rowspan="1" colspan="1">Additional notes about the subterranean locality.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">referencesLocality</td>
+                  <td rowspan="1" colspan="1">References with additional information about the subterranean locality (if any).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">referencesSpecies</td>
+                  <td rowspan="1" colspan="1">References with additional information about the spider species reported for the subterranean locality (if any).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">contributorName</td>
+                  <td rowspan="1" colspan="1">Name(s) of the person(s) who contributed information about the subterranean locality. Note that, in spelling contributors names, we have omitted accents (e.g. á, è, ò) and special characters (e.g. ä, č, ê) in order to avoid formatting problems.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">contributorEmail</td>
+                  <td rowspan="1" colspan="1">E-mail adress(es) of the person(s) who contributed information about the subterranean locality.</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+      <sec sec-type="Data set 3">
+        <title>Data set 3.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Community_composition</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Tab delimited file (.csv).</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>9</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.6084/m9.figshare.8224025">10.6084/m9.figshare.8224025</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>A dataset with the spider community composition (species presence/absence data) of each subterranean locality included in the CAWEB project.</p>
+          <table-wrap id="DS3" orientation="portrait" position="anchor">
+            <label>Data set 3.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">Family</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the family in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Genus</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the genus in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Species</td>
+                  <td rowspan="1" colspan="1">Species epithet of the scientificName.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Author</td>
+                  <td rowspan="1" colspan="1">The authorship information for the scientificName formatted according to the conventions of the applicable nomenclaturalCode.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">specificName</td>
+                  <td rowspan="1" colspan="1">Genus and species combined together.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">taxonRank</td>
+                  <td rowspan="1" colspan="1">The highest taxonomic rank available (either genus or species).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Adaptation</td>
+                  <td rowspan="1" colspan="1">Habitat preference of the species. Note that accidental species are not included in the dataset – full details in Mammola et al. (2018a). Binary variable. Either troglobiont (1) or troglophile (0).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">species_lsid</td>
+                  <td rowspan="1" colspan="1">Unique Life Science Identifier (LSID) for the taxon, based on the World Spider Catalog (doi: 10.24436/2). The LSID allows a user to keep track of taxonomical changes in the status of species or link together datasets regardless of taxonomical changes.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Alphanumeric codes (CAVE_number) in progressive order</td>
+                  <td rowspan="1" colspan="1">Each column after the first eight columns is labelled with an alphanumeric identifier ("CAVE_", followed by a progressive number; e.g. CAVE_001), referring to the subterranean locality as in the column "ID" of the "Community_composition" dataset. For each Genus_species in the dataset, the presence (1) or absence (0) within the subterranean locality is indicated.</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+    <sec sec-type="Additional information">
+      <title>Additional information</title>
+      <p>The CAWEB dataset comprises data for 475 subterranean localities (Fig. <xref ref-type="fig" rid="F5245186">1</xref>) in 27 European countries (Fig. <xref ref-type="fig" rid="F5245209">2</xref>). Spider communities refer to different types of caves (karst, talus, volcanic and ialine caves), artifical subterranean sites (mines, blockhouses, cellars etc.), as well as interstitial habitats. However, it is worth noting that the majority of records are from karst caves (Fig. <xref ref-type="fig" rid="F5245354">3</xref>), a typical bias in subterranean datasets (<xref ref-type="bibr" rid="B5246403">Mammola and Leroy 2018</xref>, <xref ref-type="bibr" rid="B5246393">Zagmajster et al. 2010</xref>, <xref ref-type="bibr" rid="B5246413">Niemiller and Zigler 2013</xref>, <xref ref-type="bibr" rid="B5246423">Christman and Culver 2002</xref>). These localities open in different types of habitats, with a prevalence of forests and shrublands (Fig. <xref ref-type="fig" rid="F5245381">5</xref>).</p>
+      <p>Subterranean localities included in the dataset account for over 300 spider species, that is more than half of the subterranean spider diversity in Europe (<xref ref-type="bibr" rid="B5243633">Mammola et al. 2018a</xref>). The number of spider species per cave ranges from 0 to 15 (mean= 4.3, s.d.= 2.35; Fig. <xref ref-type="fig" rid="F5245377">4</xref>). Altogether, these species account for 2,091 unique geo-referenced occurrence records across Europe. While most of the species in the dataset are recorded from one or a few caves, some troglophile species are more widely represented in the dataset (Fig. <xref ref-type="fig" rid="F5245441">6</xref>).</p>
+      <p>The over-arching goal of the CAWEB project was to assemble a continental dataset with information about the spider community composition of subterranean localities across the European latitudinal range. This dataset also contains local data on geomorphological and habitat features of these localities. Similar high-resolution data are rarely associated with broad-scale datasets used for macroecological analyses. Therefore, the CAWEB dataset can be used to explore a range of biogeographical and macroecological questions, potentially extending beyond arachnology and subterranean biology (see <xref ref-type="bibr" rid="B5367557">Mammola et al. 2019b</xref> for an example).</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>One of the experts who provided data for this data paper, Boyan Petrov (1973–2018), sadly disappeared during the ascension of Mount Shishapangma (8,027 m a.s.l.) in the Himalaya. We are thankful to Jeremy Miller for his wise editorial guidance and to Gustavo Hormiga, Stano Pekar, Darrell Ubick and Cor Vink for useful suggestions for improvements.</p>
+    </ack>
+    <sec sec-type="Author contributions">
+      <title>Author contributions</title>
+      <p>SM wrote the first draft of the paper. PC supervised data submission. MI coordinated the network of experts who provided data to compile the dataset. AM and LK provided data from Slovakia. CD, MN, and SĆ provided data from Albania, Bulgaria, Greece and Serbia. CK provided data from Austria. TB and SZ provided data from Germany. DA, LD and GB provided data from Hungary. CEP, CR and JF provided data from Spain. FG provided data from Slovenia. KBK and ME provided data from Turkey. MK and MP provided data from North Macedonia and Montenegro. MI and SM provided data from Italy. MP provided data from Croatia and Bosnia and Herzegovina. OTM provided data from Romania. PC provided data from Finland and Portugal. RR provided data from Poland. RSV provided data from Ukraine. VR provided data from the Czech Republic.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="B5244960">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Arnedo</surname>
+              <given-names>Miquel A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Oromí</surname>
+              <given-names>Pedro</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Múrria</surname>
+              <given-names>Cesc</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Macías-Hernández</surname>
+              <given-names>Nuria</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ribera</surname>
+              <given-names>Carles</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <article-title>The dark side of an island radiation: systematics and evolution of troglobitic spiders of the genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Dysdera">Dysdera</tp:taxon-name-part></tp:taxon-name></italic> Latreille (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Dysderidae</tp:taxon-name-part></tp:taxon-name>) in the Canary Islands</article-title>
+          <source>Invertebrate Systematics</source>
+          <volume>21</volume>
+          <issue>6</issue>
+          <fpage>623</fpage>
+          <lpage>660</lpage>
+          <pub-id pub-id-type="doi">10.1071/is07015</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5244836">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Cardoso</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Scharff</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>First record of the spider family <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Symphytognathidae</tp:taxon-name-part></tp:taxon-name> in Europe and description of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Anapistula">Anapistula</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="ataecina">ataecina</tp:taxon-name-part></tp:taxon-name></italic> sp. n. (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Zootaxa</source>
+          <volume>2246</volume>
+          <fpage>45</fpage>
+          <lpage>45</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5244808">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Cardoso</surname>
+              <given-names>Pedro</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Diversity and community assembly patterns of epigean vs. troglobiont spiders in the Iberian Peninsula</article-title>
+          <source>International Journal of Speleology</source>
+          <volume>41</volume>
+          <issue>1</issue>
+          <fpage>83</fpage>
+          <lpage>94</lpage>
+          <pub-id pub-id-type="doi">10.5038/1827-806x.41.1.9</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5245024">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Chiavazzo</surname>
+              <given-names>Eliodoro</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Isaia</surname>
+              <given-names>Marco</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mammola</surname>
+              <given-names>Stefano</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lepore</surname>
+              <given-names>Emiliano</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ventola</surname>
+              <given-names>Luigi</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Asinari</surname>
+              <given-names>Pietro</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pugno</surname>
+              <given-names>Nicola Maria</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Cave spiders choose optimal environmental factors with respect to the generated entropy when laying their cocoon</article-title>
+          <source>Scientific Reports</source>
+          <volume>5</volume>
+          <issue>1</issue>
+          <fpage>7611</fpage>
+          <pub-id pub-id-type="doi">10.1038/srep07611</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5246423">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Christman</surname>
+              <given-names>Mary C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Culver</surname>
+              <given-names>David C.</given-names>
+            </name>
+          </person-group>
+          <year>2002</year>
+          <article-title>The relationship between cave biodiversity and available habitat</article-title>
+          <source>Journal of Biogeography</source>
+          <volume>28</volume>
+          <issue>3</issue>
+          <fpage>367</fpage>
+          <lpage>380</lpage>
+          <pub-id pub-id-type="doi">10.1046/j.1365-2699.2001.00549.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5244767">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Culver</surname>
+              <given-names>David C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Trontelj</surname>
+              <given-names>Peter</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zagmajster</surname>
+              <given-names>Maja</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pipan</surname>
+              <given-names>Tanja</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Paving the way for standardized and comparable subterranean biodiversity studies</article-title>
+          <source>Subterranean Biology</source>
+          <volume>10</volume>
+          <fpage>43</fpage>
+          <lpage>50</lpage>
+          <pub-id pub-id-type="doi">10.3897/subtbiol.10.4759</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5246383">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Deharveng</surname>
+              <given-names>Louis</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bedos</surname>
+              <given-names>Anne</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Diversity of terrestrial invertebrates in subterranean habitats</article-title>
+          <source>Cave Ecology</source>
+          <fpage>107</fpage>
+          <lpage>172</lpage>
+          <pub-id pub-id-type="doi">10.1007/978-3-319-98852-8_7</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5245047">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Doran</surname>
+              <given-names>N. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Richardson</surname>
+              <given-names>A. M. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Swain</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <year>2001</year>
+          <article-title>The reproductive behaviour of the Tasmanian cave spider <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hickmania">Hickmania</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="troglodytes">troglodytes</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Austrochilidae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Journal of Zoology</source>
+          <volume>253</volume>
+          <issue>3</issue>
+          <fpage>405</fpage>
+          <lpage>418</lpage>
+          <pub-id pub-id-type="doi">10.1017/s0952836901000371</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5245037">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Doran</surname>
+              <given-names>N. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Richardson</surname>
+              <given-names>A. M. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Swain</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>The biology of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hickmania">Hickmania</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="troglodytes">troglodytes</tp:taxon-name-part></tp:taxon-name></italic>, the Tasmanian cave spider</article-title>
+          <source>The Other 99%: The Conservation and Biodiversity of Invertebrates</source>
+          <fpage>330</fpage>
+          <lpage>332</lpage>
+          <pub-id pub-id-type="doi">10.7882/rzsnsw.1999.052</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5245067">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Hadley</surname>
+              <given-names>N. F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ahearn</surname>
+              <given-names>G. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Howarth</surname>
+              <given-names>F. G.</given-names>
+            </name>
+          </person-group>
+          <year>1981</year>
+          <article-title>Water and metabolic relations of cave-adapted and epigean lycosid spiders in Hawaii</article-title>
+          <source>Journal of Arachnology</source>
+          <volume>9</volume>
+          <fpage>215</fpage>
+          <lpage>222</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5244993">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Hedin</surname>
+              <given-names>Marshal</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>High-stakes species delimitation in eyeless cave spiders (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cicurina">Cicurina</tp:taxon-name-part></tp:taxon-name></italic>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Dictynidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>) from central Texas</article-title>
+          <source>Molecular Ecology</source>
+          <volume>24</volume>
+          <issue>2</issue>
+          <fpage>346</fpage>
+          <lpage>361</lpage>
+          <pub-id pub-id-type="doi">10.1111/mec.13036</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5341261">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Hesselberg</surname>
+              <given-names>Thomas</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Simonsen</surname>
+              <given-names>Daniel</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>A comparison of morphology and web geometry between hypogean and epigean species of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Metellina">Metellina</tp:taxon-name-part></tp:taxon-name></italic> orb spiders (family <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Tetragnathidae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Subterranean Biology</source>
+          <volume>31</volume>
+          <fpage>53</fpage>
+          <lpage>65</lpage>
+          <pub-id pub-id-type="doi">10.3897/subtbiol.31.36222</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5294304">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Hesselberg</surname>
+              <given-names>Thomas</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Simonsen</surname>
+              <given-names>Daniel</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Juan</surname>
+              <given-names>Carlos</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Do cave orb spiders show unique behavioural adaptations to subterranean life? A review of the evidence</article-title>
+          <source>Behaviour</source>
+          <volume>156</volume>
+          <issue>10</issue>
+          <fpage>969</fpage>
+          <lpage>996</lpage>
+          <pub-id pub-id-type="doi">10.1163/1568539x-00003564</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5244757">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Huber</surname>
+              <given-names>Bernhard A.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Cave-dwelling pholcid spiders (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Pholcidae</tp:taxon-name-part></tp:taxon-name>): a review</article-title>
+          <source>Subterranean Biology</source>
+          <volume>26</volume>
+          <fpage>1</fpage>
+          <lpage>18</lpage>
+          <pub-id pub-id-type="doi">10.3897/subtbiol.26.26430</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5244887">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lepore</surname>
+              <given-names>Emiliano</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Marchioro</surname>
+              <given-names>Andrea</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Isaia</surname>
+              <given-names>Marco</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Buehler</surname>
+              <given-names>Markus J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pugno</surname>
+              <given-names>Nicola M.</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Evidence of the most stretchable egg sac silk stalk, of the European Spider of the Year <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Meta">Meta</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="menardi">menardi</tp:taxon-name-part></tp:taxon-name></italic></article-title>
+          <source>PLoS One</source>
+          <volume>7</volume>
+          <issue>2</issue>
+          <fpage>e30500</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0030500</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5244947">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lipovšek</surname>
+              <given-names>Saška</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Leitinger</surname>
+              <given-names>Gerd</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Novak</surname>
+              <given-names>Tone</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Janžekovič</surname>
+              <given-names>Franc</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gorgoń</surname>
+              <given-names>Szymon</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kamińska</surname>
+              <given-names>Karolina</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rost-Roszkowska</surname>
+              <given-names>Magdalena</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Changes in the midgut cells in the European cave spider, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Meta">Meta</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="menardi">menardi</tp:taxon-name-part></tp:taxon-name></italic>, during starvation in spring and autumn</article-title>
+          <source>Histochemistry and Cell Biology</source>
+          <volume>149</volume>
+          <issue>3</issue>
+          <fpage>245</fpage>
+          <lpage>260</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00418-017-1623-z</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5244936">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lipovšek</surname>
+              <given-names>Saška</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Novak</surname>
+              <given-names>Tone</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Janžekovič</surname>
+              <given-names>Franc</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brdelak</surname>
+              <given-names>Nina</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Leitinger</surname>
+              <given-names>Gerd</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Changes in the midgut diverticula epithelial cells of the European cave spider, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Meta">Meta</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="menardi">menardi</tp:taxon-name-part></tp:taxon-name></italic>, under controlled winter starvation</article-title>
+          <source>Scientific Reports</source>
+          <volume>8</volume>
+          <issue>1</issue>
+          <fpage>13645</fpage>
+          <pub-id pub-id-type="doi">10.1038/s41598-018-31907-3</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5245097">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lunghi</surname>
+              <given-names>Enrico</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Ecology and life history of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Meta">Meta</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="bourneti">bourneti</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Tetragnathidae</tp:taxon-name-part></tp:taxon-name>) from Monte Albo (Sardinia, Italy)</article-title>
+          <source>PeerJ</source>
+          <volume>6</volume>
+          <fpage>e6049</fpage>
+          <pub-id pub-id-type="doi">10.7717/peerj.6049</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5341281">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Mammola</surname>
+              <given-names>Stefano</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Isaia</surname>
+              <given-names>Marco</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>Niche differentiation in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Meta">Meta</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="bourneti">bourneti</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Meta">M.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="menardi">menardi</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Tetragnathidae</tp:taxon-name-part></tp:taxon-name>) with notes on the life history</article-title>
+          <source>International Journal of Speleology</source>
+          <volume>43</volume>
+          <issue>3</issue>
+          <fpage>343</fpage>
+          <lpage>353</lpage>
+          <pub-id pub-id-type="doi">10.5038/1827-806x.43.3.11</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5245087">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Mammola</surname>
+              <given-names>Stefano</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Piano</surname>
+              <given-names>Elena</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Isaia</surname>
+              <given-names>Marco</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Step back! Niche dynamics in cave-dwelling predators</article-title>
+          <source>Acta Oecologica</source>
+          <volume>75</volume>
+          <fpage>35</fpage>
+          <lpage>42</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.actao.2016.06.011</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5243612">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Mammola</surname>
+              <given-names>Stefano</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Isaia</surname>
+              <given-names>Marco</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Spiders in caves</article-title>
+          <source>Proceedings of the Royal Society B: Biological Sciences</source>
+          <volume>284</volume>
+          <issue>1853</issue>
+          <fpage>20170193</fpage>
+          <pub-id pub-id-type="doi">10.1098/rspb.2017.0193</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5254747">
+        <element-citation publication-type="conference-paper">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Mammola</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gasparo</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Komnenov</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Růžička</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Déjean</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Danflous</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brustel</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vargovitsh</surname>
+              <given-names>R. S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rozwałka</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Moldovan</surname>
+              <given-names>O. T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pavlek</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Deltshev</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Petrov</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Naumova</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ćurčić</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mock</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kováč</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cardoso</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dányi</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Angyal</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Balázs</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ribera</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Prieto</surname>
+              <given-names>C. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fernández</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Komposch</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Carter</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Isaia</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Goodacre</surname>
+              <given-names>S. L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Spiders in caves: the CAWEB project</article-title>
+          <source>Abstract book of the 30th European Congress of Arachnology</source>
+          <conf-name>30th European Congress of Arachnology, ECA 2017</conf-name>
+          <conf-loc>University of Nottingham – UK</conf-loc>
+          <conf-date>20–25 August 2017</conf-date>
+          <publisher-loc>Nottingham</publisher-loc>
+          <size units="page">163</size>
+        </element-citation>
+      </ref>
+      <ref id="B5246403">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Mammola</surname>
+              <given-names>Stefano</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Leroy</surname>
+              <given-names>Boris</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Applying species distribution models to caves and other subterranean habitats</article-title>
+          <source>Ecography</source>
+          <volume>41</volume>
+          <issue>7</issue>
+          <fpage>1194</fpage>
+          <lpage>1208</lpage>
+          <pub-id pub-id-type="doi">10.1111/ecog.03464</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5243633">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Mammola</surname>
+              <given-names>Stefano</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cardoso</surname>
+              <given-names>Pedro</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ribera</surname>
+              <given-names>Carles</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pavlek</surname>
+              <given-names>Martina</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Isaia</surname>
+              <given-names>Marco</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>A synthesis on cave-dwelling spiders in Europe</article-title>
+          <source>Journal of Zoological Systematics and Evolutionary Research</source>
+          <volume>56</volume>
+          <issue>3</issue>
+          <fpage>301</fpage>
+          <lpage>316</lpage>
+          <pub-id pub-id-type="doi">10.1111/jzs.12201</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5244777">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Mammola</surname>
+              <given-names>Stefano</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Finding answers in the dark: caves as models in ecology fifty years after Poulson and White</article-title>
+          <source>Ecography</source>
+          <volume>42</volume>
+          <issue>7</issue>
+          <fpage>1331-1351</fpage>
+          <pub-id pub-id-type="doi">10.1111/ecog.03905</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5370086">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Mammola</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cardoso</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>cave_dwelling_spiders_europe. Biodiversity Data Journal</article-title>
+          <source>Occurrence dataset accessed via GBIF.org on 2019-10-08.</source>
+          <pub-id pub-id-type="doi">10.15468/ygocko</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5275050">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Mammola</surname>
+              <given-names>Stefano</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Piano</surname>
+              <given-names>Elena</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Malard</surname>
+              <given-names>Florian</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vernon</surname>
+              <given-names>Philippe</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Isaia</surname>
+              <given-names>Marco</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Extending Janzen's hypothesis to temperate regions: a test using subterranean ecosystems</article-title>
+          <source>Functional Ecology</source>
+          <volume>33</volume>
+          <issue>9</issue>
+          <fpage>1638</fpage>
+          <lpage>1650</lpage>
+          <pub-id pub-id-type="doi">10.1111/1365-2435.13382</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5367557">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Mammola</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cardoso</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Angyal</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Balázs</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Blick</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brustel</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Carter</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ćurčić</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Danflous</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dányi</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Déjean</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Deltshev</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Elverici</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fernández</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gasparo</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Komnenov</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Komposch</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kováč</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kunt</surname>
+              <given-names>K. B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mock</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Moldovan</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Naumova</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pavlek</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Prieto</surname>
+              <given-names>C. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ribera</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rozwałka</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Růžička</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vargovitsh</surname>
+              <given-names>R. S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zaenker</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Isaia</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Local versus broad scale environmental drivers of continental beta diversity patterns in subterranean spider communities across Europe.</article-title>
+          <source>Proceeding of the Royal Society B: Biological Sciences</source>
+          <volume>In press</volume>
+        </element-citation>
+      </ref>
+      <ref id="B5245057">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Michalik</surname>
+              <given-names>Peter</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ramírez</surname>
+              <given-names>Martín J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wirkner</surname>
+              <given-names>Christian S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lipke</surname>
+              <given-names>Elisabeth</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>Morphological evidence for limited sperm production in the enigmatic Tasmanian cave spider <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hickmania">Hickmania</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="troglodytes">troglodytes</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Austrochilidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Invertebrate Biology</source>
+          <volume>133</volume>
+          <issue>2</issue>
+          <fpage>180</fpage>
+          <lpage>187</lpage>
+          <pub-id pub-id-type="doi">10.1111/ivb.12046</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5245077">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Miller</surname>
+              <given-names>Jeremy A.</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <article-title>Cave adaptation in the spider genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Anthrobia">Anthrobia</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Erigoninae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Zoologica Scripta</source>
+          <volume>34</volume>
+          <issue>6</issue>
+          <fpage>565</fpage>
+          <lpage>592</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1463-6409.2005.00206.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5341291">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Nentwig</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Blick</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gloor</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hänggi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kropf</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name> Version 09.2019</article-title>
+          <uri>https://www.araneae.nmbe.ch</uri>
+          <date-in-citation content-type="access-date">2019-07-02T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5246413">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Niemiller</surname>
+              <given-names>Matthew L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zigler</surname>
+              <given-names>Kirk S.</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Patterns of cave biodiversity and endemism in the Appalachians and interior plateau of Tennessee, USA</article-title>
+          <source>PLoS One</source>
+          <volume>8</volume>
+          <issue>5</issue>
+          <fpage>e64177</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0064177</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5245107">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Novak</surname>
+              <given-names>Tone</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tkavc</surname>
+              <given-names>Tina</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kuntner</surname>
+              <given-names>Matjaž</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Arnett</surname>
+              <given-names>Amy E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Delakorda</surname>
+              <given-names>Saška Lipovšek</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Perc</surname>
+              <given-names>Matjaž</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Janžekovič</surname>
+              <given-names>Franc</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>Niche partitioning in orbweaving spiders <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Meta">Meta</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="menardi">menardi</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Metellina">Metellina</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="merianae">merianae</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Tetragnathidae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Acta Oecologica</source>
+          <volume>36</volume>
+          <issue>6</issue>
+          <fpage>522</fpage>
+          <lpage>529</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.actao.2010.07.005</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5244898">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Piorkowski</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Blamires</surname>
+              <given-names>S. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Doran</surname>
+              <given-names>N. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Liao</surname>
+              <given-names>C. P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wu</surname>
+              <given-names>C. L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tso</surname>
+              <given-names>I. M.</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Ontogenetic shift toward stronger, tougher silk of a web-building, cave-dwelling spider</article-title>
+          <source>Journal of Zoology</source>
+          <volume>304</volume>
+          <issue>2</issue>
+          <fpage>81</fpage>
+          <lpage>89</lpage>
+          <pub-id pub-id-type="doi">10.1111/jzo.12507</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5244983">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Růžička</surname>
+              <given-names>Vlastimil</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Šmilauer</surname>
+              <given-names>Petr</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mlejnek</surname>
+              <given-names>Roman</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Colonization of subterranean habitats by spiders in Central Europe</article-title>
+          <source>International Journal of Speleology</source>
+          <volume>42</volume>
+          <issue>2</issue>
+          <fpage>133</fpage>
+          <lpage>140</lpage>
+          <pub-id pub-id-type="doi">10.5038/1827-806x.42.2.5</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5245120">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Yancey</surname>
+              <given-names>Mary Elizabeth</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mann</surname>
+              <given-names>Nathaniel C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Milne</surname>
+              <given-names>Marc A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zigler</surname>
+              <given-names>Kirk S.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Egg sacs of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Liocranoides">Liocranoides</tp:taxon-name-part></tp:taxon-name></italic> Keyserling, 1881 (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Zoropsidae</tp:taxon-name-part></tp:taxon-name>) cave spiders</article-title>
+          <source>Journal of Arachnology</source>
+          <volume>46</volume>
+          <issue>3</issue>
+          <fpage>553</fpage>
+          <lpage>555</lpage>
+          <pub-id pub-id-type="doi">10.1636/joa-s-17-074.1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5245013">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Yao</surname>
+              <given-names>Zhiyuan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dong</surname>
+              <given-names>Tingting</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zheng</surname>
+              <given-names>Guo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fu</surname>
+              <given-names>Jinzhong</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Li</surname>
+              <given-names>Shuqiang</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>High endemism at cave entrances: a case study of spiders of the genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Uthina">Uthina</tp:taxon-name-part></tp:taxon-name></italic></article-title>
+          <source>Scientific Reports</source>
+          <volume>6</volume>
+          <issue>1</issue>
+          <fpage>35757</fpage>
+          <pub-id pub-id-type="doi">10.1038/srep35757</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5246393">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Zagmajster</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Culver</surname>
+              <given-names>D. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Christman</surname>
+              <given-names>M. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sket</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>Evaluating the sampling bias in pattern of subterranean species richness: combining approaches</article-title>
+          <source>Biodiversity and Conservation</source>
+          <volume>19</volume>
+          <fpage>3035</fpage>
+          <lpage>3048</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10531-010-9873-2</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5245003">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Zhang</surname>
+              <given-names>Yuanyuan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Li</surname>
+              <given-names>Shuqiang</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Ancient lineage, young troglobites: recent colonization of caves by <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Nesticella">Nesticella</tp:taxon-name-part></tp:taxon-name></italic> spiders</article-title>
+          <source>BMC Evolutionary Biology</source>
+          <volume>13</volume>
+          <issue>1</issue>
+          <fpage>183</fpage>
+          <pub-id pub-id-type="doi">10.1186/1471-2148-13-183</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F5245186" position="float" orientation="portrait">
+      <object-id content-type="arpha">9A51687A-517C-53D2-B9E5-ACF03642FD35</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e38492.figure1</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Distribution of the subterranean localities in Europe included in the CAWEB dataset. Shades of grey represent altitude. Light blue patches are karst rocks, based on the World Map of Carbonate Rock Outcrops (version 3.0).</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e38492-g001.png" position="float" id="oo_319734.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/319734</uri>
+      </graphic>
+    </fig>
+    <fig id="F5245209" position="float" orientation="portrait">
+      <object-id content-type="arpha">0E943464-B94A-56BC-AC2A-A6E8F2546EF6</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e38492.figure2</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>Number of subterranean localities included in the CAWEB dataset for each European country.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e38492-g002.jpeg" position="float" id="oo_319728.jpeg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/319728</uri>
+      </graphic>
+    </fig>
+    <fig id="F5245354" position="float" orientation="portrait">
+      <object-id content-type="arpha">216BEE55-FD0D-5C6B-A1D9-E1E34029E276</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e38492.figure3</object-id>
+      <label>Figure 3.</label>
+      <caption>
+        <p>Number of records included in the dataset for each typology of subterranean locality.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e38492-g003.jpeg" position="float" id="oo_319729.jpeg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/319729</uri>
+      </graphic>
+    </fig>
+    <fig id="F5245377" position="float" orientation="portrait">
+      <object-id content-type="arpha">348FC296-C217-56CA-9927-F9D8BF4AB783</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e38492.figure4</object-id>
+      <label>Figure 4.</label>
+      <caption>
+        <p>Spider species richness in subterranean localities of the CAWEB dataset. Species richness is expressed as the number of species + morphospecies.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e38492-g004.jpeg" position="float" id="oo_319732.jpeg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/319732</uri>
+      </graphic>
+    </fig>
+    <fig id="F5245381" position="float" orientation="portrait">
+      <object-id content-type="arpha">1AE583B9-EE4B-5290-9C05-915326ADE12F</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e38492.figure5</object-id>
+      <label>Figure 5.</label>
+      <caption>
+        <p>Number of records included in the CAWEB dataset for each typology of habitat at the entrance.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e38492-g005.jpeg" position="float" id="oo_319733.jpeg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/319733</uri>
+      </graphic>
+    </fig>
+    <fig-group id="F5245441" position="float" orientation="portrait">
+      <caption>
+        <p>The distribution of the four most abundant species in the CAWEB dataset. Shades of grey represent altitude.</p>
+      </caption>
+      <fig id="F5245446" position="float" orientation="portrait">
+        <object-id content-type="arpha">B43E8DCF-13D9-52CB-9B09-D33048ADD1D9</object-id>
+        <object-id content-type="doi">10.3897/BDJ.7.e38492.figure6a</object-id>
+        <label>Figure 6a.</label>
+        <caption>
+          <p>Distribution of the troglophile spider <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Metellina">Metellina</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="merianae">merianae</tp:taxon-name-part></tp:taxon-name></italic> (Scopoli, 1763) (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Tetragnathidae</tp:taxon-name-part></tp:taxon-name>) in Europe, based on 238 occurrences. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Metellina">Metellina</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="merianae">merianae</tp:taxon-name-part></tp:taxon-name></italic> is a common inhabitant of the twilight zone of caves, although it possesses rather poor adaptations to the subterrranean conditions (<xref ref-type="bibr" rid="B5341261">Hesselberg and Simonsen 2019</xref>).</p>
+        </caption>
+        <graphic xlink:href="bdj-07-e38492-g006_a.png" xlink:type="simple" position="float" orientation="portrait" id="oo_307137.png">
+          <uri content-type="original_file">https://binary.pensoft.net/fig/307137</uri>
+        </graphic>
+      </fig>
+      <fig id="F5245447" position="float" orientation="portrait">
+        <object-id content-type="arpha">BDC7B096-7C6E-534D-A15A-0C46C92A3CED</object-id>
+        <object-id content-type="doi">10.3897/BDJ.7.e38492.figure6b</object-id>
+        <label>Figure 6b.</label>
+        <caption>
+          <p>Distribution of the troglophile spider <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Meta">Meta</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="menardi">menardi</tp:taxon-name-part></tp:taxon-name></italic> (Latreille, 1804) (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Tetragnathidae</tp:taxon-name-part></tp:taxon-name>) in Europe, based on 211 occurrences. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Meta">Meta</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="menardi">menardi</tp:taxon-name-part></tp:taxon-name></italic> is probably the most well-known species in the twilight zone of European caves (<xref ref-type="bibr" rid="B5294304">Hesselberg et al. 2019</xref>, <xref ref-type="bibr" rid="B5341281">Mammola and Isaia 2014</xref>), where it often coexists with <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Metellina">Metellina</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="merianae">merianae</tp:taxon-name-part></tp:taxon-name></italic> (<xref ref-type="bibr" rid="B5245107">Novak et al. 2010</xref>).</p>
+        </caption>
+        <graphic xlink:href="bdj-07-e38492-g006_b.png" xlink:type="simple" position="float" orientation="portrait" id="oo_307138.png">
+          <uri content-type="original_file">https://binary.pensoft.net/fig/307138</uri>
+        </graphic>
+      </fig>
+      <fig id="F5245448" position="float" orientation="portrait">
+        <object-id content-type="arpha">146E3A02-3406-55A0-AF58-C824E349F1EF</object-id>
+        <object-id content-type="doi">10.3897/BDJ.7.e38492.figure6c</object-id>
+        <label>Figure 6c.</label>
+        <caption>
+          <p>Distribution of the troglophile spider <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Tegenaria">Tegenaria</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="silvestris">silvestris</tp:taxon-name-part></tp:taxon-name></italic> L. Koch, 1872 (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Agelenidae</tp:taxon-name-part></tp:taxon-name>) in Europe, based on 92 occurrences. This species is a frequent inhabitant of shallow cave sectors (<xref ref-type="bibr" rid="B5243633">Mammola et al. 2018a</xref>).</p>
+        </caption>
+        <graphic xlink:href="bdj-07-e38492-g006_c.png" xlink:type="simple" position="float" orientation="portrait" id="oo_307139.png">
+          <uri content-type="original_file">https://binary.pensoft.net/fig/307139</uri>
+        </graphic>
+      </fig>
+      <fig id="F5245449" position="float" orientation="portrait">
+        <object-id content-type="arpha">E079A720-096B-59E2-A9A8-C4E79B7C0E6E</object-id>
+        <object-id content-type="doi">10.3897/BDJ.7.e38492.figure6d</object-id>
+        <label>Figure 6d.</label>
+        <caption>
+          <p>Distribution of the troglophile spider <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Porrhomma">Porrhomma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="convexum">convexum</tp:taxon-name-part></tp:taxon-name></italic> (Westring, 1851) (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part></tp:taxon-name>), based on 86 occurrences. This species inhabits caves, mines and other mesic habitats up to the alpine level. It is widely distributed in Europe (<xref ref-type="bibr" rid="B5341291">Nentwig et al. 2019</xref>).</p>
+        </caption>
+        <graphic xlink:href="bdj-07-e38492-g006_d.png" xlink:type="simple" position="float" orientation="portrait" id="oo_307140.png">
+          <uri content-type="original_file">https://binary.pensoft.net/fig/307140</uri>
+        </graphic>
+      </fig>
+    </fig-group>
+  </floats-group>
+</article>

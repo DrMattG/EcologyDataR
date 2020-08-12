@@ -1,0 +1,2258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="3.0" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.4.e11054</article-id>
+      <article-id pub-id-type="publisher-id">11054</article-id>
+      <article-id pub-id-type="manuscript">6472</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Clupeidae</subject>
+          <subject>Engraulidae</subject>
+          <subject>Polychaeta</subject>
+          <subject>Rhodophyta</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Data Management</subject>
+          <subject>Biogeography</subject>
+          <subject>Biodiversity &amp; Conservation</subject>
+          <subject>Bioinformatics</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Rescuing biogeographic legacy data: The "Thor" Expedition, a historical oceanographic expedition to the Mediterranean Sea</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Mavraki</surname>
+            <given-names>Dimitra</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Fanini</surname>
+            <given-names>Lucia</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Tsompanou</surname>
+            <given-names>Marilena</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Gerovasileiou</surname>
+            <given-names>Vasilis</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Nikolopoulou</surname>
+            <given-names>Stamatina</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Chatzinikolaou</surname>
+            <given-names>Eva</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Plaitis</surname>
+            <given-names>Wanda</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes" xlink:type="simple">
+          <name name-style="western">
+            <surname>Faulwetter</surname>
+            <given-names>Sarah</given-names>
+          </name>
+          <email xlink:type="simple">sarahfaulwetter@gmail.com</email>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Institute of Marine Biology, Biotechnology and Aquaculture, Hellenic Centre for Marine Research, Heraklion, Crete, Greece</addr-line>
+        <institution xlink:type="simple">Institute of Marine Biology, Biotechnology and Aquaculture, Hellenic Centre for Marine Research</institution>
+        <addr-line content-type="city">Heraklion, Crete</addr-line>
+        <country>Greece</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">Australian Museum Research Institute, Sydney, NSW, Australia</addr-line>
+        <institution xlink:type="simple">Australian Museum Research Institute</institution>
+        <addr-line content-type="city">Sydney, NSW</addr-line>
+        <country>Australia</country>
+      </aff>
+      <aff id="A3">
+        <label>3</label>
+        <addr-line content-type="verbatim">Institute of Oceanography, Hellenic Centre for Marine Research, Anavyssos, Athens, Greece</addr-line>
+        <institution xlink:type="simple">Institute of Oceanography, Hellenic Centre for Marine Research</institution>
+        <addr-line content-type="city">Anavyssos, Athens</addr-line>
+        <country>Greece</country>
+      </aff>
+      <aff id="A4">
+        <label>4</label>
+        <addr-line content-type="verbatim">University of Patras, Department of Biology, Laboratory of Zoology, Rio, Patras, Greece</addr-line>
+        <institution xlink:type="simple">University of Patras, Department of Biology, Laboratory of Zoology</institution>
+        <addr-line content-type="city">Rio, Patras</addr-line>
+        <country>Greece</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding authors: </p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Nikos Minadakis</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2016</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>22</day>
+        <month>12</month>
+        <year>2016</year>
+      </pub-date>
+      <volume>4</volume>
+      <elocation-id>e11054</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/FFFAFF82-DB0A-FFEF-C461-FFD7FFAAFFD4">FFFAFF82-DB0A-FFEF-C461-FFD7FFAAFFD4</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/574577">574577</uri>
+      <history>
+        <date date-type="received">
+          <day>04</day>
+          <month>11</month>
+          <year>2016</year>
+        </date>
+        <date date-type="accepted">
+          <day>15</day>
+          <month>12</month>
+          <year>2016</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement/>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License 4.0 (CC-BY), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>This article describes the digitization of a series of historical datasets based οn the reports of the 1908–1910 Danish Oceanographical Expeditions to the Mediterranean and adjacent seas. All station and sampling metadata as well as biodiversity data regarding calcareous rhodophytes, pelagic polychaetes, and fish (families <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Engraulidae</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Clupeidae</tp:taxon-name-part></tp:taxon-name>) obtained during these expeditions were digitized within the activities of the LifeWatchGreece Research Ιnfrastructure project and presented in the present paper. The aim was to safeguard public data availability by using an open access infrastructure, and to prevent potential loss of valuable historical data on the Mediterranean marine biodiversity.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>The datasets digitized here cover 2,043 samples taken at 567 stations during a time period from 1904 to 1930 in the Mediterranean and adjacent seas. The samples resulted in 1,588 occurrence records of pelagic polychaetes, fish (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Clupeiformes</tp:taxon-name-part></tp:taxon-name>) and calcareous <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="species">algae</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Rhodophyta</tp:taxon-name-part></tp:taxon-name>). In addition, basic environmental data (e.g. sea surface temperature, salinity) as well as meterological conditions are included for most sampling events. In addition to the description of the digitized datasets, a detailed description of the problems encountered during the digitization of this historical dataset and a discussion on the value of such data are provided.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>Marine biodiversity</kwd>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="phylum">Rhodophyta</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="class">Polychaeta</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="genus">Clupeiformes</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>Historical dataset</kwd>
+        <kwd>Danish Oceanographical Expedition</kwd>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="genus">Digitization</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>Data management</kwd>
+        <kwd>Data rescue</kwd>
+        <kwd>Data archaeology</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="9"/>
+        <table-count count="5"/>
+        <ref-count count="16"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>Historical data represent an invaluable source of information and are of paramount importance in establishing baselines for present and future studies, especially when dealing with global change. Marine meteorological historical datasets offer past climate information collected from early historical ship records that can help to create a more complete picture for global climate change research and help to establish effective predictive models and references for instrument calibration (<xref ref-type="bibr" rid="B3511722">Folland and Parker 1995</xref>, <xref ref-type="bibr" rid="B3434752">Woodruff et al. 2005</xref>, <xref ref-type="bibr" rid="B3434763">Brunet and Jones 2011</xref>). Historical biodiversity data, i.e. information on the past distribution of species, can help detecting the effects of climate change on range shifts, the distribution of invasive species, and the loss of habitats and species (<xref ref-type="bibr" rid="B3511777">Graham et al. 2004</xref>, <xref ref-type="bibr" rid="B3511767">Shaffer et al. 1998</xref>, <xref ref-type="bibr" rid="B3511757">Tingley and Beissinger 2009</xref>). The digitization of such type of data is a challenge in terms of identification and selection of literature, as well as human effort, but it returns information of an enormous value. The present study describes four datasets which were digitized, quality controlled and integrated into a harmonized dataset from publications of the Danish Expeditions to the Mediterranean Sea and adjacent marine areas during 1908-1910 and re-publishes: (a) the list of samples collected (including location and sampling method details), (b) the related hydrographical and environmental parameters and meteorological observations, and (c) the spatio-temporal occurrences of selected taxa (i.e. calcareous rhodophytes, pelagic polychaetes, and the fish families <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Engraulidae</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Clupeidae</tp:taxon-name-part></tp:taxon-name>).</p>
+      <p>The core of the integrated datasets comprises the Expeditions of the Danish research vessel “Thor” (Fig. <xref ref-type="fig" rid="F3434748">1</xref>), which took place in the Mediterranean during the winter of 1908–1909 and in the summer of 1910. These expeditions were not independent cruises but had been planned as a continuation of several Danish oceanographic research expeditions in the Atlantic Ocean since 1903. During these expeditions, equal effort was dedicated to collecting both biological and biogeochemical data in order to be able to relate species occurrences to environmental conditions. Sampling stations were selected explicitly in order to compare the species composition between areas with different biogeochemical characteristics. Towards this end, although the two expeditions focused mainly on the Mediterranean Sea, some stations in the adjacent areas of the Atlantic Ocean, as well as in the Sea of Marmara and the Black Sea, were also surveyed.</p>
+      <p>The "Thor" Expeditions fell into a period of general interest in the exploration of the oceans, and may be listed among other famous expeditions such as the global <ext-link ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Challenger_expedition" xlink:type="simple">Challenger Expedition</ext-link>, the <ext-link ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/Siboga_expedition" xlink:type="simple">Siboga expedition</ext-link> in Indonesia, or the Pola expedition in the Mediterranean Sea (<xref ref-type="bibr" rid="B3511621">Schefbeck 1996</xref>), to name just a few. The Danish Oceanographic Expeditions (on various research vessels) in the first 30 years of the 20<sup>th</sup> century were facilitated by the leadership and enthusiasm of Johannes Schmidt, who also succeeded in procuring the funds for these expeditions. The Thor expeditions were exceptionally well planned and documented, and the research questions investigated were not simply of an exploratory or observational nature. In contrast to many expeditions of the late 19th century, the aim of this survey was not simply the discovery of rare or new taxa; instead, it focused on: (a) obtaining a thorough understanding of the hydrography of the Mediterranean Sea, the Atlantic Ocean and their merging zone, (b) obtaining information on the most common organisms, studying their occurrences (and absences) in relation to environmental factors at different depth layers, and (c) gaining a better understanding of the life cycle and life history of the studied species. Most of the sampling sites were open sea stations, while coastal areas were only sampled occasionally and not systematically. Additional samples were collected by other vessels (commercial and scientific) after the completion of the two main expeditions of "Thor" to help individual researchers to fill the gaps in their data.</p>
+      <p>The results of these expeditions were presented in three multi-part volumes published from 1912 to 1939 (Table <xref ref-type="table" rid="T3434751">1</xref>). Apart from a series of hydrographic studies which were published mainly in the introductory volume (Volume 1), as well as in Volume 3, the biological data were published independently per taxonomic group in Volume 2. These publications were heterogeneous regarding their format and content; some focused on the life history of a single species, while others provided taxonomic reports of larger groups (e.g. <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Amphipoda</tp:taxon-name-part></tp:taxon-name>) and stretched over several papers. Depending on the specific research under investigation, the authors used information not only from the Mediterranean "Thor" expedition, but to a varying extent also from the preceding Atlantic expeditions, as well as from the Danish research expeditions aboard the vessels “Pangan” (1911) and “Dana” (1921 and 1930).</p>
+      <p>This paper describes the process of digitizing the biogeographic data and sampling metadata of four publications included in Table <xref ref-type="table" rid="T3434751">1</xref>: (i) <xref ref-type="bibr" rid="B3434806">Schmidt (1912)</xref>, containing information on the expeditions, sampling stations, coordinates and relevant metadata (e.g. abiotic measurements); (ii) <xref ref-type="bibr" rid="B3461010">Lemoine (1915)</xref> on the taxonomy and distribution of calcareous rhodophytes; (iii) <xref ref-type="bibr" rid="B3461033">Wesenberg-Lund (1939)</xref> on the taxonomy and distribution of pelagic polychaetes; and (iv) <xref ref-type="bibr" rid="B3461042">Fage (1920)</xref>, describing the development of the larval stages and the distribution of species in the fish families <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Engraulidae</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Clupeidae</tp:taxon-name-part></tp:taxon-name>. The specific four publications were selected in order to cover different habitats and organisms: from <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="species">algae</tp:taxon-name-part></tp:taxon-name> to animals, from pelagic to rocky shore species, and from larvae to adults. In addition, the team had sufficient taxonomic expertise on these groups to deal with problems arising during the quality control of taxonomic information.</p>
+    </sec>
+    <sec sec-type="Project description">
+      <title>Project description</title>
+      <sec sec-type="Study area description">
+        <title>Study area description</title>
+        <p>The 1908–1910 "Thor" expedition focused on the Mediterranean Sea and the adjacent waters of the Atlantic Ocean, the Sea of Marmara and the Black Sea; additional stations from the Atlantic are included in the digitized datasets since they were reported in the individual biological publications.</p>
+      </sec>
+      <sec sec-type="Design description">
+        <title>Design description</title>
+        <p>During the two core expeditions of 1908–09 and 1910, 1,102 samples from 261 stations were collected. However, as the publications aimed at providing a more comprehensive picture of hydrographic and biological patterns across different geographic areas, they also included selected data from previous "Thor" expeditions in the North Sea and the North-Eastern Atlantic (1905–1906) and from other commercial and research vessels in the Mediterranean (1911–1912). These publications are also included in <xref ref-type="bibr" rid="B3434806">Schmidt (1912)</xref> and thus the introductory volume includes 1,566 samples from 443 stations.</p>
+        <p>The individual biological publications did not strictly analyse only the data from these stations but combine samples from various oceanographic expeditions from 1904 to 1930, including those of the research vessel “Dana” from its global campaign in the years 1921 and 1930 (Fig. <xref ref-type="fig" rid="F3442973">2</xref>). Thus, the combined datasets digitized and re-published herein finally comprise information from a total of 567 stations and 2,043 samples, which partially overlap (Fig. <xref ref-type="fig" rid="F3442934">3</xref>).</p>
+        <p>
+          <bold><italic>Overview of the four digitized datasets</italic></bold>
+        </p>
+        <p>
+          <italic>Introductory table (sampling and environmental information)</italic>
+        </p>
+        <p>The introduction to the Danish Oceanographical Expedition by <xref ref-type="bibr" rid="B3434806">Schmidt (1912)</xref> includes a series of tables containing information on all samples collected during the core expedition of the "Thor" to the Mediterranean in 1908-1909 and 1910 (pages 25–41), additional tables listing samples on the related expedition of the "Thor" in the Atlantic Ocean in 1905 and 1906 (pages 41–47) and supplementary samples taken in 1911 and 1912 by other vessels in several locations in the Mediterranean Sea (pages 47–49). Additionally, the introduction contains information on the characteristics of the research vessel, details on the sampling gears and a description of sampling methods. The main table describes all samples and lists relevant metadata such as station number and position, depths, sampling date and time, bottom characteristics, gear used (including the length of wire for nets and the duration of the haul) and environmental parameters (see also below, section "Sampling methods").</p>
+        <p><italic>Pelagic polychaetes</italic> (<xref ref-type="bibr" rid="B3461033">Wesenberg-Lund 1939</xref>)</p>
+        <p>This publication describes the pelagic polychaetes (excluding <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Tomopteridae</tp:taxon-name-part></tp:taxon-name>), collected from various cruises of the "Thor" and additional vessels (1905–1911), as well as samples from the "Dana" expeditions (1921 and 1930), including a few samples from the tropical Eastern Atlantic. The paper focuses on taxonomic treatments, including descriptions and illustrations for each species, but provides full details on the samples each species was found in.</p>
+        <p><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Fish</tp:taxon-name-part> (<tp:taxon-name-part taxon-name-part-type="subgenus">Clupeiformes</tp:taxon-name-part>)</tp:taxon-name> (<xref ref-type="bibr" rid="B3461042">Fage 1920</xref>)</p>
+        <p>This publication includes data from various "Thor" expeditions from 1905–1910, but also includes information from other vessels, encompassing in total a period from 1904–1912 and a geographic area including the Atlantic, the Mediterranean and the Suez Canal. The paper focuses on the life cycle and development of commercially important species of the familes <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Engraulidae</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Clupeidae</tp:taxon-name-part></tp:taxon-name> (e.g. sardines, sprats, anchovies) and analyses only larval stages. Abundances per larval size class are reported for each station, aiming at assessing seasonal fluctuations and productivity of different regions in the study area. Samples, their metadata, and abundances per size class are reported in tabular format for each species.</p>
+        <p>In addition to the data collected by the research vessels, <xref ref-type="bibr" rid="B3461042">Fage (1920)</xref> also presents a time-series of twelve years of fish captures (“sardines”) by the fishermen of Colliure (southern France), showing defined seasonality and allowing for a comparison, within the same report, between basic data related to larval growth and data related to commercial fishing. The digitization of these "fishermen data" was considered also of historical value and is included here as Suppl. material <xref ref-type="supplementary-material" rid="S3467403">5</xref>.</p>
+        <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Calcareous</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">algae</tp:taxon-name-part></tp:taxon-name></italic> (<xref ref-type="bibr" rid="B3461010">Lemoine 1915</xref>)</p>
+        <p>This dataset includes taxonomic descriptions, drawings, global distribution maps and other remarks for the calcareous <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="species">algae</tp:taxon-name-part></tp:taxon-name> collected in the framework of the expedition. The paper focuses on taxonomic treatments, including descriptions and illustrations of species and listing the date and location it was found, but omitting additional information on coordinates, sampling dates, depth or gear. These metadata could in some cases be inferred from the introductory table, but in most cases this proved impossible due to lack of details given.</p>
+        <p>Table <xref ref-type="table" rid="T3443495">2</xref> provides an overview of the characteristics and coverage of the four individual datasets; Figs <xref ref-type="fig" rid="F3465718">4</xref>, <xref ref-type="fig" rid="F3465724">5</xref>, <xref ref-type="fig" rid="F3465722">6</xref>, <xref ref-type="fig" rid="F3465720">7</xref> show the sampling stations of each of the datasets. The datasets can also be viewed through the <ext-link ext-link-type="uri" xlink:href="http://medobis.portal.lifewatchgreece.eu/viewer" xlink:type="simple">MedOBIS data viewer</ext-link> (account required) and downloaded in various formats.</p>
+      </sec>
+      <sec sec-type="Funding">
+        <title>Funding</title>
+        <p>This work was supported by the <ext-link ext-link-type="uri" xlink:href="https://www.lifewatchgreece.eu/" xlink:type="simple">LifeWatchGreece</ext-link> Research Infrastructure (MIS 384676), funded by the Greek Government under the General Secretariat of Research and Technology (GSRT), ESFRI Projects, National Strategic Reference Framework (NSRF). The original "Thor" expedition was funded by the Carlsberg Foundation (Copenhagen).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>The research steamer “Thor” was 35 m long and 6.5 m wide and was equipped with laboratory facilities for oceanographic surveys. The main types of sampling gear used during the “Thor” expedition and specifically for the four examined datasets are described below and listed in Table <xref ref-type="table" rid="T3440487">3</xref>. In addition, <ext-link ext-link-type="uri" xlink:href="https://www.youtube.com/watch?v=4ZVx261JH1E" xlink:type="simple">film material recorded during the Danish Oceanographic Expedition Around The World (1928-1930) on the research vessel “Dana”</ext-link> documents the equipment of the ship and the use of the gear, much of which was used in a similar fashion during the "Thor" expeditions. <xref ref-type="bibr" rid="B3434806">Schmidt (1912)</xref> provides an extensive description of different types of sampling gear and their use on board.</p>
+        <p>For horizontal bottom and pelagic trawling, two models of young fish trawls ("Petersen's young fish trawl") were used, one 7 m long net with an opening of 200 cm diameter (Y 200), the other 8.5 m long with an opening of 330 cm (Y 330), both with a mesh size of 1 mm. Less frequently, a Monaco trawl (M) with a length of 6 m and a mesh size of 3 cm was used.</p>
+        <p>To collect fish eggs, larvae and other plankton, either open conical stramin nets (three different opening diameters; 100 cm, 150 cm and 200 cm – S 100, S 150 and S 200, respectively) with a mesh size of 1 mm, or fine-meshed open silk nets (P 100 and P 30) with mesh sizes of 333 µm and 76 µm were used. The silk nets were either used for surface sampling or they were attached to a trawl-wire used in greater depths.</p>
+        <p>Vertical plankton hauls were performed with Nansen closing nets (opening diameters of 30 cm (N 30) and 50 cm (N 50)) and a mesh size of 76 μm.</p>
+        <p>Four different types of ring trawls were used, with diameters from 130 cm to 1000 cm (C 200, C 130, E 300, E 1000 – the latter two only during the Dana expedition) and varying mesh sizes. The ring trawls were used for horizontal trawling, but could be closed at a specific depth before hauling them to the surface, thus allowing sampling at selective depths.</p>
+        <p>Bottom dredges comprised one with a rectangular opening (D 1), one with a triangular opening (D 2), and a small hand-dredge (H) with dimensions of 18 x 14 cm.</p>
+        <p>Additional types of sampling gear used occasionally during the "Thor" expedition included a small type of otter-trawl, a Danish eel hand-seine dragged by hand (mesh size of 1–2.5 cm) and shrimp nets used during wading from the beach for capturing various small fish, among others (Table <xref ref-type="table" rid="T3440487">3</xref>).</p>
+        <p>The most commonly used gears during the expeditions were the young fish trawls, stramin nets, silk nets and Nansen nets (Table <xref ref-type="table" rid="T3440486">4</xref>).</p>
+        <p>Several samples are not included in Table <xref ref-type="table" rid="T3440486">4</xref> for the following reasons:</p>
+        <list list-type="bullet">
+          <list-item>
+            <p><xref ref-type="bibr" rid="B3461033">Wesenberg-Lund (1939)</xref> lists information on the sampling gear for each sample of pelagic polychaetes; however, in some cases it seems that samples from different gears were merged, as two different gears are listed per sample. These cannot be allocated unambigously.</p>
+          </list-item>
+          <list-item>
+            <p><xref ref-type="bibr" rid="B3461042">Fage (1920)</xref> lists sampling gears used to catch fish (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Clupeiformes</tp:taxon-name-part></tp:taxon-name>) in great detail when related to the "Thor" expeditions 1908–1910; however, for several samples proceeding from complementary expeditions the only information given is "Petersen's young fish trawl", without further specification. By matching samples to the information in the introductory volume, information on the opening diameter could be assigned to most samples. The remaining samples are listed in Table <xref ref-type="table" rid="T3440486">4</xref> as "Y".</p>
+          </list-item>
+          <list-item>
+            <p>No information on the sampling gear used for the collection of calcareous <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="species">algae</tp:taxon-name-part></tp:taxon-name> is given by <xref ref-type="bibr" rid="B3461010">Lemoine (1915)</xref>; however, by matching the samples to the information given in the introductory table (<xref ref-type="bibr" rid="B3434806">Schmidt 1912</xref>), information could be inferred for several of the samples. However, samples could not always be unambiguously matched, thus explaining the low numbers in Table <xref ref-type="table" rid="T3440486">4</xref>.</p>
+          </list-item>
+        </list>
+        <p>
+          <italic>Environmental parameters</italic>
+        </p>
+        <p>During the "Thor" expedition, environmental conditions occurring at the time of the sampling were measured in great detail. Measurements are reported in parts of Volume 1 and Volume 3 of the series (Table <xref ref-type="table" rid="T3434751">1</xref>). These were not digitized here, and the only environmental parameters contained in the dataset are those reported in the introductory table by <xref ref-type="bibr" rid="B3434806">Schmidt (1912)</xref>. Additional information on the methodology was obtained from <xref ref-type="bibr" rid="B3461074">Nielsen (1912)</xref>, same volume (Table <xref ref-type="table" rid="T3442946">5</xref>).</p>
+      </sec>
+      <sec sec-type="Quality control">
+        <title>Quality control</title>
+        <p>Individual datasets were digitized manually from scanned copies of the original documents. In general, the quality control procedures applied through the data management process, were based on the Principles of Data Quality according to <xref ref-type="bibr" rid="B3460954">Chapman (2005)</xref>​ and the <ext-link ext-link-type="uri" xlink:href="http://www.iode.org/index.php?option=com_oe&amp;task=viewDocumentRecord&amp;docID=9174" xlink:type="simple">OBIS node manual</ext-link>. Moreover, as the digitization of historical datasets scattered over different manuscripts in a heterogeneous format presents a special challenge, more details on the digitization <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="species">steps</tp:taxon-name-part></tp:taxon-name>, the structure of the data and the quality control measures are given below (section "Step description").</p>
+      </sec>
+      <sec sec-type="Step description">
+        <title>Step description</title>
+        <p>
+          <bold><italic><tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="genus">Digitization</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="species">steps</tp:taxon-name-part>
+              </tp:taxon-name></italic></bold>
+        </p>
+        <list list-type="order">
+          <list-item>
+            <p>Manual digitization of the information on samples and their associated metadata from the “Table of Stations” (page 25 and onwards) in the introductory volume (<xref ref-type="bibr" rid="B3434806">Schmidt 1912</xref>). These data were enriched with information from the main text (e.g. sampling methods and gear) when necessary.</p>
+          </list-item>
+          <list-item>
+            <p>Independent manual digitization of the three biological publications, including all available data on samples, sampling metadata, species occurences, abundances, etc.</p>
+          </list-item>
+          <list-item>
+            <p>Independent quality control of each dataset, e.g. check if location of coordinates falls on land or outside the study area; standardize taxon names against <ext-link ext-link-type="uri" xlink:href="http://marinespecies.org/" xlink:type="simple">WoRMS</ext-link> (<xref ref-type="bibr" rid="B3461083">WoRMS Editorial Board 2016</xref>); check for inconsistencies in dates, depths, locations, sample numbers, abundances, use of gear, etc.</p>
+          </list-item>
+          <list-item>
+            <p>Sampling information in the biological publications (e.g. location, date, time, gear) were matched against the introductory volume which was used as a reference dataset, and unique sample IDs were ascribed to these samples. In cases where the biological publications included samples from additional expeditions which were not covered in the introductory volume, samples could not be matched (Fig. <xref ref-type="fig" rid="F3442934">3</xref>). There were also samples mentioned in the introductory volume which were not associated with any biological information, since they are described in other publications of the series that were not digitized yet.</p>
+          </list-item>
+          <list-item>
+            <p>A second round of quality control was performed on the integrated datasets. In cases of inconsistencies of information between the biological datasets and the introductory volume it was assumed that the information in the introductory table is the correct one, and a note was kept in the remarks field of the dataset.</p>
+          </list-item>
+          <list-item>
+            <p>Missing data in a dataset (on e.g. coordinates, sampling gear, sampling time, etc.) were either derived from other datasets or from other scientific and historical publications whenever possible.</p>
+          </list-item>
+          <list-item>
+            <p>Creation of metadata for each dataset.</p>
+          </list-item>
+        </list>
+        <p>This strategy resulted in a uniform dataset which allowed the seamless integration of data, as they all resulted from the same core expedition. However, to pay respect to the individual data publications and to allow users to access the data under a specific taxonomic focus, the datasets were published separately, with separate metadata and individual URLs. All datasets are available as Darwin Core Archives under a <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/choose/zero/" xlink:type="simple">CC-Zero waiver</ext-link> via the <ext-link ext-link-type="uri" xlink:href="http://ipt.medobis.eu" xlink:type="simple">Integrated Publishing Toolkit (IPT) </ext-link>of the <ext-link ext-link-type="uri" xlink:href="http://ipt.medobis.eu" xlink:type="simple">Mediterranean Ocean Biogeographic Information System,</ext-link> supported by the <ext-link ext-link-type="uri" xlink:href="https://www.lifewatchgreece.eu/" xlink:type="simple">LifeWatchGreece</ext-link> Infrastructure (see section "Data resources" below for the URLs of each dataset).</p>
+        <p>Data have to be formatted according to the DarwinCore schema (DwC) for dissemination through global biogeographic databases (e.g. <ext-link ext-link-type="uri" xlink:href="http://iobis.org" xlink:type="simple">Ocean Biogeographic Information System (OBIS)</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://gbif.org" xlink:type="simple">Global Biodiversity Information Facility (GBIF)</ext-link>), thus some modifications of the or enrichments were unavoidable. As this format is not necessarily user-friendly for human users (e.g. information might be merged into one field), a version of the datasets in a non-standardized but more easily usable format is provided as Suppl. materials <xref ref-type="supplementary-material" rid="S3467371">1</xref>, <xref ref-type="supplementary-material" rid="S3467400">2</xref>, <xref ref-type="supplementary-material" rid="S3467401">3</xref>, <xref ref-type="supplementary-material" rid="S3467402">4</xref></p>
+        <p>
+          <italic><bold>Difficulties and problems encountered during the procedure</bold></italic>
+        </p>
+        <p>
+          <italic>Same station codes for different locations</italic>
+        </p>
+        <p>The samples of the core expedition of "Thor" in 1908–1910 had been given incrementing numbers in the introductory volume. However, the same identification codes had been used for stations of the 1905–1906 expedition, thus Schmidt created unique station codes by appending the last two digits of the year to these stations (e.g. "59.06" for station 59 in the year 1906). This practice was followed during the digitization for all years and stations from all publications where only the station code was listed. In cases where this was not sufficient to create a unique station ID, an additional letter was added to the station code (e.g. 283a.11 and 283b.11). This was done in two cases: (a) where the same code was used for different stations on different expeditions in the same year, and (b) where in the list of stations two different spatial points (coordinates) were listed under the same station code.</p>
+        <p>
+          <italic>Samples not identified unambiguously in the manuscript</italic>
+        </p>
+        <p>No unique sample codes were given in any of the publications. During the digitization process, unique codes were created for all samples (a sample was assumed to represent a unique combination of position, date, time, gear, length of wire and haul duration) by appending a letter to the station number (e.g. 10.08-a, 10.08-b, etc). In one case, where the same sample (all data identical) was listed twice in the introductory table, this was treated as two different samples to be in accordance with the manuscript; however, the biological data could not be mapped unambiguously to either of the two. During the assignment of sample IDs, records from the individual dataset were matched to the introductory table which served as a reference. This allowed to identify samples unambiguously and to supplement sampling metadata where it was missing in some cases. However, not all samples in the datasets “Pelagic Polychaetes” and “<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Calcareous</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">algae</tp:taxon-name-part></tp:taxon-name>” could be matched unambiguously to a sample code in the introductory table, even if they were taken at the same day and at the same station. In the polychaete dataset, many samples (gears/times) seem to have been merged (i.e. two sampling gears/times reported), or the sampling gear might have been matched to one sample and the sampling time to another. The dataset on calcareous <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="species">algae</tp:taxon-name-part></tp:taxon-name> did not report information on sampling time and gear. As the database requires a unique sample code, however, new “artificial” sample codes were created for these ambiguous samples. This probably increases the number of sampling events artificially, but as the total number of these “artificial” samples is low (20), this was considered as the best practice.</p>
+        <p>
+          <italic>Coordinates format and precision, georeferencing</italic>
+        </p>
+        <p>Latitude and Longitude are given in Degrees-Minutes in the original publications. This corresponds —roughly, depending on latitude— to a radius of uncertainty of around 2,000 m around the given point. In the datasets, coordinates were converted to decimal degrees with two decimals places to account for the originally given precision (no seconds given). The radius of uncertainty was recorded in the field "coordinateUncertaintyInMeters" in the DwC files. However, many of the samples were trawl catches and the ship was moving during the time of sampling over a distance of 1–2 nautical miles per hour [“… <italic>towed after the ship for a shorter or longer time, usually ½ to 1 hour, the ship sailing about 2 knots in the hour</italic>…”, in <xref ref-type="bibr" rid="B3434806">Schmidt (1912)</xref>, p. 13]. These trawls were not represented in the data (only one point of coordinates was given, presumably the starting point). This additional uncertainty of the position resulting from the trawling has not been incorporated in the data, and the position of each sampling station must be considerd as an approximation.</p>
+        <p>In a few cases, no coordinates but a named location was given. These locations were georeferenced, providing coordinates for latitude and longitude, as well as a radius of uncertainty (“coordinateUncertaintyInMeters”), using the <ext-link ext-link-type="uri" xlink:href="http://bl.ocks.org/rdmpage/raw/9951904/9" xlink:type="simple">Edit Point location tool</ext-link>.</p>
+        <p>Several reported coordinates fell on land. Some of those represented errors in the manuscript that could be resolved from the context (e.g. East and West were interchanged) and these were corrected (original coordinates reported in the remarks field), but some stations still fell on land and their correct position could not be determined. All the subsequent publications have used the same, obviously false, coordinates, and the included maps often do not have a sufficient precision to georeference the stations correctly.</p>
+        <p>In addition, some stations were listed with the same coordinates in the introductory table but were actually placed at different positions according to the map in the introductory volume. As it could not be determined whether the map or the table were correct, and the map does not allow georeferencing with a great accuracy, the coordinates were kept as they were listed in the original table with a remark.</p>
+        <p>
+          <italic>Time format</italic>
+        </p>
+        <p>The publications were not consistent in their use of “am” and “pm” when noon/midnight were concerned. Times could be given as 0 pm or 12 pm for noon and 12 am or 0 am for midnight, but not always in the same manner. The correct conversion into the 24 h format could however be determined from the sequence of samples.</p>
+        <p>
+          <italic><tp:taxon-name>
+              <tp:taxon-name-part taxon-name-part-type="genus">Depths</tp:taxon-name-part>
+            </tp:taxon-name></italic>
+        </p>
+        <p>Although depths were given for each station, it was not always clear whether these were bottom depths or sampling depths. In most cases, they appeared to be bottom depths, while in other cases they were listed for each sample and differed per station, or they were clearly sampling depths (e.g. 0–1 m at a deep water station). Data exchange schemes such as Darwin Core only provide fields for sampling depths. As a compromise, and to avoid false conclusions (i.e. interpreting bottom depth as sampling depth), sampling depths were filled in only when unambiguous, using complementary information from the depth column, the gear (e.g. benthic, pelagic) and the length of the wire used. All other depths were included in the remarks field of each sample, leaving their interpretation to the users of the data.</p>
+        <p>Often, depth ranges, or either minimum or maximum depths only (e.g. &gt;3,000 m) were recorded. This may have resulted from difficulties associated with precise depth measurements during that era: although depth could be accurately determined by the sounding of a lead ball, the interference of other conditions such as weather, currents, the available wire length and the nature of the bottom often might have allowed only for estimates, ranges or minimum values. In addition, multiple depth values per station may have resulted from the working practice on board (see also <xref ref-type="bibr" rid="B3434806">Schmidt 1912</xref> for a description of a typical working day on board). Coordinates were usually recorded once, before sampling started. During subsequent measurements, the boat moved away from its initial position, either actively during trawling, or passively (drifting). Any subsequent depth measurement in the area was still considered to belong to the same station, but was effectively performed at a different spatial location. Geographically, any location on earth has only one depth or altitude, thus when translating the information from the manuscript into a data schema, information loss occurred, as only one bottom depth can be associated with one position.</p>
+        <p>
+          <italic>Environmental information</italic>
+        </p>
+        <p>Data for the "nature of bottom", air temperature and chlorine concentration were missing for stations after ID 297.11 in the middle of an expedition (page 48), and since no explanation was provided in the manuscript this is suspected to be a typesetting error. In some cases, environmental parameters were reported but their measurement protocols were unknown (Table <xref ref-type="table" rid="T3442946">5</xref>), or the data were derived from subjective estimates (e.g. weather and sea state reports); nevertheless, all this information was made available even with limitations and/or bias, considering this would offer an added value to the completeness of the dataset.</p>
+        <p>
+          <italic>Ditto marks and abbreviations</italic>
+        </p>
+        <p>Many table cells of the original manuscript contained ditto marks (") (Fig. <xref ref-type="fig" rid="F3451361">8</xref>), a typesetting symbol meaning "same value as above". In the "Thor" publications this made sense in many cases (e.g. for the station number, date or coordinates), but in other cases the ditto marks seemed to represent "no data" (e.g. when the first rows of the table contain ditto marks for environmental measurements without any previous value being present). Sometimes (e.g. for gear, duration of haul, and depth), it was difficult to understand whether the symbol represented "same as above" or "no data". During the data digitization process the ditto marks were always treated as "same as above" for the station number, date, coordinates, nature of the bottom, time, depth, sampling gear, duration of haul and wire length, and they were replaced by the values of the preceding record in the introductory table (when present). However, for weather, wind force and direction, sea force and direction and environmental parameters, the ditto marks were interpreted as "no data". In all cases where there seemed to be errors in the original manuscript regarding the use of ditto marks (e.g. some depths were impossible or did not make sense in the context) a remarks field was included in the dataset, leaving the interpretation of the data to the user. Ditto marks were also present in the paper on <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Engraulidae</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Clupeidae</tp:taxon-name-part></tp:taxon-name>, but there a distinction was made in the use of the symbols: "no data" was signified by two dots (..), and "see above" by ditto marks (").</p>
+        <p>
+          <italic>Size classes</italic>
+        </p>
+        <p>The paper of <xref ref-type="bibr" rid="B3461042">Fage (1920)</xref> on <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Clupeiformes</tp:taxon-name-part></tp:taxon-name> contained larval size classes. These were reported as distinct records in the dataset. The size class was added in the field “lifeStage". Size classes were consistent within some species (e.g. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Sardina</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">pilchardus</tp:taxon-name-part></tp:taxon-name></italic> [as <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Clupea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">pilchardus</tp:taxon-name-part></tp:taxon-name></italic> in publication]), but not within others (e.g. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Sprattus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">sprattus</tp:taxon-name-part></tp:taxon-name></italic> [as <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Clupea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">sprattus</tp:taxon-name-part></tp:taxon-name></italic> in publication]), neither between species. Size classes used for sprat larvae were different from size classes for other species.</p>
+        <p>
+          <italic>Inconsistencies in the introductory table</italic>
+        </p>
+        <p>In the samples collected from the Strait of Messina in 1911 (page 47), depths were reported in brackets, and often as ranges (e.g. “10–60”). Although the meaning of this notation remains unclear, presumably these were an estimation of sampling depths, as bathymetric maps show these sampling areas to be much deeper than 60 m. In many of these samples, station codes do not correspond to coordinates: one station codes may have several different coordinates, or the same coordinates were sometimes given to different station codes. During digitization, new station codes were assigned following the strategy described above (paragraph "Same station codes for different locations").</p>
+        <p>The number of rows per column in the introductory table was not always consistent; containing, for instance, three different depths and sampling times and four different sampling gears. In these cases, it was often unclear which information belonged to which sampling event. Usually, the additional information row was considered to belong to the previous one. Although this strategy may have introduced wrong information into the dataset there was no other possible solution for such issue. Similar issues were also encountered in some of the biological publications.</p>
+        <p>
+          <italic>Data inconsistencies within and across datasets</italic>
+        </p>
+        <p>The structure of the publications is prone to create inconsistencies in the data, both across publications and within publications. Data on the same samples were published across several volumes over many years. Each publication repeated all or parts of the sampling information mentioned in the introductory table, but often with small differences (e.g. slightly different sampling times, depths, gears) or even with typographic errors. As it is unknown from where individual authors received this metadata on sampling —from the introduction of <xref ref-type="bibr" rid="B3434806">Schmidt (1912)</xref> which all subsequent authors consulted as a reference, or from handwritten notes which were re-transcribed and published over and over again— the correct information for a sample cannot be determined. Similarly, inconsistencies occurred also within some datasets: as occurrences are typically grouped by taxon, metadata on a sample (e.g. date, time, depth, sampling gear) were repeated over and over again for many taxa, thus introducing errors and inconsistencies. This was particularly pronounced in the dataset “Pelagic polychaetes”. During the digitization of these datasets, the introductory table has been treated as a “master table” and was assumed to be correct, and all other samples were matched to this reference.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>Coordinates given here are for the four datasets combined. For information on the coverage of individual datasets see Table <xref ref-type="table" rid="T3443495">2</xref></p>
+      </sec>
+      <sec sec-type="Coordinates">
+        <title>Coordinates</title>
+        <p>0.52 and 59.32 Latitude; 33.05 and -29.88 Longitude.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The datasets examined in this paper include two families of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Actinopteri</tp:taxon-name-part></tp:taxon-name>, five families of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Polychaeta</tp:taxon-name-part></tp:taxon-name> and three families of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Rhodophyta</tp:taxon-name-part></tp:taxon-name> (Fig. <xref ref-type="fig" rid="F3443815">9</xref>). Differences were observed between the taxonomic names of the species under which they were reported in the original biological publications and in their currently accepted status according to <ext-link ext-link-type="uri" xlink:href="http://marinespecies.org/" xlink:type="simple">WoRMS</ext-link>.</p>
+        <p>In the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Polychaeta</tp:taxon-name-part></tp:taxon-name>, several taxa are nowadays reported under different names, but the number of taxa per family reported remains stable: 10 species belonged to the family <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Alciopidae</tp:taxon-name-part></tp:taxon-name>, 5 to the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Polynoidae</tp:taxon-name-part></tp:taxon-name>, 5 to the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Lopadorrhynchidae</tp:taxon-name-part></tp:taxon-name>, 1 to the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Amphinomidae</tp:taxon-name-part></tp:taxon-name> and 1 to the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Typhloscolecidae</tp:taxon-name-part></tp:taxon-name>.</p>
+        <p>In the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Actinopteri</tp:taxon-name-part></tp:taxon-name>, 4 species belong to the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Clupeidae</tp:taxon-name-part></tp:taxon-name> and 1 to the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Engraulidae</tp:taxon-name-part></tp:taxon-name>. Records for <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Clupea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">sprattus</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">C.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">sulinae</tp:taxon-name-part></tp:taxon-name></italic> were merged under the name <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Sprattus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">sprattus</tp:taxon-name-part></tp:taxon-name></italic>, according to their currently accepted taxonomy. Taxa not identified to species level were reported under the lowest possible rank (e.g. <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Clupeiformes</tp:taxon-name-part></tp:taxon-name>).</p>
+        <p>The most significant reclassifications were observed in the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Rhodophyta</tp:taxon-name-part></tp:taxon-name> where only 6 species (out of 21) had still the same scientific name and were members of the same family. The 11 species that were originally part of the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Corallinaceae</tp:taxon-name-part></tp:taxon-name> family in <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Rhodophyta</tp:taxon-name-part></tp:taxon-name> have increased to 13, while the 10 species of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Hapalidiaceae</tp:taxon-name-part></tp:taxon-name> have decreased to 7 species. Three species that were members of the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Hapalidiaceae</tp:taxon-name-part></tp:taxon-name> family belong now in the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Corallinaceae</tp:taxon-name-part></tp:taxon-name> family, while 6 species that used to be part of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Corallinaceae</tp:taxon-name-part></tp:taxon-name> are now in <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Hapalidiaceae</tp:taxon-name-part></tp:taxon-name>.</p>
+      </sec>
+      <sec sec-type="Taxa included">
+        <title>Taxa included</title>
+        <table-wrap id="taxonomic_coverage" position="anchor" orientation="portrait">
+          <table rules="all">
+            <thead>
+              <tr>
+                <th rowspan="1" colspan="1">Rank</th>
+                <th rowspan="1" colspan="1">Scientific Name</th>
+                <th rowspan="1" colspan="1"/>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">class</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="class">Polychaeta</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">order</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="genus">Clupeiformes</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">phylum</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="phylum">Rhodophyta</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <p><bold>Data range:</bold> 1904 9 05 – 1930 6 18.</p>
+      <sec sec-type="Notes">
+        <title>Notes</title>
+        <p>This time range covers the samples of all four datasets digitized here. For details on individual datasets see Table <xref ref-type="table" rid="T3443495">2</xref> .</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Creative Commons Public Domain Waiver (CC-Zero)</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>Report on the Danish Oceanographical Expeditions 1908-1910 to the Mediterranean and adjacent seas</p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="http://ipt.medobis.eu/resource?r=thorexpeditionintroduction" xlink:type="simple">http://ipt.medobis.eu/resource?r=thorexpeditionintroduction</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>4</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Introduction. Report on the Danish Oceanographical Expeditions 1908-1910 to the Mediterranean and adjacent seas</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Darwin Core Archive</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>30</p>
+        </sec>
+        <sec sec-type="Character set">
+          <title>Character set</title>
+          <p>UTF-8</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="http://ipt.medobis.eu/resource?r=thorexpeditionintroduction" xlink:type="simple">http://ipt.medobis.eu/resource?r=thorexpeditionintroduction</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>This dataset comprises the location of sampling stations, sampling information (methods) and some environmental data recorded during the Danish expeditions to the Mediterranean and adjacent seas 1908-1910. The data were digitized from the report of Schmidt (1912). This table was created and used as reference for the biogeographic data, which were published in three multi-part volumes. Three of these volumes with biogeographic data have been digitized already and are available through the MedOBIS IPT installation.The Darwin Core Archive comprises two files with data: <italic>event.txt</italic> and <italic>measurementorfact.txt</italic>. The measurementorfact.txt file is linked to the event.txt file through the column "id".</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">id</td>
+                  <td rowspan="1" colspan="1">Internal database ID. In event.txt identical to eventsID and constituting a unique identifier for the event (= sampling event). In measurementorfact.txt it is the ID of the event at which the measurement was taken.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventID</td>
+                  <td rowspan="1" colspan="1">Unique ID for the record, identical to id.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">parentEventID</td>
+                  <td rowspan="1" colspan="1">An identifier for the broader event that groups this and potentially other events – in this case, a link to the database internal ID of the station and included in the file only for compliance with the schema.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">samplingProtocol</td>
+                  <td rowspan="1" colspan="1">A free-text description of the method/ protocol used during the sampling event.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">sampleSizeValue</td>
+                  <td rowspan="1" colspan="1">A numeric value for a measurement of the size (time duration, length, area, or volume) of a sample in a sampling event. Does not contain values here, included only for compliance with the schema.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">sampleSizeUnit</td>
+                  <td rowspan="1" colspan="1">The unit of measurement of the size (time duration, length, area, or volume) of a sample in a sampling event. Does not contain values here, included only for compliance with the schema.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">samplingEffort</td>
+                  <td rowspan="1" colspan="1">Sampling time in minutes</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventDate</td>
+                  <td rowspan="1" colspan="1">The date and time of sampling, recorded in standard format (ISO 8601:2004).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">year</td>
+                  <td rowspan="1" colspan="1">The year of sampling (four digits).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">month</td>
+                  <td rowspan="1" colspan="1">The month of sampling (one or two digits).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">day</td>
+                  <td rowspan="1" colspan="1">The day of the month of sampling (one or two digits).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">habitat</td>
+                  <td rowspan="1" colspan="1">A description of the habitat of the sample, in this case representing the information contained in the column "Nature of Bottom" of the original publication.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">fieldNumber</td>
+                  <td rowspan="1" colspan="1">A unique sampling code (across the digitized datasets). Here composed of the locationID and year and an incrementing small letter to distinguish between different sampling events at the same station in the same year.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventRemarks</td>
+                  <td rowspan="1" colspan="1">The name of research vessel, the bottom or sampling depth given and other remarks on the original text. Includes also any information from the original publications which was corrected during the digitization in cases it was clearly incorrect.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">locationID</td>
+                  <td rowspan="1" colspan="1">The station code as reported on the original text plus the sampling year, in some cases with slight modifications in order to avoid the same station code being used for different locations.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">locality</td>
+                  <td rowspan="1" colspan="1">The name of the locality of the sampling station, if given in the publication.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">minimumDepthInMeters</td>
+                  <td rowspan="1" colspan="1">The minimum (shallowest) sampling depth of the event.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">maximumDepthInMeters</td>
+                  <td rowspan="1" colspan="1">The maximum (deepest) sampling depth of the event.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">locationRemarks</td>
+                  <td rowspan="1" colspan="1">Comments or notes about the location and its coordinates.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLatitude</td>
+                  <td rowspan="1" colspan="1">The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location. Positive values are north of the Equator, negative values are south of it.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLongitude</td>
+                  <td rowspan="1" colspan="1">The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location. Positive values are east of the Greenwich Meridian, negative values are west of it.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">coordinateUncertaintyInMeters</td>
+                  <td rowspan="1" colspan="1">A radius of uncertainty around the given coordinates (in metres). The true location / coordinates may fall anywhere within that circle.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">measurementID</td>
+                  <td rowspan="1" colspan="1">A unique identifier for the MeasurementOrFact (information pertaining to measurements, facts, characteristics, or assertions).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">measurementType</td>
+                  <td rowspan="1" colspan="1">The type of the measurement (e.g. Chlorine at the water surface)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">measurementValue</td>
+                  <td rowspan="1" colspan="1">The value of the measurement.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">measurementAccuracy</td>
+                  <td rowspan="1" colspan="1">he description of the potential error associated with the measurementValue</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">measurementUnit</td>
+                  <td rowspan="1" colspan="1">The unit associated with the measurementValue.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">measurementDeterminedBy</td>
+                  <td rowspan="1" colspan="1">Person(s) who determined the measurementValue.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">measurementMethod</td>
+                  <td rowspan="1" colspan="1">A description of or reference to (publication, URI) the method or protocol used to determine the measurement</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">measurementRemarks</td>
+                  <td rowspan="1" colspan="1">Comments or notes about the measurement.</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+      <sec sec-type="Data set 2">
+        <title>Data set 2.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Danish Oceanographical expeditions 1908-1910 to the Mediterranean and adjacent seas-Pelagic Polychaetes</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Darwin Core Archive</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>25</p>
+        </sec>
+        <sec sec-type="Character set">
+          <title>Character set</title>
+          <p>UTF-8</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="http://ipt.medobis.eu/resource?r=thorexpedition_pelagicpolychaetes" xlink:type="simple">http://ipt.medobis.eu/resource?r=thorexpedition_pelagicpolychaetes</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>The present historical paper deals with the pelagic Polychaetes except the Tomopterids collected on the cruises of the "Thor", 1908-1910 in the Mediterranenan and adjacent waters. The tables included in this report present also the scientific results from other research vessels such as "Dana" (years 1921 and 1930) and "S/S Pangan" (1911).</p>
+          <p>The Darwin Core Archive comprises two files with data: <italic>event.txt</italic> and <italic>occurrence.txt</italic>. The occurrence.txt file is linked to the events.txt file through the column "id". The data fields in event.txt, as well as some in the file occurrence.txt are the same as in the dataset "Introduction. Report on the Danish Oceanographical Expeditions 1908-1910 to the Mediterranean and adjacent seas". Any fields already described above in the section for that dataset are not repeated here.</p>
+          <table-wrap id="DS2" orientation="portrait" position="anchor">
+            <label>Data set 2.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">id</td>
+                  <td rowspan="1" colspan="1">An identifier for the sampling event, linking to the column "id" in the event.txt file.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">institutionCode</td>
+                  <td rowspan="1" colspan="1">The name (or acronym) of the institution providing and curating the record.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">datasetName</td>
+                  <td rowspan="1" colspan="1">The name of the data set from which the record was derived</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">basisOfRecord</td>
+                  <td rowspan="1" colspan="1">Required by the DarwinCore schema, describing the origin of the data record. Here, all are "Human Observation".</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceID</td>
+                  <td rowspan="1" colspan="1">A unique identifier (within the dataset) for the occurrence record.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">catalogNumber</td>
+                  <td rowspan="1" colspan="1">A constructed (globally) unique identifier, combination of dataset name and fieldNumber.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceRemarks</td>
+                  <td rowspan="1" colspan="1">Any remarks, notes, comments on the occurrence.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">individualCount</td>
+                  <td rowspan="1" colspan="1">The number of individuals of the taxon in the sample.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">sex</td>
+                  <td rowspan="1" colspan="1">The biological sex of the taxon.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">lifeStage</td>
+                  <td rowspan="1" colspan="1">The life stage of the taxon.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">preparations</td>
+                  <td rowspan="1" colspan="1">Preparations of the sample (e.g. preservation in ethanol). Empty here, included for completeness of the schema.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">identifiedBy</td>
+                  <td rowspan="1" colspan="1">The person(s) who identified the taxon.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">identificationReferences</td>
+                  <td rowspan="1" colspan="1">Bibliographical references used for the identification. Empty here, included for completeness of the schema.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificNameID</td>
+                  <td rowspan="1" colspan="1">A unique identifier for the name of the taxon, here the LSID of the World Register of Marine Species.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificName</td>
+                  <td rowspan="1" colspan="1">The full scientific name retrieved from the World Register of Marine Species, after matching the taxon name as in the original publication. Contains the value of the field "ScientificName" as retrieved after using the function "Match taxa" of WoRMS.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">kingdom</td>
+                  <td rowspan="1" colspan="1">The name of the kingdom in which the taxon is classified. If the taxon was not found in WoRMS at the time of taxon matching, the field is empty.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">phylum</td>
+                  <td rowspan="1" colspan="1">The name of the phylum in which the taxon is classified. If the taxon was not found in WoRMS at the time of taxon matching, the field is empty.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">class</td>
+                  <td rowspan="1" colspan="1">The name of the class in which the taxon is classified. If the taxon was not found in WoRMS at the time of taxon matching, the field is empty.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">order</td>
+                  <td rowspan="1" colspan="1">The name of the order in which the taxon is classified. If the taxon was not found in WoRMS at the time of taxon matching, the field is empty.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">family</td>
+                  <td rowspan="1" colspan="1">The name of the family in which the taxon is classified. If the taxon was not found in WoRMS at the time of taxon matching, the field is empty.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">genus</td>
+                  <td rowspan="1" colspan="1">The name of the genus in which the taxon is classified. If the taxon was not found in WoRMS at the time of taxon matching, the field is empty.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">subgenus</td>
+                  <td rowspan="1" colspan="1">The name of the subgenus in which the taxon is classified (if present).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">specificEpithet</td>
+                  <td rowspan="1" colspan="1">The specific epithet of the taxon (if at species level).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">nomenclaturalCode</td>
+                  <td rowspan="1" colspan="1">The nomenclatural code under which the scientificName is constructed. Included here only for compliance with the schema.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">taxonomicRemarks</td>
+                  <td rowspan="1" colspan="1">Any remarks on the taxon, contains also the exact version of the taxon as written in the original publication.</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+      <sec sec-type="Data set 3">
+        <title>Data set 3.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Engraulidae</tp:taxon-name-part></tp:taxon-name>-<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Clupeidae</tp:taxon-name-part></tp:taxon-name>. Report on the Danish Oceanographical Expeditions 1908-1910 to the Mediterranean and adjacent seas</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Darwin Core Archive</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>1</p>
+        </sec>
+        <sec sec-type="Character set">
+          <title>Character set</title>
+          <p>UTF-8</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="http://ipt.medobis.eu/resource?r=thorexpedition_engraulidaeclupeidae" xlink:type="simple">http://ipt.medobis.eu/resource?r=thorexpedition_engraulidaeclupeidae</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>Larvae of fish from families <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Engraulidae</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Clupeidae</tp:taxon-name-part></tp:taxon-name> were sampled. Sampling was mainly pelagig, thus mainly by Petersen's young fish trawl. Data proceed from the Thor expeditions 1908-1910 but data from other expeditions (Thor 1905 and 1906) and other vessels (Nordboen and Pangan) are incorporated in the report, encompassing years 1904-1911</p>
+          <p>The Darwin Core Archive comprises two files with data: <italic>event.txt</italic> and <italic>occurrence.txt</italic>. The occurrence.txt file is linked to the events.txt file through the column "id". The data fields in event.txt, as well as some in the file occurrence.txt are the same as in the dataset "Introduction. Report on the Danish Oceanographical Expeditions 1908-1910 to the Mediterranean and adjacent seas". The file occurrence.txt contains exactly the same fields as the file occurrence.txt in the dataset "Danish Oceanographical expeditions 1908-1910 to the Mediterranean and adjacent seas-Pelagic Polychaetes". Thus, the description of all fields are not repeated here.</p>
+          <table-wrap id="DS3" orientation="portrait" position="anchor">
+            <label>Data set 3.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">all columns</td>
+                  <td rowspan="1" colspan="1">All columns have already been described above in the datasets "Introduction. Report on the Danish Oceanographical Expeditions 1908-1910 to the Mediterranean and adjacent seas" and "Danish Oceanographical expeditions 1908-1910 to the Mediterranean and adjacent seas-Pelagic Polychaetes" and are not repeated here.</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+      <sec sec-type="Data set 4">
+        <title>Data set 4.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Calcareous</tp:taxon-name-part></tp:taxon-name><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="above-genus">Algae</tp:taxon-name-part></tp:taxon-name>. Report on the Danish Oceanographical Expeditions 1908-10 to the Mediterranean and adjacent seas</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Darwin Core Archive</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>1</p>
+        </sec>
+        <sec sec-type="Character set">
+          <title>Character set</title>
+          <p>UTF-8</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="http://ipt.medobis.eu/resource?r=thorexpedition_k1_calcareous_algae" xlink:type="simple">http://ipt.medobis.eu/resource?r=thorexpedition_k1_calcareous_algae</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>This dataset is based on the paper entitled “<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Calcareous</tp:taxon-name-part></tp:taxon-name><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="above-genus">Algae</tp:taxon-name-part></tp:taxon-name>. Report on the Danish Oceanographical Expeditions 1908-10 to the Mediterranean and adjacent seas” published by <xref ref-type="bibr" rid="B3461010">Lemoine (1915)</xref>. It comprises of 59 records of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Rhodophyta</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Corallinales</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Peyssonneliales</tp:taxon-name-part></tp:taxon-name>) collected during the 1908-9 and 1910 expeditions of Thor vessel from a wide geographical (from the Aegean Sea to the eastern Atlantic Ocean) and bathymetric range (3-98 m).</p>
+          <p>The Darwin Core Archive comprises two files with data: <italic>event.txt</italic> and <italic>occurrence.txt</italic>. The occurrence.txt file is linked to the events.txt file through the column "id". The data fields in event.txt, as well as some in the file occurrence.txt are the same as in the dataset "Introduction. Report on the Danish Oceanographical Expeditions 1908-1910 to the Mediterranean and adjacent seas". The file occurrence.txt contains exactly the same fields as the file occurrence.txt in the dataset "Danish Oceanographical expeditions 1908-1910 to the Mediterranean and adjacent seas-Pelagic Polychaetes". Thus, the description of all fields are not repeated here.</p>
+          <table-wrap id="DS4" orientation="portrait" position="anchor">
+            <label>Data set 4.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">all columns</td>
+                  <td rowspan="1" colspan="1">All columns have already been described above in the datasets "Introduction. Report on the Danish Oceanographical Expeditions 1908-1910 to the Mediterranean and adjacent seas" and "Danish Oceanographical expeditions 1908-1910 to the Mediterranean and adjacent seas-Pelagic Polychaetes" and are not repeated here.</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+    <sec sec-type="Additional information">
+      <title>Additional information</title>
+      <p>
+        <bold>Conclusions</bold>
+      </p>
+      <p>This work represents a first step towards the digitization and harmonization of a complex set of related information distributed across different historical publications. Making legacy data publicly available is an increasing need (and duty of scientists), with expected effects on the scientific and societal perception of biogeography. The conclusions provided here can offer lessons learnt through this experience, but they can also contribute to any future attempt for rescuing legacy data and they can provide a sound basis for the digitization of the complete set of publications derived from the Danish expeditions (Table <xref ref-type="table" rid="T3434751">1</xref>).</p>
+      <p>When legacy data are concerned, their integration into a harmonized, comparable format and their quality control is a special challenge. Data might be inconsistent across different publications, or even within the same publication, and obvious errors are identified during digitization. Often, information is missing, or spread across several publications. The meaning of symbols may be unclear, even when they seem to have an international standard nowadays (e.g. the meaning of ditto marks). Sometimes, these problems can be solved by tracking down the information in other publications, or by logically deducing information. This requires a sound knowledge of sampling techniques and characteristics of the sampled area and habitat. However, as the original authors cannot be consulted anymore, some of these problems will remain unresolved, and currently there is no standard strategy or “best practice” on how to deal with such issues.</p>
+      <p>During the data harmonization and quality control of the data it was required to take decisions related to species names (reported vs currently accepted), names of water basins (previous vs recent definitions), georeferencing (precision related to the transformation of coordinates), and to check additional documents for eventual integration of data. An important lesson learnt in this respect was the need of a team to integrate knowledge and perspectives, and the involvement of experts of different disciplines, able to interpret data correctly and reduce errors in the final dataset.</p>
+      <p>
+        <bold><italic><tp:taxon-name>
+              <tp:taxon-name-part taxon-name-part-type="genus">Outlook</tp:taxon-name-part>
+            </tp:taxon-name></italic></bold>
+      </p>
+      <p>Biodiversity legacy literature contains a wealth of information on the biosphere and can provide valuable insights into the past state of the world's ecosystems. However, the extraction of this information is tedious and time-consuming and requires skilled personnel (<xref ref-type="bibr" rid="B3511695">Faulwetter et al. 2016</xref>). Multi-disciplinary working groups should therefore be formed to develop new methods to harvest and use this information: librarians and natural history museums may initiate and facilitate access to such information and publications, data scientists to informaticians are needed to develop tools and workflows to semi-automate the extraction of information, and biologists, modellers and even social scientists should collaborate to harness this information in global models, giving insights into global change and their consequences for society.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>This work was supported by the <ext-link ext-link-type="uri" xlink:href="https://www.lifewatchgreece.eu/" xlink:type="simple">LifeWatchGreece</ext-link> Research Infrastructure (MIS 384676), funded by the Greek Government under the <ext-link ext-link-type="uri" xlink:href="http://www.gsrt.gr/central.aspx?sId=119I428I1089I323I488743&amp;JScript=1" xlink:type="simple">General Secretariat of Research and Technology</ext-link> (GSRT), <ext-link ext-link-type="uri" xlink:href="https://ec.europa.eu/research/infrastructures/index_en.cfm?pg=esfri" xlink:type="simple">ESFRI </ext-link>Projects, National Strategic Reference Framework (NSRF). The partners of the European Marine Observation and Data Network – Biology (<ext-link ext-link-type="uri" xlink:href="http://www.emodnet-biology.eu/" xlink:type="simple">EMODnet Biology</ext-link>) WP4 are thanked for their discussions and inspirations about data archaeology and digitization of legacy literature. John R. Dolan (Pierre and Marie Curie University, Paris, France) is thanked for bringing the "Thor" publications to our attention. The authors would like also to thank Mr Dimitris Kazepis, Librarian Reference and Acquisitions Department of the HCMR, for the digitization of the “Hydrography” chapter of Nielsen's (1912) report in the Danish Oceanographical Expeditions 1908-1910 to the Mediterranean and adjacent seas (pages 53-255). The authors also thank the reviewer, Dr. Sasa Raicevich, for valuable suggestions which were incorporated into the revised version of this manuscript.</p>
+    </ack>
+    <notes>
+      <sec sec-type="Author contributions">
+        <title>Author contributions</title>
+        <p>DM coordinated the digitzation activities and digitized the dataset on pelagic polychaetes and contributed to the initial draft of the manuscript. LF digitized the dataset on <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Clupeiformes</tp:taxon-name-part></tp:taxon-name> including fishermen data, helped in curating the introductory table and contributed to the writing of the manuscript. MT digitized the introductory table and contributed to its curation and located and digitized the individual publications. VG Digitizated and curated the dataset on calcareous <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="species">algae</tp:taxon-name-part></tp:taxon-name> and contributed to the writing of the manuscript. SN created the distribution maps, contributed to the data integration and data management and was responsible for the formatting and publication of the data through the IPT installation. EC contributed to the curation of the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Clupeiformes</tp:taxon-name-part></tp:taxon-name> dataset, was responsible for cross-checking and analysing taxon names and contributed to the writing of the manuscript. WP helped in locating printed publications and additional information on sampling gears and sampling methods at the time. SF initiatiated the digitization of the Thor publications, performed the integration and harmonization of the digitized datasets, including quality controls and data formatting, and contributed to the authoring of the manuscript.</p>
+      </sec>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B3434763">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Brunet</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jones</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>Data rescue initiatives: bringing historical climate data into the 21st century</article-title>
+          <source>Climate Research</source>
+          <volume>47</volume>
+          <issue>1</issue>
+          <fpage>29</fpage>
+          <lpage>40</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.3354/cr00960</uri>
+          <pub-id pub-id-type="doi">10.3354/cr00960</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3460954">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Chapman</surname>
+              <given-names>A. D.</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <source>Principles of Data Quality, version 1.0</source>
+          <publisher-name>Global Biodiversity Information Facility</publisher-name>
+          <publisher-loc>Copenhagen</publisher-loc>
+          <size units="page">58</size>
+          <uri xlink:type="simple">http://www.gbif.org/resource/80509</uri>
+          <isbn>87-92020-03-8</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B3461042">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Fage</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <year>1920</year>
+          <source><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Engraulidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Clupeidae</tp:taxon-name-part></tp:taxon-name>. Report on the Danish oceanographical expeditions 1908-10 to the Mediterranean and adjacent seas.</source>
+          <volume>V2 Biology (A9)</volume>
+          <publisher-name>Høst &amp; Son</publisher-name>
+          <publisher-loc>Copenhagen</publisher-loc>
+          <size units="page">1-140</size>
+        </element-citation>
+      </ref>
+      <ref id="B3511695">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Faulwetter</surname>
+              <given-names>Sarah</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pafilis</surname>
+              <given-names>Evangelos</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fanini</surname>
+              <given-names>Lucia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bailly</surname>
+              <given-names>Nicolas</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Agosti</surname>
+              <given-names>Donat</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Arvanitidis</surname>
+              <given-names>Christos</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Boicenco</surname>
+              <given-names>Laura</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Catapano</surname>
+              <given-names>Terry</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Claus</surname>
+              <given-names>Simon</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dekeyzer</surname>
+              <given-names>Stefanie</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Georgiev</surname>
+              <given-names>Teodor</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Legaki</surname>
+              <given-names>Aglaia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mavraki</surname>
+              <given-names>Dimitra</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Oulas</surname>
+              <given-names>Anastasis</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Papastefanou</surname>
+              <given-names>Gabriella</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Penev</surname>
+              <given-names>Lyubomir</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sautter</surname>
+              <given-names>Guido</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schigel</surname>
+              <given-names>Dmitry</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Senderov</surname>
+              <given-names>Viktor</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Teaca</surname>
+              <given-names>Adrian</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tsompanou</surname>
+              <given-names>Marilena</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>EMODnet Workshop on mechanisms and guidelines to mobilise historical data into biogeographic databases</article-title>
+          <source>Research Ideas and Outcomes</source>
+          <volume>2</volume>
+          <fpage>e10445</fpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.3897/rio.2.e10445</uri>
+          <pub-id pub-id-type="doi">10.3897/rio.2.e10445</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3511722">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Folland</surname>
+              <given-names>C. K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Parker</surname>
+              <given-names>D. E.</given-names>
+            </name>
+          </person-group>
+          <year>1995</year>
+          <article-title>Correction of instrumental biases in historical sea surface temperature data</article-title>
+          <source>Quarterly Journal of the Royal Meteorological Society</source>
+          <volume>121</volume>
+          <issue>522</issue>
+          <fpage>319</fpage>
+          <lpage>367</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1002/qj.49712152206</uri>
+          <pub-id pub-id-type="doi">10.1002/qj.49712152206</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3511777">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Graham</surname>
+              <given-names>C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ferrier</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Huettman</surname>
+              <given-names>F</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Moritz</surname>
+              <given-names>C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Peterson</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <article-title>New developments in museum-based informatics and applications in biodiversity analysis</article-title>
+          <source>Trends in Ecology &amp; Evolution</source>
+          <volume>19</volume>
+          <issue>9</issue>
+          <fpage>497</fpage>
+          <lpage>503</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1016/j.tree.2004.07.006</uri>
+          <pub-id pub-id-type="doi">10.1016/j.tree.2004.07.006</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3461010">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lemoine</surname>
+              <given-names>Paule</given-names>
+            </name>
+          </person-group>
+          <year>1915</year>
+          <source><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Calcareous</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">algae</tp:taxon-name-part></tp:taxon-name>. Report on the Danish Oceanographical Expeditions 1908-10 to the Mediterranean and adjacent seas.</source>
+          <volume>V2 Biology (K1)</volume>
+          <publisher-name>Høst &amp; Son</publisher-name>
+          <publisher-loc>Copenhagen</publisher-loc>
+          <size units="page">130</size>
+        </element-citation>
+      </ref>
+      <ref id="B3461074">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Nielsen</surname>
+              <given-names>J. N.</given-names>
+            </name>
+          </person-group>
+          <year>1912</year>
+          <source>Hydrography of the Mediterranean and Adjacent waters. Report on the Oceanographical expeditions to the Mediterranean and adjacent seas 1908-1910</source>
+          <volume>V1</volume>
+          <publisher-name>Høst &amp; Son</publisher-name>
+          <publisher-loc>Copenhagen</publisher-loc>
+          <size units="page">72-191</size>
+        </element-citation>
+      </ref>
+      <ref id="B3511621">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Schefbeck</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <year>1996</year>
+          <article-title>The Austro-Hungarian Deep-Sea expeditions</article-title>
+          <source>Deep-Sea and extreme shallow-water habitats: affinities and adaptations - Biosystematics and Ecology series</source>
+          <volume>11</volume>
+          <fpage>1</fpage>
+          <lpage>27</lpage>
+          <uri xlink:type="simple">http://www.zobodat.at/pdf/BioEco_11_0001-0027.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B3434806">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Schmidt</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <year>1912</year>
+          <source>Report on the Danish oceanographical expeditions 1908–10 to the Mediterranean and adjacent seas. Introduction</source>
+          <publisher-name>Høst &amp; Son</publisher-name>
+          <publisher-loc>Copenhagen</publisher-loc>
+          <size units="page">1-49</size>
+        </element-citation>
+      </ref>
+      <ref id="B3511767">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Shaffer</surname>
+              <given-names>H. Bradley</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fisher</surname>
+              <given-names>Robert N</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Davidson</surname>
+              <given-names>Carlos</given-names>
+            </name>
+          </person-group>
+          <year>1998</year>
+          <article-title>The role of natural history collections in documenting species declines</article-title>
+          <source>Trends in Ecology &amp; Evolution</source>
+          <volume>13</volume>
+          <issue>1</issue>
+          <fpage>27</fpage>
+          <lpage>30</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1016/s0169-5347(97)01177-4</uri>
+          <pub-id pub-id-type="doi">10.1016/s0169-5347(97)01177-4</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3461051">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Sverdrup</surname>
+              <given-names>H. U.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Johnson</surname>
+              <given-names>M. W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fleming</surname>
+              <given-names>R. H.</given-names>
+            </name>
+          </person-group>
+          <year>1942</year>
+          <source>The Oceans, their Physics, Chemistry, and General Biology</source>
+          <volume>7</volume>
+          <publisher-name>Prentice-Hall</publisher-name>
+          <publisher-loc>New York</publisher-loc>
+          <size units="page">1087</size>
+        </element-citation>
+      </ref>
+      <ref id="B3511757">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Tingley</surname>
+              <given-names>Morgan W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Beissinger</surname>
+              <given-names>Steven R.</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>Detecting range shifts from historical species occurrences: new perspectives on old data</article-title>
+          <source>Trends in Ecology &amp; Evolution</source>
+          <volume>24</volume>
+          <issue>11</issue>
+          <fpage>625</fpage>
+          <lpage>633</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1016/j.tree.2009.05.009</uri>
+          <pub-id pub-id-type="doi">10.1016/j.tree.2009.05.009</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3461033">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Wesenberg-Lund</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <year>1939</year>
+          <source>Pelagic polychaetes of the families <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Aphroditidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Phyllodocidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Lopadorhynchidae</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Alciopidae</tp:taxon-name-part></tp:taxon-name>. Report on the Danish Oceanographical Expedition 1908-10 to the Mediterranean and adjacent seas.</source>
+          <volume>Vol 2 Biology (E1)</volume>
+          <publisher-name>Høst &amp; Son</publisher-name>
+          <publisher-loc>Copenhagen</publisher-loc>
+          <size units="page">1-49</size>
+        </element-citation>
+      </ref>
+      <ref id="B3434752">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Woodruff</surname>
+              <given-names>Scott D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Diaz</surname>
+              <given-names>Henry F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Worley</surname>
+              <given-names>Steven J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Reynolds</surname>
+              <given-names>Richard W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lubker</surname>
+              <given-names>Sandra J.</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <article-title>Early Ship Observational Data and Icoads</article-title>
+          <source>Climatic Change</source>
+          <volume>73</volume>
+          <fpage>169</fpage>
+          <lpage>194</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1007/s10584-005-3456-3</uri>
+          <pub-id pub-id-type="doi">10.1007/s10584-005-3456-3</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3461083">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>WoRMS Editorial Board</surname>
+            </name>
+          </person-group>
+          <article-title>World Register of Marine Species</article-title>
+          <uri xlink:type="simple">http://www.marinespecies.org</uri>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F3434748" position="float" orientation="portrait">
+      <object-id content-type="arpha">4FDA3C8E-302D-5493-BED8-0BB3CDD1D727</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>The Danish Research Steamer "Thor". Image from <xref ref-type="bibr" rid="B3434806">Schmidt (1912)</xref>.</p>
+      </caption>
+      <graphic xlink:href="biodiversity_data_journal-4-e11054-g001.png" position="float" id="oo_106271.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/106271</uri>
+      </graphic>
+    </fig>
+    <fig id="F3442973" position="float" orientation="portrait">
+      <object-id content-type="arpha">4AAC5F2B-537B-54AB-926F-67EA44FBB3B1</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>Timeline showing the different expeditions and the temporal coverage of the digitized publications.</p>
+      </caption>
+      <graphic xlink:href="biodiversity_data_journal-4-e11054-g002.png" position="float" id="oo_107440.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/107440</uri>
+      </graphic>
+    </fig>
+    <fig id="F3442934" position="float" orientation="portrait">
+      <object-id content-type="arpha">67DF12A4-096C-5578-B3D0-0B3FB1C20E65</object-id>
+      <label>Figure 3.</label>
+      <caption>
+        <p>Venn diagram showing the overlap of sampling stations across the four digitized datasets.</p>
+      </caption>
+      <graphic xlink:href="biodiversity_data_journal-4-e11054-g003.png" position="float" id="oo_107404.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/107404</uri>
+      </graphic>
+    </fig>
+    <fig id="F3465718" position="float" orientation="portrait">
+      <object-id content-type="arpha">B4C6E2F8-220F-5B69-9A03-3BEC74859438</object-id>
+      <label>Figure 4.</label>
+      <caption>
+        <p>Map of the stations sampled by Thor and other vessels during the core expeditions of 1908–1909 and 1910 and additional expeditions from 1905–1906 and 1911–1912 (stations listed in the introductory table in <xref ref-type="bibr" rid="B3434806">Schmidt 1912</xref>).</p>
+      </caption>
+      <graphic xlink:href="biodiversity_data_journal-4-e11054-g004.jpg" position="float" id="oo_109404.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/109404</uri>
+      </graphic>
+    </fig>
+    <fig id="F3465724" position="float" orientation="portrait">
+      <object-id content-type="arpha">FBAAA862-7457-5360-8171-08D12132C810</object-id>
+      <label>Figure 5.</label>
+      <caption>
+        <p>Map of sampling stations where pelagic polychaetes were collected.</p>
+      </caption>
+      <graphic xlink:href="biodiversity_data_journal-4-e11054-g005.jpg" position="float" id="oo_109405.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/109405</uri>
+      </graphic>
+    </fig>
+    <fig id="F3465722" position="float" orientation="portrait">
+      <object-id content-type="arpha">4BC84E97-5810-5928-A792-A3105BEBF8EE</object-id>
+      <label>Figure 6.</label>
+      <caption>
+        <p>Map of sampling stations where fish (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Clupeiformes</tp:taxon-name-part></tp:taxon-name>) were collected.</p>
+      </caption>
+      <graphic xlink:href="biodiversity_data_journal-4-e11054-g006.jpg" position="float" id="oo_109407.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/109407</uri>
+      </graphic>
+    </fig>
+    <fig id="F3465720" position="float" orientation="portrait">
+      <object-id content-type="arpha">99B8B643-4B81-5E34-885D-73C62FD32B05</object-id>
+      <label>Figure 7.</label>
+      <caption>
+        <p>Map of sampling stations where calcareous <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="species">algae</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Rhodophyta</tp:taxon-name-part></tp:taxon-name>) were collected.</p>
+      </caption>
+      <graphic xlink:href="biodiversity_data_journal-4-e11054-g007.jpg" position="float" id="oo_108966.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/108966</uri>
+      </graphic>
+    </fig>
+    <fig id="F3451361" position="float" orientation="portrait">
+      <object-id content-type="arpha">2BF93B17-1D0D-510A-8C87-316BE94A08ED</object-id>
+      <label>Figure 8.</label>
+      <caption>
+        <p>Excerpt from the list of samples of the "Thor" Expedition (taken from <xref ref-type="bibr" rid="B3434806">Schmidt 1912</xref>), showing the arrangement of information ​and the inconsistent use of ditto marks.</p>
+      </caption>
+      <graphic xlink:href="biodiversity_data_journal-4-e11054-g008.png" position="float" id="oo_107856.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/107856</uri>
+      </graphic>
+    </fig>
+    <fig id="F3443815" position="float" orientation="portrait">
+      <object-id content-type="arpha">2D92676D-7916-5566-8542-82DBB92580C5</object-id>
+      <label>Figure 9.</label>
+      <caption>
+        <p>Number of species for <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Actinopteri</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Polychaeta</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Rhodophyta</tp:taxon-name-part></tp:taxon-name> groups according to the originally published (left) and the currently accepted (right) classification systems.</p>
+      </caption>
+      <graphic xlink:href="biodiversity_data_journal-4-e11054-g009.png" position="float" id="oo_107510.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/107510</uri>
+      </graphic>
+    </fig>
+    <table-wrap id="T3434751" position="float" orientation="portrait">
+      <label>Table 1.</label>
+      <caption>
+        <p>List of all papers published in the series "Report on the Danish Oceanographical expeditions 1908-1910 to the Mediterranean and adjacent seas". For Volume 2, parts B, F and G, no reports were published.</p>
+      </caption>
+      <table rules="all" border="0">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">
+              <bold>Volume</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 9px;">
+              <bold>Part</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 309px;">
+              <bold>Title</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 133px;">
+              <bold>Author</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Year</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V1</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">1</td>
+            <td rowspan="1" colspan="1" style="width: 309px;">Introduction, hydrography, deposits of the sea-bottom</td>
+            <td rowspan="1" colspan="1" style="width: 133px;">Johannes Schmidt</td>
+            <td rowspan="1" colspan="1">1912</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V2 Biology</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">A1</td>
+            <td rowspan="1" colspan="1" style="width: 309px;">Flat-fishes (Heterosomata)</td>
+            <td rowspan="1" colspan="1" style="width: 133px;">Harry Mcdonald Kyle</td>
+            <td rowspan="1" colspan="1">1913</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V2 Biology</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">A2</td>
+            <td rowspan="1" colspan="1" style="width: 309px;"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Sternoptychidae</tp:taxon-name-part></tp:taxon-name> (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Argyropelecus</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Sternoptyx</tp:taxon-name-part></tp:taxon-name></italic>)</td>
+            <td rowspan="1" colspan="1" style="width: 133px;">Poul Jespersen</td>
+            <td rowspan="1" colspan="1">1915</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V2 Biology</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">A3</td>
+            <td rowspan="1" colspan="1" style="width: 309px;">Shore-fishes</td>
+            <td rowspan="1" colspan="1" style="width: 133px;">Louis Fage</td>
+            <td rowspan="1" colspan="1">1918</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V2 Biology</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">A4</td>
+            <td rowspan="1" colspan="1" style="width: 309px;"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Stomiatidae</tp:taxon-name-part></tp:taxon-name> (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Stomias</tp:taxon-name-part></tp:taxon-name></italic>)</td>
+            <td rowspan="1" colspan="1" style="width: 133px;">Vilhelm Ege</td>
+            <td rowspan="1" colspan="1">1918</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V2 Biology</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">A5</td>
+            <td rowspan="1" colspan="1" style="width: 309px;"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Argentinidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Microstomidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Opisthoproctidae</tp:taxon-name-part></tp:taxon-name>, Mediterranean <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Odontostomidae</tp:taxon-name-part></tp:taxon-name></td>
+            <td rowspan="1" colspan="1" style="width: 133px;">Johannes Schmidt</td>
+            <td rowspan="1" colspan="1">1918</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V2 Biology</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">A6</td>
+            <td rowspan="1" colspan="1" style="width: 309px;">Mediterranean <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Bramidae</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Trichiuridae</tp:taxon-name-part></tp:taxon-name></td>
+            <td rowspan="1" colspan="1" style="width: 133px;">Johannes Schmidt and A. Strubberg</td>
+            <td rowspan="1" colspan="1">1918</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V2 Biology</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">A7</td>
+            <td rowspan="1" colspan="1" style="width: 309px;">Mediterranean <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Scopelidae</tp:taxon-name-part></tp:taxon-name> (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Saurus</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Aulopus</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Chlorophthalmus</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Myctophum</tp:taxon-name-part></tp:taxon-name></italic>)</td>
+            <td rowspan="1" colspan="1" style="width: 133px;">Åge Vedel Tåning</td>
+            <td rowspan="1" colspan="1">1918</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V2 Biology</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">A8</td>
+            <td rowspan="1" colspan="1" style="width: 309px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus">Lepadogaster</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 133px;">Frédéric Guitel</td>
+            <td rowspan="1" colspan="1">1920</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V2 Biology</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">A9</td>
+            <td rowspan="1" colspan="1" style="width: 309px;"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Engraulidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Clupeidae</tp:taxon-name-part></tp:taxon-name></td>
+            <td rowspan="1" colspan="1" style="width: 133px;">Louis Fage</td>
+            <td rowspan="1" colspan="1">1920</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V2 Biology</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">A10</td>
+            <td rowspan="1" colspan="1" style="width: 309px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus">Lophius</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 133px;">Åge Vedel Tåning</td>
+            <td rowspan="1" colspan="1">1923</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V2 Biology</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">A11</td>
+            <td rowspan="1" colspan="1" style="width: 309px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="order">Scombriformes</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 133px;">Ernst Ehrenbaum</td>
+            <td rowspan="1" colspan="1">1924</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V2 Biology</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">A12</td>
+            <td rowspan="1" colspan="1" style="width: 309px;">Mediterranean <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Sternoptychidae</tp:taxon-name-part></tp:taxon-name></td>
+            <td rowspan="1" colspan="1" style="width: 133px;">Poul Jespersen and Åge Vedel Tåning</td>
+            <td rowspan="1" colspan="1">1926</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V2 Biology</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">A13</td>
+            <td rowspan="1" colspan="1" style="width: 309px;"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Sudidae</tp:taxon-name-part></tp:taxon-name> (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Paralepis</tp:taxon-name-part></tp:taxon-name></italic>)</td>
+            <td rowspan="1" colspan="1" style="width: 133px;">Vilhelm Ege</td>
+            <td rowspan="1" colspan="1">1930</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V2 Biology</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">A14</td>
+            <td rowspan="1" colspan="1" style="width: 309px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Carangidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 133px;">W. Schnakenbeck</td>
+            <td rowspan="1" colspan="1">1931</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V2 Biology</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">C1</td>
+            <td rowspan="1" colspan="1" style="width: 309px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Cephalopoda</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 133px;">Eduard Degner</td>
+            <td rowspan="1" colspan="1">1926</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V2 Biology</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">D1</td>
+            <td rowspan="1" colspan="1" style="width: 309px;"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Isopoda</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Tanaidacea</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Cumacea</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Amphipoda</tp:taxon-name-part></tp:taxon-name> (excl. <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Hyperiidea</tp:taxon-name-part></tp:taxon-name>)</td>
+            <td rowspan="1" colspan="1" style="width: 133px;">Knud Stephensen</td>
+            <td rowspan="1" colspan="1">1915</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V2 Biology</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">D2</td>
+            <td rowspan="1" colspan="1" style="width: 309px;"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Hyperiidea</tp:taxon-name-part></tp:taxon-name>-<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Amphipoda</tp:taxon-name-part></tp:taxon-name> (pt. 1: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Lanceolidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Scinidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Vibiliidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Thaumatopsidae</tp:taxon-name-part></tp:taxon-name>)</td>
+            <td rowspan="1" colspan="1" style="width: 133px;">Knud Stephensen</td>
+            <td rowspan="1" colspan="1">1918</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V2 Biology</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">D3</td>
+            <td rowspan="1" colspan="1" style="width: 309px;"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Decapoda</tp:taxon-name-part></tp:taxon-name>-Macrura excl. <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Sergestidae</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Penaeidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Pasiphaeidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Hoplophoridae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Nematocarcinidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Scyllaridae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Eryonidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Nephropsidae</tp:taxon-name-part></tp:taxon-name>, appendix)</td>
+            <td rowspan="1" colspan="1" style="width: 133px;">Knud Stephensen</td>
+            <td rowspan="1" colspan="1">1923</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V2 Biology</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">D4</td>
+            <td rowspan="1" colspan="1" style="width: 309px;"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Hyperiidea</tp:taxon-name-part></tp:taxon-name>-<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Amphipoda</tp:taxon-name-part></tp:taxon-name> (pt. 2: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Paraphronimidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Hyperiidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Dairellidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Phronimidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Anchylomeridae</tp:taxon-name-part></tp:taxon-name>)</td>
+            <td rowspan="1" colspan="1" style="width: 133px;">Knud Stephensen</td>
+            <td rowspan="1" colspan="1">1924</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V2 Biology</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">D5</td>
+            <td rowspan="1" colspan="1" style="width: 309px;"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Hyperiidea</tp:taxon-name-part></tp:taxon-name>-<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Amphipoda</tp:taxon-name-part></tp:taxon-name> (pt. 3: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Lycaeopsidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Pronoidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Lycaeidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Brachyscelidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Oxycephalidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Parascelidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Platyscelidae</tp:taxon-name-part></tp:taxon-name>)</td>
+            <td rowspan="1" colspan="1" style="width: 133px;">Knud Stephensen</td>
+            <td rowspan="1" colspan="1">1926</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V2 Biology</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">D6</td>
+            <td rowspan="1" colspan="1" style="width: 309px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="order">Euphausiacea</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 133px;">Johan T. Ruud</td>
+            <td rowspan="1" colspan="1">1936</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V2 Biology</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">E1</td>
+            <td rowspan="1" colspan="1" style="width: 309px;">Pelagic polychaetes of the families, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Aphroditidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Phyllodocidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Typhloscolecidae</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Alcioidae</tp:taxon-name-part></tp:taxon-name>.</td>
+            <td rowspan="1" colspan="1" style="width: 133px;">Elise Wesenberg-Lund</td>
+            <td rowspan="1" colspan="1">1939</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V2 Biology</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">H1</td>
+            <td rowspan="1" colspan="1" style="width: 309px;">Medusae</td>
+            <td rowspan="1" colspan="1" style="width: 133px;">Paul Lassenius Kramp</td>
+            <td rowspan="1" colspan="1">1924</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V2 Biology</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">H2</td>
+            <td rowspan="1" colspan="1" style="width: 309px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="order">Siphonophorae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 133px;">H. B. Bigelow and M Sears</td>
+            <td rowspan="1" colspan="1">1937</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V2 Biology</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">J1</td>
+            <td rowspan="1" colspan="1" style="width: 309px;">Mediterranean Ceratia</td>
+            <td rowspan="1" colspan="1" style="width: 133px;">Eugen Jörgensen</td>
+            <td rowspan="1" colspan="1">1920</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V2 Biology</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">J2</td>
+            <td rowspan="1" colspan="1" style="width: 309px;">Mediterranean <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Dinophysiaceae</tp:taxon-name-part></tp:taxon-name></td>
+            <td rowspan="1" colspan="1" style="width: 133px;">Eugen Jörgensen</td>
+            <td rowspan="1" colspan="1">1923</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V2 Biology</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">J3</td>
+            <td rowspan="1" colspan="1" style="width: 309px;">Mediterranean <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Tintinnidae</tp:taxon-name-part></tp:taxon-name></td>
+            <td rowspan="1" colspan="1" style="width: 133px;">Eugen Jörgensen</td>
+            <td rowspan="1" colspan="1">1924</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V2 Biology</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">J4</td>
+            <td rowspan="1" colspan="1" style="width: 309px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="order">Bacillariales</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 133px;">J. Pavillard</td>
+            <td rowspan="1" colspan="1">1926</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V2 Biology</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">K1</td>
+            <td rowspan="1" colspan="1" style="width: 309px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="genus">Calcareous</tp:taxon-name-part>
+                <tp:taxon-name-part taxon-name-part-type="species">algae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 133px;">Mme Paul Lemoine</td>
+            <td rowspan="1" colspan="1">1915</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V2 Biology</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">K2</td>
+            <td rowspan="1" colspan="1" style="width: 309px;">Sea-grasses</td>
+            <td rowspan="1" colspan="1" style="width: 133px;">C. H. Ostenfeld</td>
+            <td rowspan="1" colspan="1">1918</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V2 Biology</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">K3</td>
+            <td rowspan="1" colspan="1" style="width: 309px;"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="above-genus">Algae</tp:taxon-name-part></tp:taxon-name> (excl. calcareous <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="above-genus">Algae</tp:taxon-name-part></tp:taxon-name>)</td>
+            <td rowspan="1" colspan="1" style="width: 133px;">Henning E. Petersen</td>
+            <td rowspan="1" colspan="1">1918</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V3 Miscellaneous papers</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">1</td>
+            <td rowspan="1" colspan="1" style="width: 309px;">Experiments with drift-bottles : first report</td>
+            <td rowspan="1" colspan="1" style="width: 133px;">Johannes Schmidt</td>
+            <td rowspan="1" colspan="1">1913</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V3 Miscellaneous papers</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">2</td>
+            <td rowspan="1" colspan="1" style="width: 309px;">The Sargasso Sea, its boundaries and vegetation</td>
+            <td rowspan="1" colspan="1" style="width: 133px;">Øjvind Winge</td>
+            <td rowspan="1" colspan="1">1923</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V3 Miscellaneous papers</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">3</td>
+            <td rowspan="1" colspan="1" style="width: 309px;">On the quantity of macroplankton in the Mediterranean and the Atlantic</td>
+            <td rowspan="1" colspan="1" style="width: 133px;">Poul Jespersen</td>
+            <td rowspan="1" colspan="1">1923</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V3 Miscellaneous papers</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">4</td>
+            <td rowspan="1" colspan="1" style="width: 309px;">Elvers from north and south Europe</td>
+            <td rowspan="1" colspan="1" style="width: 133px;">A.C. Strubberg</td>
+            <td rowspan="1" colspan="1">1923</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V3 Miscellaneous papers</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">5</td>
+            <td rowspan="1" colspan="1" style="width: 309px;">Experiments with drift-bottles (second report)</td>
+            <td rowspan="1" colspan="1" style="width: 133px;">Giovanni Platania</td>
+            <td rowspan="1" colspan="1">1923</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V3 Miscellaneous papers</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">6</td>
+            <td rowspan="1" colspan="1" style="width: 309px;">Nitrate and phosphate contents of the Mediterranean water</td>
+            <td rowspan="1" colspan="1" style="width: 133px;">H. Thomsen</td>
+            <td rowspan="1" colspan="1">1931</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 172px;">V3 Miscellaneous papers</td>
+            <td rowspan="1" colspan="1" style="width: 9px;">7</td>
+            <td rowspan="1" colspan="1" style="width: 309px;">Some quantitative investigations on the bottom fauna at the west coast of Italy, in the Bay of Algiers, and at the coast of Portugal.</td>
+            <td rowspan="1" colspan="1" style="width: 133px;">Ragnar Spärck</td>
+            <td rowspan="1" colspan="1">1931</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T3443495" position="float" orientation="portrait">
+      <label>Table 2.</label>
+      <caption>
+        <p>Summary of the content and coverage of the four digitized datasets. Note that depths may represent either sampling depths or bottom depths, this is unclear and confused in the publication (see also section "Step description" – "Difficulties and problems encountered during the digitization procedure")</p>
+      </caption>
+      <table rules="all" border="0">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 145px;"/>
+            <td rowspan="1" colspan="1" style="width: 177px; text-align: center;">
+              <bold>Introductory table</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 179px; text-align: center;">
+              <bold>Polychaetes</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 172px; text-align: center;">
+              <bold><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Fish</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Clupeiformes</tp:taxon-name-part></tp:taxon-name>)</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 176px; text-align: center;">
+              <bold>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus">Calcareous</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species">algae</tp:taxon-name-part>
+                </tp:taxon-name>
+              </bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 145px;">Temporal coverage</td>
+            <td rowspan="1" colspan="1" style="width: 177px; text-align: center;">1905-06-13 to1912-01-07</td>
+            <td rowspan="1" colspan="1" style="width: 179px; text-align: center;">1905-05-14 to1930-06-18</td>
+            <td rowspan="1" colspan="1" style="width: 172px; text-align: center;">1904-09-05 to1914-01-24</td>
+            <td rowspan="1" colspan="1" style="width: 176px; text-align: center;">1908-12-14 to1910-09-19</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 145px;">Geographical coverage (min, max Latitude / min, max Longitude)</td>
+            <td rowspan="1" colspan="1" style="width: 177px; text-align: center;">30.33, 53.1 /<break/>-29.88, 29.83</td>
+            <td rowspan="1" colspan="1" style="width: 179px; text-align: center;">0.516, 51.57 /<break/>-17.983, 28.23</td>
+            <td rowspan="1" colspan="1" style="width: 172px; text-align: center;">28.6, 59.32 /<break/>-10.7, 33.05</td>
+            <td rowspan="1" colspan="1" style="width: 176px; text-align: center;">30.38, 48.72 /<break/>-4.75, 26.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 145px;">Minimum depth</td>
+            <td rowspan="1" colspan="1" style="width: 177px; text-align: center;">0</td>
+            <td rowspan="1" colspan="1" style="width: 179px; text-align: center;">20</td>
+            <td rowspan="1" colspan="1" style="width: 172px; text-align: center;">0</td>
+            <td rowspan="1" colspan="1" style="width: 176px; text-align: center;">3</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 145px;">Maximum depth</td>
+            <td rowspan="1" colspan="1" style="width: 177px; text-align: center;">6020</td>
+            <td rowspan="1" colspan="1" style="width: 179px; text-align: center;">&gt;4000</td>
+            <td rowspan="1" colspan="1" style="width: 172px; text-align: center;">&gt; 3700</td>
+            <td rowspan="1" colspan="1" style="width: 176px; text-align: center;">98</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 145px;">No. of stations</td>
+            <td rowspan="1" colspan="1" style="width: 177px; text-align: center;">443</td>
+            <td rowspan="1" colspan="1" style="width: 179px; text-align: center;">210</td>
+            <td rowspan="1" colspan="1" style="width: 172px; text-align: center;">208</td>
+            <td rowspan="1" colspan="1" style="width: 176px; text-align: center;">16</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 145px;">No. of samples</td>
+            <td rowspan="1" colspan="1" style="width: 177px; text-align: center;">1566</td>
+            <td rowspan="1" colspan="1" style="width: 179px; text-align: center;">599</td>
+            <td rowspan="1" colspan="1" style="width: 172px; text-align: center;">341</td>
+            <td rowspan="1" colspan="1" style="width: 176px; text-align: center;">16</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 145px;">No. of occurrence records</td>
+            <td rowspan="1" colspan="1" style="width: 177px; text-align: center;">–</td>
+            <td rowspan="1" colspan="1" style="width: 179px; text-align: center;">883</td>
+            <td rowspan="1" colspan="1" style="width: 172px; text-align: center;">646</td>
+            <td rowspan="1" colspan="1" style="width: 176px; text-align: center;">59</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 145px;">Vessels</td>
+            <td rowspan="1" colspan="1" style="width: 177px; text-align: center;">Thor, Ingolf, Florida, Pangan, St. Croix, St. Jan, St. Thomas, Agent Petersen, Anne, Caroline Kock</td>
+            <td rowspan="1" colspan="1" style="width: 179px; text-align: center;">Thor, Pangan, Dana</td>
+            <td rowspan="1" colspan="1" style="width: 172px; text-align: center;">Thor, Algarvae, Nordboen, Pangan</td>
+            <td rowspan="1" colspan="1" style="width: 176px; text-align: center;">Thor</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T3440487" position="float" orientation="portrait">
+      <label>Table 3.</label>
+      <caption>
+        <p>Sampling gears used during the "Thor" (and complementary) expeditions. Abbreviations are used in the table of samples in Schmidt's introductory volume (<xref ref-type="bibr" rid="B3434806">Schmidt 1912</xref>) and are also explained therein. Additional information on mesh sizes of nets was retrieved from <xref ref-type="bibr" rid="B3461051">Sverdrup et al. (1942)</xref>.</p>
+      </caption>
+      <table rules="all" border="0">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Abbreviation</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Full description</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Aa 2</td>
+            <td rowspan="1" colspan="1">Eel drift-seine</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">C 130</td>
+            <td rowspan="1" colspan="1">Ring-trawl, 130 cm in diameter at opening, 1 mm mesh size, horizontal haul</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">C 200</td>
+            <td rowspan="1" colspan="1">Ring-trawl, 200 cm in diameter at opening, 1 mm mesh size, horizontal haul</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">D 1</td>
+            <td rowspan="1" colspan="1">Dredge, rectangular opening, 27x117 cm, 1 mm mesh size, horizontal haul</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">D 2</td>
+            <td rowspan="1" colspan="1">Dredge, triangular opening, 45x45 cm, 1 mm mesh size, horizontal haul</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">H</td>
+            <td rowspan="1" colspan="1">Hand-Dredge, 18x14 cm</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">L</td>
+            <td rowspan="1" colspan="1">Long-line with halibut and cod hooks</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">M</td>
+            <td rowspan="1" colspan="1">Monaco trawl, 56x170 cm at opening, horizontal haul</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">N 30</td>
+            <td rowspan="1" colspan="1">Nansen's closing net, 30 cm in diameter at opening, gauze No. 20, 0.076 mm mesh size, vertical haul</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">N 50</td>
+            <td rowspan="1" colspan="1">Nansen's closing net, 50 cm in diameter at opening, gauze No. 20, 0.076 mm mesh size, vertical haul</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">O</td>
+            <td rowspan="1" colspan="1">Otter-trawl, head-rope 15.25 m (50 feet), 30 mm mesh size, horizontal haul</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">P 100</td>
+            <td rowspan="1" colspan="1">Silk-net, open, conical, 100 cm in diameter at opening, gauze No. 3, 0.333 mm mesh size</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">P 30</td>
+            <td rowspan="1" colspan="1">Silk-net, open, conical, 30 cm in diameter at opening, gauze No. 20, 0.076 mm mesh size</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">R</td>
+            <td rowspan="1" colspan="1">Shrimp net</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">S 100</td>
+            <td rowspan="1" colspan="1">Stramin-net, open, conical, 100 cm in diameter at opening, 1 mm mesh size</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">S 150</td>
+            <td rowspan="1" colspan="1">Stramin-net, open, conical, 150 cm in diameter at opening, 1 mm mesh size</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">S 200</td>
+            <td rowspan="1" colspan="1">Stramin-net, open, conical, 200 cm in diameter at opening, 1 mm mesh size</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">T 25</td>
+            <td rowspan="1" colspan="1">Taffeta-net, open, conical, 25 cm in diameter</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Y 200</td>
+            <td rowspan="1" colspan="1">Young-fish trawl, 200 cm in diameter at opening, 1 mm mesh size, horizontal haul</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Y 330</td>
+            <td rowspan="1" colspan="1">Young-fish trawl, 330 cm in diameter at opening, 1 mm mesh size, horizontal haul</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">E 1000</td>
+            <td rowspan="1" colspan="1">Open Ringtrawl, 1000 cm in diameter</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">E 300</td>
+            <td rowspan="1" colspan="1">Open Ringtrawl, 300 cm in diameter, meshes 24-18-12 mm</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Y</td>
+            <td rowspan="1" colspan="1">Petersen trawl, without opening given</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T3440486" position="float" orientation="portrait">
+      <label>Table 4.</label>
+      <caption>
+        <p>Numbers of samples taken with each sampling gear during the "Thor" (and complementary) expeditions, per dataset. Samples where the gear used could not be determined (e.g. unknown abbreviation used, mixed gears reported per sample (samples merged), etc. – see also next paragraph) are excluded. Abbreviations are explained in Table <xref ref-type="table" rid="T3440487">3</xref>.</p>
+      </caption>
+      <table rules="all" border="0">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 92px;">
+              <bold>Abbreviation</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 118px;">
+              <bold>Introductory table</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 76px;">
+              <bold>Polychaetes</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 84px;">
+              <bold>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus">Clupeiformes</tp:taxon-name-part>
+                </tp:taxon-name>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 137px;">
+              <bold>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus">Calcareous</tp:taxon-name-part>
+                </tp:taxon-name>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="above-genus">Algae</tp:taxon-name-part>
+                </tp:taxon-name>
+              </bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 92px;">Aa 2</td>
+            <td rowspan="1" colspan="1" style="width: 118px;">11</td>
+            <td rowspan="1" colspan="1" style="width: 76px;"/>
+            <td rowspan="1" colspan="1" style="width: 84px;"/>
+            <td rowspan="1" colspan="1" style="width: 137px;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 92px;">C 130</td>
+            <td rowspan="1" colspan="1" style="width: 118px;">3</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">1</td>
+            <td rowspan="1" colspan="1" style="width: 84px;"/>
+            <td rowspan="1" colspan="1" style="width: 137px;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 92px;">C 200</td>
+            <td rowspan="1" colspan="1" style="width: 118px;">11</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">1</td>
+            <td rowspan="1" colspan="1" style="width: 84px;">1</td>
+            <td rowspan="1" colspan="1" style="width: 137px;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 92px;">D 1</td>
+            <td rowspan="1" colspan="1" style="width: 118px;">65</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">1</td>
+            <td rowspan="1" colspan="1" style="width: 84px;"/>
+            <td rowspan="1" colspan="1" style="width: 137px;">6</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 92px;">D 2</td>
+            <td rowspan="1" colspan="1" style="width: 118px;">6</td>
+            <td rowspan="1" colspan="1" style="width: 76px;"/>
+            <td rowspan="1" colspan="1" style="width: 84px;"/>
+            <td rowspan="1" colspan="1" style="width: 137px;">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 92px;">E 1000</td>
+            <td rowspan="1" colspan="1" style="width: 118px;"/>
+            <td rowspan="1" colspan="1" style="width: 76px;">2</td>
+            <td rowspan="1" colspan="1" style="width: 84px;"/>
+            <td rowspan="1" colspan="1" style="width: 137px;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 92px;">E 300</td>
+            <td rowspan="1" colspan="1" style="width: 118px;"/>
+            <td rowspan="1" colspan="1" style="width: 76px;">2</td>
+            <td rowspan="1" colspan="1" style="width: 84px;"/>
+            <td rowspan="1" colspan="1" style="width: 137px;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 92px;">H</td>
+            <td rowspan="1" colspan="1" style="width: 118px;">10</td>
+            <td rowspan="1" colspan="1" style="width: 76px;"/>
+            <td rowspan="1" colspan="1" style="width: 84px;"/>
+            <td rowspan="1" colspan="1" style="width: 137px;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 92px;">O</td>
+            <td rowspan="1" colspan="1" style="width: 118px;">1</td>
+            <td rowspan="1" colspan="1" style="width: 76px;"/>
+            <td rowspan="1" colspan="1" style="width: 84px;"/>
+            <td rowspan="1" colspan="1" style="width: 137px;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 92px;">P 100</td>
+            <td rowspan="1" colspan="1" style="width: 118px;">229</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">10</td>
+            <td rowspan="1" colspan="1" style="width: 84px;">11</td>
+            <td rowspan="1" colspan="1" style="width: 137px;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 92px;">P 30</td>
+            <td rowspan="1" colspan="1" style="width: 118px;">87</td>
+            <td rowspan="1" colspan="1" style="width: 76px;"/>
+            <td rowspan="1" colspan="1" style="width: 84px;"/>
+            <td rowspan="1" colspan="1" style="width: 137px;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 92px;">R</td>
+            <td rowspan="1" colspan="1" style="width: 118px;">1</td>
+            <td rowspan="1" colspan="1" style="width: 76px;"/>
+            <td rowspan="1" colspan="1" style="width: 84px;"/>
+            <td rowspan="1" colspan="1" style="width: 137px;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 92px;">S 100</td>
+            <td rowspan="1" colspan="1" style="width: 118px;">76</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">6</td>
+            <td rowspan="1" colspan="1" style="width: 84px;">9</td>
+            <td rowspan="1" colspan="1" style="width: 137px;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 92px;">S 150</td>
+            <td rowspan="1" colspan="1" style="width: 118px;">19</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">15</td>
+            <td rowspan="1" colspan="1" style="width: 84px;">3</td>
+            <td rowspan="1" colspan="1" style="width: 137px;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 92px;">S 200</td>
+            <td rowspan="1" colspan="1" style="width: 118px;">27</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">345</td>
+            <td rowspan="1" colspan="1" style="width: 84px;">13</td>
+            <td rowspan="1" colspan="1" style="width: 137px;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 92px;">T 25</td>
+            <td rowspan="1" colspan="1" style="width: 118px;">4</td>
+            <td rowspan="1" colspan="1" style="width: 76px;"/>
+            <td rowspan="1" colspan="1" style="width: 84px;"/>
+            <td rowspan="1" colspan="1" style="width: 137px;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 92px;">Y</td>
+            <td rowspan="1" colspan="1" style="width: 118px;"/>
+            <td rowspan="1" colspan="1" style="width: 76px;">1</td>
+            <td rowspan="1" colspan="1" style="width: 84px;">64</td>
+            <td rowspan="1" colspan="1" style="width: 137px;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 92px;">Y 200</td>
+            <td rowspan="1" colspan="1" style="width: 118px;">481</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">187</td>
+            <td rowspan="1" colspan="1" style="width: 84px;">204</td>
+            <td rowspan="1" colspan="1" style="width: 137px;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 92px;">Y 330</td>
+            <td rowspan="1" colspan="1" style="width: 118px;">219</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">20</td>
+            <td rowspan="1" colspan="1" style="width: 84px;">26</td>
+            <td rowspan="1" colspan="1" style="width: 137px;"/>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T3442946" position="float" orientation="portrait">
+      <label>Table 5.</label>
+      <caption>
+        <p>Environmental parameters reported for the samples in the introductory table by <xref ref-type="bibr" rid="B3434806">Schmidt (1912)</xref>.</p>
+      </caption>
+      <table rules="all">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Column name in publication</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 196px;">
+              <bold>Units as reported in publication</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 458px;">
+              <bold>Notes</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Weather</td>
+            <td rowspan="1" colspan="1" style="width: 196px;"/>
+            <td rowspan="1" colspan="1" style="width: 458px;">General meteorological conditions (cloudy, misty, clear etc.) are reported, but seem to be subjective, no scale of reference is reported anywhere.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Wind Direction0–12</td>
+            <td rowspan="1" colspan="1" style="width: 196px;">Indicated in the column header as a 0–12 scale, but quadrants are reported (e.g. NNE; S)</td>
+            <td rowspan="1" colspan="1" style="width: 458px;">0–12 is an unusual scale (commonly, degrees are used) and not used in the actual data. No further information available, maybe simply a typographic error in the column name.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Wind Force 0–12</td>
+            <td rowspan="1" colspan="1" style="width: 196px;"/>
+            <td rowspan="1" colspan="1" style="width: 458px;">Appears to be on a Beaufort scale, even if not specified in the original document.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Sea Direction0–12</td>
+            <td rowspan="1" colspan="1" style="width: 196px;">Indicated to be on a 0–12 scale, but quadrants are reported (e.g. NNE; S).</td>
+            <td rowspan="1" colspan="1" style="width: 458px;">Seems to be the observed direction of the swell, no further information given in the manuscript.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Sea Force0–12</td>
+            <td rowspan="1" colspan="1" style="width: 196px;"/>
+            <td rowspan="1" colspan="1" style="width: 458px;">Appears to be on a Beaufort scale, even if not specified in the manuscript(s) (The Douglas scale would have only 10 possible values).</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Temperature Air</td>
+            <td rowspan="1" colspan="1" style="width: 196px;">°C</td>
+            <td rowspan="1" colspan="1" style="width: 458px;">Precision of one decimal place. Measurement device was not specified.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Temperature Surface</td>
+            <td rowspan="1" colspan="1" style="width: 196px;">°C</td>
+            <td rowspan="1" colspan="1" style="width: 458px;">Precision of two decimal places; given in the form of "12°40" in the manuscript.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Surface Chlorine</td>
+            <td rowspan="1" colspan="1" style="width: 196px;">‰</td>
+            <td rowspan="1" colspan="1" style="width: 458px;">Chlorine weight in grams per 1,000 g sea-water, unit specification from <xref ref-type="bibr" rid="B3461074">Nielsen (1912)</xref>.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Surface Salinity</td>
+            <td rowspan="1" colspan="1" style="width: 196px;">‰</td>
+            <td rowspan="1" colspan="1" style="width: 458px;">Obtained by titration in the Mediterranean Sea and by aerometer in Bosphorus and the Dardanelles. Salinity weight in grams per 1,000 g sea-water <xref ref-type="bibr" rid="B3461074">Nielsen (1912)</xref>.</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <supplementary-material id="S3467371" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">94A777EB-E69A-5C46-A7C6-8DA182603FB5</object-id>
+      <object-id content-type="doi">10.3897/BDJ.4.e11054.suppl1</object-id>
+      <object-id content-type="zenodo_dep_id">904192</object-id>
+      <label>Supplementary material 1</label>
+      <caption>
+        <p>Thor - "Introductory table"</p>
+      </caption>
+      <p>Data type: sampling metadata and environmental information</p>
+      <p>Brief description: As the Darwin Core version of this dataset is rather complex in structure, this is a more user-friendly version of the introductory table of the "Thor" expedition, digitized from Schmidt (1912), in csv format (tab-delimited).</p>
+      <p>File: oo_109397.csv</p>
+      <media xlink:href="biodiversity_data_journal-4-e11054-s001.csv" mimetype="Comma Separated Values File" mime-subtype="csv" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/109397</uri>
+      </media>
+      <attrib specific-use="authors">Sarah Faulwetter, Marilena Tsompanou</attrib>
+    </supplementary-material>
+    <supplementary-material id="S3467400" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">F02C55DA-9AE1-5C0B-9844-E35A7AF59884</object-id>
+      <object-id content-type="doi">10.3897/BDJ.4.e11054.suppl2</object-id>
+      <object-id content-type="zenodo_dep_id">904194</object-id>
+      <label>Supplementary material 2</label>
+      <caption>
+        <p>Thor - "Pelagic polychaetes"</p>
+      </caption>
+      <p>Data type: occurrence data</p>
+      <p>Brief description: As the Darwin Core version of this dataset is rather complex in structure, this is a more user-friendly version of the occurrence records of the pelagic polychaetes of the "Thor" and other expeditions, digitized from Wesenberg-Lund (1939), in csv format (tab-delimited).</p>
+      <p>File: oo_109400.csv</p>
+      <media xlink:href="biodiversity_data_journal-4-e11054-s002.csv" mimetype="Comma Separated Values File" mime-subtype="csv" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/109400</uri>
+      </media>
+      <attrib specific-use="authors">Sarah Faulwetter, Dimitra Mavraki</attrib>
+    </supplementary-material>
+    <supplementary-material id="S3467401" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">E5F2D65B-1CAA-55D3-B1EA-01B52F8B213A</object-id>
+      <object-id content-type="doi">10.3897/BDJ.4.e11054.suppl3</object-id>
+      <object-id content-type="zenodo_dep_id">904196</object-id>
+      <label>Supplementary material 3</label>
+      <caption>
+        <p>Thor - "<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Clupeiformes</tp:taxon-name-part></tp:taxon-name>"</p>
+      </caption>
+      <p>Data type: occurrence data</p>
+      <p>Brief description: As the Darwin Core version of this dataset is rather complex in structure, this is a more user-friendly version of the occurrence records of the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Clupeiformes</tp:taxon-name-part></tp:taxon-name> of the "Thor" and other expeditions, digitized from Fages (1920), in csv format (tab-delimited).</p>
+      <p>File: oo_109401.csv</p>
+      <media xlink:href="biodiversity_data_journal-4-e11054-s003.csv" mimetype="Comma Separated Values File" mime-subtype="csv" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/109401</uri>
+      </media>
+      <attrib specific-use="authors">Sarah Faulwetter, Lucia Fanini</attrib>
+    </supplementary-material>
+    <supplementary-material id="S3467402" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">045D3533-CBD1-559F-BE87-15F28EDE50CE</object-id>
+      <object-id content-type="doi">10.3897/BDJ.4.e11054.suppl4</object-id>
+      <object-id content-type="zenodo_dep_id">904198</object-id>
+      <label>Supplementary material 4</label>
+      <caption>
+        <p>Thor - "Rhodophytes"</p>
+      </caption>
+      <p>Data type: occurrence data</p>
+      <p>Brief description: As the Darwin Core version of this dataset is rather complex in structure, this is a more user-friendly version of the occurrence records of the rhodophytes of the "Thor" expedition, digitized from Lemoine (1915), in csv format (tab-delimited).</p>
+      <p>File: oo_109402.csv</p>
+      <media xlink:href="biodiversity_data_journal-4-e11054-s004.csv" mimetype="Comma Separated Values File" mime-subtype="csv" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/109402</uri>
+      </media>
+      <attrib specific-use="authors">Sarah Faulwetter, Vasilis Gerovasiliou</attrib>
+    </supplementary-material>
+    <supplementary-material id="S3467403" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">48844863-0CBB-50A1-876D-8AD21B931A98</object-id>
+      <object-id content-type="doi">10.3897/BDJ.4.e11054.suppl5</object-id>
+      <object-id content-type="zenodo_dep_id">904200</object-id>
+      <label>Supplementary material 5</label>
+      <caption>
+        <p>Data from Fishermen of Colliure</p>
+      </caption>
+      <p>Data type: fisheries landings data</p>
+      <p>Brief description: These data are included in Fage's (1920) report on the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Clupeiformes</tp:taxon-name-part></tp:taxon-name> of the Thor expedition. Fage reports (page 63) the sardine catch of the “Fishermen of Colliure”, containing informal and unpublished information related to the timing of the capture of the sardine (years 1902-1913), to be compared with the direct data gathered from the expedition. The data are related to species, mentioned with the vernacular name of “sardine”, with biomass data (Kg) on a monthly base, covering 12 years (1902-1913) of fishery. As the coordinates of the specific catching area were not reported, the location of Colliure (https://en.wikipedia.org/wiki/Collioure) was used as geographical reference.</p>
+      <p>Empty cells mean “no information in the text”. It may mean no captures, or no fishing. Data are in csv format (tab separated).</p>
+      <p>File: oo_109403.csv</p>
+      <media xlink:href="biodiversity_data_journal-4-e11054-s005.csv" mimetype="Comma Separated Values File" mime-subtype="csv" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/109403</uri>
+      </media>
+      <attrib specific-use="authors">Lucia Fanini</attrib>
+    </supplementary-material>
+  </floats-group>
+</article>

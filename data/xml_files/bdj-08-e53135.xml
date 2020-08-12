@@ -1,0 +1,1517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.8.e53135</article-id>
+      <article-id pub-id-type="publisher-id">53135</article-id>
+      <article-id pub-id-type="manuscript">13592</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Plantae</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Floristics &amp; Distribution</subject>
+          <subject>Taxonomy</subject>
+          <subject>Biodiversity &amp; Conservation</subject>
+        </subj-group>
+        <subj-group subj-group-type="Chronological classification">
+          <subject>Cenozoic</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>South America</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Sugarloaf Land in south-eastern Brazil: a tropical hotspot of lowland inselberg plant diversity</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes">
+          <name name-style="western">
+            <surname>de Paula</surname>
+            <given-names>Luiza F. A.</given-names>
+          </name>
+          <email xlink:type="simple">luizafap@gmail.com</email>
+          <uri content-type="orcid">https://orcid.org/0000-0002-5239-2048</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Azevedo</surname>
+            <given-names>Luísa O.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Mauad</surname>
+            <given-names>Luana Paula</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Cardoso</surname>
+            <given-names>Leandro Jorge Telles</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Braga</surname>
+            <given-names>João Marcelo Alvarenga</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Kollmann</surname>
+            <given-names>Ludovic J.C.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Fraga</surname>
+            <given-names>Claudio N.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Menini Neto</surname>
+            <given-names>Luiz</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Labiak</surname>
+            <given-names>Paulo H.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A5">5</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Mello-Silva</surname>
+            <given-names>Renato</given-names>
+          </name>
+          <xref ref-type="aff" rid="A6">6</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Porembski</surname>
+            <given-names>Stefan</given-names>
+          </name>
+          <xref ref-type="aff" rid="A7">7</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Forzza</surname>
+            <given-names>Rafaela Campostrini</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-8366-0738</uri>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Universidade Federal de Minas Gerais, Belo Horizonte, Brazil</addr-line>
+        <institution>Universidade Federal de Minas Gerais</institution>
+        <addr-line content-type="city">Belo Horizonte</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">Jardim Botânico do Rio de Janeiro, Rio de Janeiro, Brazil</addr-line>
+        <institution>Jardim Botânico do Rio de Janeiro</institution>
+        <addr-line content-type="city">Rio de Janeiro</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <aff id="A3">
+        <label>3</label>
+        <addr-line content-type="verbatim">Instituto Nacional da Mata Atlântica, Museu de Biologia Prof. Mello Leitão, Santa Teresa, Brazil</addr-line>
+        <institution>Instituto Nacional da Mata Atlântica, Museu de Biologia Prof. Mello Leitão</institution>
+        <addr-line content-type="city">Santa Teresa</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <aff id="A4">
+        <label>4</label>
+        <addr-line content-type="verbatim">Universidade Federal de Juiz de Fora, Juiz de Fora, Brazil</addr-line>
+        <institution>Universidade Federal de Juiz de Fora</institution>
+        <addr-line content-type="city">Juiz de Fora</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <aff id="A5">
+        <label>5</label>
+        <addr-line content-type="verbatim">Universidade Federal do Paraná, Curitiba, Brazil</addr-line>
+        <institution>Universidade Federal do Paraná</institution>
+        <addr-line content-type="city">Curitiba</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <aff id="A6">
+        <label>6</label>
+        <addr-line content-type="verbatim">Universidade de São Paulo, São Paulo, Brazil</addr-line>
+        <institution>Universidade de São Paulo</institution>
+        <addr-line content-type="city">São Paulo</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <aff id="A7">
+        <label>7</label>
+        <addr-line content-type="verbatim">Universität Rostock, Rostock, Germany</addr-line>
+        <institution>Universität Rostock</institution>
+        <addr-line content-type="city">Rostock</addr-line>
+        <country>Germany</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Luiza F. A. de Paula (<email xlink:type="simple">luizafap@gmail.com</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Gianniantonio Domina</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2020</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>19</day>
+        <month>06</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>8</volume>
+      <elocation-id>e53135</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/6F804824-8DB0-5ED1-B658-7FD873D25101">6F804824-8DB0-5ED1-B658-7FD873D25101</uri>
+      <history>
+        <date date-type="received">
+          <day>11</day>
+          <month>04</month>
+          <year>2020</year>
+        </date>
+        <date date-type="accepted">
+          <day>07</day>
+          <month>06</month>
+          <year>2020</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Luiza F. A. de Paula, Luísa O. Azevedo, Luana Paula Mauad, Leandro Jorge Telles Cardoso, João Marcelo Alvarenga Braga, Ludovic J.C. Kollmann, Claudio N. Fraga, Luiz Menini Neto, Paulo H. Labiak, Renato Mello-Silva, Stefan Porembski, Rafaela Campostrini Forzza</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>Isolated monoliths of granitic and/or gneissic rock rising abruptly from the surrounding landscape are known as inselbergs. Dome-shaped inselbergs are common throughout the Atlantic Forest in south-eastern Brazil, a region known as Sugarloaf Land (SLL). This study aimed to create the first checklist of vascular plant species occurring on lowland inselbergs in SLL, with a focus on vegetation islands. We used information from online databases, our own field sampling and data from previously-published studies. We found 548 vascular plant species (505 angiosperms; 43 ferns and lycophytes) belonging to 69 families and 212 genera. Of all identified species, 536 are native and 12 are naturalised.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>We updated the information currently available in Flora do Brasil 2020, as 59% of the angiosperms and 63% of the ferns and lycophytes on our checklist were not previously characterised as occurring on rock outcrops. As a first step towards generating a Virtual Herbarium of lowland inselberg vascular plants, we added barcode vouchers with images available online for 75% of the total number of vascular species. In the official lists of endangered species, 115 angiosperms and five ferns and lycophytes are mentioned. However, the conservation status of many species have not yet been evaluated (77% angiosperms; 88% ferns and lycophytes), thus this list is an important step towards their conservation. The information provided herein is essential for management programmes related to rock outcrops in Brazil as they are facing serious threats to conservation.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>Atlantic Forest</kwd>
+        <kwd>granite outcrops</kwd>
+        <kwd>rock outcrops</kwd>
+        <kwd>rupicolous plants</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="15"/>
+        <table-count count="0"/>
+        <ref-count count="73"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>Brazil contains the richest seed plant diversity in the world (<xref ref-type="bibr" rid="B5662288">BFG 2018</xref>). Surprisingly, inventories in well-studied areas, such as the Atlantic Forest in south-eastern (SE) Brazil, are still documenting new records and identifying species new to science (<xref ref-type="bibr" rid="B5662893">Sobral and Stehmann 2009</xref>). This is especially true for overlooked habitats within this domain, such as inselbergs (<xref ref-type="bibr" rid="B5662274">Barthlott and Porembski 2000</xref>), isolated monoliths of granitic and/or gneissic rock, where dozens of new species belonging to different families have been identified over the last decade (e.g. <xref ref-type="bibr" rid="B5662613">Kollmann and Fontana 2010</xref>, <xref ref-type="bibr" rid="B5662623">Leme et al. 2010a</xref>, <xref ref-type="bibr" rid="B5662633">Leme et al. 2010b</xref>, <xref ref-type="bibr" rid="B5662951">Viana and de Paula 2013</xref>, <xref ref-type="bibr" rid="B5662514">Fraga and Guimarães 2014</xref>, <xref ref-type="bibr" rid="B5662398">de Oliveira and Sobrado 2016</xref>, <xref ref-type="bibr" rid="B5662534">Gonçalves and de Paula 2016</xref>, <xref ref-type="bibr" rid="B5662544">Gouvêa et al. 2018</xref>, <xref ref-type="bibr" rid="B5662683">Meyer et al. 2018</xref>, <xref ref-type="bibr" rid="B5662524">Fraga et al. 2019</xref>, <xref ref-type="bibr" rid="B5662702">Morales and Kollmann 2019</xref>, <xref ref-type="bibr" rid="B5662941">Valadares et al. 2019</xref>). These ancient rock outcrops are common elements in various landscapes around the world (<xref ref-type="bibr" rid="B5662575">Hopper et al. 2016</xref>) and are especially biodiverse in SE Brazil, the central highlands of Madagascar and in south-western Australia (<xref ref-type="bibr" rid="B5662779">Porembski 2007</xref>). They are characterised by extreme edaphic and microclimatic conditions, leading to their ecological isolation from the surrounding matrix and their island-like characteristics (<xref ref-type="bibr" rid="B5662765">Porembski et al. 2000</xref>). Consequently, their vegetation is distinct from the surrounding area (<xref ref-type="bibr" rid="B5662725">Parmentier et al. 2005</xref>, <xref ref-type="bibr" rid="B5662779">Porembski 2007</xref>).</p>
+      <p>In many parts of Brazil, inselbergs are characteristic elements of the landscape, particularly in the Atlantic Forest domain where they occur in large numbers and at varying sizes, altitudes and degrees of isolation (<xref ref-type="bibr" rid="B5662869">Safford and Martinelli 2000</xref>). The term “Sugarloaf” (<italic>pão de açúcar</italic>) is associated with lowland, isolated and dome-shaped inselbergs in the rainforest in SE Brazil (<xref ref-type="bibr" rid="B5662253">Ab’Sáber 1967</xref>). As the core area of lowland inselbergs seems to form a particular phytogeographical region, it has been named Sugarloaf Land (<xref ref-type="bibr" rid="B5662420">de Paula et al. 2016</xref>). Literature on the flora and vegetation of inselbergs is sparse and data on their ecological characteristics are mostly descriptive. Despite the lack of detailed knowledge about Brazilian inselbergs, previous regional studies have suggested extraordinarily high floristic richness (<xref ref-type="bibr" rid="B5662653">Meirelles et al. 1999</xref>, <xref ref-type="bibr" rid="B5662859">Safford 1999</xref>, <xref ref-type="bibr" rid="B5662323">Caiafa and Silva 2005</xref>, <xref ref-type="bibr" rid="B5662840">Ribeiro et al. 2007</xref>, <xref ref-type="bibr" rid="B5662363">Couto et al. 2017</xref>) which is further corroborated by the occurrence of high levels of beta diversity amongst inselbergs from SE Brazil (<xref ref-type="bibr" rid="B5662653">Meirelles et al. 1999</xref>, <xref ref-type="bibr" rid="B5662869">Safford and Martinelli 2000</xref>, <xref ref-type="bibr" rid="B5662441">de Paula et al. 2019b</xref>). It is also common for inselberg plant communities to be endemic to a specific region, often with species isolated to a single outcrop (<xref ref-type="bibr" rid="B5662420">de Paula et al. 2016</xref>, <xref ref-type="bibr" rid="B5662431">de Paula et al. 2017a</xref>, <xref ref-type="bibr" rid="B5662363">Couto et al. 2017</xref>). Additionally, recent phylogeographic studies show that inselberg endemics display strong genetic differentiation amongst individual rock outcrops, indicating low degrees of gene flow (e.g. <italic><xref ref-type="bibr" rid="B5662712">Palma-Silva et al. 2011</xref>, <xref ref-type="bibr" rid="B5662554">Hmeljevski et al. 2015</xref>, <xref ref-type="bibr" rid="B5662564">Hmeljevski et al. 2017</xref></italic>).</p>
+      <p>Although no specific reference to mountains, including rock outcrops, exists in Brazilian legislation on biodiversity (<xref ref-type="bibr" rid="B5662643">Martinelli 2007</xref>), these environments have been highlighted as an important aspect of the Convention on Biological Diversity (2002), in which the Mountain Work Programme (MWP) was proposed to reduce global, regional and local loss of mountain biodiversity (<xref ref-type="bibr" rid="B5662643">Martinelli 2007</xref>). The lack of specific legislation has resulted in significant gaps in knowledge related to the flora of several mountain regions throughout Brazil (<xref ref-type="bibr" rid="B5662869">Safford and Martinelli 2000</xref>, <xref ref-type="bibr" rid="B5662343">Carmo et al. 2018</xref>). This scenario is worrying since inselbergs and rock outcrops, in general, are amongst the most threatened and neglected environments in the world (<xref ref-type="bibr" rid="B5662789">Porembski et al. 2016</xref>).</p>
+      <p>Considering the lack of research on, and rapid destruction of, these unique landscape features and, in order to pay particular attention to the high levels of biodiversity in these ecotonal habitats, this study presents a list of vascular plants occurring on lowland inselbergs in the Atlantic Forest in SE Brazil. We aim to provide comprehensive and updated information regarding taxonomic nomenclature, life forms and conservation status, while also illustrating the unique diversity of Sugarloaf Land.</p>
+    </sec>
+    <sec sec-type="Project description">
+      <title>Project description</title>
+      <sec sec-type="Study area description">
+        <title>Study area description</title>
+        <p>Inselbergs are found in large concentrations in eastern Brazil (<xref ref-type="bibr" rid="B5662981">Vieira et al. 2015</xref>). In SE Brazil in particular, two main types of granite outcrops occur: highland and lowland inselbergs (<xref ref-type="bibr" rid="B5662869">Safford and Martinelli 2000</xref>). Highland inselbergs are known as <italic>campos de altitude</italic> (Brazilian Highlands, <italic>sensu</italic> <xref ref-type="bibr" rid="B5662859">Safford 1999</xref>) and can be found in the mountain ranges of Serra da Mantiqueira and Serra do Mar, as well as in their subranges and disjunctions, such as Serra do Itatiaia, Serra dos Órgãos, Serra do Brigadeiro and Serra do Caparaó (Fig. <xref ref-type="fig" rid="F5661769">1</xref>, A-B). On the other hand, lowland inselbergs are a group of dome-shaped monolithic outcrops with a sugarloaf morphology (<xref ref-type="bibr" rid="B5662253">Ab’Sáber 1967</xref>, Fig. <xref ref-type="fig" rid="F5661769">1</xref>, C-D), the most iconic example of which is Sugarloaf Mountain (<italic>Pão de Açúcar</italic>) in Rio de Janeiro. The core area encompassing the states of Rio de Janeiro, Espírito Santo, southern Bahia and the adjacent region in Minas Gerais, were recently denominated Sugarloaf Land due to the concentration of lowland inselbergs that harbour high levels of plant species richness and elevated rates of endemism (<xref ref-type="bibr" rid="B5662420">de Paula et al. 2016</xref>). However, estimates of diversity in this area have been based solely on local inventories or on surveys of specific taxonomic plant groups (e.g. <italic><xref ref-type="bibr" rid="B5662745">Porembski et al. 1998</xref>, <xref ref-type="bibr" rid="B5662653">Meirelles et al. 1999</xref>, <xref ref-type="bibr" rid="B5662420">de Paula et al. 2016</xref>, <xref ref-type="bibr" rid="B5662431">de Paula et al. 2017a</xref></italic>).</p>
+        <p>Highland and lowland inselbergs have distinct floristic composition (<xref ref-type="bibr" rid="B5662859">Safford 1999</xref>, <xref ref-type="bibr" rid="B5662869">Safford and Martinelli 2000</xref>). The present checklist focuses on the lowland inselbergs from Sugarloaf Land (<xref ref-type="bibr" rid="B5662420">de Paula et al. 2016</xref>), which are defined as dome-shaped with isolated peaks at an elevation of less than 1000 m above sea level (a.s.l.). Highland inselbergs were not considered in the present study, nor were transitional areas where most inselbergs are located above 1000 m a.s.l., but not considered <italic>campos de altitude</italic>, such as Pedra Azul, Forno Grande, Alto Misterioso (Espírito Santo State) and Pico da Caledônia (Rio de Janeiro State). We also excluded rocky shores (<italic>costões rochosos</italic>), inselbergs located in domains other than the Atlantic Forest biome and other types of rock outcrops, such as <italic>campos rupestres</italic> (<italic>sensu <xref ref-type="bibr" rid="B5662883">Silveira et al. 2016</xref></italic>), karstic outcrops (<italic>sensu <xref ref-type="bibr" rid="B5662312">Bystriakova et al. 2019</xref></italic>) and <italic>cangas</italic> (<italic>sensu</italic> <xref ref-type="bibr" rid="B5662343">Carmo et al. 2018</xref>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Study extent">
+        <title>Study extent</title>
+        <p>
+          <bold>
+            <italic>Vascular plant dataset</italic>
+          </bold>
+        </p>
+        <p><bold>Species list compilation</bold>: We obtained a list of Brazilian angiosperms from Brazilian Flora Group (<xref ref-type="bibr" rid="B5664389">BFG 2015</xref>) and a list of Brazilian ferns and lycophytes from <xref ref-type="bibr" rid="B5662812">Prado et al. (2015)</xref>. To filter the species unique to Sugarloaf Land, we created a protocol (procedures 1 and 2) to clean the datasets.</p>
+        <p>In <bold>procedure 1</bold>, four steps were conducted separately for the angiosperm (Fig. <xref ref-type="fig" rid="F5661773">2</xref>) and fern and lycophyte datasets (Fig. <xref ref-type="fig" rid="F5661777">3</xref>). In the <bold>first step</bold>, we filtered the original datasets (32,086 angiosperms and 1,253 ferns and lycophytes) for species that occur in the Atlantic Forest domain, resulting in 15,001 angiosperms and 883 ferns and lycophytes. In the <bold>second step</bold>, we searched the resulting list for species identified as occurring on rock outcrops through the “vegetation type” field present in the original datasets, resulting in 1,023 angiosperms and 47 ferns and lycophytes. In the <bold>third step</bold>, we filtered for species that occur in Bahia, Espírito Santo, Minas Gerais and Rio de Janeiro States, corresponding to Sugarloaf Land, resulting in 884 angiosperms and 44 ferns and lycophytes. We conducted the first three steps using the “filter” tool in Microsoft Excel v. 14.5 (Microsoft Office 2010 Proofing Tools).</p>
+        <p>Finally, in the <bold>fourth step</bold>, we verified the remaining species as those that occur either on lowland inselbergs or other types of rock outcrops, excluding those that occur on highland inselbergs, i.e. above 1000 m a.s.l. (<italic>campos de altitude</italic>), <italic>cangas</italic>, <italic>campo rupestre</italic> and karstic rock outcrops. This verification was based on our own field observations and records of the species in online databases (<xref ref-type="bibr" rid="B5662604">Jabot-JBRJ 2020</xref>, <ext-link ext-link-type="uri" xlink:href="http://www.jbrj.gov.br/jabot">www.jbrj.gov.br/jabot</ext-link>; <xref ref-type="bibr" rid="B5662831">Reflora - Virtual Herbarium 2020</xref>, <ext-link ext-link-type="uri" xlink:href="http://reflora.jbrj.gov.br/reflora/herbarioVirtual/">http://reflora.jbrj.gov.br/reflora/herbarioVirtual/</ext-link>; <xref ref-type="bibr" rid="B5662585">INCT 2020</xref>, <ext-link ext-link-type="uri" xlink:href="http://inct.splink.org.br">http://inct.splink.org.br</ext-link>). We conducted several searches over the period from May 2016 to August 2019 using the keywords “granito”, “granítica”, “granítico”, “gneiss”, “gnáissicos”, “gnaisses”, “inselberg”, “inselbergue”, “incelberg”, “incelbergue”, “pão de açúcar”. At the end of procedure 1, we compiled a list of 208 angiosperms and 16 ferns and lycophytes that are documented as occurring on lowland inselbergs.</p>
+        <p>In <bold>procedure 2</bold>, we built new datasets for angiosperms (Fig. <xref ref-type="fig" rid="F5661773">2</xref>) and ferns and lycophytes (Fig. <xref ref-type="fig" rid="F5661777">3</xref>). We combined the species identified in procedure 1 with those sampled by the authors, i.e. species that, to date, have not been documented for lowland inselbergs or were removed during procedure 1 due to incomplete or incorrect information in the original datasets. We also added species based on available literature, such as floristic inventories, original species’ descriptions and ecological studies.</p>
+        <p>The final checklist is composed of native and non-native plants and includes only vouchers identified to the species level, based on the List of Species of the Brazilian Flora (<xref ref-type="bibr" rid="B5662505">Flora do Brasil under construction 2020</xref>). Correction and updating of the names were performed using the function <italic>get.taxa</italic> in the flora package (<xref ref-type="bibr" rid="B5662353">Carvalho 2017</xref>) for the R software environment (<xref ref-type="bibr" rid="B5662822">R Core Team 2016</xref>), which compares the names in our list with those in the Brazilian Flora online (<xref ref-type="bibr" rid="B5662505">Flora do Brasil under construction 2020</xref>). Families and genera follow <xref ref-type="bibr" rid="B5662505">Flora do Brasil under construction (2020)</xref> and are listed in alphabetical order. The herbaria acronyms are according to <xref ref-type="bibr" rid="B5662932">Thiers (2020)</xref>. Vouchers were carefully chosen from specimens collected on vegetation islands and scrub from lowland inselbergs. We added link for the vouchers with available images in <xref ref-type="bibr" rid="B5662604">Jabot-JBRJ (2020)</xref> and <xref ref-type="bibr" rid="B5662831">Reflora - Virtual Herbarium 2020</xref>, which can be continuously updated with regards to taxonomic alterations. A map was built, based on the available coordinates of the vouchers assigned in the lists for angiosperms and ferns and lycophytes in order to ascribe the SLL region. All coordinates were checked to ensure that they occurred on lowland inselbergs; coordinates of municipalities related to the species vouchers were excluded from our sampling. The map was generated in R (<xref ref-type="bibr" rid="B5662822">R Core Team 2016</xref>), using the 'rgdal' and 'concaveman' packages. The first allows the manipulation of shapefiles, the second allows the generation of concave polygons (concave hulls). The Brazilian biomes shapefile came from the Brazilian Ministry of the Environment.</p>
+        <p><bold>Habitat types and life forms</bold>: The sampling was restricted to vascular plants that occur in vegetation islands (<xref ref-type="bibr" rid="B5662765">Porembski et al. 2000</xref>), i.e. isolated vegetation patches of various shapes and sizes, bounded by bare rock or directly seated on bare rock (<xref ref-type="bibr" rid="B5662323">Caiafa and Silva 2005</xref>, <xref ref-type="bibr" rid="B5662431">de Paula et al. 2017</xref>, Fig. <xref ref-type="fig" rid="F5661781">4</xref>). Another vegetation type, “thicket” or “scrub” (<xref ref-type="bibr" rid="B5662850">Rizzini 1997</xref>, Fig. <xref ref-type="fig" rid="F5661781">4</xref>; from hereon, treated as scrub), which occurs in the transition zone between the outcrop and the forest that borders the inselberg, is composed mainly of trees and shrubs from the Atlantic Forest matrix surrounding the inselbergs, with the occasional incidence of species from the vegetation islands. The scrub also includes endemic inselberg species; however, in order to standardise our sampling and filtering in the virtual databases and because of misleading information in the records, we did not include species exclusive to the scrub habitat. Nevertheless, we do include species from vegetation islands that occur occasionally in the scrub, ascribing them to both habitats. We obtained information on life forms for every species, based on the Brazilian Flora online (<xref ref-type="bibr" rid="B5662505">Flora do Brasil under construction 2020</xref>) and classified them into six categories: herbs, lianas/vines, palm trees, shrubs, sub-shrubs and trees.</p>
+        <p><bold>Threatened species</bold>: To assign conservation status, we used information from the Centro Nacional de Conservação da Flora (<ext-link ext-link-type="uri" xlink:href="http://www.cncflora.jbrj.gov.br/portal">http://www.cncflora.jbrj.gov.br/portal</ext-link>), which provides a continuously-updated list of threatened plant species in the country (<xref ref-type="bibr" rid="B5662693">MMA 2014</xref>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The geographic coverage encompasses lowland inselbergs in the States of Rio de Janeiro, Espírito Santo, southern Bahia and eastern Minas Gerais, i.e. Sugarloaf Land (<xref ref-type="bibr" rid="B5662420">de Paula et al. 2016</xref>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>Our final list consisted of a total of 548 species of vascular plants (505 angiosperms; 43 ferns and lycophytes), belonging to 69 families and 212 genera, occurring on lowland inselbergs in the Atlantic Forest in SE Brazil, i.e. Sugarloaf Land. From procedure 1, based originally on <xref ref-type="bibr" rid="B5664389">BFG (2015)</xref>and <xref ref-type="bibr" rid="B5662812">Prado et al. (2015)</xref>, we recorded 208 angiosperms and 16 ferns and lycophytes. From procedure 2, which took into account species sampled by the authors (that were not compiled in <xref ref-type="bibr" rid="B5664389">BFG 2015</xref> and <xref ref-type="bibr" rid="B5662812">Prado et al. 2015</xref>) and those identified in previous published articles, we recorded 297 angiosperms and 27 ferns and lycophytes.</p>
+        <p>We identified a total of 505 species of angiosperms (493 species are native and 12 are naturalised) belonging to 58 families and 192 genera (Suppl. material <xref ref-type="supplementary-material" rid="S5716481">1</xref>; Fig. <xref ref-type="fig" rid="F5661785">5</xref>). The richest families are <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Bromeliaceae</tp:taxon-name-part></tp:taxon-name> (102 spp.), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Orchidaceae</tp:taxon-name-part></tp:taxon-name> (63 spp.), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Asteraceae</tp:taxon-name-part></tp:taxon-name> (30 spp.), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Melastomataceae</tp:taxon-name-part></tp:taxon-name> (25 spp.), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Begoniaceae</tp:taxon-name-part></tp:taxon-name> (19 spp.), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Cyperaceae</tp:taxon-name-part></tp:taxon-name> (19 spp.), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Apocynaceae</tp:taxon-name-part></tp:taxon-name> (18 spp.), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Cactaceae</tp:taxon-name-part></tp:taxon-name> (17 spp.), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Euphorbiaceae</tp:taxon-name-part></tp:taxon-name> (17 spp.), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Poaceae</tp:taxon-name-part></tp:taxon-name> (17 spp.), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Fabaceae</tp:taxon-name-part></tp:taxon-name> (15 spp.), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Velloziaceae</tp:taxon-name-part></tp:taxon-name> (12 spp.) and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Araceae</tp:taxon-name-part></tp:taxon-name> (10 spp.) (Fig. <xref ref-type="fig" rid="F5661789">6</xref>). Sixteen families are represented by only one species. The richest genera are <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Alcantarea">Alcantarea</tp:taxon-name-part></tp:taxon-name></italic> (22 spp.), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Orthophytum">Orthophytum</tp:taxon-name-part></tp:taxon-name></italic> (20 spp.), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Begonia">Begonia</tp:taxon-name-part></tp:taxon-name></italic> (19 spp.), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pitcairnia">Pitcairnia</tp:taxon-name-part></tp:taxon-name></italic> (13 spp.), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pleroma">Pleroma</tp:taxon-name-part></tp:taxon-name></italic> (13 spp.), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Stigmatodon">Stigmatodon</tp:taxon-name-part></tp:taxon-name></italic> (13 spp.), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Tillandsia">Tillandsia</tp:taxon-name-part></tp:taxon-name></italic> (13 spp.), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pseudolaelia">Pseudolaelia</tp:taxon-name-part></tp:taxon-name></italic> (10 spp.), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Anthurium">Anthurium</tp:taxon-name-part></tp:taxon-name></italic> (9 spp.), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Dioscorea">Dioscorea</tp:taxon-name-part></tp:taxon-name></italic> (7 spp.), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Epidendrum">Epidendrum</tp:taxon-name-part></tp:taxon-name></italic> (7 spp.), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Mandevilla">Mandevilla</tp:taxon-name-part></tp:taxon-name></italic> (7 spp.), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Barbacenia">Barbacenia</tp:taxon-name-part></tp:taxon-name></italic> (6 spp.), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Vellozia">Vellozia</tp:taxon-name-part></tp:taxon-name></italic> (6 spp.) and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Vriesea">Vriesea</tp:taxon-name-part></tp:taxon-name></italic> (6 spp.) (Fig. <xref ref-type="fig" rid="F5661793">7</xref>). A total of 96 genera are represented by only one species.</p>
+        <p>We recorded a total of 43 species of ferns and lycophytes (all species are native) belonging to 11 families and 20 genera (Suppl. material <xref ref-type="supplementary-material" rid="S5716485">2</xref>; Fig. <xref ref-type="fig" rid="F5661865">8</xref>). The richest families are <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Anemiaceae</tp:taxon-name-part></tp:taxon-name> (13 spp.), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Polypodiaceae</tp:taxon-name-part></tp:taxon-name> (11 spp.), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Pteridaceae</tp:taxon-name-part></tp:taxon-name> (6 spp.), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Selaginellaceae</tp:taxon-name-part></tp:taxon-name> (3 spp.), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Lomariopsidaceae</tp:taxon-name-part></tp:taxon-name> (3 spp.) and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Gleicheniaceae</tp:taxon-name-part></tp:taxon-name> (2 spp.) (Fig. <xref ref-type="fig" rid="F5661877">9</xref>). Five families are represented by only one species. The richest genera are <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Anemia">Anemia</tp:taxon-name-part></tp:taxon-name></italic> (13 spp.), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Serpocaulon">Serpocaulon</tp:taxon-name-part></tp:taxon-name></italic> (4 spp.), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Microgramma">Microgramma</tp:taxon-name-part></tp:taxon-name></italic> (3 spp.), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Nephrolepis">Nephrolepis</tp:taxon-name-part></tp:taxon-name></italic> (3 spp.), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Selaginella">Selaginella</tp:taxon-name-part></tp:taxon-name></italic> (3 spp.), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Doryopteris">Doryopteris</tp:taxon-name-part></tp:taxon-name></italic> (2 spp.) and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cheilanthes">Cheilanthes</tp:taxon-name-part></tp:taxon-name></italic> (2 spp.) (Fig. <xref ref-type="fig" rid="F5661881">10</xref>). There were 13 genera presenting only one species.</p>
+        <p>
+          <bold>Life forms and habitat types</bold>
+        </p>
+        <p>We determined that 53% (268 spp.) of angiosperms are herbs, followed by shrubs (15%; 75 spp.), subshrubs (15%; 78 spp.), lianas (8%; 39 spp.), trees (8%; 42 spp.) and palm trees (1%; 3 spp.) (Fig. <xref ref-type="fig" rid="F5661898">11</xref>). All species of ferns and lycophytes are herbs (Fig. <xref ref-type="fig" rid="F5661898">11</xref>). Most of the species (73% of the angiosperms and 58% of the ferns and lycophytes) occurred in vegetation islands, but there were species which occurred in both vegetation islands and scrub (27% of angiosperms and 42% of ferns and lycophytes) (Fig. <xref ref-type="fig" rid="F5661902">12</xref>).</p>
+        <p>
+          <bold>Vegetation type, vouchers, conservation status</bold>
+        </p>
+        <p>A total of 59% of the angiosperms and 63% of the ferns and lycophytes on our final list were not described as occurring on “rock outcrops” in <xref ref-type="bibr" rid="B5664389">BFG (2015)</xref> and <xref ref-type="bibr" rid="B5662812">Prado et al. (2015)</xref>, respectively. Therefore, this study helps to better define information in the "vegetation type" field in <xref ref-type="bibr" rid="B5662505">Flora do Brasil under construction (2020)</xref>. Furthermore, 49% (249 spp.) of the angiosperms and 72% (31 spp.) of the ferns and lycophytes were collected by the authors (Fig. <xref ref-type="fig" rid="F5661906">13</xref>), the remaining species being vouchered indirectly from other sources. As a first step to generate a Virtual Herbarium of the vascular plants of Sugarloaf Land, we added links with available images for the vouchers for 75% of the total number of species (375 angiosperms and 37 ferns and lycophytes). The advantage of the link, besides enabling the reader to see the image of the voucher with the respective original collection label, is that taxonomic changes can be revised in the databases, which allows the list to be continuously updated. In the official lists of endangered species, 115 angiosperms and five ferns and lycophytes are mentioned. In the angiosperm list, 9 species are vulnerable (VU), 30 are endangered (EN) and 12 are critically endangered (CR), while in the fern and lycophyte list, two species are vulnerable; the remaining species are in least concern categories (see Suppl. materials <xref ref-type="supplementary-material" rid="S5716481">1</xref>, <xref ref-type="supplementary-material" rid="S5716485">2</xref>). However, the conservation status of most of the angiosperm (77%), fern and lycophyte (88%) species is unknown.</p>
+        <p>
+          <bold>Sugarloaf Land region</bold>
+        </p>
+        <p>SLL region was originally baptised, based on projections generated through modelling techniques only for the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Bromeliaceae</tp:taxon-name-part></tp:taxon-name> family (<xref ref-type="bibr" rid="B5662420">de Paula et al. 2016</xref>) and here we aimed to cover the occurrence of all the vascular plant species occurring on lowland inselbergs. The convex envelope representing the SLL region is displayed in Fig. <xref ref-type="fig" rid="F5661910">14</xref> and contains the records for lowland inselbergs where we had access to the coordinates. It is important to note that lowland inselbergs might exist outside the area ascribed here as SLL, due to the following facts: i) many lowland inselbergs have never been sampled; ii) some vouchers did not have available coordinates; these factors culminate in the absence of possible lowland inselberg areas in our map. However, it gives a better estimation and a finer overview of the core area named as SLL.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Creative Commons Public Domain Waiver (CC-Zero)</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>Sugarloaf Land in south-eastern Brazil: a tropical hotspot of lowland inselberg plant diversity - Supplementary Material</p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="https://ckan.jbrj.gov.br/dataset/2020_bdj_inselberg">https://ckan.jbrj.gov.br/dataset/2020_bdj_inselberg</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>2</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>List of angiosperms occurring on lowland inselbergs in the Atlantic Forest, SE Brazil</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>CSV and XLSX</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>10</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="https://ckan.jbrj.gov.br/dataset/2020_bdj_inselberg">https://ckan.jbrj.gov.br/dataset/2020_bdj_inselberg</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>List containing 505 angiosperm species occurring on lowland inselbergs in the Atlantic Forest, SE Brazil, highlighting species included in official lists of endangered flora, life forms, habitat type of occurrence, origin, voucher, link for the herbarium image of the voucher.</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">Family</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the family in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Species</td>
+                  <td rowspan="1" colspan="1">The full scientific name</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Author</td>
+                  <td rowspan="1" colspan="1">Authorship of the scientific name</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Origin</td>
+                  <td rowspan="1" colspan="1">If the species is native or non-native, followed Flora do Brasil 2020 (under construction; <ext-link ext-link-type="uri" xlink:href="http://floradobrasil.jbrj.gov.br">http://floradobrasil.jbrj.gov.br</ext-link>)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Threatened category</td>
+                  <td rowspan="1" colspan="1">Followed Centro Nacional de Conservação da Flora (<ext-link ext-link-type="uri" xlink:href="http://www.cncflora.jbrj.gov.br/portal">http://www.cncflora.jbrj.gov.br/portal</ext-link>); DD = Data deficient, NT = Near Threatened, VU = Vulnerable, CR = Critically Endangered, EN = Endangered, LC = Least Concern, NE = Not evaluated</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Life form</td>
+                  <td rowspan="1" colspan="1">Followed Flora do Brasil 2020 (under construction; <ext-link ext-link-type="uri" xlink:href="http://floradobrasil.jbrj.gov.br">http://floradobrasil.jbrj.gov.br</ext-link>); life forms are classified into six categories: herbs, lianas/vines, palm trees, shrubs, sub-shrubs and trees</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Source</td>
+                  <td rowspan="1" colspan="1">Indicates where we achieved the information that the species is occurring on lowland inselbergs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Habitat</td>
+                  <td rowspan="1" colspan="1">Indicates if the species occurred in vegetation islands (VI; ellipsoid vegetation patches surrounded by bare rock) and scrub (S; arboreal-shrub vegetation bordering inselberg)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Reference or voucher</td>
+                  <td rowspan="1" colspan="1">Indicates vouchers (collector and number) with the respective acronym of the herbarium according to Thiers (<ext-link ext-link-type="uri" xlink:href="http://sweetgum.nybg.org/ih/">http://sweetgum.nybg.org/ih/</ext-link>, continuously updated) when the source is C or EC; in case the source is A, it was provided by the reference of the article (see references at the end of the table)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Link for the voucher</td>
+                  <td rowspan="1" colspan="1">Provides the link for the online image of the respective voucher; links are from JABOT-JBRJ and Reflora-Herbário Virtual</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+      <sec sec-type="Data set 2">
+        <title>Data set 2.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>List of ferns and lycophytes occurring on lowland inselbergs in the Atlantic Forest, SE Brazil</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>CSV and XLSX</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>10</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="https://ckan.jbrj.gov.br/dataset/2020_bdj_inselberg">https://ckan.jbrj.gov.br/dataset/2020_bdj_inselberg</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>List containing 43 fern and lycophyte species occurring on lowland inselbergs in the Atlantic Forest, SE Brazil, highlighting species included in official lists of endangered flora, life forms, habitat type of occurrence, origin, voucher, link for the herbarium image of the voucher.</p>
+          <table-wrap id="DS2" orientation="portrait" position="anchor">
+            <label>Data set 2.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">Family</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the family in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Species</td>
+                  <td rowspan="1" colspan="1">The full scientific name</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Author</td>
+                  <td rowspan="1" colspan="1">Authorship of the scientific name</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Origin</td>
+                  <td rowspan="1" colspan="1">If the species is native or non-native, followed Flora do Brasil 2020 (under construction; <ext-link ext-link-type="uri" xlink:href="http://floradobrasil.jbrj.gov.br">http://floradobrasil.jbrj.gov.br</ext-link>)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Threatened category</td>
+                  <td rowspan="1" colspan="1">Followed Centro Nacional de Conservação da Flora (<ext-link ext-link-type="uri" xlink:href="http://www.cncflora.jbrj.gov.br/portal">http://www.cncflora.jbrj.gov.br/portal</ext-link>); DD = Data deficient, NT = Near Threatened, VU = Vulnerable, CR = Critically Endangered, EN = Endangered, LC = Least Concern, NE = Not evaluated</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Life form</td>
+                  <td rowspan="1" colspan="1">Followed Flora do Brasil 2020 (under construction; <ext-link ext-link-type="uri" xlink:href="http://floradobrasil.jbrj.gov.br">http://floradobrasil.jbrj.gov.br</ext-link>); life forms are classified into six categories: herbs, lianas/vines, palm trees, shrubs, sub-shrubs and trees</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Source</td>
+                  <td rowspan="1" colspan="1">Indicates where we achieved the information that the species is occurring on lowland inselbergs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Habitat</td>
+                  <td rowspan="1" colspan="1">Indicates if the species occurred in vegetation islands (VI; ellipsoid vegetation patches surrounded by bare rock) and scrub (S; arboreal-shrub vegetation bordering inselberg)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Reference or voucher</td>
+                  <td rowspan="1" colspan="1">Indicates vouchers (collector and number) with the respective acronym of the herbarium according to Thiers (<ext-link ext-link-type="uri" xlink:href="http://sweetgum.nybg.org/ih/">http://sweetgum.nybg.org/ih/</ext-link>, continuously updated) when the source is C or EC; in case the source is A, it was provided by the reference of the article (see references at the end of the table)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Link for the voucher</td>
+                  <td rowspan="1" colspan="1">Provides the link for the online image of the respective voucher; links are from JABOT-JBRJ and Reflora-Herbário Virtual</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+    <sec sec-type="Additional information">
+      <title>Additional information</title>
+      <p>
+        <bold>Checklist, ecological aspects and implications for conservation</bold>
+      </p>
+      <p>The beta diversity of lowland inselbergs in Brazil is outstanding (<xref ref-type="bibr" rid="B5662653">Meirelles et al. 1999</xref>, <xref ref-type="bibr" rid="B5662869">Safford and Martinelli 2000</xref>, <xref ref-type="bibr" rid="B5662420">de Paula et al. 2016</xref>, <xref ref-type="bibr" rid="B5662441">de Paula et al. 2019b</xref>), with each outcrop containing exclusive flora, even though they may be located only a few kilometres apart. The high species turnover across individual inselbergs is a common pattern worldwide, for instance, it has been shown for inselberg mosaics in Australia (<xref ref-type="bibr" rid="B5840504">Yates et al. 2019</xref>) and Northern South America (<xref ref-type="bibr" rid="B5840493">Sarthou et al. 2017</xref>). Moreover, studies on neotropical inselberg-adapted species have shown high population differentiation, high genetic diversity levels and strong phylogeographic structure in this naturally-fragmented environment (e.g. <xref ref-type="bibr" rid="B5662263">Barbará et al. 2007</xref>, <xref ref-type="bibr" rid="B5662712">Palma-Silva et al. 2011</xref>, <xref ref-type="bibr" rid="B5662554">Hmeljevski et al. 2015</xref>, <xref ref-type="bibr" rid="B5662564">Hmeljevski et al. 2017</xref>, <xref ref-type="bibr" rid="B5840451">de Paula et al. 2017b</xref>, <xref ref-type="bibr" rid="B5840462">Nazareno et al. 2020</xref>). Species with patchy distribution usually experience reduced gene flow, significant genetic drift and high levels of population divergence, supporting the view of inselbergs as centres of species diversity and endemism.</p>
+      <p>Furthermore, a common phenomenon on these outcrops is the occurrence of polymorphic species (<xref ref-type="bibr" rid="B5662384">Cronk 1998</xref>, <xref ref-type="bibr" rid="B5662663">Mello-Silva 2004</xref>). Many inselberg taxa have previously been described as displaying extensive intraspecific variation amongst and within populations, especially monocot taxa, such as <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Anthurium">Anthurium</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Philodendron">Philodendron</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Araceae</tp:taxon-name-part></tp:taxon-name>), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Alcantarea">Alcantarea</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Encholirium">Encholirium</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pitcairnia">Pitcairnia</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Bromeliaceae</tp:taxon-name-part></tp:taxon-name>), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pseudolaelia">Pseudolaelia</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Orchidaceae</tp:taxon-name-part></tp:taxon-name>), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Barbacenia">Barbacenia</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Vellozia">Vellozia</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Velloziaceae</tp:taxon-name-part></tp:taxon-name>), but also eudicot taxa, such as <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pleroma">Pleroma</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Melastomataceae</tp:taxon-name-part></tp:taxon-name>) and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Coleocephalocereus">Coleocephalocereus</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Cactaceae</tp:taxon-name-part></tp:taxon-name>) (<xref ref-type="bibr" rid="B5662663">Mello-Silva 2004</xref>, <xref ref-type="bibr" rid="B5662913">Taylor and Zappi 2004</xref>, <xref ref-type="bibr" rid="B5662564">Hmeljevski et al. 2017</xref>, <xref ref-type="bibr" rid="B5662431">de Paula et al. 2017a</xref>, <xref ref-type="bibr" rid="B5662673">Menini Neto et al. 2019</xref>). The spatial and ecological isolation of these outcrops as a result of their immersion in the surrounding rainforest is thought to be responsible for the high levels of genetic differentiation amongst populations, including <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Alcantarea">Alcantarea</tp:taxon-name-part></tp:taxon-name></italic> (<xref ref-type="bibr" rid="B5662263">Barbará et al. 2007</xref>), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Encholirium">Encholirium</tp:taxon-name-part></tp:taxon-name></italic> (<xref ref-type="bibr" rid="B5662554">Hmeljevski et al. 2015</xref>, <xref ref-type="bibr" rid="B5662564">Hmeljevski et al. 2017</xref>) and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pitcairnia">Pitcairnia</tp:taxon-name-part></tp:taxon-name></italic> (<xref ref-type="bibr" rid="B5662712">Palma-Silva et al. 2011</xref>), as well as for the resulting morphological variability commonly reported in adaptive radiation events (<xref ref-type="bibr" rid="B5662712">Palma-Silva et al. 2011</xref>). In developing the present checklist, we could not provide information on species complexes, but note that they should be taken into consideration in conservation analyses since outcrops harbour specific morphotypes. Attention to these processes is also important for solving taxonomic problems and understanding processes of species evolution within terrestrial islands.</p>
+      <p>The high levels of species diversity on inselbergs is usually linked to the fact that species capable of surviving in such harsh environmental conditions display diverse forms of adaptation (<xref ref-type="bibr" rid="B5662298">Biedinger et al. 2000</xref>, <xref ref-type="bibr" rid="B5662408">de Paula et al. 2015</xref>, <xref ref-type="bibr" rid="B5662455">de Paula et al. 2019a</xref>). With regard to water scarcity, distinct plant groups in SE Brazil have adopted several strategies to mitigate such stresses. The succulent leaves of bromeliads of the genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Encholirium">Encholirium</tp:taxon-name-part></tp:taxon-name></italic> and orchids of the genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Epidendrum">Epidendrum</tp:taxon-name-part></tp:taxon-name></italic>, for example, enable plants to accumulate water in their tissue. Other bromeliads, such as <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Alcantarea">Alcantarea</tp:taxon-name-part></tp:taxon-name></italic> spp. and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Vriesea">Vriesea</tp:taxon-name-part></tp:taxon-name></italic> spp., can store water in reservoirs due to their rosette-shaped leaf arrangement, which also attracts a variety of fauna (<xref ref-type="bibr" rid="B5840779">Lacerda et al. 2009</xref>). Cacti, in turn, not only accumulate water, but also have spines (modified leaves) and trichome-like thorns/spines at the stem base, which enables them to avoid overheating when lying directly on the rock, an adaption typical of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Coleocephalocereus">Coleocephalocereus</tp:taxon-name-part></tp:taxon-name></italic> species. Geophytes that store water in underground bulbs are also very common, such as members of the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Apocynaceae</tp:taxon-name-part></tp:taxon-name> family (e.g. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Mandevilla">Mandevilla</tp:taxon-name-part></tp:taxon-name></italic> spp.). In contrast, desiccation tolerance is an effective strategy used by some inselberg species to cope with drought conditions, for instance, present in <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Velloziaceae</tp:taxon-name-part></tp:taxon-name> members (e.g. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Barbacenia">Barbacenia</tp:taxon-name-part></tp:taxon-name></italic> spp. and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Vellozia">Vellozia</tp:taxon-name-part></tp:taxon-name></italic> spp.), but also in fern and lycopyte species (e.g. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cheilanthes">Cheilanthes</tp:taxon-name-part></tp:taxon-name></italic> spp., <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Doryopteris">Doryopteris</tp:taxon-name-part></tp:taxon-name></italic> spp., <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Selaginella">Selaginella</tp:taxon-name-part></tp:taxon-name></italic> spp.). This strategy is characterised by the ability of plants to survive cycles of dehydration and rehydration without affecting viability (<xref ref-type="bibr" rid="B5662755">Porembski and Barthlott 2000</xref>). During the dry season, desiccation-tolerant species enter a dehydrated state, losing a considerable amount of water in their tissue. With the occurrence of rain, they quickly rehydrate, in many cases without any structural or physiological damage (<xref ref-type="bibr" rid="B5662961">Vicré et al. 2004</xref>). Due to this unique feature, they are called resurrection plants. Understanding the heterogeneity of ecological strategies found amongst inselberg species can be useful in developing conservation strategies, for example, for restoration after disturbance, especially in the context of global environmental change (<xref ref-type="bibr" rid="B5662485">Drenovsky et al. 2012</xref>, <xref ref-type="bibr" rid="B5662408">de Paula et al. 2015</xref>, <xref ref-type="bibr" rid="B5840580">Ottaviani et al. 2016</xref>). Since species have different levels of tolerance to abiotic stresses, conservationists can select species based on their traits, which includes attributes associated with resource acquisition and growth and their functional role (<xref ref-type="bibr" rid="B5662922">Tecco et al. 2010</xref>, <xref ref-type="bibr" rid="B5662408">de Paula et al. 2015</xref>).</p>
+      <p>Due to difficulties in accessing many inselbergs, researchers concerned with biodiversity have overlooked the significant potential of these outcrops. The high levels of beta diversity and genetically-differentiated populations on outcrops in SE Brazil underscore the fact that there are insufficient numbers of inselbergs protected within conservation units. Furthermore, lowland inselbergs are most often located in small reserves within urban areas, such as the <italic>Monumento Natural dos Morros do Pão de Açúcar e da Urca</italic>, the <italic>Parque Nacional da Tijuca</italic>, the <italic>Parque Natural Municipal Paisagem Carioca Rio de Janeiro</italic> and the <italic>Parque Estadual Serra da Tiririca</italic>, all of which are located within the metropolitan area of Rio de Janeiro. In these reserves, inselbergs can be visited by tourists, which can have a significant impact on the natural vegetation. There are also some lowland inselbergs located in conservation units which permit a certain amount of human occupation, for example, the <italic>Pedra do Elefante</italic> in Espírito Santo State (<xref ref-type="bibr" rid="B5662735">Pena and Alves-Araújo 2017</xref>). The <italic>Monumento Natural Pontões Capixabas</italic>, in the heart of the Sugarloaf Land in Espírito Santo, is the only conservation area in Brazil that encompasses a considerable number of lowland inselbergs. However, its effectiveness is threatened by the absence of a reasonable management plan <ext-link ext-link-type="uri" xlink:href="http://www.icmbio.gov.br/portal/planosmanejo">(http://www.icmbio.gov.br/portal/planosmanejo</ext-link>) that could help to balance the competing interests of local farmers with the preservation of its unique biota.</p>
+      <p>In Brazil, threats to inselberg biodiversity is increasing dramatically due to quarrying, mining, grazing, goat herding, fire, biological invasions, urban expansion and unsustainable removal of attractive floral species (<xref ref-type="bibr" rid="B5662643">Martinelli 2007</xref>, <xref ref-type="bibr" rid="B5662789">Porembski et al. 2016</xref>, Fig. <xref ref-type="fig" rid="F5661968">15</xref>). In Sugarloaf Land, not only is the extraction of natural resources far too vast to be sustainable (<xref ref-type="bibr" rid="B5662495">Ferreira et al. 2014</xref>), but the area is also experiencing rapid fragmentation of the Atlantic Forest biome (<xref ref-type="bibr" rid="B5662903">Tabarelli et al. 2004</xref>), both of which increase the risks to vegetation refugia in inselbergs. In several instances, rocks have taken the place of wood as building and finishing material and the destructive cycle of forest logging (<xref ref-type="bibr" rid="B5662476">Dean 1995</xref>) has been replaced by the extraction of geological resources, once again fuelling an uncontrolled and unsustainable industry. The lack of conservation units that harbour inselbergs demonstrates the need for inventories of those that occur on private lands. Meanwhile, taxonomically-verified checklists are not only necessary for ecological, genetic, biogeographic and evolutionary studies (<xref ref-type="bibr" rid="B5662333">Cardoso et al. 2017</xref>), but also to provide information for Brazilian policies of biological conservation that include rock outcrop ecosystems. Correct estimates of the flora provide reliable data and information to promote the activities necessary to preserve these extremely threatened environments. Finally, as populations on individual inselbergs are genetically distinct and beta diversity between outcrops is extremely high, effective conservation strategies will face serious challenges to protect multiple inselbergs across the whole Sugarloaf Land region.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>We are thankful to the staff from RB and MBML herbaria for helping in plant cataloguing and dataset management. We are grateful to F. Alves, L.A. Estevão, M.M. Moreira, R. Ocelli and R. Dias for helping in database management and graphical work. We also thank the taxonomists who kindly helped with plant identification: A. Chautems (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Gesneriaceae</tp:taxon-name-part></tp:taxon-name>), D. Zappi (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Cactaceae</tp:taxon-name-part></tp:taxon-name>), L. Versieux and R. Louzada (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Bromeliaceae</tp:taxon-name-part></tp:taxon-name>), P.L. Viana (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Poaceae</tp:taxon-name-part></tp:taxon-name>), R. Trevisan (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Cyperaceae</tp:taxon-name-part></tp:taxon-name>), R. Goldenberg and F. Meyer (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Melastomataceae</tp:taxon-name-part></tp:taxon-name>). L.F.A. de Paula was supported by a research grant from CNPq (Conselho Nacional de Desenvolvimento Científico e Tecnológico; 290155/2014-2) and DAAD (Deutscher Akademischer Austauschdienst). We also thank CNPq for the research grants provided to R.C. Forzza (303420/2016-2) R. Mello-Silva (research fellow) and P. Labiak (311352/2019-7). R.C. Forzza thanks the grants from FAPERJ (processes n° E-26/202.778/2018) through Programa Cientistas do Nosso Estado. This study was financed in part by the Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Brasil (CAPES) – Finance Code 001. We finally thank Dr. Evelyn R. Nimmo for editing the English of the manuscript.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B5662253">
+        <element-citation publication-type="article">
+          <year>1967</year>
+          <article-title>Domínios morfoclimáticos e províncias fitogeográficas do Brasil</article-title>
+          <source>Revista Orientação, Instituto de Geografia da Universidade de São Paulo (IGEOG/USP)</source>
+          <volume>3</volume>
+          <fpage>45</fpage>
+          <lpage>48</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5662263">
+        <element-citation publication-type="article">
+          <year>2007</year>
+          <article-title>Population differentiation and species cohesion in two closely related plants adapted to Neotropical high-altitude ‘inselbergs’, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Alcantarea">Alcantarea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="imperialis">imperialis</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Alcantarea">Alcantarea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="geniculata">geniculata</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Bromeliaceae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Molecular Ecology</source>
+          <volume>16</volume>
+          <fpage>1981</fpage>
+          <lpage>1992</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-294X.2007.03272.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662274">
+        <element-citation publication-type="chapter">
+          <year>2000</year>
+          <chapter-title>Why Study Inselbergs?</chapter-title>
+          <source>Inselbergs - biotic diversity of isolated rock outcrops in tropical and temperate regions</source>
+          <volume>146</volume>
+          <publisher-name>Ecological Studies, Springer-Verlag</publisher-name>
+          <publisher-loc>Berlin</publisher-loc>
+          <size units="page">1-6</size>
+          <pub-id pub-id-type="doi">10.1007/978-3-642-59773-2_1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5664389">
+        <element-citation publication-type="article">
+          <year>2015</year>
+          <article-title>Growing knowledge: an overview of seed plant diversity in Brazil</article-title>
+          <source>Rodriguésia</source>
+          <volume>66</volume>
+          <fpage>1085</fpage>
+          <lpage>1113</lpage>
+          <pub-id pub-id-type="doi">10.1590/2175-7860201566411</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662288">
+        <element-citation publication-type="article">
+          <year>2018</year>
+          <article-title>Brazilian Flora 2020: innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC)</article-title>
+          <source>Rodriguésia</source>
+          <volume>69</volume>
+          <fpage>1513</fpage>
+          <lpage>1527</lpage>
+          <pub-id pub-id-type="doi">10.1590/2175-7860201869402</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662298">
+        <element-citation publication-type="chapter">
+          <year>2000</year>
+          <chapter-title>Vascular plants on inselbergs: Vegetative and reproductive strategies</chapter-title>
+          <source>Inselbergs - biotic diversity of isolated rock outcrops in tropical and temperate regions</source>
+          <volume>146</volume>
+          <publisher-name>Ecological Studies, Springer- Verlag</publisher-name>
+          <publisher-loc>Berlin</publisher-loc>
+          <size units="page">117-142</size>
+          <pub-id pub-id-type="doi">10.1007/978-3-642-59773-2_8</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662312">
+        <element-citation publication-type="article">
+          <year>2019</year>
+          <article-title>A preliminary evaluation of the Karst flora of Brazil using collections data</article-title>
+          <source>Scientific Reports</source>
+          <volume>9</volume>
+          <fpage>1</fpage>
+          <lpage>13</lpage>
+          <pub-id pub-id-type="doi">10.1038/s41598-019-53104-6</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662323">
+        <element-citation publication-type="article">
+          <year>2005</year>
+          <article-title>Composição florística e espectro biológico de um campo de altitude no Parque Estadual da Serra do Brigadeiro, Minas Gerais-Brasil</article-title>
+          <source>Rodriguésia</source>
+          <volume>56</volume>
+          <fpage>163</fpage>
+          <lpage>173</lpage>
+          <pub-id pub-id-type="doi">10.1590/2175-78602005568712</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662333">
+        <element-citation publication-type="article">
+          <year>2017</year>
+          <article-title>Amazon plant diversity revealed by a taxonomically verified species list</article-title>
+          <source>Proceedings of the National Academy of Sciences</source>
+          <volume>114</volume>
+          <fpage>10695</fpage>
+          <lpage>10700</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.1706756114</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662343">
+        <element-citation publication-type="article">
+          <year>2018</year>
+          <article-title>Check-list of vascular plant communities on ironstone ranges of south-eastern Brazil: dataset for conservation</article-title>
+          <source>Biodiversity Data Journal</source>
+          <volume>6</volume>
+          <fpage>e27032</fpage>
+          <pub-id pub-id-type="doi">10.3897/BDJ.6.e27032</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662353">
+        <element-citation publication-type="article">
+          <year>2017</year>
+          <article-title>Flora: Tools for interacting with the Brazilian Flora 2020.</article-title>
+          <source>R package version 0.3.0.</source>
+          <uri>https://cran.r-project.org/web/packages/flora/index.html ​​​​​​​</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5662363">
+        <element-citation publication-type="article">
+          <year>2017</year>
+          <article-title>Floristic composition of a Neotropical inselberg from Espírito Santo state, Brazil: an important area for conservation</article-title>
+          <source>Check List</source>
+          <volume>13</volume>
+          <fpage>2043</fpage>
+          <pub-id pub-id-type="doi">10.15560/13.1.2043</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662384">
+        <element-citation publication-type="chapter">
+          <year>1998</year>
+          <chapter-title>The ochlospecies concept</chapter-title>
+          <source>Chorology, taxonomy and ecology of the African and Madagascan floras</source>
+          <publisher-name>Kew Royal Botanic Gardens</publisher-name>
+          <publisher-loc>London</publisher-loc>
+          <size units="page">155-170</size>
+        </element-citation>
+      </ref>
+      <ref id="B5662476">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Dean</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <year>1995</year>
+          <source>With broadax and firebrand: The destruction of the Brazilian Atlantic Forest</source>
+          <publisher-name>University of California Press</publisher-name>
+          <publisher-loc>Berkeley</publisher-loc>
+        </element-citation>
+      </ref>
+      <ref id="B5662398">
+        <element-citation publication-type="article">
+          <year>2016</year>
+          <article-title><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Bradea">Bradea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="borrerioides">borrerioides</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Rubiaceae</tp:taxon-name-part></tp:taxon-name>), a new species from Brazilian inselbergs</article-title>
+          <source>Phytotaxa</source>
+          <volume>243</volume>
+          <fpage>083</fpage>
+          <lpage>090</lpage>
+          <pub-id pub-id-type="doi">10.11646/phytotaxa.243.1.4</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662408">
+        <element-citation publication-type="article">
+          <year>2015</year>
+          <article-title>Functional ecology as a missing link for conservation of a resource-limited flora in the Atlantic Forest</article-title>
+          <source>Biodiversity and Conservation</source>
+          <volume>24</volume>
+          <fpage>2239</fpage>
+          <lpage>2253</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10531-015-0904-x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662420">
+        <element-citation publication-type="article">
+          <year>2016</year>
+          <article-title>Sugar Loaf Land in south-eastern Brazil: a centre of diversity for mat-forming bromeliads on inselbergs</article-title>
+          <source>Botanical Journal of the Linnean Society</source>
+          <volume>181</volume>
+          <fpage>459</fpage>
+          <lpage>476</lpage>
+          <pub-id pub-id-type="doi">10.1111/boj.12383</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662431">
+        <element-citation publication-type="article">
+          <year>2017</year>
+          <article-title>Floristic and ecological characterization of habitat types on an inselberg in Minas Gerais, southeastern Brazil</article-title>
+          <source>Acta Botanica Brasilica</source>
+          <volume>31</volume>
+          <fpage>199</fpage>
+          <lpage>211</lpage>
+          <pub-id pub-id-type="doi">10.1590/0102-33062016abb0409</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5840451">
+        <element-citation publication-type="article">
+          <year>2017</year>
+          <article-title>Transferability of microsatellite loci to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Vellozia">Vellozia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="plicata">plicata</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Velloziaceae</tp:taxon-name-part></tp:taxon-name>), a widespread species on Brazilian inselbergs</article-title>
+          <source>Brazilian Journal of Botany</source>
+          <volume>40</volume>
+          <fpage>1071</fpage>
+          <lpage>1075</lpage>
+          <pub-id pub-id-type="doi">10.1007/s40415-017-0396-x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662455">
+        <element-citation publication-type="article">
+          <year>2019</year>
+          <article-title>Rocks and leaves: Can anatomical leaf traits reflect environmental heterogeneity in inselberg vegetation?</article-title>
+          <source>Flora</source>
+          <volume>250</volume>
+          <fpage>91</fpage>
+          <lpage>98</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.flora.2018.11.020</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662441">
+        <element-citation publication-type="article">
+          <year>2019</year>
+          <article-title>High plant taxonomic beta diversity and functional and phylogenetic convergence between two Neotropical inselbergs</article-title>
+          <source>Plant Ecology &amp; Diversity</source>
+          <fpage>1</fpage>
+          <lpage>13</lpage>
+          <pub-id pub-id-type="doi">10.1080/17550874.2019.1673846</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662485">
+        <element-citation publication-type="article">
+          <year>2012</year>
+          <article-title>A functional trait perspective on plant invasion</article-title>
+          <source>Annals of Botany</source>
+          <volume>110</volume>
+          <fpage>141</fpage>
+          <lpage>153</lpage>
+          <pub-id pub-id-type="doi">10.1093/aob/mcs100</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662495">
+        <element-citation publication-type="article">
+          <year>2014</year>
+          <article-title>Brazil's environmental leadership at risk</article-title>
+          <source>Science</source>
+          <volume>346</volume>
+          <fpage>706</fpage>
+          <lpage>707</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.1260194</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662505">
+        <element-citation publication-type="website">
+          <article-title>Rio de Janeiro Botanical Garden</article-title>
+          <uri>http://florado- brasil.jbrj.gov.br</uri>
+          <date-in-citation content-type="access-date">2020-05-28T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5662514">
+        <element-citation publication-type="article">
+          <year>2014</year>
+          <article-title>Two new species of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pleroma">Pleroma</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Melastomataceae</tp:taxon-name-part></tp:taxon-name>) from Espírito Santo, Brazil</article-title>
+          <source>Phytotaxa</source>
+          <volume>166</volume>
+          <fpage>077</fpage>
+          <lpage>084</lpage>
+          <pub-id pub-id-type="doi">10.11646/phytotaxa.166.1.5</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662524">
+        <element-citation publication-type="article">
+          <year>2019</year>
+          <article-title><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Dioscorea">Dioscorea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="medusae">medusae</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Dioscoreaceae</tp:taxon-name-part></tp:taxon-name>), a new species from Espírito Santo, Brazil</article-title>
+          <source>Phytotaxa</source>
+          <volume>403</volume>
+          <fpage>131</fpage>
+          <lpage>136</lpage>
+          <pub-id pub-id-type="doi">10.1590/2175-7860201566411</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662534">
+        <element-citation publication-type="article">
+          <year>2016</year>
+          <article-title>A new species of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Anthurium">Anthurium</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Araceae</tp:taxon-name-part></tp:taxon-name>) from Minas Gerais State, Southeastern Brazil</article-title>
+          <source>Phytotaxa</source>
+          <volume>247</volume>
+          <fpage>281</fpage>
+          <lpage>286</lpage>
+          <pub-id pub-id-type="doi">10.11646/phytotaxa.247.4.6</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662544">
+        <element-citation publication-type="article">
+          <year>2018</year>
+          <article-title>A sticky and heavily armed new species of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">Solanum</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Solanum">Solanum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">subg.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subgenus" reg="Leptostemonum">Leptostemonum</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Solanaceae</tp:taxon-name-part></tp:taxon-name>) from eastern Brazil</article-title>
+          <source>PhytoKeys</source>
+          <volume>111</volume>
+          <fpage>103</fpage>
+          <lpage>118</lpage>
+          <pub-id pub-id-type="doi">10.3897/phytokeys.111.28595</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662554">
+        <element-citation publication-type="article">
+          <year>2015</year>
+          <article-title>Patterns of gene flow in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Encholirium">Encholirium</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="horridum">horridum</tp:taxon-name-part></tp:taxon-name></italic> L.B. Sm., a monocarpic species of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Bromeliaceae</tp:taxon-name-part></tp:taxon-name> from Brazil</article-title>
+          <source>Journal of Heredity</source>
+          <volume>106</volume>
+          <fpage>93</fpage>
+          <lpage>101</lpage>
+          <pub-id pub-id-type="doi">10.1093/jhered/esu067</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662564">
+        <element-citation publication-type="article">
+          <year>2017</year>
+          <article-title>Do plant populations on distinct inselbergs talk to each other? A case study of genetic connectivity of a bromeliad species in an Ocbil landscape</article-title>
+          <source>Ecology and Evolution</source>
+          <volume>7</volume>
+          <fpage>4704</fpage>
+          <lpage>4716</lpage>
+          <pub-id pub-id-type="doi">10.1002/ece3.3038</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662575">
+        <element-citation publication-type="article">
+          <year>2016</year>
+          <article-title>Biodiversity hotspots and Ocbil theory</article-title>
+          <source>Plant and Soil</source>
+          <volume>403</volume>
+          <fpage>167</fpage>
+          <lpage>216</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11104-015-2764-2</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662585">
+        <element-citation publication-type="website">
+          <article-title>Virtual herbarium of plants and fungi.</article-title>
+          <uri>http://inct.florabrasil.net/en/herbario-virtual/</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5662604">
+        <element-citation publication-type="website">
+          <article-title>Instituto de Pesquisas Jardim Botânico do Rio de Janeiro. Jabot - Banco de Dados da Flora Brasileira</article-title>
+          <uri>http://www.jbrj.gov.br/jabot</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5662613">
+        <element-citation publication-type="article">
+          <year>2010</year>
+          <article-title><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Begonia">Begonia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="goldingiana">goldingiana</tp:taxon-name-part></tp:taxon-name></italic> L. Kollmann &amp; A.P. Fontana (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Begoniaceae</tp:taxon-name-part></tp:taxon-name>), a new species from the Atlantic Forest of Southern Bahia, Brazil</article-title>
+          <source>Candollea</source>
+          <volume>65</volume>
+          <fpage>185</fpage>
+          <lpage>188</lpage>
+          <pub-id pub-id-type="doi">10.15553/c2010v652a1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5840779">
+        <element-citation publication-type="article">
+          <year>2009</year>
+          <article-title>Anurans in bromeliads, Parque Estadual da Serra do Brigadeiro, state of Minas Gerais, southeastern Brazil</article-title>
+          <source>Check List</source>
+          <volume>5</volume>
+          <fpage>800</fpage>
+          <lpage>806</lpage>
+          <pub-id pub-id-type="doi">10.15560/5.4.800</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662623">
+        <element-citation publication-type="article">
+          <year>2010</year>
+          <article-title>Three new <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pitcairnia">Pitcairnia</tp:taxon-name-part></tp:taxon-name></italic> species (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Bromeliaceae</tp:taxon-name-part></tp:taxon-name>) from the inselbergs of Espírito Santo, Brazil</article-title>
+          <source>Systematic Botany</source>
+          <volume>35</volume>
+          <fpage>487</fpage>
+          <lpage>496</lpage>
+          <pub-id pub-id-type="doi">10.1600/036364410792495971</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662633">
+        <element-citation publication-type="article">
+          <year>2010</year>
+          <article-title>Miscellaneous new species in the Brazilian <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Bromeliaceae</tp:taxon-name-part></tp:taxon-name></article-title>
+          <source>Rodriguésia</source>
+          <volume>61</volume>
+          <fpage>21</fpage>
+          <lpage>67</lpage>
+          <pub-id pub-id-type="doi">10.1590/2175-7860201061104</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662643">
+        <element-citation publication-type="article">
+          <year>2007</year>
+          <article-title>Mountain biodiversity in Brazil</article-title>
+          <source>Brazilian Journal of Botany</source>
+          <volume>30</volume>
+          <fpage>587</fpage>
+          <lpage>597</lpage>
+          <pub-id pub-id-type="doi">10.1590/S0100-84042007000400005</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662653">
+        <element-citation publication-type="article">
+          <year>1999</year>
+          <article-title>The vegetation of granite rock outcrops in Rio de Janeiro, Brazil, and the need for its protection</article-title>
+          <source>Environmental Conservation</source>
+          <volume>26</volume>
+          <fpage>10</fpage>
+          <lpage>20</lpage>
+          <pub-id pub-id-type="doi">10.1017/S0376892999000041</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662663">
+        <element-citation publication-type="article">
+          <year>2004</year>
+          <article-title>Sistemática de <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Vellozia">Vellozia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="candida">candida</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Velloziaceae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Rodriguesia</source>
+          <volume>55</volume>
+          <fpage>59</fpage>
+          <lpage>64</lpage>
+          <pub-id pub-id-type="doi">10.1590/2175-78602004558404</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662673">
+        <element-citation publication-type="article">
+          <year>2019</year>
+          <article-title>Linear and geometric morphometrics as tools to resolve species circumscription in the <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pseudolaelia">Pseudolaelia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="vellozicola">vellozicola</tp:taxon-name-part></tp:taxon-name></italic> complex (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Orchidaceae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subtribe">Laeliinae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Plant Ecology and Evolution</source>
+          <volume>152</volume>
+          <fpage>53</fpage>
+          <lpage>6</lpage>
+          <pub-id pub-id-type="doi">10.5091/plecevo.2019.1531</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662683">
+        <element-citation publication-type="article">
+          <year>2018</year>
+          <article-title>Four new rupicolous species of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pleroma">Pleroma</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Melastomataceae</tp:taxon-name-part></tp:taxon-name>) endemic to Espírito Santo, Brazil</article-title>
+          <source>Phytotaxa</source>
+          <volume>348</volume>
+          <fpage>235</fpage>
+          <lpage>253</lpage>
+          <pub-id pub-id-type="doi">10.11646/phytotaxa.348.4.1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662693">
+        <element-citation publication-type="website">
+          <article-title>Portaria n° 443, de 17 de dezembro de 2014. Lex: reconhece como espécies da flora brasileira ameaçadas de extinção aquelas constantes da “Lista Nacional Oficial de Espécies da Flora Ameaçadas de Extinção”. Ministério do Meio Ambiente</article-title>
+          <uri>http://cncflora.jbrj.gov.br/portal/static/pdf/portaria_mma_443_2014.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5662702">
+        <element-citation publication-type="article">
+          <year>2019</year>
+          <article-title>Increasing the known floristic diversity of Brazilian inselbergs: two new species of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Mandevilla">Mandevilla</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Apocynaceae</tp:taxon-name-part></tp:taxon-name>) from Espírito Santo</article-title>
+          <source>Acta Botanica Brasilica (in press)</source>
+          <pub-id pub-id-type="doi">10.1590/0102-33062019abb0241</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5840462">
+        <element-citation publication-type="article">
+          <year>2020</year>
+          <article-title>Four raised to one equals one: A genetic approach to the <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pseudolaelia">Pseudolaelia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="vellozicola">vellozicola</tp:taxon-name-part></tp:taxon-name></italic> complex does not follow a math rule</article-title>
+          <source>Ecology and Evolution</source>
+          <volume>(in press)</volume>
+          <pub-id pub-id-type="doi">10.1002/ece3.6148</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5840580">
+        <element-citation publication-type="article">
+          <year>2016</year>
+          <article-title>Soil depth shapes plant functional diversity in granite outcrops vegetation of Southwestern Australia</article-title>
+          <source>Plant Ecology &amp; Diversity</source>
+          <volume>9</volume>
+          <fpage>263</fpage>
+          <lpage>276</lpage>
+          <pub-id pub-id-type="doi">10.1080/17550874.2016.1211192</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662712">
+        <element-citation publication-type="article">
+          <year>2011</year>
+          <article-title>Sympatric bromeliad species (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pitcairnia">Pitcairnia</tp:taxon-name-part></tp:taxon-name></italic> spp.) facilitate tests of mechanisms involved in species cohesion and reproductive isolation in Neotropical inselbergs</article-title>
+          <source>Molecular Ecology</source>
+          <volume>20</volume>
+          <fpage>3185</fpage>
+          <lpage>3201</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-294X.2011.05143.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662725">
+        <element-citation publication-type="article">
+          <year>2005</year>
+          <article-title>The inselberg flora of Atlantic Central Africa. I. Determinants of species assemblages</article-title>
+          <source>Journal of Biogeography</source>
+          <volume>32</volume>
+          <fpage>685</fpage>
+          <lpage>696</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2699.2004.01243.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662735">
+        <element-citation publication-type="article">
+          <year>2017</year>
+          <article-title>Angiosperms from rocky outcrops of Pedra do Elefante, Nova Venécia, Espírito Santo, Brazil</article-title>
+          <source>Rodriguésia</source>
+          <volume>68</volume>
+          <fpage>1895</fpage>
+          <lpage>1905</lpage>
+          <pub-id pub-id-type="doi">10.1590/2175-7860201768522</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662745">
+        <element-citation publication-type="article">
+          <year>1998</year>
+          <article-title>Diversity and ecology of saxicolous vegetation mats on inselbergs in the Brazilian Atlantic rainforest</article-title>
+          <source>Diversity and Distributions</source>
+          <volume>4</volume>
+          <fpage>107</fpage>
+          <lpage>119</lpage>
+          <pub-id pub-id-type="doi">10.1046/j.1365-2699.1998.00013.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662755">
+        <element-citation publication-type="article">
+          <year>2000</year>
+          <article-title>Granitic and gneissic outcrops (inselbergs) as centers of diversity for desiccation-tolerant vascular plants</article-title>
+          <source>Plant Ecology</source>
+          <volume>151</volume>
+          <fpage>19</fpage>
+          <lpage>28</lpage>
+          <pub-id pub-id-type="doi">10.1023/A:1026565817218</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662765">
+        <element-citation publication-type="chapter">
+          <year>2000</year>
+          <chapter-title>Islands on islands: habitats on inselbergs</chapter-title>
+          <source>Inselbergs – biotic diversity of isolated rock outcrops in tropical and temperate regions</source>
+          <edition>146</edition>
+          <publisher-name>Ecological Studies, Springer-Verlag</publisher-name>
+          <publisher-loc>Berlin</publisher-loc>
+          <size units="page">49-67</size>
+          <pub-id pub-id-type="doi">10.1007/978-3-642-59773-2_4</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662779">
+        <element-citation publication-type="article">
+          <year>2007</year>
+          <article-title>Tropical inselbergs: habitat types, adaptive strategies and diversity patterns</article-title>
+          <source>Brazilian Journal of Botany</source>
+          <volume>30</volume>
+          <fpage>579</fpage>
+          <lpage>586</lpage>
+          <pub-id pub-id-type="doi">10.1590/S0100-84042007000400004</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662789">
+        <element-citation publication-type="article">
+          <year>2016</year>
+          <article-title>Worldwide destruction of inselbergs and related rock outcrops threatens a unique ecosystem</article-title>
+          <source>Biodiversity and Conservation</source>
+          <volume>25</volume>
+          <fpage>2827</fpage>
+          <lpage>2830</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10531-016-1171-1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662812">
+        <element-citation publication-type="article">
+          <year>2015</year>
+          <article-title>Diversity of ferns and lycophytes in Brazil</article-title>
+          <source>Rodriguésia</source>
+          <volume>66</volume>
+          <fpage>1073</fpage>
+          <lpage>1083</lpage>
+          <pub-id pub-id-type="doi">10.1590/2175-7860201566410</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662822">
+        <element-citation publication-type="website">
+          <article-title>R: a language and environment for statistical computing. Vienna (Austria): R Foundation for Statistical Computing</article-title>
+          <uri>http://www.R-project.org/</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5662831">
+        <element-citation publication-type="website">
+          <article-title>Reflora - Virtual Herbarium</article-title>
+          <uri>http://reflora.jbrj.gov.br/reflora/herbarioVirtual/</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5662840">
+        <element-citation publication-type="article">
+          <year>2007</year>
+          <article-title>Species composition and biogeographic relations of the rock outcrop flora on the high plateau of Itatiaia, SE- Brazil</article-title>
+          <source>Brazilian Journal of Botany</source>
+          <volume>30</volume>
+          <fpage>623</fpage>
+          <lpage>639</lpage>
+          <pub-id pub-id-type="doi">10.1590/S0100-84042007000400008</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662850">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Rizzini</surname>
+              <given-names>C. T.</given-names>
+            </name>
+          </person-group>
+          <year>1997</year>
+          <source>Tratado de fitogeografia do Brasil</source>
+          <edition>2ª ed</edition>
+          <publisher-name>Âmbito Cultural Edições Ltda</publisher-name>
+          <publisher-loc>Rio de Janeiro</publisher-loc>
+        </element-citation>
+      </ref>
+      <ref id="B5662859">
+        <element-citation publication-type="article">
+          <year>1999</year>
+          <article-title>Brazilian Paramos I. An introduction to the physical environment and vegetation of the campos de altitude</article-title>
+          <source>Journal of Biogeography</source>
+          <volume>26</volume>
+          <fpage>693</fpage>
+          <lpage>712</lpage>
+          <pub-id pub-id-type="doi">10.1046/j.1365-2699.1999.00313.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662869">
+        <element-citation publication-type="chapter">
+          <year>2000</year>
+          <chapter-title>Southeast Brazil</chapter-title>
+          <source>Inselbergs-biotic diversity of isolated rock outcrops in tropical and temperate regions</source>
+          <edition>146</edition>
+          <publisher-name>Ecological Studies, Springer-Verlag</publisher-name>
+          <publisher-loc>Berlin</publisher-loc>
+          <size units="page">339-389</size>
+          <pub-id pub-id-type="doi">10.1007/978-3-642-59773-2_17</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5840493">
+        <element-citation publication-type="article">
+          <year>2017</year>
+          <article-title>From inselberg to inselberg: floristic patterns across scales in French Guiana (South America)</article-title>
+          <source>Flora</source>
+          <volume>229</volume>
+          <fpage>147</fpage>
+          <lpage>158</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.flora.2017.02.025</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662883">
+        <element-citation publication-type="article">
+          <year>2016</year>
+          <article-title>Ecology and evolution of plant diversity in the endangered campo rupestre: a neglected conservation priority</article-title>
+          <source>Plant and Soil</source>
+          <volume>403</volume>
+          <fpage>129</fpage>
+          <lpage>152</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11104-015-2637-8</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662893">
+        <element-citation publication-type="article">
+          <year>2009</year>
+          <article-title>An analysis of new angiosperm species discoveries in Brazil (1990–2006)</article-title>
+          <source>Taxon</source>
+          <volume>58</volume>
+          <fpage>227</fpage>
+          <lpage>232</lpage>
+          <pub-id pub-id-type="doi">10.1002/tax.581021</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662903">
+        <element-citation publication-type="article">
+          <year>2004</year>
+          <article-title>Forest fragmentation, synergisms and the impoverishment of neotropical forests</article-title>
+          <source>Biodiversity and Conservation</source>
+          <volume>13</volume>
+          <fpage>1419</fpage>
+          <lpage>1425</lpage>
+          <pub-id pub-id-type="doi">10.1023/B:BIOC.0000019398.36045.1b</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662913">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Taylor</surname>
+              <given-names>N. P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zappi</surname>
+              <given-names>D. C.</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <source>Cacti of eastern Brazil</source>
+          <publisher-name>Kew, Royal Botanic Gardens</publisher-name>
+          <publisher-loc>London</publisher-loc>
+        </element-citation>
+      </ref>
+      <ref id="B5662922">
+        <element-citation publication-type="article">
+          <year>2010</year>
+          <article-title>Functional traits of alien plants across contrasting climatic and land-use regimes: do aliens join the locals or try harder than them?</article-title>
+          <source>Journal of Ecology</source>
+          <volume>98</volume>
+          <fpage>17</fpage>
+          <lpage>27</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2745.2009.01592.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662932">
+        <element-citation publication-type="website">
+          <article-title>A global directory of public herbaria and associated staff. New York Botanical Garden's Virtual Herbarium</article-title>
+          <uri>http://sweetgum.nybg.org/ih/</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5662941">
+        <element-citation publication-type="article">
+          <year>2019</year>
+          <article-title>A new species of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Anthurium">Anthurium</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Araceae</tp:taxon-name-part></tp:taxon-name>) with cordate leaves from southeastern Brazil</article-title>
+          <source>Novon: A Journal for Botanical Nomenclature</source>
+          <volume>27</volume>
+          <fpage>3</fpage>
+          <lpage>7</lpage>
+          <pub-id pub-id-type="doi">10.3417/2018270</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662951">
+        <element-citation publication-type="article">
+          <year>2013</year>
+          <article-title><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Axonopus">Axonopus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="graniticola">graniticola</tp:taxon-name-part></tp:taxon-name></italic>, a new species of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Axonopus">A.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">ser.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="series" reg="Suffulti">Suffulti</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Poaceae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Panicoideae</tp:taxon-name-part></tp:taxon-name>, Paspaleae) from Minas Gerais, Brazil</article-title>
+          <source>PhytoKeys</source>
+          <volume>21</volume>
+          <fpage>7</fpage>
+          <lpage>16</lpage>
+          <pub-id pub-id-type="doi">10.3897/phytokeys.21.4157</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662961">
+        <element-citation publication-type="article">
+          <year>2004</year>
+          <article-title>Insights into the cellular mechanisms of desiccation tolerance among angiosperm resurrection plant species</article-title>
+          <source>Plant, Cell &amp; Environment</source>
+          <volume>27</volume>
+          <fpage>1329</fpage>
+          <lpage>1340</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-3040.2004.01212.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5662981">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Vieira</surname>
+              <given-names>B. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Salgado</surname>
+              <given-names>A. A.R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Santos</surname>
+              <given-names>L. J.C.</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <source>Landscapes and Landforms of Brazil - World Geomorphological Landscapes</source>
+          <publisher-name>Springer</publisher-name>
+          <publisher-loc>Dordrecht</publisher-loc>
+        </element-citation>
+      </ref>
+      <ref id="B5840504">
+        <element-citation publication-type="article">
+          <year>2019</year>
+          <article-title>High species diversity and turnover in granite inselberg floras highlight the need for a conservation strategy protecting many outcrops</article-title>
+          <source>Ecology and Evolution</source>
+          <volume>9</volume>
+          <fpage>7660</fpage>
+          <lpage>7675</lpage>
+          <pub-id pub-id-type="doi">10.1002/ece3.5318</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F5661769" position="float" orientation="portrait">
+      <object-id content-type="arpha">6198081F-8D4C-5EAD-ADAF-5C2A4B82D144</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e53135.figure1</object-id>
+      <object-id content-type="zenodo_dep_id">3901048</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Examples of highland and lowland inselbergs occurring in SE Brazil. The first row represents highland inselbergs; A. Serra do Caparaó, Minas Gerais State; B. Serra do Itatiaia, Rio de Janeiro State. The second row represents lowland inselbergs, also known as sugarloaves; C. Sugarloaf Mountain, Rio de Janeiro; D. Pedra da Boca, Minas Gerais. Photos by L.F.A. de Paula, except for A. by N.F.O. Mota.</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e53135-g001.jpg" position="float" id="oo_393491.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/393491</uri>
+      </graphic>
+    </fig>
+    <fig id="F5661773" position="float" orientation="portrait">
+      <object-id content-type="arpha">335F1BA4-CD6D-5F25-8101-D3CF1139A2D1</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e53135.figure2</object-id>
+      <object-id content-type="zenodo_dep_id">3901062</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>Procedure 1: stages of data filtering to obtain the angiosperm species list for lowland inselbergs, SE Brazil, based on the list available from <xref ref-type="bibr" rid="B5664389">BFG (2015)</xref>. The left column shows species that remained during the construction and validation of the list and the right column represents species removed from the list; S1-S4: indicates steps 1- 4 (see text for more details). Procedure 2: stages of data addition to obtain the final angiosperm species list for lowland inselbergs, SE Brazil.</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e53135-g002.jpg" position="float" id="oo_393492.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/393492</uri>
+      </graphic>
+    </fig>
+    <fig id="F5661777" position="float" orientation="portrait">
+      <object-id content-type="arpha">AF55AAD6-20B2-5D4E-9822-F364A315C708</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e53135.figure3</object-id>
+      <object-id content-type="zenodo_dep_id">3901064</object-id>
+      <label>Figure 3.</label>
+      <caption>
+        <p>Procedure 1: stages of data filtering to obtain the fern and lycophyte species list from lowland inselbergs, SE Brazil, based on the list available from Prado et al. (2015). The left column represents species that remained during the construction and validation of the list and the right column represents species removed from the list; S1-S4: indicates steps 1- 4 (see text for more details). Procedure 2: stages of data addition to obtain the final fern and lycophyte species list for lowland inselbergs, SE Brazil.</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e53135-g003.jpg" position="float" id="oo_393493.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/393493</uri>
+      </graphic>
+    </fig>
+    <fig id="F5661781" position="float" orientation="portrait">
+      <object-id content-type="arpha">7506F97A-1788-53AE-B1AF-36977134ED83</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e53135.figure4</object-id>
+      <object-id content-type="zenodo_dep_id">3901066</object-id>
+      <label>Figure 4.</label>
+      <caption>
+        <p>Schematic representation of inselberg vegetation. Vegetation islands are represented by patches 1-5 of varying shapes and sizes, which are bounded by bare rock or directly seated on bare rock (<xref ref-type="bibr" rid="B5662765">Porembski et al. 2000</xref>). Scrub vegetation (<xref ref-type="bibr" rid="B5662850">Rizzini 1997</xref>) appears in the transition zone between the outcrop and the forest that borders the inselberg. The matrix is characterised by the surrounding vegetation, in this case represented by the forest physiognomies belonging to the Atlantic Forest domain. The schematic representation was adapted from <xref ref-type="bibr" rid="B5662408">de Paula et al. (2015)</xref>.</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e53135-g004.jpg" position="float" id="oo_398772.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/398772</uri>
+      </graphic>
+    </fig>
+    <fig id="F5661785" position="float" orientation="portrait">
+      <object-id content-type="arpha">619C41A8-FAEC-5CFF-8C4C-36F5F5C54B09</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e53135.figure5</object-id>
+      <object-id content-type="zenodo_dep_id">3901068</object-id>
+      <label>Figure 5.</label>
+      <caption>
+        <p>Species belonging to the most representative angiosperm families from vegetation islands occurring on lowland inselbergs in the Atlantic Forest, SE Brazil. <bold>A.</bold> <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Encholirium">Encholirium</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="gracile">gracile</tp:taxon-name-part></tp:taxon-name></italic> L.B.Sm . (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Bromeliaceae</tp:taxon-name-part></tp:taxon-name>); <bold>B.</bold> <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Encyclia">Encyclia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="spiritusanctensis">spiritusanctensis</tp:taxon-name-part></tp:taxon-name></italic> L.C.Menezes (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Orchidaceae</tp:taxon-name-part></tp:taxon-name>); <bold>C.</bold> <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Barbacenia">Barbacenia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="tomentosa">tomentosa</tp:taxon-name-part></tp:taxon-name></italic> Mart. (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Velloziaceae</tp:taxon-name-part></tp:taxon-name>); <bold>D.</bold> <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Begonia">Begonia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="aguiabrancensis">aguiabrancensis</tp:taxon-name-part></tp:taxon-name></italic> L.Kollmann (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Begoniaceae</tp:taxon-name-part></tp:taxon-name>); <bold>E.</bold> <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Vellozia">Vellozia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pulchra">pulchra</tp:taxon-name-part></tp:taxon-name></italic> L.B.Sm. (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Velloziaceae</tp:taxon-name-part></tp:taxon-name>); <bold>F.</bold> <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Coleocephalocereus">Coleocephalocereus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="fluminensis">fluminensis</tp:taxon-name-part></tp:taxon-name></italic> (Miq.) Backeb. (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Cactaceae</tp:taxon-name-part></tp:taxon-name>); <bold>G.</bold> <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pleroma">Pleroma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="marinanum">marinanum</tp:taxon-name-part></tp:taxon-name></italic> P.J.F. Guim. &amp; Fraga (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Melastomataceae</tp:taxon-name-part></tp:taxon-name>); <bold>H.</bold> <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cnidoscolus">Cnidoscolus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="lombardii">lombardii</tp:taxon-name-part></tp:taxon-name></italic> Fern.Casas (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Euphorbiaceae</tp:taxon-name-part></tp:taxon-name>); <bold>I.</bold> <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Mandevilla">Mandevilla</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="grazielae">grazielae</tp:taxon-name-part></tp:taxon-name></italic> M.F.Sales <italic>et al.</italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Apocynaceae</tp:taxon-name-part></tp:taxon-name>). Photos A, B, D, E, I by L.F.A. de Paula; C, F, G, H by L.O. Azevedo.</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e53135-g005.jpg" position="float" id="oo_393495.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/393495</uri>
+      </graphic>
+    </fig>
+    <fig id="F5661789" position="float" orientation="portrait">
+      <object-id content-type="arpha">80A324BC-CAAF-50D1-B98D-3FA7D85889B8</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e53135.figure6</object-id>
+      <object-id content-type="zenodo_dep_id">3901070</object-id>
+      <label>Figure 6.</label>
+      <caption>
+        <p>Richest angiosperm families from lowland inselbergs in the Atlantic Forest, SE Brazil.</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e53135-g006.png" position="float" id="oo_393496.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/393496</uri>
+      </graphic>
+    </fig>
+    <fig id="F5661793" position="float" orientation="portrait">
+      <object-id content-type="arpha">CDC803E9-8807-5B71-9E5E-16D2FA96F2EE</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e53135.figure7</object-id>
+      <object-id content-type="zenodo_dep_id">3901072</object-id>
+      <label>Figure 7.</label>
+      <caption>
+        <p>Richest angiosperm genera from lowland inselbergs in the Atlantic Forest, SE Brazil.</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e53135-g007.png" position="float" id="oo_415480.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/415480</uri>
+      </graphic>
+    </fig>
+    <fig id="F5661865" position="float" orientation="portrait">
+      <object-id content-type="arpha">6E8AC3BE-597E-5FAB-A0DB-D7F52285897B</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e53135.figure8</object-id>
+      <object-id content-type="zenodo_dep_id">3901074</object-id>
+      <label>Figure 8.</label>
+      <caption>
+        <p>Species belonging to the most representative fern and lycophyte families from vegetation islands occurring on lowland inselbergs in the Atlantic Forest, SE Brazil. <bold>A.</bold> <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Selaginella">Selaginella</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="convoluta">convoluta</tp:taxon-name-part></tp:taxon-name></italic> (Arn.) Spring (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Selaginellaceae</tp:taxon-name-part></tp:taxon-name>); <bold>B.</bold> <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Selaginella">S.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="sellowii">sellowii</tp:taxon-name-part></tp:taxon-name></italic> Hieron. (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Selaginellaceae</tp:taxon-name-part></tp:taxon-name>); <bold>C.</bold> <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cheilanthes">Cheilanthes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="geraniifolia">geraniifolia</tp:taxon-name-part></tp:taxon-name></italic> (Weath.) R.M.Tryon &amp; A.F.Tryon (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Pteridaceae</tp:taxon-name-part></tp:taxon-name>); <bold>D.</bold> <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Doryopteris">Doryopteris</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="collina">collina</tp:taxon-name-part></tp:taxon-name></italic> (Raddi) J.Sm. (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Pteridaceae</tp:taxon-name-part></tp:taxon-name>).</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e53135-g008.jpeg" position="float" id="oo_393500.jpeg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/393500</uri>
+      </graphic>
+    </fig>
+    <fig id="F5661877" position="float" orientation="portrait">
+      <object-id content-type="arpha">AB0480D3-8E0F-5F8C-B145-3252B5A73625</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e53135.figure9</object-id>
+      <object-id content-type="zenodo_dep_id">3901076</object-id>
+      <label>Figure 9.</label>
+      <caption>
+        <p>Richest fern and lycophyte families from lowland inselbergs in the Atlantic Forest, SE Brazil.</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e53135-g009.png" position="float" id="oo_415481.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/415481</uri>
+      </graphic>
+    </fig>
+    <fig id="F5661881" position="float" orientation="portrait">
+      <object-id content-type="arpha">C30A015A-F226-536A-8219-54F455381BAF</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e53135.figure10</object-id>
+      <object-id content-type="zenodo_dep_id">3901050</object-id>
+      <label>Figure 10.</label>
+      <caption>
+        <p>Richest fern and lycophyte genera from lowland inselbergs in the Atlantic Forest, SE Brazil.</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e53135-g010.png" position="float" id="oo_415482.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/415482</uri>
+      </graphic>
+    </fig>
+    <fig id="F5661898" position="float" orientation="portrait">
+      <object-id content-type="arpha">74423503-97DF-59F7-8214-21CC121C4429</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e53135.figure11</object-id>
+      <object-id content-type="zenodo_dep_id">3901052</object-id>
+      <label>Figure 11.</label>
+      <caption>
+        <p>Life forms of the vascular plant species occurring on lowland inselbergs in the Atlantic Forest, SE Brazil.</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e53135-g011.png" position="float" id="oo_393505.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/393505</uri>
+      </graphic>
+    </fig>
+    <fig id="F5661902" position="float" orientation="portrait">
+      <object-id content-type="arpha">D9E185AC-79C3-516A-BBED-705169B630E3</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e53135.figure12</object-id>
+      <object-id content-type="zenodo_dep_id">3901054</object-id>
+      <label>Figure 12.</label>
+      <caption>
+        <p>Percentage of vascular plant species occurring in different habitat types on lowland inselbergs in the Atlantic Forest, SE Brazil. VI = vegetation islands; VI_S = vegetation islands and scrub.</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e53135-g012.png" position="float" id="oo_393506.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/393506</uri>
+      </graphic>
+    </fig>
+    <fig id="F5661906" position="float" orientation="portrait">
+      <object-id content-type="arpha">B8DED799-C8BF-593E-8263-DA1B9273F30E</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e53135.figure13</object-id>
+      <object-id content-type="zenodo_dep_id">3901056</object-id>
+      <label>Figure 13.</label>
+      <caption>
+        <p>Percentages of the vascular plant species included in the checklist that were collected by the authors (C) or vouchered indirectly from other sources (OS).</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e53135-g013.png" position="float" id="oo_393507.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/393507</uri>
+      </graphic>
+    </fig>
+    <fig id="F5661910" position="float" orientation="portrait">
+      <object-id content-type="arpha">1E121067-3FF2-59AD-AC61-4778B381C32E</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e53135.figure14</object-id>
+      <object-id content-type="zenodo_dep_id">3901058</object-id>
+      <label>Figure 14.</label>
+      <caption>
+        <p>General overview of Sugarloaf Land (SLL) region. The concave polygon that indicates SLL was built, based on the available coordinates of the vouchers assigned in the vascular plant list for lowland inselbergs occurring in the Atlantic Forest, SE Brazil.</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e53135-g014.jpeg" position="float" id="oo_393508.jpeg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/393508</uri>
+      </graphic>
+    </fig>
+    <fig id="F5661968" position="float" orientation="portrait">
+      <object-id content-type="arpha">9D672D84-6779-5DDE-9F0A-14BA8D5822EB</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e53135.figure15</object-id>
+      <object-id content-type="zenodo_dep_id">3901060</object-id>
+      <label>Figure 15.</label>
+      <caption>
+        <p>Main threats to inselberg biodiversity in SE Brazil. <bold>A, B.</bold> Mining in Espírito Santo State; <bold>C, D.</bold> Burned populations of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Alcantarea">Alcantarea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="extensa">extensa</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Bromeliaceae</tp:taxon-name-part></tp:taxon-name>) and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Vellozia">Vellozia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="plicata">plicata</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Velloziaceae</tp:taxon-name-part></tp:taxon-name>), respectively, due to anthropogenically-caused fire in Minas Gerais State; <bold>E, F.</bold> Invasive grass (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melinis">Melinis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="repens">repens</tp:taxon-name-part></tp:taxon-name></italic>) on inselbergs in Minas Gerais State; <bold>G, H.</bold> Grazing on inselberg surroundings and on the top of an inselberg, respectively, in Minas Gerais State; <bold>I, J.</bold> Urban expansion on to inselbergs in the municipalities of Rio de Janeiro (Rio de Janeiro State) and Vitória (Espírito Santo State), respectively. Photos by L.F.A. de Paula, except for photo I by J.M.A. Braga.</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e53135-g015.jpeg" position="float" id="oo_393518.jpeg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/393518</uri>
+      </graphic>
+    </fig>
+    <supplementary-material id="S5716481" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">AFC64366-6587-5D9F-8BD4-1FC80ACCBFAD</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e53135.suppl1</object-id>
+      <label>Supplementary material 1</label>
+      <caption>
+        <p>List of angiosperms occurring on lowland inselbergs in the Atlantic Forest, SE Brazil</p>
+      </caption>
+      <statement content-type="dataType">
+        <label>Data type</label>
+        <p>List of species</p>
+      </statement>
+      <statement content-type="notes">
+        <label>Brief description</label>
+        <p>List containing 505 angiosperm species occurring on lowland inselbergs in the Atlantic Forest, SE Brazil, highlighting species included in official lists of endangered flora, life forms, habitat type of occurrence, origin, voucher, link for the herbarium image of the voucher.</p>
+      </statement>
+      <p>File: oo_415843.csv</p>
+      <media xlink:href="bdj-08-e53135-s001.csv" mimetype="Comma Separated Values File" mime-subtype="csv" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/415843</uri>
+      </media>
+      <attrib specific-use="authors">de Paula, LFA; Azevedo, LO; Mauad, LP; Cardoso, LJT; Braga, JMA; Kollmann, LJC; Fraga, CN; Menini Neto, L; Labiak, PH; Mello-Silva, R; Porembski, S; Forzza, RC</attrib>
+    </supplementary-material>
+    <supplementary-material id="S5716485" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">E942A671-3BE3-5D84-B429-2AF2E1C50B70</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e53135.suppl2</object-id>
+      <label>Supplementary material 2</label>
+      <caption>
+        <p>List of ferns and lycophytes occurring on lowland inselbergs in the Atlantic Forest, SE Brazil</p>
+      </caption>
+      <statement content-type="dataType">
+        <label>Data type</label>
+        <p>List of species</p>
+      </statement>
+      <statement content-type="notes">
+        <label>Brief description</label>
+        <p>List containing 43 fern and lycophyte species occurring on lowland inselbergs in the Atlantic Forest, SE Brazil, highlighting species included in official lists of endangered flora, life forms, habitat type of occurrence, origin, voucher, link for the herbarium image of the voucher.</p>
+      </statement>
+      <p>File: oo_415853.csv</p>
+      <media xlink:href="bdj-08-e53135-s002.csv" mimetype="Comma Separated Values File" mime-subtype="csv" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/415853</uri>
+      </media>
+      <attrib specific-use="authors">de Paula, LFA; Azevedo, LO; Mauad, LP; Cardoso, LJT; Braga, JMA; Kollmann, LJC; Fraga, CN; Menini Neto, L; Labiak, PH; Mello-Silva, R; Porembski, S; Forzza, RC</attrib>
+    </supplementary-material>
+  </floats-group>
+</article>

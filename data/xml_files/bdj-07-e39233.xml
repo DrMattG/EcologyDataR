@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.7.e39233</article-id>
+      <article-id pub-id-type="publisher-id">39233</article-id>
+      <article-id pub-id-type="manuscript">10588</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Amphibia</subject>
+          <subject>Chordata</subject>
+          <subject>Aves</subject>
+          <subject>Vertebrata</subject>
+          <subject>Mammalia</subject>
+          <subject>Reptilia</subject>
+          <subject>Animalia</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Biodiversity &amp; Conservation</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>Vietnam</subject>
+          <subject>Asia</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Occurrence data of terrestrial vertebrates of Son Tra Peninsula, Da Nang City, Vietnam</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes">
+          <name name-style="western">
+            <surname>Tran</surname>
+            <given-names>Bang Van</given-names>
+          </name>
+          <email xlink:type="simple">vn.vanbang@gmail.com</email>
+          <uri content-type="orcid">https://orcid.org/0000-0001-5772-6951</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Le</surname>
+            <given-names>Duy</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-9684-0252</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Hoang</surname>
+            <given-names>Huy Quoc</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Hoang</surname>
+            <given-names>Duc Minh</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Southern Institute of Ecology, Vietnam Academy of Science and Technology, Ho Chi Minh, Vietnam</addr-line>
+        <institution>Southern Institute of Ecology, Vietnam Academy of Science and Technology</institution>
+        <addr-line content-type="city">Ho Chi Minh</addr-line>
+        <country>Vietnam</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">GreenViet Biodiversity Conservation Center, Da Nang, Vietnam</addr-line>
+        <institution>GreenViet Biodiversity Conservation Center</institution>
+        <addr-line content-type="city">Da Nang</addr-line>
+        <country>Vietnam</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Bang Van Tran (<email xlink:type="simple">vn.vanbang@gmail.com</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: John James Wilson</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>27</day>
+        <month>11</month>
+        <year>2019</year>
+      </pub-date>
+      <volume>7</volume>
+      <elocation-id>e39233</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/460A571A-7CDF-5194-91A8-DD93A5AFEBE7">460A571A-7CDF-5194-91A8-DD93A5AFEBE7</uri>
+      <history>
+        <date date-type="received">
+          <day>19</day>
+          <month>08</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>13</day>
+          <month>11</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Bang Van Tran, Duy Le, Huy Quoc Hoang, Duc Minh Hoang</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>The forest of Son Tra Peninsula was designated as a nature reserve in 1977 and serves as a green lung for Da Nang City. Due to the economic development scheme of Da Nang City, the forest of the peninsula has been disturbed by human activities and by invasive plant species. Moreover, the management board of the nature reserve lacked sufficient data of the species distribution of its biodiversity for developing future management and conservation plans. To provide and enhance knowledge for the distribution of wildlife species in Son Tra Peninsula, we conducted field surveys over two years to collect data on species richness and distribution and then build a biodiversity database for the protected area.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>The project collected the occurrence data of 145 species of terrestrial vertebrates, accounting for 51.6% of vertebrate species known from the peninsula with total of 900 observations. In addition, distribution data of six threatened species were recorded on the peninsula.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>distribution</kwd>
+        <kwd>occurrence</kwd>
+        <kwd>mammal</kwd>
+        <kwd>aves</kwd>
+        <kwd>reptile</kwd>
+        <kwd>amphibian</kwd>
+      </kwd-group>
+      <funding-group>
+        <funding-statement>"Research on conservation and restoration of terrestrial and marine ecosystems at Son Tra Nature Reserve, Da Nang City", project code: 26/15 – DTDL.CN - XHTN</funding-statement>
+      </funding-group>
+      <counts>
+        <fig-count count="1"/>
+        <table-count count="1"/>
+        <ref-count count="15"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>Son Tra Peninsula of Da Nang City is well known as a home for one of the most beautiful primates, the red-shanked douc (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pygathrix">Pygathrix</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="nemaeus">nemaeus</tp:taxon-name-part></tp:taxon-name></italic>) and the forest is considered as the “green lung” of the city. Located on the peninsula, Son Tra Nature Reserve was established in 1977 to protect the forest and its biodiversity in an area of ca. 4,000 ha. The nature reserve then was reduced to 3,871 ha in the “National Planning for Biodiversity Conservation toward 2020 and vision to 2030”. In addition, the peninsula was planned for national tourism development with an area of 1,056 ha from 2016. Hence, the total area allocated for conserving the habitat for wildlife was reduced to 3,383 ha. Therefore, the forestry area, as well as the biodiversity of the peninsula, including the nature reserve, will be impacted under the pressure of economic development for the city.</p>
+      <p>Before the re-unification of Vietnam, the fauna of Son Tra was surveyed and 23 mammal species were reported for the peninsula (<xref ref-type="bibr" rid="B5299867">Jones 1983</xref>, <xref ref-type="bibr" rid="B5257023">van Peenen et al. 1971</xref>). Although the nature reserve was established in 1977, its wildlife was not inventoried until 1997 when the occurrence of 174 terrestrial vertebrate species, including 36 mammal species, 106 bird species, 23 reptile species and 9 amphibian species, was reported (<xref ref-type="bibr" rid="B5204786">Dinh et al. 1997</xref>). Recently, a study on the herpetofauna of the nature reserve reported the presence of 18 amphibian and 52 reptile species (<xref ref-type="bibr" rid="B5204748">Phan et al. 2014</xref>). Several opportunistic observations and studies conducted at the nature reserve have contributed to the knowledge of species richness of the fauna of the nature reserve (<xref ref-type="bibr" rid="B5406118">Lippold and Vu 2008</xref>, <xref ref-type="bibr" rid="B5406128">Dinh et al. 2010</xref>, <xref ref-type="bibr" rid="B5406108">Streicher and Ulibarri 2014</xref>). After revising the terrestrial fauna list by removing synonyms and unconfirmed species, the terrestrial vertebrates of Son Tra consists of 41 mammals, 151 birds, 52 reptiles and 18 amphibians. Although the previous studies provided initial information to understand the biodiversity of the nature reserve, data on the distribution of animals including coordinates were lacking or not sufficient for planning conservation activities, particularly in light of the high pressure caused by human activities. In addition, after almost 20 years, the biodiversity of the Son Tra Peninsula has likely changed due to the invasive species <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Merremia">Merremia</tp:taxon-name-part></tp:taxon-name></italic> spp. Therefore, this study provides crucial data on species distribution of confirmed species that occur within the nature reserve.</p>
+    </sec>
+    <sec sec-type="Project description">
+      <title>Project description</title>
+      <sec sec-type="Title">
+        <title>Title</title>
+        <p>Research on conservation and restoration of terrestrial and marine ecosystems at Son Tra Nature Reserve, Da Nang City. Project code: 26/15 – ĐTĐL.CN - XHTN</p>
+      </sec>
+      <sec sec-type="Personnel">
+        <title>Personnel</title>
+        <p>Project manager: Dr Duc Minh Hoang</p>
+        <p>Project coordinatior: Mr. Bang Van Tran</p>
+        <p>Other principle members of the project are: Dr Truong Hong Luu, Dr. Long Ngoc Vu, Mr. Bach Xuan Le Nguyen, Mr. Hoa Xuan Nguyen, Dr. Vy Xuan Nguyen, Asso. Prof. Minh Van Vo, Dr. Long Thang Ha and Mr. Thien Quang Huynh.</p>
+      </sec>
+      <sec sec-type="Study area description">
+        <title>Study area description</title>
+        <p>The project was carried out on Son Tra Peninsula focusing on Son Tra Nature Reserve, Da Nang City. In addition, the project also covers the marine ecosystem surrounding the Son Tra Nature Reserve.</p>
+      </sec>
+      <sec sec-type="Design description">
+        <title>Design description</title>
+        <p>The project was designed in three steps. Firstly, the status of land cover and distribution of important marine ecosystems (seagrass and coral reef) was mapped by using current satellite images. After that, a database of the biodiversity of the nature reserve, including terrestrial and marine ecosystems based on field surveys data, was transferred to local authorities. Lastly, based on the results of the project, one sustainable management plan will be recommended to the management board of the nature reserve, as well as for the peninsula.</p>
+      </sec>
+      <sec sec-type="Funding">
+        <title>Funding</title>
+        <p>Project was funded by the Ministry of Science and Technology, Vietnam. Funding Number 26/15-DTĐ.CN-XH.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Study extent">
+        <title>Study extent</title>
+        <p>The project was conducted at Son Tra Peninsula where Son Tra Nature Reserve is located. The forest of the peninsula, based on satellite images from 2016, comprises seven habitat types: poor evergreen broadleaf forest (1,872 ha), medium evergreen broadleaf forest (1,445 ha), planted forest (252 ha), bare land/grassland with <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Merremia">Merremia</tp:taxon-name-part></tp:taxon-name></italic> spp. (226 ha); bare land/other grassland (368 ha); agricultural land/other (118 ha) and residential land (807 ha). Mammals, birds, reptiles and amphibians are our targeted taxa. The fieldwork was conducted from 2016 to 2017 with 46 survey-days.</p>
+      </sec>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>The mammal fauna was studied by applying three methods, including visual survey in both day and night-time to record easily recognised species, mist nets were used for capturing bats and box traps were used for capturing small mammals like rodents and shrews. While the visual surveys were conducted along the roads and available trails in the forest, mist nets and box traps were set up near streams. The visual survey was also the main method to collect bird data by using binoculars and a camera with telephoto lens for taking the photos of species. The herpetofauna was surveyed in both day and night-time to maximise results. Surveyors focused on streams together with the roads to observe and capture animals by hand. The surveys usually took place from 06h00 till noon, from 14h00 to 17h00 and from 19h00 to 23h00.</p>
+      </sec>
+      <sec sec-type="Quality control">
+        <title>Quality control</title>
+        <p>Controlling data: Each observation of an animal contained fundamental information such as location (coordinates and altitude), habitat and name of surveyor. The coordinates and altitude of locality were derived from hand-held Garmin GPS (model 64 CSX). The habitat type was based on the current classification system for land cover of Son Tra Peninsula as provided in the section of study extent. Regarding species identification, herpetofauna species and small mammals, such as bats and rodents, were identified based on examination of specimens. A Guide to the Mammals of South-East Asia (<xref ref-type="bibr" rid="B5214607">Francis 2008</xref>) was used to identify easily recognisable species, such as members of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Carnivora</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Primates</tp:taxon-name-part></tp:taxon-name> and Ungulates. To identify bats, we used the reference “Bats of Vietnam: Checklist and an identification manual” (<xref ref-type="bibr" rid="B5214625">Kruskop 2013</xref>) and recent determination keys on the bats of Vietnam. For rodent identification, “An Identification Guide to the Rodent of Vietnam” (<xref ref-type="bibr" rid="B5214598">Lunde and Nguyen 2005</xref>) was used. The main reference for identifying bird species was “A Field Guide to the Birds of South-East Asia” (<xref ref-type="bibr" rid="B5214634">Robson 2014</xref>). To identify amphibian and reptile species, “Herpetofauna of Vietnam” (<xref ref-type="bibr" rid="B5214616">Nguyen et al. 2009</xref>) was used along with the latest references on herpetofauna studies in Vietnam.</p>
+        <p>Controlling nomenclature name of species: To ensure using the updated scientific name and common name of species, we double-checked the nomenclature of species with online databases: Mammal species of the world (<xref ref-type="bibr" rid="B5299946">Wilson and Reeder 2005</xref>) (<ext-link ext-link-type="uri" xlink:href="https://www.departments.bucknell.edu/biology/resources/msw3">https://www.departments.bucknell.edu/biology/resources/msw3</ext-link>), Bird databases (<ext-link ext-link-type="uri" xlink:href="https://www.hbw.com/species">https://www.hbw.com/species</ext-link>), Reptile databases (<ext-link ext-link-type="uri" xlink:href="http://reptile-database.reptarium.cz/">http://reptile-database.reptarium.cz</ext-link>) (<xref ref-type="bibr" rid="B5299889">Uetz and Hosek 2019</xref>) and Amphibian Species of the world (<ext-link ext-link-type="uri" xlink:href="http://research.amnh.org/vz/herpetology/amphibia)">http://research.amnh.org/vz/herpetology/amphibia) (Frost 2019). </ext-link>In addition, the species were also checked in the database of IUCN Red List of Threatened species (https://www.iucnredlist.org) for scientific names and conservation status of species.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>Son Tra Nature Reserve is located in Son Tra Peninsula, which is situated on the north-east edge of Da Nang City. The geographic coordinates of the peninsula are 10°06' N to 10°09' N and 108°13' E to 108°21' E (Fig. <xref ref-type="fig" rid="F5299887">1</xref>). The topography of the nature reserve consists of mountainous areas with north-south slopes with north slopes being steeper than those of the south. The nature reserve is strongly divided by a system of small streams. The peak of Son Tra Nature Reserve has a height of 696 m a.s.l. and the other two peaks are at an elevation of 647 m and 621 m. The land area below 200 m a.s.l. accounts for 57.96% of the nature reserve, while the land above 400 m covers 12.46%. There is a road system that allows access to both low and high areas of the nature reserve.</p>
+      </sec>
+      <sec sec-type="Coordinates">
+        <title>Coordinates</title>
+        <p> and  Latitude;  and  Longitude.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The occurrence data contained the distribution location for 145 species, belonging to four classes: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part></tp:taxon-name> (20 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part></tp:taxon-name> (82 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part></tp:taxon-name> (27 species) and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Amphibia</tp:taxon-name-part></tp:taxon-name> (16 species). There is a total of 900 records, including 128 records for the mammals, 445 records for birds, 145 records for reptiles and 182 records for amphibians (Suppl. material <xref ref-type="supplementary-material" rid="S5218774">1</xref>). The data include occurrences of six species that are listed as Near Threatened, Vulnerable and Endangered in IUCN Red List of Threatened species (Table <xref ref-type="table" rid="T5220834">1</xref>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <sec sec-type="Notes">
+        <title>Notes</title>
+        <p>The project was conducted from January 2015 to December 2018. Data were collected within the project timeline during four field trips in April 2016, October 2016, May 2017 and August 2017.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Creative Commons Public Domain Waiver (CC-Zero)</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>Occurrence data of terrestrial vertebrates of Son Tra Peninsula, Danang City, Vietnam</p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="https://data.depositar.io/en/dataset/occurence-data">https://data.depositar.io/en/dataset/occurence-data</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>1</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Occurrence data of terrestrial vertebrates of Son Tra Nature Reserve, Vietnam</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>csv</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>34</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="https://data.depositar.io/en/dataset/e1c93cbd-9af4-4a5f-bea7-0e264ace5dbf/resource/aee7c690-1f5c-4997-a872-1a8b79eec12f/download/occurrence_SonTra_Peninsula.csv">https://data.depositar.io/en/dataset/e1c93cbd-9af4-4a5f-bea7-0e264ace5dbf/resource/aee7c690-1f5c-4997-a872-1a8b79eec12f/download/occurrence_SonTra_Peninsula_final.csv</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>The data were prepared by following DARWIN CORE.</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceID</td>
+                  <td rowspan="1" colspan="1">The Globally Unique Identifier number for the recored</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">basisOfRecord</td>
+                  <td rowspan="1" colspan="1">The specific nature of the data record: PreservedSpecimen, HumanObservation</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventDate</td>
+                  <td rowspan="1" colspan="1">date format as YYYY-MM-DD</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">year</td>
+                  <td rowspan="1" colspan="1">Year of the event was recorded</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">month</td>
+                  <td rowspan="1" colspan="1">The month of the event was recorded</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">date</td>
+                  <td rowspan="1" colspan="1">The date of the event was recorded</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">verbatimEventDate</td>
+                  <td rowspan="1" colspan="1">The verbatim original representation of the date and time information for an Event: the format of date as MM/DD/YYYY</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificName</td>
+                  <td rowspan="1" colspan="1">The full scientific name including the genus name and the lowest level of taxonomic rank with the authority</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">kingdom</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the kingdom in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">phylum</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the phylum or division in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">class</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the class in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">order</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the order in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">family</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the family in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">genus</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the genus in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">specificEpithet</td>
+                  <td rowspan="1" colspan="1">The name of the first or species epithet of the scientificName</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificNameAuthorship</td>
+                  <td rowspan="1" colspan="1">The authorship information with the date for the scientificName formatted</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">taxonRank</td>
+                  <td rowspan="1" colspan="1">The taxonomic rank of the most specific name in the scientificName</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">identifiedBy</td>
+                  <td rowspan="1" colspan="1">Name of identifier to the taxon that recorded</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">dateIdentified</td>
+                  <td rowspan="1" colspan="1">The date on which the subject was identified as representing the Taxon.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLatitude</td>
+                  <td rowspan="1" colspan="1">The verbatim original latitude of the Location</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLongitude</td>
+                  <td rowspan="1" colspan="1">The verbatim original longitude of the Location</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">geodeticDatum</td>
+                  <td rowspan="1" colspan="1">The geodetic datum for coordinates: WGS84</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">verbatimCoordinateSystem</td>
+                  <td rowspan="1" colspan="1">The spatial coordinate system for the verbatimLatitude and verbatimLongitude: decimal degrees</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">continent</td>
+                  <td rowspan="1" colspan="1">The name of the continent in which the Location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">country</td>
+                  <td rowspan="1" colspan="1">The name of the country or major administrative unit in which the Location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">countryCode</td>
+                  <td rowspan="1" colspan="1">The standard code for the country in which the Location occurs: VN</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">stateProvince</td>
+                  <td rowspan="1" colspan="1">The name of the next smaller administrative region than country: Danang</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">county</td>
+                  <td rowspan="1" colspan="1">The full, unabbreviated name of the next smaller administrative region than stateProvince: Son Tra</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">locality</td>
+                  <td rowspan="1" colspan="1">Name of the Nature Reserve: Son Tra Nature Reserve</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">language</td>
+                  <td rowspan="1" colspan="1">A language of the resource: English</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">institutionCode</td>
+                  <td rowspan="1" colspan="1">The acronym of name of Southern Institute of Ecology, SIE</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">collectionCode</td>
+                  <td rowspan="1" colspan="1">The name, acronym, coden or initialism identifying the collection or dataset from which the record was derived: SIEZC</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">individualCount</td>
+                  <td rowspan="1" colspan="1">the number of individuals that were recorded for the event</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">preparations</td>
+                  <td rowspan="1" colspan="1">name of methods for preserving specimen</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>This paper is a part of the project "Research on conservation and restoration of terrestrial and marine ecosystems at Son Tra Nature Reserve, Da Nang City", project code: 26/15 – DTDL.CN - XHTN, which was funded by the Ministry of Science and Technology, Vietnam. The authors also would like to express thanks to Da Nang Forest Protection Department that allowed the field surveys to be conducted. Thanks also given to Herbert H. Covert for his help in English of the manuscript.</p>
+    </ack>
+    <sec sec-type="Author contributions">
+      <title>Author contributions</title>
+      <p>Each author contributed equally to the data collecting process and to writing the paper.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="B5204786">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Dinh</surname>
+              <given-names>Thi Phuong Anh</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nguyen</surname>
+              <given-names>Tan Le</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dang</surname>
+              <given-names>Quoc Hoe</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nguyen</surname>
+              <given-names>Thi Dao</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nguyen</surname>
+              <given-names>Phu Tho</given-names>
+            </name>
+          </person-group>
+          <year>1997</year>
+          <source>Điều tra khu hệ Động - Thực vật và nhân tố ảnh hưởng, đề xuất phương án bảo tồn và sử dụng hợp lý khu bảo tồn thiên nhiên bán đảo Sơn Trà</source>
+          <trans-title>Survey on fauna and flora and its impacted element, proposed conservation planning and appreciate using Son Tra Nature Reserve.</trans-title>
+          <publisher-name>The Danang University of Education and Danang Department of Science and Environment</publisher-name>
+          <publisher-loc>Da Nang</publisher-loc>
+          <size units="page">125</size>
+          <comment content-type="language">Vietnamese</comment>
+        </element-citation>
+      </ref>
+      <ref id="B5406128">
+        <element-citation publication-type="chapter">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Dinh</surname>
+              <given-names>Thi Phuong Anh</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nguyen</surname>
+              <given-names>Dinh Hong Chung</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Huynh</surname>
+              <given-names>Thi Nguyet Hang</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <chapter-title>Status and Distributioin of Red-shanked douc langurs (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pygathrix">Pygathrix</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="nemaeus">nemaeus</tp:taxon-name-part></tp:taxon-name>) and threats to their populaiton at Son Tra Nature Reserve, Danang City</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Nadler</surname>
+              <given-names>Tilo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rawson</surname>
+              <given-names>Benjamin Miles</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Van</surname>
+              <given-names>Ngoc Thinh</given-names>
+            </name>
+          </person-group>
+          <source>Conservation of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Primates</tp:taxon-name-part></tp:taxon-name> in Indochina</source>
+          <volume>1</volume>
+          <publisher-name>Frankfurt Zoological Society and Conservation International</publisher-name>
+          <size units="page">71-78</size>
+        </element-citation>
+      </ref>
+      <ref id="B5214607">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Francis</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <source>A guide to the mammals of South-east Asia</source>
+          <publisher-name>Princeton University Press, Princeton</publisher-name>
+          <publisher-loc>New Jersey, and Oxford</publisher-loc>
+          <size units="page">392</size>
+        </element-citation>
+      </ref>
+      <ref id="B5214645">
+        <element-citation publication-type="chapter">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Frost</surname>
+              <given-names>Darrel R.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <chapter-title>Amphibian species of the World: an Online Reference. Version 6.0.</chapter-title>
+          <source>Electronic Database accessible at American Museum of Natural History</source>
+          <publisher-loc>New York, USA</publisher-loc>
+          <uri>http://research.amnh.org/herpetology/amphibia/index.html.</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5299867">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Jones</surname>
+              <given-names>Gwilym S.</given-names>
+            </name>
+          </person-group>
+          <year>1983</year>
+          <article-title>Ecological and distributional notes on mammals from Vietnam, including the first record of Nyctaltis</article-title>
+          <source>
+            <tp:taxon-name>
+              <tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part>
+            </tp:taxon-name>
+          </source>
+          <volume>47</volume>
+          <issue>3</issue>
+          <fpage>339</fpage>
+          <lpage>344</lpage>
+          <pub-id pub-id-type="doi">10.1515/mamm-1983-0305</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5214625">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kruskop</surname>
+              <given-names>Sergei V.</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <source>Bats of Vietnam: Checklist and an identification manual</source>
+          <publisher-name>Joint Russian-Vietnamese Science and Technological Tropical Centre</publisher-name>
+          <publisher-loc>Moscow</publisher-loc>
+          <size units="page">300</size>
+        </element-citation>
+      </ref>
+      <ref id="B5406118">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lippold</surname>
+              <given-names>Lois K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vu</surname>
+              <given-names>Ngọc Thanh</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>The Time is Now: Survival of the Douc Langurs of Son Tra, Vietnam</article-title>
+          <source>Primate Conservation</source>
+          <volume>23</volume>
+          <fpage>75</fpage>
+          <lpage>79</lpage>
+          <pub-id pub-id-type="doi">10.1896/052.023.0108</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5214598">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lunde</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nguyen</surname>
+              <given-names>Truong Son</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <source>An identification guide to the rodents of Vietnam</source>
+          <publisher-name>Center for Biodiversity and Conservation, American Museum of Natural History</publisher-name>
+          <publisher-loc>New York</publisher-loc>
+          <size units="page">80</size>
+        </element-citation>
+      </ref>
+      <ref id="B5214616">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Nguyen</surname>
+              <given-names>Van Sang</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ho</surname>
+              <given-names>Thu Cuc</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nguyen</surname>
+              <given-names>Quang Truong</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <source>Herpetofauna of Vietnam</source>
+          <publisher-name>Edition Chimaira / Serpent's Tale NHBD</publisher-name>
+          <publisher-loc>Frankfurt am Main</publisher-loc>
+          <size units="page">768</size>
+        </element-citation>
+      </ref>
+      <ref id="B5204748">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Phan</surname>
+              <given-names>Thi Hoa</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nguyen</surname>
+              <given-names>Lan Hung Son</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dinh</surname>
+              <given-names>Thi Phuong Anh</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vu</surname>
+              <given-names>Ngoc Thanh</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>[New data on species composition and distribution of herpetofauna at Son Tra Nature Reserve, Da Nang City]</article-title>
+          <source>VNU Journal of Science</source>
+          <volume>30</volume>
+          <issue>1S</issue>
+          <fpage>79</fpage>
+          <lpage>87</lpage>
+          <comment content-type="language">Vietnamese</comment>
+        </element-citation>
+      </ref>
+      <ref id="B5214634">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Robson</surname>
+              <given-names>Craig</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <source>A field guide to the birds of South-East Asia</source>
+          <edition>Second Edition</edition>
+          <publisher-name>Blommsbury Publishing Plc</publisher-name>
+          <publisher-loc>London</publisher-loc>
+          <size units="page">544</size>
+        </element-citation>
+      </ref>
+      <ref id="B5406108">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Streicher</surname>
+              <given-names>Ulrike</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ulibarri</surname>
+              <given-names>Larry</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>Observations of small carnivores in Son Tra Nature Reserve, a small and isolated protected area in central Vietnam</article-title>
+          <source>Small Carnivore Conservation</source>
+          <volume>51</volume>
+          <fpage>18</fpage>
+          <lpage>22</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5299889">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Uetz</surname>
+              <given-names>P</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hosek</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>The Reptile Database</article-title>
+          <uri>http://www.reptile-database.org</uri>
+          <date-in-citation content-type="access-date">2019-05-08T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5257023">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>van Peenen</surname>
+              <given-names>P. F. D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Light</surname>
+              <given-names>R. H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Duncan</surname>
+              <given-names>J. F.</given-names>
+            </name>
+          </person-group>
+          <year>1971</year>
+          <article-title>Observations on mammals of Mt. Sontra, S. Vietnam</article-title>
+          <source>
+            <tp:taxon-name>
+              <tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part>
+            </tp:taxon-name>
+          </source>
+          <volume>35</volume>
+          <issue>1</issue>
+          <fpage>126</fpage>
+          <lpage>143</lpage>
+          <pub-id pub-id-type="doi">10.1515/mamm.1971.35.1.126</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5299946">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Wilson</surname>
+              <given-names>Don E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Reeder</surname>
+              <given-names>DeeAnn M.</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <source>Mammal species of the World. A taxonomic and geographic reference</source>
+          <edition>Third Edition</edition>
+          <publisher-name>Johns Hopkins University Press</publisher-name>
+          <size units="page">2142</size>
+          <uri>http://www.press.jhu.edu</uri>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F5299887" position="float" orientation="portrait">
+      <object-id content-type="arpha">5EED29D8-6DA2-5CA8-B5BF-0B36FC4667AD</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e39233.figure1</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>The land cover map of Son Tra Nature Reserve</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e39233-g001.jpg" position="float" id="oo_323345.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/323345</uri>
+      </graphic>
+    </fig>
+    <table-wrap id="T5220834" position="float" orientation="portrait">
+      <label>Table 1.</label>
+      <caption>
+        <p>The records of globally-threatened species from Son Tra Peninsula.</p>
+      </caption>
+      <table rules="all" border="1">
+        <tbody>
+          <tr>
+            <th rowspan="1" colspan="1">Scientific name</th>
+            <th rowspan="1" colspan="1">Common name</th>
+            <th rowspan="1" colspan="1">IUCN Category</th>
+            <th rowspan="1" colspan="1">Number of records</th>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ophiophagus">Ophiophagus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="hannah">hannah</tp:taxon-name-part></tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">King cobra</td>
+            <td rowspan="1" colspan="1">VU</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cuora">Cuora</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mouhotii">mouhotii</tp:taxon-name-part></tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">Keeled box turtle</td>
+            <td rowspan="1" colspan="1">EN</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pitta">Pitta</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="nympha">nympha</tp:taxon-name-part></tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">Fairy pitta</td>
+            <td rowspan="1" colspan="1">VU</td>
+            <td rowspan="1" colspan="1">3</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Psittacula">Psittacula</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="alexandri">alexandri</tp:taxon-name-part></tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">Red-breasted parakeet</td>
+            <td rowspan="1" colspan="1">NT</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pygathrix">Pygathrix</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="nemaeus">nemaeus</tp:taxon-name-part></tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">Red-shanked douc</td>
+            <td rowspan="1" colspan="1">EN</td>
+            <td rowspan="1" colspan="1">35</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Nycticebus">Nycticebus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pygmaeus">pygmaeus</tp:taxon-name-part></tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">Pygmy slow loris</td>
+            <td rowspan="1" colspan="1">VU</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <supplementary-material id="S5218774" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">69E476E9-98DB-5E7B-8DBE-24F03B1F306A</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e39233.suppl1</object-id>
+      <label>Supplementary material 1</label>
+      <caption>
+        <p>Occurrence data of terrestrial vertebrates in Son Tra Peninsula, Da Nang City, Vietnam</p>
+      </caption>
+      <p>Data type: Occurrence</p>
+      <p>Brief description: The file contains occurrence data of terrestrial vertebrate species in Son Tra Peninsula, Da Nang City. Data were organised in 14 columns and 901 rows with first row as the header.</p>
+      <p>File: oo_326518.xlsx</p>
+      <media xlink:href="bdj-07-e39233-s001.xlsx" mimetype="Microsoft Excel Document" mime-subtype="xlsx" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/326518</uri>
+      </media>
+      <attrib specific-use="authors">Bang Van Tran, Duc Minh Hoang, Huy Quoc Hoang, Duy Le</attrib>
+    </supplementary-material>
+  </floats-group>
+</article>

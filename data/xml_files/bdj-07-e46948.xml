@@ -1,0 +1,2623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.7.e46948</article-id>
+      <article-id pub-id-type="publisher-id">46948</article-id>
+      <article-id pub-id-type="manuscript">10909</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Chordata</subject>
+          <subject>Theria</subject>
+          <subject>Placentalia</subject>
+          <subject>Soricomorpha</subject>
+          <subject>Soricidae</subject>
+          <subject>Vertebrata</subject>
+          <subject>Mammalia</subject>
+          <subject>Animalia</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Zoology &amp; Animal Biology</subject>
+          <subject>Biodiversity &amp; Conservation</subject>
+          <subject>Biogeography</subject>
+        </subj-group>
+        <subj-group subj-group-type="Chronological classification">
+          <subject>Cenozoic</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>Africa</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Shrews (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Soricidae</tp:taxon-name-part></tp:taxon-name>) of the lowland forests around Kisangani (DR Congo)</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes">
+          <name name-style="western">
+            <surname>Van de Perre</surname>
+            <given-names>Frederik</given-names>
+          </name>
+          <email xlink:type="simple">frederik.vandeperre@uantwerpen.be</email>
+          <uri content-type="orcid">https://orcid.org/0000-0002-0692-2060</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Leirs</surname>
+            <given-names>Herwig</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Cigar</surname>
+            <given-names>Julien</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-1157-9842</uri>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Gambalemoke Mbalitini</surname>
+            <given-names>Sylvestre</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Mukinzi Itoka</surname>
+            <given-names>Jean-Claude</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Verheyen</surname>
+            <given-names>Erik</given-names>
+          </name>
+          <xref ref-type="aff" rid="A5">5</xref>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Evolutionary Ecology Group, University of Antwerp, Antwerp, Belgium</addr-line>
+        <institution>Evolutionary Ecology Group, University of Antwerp</institution>
+        <addr-line content-type="city">Antwerp</addr-line>
+        <country>Belgium</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">Belgian Biodiversity Platform, Brussels, Belgium</addr-line>
+        <institution>Belgian Biodiversity Platform</institution>
+        <addr-line content-type="city">Brussels</addr-line>
+        <country>Belgium</country>
+      </aff>
+      <aff id="A3">
+        <label>3</label>
+        <addr-line content-type="verbatim">Centre de Surveillance de la Biodiversité, Kisangani, Democratic Republic of the Congo</addr-line>
+        <institution>Centre de Surveillance de la Biodiversité</institution>
+        <addr-line content-type="city">Kisangani</addr-line>
+        <country>Democratic Republic of the Congo</country>
+      </aff>
+      <aff id="A4">
+        <label>4</label>
+        <addr-line content-type="verbatim">Faculté des Sciences, UNIKIS, Kisangani, Democratic Republic of the Congo</addr-line>
+        <institution>Faculté des Sciences, UNIKIS</institution>
+        <addr-line content-type="city">Kisangani</addr-line>
+        <country>Democratic Republic of the Congo</country>
+      </aff>
+      <aff id="A5">
+        <label>5</label>
+        <addr-line content-type="verbatim">Royal Belgian Institute of Natural Sciences, Brussels, Belgium</addr-line>
+        <institution>Royal Belgian Institute of Natural Sciences</institution>
+        <addr-line content-type="city">Brussels</addr-line>
+        <country>Belgium</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Frederik Van de Perre (<email xlink:type="simple">frederik.vandeperre@uantwerpen.be</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Alexander E Balakirev</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>20</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <volume>7</volume>
+      <elocation-id>e46948</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/4FB9A997-6EBC-5485-93C4-259E9769FC07">4FB9A997-6EBC-5485-93C4-259E9769FC07</uri>
+      <history>
+        <date date-type="received">
+          <day>30</day>
+          <month>09</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>01</day>
+          <month>11</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Frederik Van de Perre, Herwig Leirs, Julien Cigar, Sylvestre Gambalemoke Mbalitini, Jean-Claude Mukinzi Itoka, Erik Verheyen</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>The Congo Basin rainforest is the second largest rainforest in the world and one of the most biodiverse regions on Earth. Nevertheless, the Congo Basin biodiversity remains to be fully mapped, with many species awaiting discovery or official description. In recent years, much effort has been put into research on shrews (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Soricidae</tp:taxon-name-part></tp:taxon-name>), particularly in the region around Kisangani (D.R. Congo). Shrews are opportunistic feeders that are able to forage on a large diversity of invertebrate prey and therefore play an important role in the forest ecosystem. Furthermore, as they largely depend on forest habitats and have limited dispersal capacities, shrews form an interesting model group to study biogeographic patterns in the Congo Basin.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>This paper collates the efforts on shrew research from the wider region around Kisangani, in the centre of the Congo Basin. Apart from sampling information, the dataset includes morphological measures, DNA sequences and photographs. This dataset is therefore critical in the study of the taxonomy and ecology of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Soricidae</tp:taxon-name-part></tp:taxon-name> in the Congo Basin lowland rainforests.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>pitfall</kwd>
+        <kwd>removal trapping</kwd>
+        <kwd>tropical lowland forest</kwd>
+        <kwd>Democratic Republic Congo</kwd>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="family">Soricidae</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="3"/>
+        <table-count count="2"/>
+        <ref-count count="26"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>The Congo basin rainforest is the second largest in the world and one of the most biodiverse regions on earth (<xref ref-type="bibr" rid="B5381004">Mittermeier et al. 2003</xref>, <xref ref-type="bibr" rid="B5380994">Lewis 2005</xref>). Both the forest and its biodiversity are threatened by forest loss and bushmeat hunting (<xref ref-type="bibr" rid="B5157776">Malhi et al. 2013</xref>). Despite its importance for climate change mitigation and biodiversity conservation, knowledge on the impact of forest loss and degradation and bushmeat hunting on local biodiversity is currently lacking (<xref ref-type="bibr" rid="B5157738">Gibson et al. 2011</xref>, <xref ref-type="bibr" rid="B5157755">Alroy 2017</xref>, <xref ref-type="bibr" rid="B5157766">Phillips et al. 2017</xref>). In fact, the biodiversity of the Congo basin is generally understudied, with several new species being discovered every year (e.g. <xref ref-type="bibr" rid="B5157787">Colyn et al. 2010</xref>, <xref ref-type="bibr" rid="B5157801">Stanley et al. 2013</xref>).</p>
+      <p>Our knowledge on occurrence, ecology and taxonomy of shrews (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Soricidae</tp:taxon-name-part></tp:taxon-name>) in the Congo basin is currently incomplete (<xref ref-type="bibr" rid="B5040971">Mukinzi et al. 2005</xref>, <xref ref-type="bibr" rid="B5183143">Gambalemoke 2014</xref>, <xref ref-type="bibr" rid="B5157687">Jacquet et al. 2015</xref>). Shrews represent critical food web links via their role as predators of small vertebrates and invertebrates and as prey for several vertebrate predators (<xref ref-type="bibr" rid="B5162097">Churchfield et al. 2004</xref>). Apart from their importance in the ecosystem, shrews are also a suitable model taxon for evaluating biogeographic and historical hypotheses (<xref ref-type="bibr" rid="B5178308">Quérouil et al. 2003</xref>). Indeed, the central Congo basin (i.e. the lowland forests south of the Congo river) harbours less terrestrial vertebrate species than the northern part which is due to the smaller habitat area and isolated position of the central Congolian lowland forests (<xref ref-type="bibr" rid="B5157896">Van de Perre et al. 2019</xref>). As richness is limited by habitat area and isolation, this implies that diversity differences amongst Congolian lowland forests are mostly due to forest-associated taxa with limited dispersal capacities, such as shrews.</p>
+      <p>Therefore, this paper assembles shrew occurrences from three studies in the central Congo Basin (<xref ref-type="bibr" rid="B5040852">Gambalemoke et al. 2008b</xref>, <xref ref-type="bibr" rid="B5040899">Mukinzi 2014</xref>, <xref ref-type="bibr" rid="B5040872">Van de Perre et al. 2018</xref>) and includes the metadata of the captured specimens (morphological measurements, DNA and sampling details) which allows for the advancement of the knowledge on taxonomy and ecology of shrews in the central Congo basin.</p>
+    </sec>
+    <sec sec-type="General description">
+      <title>General description</title>
+      <sec sec-type="Purpose">
+        <title>Purpose</title>
+        <p>This paper assembles data collected in the framework of the PhD theses of Jean-Claude Mukinzi Itoka, Sylvestre Gambalemoke <tp:taxon-name>Mbalitini</tp:taxon-name> and Frederik Van de Perre. These three theses were executed at or in collaboration with the University of Kisangani, the University of Antwerp and the Royal Belgian Institute for Natural Sciences. Although the design and purpose of the three studies differ, the sampling design (the method in which shrews were collected) is equal across studies, which justifies the publication of the dataset as a whole.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Project description">
+      <title>Project description</title>
+      <sec sec-type="Study area description">
+        <title>Study area description</title>
+        <p>We compiled data from three studies in the region around Kisangani (<xref ref-type="bibr" rid="B5040852">Gambalemoke et al. 2008b</xref>, <xref ref-type="bibr" rid="B5040899">Mukinzi 2014</xref>, <xref ref-type="bibr" rid="B5040872">Van de Perre et al. 2018</xref>). The combined data represent 36 sampling sites in which sampling effort was equal and distributed within 6 localities in the Tshopo Province (Fig. <xref ref-type="fig" rid="F5122291">1</xref> and Table <xref ref-type="table" rid="T5415266">1</xref>). Sampling localities are separated by the Congo River and some of its major tributaries (Tshopo, Lindi, Lomami).</p>
+        <p>In the study area, forest disturbance is mainly in the form of slash-and-burn agricultural activities, followed by abandonment and secondary succession. Fallow land, the pioneer stage of forest recolonisation, contains dense thickets with few tall trees. Regrowth forests generally are dominated by <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Musanga">Musanga</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="cecropioides">cecropioides</tp:taxon-name-part></tp:taxon-name></italic> in the canopy. Old-growth, closed canopy forests represent a range of vegetation, including mixed, semi-deciduous forest, monodominant forest of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Gilbertiodendron">Gilbertiodendron</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="dewevrei">dewevrei</tp:taxon-name-part></tp:taxon-name></italic> (De Wild.) J. Leonard and monodominant forest of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Brachystegia">Brachystegia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="laurentii">laurentii</tp:taxon-name-part></tp:taxon-name></italic> (De Wild.) Hoyle. In some localities, sampling was also conducted in abandoned oil palm plantations. Apart from Yangambi (<xref ref-type="bibr" rid="B5040872">Van de Perre et al. 2018</xref>), quantitative data on tree composition of each sampling site is lacking.</p>
+        <p>Following the revised Köppen-Geiger classification (<xref ref-type="bibr" rid="B5040949">Peel et al. 2007</xref>), the climate of the region is Af-type tropical rainforest climate. At the Yangambi meteorological station, the annual precipitation is 1839.5 ± 205.7 mm (1980–2012) and average dry season length is 3.3 ± 1.3 months (a month is dry if it receives less than 100 mm of precipitation). Dry seasons occur in December–February and June-August. Temperatures are high and constant throughout the year, with a minimum of 24.2 ± 0.4°C in July and a maximum of 25.5 ± 0.6°C in March (<xref ref-type="bibr" rid="B5040796">Doetterl et al. 2015</xref>).</p>
+      </sec>
+      <sec sec-type="Funding">
+        <title>Funding</title>
+        <p>F.V.d.P. was supported by a Ph.D. fellowship from the Research Foundation – Flanders and by the Belgian Science Policy Office (COBIMFO Project; Congo Basin integrated monitoring for forest carbon mitigation and biodiversity; contract no. SD/AR/01A).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>In all localities, shrews were sampled using the paceline method, which involved placing 20 pitfall traps at 5 m intervals on transects (<xref ref-type="bibr" rid="B5040961">Nicolas et al. 2003</xref>). Pitfall traps consisted of non-baited buckets (10-litre, 30×30×23 cm) that were buried in the ground, with rims even with the ground surface. A plastic drift fence (100 m) was set to increase capture effectiveness by guiding shrews toward traps. Pitfall traps were maintained at their locations for 21 days and were checked daily. Only in Yoko, these pitfall lines were set for multiple sessions at the same location. In all other locations, trapping was only conducted once (Table <xref ref-type="table" rid="T5415266">1</xref>).</p>
+      </sec>
+      <sec sec-type="Quality control">
+        <title>Quality control</title>
+        <p>Species were identified based on external morphology and cranio-dental characteristics. In addition, species assignments were confirmed for several specimens of each species by molecular analysis (16s rRNA). Taxonomic nomenclature follows <xref ref-type="bibr" rid="B5182806">Hutterer (2005)</xref>. Specimens belonging to problematic species complexes that are in need of revision were provisionally labelled with cheironyms, pending formal description.</p>
+      </sec>
+      <sec sec-type="Step description">
+        <title>Step description</title>
+        <p>
+          <underline>Field measurements</underline>
+        </p>
+        <p>Sex and sexual condition were noted for each specimen:</p>
+        <p><list list-type="bullet">
+          <list-item>
+            <p>Males:<list list-type="bullet"><list-item><p>testes: abdominal</p></list-item><list-item><p>swelling of the epididymis: visible or not</p></list-item></list></p>
+          </list-item>
+          <list-item>
+            <p>Females:<list list-type="bullet"><list-item><p>vagina: closed or perforated</p></list-item><list-item><p>nipples: small or swollen, lactating</p></list-item><list-item><p>pregnant: yes or no</p></list-item></list></p>
+          </list-item>
+        </list></p>
+        <p>Following measurements were taken from those specimens that were completely intact:</p>
+        <p><list list-type="bullet">
+          <list-item>
+            <p>Weight (in grams)</p>
+          </list-item>
+          <list-item>
+            <p>Body length (head - tailbone, in mm)</p>
+          </list-item>
+          <list-item>
+            <p>Length of tail (tail length in mm of the point of curvature (anus) until the tip of the tail)</p>
+          </list-item>
+          <list-item>
+            <p>Size of the left hind leg (0.1 mm)</p>
+          </list-item>
+          <list-item>
+            <p>Size of the left ear (0.1 mm)</p>
+          </list-item>
+        </list></p>
+        <p>
+          <underline>Sample collection</underline>
+        </p>
+        <p>Samples of liver, spleen and kidney were stored in 96% alcohol and RNA-later (only kidney). Blood samples were transferred to filter paper. Ectoparasites were preserved in 70% alcohol. Carcasses of specimens were stored at the Laboratory of Ecology and Animal Resource Management (University of Kisangani) and the Zoologisches Forschungsmuseum Alexander Koenig (Bonn). Tissues samples are stored at the Evolutionary Ecology Lab (University of Antwerp) and at the Royal Belgian Institute of Natural Sciences (Brussels). All specimens are stored under their field number.</p>
+        <p>For the collection in Yangambi, pictures were taken of each specimen's ventral, dorsal and lateral sides.</p>
+        <p>
+          <underline>DNA Barcoding</underline>
+        </p>
+        <p>DNA analysis of 16S-rRNA was conducted for a selection of individuals. For PCR amplification, we used the primer pair 16Sar-L (forward: 5′-CGCCTGTTTATCAAAAACAT-3′, <xref ref-type="bibr" rid="B5044560">Palumbi et al. 1991</xref>) and 16S-Hm (reverse: 5′AGATCACGTAGGACTTTAAT-3′, <xref ref-type="bibr" rid="B5044548">Quérouil et al. 2001</xref>). PCR amplification was performed in 15-µl reaction mixtures that contained 7.5 µl Qiagen Multiplex, 0.2 µM of each primer, 1.5 µl DNA template and 5.4 µl sterile deionised water. The reaction mixtures were preheated at 95°C for 15 min, followed by 42 amplification cycles (95°C for 30 s, 46°C for 90 s and 72°C for 90 s), with a final 10 min extension at 72°C. The samples were purified and sequenced in both directions at VIB Genetic Service Facility (University of Antwerp). Sequences were aligned using the Geneious software (<xref ref-type="bibr" rid="B5044769">Drummond et al. 2015</xref>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>Lowland forests of the Kisangani, Isangi and Ubundu territories of the Tshopo province (former province Orientale), Democratic Republic of Congo.</p>
+      </sec>
+      <sec sec-type="Coordinates">
+        <title>Coordinates</title>
+        <p>0°N and 1°N Latitude; 24°E and 27°E Longitude.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>All species belong to the family <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Soricidae</tp:taxon-name-part></tp:taxon-name>, particularly the subfamily <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Crocidurinae</tp:taxon-name-part></tp:taxon-name>. The dataset contains species from 5 genera: <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Crocidura">Crocidura</tp:taxon-name-part></tp:taxon-name></italic> (14 species), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paracrocidura">Paracrocidura</tp:taxon-name-part></tp:taxon-name></italic> (1), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Scutisorex">Scutisorex</tp:taxon-name-part></tp:taxon-name></italic> (2), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Suncus">Suncus</tp:taxon-name-part></tp:taxon-name></italic> (1) and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sylvisorex">Sylvisorex</tp:taxon-name-part></tp:taxon-name></italic> (4) (Table <xref ref-type="table" rid="T5415300">2</xref>).</p>
+        <p>The dataset contains a number of specimens that likely belong to species new to science. Specimens morphologically resembling known species but found far outside the distribution of the known species have been identified using a cf. statement, others were named using a cheironym.</p>
+        <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Crocidura">Crocidura</tp:taxon-name-part></tp:taxon-name> sp1 yoko</italic> has easily distinguishable characteristics: small size (4-6 g), brownish on the back, greyish-brown on the belly, brownish tail that is completely glabrous, except from the base which is covered with few small vibrissae, the down side of the tail clear, almost white at the base and around the anus and its small paws are equally light coloured (Fig. <xref ref-type="fig" rid="F5415293">2</xref>). Its skull resembles that of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Crocidura">Crocidura</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="ludia">ludia</tp:taxon-name-part></tp:taxon-name></italic> but is smaller (Mukinzi-Itoka 2014).</p>
+        <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sylvisorex">Sylvisorex</tp:taxon-name-part></tp:taxon-name></italic> n.sp. is a small and rare species. Brown greyish on the back and silvery grey on the belly. It has a long tail covered with small hairs that grow longer and are more numerous towards the tip, forming a white brush. The tail is brown-black on top and slightly lighter on the bottom (Fig. <xref ref-type="fig" rid="F5415298">3</xref>). The species resembles <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Crocidura">Crocidura</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="polia">polia</tp:taxon-name-part></tp:taxon-name></italic> Hollister, 1916. However, the new species has little vibrissae on its tail while, in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Crocidura">C.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="polia">polia</tp:taxon-name-part></tp:taxon-name></italic>, half of the tail is covered with vibrissae (<xref ref-type="bibr" rid="B5040899">Mukinzi 2014</xref>).</p>
+        <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Scutisorex">Scutisorex</tp:taxon-name-part></tp:taxon-name> n. sp.</italic> (description in progress, J. Hulselmans pers. comm.) was found in RF Yoko and its distribution seems to be limited to the forest bloc between the Lomami and Lualaba.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <sec sec-type="Notes">
+        <title>Notes</title>
+        <p>8 June 2005 (Yelenge) to 7 August 2014 (Yangambi).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Collection data">
+      <title>Collection data</title>
+      <sec sec-type="Collection name">
+        <title>Collection name</title>
+        <p>Carcasses of specimens were stored at the Laboratory of Ecology and Animal Resource Management, University of Kisangani. Tissues samples are stored at the University of Antwerp and at the Royal Belgian Institute of Natural Sciences. For the collection of Yangambi, pictures were taken of each specimen's ventral, dorsal and lateral sides.</p>
+      </sec>
+      <sec sec-type="Specimen preservation method">
+        <title>Specimen preservation method</title>
+        <p>Samples of liver, spleen and kidney were stored in 96% alcohol and RNA-later (only kidney). Blood samples were transferred to filter paper. Ectoparasites were preserved in 70% alcohol. Specimen carcasses were stored in 70% alcohol.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Creative Commons Public Domain Waiver (CC-Zero)</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>African <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part></tp:taxon-name></p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="http://projects.biodiversity.be/africanmammalia">http://projects.biodiversity.be/africanmammalia</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>3</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Specimen list</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>.csv</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>35</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="http://projects.biodiversity.be/africanmammalia/search">http://projects.biodiversity.be/africanmammalia/search</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>The data can be downloaded from the online database, African <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part></tp:taxon-name>. Shrew specimens can be searched through the 'Search' or 'Taxa' tab.</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">Collection number</td>
+                  <td rowspan="1" colspan="1">Museum collection number</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Order</td>
+                  <td rowspan="1" colspan="1">Taxonomic rank</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Family</td>
+                  <td rowspan="1" colspan="1">Taxonomic rank</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Family author</td>
+                  <td rowspan="1" colspan="1">Author(s) and publication date of family</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Genus</td>
+                  <td rowspan="1" colspan="1">Taxonomic rank</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Genus author</td>
+                  <td rowspan="1" colspan="1">Author(s) and publication date of genus</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Species</td>
+                  <td rowspan="1" colspan="1">Taxonomic rank</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Species author</td>
+                  <td rowspan="1" colspan="1">Author(s) and publication date of species</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Subspecies</td>
+                  <td rowspan="1" colspan="1">Taxonomic rank</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Subspecies author</td>
+                  <td rowspan="1" colspan="1">Author(s) and publication date of subspecies</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Determinator</td>
+                  <td rowspan="1" colspan="1">Determinator of specimen</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Determination year</td>
+                  <td rowspan="1" colspan="1">Determination year</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Accuracy</td>
+                  <td rowspan="1" colspan="1">Accuracy of determination</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Field number</td>
+                  <td rowspan="1" colspan="1">Unique identifier of specimen</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Locality</td>
+                  <td rowspan="1" colspan="1">Sampling locality</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Altitude</td>
+                  <td rowspan="1" colspan="1">Altitude of sampling location in metres</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Altitude max</td>
+                  <td rowspan="1" colspan="1">Maximum altitude</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Country iso code</td>
+                  <td rowspan="1" colspan="1">CD</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Country</td>
+                  <td rowspan="1" colspan="1">Democratic Republic Congo</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Latitude</td>
+                  <td rowspan="1" colspan="1">Latitude of sampling locality in decimal degrees</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Longitude</td>
+                  <td rowspan="1" colspan="1">Longitude of sampling locality in decimal degrees</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Collector</td>
+                  <td rowspan="1" colspan="1">Collector of specimen</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Date collected</td>
+                  <td rowspan="1" colspan="1">Date of collection</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Date collected end</td>
+                  <td rowspan="1" colspan="1">End of data collection</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Sex</td>
+                  <td rowspan="1" colspan="1">m, Male - f, Female</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Sexual condition name</td>
+                  <td rowspan="1" colspan="1">Sexual condition, see above</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Sexual condition code</td>
+                  <td rowspan="1" colspan="1">Sexual condition code</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Age</td>
+                  <td rowspan="1" colspan="1">Age of specimen</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Weight</td>
+                  <td rowspan="1" colspan="1">Weight in gram</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Type</td>
+                  <td rowspan="1" colspan="1">Holotype, paratype or syntype</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Trap</td>
+                  <td rowspan="1" colspan="1">Type of trap used</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Available</td>
+                  <td rowspan="1" colspan="1">Whether the specimen is present in the collection</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Basis of record</td>
+                  <td rowspan="1" colspan="1">Preserved specimen or observation</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Tissues</td>
+                  <td rowspan="1" colspan="1">Whether tissue samples are available</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">url</td>
+                  <td rowspan="1" colspan="1">Link to the specimen information on African <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part></tp:taxon-name></td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+      <sec sec-type="Data set 2">
+        <title>Data set 2.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Sequences</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>.csv</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>11</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="http://projects.biodiversity.be/africanmammalia/search">http://projects.biodiversity.be/africanmammalia/search</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>Export of DNA sequences and metadata.</p>
+          <table-wrap id="DS2" orientation="portrait" position="anchor">
+            <label>Data set 2.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">Collection number</td>
+                  <td rowspan="1" colspan="1">Museum collection number</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Field number</td>
+                  <td rowspan="1" colspan="1">Field number</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Basis of record</td>
+                  <td rowspan="1" colspan="1">Preserved specimen or observation</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Family</td>
+                  <td rowspan="1" colspan="1">Family, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Soricidae</tp:taxon-name-part></tp:taxon-name></td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Genus</td>
+                  <td rowspan="1" colspan="1">Genus name</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Species</td>
+                  <td rowspan="1" colspan="1">Species name</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Subspecies</td>
+                  <td rowspan="1" colspan="1">Subspecies name</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Accession number</td>
+                  <td rowspan="1" colspan="1">Genbank accession number</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Sequence number</td>
+                  <td rowspan="1" colspan="1">Unique sequence code</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Sequence</td>
+                  <td rowspan="1" colspan="1">DNA sequence</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">url</td>
+                  <td rowspan="1" colspan="1">Link to the specimen information on African <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part></tp:taxon-name>.</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+      <sec sec-type="Data set 3">
+        <title>Data set 3.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Measurements</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>.csv</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>14</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="http://projects.biodiversity.be/africanmammalia/search">http://projects.biodiversity.be/africanmammalia/search</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>Export of morphological measurements and metadata.</p>
+          <table-wrap id="DS3" orientation="portrait" position="anchor">
+            <label>Data set 3.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">Collection number</td>
+                  <td rowspan="1" colspan="1">Museum collection number</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Field number</td>
+                  <td rowspan="1" colspan="1">Unique field code</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Basis of record</td>
+                  <td rowspan="1" colspan="1">Preserved specimen or observation</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Familiy</td>
+                  <td rowspan="1" colspan="1">Family, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Soricidae</tp:taxon-name-part></tp:taxon-name></td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Genus</td>
+                  <td rowspan="1" colspan="1">Genus name</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Species</td>
+                  <td rowspan="1" colspan="1">Species name</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Subspecies</td>
+                  <td rowspan="1" colspan="1">Subspecies name</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Sex</td>
+                  <td rowspan="1" colspan="1">Sex (Male or Female)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">hb</td>
+                  <td rowspan="1" colspan="1">Head-body length</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">tl</td>
+                  <td rowspan="1" colspan="1">Tail length</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">hf</td>
+                  <td rowspan="1" colspan="1">Hind foot length</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">el</td>
+                  <td rowspan="1" colspan="1">Ear length</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">m1-m25</td>
+                  <td rowspan="1" colspan="1">Craniometric measurement, description available on <ext-link ext-link-type="uri" xlink:href="http://projects.biodiversity.be/africanmammalia/about/data#measurements">http://projects.biodiversity.be/africanmammalia/about/data#measurements</ext-link></td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">url</td>
+                  <td rowspan="1" colspan="1">Link to the specimen information on African <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part></tp:taxon-name>.</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+    <sec sec-type="Additional information">
+      <title>Additional information</title>
+      <p><bold>Results communication</bold>:</p>
+      <p>Results of diversity analyses have already been published in peer-reviewed journals (in chronological order):</p>
+      <p><list list-type="bullet">
+        <list-item>
+          <p>
+            <xref ref-type="bibr" rid="B5040971">Mukinzi et al. (2005)</xref>
+          </p>
+        </list-item>
+        <list-item>
+          <p>
+            <xref ref-type="bibr" rid="B5040995">Gambalemoke et al. (2008a)</xref>
+          </p>
+        </list-item>
+        <list-item>
+          <p>
+            <xref ref-type="bibr" rid="B5040852">Gambalemoke et al. (2008b)</xref>
+          </p>
+        </list-item>
+        <list-item>
+          <p>
+            <xref ref-type="bibr" rid="B5040985">Mukinzi et al. (2009)</xref>
+          </p>
+        </list-item>
+        <list-item>
+          <p>
+            <xref ref-type="bibr" rid="B5040872">Van de Perre et al. (2018)</xref>
+          </p>
+        </list-item>
+      </list></p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>Fieldwork was carried out in collaboration with the Centre de Surveillance de la Biodiversité at the University of Kisangani. We thank Y. Mutafchiev, R. Mesibov, R. Hutterer, V. Nicolas, S. Solari, A. Balakirev and an anonymous reviewer for helpful comments on earlier versions of this manuscript.</p>
+    </ack>
+    <sec sec-type="Author contributions">
+      <title>Author contributions</title>
+      <p>Jean-Claude Mukinzi Itoka, Sylvestre Gambalemoke <tp:taxon-name>Mbalitini</tp:taxon-name> and Frederik Van de Perre are the main collectors of specimens and observations. Frederik Van de Perre sequenced the specimens. Julien Cigar developed the online database. Frederik Van de Perre wrote the first version of the manuscript and all co-authors contributed to the writing.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="B5157755">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Alroy</surname>
+              <given-names>John</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Effects of habitat disturbance on tropical forest biodiversity</article-title>
+          <source>Proceedings of the National Academy of Sciences</source>
+          <volume>114</volume>
+          <issue>23</issue>
+          <fpage>6056</fpage>
+          <lpage>6061</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.1611855114</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5162097">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Churchfield</surname>
+              <given-names>Sara</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barrière</surname>
+              <given-names>Patrick</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hutterer</surname>
+              <given-names>Rainer</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Colyn</surname>
+              <given-names>Marc</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <article-title>First results on the feeding ecology of sympatric shrews (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Insectivora</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Soricidae</tp:taxon-name-part></tp:taxon-name>) in the Tai National Park, Ivory Coast</article-title>
+          <source>Acta Theriologica</source>
+          <volume>49</volume>
+          <issue>1</issue>
+          <fpage>1</fpage>
+          <lpage>15</lpage>
+          <pub-id pub-id-type="doi">10.1007/bf03192504</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5157787">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Colyn</surname>
+              <given-names>Marc</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hulselmans</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sonet</surname>
+              <given-names>Gontran</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Oudé</surname>
+              <given-names>Pascal</given-names>
+            </name>
+            <name name-style="western">
+              <surname>De Winter</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Natta</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nagy</surname>
+              <given-names>Z. T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Verheyen</surname>
+              <given-names>Erik</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>Discovery of a new duiker species (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Bovidae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Cephalophinae</tp:taxon-name-part></tp:taxon-name>) from the Dahomey Gap, West Africa</article-title>
+          <source>Zootaxa</source>
+          <volume>2637</volume>
+          <issue>1</issue>
+          <fpage>1</fpage>
+          <lpage>30</lpage>
+          <pub-id pub-id-type="doi">10.11646/zootaxa.2637.1.1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5040796">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Doetterl</surname>
+              <given-names>Sebastian</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kearsley</surname>
+              <given-names>Elizabeth</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bauters</surname>
+              <given-names>Marijn</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hufkens</surname>
+              <given-names>Koen</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lisingo</surname>
+              <given-names>Janvier</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Baert</surname>
+              <given-names>Geert</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Verbeeck</surname>
+              <given-names>Hans</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Boeckx</surname>
+              <given-names>Pascal</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Aboveground vs. belowground carbon stocks in African tropical lowland rainforest: Drivers and implications.</article-title>
+          <source>PloS One</source>
+          <volume>10</volume>
+          <issue>11</issue>
+          <fpage>e0143209</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0143209</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5044769">
+        <element-citation publication-type="software">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Drummond</surname>
+              <given-names>A. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ashton</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Buxton</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chueng</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cooper</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Heled</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kearse</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Moir</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stones-Havas</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sturrock</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Thierer</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wilson</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Geneious</article-title>
+          <date-in-citation content-type="released">2015-05-22T00:00:00+03:00</date-in-citation>
+          <uri>http://www.geneious.com</uri>
+          <comment content-type="Version">7.1.9</comment>
+        </element-citation>
+      </ref>
+      <ref id="B5040995">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Gambalemoke</surname>
+              <given-names>Mbalitini</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mukinzi</surname>
+              <given-names>Itoka</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Amundala</surname>
+              <given-names>Drazo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Katuala</surname>
+              <given-names>Gatate-Banda</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kennis</surname>
+              <given-names>Jan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dudu</surname>
+              <given-names>Akaibe</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hutterer</surname>
+              <given-names>Rainer</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barrière</surname>
+              <given-names>Patrick</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Leirs</surname>
+              <given-names>Herwig</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Verheyen</surname>
+              <given-names>Erik</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Shrew trap efficiency: experience from primary forest, secondary forest, old fallow land and old palm plantation in the Congo River basin (Kisangani, Democratic Republic of Congo)</article-title>
+          <source>
+            <tp:taxon-name>
+              <tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part>
+            </tp:taxon-name>
+          </source>
+          <volume>72</volume>
+          <issue>3</issue>
+          <fpage>203</fpage>
+          <lpage>212</lpage>
+          <pub-id pub-id-type="doi">10.1515/mamm.2008.039</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5040852">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Gambalemoke</surname>
+              <given-names>Mbalitini</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mukinzi</surname>
+              <given-names>Itoka</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Amundala</surname>
+              <given-names>Drazo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gembu</surname>
+              <given-names>Tungaluna</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kaswera</surname>
+              <given-names>Kyamakya</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Katuala</surname>
+              <given-names>Gatate-Banda</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dudu</surname>
+              <given-names>Akaibe</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barrière</surname>
+              <given-names>Patrick</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Colyn</surname>
+              <given-names>Marc</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hutterer</surname>
+              <given-names>Rainer</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kennis</surname>
+              <given-names>Jan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Leirs</surname>
+              <given-names>Herwig</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vanlinden</surname>
+              <given-names>Bie</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Verheyen</surname>
+              <given-names>Erik</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Microgeographical distribution of shrews (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Soricidae</tp:taxon-name-part></tp:taxon-name>) in the Congo River basin (Kisangani, D.R. Congo)</article-title>
+          <source>
+            <tp:taxon-name>
+              <tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part>
+            </tp:taxon-name>
+          </source>
+          <volume>72</volume>
+          <issue>3</issue>
+          <fpage>213</fpage>
+          <lpage>222</lpage>
+          <uri>https://www.degruyter.com/view/j/mamm.2008.72.issue-3/mamm.2008.043/mamm.2008.043.xml</uri>
+          <pub-id pub-id-type="doi">10.1515/MAMM.2008.043</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5183143">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Gambalemoke</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <source>Phylogeographie et biodiversité des musaraignes (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Soricomorpha</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Crocidurinae</tp:taxon-name-part></tp:taxon-name>) en cuvette congolaise</source>
+          <publisher-name>University of Kisangani</publisher-name>
+          <publisher-loc>Kisangani, DRC</publisher-loc>
+          <size units="page">214</size>
+        </element-citation>
+      </ref>
+      <ref id="B5157738">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Gibson</surname>
+              <given-names>Luke</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lee</surname>
+              <given-names>Tien Ming</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Koh</surname>
+              <given-names>Lian Pin</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brook</surname>
+              <given-names>Barry W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gardner</surname>
+              <given-names>Toby A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barlow</surname>
+              <given-names>Jos</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Peres</surname>
+              <given-names>Carlos A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bradshaw</surname>
+              <given-names>Corey J. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Laurance</surname>
+              <given-names>William F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lovejoy</surname>
+              <given-names>Thomas E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sodhi</surname>
+              <given-names>Navjot S.</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>Primary forests are irreplaceable for sustaining tropical biodiversity</article-title>
+          <source>Nature</source>
+          <volume>478</volume>
+          <issue>7369</issue>
+          <fpage>378</fpage>
+          <lpage>381</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature10425</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5182806">
+        <element-citation publication-type="chapter">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Hutterer</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <chapter-title>Order <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Soricomorpha</tp:taxon-name-part></tp:taxon-name></chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Wilson</surname>
+              <given-names>D. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Reeder</surname>
+              <given-names>D. A.</given-names>
+            </name>
+          </person-group>
+          <source>Mammal species of the World: a taxonomic and geographic reference</source>
+          <edition>Third edition</edition>
+          <publisher-name>Johns Hopkins University Press</publisher-name>
+          <publisher-loc>Baltimore</publisher-loc>
+          <size units="page">220-311</size>
+        </element-citation>
+      </ref>
+      <ref id="B5157687">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Jacquet</surname>
+              <given-names>François</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Denys</surname>
+              <given-names>Christiane</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Verheyen</surname>
+              <given-names>Erik</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bryja</surname>
+              <given-names>Josef</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hutterer</surname>
+              <given-names>Rainer</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kerbis Peterhans</surname>
+              <given-names>Julian C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stanley</surname>
+              <given-names>William T</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Goodman</surname>
+              <given-names>Steven M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Couloux</surname>
+              <given-names>Arnaud</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Colyn</surname>
+              <given-names>Marc</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nicolas</surname>
+              <given-names>Violaine</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Phylogeography and evolutionary history of the <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Crocidura">Crocidura</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="olivieri">olivieri</tp:taxon-name-part></tp:taxon-name></italic> complex (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Soricomorpha</tp:taxon-name-part></tp:taxon-name>): from a forest origin to broad ecological expansion across Africa</article-title>
+          <source>BMC Evolutionary Biology</source>
+          <volume>15</volume>
+          <issue>1</issue>
+          <fpage>71</fpage>
+          <pub-id pub-id-type="doi">10.1186/s12862-015-0344-y</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5380994">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lewis</surname>
+              <given-names>Simon L</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <article-title>Tropical forests and the changing earth system</article-title>
+          <source>Philosophical Transactions of the Royal Society B: Biological Sciences</source>
+          <volume>361</volume>
+          <issue>1465</issue>
+          <fpage>195</fpage>
+          <lpage>210</lpage>
+          <pub-id pub-id-type="doi">10.1098/rstb.2005.1711</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5157776">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Malhi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Adu-Bredu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Asare</surname>
+              <given-names>R. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lewis</surname>
+              <given-names>S. L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mayaux</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>African rainforests: past, present and future</article-title>
+          <source>Philosophical Transactions of the Royal Society B: Biological Sciences</source>
+          <volume>368</volume>
+          <issue>1625</issue>
+          <fpage>20120312</fpage>
+          <pub-id pub-id-type="doi">10.1098/rstb.2012.0312</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5381004">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Mittermeier</surname>
+              <given-names>R. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mittermeier</surname>
+              <given-names>C. G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brooks</surname>
+              <given-names>T. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pilgrim</surname>
+              <given-names>J. D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Konstant</surname>
+              <given-names>W. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>da Fonseca</surname>
+              <given-names>G. A. B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kormos</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <year>2003</year>
+          <article-title>Wilderness and biodiversity conservation</article-title>
+          <source>Proceedings of the National Academy of Sciences</source>
+          <volume>100</volume>
+          <issue>18</issue>
+          <fpage>10309</fpage>
+          <lpage>10313</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.1732458100</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5040971">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Mukinzi</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Katuala</surname>
+              <given-names>P. G.B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kennis</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gambalemoke</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kadange</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dudu</surname>
+              <given-names>A. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Colyn</surname>
+              <given-names>Marc</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hutterer</surname>
+              <given-names>Rainer</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <article-title>Preliminary data on the biodiversity of rodents and insectivores (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part></tp:taxon-name>) in the periphery of Kisangani (DR Congo)</article-title>
+          <source>Belgian Journal of Zoology</source>
+          <volume>135</volume>
+          <fpage>133</fpage>
+          <lpage>140</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5040985">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Mukinzi</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hutterer</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barrière</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>A new species of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sylvisorex">Sylvisorex</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Soricidae</tp:taxon-name-part></tp:taxon-name>) from lowland forests north of Kisangani, Democratic Republic of Congo</article-title>
+          <source>
+            <tp:taxon-name>
+              <tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part>
+            </tp:taxon-name>
+          </source>
+          <volume>73</volume>
+          <fpage>130</fpage>
+          <lpage>134</lpage>
+          <pub-id pub-id-type="doi">10.1515/MAMM.2009.031</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5040899">
+        <element-citation publication-type="thesis">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Mukinzi</surname>
+              <given-names>Itoka</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <source>Biodiversité et ecologie des musaraignes (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Soricomorpha</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part></tp:taxon-name>) de la Reserve Forestière de Yoko et des milieux perturbés environnants (Ubundu, R.D. Congo)</source>
+          <publisher-name>University of Kisangani</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B5040961">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Nicolas</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barrière</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Colyn</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <year>2003</year>
+          <article-title>Impact of removal pitfall trapping on the community of shrews (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Soricidae</tp:taxon-name-part></tp:taxon-name>) in two African tropical forest sites</article-title>
+          <source>
+            <tp:taxon-name>
+              <tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part>
+            </tp:taxon-name>
+          </source>
+          <volume>67</volume>
+          <fpage>133</fpage>
+          <lpage>138</lpage>
+          <pub-id pub-id-type="doi">10.1515/mamm.2003.67.1.133</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5044560">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Palumbi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Martin</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Romano</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>McMillan</surname>
+              <given-names>W. O.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stice</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Grabowski</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <year>1991</year>
+          <article-title>The simple fool’s guide to PCR, version 2.0</article-title>
+          <source>Univ. of Hawaii</source>
+        </element-citation>
+      </ref>
+      <ref id="B5040949">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Peel</surname>
+              <given-names>M. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Finlayson</surname>
+              <given-names>B. L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>McMahon</surname>
+              <given-names>T. A.</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <article-title>Updated world map of the Köppen-Geiger climate classification</article-title>
+          <source>Hydrology and Earth System Sciences</source>
+          <volume>11</volume>
+          <issue>5</issue>
+          <fpage>1633</fpage>
+          <lpage>1644</lpage>
+          <pub-id pub-id-type="doi">10.5194/hess-11-1633-2007</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5157766">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Phillips</surname>
+              <given-names>Helen R. P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Newbold</surname>
+              <given-names>Tim</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Purvis</surname>
+              <given-names>Andy</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Land-use effects on local biodiversity in tropical forests vary between continents</article-title>
+          <source>Biodiversity and Conservation</source>
+          <volume>26</volume>
+          <issue>9</issue>
+          <fpage>2251</fpage>
+          <lpage>2270</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10531-017-1356-2</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5044548">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Quérouil</surname>
+              <given-names>Sophie</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hutterer</surname>
+              <given-names>Rainer</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barrière</surname>
+              <given-names>Patrick</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Colyn</surname>
+              <given-names>Marc</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kerbis Peterhans</surname>
+              <given-names>Julian C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Verheyen</surname>
+              <given-names>Erik</given-names>
+            </name>
+          </person-group>
+          <year>2001</year>
+          <article-title>Phylogeny and evolution of African shrews (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Soricidae</tp:taxon-name-part></tp:taxon-name>) inferred from 16s rRNA sequences</article-title>
+          <source>Molecular Phylogenetics and Evolution</source>
+          <volume>20</volume>
+          <issue>2</issue>
+          <fpage>185</fpage>
+          <lpage>195</lpage>
+          <pub-id pub-id-type="doi">10.1006/mpev.2001.0974</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5178308">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Quérouil</surname>
+              <given-names>Sophie</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Verheyen</surname>
+              <given-names>Erik</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dillen</surname>
+              <given-names>Martine</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Colyn</surname>
+              <given-names>Marc</given-names>
+            </name>
+          </person-group>
+          <year>2003</year>
+          <article-title>Patterns of diversification in two African forest shrews: <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sylvisorex">Sylvisorex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="johnstoni">johnstoni</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sylvisorex">Sylvisorex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="ollula">ollula</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Soricidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Insectivora</tp:taxon-name-part></tp:taxon-name>) in relation to paleo-environmental changes</article-title>
+          <source>Molecular Phylogenetics and Evolution</source>
+          <volume>28</volume>
+          <issue>1</issue>
+          <fpage>24</fpage>
+          <lpage>37</lpage>
+          <pub-id pub-id-type="doi">10.1016/s1055-7903(03)00027-7</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5157801">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Stanley</surname>
+              <given-names>W. T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Robbins</surname>
+              <given-names>L. W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Malekani</surname>
+              <given-names>J. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mbalitini</surname>
+              <given-names>S. G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Migurimu</surname>
+              <given-names>D. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mukinzi</surname>
+              <given-names>J. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hulselmans</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Prevot</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Verheyen</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hutterer</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Doty</surname>
+              <given-names>J. B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Monroe</surname>
+              <given-names>B. P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nakazawa</surname>
+              <given-names>Y. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Braden</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Carroll</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kerbis Peterhans</surname>
+              <given-names>J. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bates</surname>
+              <given-names>J. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Esselstyn</surname>
+              <given-names>J. A.</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>A new hero emerges: another exceptional mammalian spine and its potential adaptive significance</article-title>
+          <source>Biology Letters</source>
+          <volume>9</volume>
+          <issue>5</issue>
+          <fpage>20130486</fpage>
+          <pub-id pub-id-type="doi">10.1098/rsbl.2013.0486</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5040872">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Van de Perre</surname>
+              <given-names>Frederik</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Willig</surname>
+              <given-names>Michael R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Presley</surname>
+              <given-names>Steven J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Andemwana</surname>
+              <given-names>Frank Bapeamoni</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Beeckman</surname>
+              <given-names>Hans</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Boeckx</surname>
+              <given-names>Pascal</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cooleman</surname>
+              <given-names>Stijn</given-names>
+            </name>
+            <name name-style="western">
+              <surname>de Haan</surname>
+              <given-names>Myriam</given-names>
+            </name>
+            <name name-style="western">
+              <surname>De Kesel</surname>
+              <given-names>André</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dessein</surname>
+              <given-names>Steven</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Grootaert</surname>
+              <given-names>Patrick</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Huygens</surname>
+              <given-names>Dries</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Janssens</surname>
+              <given-names>Steven B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kearsley</surname>
+              <given-names>Elizabeth</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kabeya</surname>
+              <given-names>Patrick Mutombo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Leponce</surname>
+              <given-names>Maurice</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Van den Broeck</surname>
+              <given-names>Dries</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Verbeeck</surname>
+              <given-names>Hans</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Würsten</surname>
+              <given-names>Bart</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Leirs</surname>
+              <given-names>Herwig</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Verheyen</surname>
+              <given-names>Erik</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Reconciling biodiversity and carbon stock conservation in an Afrotropical forest landscape</article-title>
+          <source>Science Advances</source>
+          <volume>4</volume>
+          <issue>3</issue>
+          <fpage>eaar6603</fpage>
+          <pub-id pub-id-type="doi">10.1126/sciadv.aar6603</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5157896">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Van de Perre</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Leirs</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Verheyen</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Paleoclimate, area size, and degree of isolation explain regional biodiversity differences among terrestrial vertebrates within the Congo basin</article-title>
+          <source>Belgian Journal of Zoology</source>
+          <volume>149</volume>
+          <issue>1</issue>
+          <fpage>23</fpage>
+          <lpage>42</lpage>
+          <pub-id pub-id-type="doi">10.26496/bjz.2019.28</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F5122291" position="float" orientation="portrait">
+      <object-id content-type="arpha">A1786099-6F69-5BED-B5F5-DD03D3CF7A00</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e46948.figure1</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Sampling localities (dots) in the environs of Kisangani (see Table <xref ref-type="table" rid="T5415266">1</xref> for additional details). The city of Kisangani (square) is surrounded by a mosaic of agricultural land and regrowth forest (light green), while old-growth forests (dark green) can be found throughout the area. Blue lines represent the Congo River and its tributaries. The map on the left shows the situation of the study area within Africa.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e46948-g001.jpg" position="float" id="oo_327623.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/327623</uri>
+      </graphic>
+    </fig>
+    <fig id="F5415293" position="float" orientation="portrait">
+      <object-id content-type="arpha">9165E49D-2B2C-5211-B4FA-6D65FFA958A7</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e46948.figure2</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>Dorsal and ventral view of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Crocidura">Crocidura</tp:taxon-name-part></tp:taxon-name> sp1 yoko</italic> (LEGM458, <xref ref-type="bibr" rid="B5040899">Mukinzi 2014</xref>).</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e46948-g002.jpg" position="float" id="oo_352139.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/352139</uri>
+      </graphic>
+    </fig>
+    <fig id="F5415298" position="float" orientation="portrait">
+      <object-id content-type="arpha">0A710791-A75E-5FED-AEE1-6F871F3DF53C</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e46948.figure3</object-id>
+      <label>Figure 3.</label>
+      <caption>
+        <p>Dorsal and ventral view of body and skull of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sylvisorex">Sylvisorex</tp:taxon-name-part></tp:taxon-name></italic> n. sp. (LEGM1887, <xref ref-type="bibr" rid="B5040899">Mukinzi 2014</xref>).</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e46948-g003.jpg" position="float" id="oo_352140.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/352140</uri>
+      </graphic>
+    </fig>
+    <table-wrap id="T5415266" position="float" orientation="portrait">
+      <label>Table 1.</label>
+      <caption>
+        <p>List of sampling sites including locality (and initials of collectors), coordinates, forest type (OG-X: Mixed old-growth forest; OG-M: Monodominant old-growth forest; RF: Regrowth forest; FL: Fallow land; OP: abandoned oil palm plantation), number of trapping sessions, start date of trapping and range of field numbers under which specimens are stored.</p>
+      </caption>
+      <table rules="all" border="0" style="width:940px">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Locality</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Latitude</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Longitude</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Site</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Forest type</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Number of trapping sessions</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Start date</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Field numbers</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="3" colspan="1" style="vertical-align:top">Baliko<break/>(SG)</td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.6415</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">26.3639</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Baliko_FP</td>
+            <td rowspan="1" colspan="1">OG-X</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">23/09/2006</td>
+            <td rowspan="3" colspan="1" style="vertical-align:top">BA77-675</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.6415</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">26.3639</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Baliko_FS</td>
+            <td rowspan="1" colspan="1">RF</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">23/09/2006</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.6415</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">26.3639</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Baliko_JC</td>
+            <td rowspan="1" colspan="1">FL</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">23/09/2006</td>
+          </tr>
+          <tr>
+            <td rowspan="3" colspan="1" style="vertical-align:top">Djabir<break/>(JCM, SG)</td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.5192</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">24.1736</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Djabir_FP_L1</td>
+            <td rowspan="1" colspan="1">OG-X</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">13/10/2005</td>
+            <td rowspan="3" colspan="1" style="vertical-align:top">DJ1-567</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.5192</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">24.1736</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Djabir_FP_L2</td>
+            <td rowspan="1" colspan="1">OG-X</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">13/10/2005</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.5192</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">24.1736</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Djabir_FS</td>
+            <td rowspan="1" colspan="1">RF</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">13/10/2005</td>
+          </tr>
+          <tr>
+            <td rowspan="6" colspan="1" style="vertical-align:top">Masako<break/>(JCM, SG)</td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.6051</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">25.2565</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Masako_FP</td>
+            <td rowspan="1" colspan="1">OG-X</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">2/06/2005</td>
+            <td rowspan="2" colspan="1" style="vertical-align:top">R27985-28242</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.6051</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">25.2565</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Masako_FS</td>
+            <td rowspan="1" colspan="1">RF</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">2/06/2005</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.6051</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">25.2565</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Masako_FS_L1A</td>
+            <td rowspan="1" colspan="1">RF</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">12/03/2011</td>
+            <td rowspan="2" colspan="1" style="vertical-align:top">CRT3151-3520</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.6051</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">25.2565</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Masako_FS_L1C</td>
+            <td rowspan="1" colspan="1">RF</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">12/03/2011</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.6051</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">25.2565</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Masako_Gil_L1A</td>
+            <td rowspan="1" colspan="1">OG-M</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">27/03/2012</td>
+            <td rowspan="2" colspan="1" style="vertical-align:top">MSK1-362</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.6051</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">25.2565</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Masako_Gil_L1C</td>
+            <td rowspan="1" colspan="1">OG-M</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">27/03/2012</td>
+          </tr>
+          <tr>
+            <td rowspan="12" colspan="1" style="vertical-align:top">Yangambi<break/>(FVdP)</td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.8144</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">24.4937</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Yangambi_BRA1</td>
+            <td rowspan="1" colspan="1">OG-M</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">12/07/2015</td>
+            <td rowspan="12" colspan="1" style="vertical-align:top">COB2-1390</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.7966</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">24.4978</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Yangambi_GIL3</td>
+            <td rowspan="1" colspan="1">OG-M</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">8/05/2014</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.8081</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">24.5281</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Yangambi_GIL4</td>
+            <td rowspan="1" colspan="1">OG-M</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">21/06/2013</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.7894</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">24.5175</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Yangambi_JEU1</td>
+            <td rowspan="1" colspan="1">RF</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">20/06/2013</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.7949</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">24.4919</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Yangambi_JEU2</td>
+            <td rowspan="1" colspan="1">RF</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">7/05/2014</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.7967</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">24.4941</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Yangambi_JEU3</td>
+            <td rowspan="1" colspan="1">RF</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">13/07/2015</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.7931</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">24.4901</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Yangambi_JEU4</td>
+            <td rowspan="1" colspan="1">RF</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">16/07/2016</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.7921</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">24.4972</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Yangambi_JEU5</td>
+            <td rowspan="1" colspan="1">RF</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">17/07/2016</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.8135</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">24.5126</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Yangambi_MIX2</td>
+            <td rowspan="1" colspan="1">OG-X</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">16/07/2016</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.7805</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">24.5211</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Yangambi_MIX3</td>
+            <td rowspan="1" colspan="1">OG-X</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">20/06/2013</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.8144</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">24.4931</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Yangambi_MIX5</td>
+            <td rowspan="1" colspan="1">OG-X</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">12/07/2015</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.8026</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">24.4875</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Yangambi_MIX6</td>
+            <td rowspan="1" colspan="1">OG-X</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">7/05/2014</td>
+          </tr>
+          <tr>
+            <td rowspan="2" colspan="1" style="vertical-align:top">Yelenge<break/>(JCM)</td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.6387</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">25.0780</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Yelenge_FP</td>
+            <td rowspan="1" colspan="1">OG-X</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">6/03/2005</td>
+            <td rowspan="2" colspan="1" style="vertical-align:top">R27622-27981</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.6387</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">25.0780</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Yelenge_FS</td>
+            <td rowspan="1" colspan="1">RF</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">6/03/2005</td>
+          </tr>
+          <tr>
+            <td rowspan="13" colspan="1" style="vertical-align:top">Yoko (JCM)</td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.2940</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">25.2881</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Babogombe_FPG_L1</td>
+            <td rowspan="1" colspan="1">OG-M</td>
+            <td rowspan="1" colspan="1">5</td>
+            <td rowspan="1" colspan="1">21/04/2007</td>
+            <td rowspan="13" colspan="1" style="vertical-align:top">LEGM400-3017</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.2940</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">25.2881</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Babogombe_FPG_L2</td>
+            <td rowspan="1" colspan="1">OG-M</td>
+            <td rowspan="1" colspan="1">5</td>
+            <td rowspan="1" colspan="1">22/02/2007</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.2940</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">25.2881</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Babogombe_FP_L1</td>
+            <td rowspan="1" colspan="1">OG-X</td>
+            <td rowspan="1" colspan="1">8</td>
+            <td rowspan="1" colspan="1">14/12/2006</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.2940</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">25.2881</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Babogombe_FP_L2</td>
+            <td rowspan="1" colspan="1">OG-X</td>
+            <td rowspan="1" colspan="1">7</td>
+            <td rowspan="1" colspan="1">14/12/2006</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.2940</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">25.2881</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Babogombe_FP_L3</td>
+            <td rowspan="1" colspan="1">OG-X</td>
+            <td rowspan="1" colspan="1">9</td>
+            <td rowspan="1" colspan="1">21/04/2007</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.2940</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">25.2881</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Babogombe_FS_L1</td>
+            <td rowspan="1" colspan="1">RF</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">14/12/2006</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.2940</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">25.2881</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Babogombe_FS_L2</td>
+            <td rowspan="1" colspan="1">RF</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">14/12/2006</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.2940</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">25.2881</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Babogombe_JJ_L1</td>
+            <td rowspan="1" colspan="1">FL</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">15/12/2006</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.2940</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">25.2881</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Babogombe_JV_L1</td>
+            <td rowspan="1" colspan="1">FL</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">23/02/2007</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.2940</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">25.2881</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Babogombe_JV_L2</td>
+            <td rowspan="1" colspan="1">FL</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">15/12/2006</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.3234</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">25.2539</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Kisesa_JJ</td>
+            <td rowspan="1" colspan="1">FL</td>
+            <td rowspan="1" colspan="1">8</td>
+            <td rowspan="1" colspan="1">18/10/2007</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.3234</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">25.2539</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Kisesa_JV</td>
+            <td rowspan="1" colspan="1">FL</td>
+            <td rowspan="1" colspan="1">8</td>
+            <td rowspan="1" colspan="1">18/10/2007</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">0.3234</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">25.2539</named-content>
+            </td>
+            <td rowspan="1" colspan="1">Kisesa_VPS</td>
+            <td rowspan="1" colspan="1">OP</td>
+            <td rowspan="1" colspan="1">8</td>
+            <td rowspan="1" colspan="1">18/10/2007</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T5415300" position="float" orientation="portrait">
+      <label>Table 2.</label>
+      <caption>
+        <p>Number of specimens per species caught in each locality.</p>
+      </caption>
+      <table rules="all" border="1">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Species</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Djabir</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Yoko</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Yangambi</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Yelenge</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Masako</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Baliko</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Crocidura">Crocidura</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="caliginea">caliginea</tp:taxon-name-part></tp:taxon-name></italic> Hollister, 1916.</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">52</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">14</td>
+            <td rowspan="1" colspan="1">7</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Crocidura">Crocidura</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="crenata">crenata</tp:taxon-name-part></tp:taxon-name></italic> Brosset, Dubost &amp; Heim de Balsac, 1965.</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">9</td>
+            <td rowspan="1" colspan="1">5</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Crocidura">Crocidura</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="denti">denti</tp:taxon-name-part></tp:taxon-name></italic> Dollman, 1915.</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">104</td>
+            <td rowspan="1" colspan="1">8</td>
+            <td rowspan="1" colspan="1">25</td>
+            <td rowspan="1" colspan="1">11</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Crocidura">Crocidura</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="dolichura">dolichura</tp:taxon-name-part></tp:taxon-name></italic> Peters, 1876.</td>
+            <td rowspan="1" colspan="1">13</td>
+            <td rowspan="1" colspan="1">111</td>
+            <td rowspan="1" colspan="1">8</td>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1">5</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Crocidura">Crocidura</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="uncertainty-rank">cf.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="fuscomurina">fuscomurina</tp:taxon-name-part></tp:taxon-name></italic> Heuglin, 1865</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Crocidura">Crocidura</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="goliath">goliath</tp:taxon-name-part></tp:taxon-name></italic> Thomas, 1906.</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">10</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Crocidura">Crocidura</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="grassei">grassei</tp:taxon-name-part></tp:taxon-name></italic> Brosset, Dubost &amp; Heim de Balsac, 1965.</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">26</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Crocidura">Crocidura</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="latona">latona</tp:taxon-name-part></tp:taxon-name></italic> Hollister, 1916.</td>
+            <td rowspan="1" colspan="1">21</td>
+            <td rowspan="1" colspan="1">168</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">26</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Crocidura">Crocidura</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="littoralis">littoralis</tp:taxon-name-part></tp:taxon-name></italic> Heller, 1910.</td>
+            <td rowspan="1" colspan="1">27</td>
+            <td rowspan="1" colspan="1">24</td>
+            <td rowspan="1" colspan="1">153</td>
+            <td rowspan="1" colspan="1">44</td>
+            <td rowspan="1" colspan="1">21</td>
+            <td rowspan="1" colspan="1">4</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Crocidura">Crocidura</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="ludia">ludia</tp:taxon-name-part></tp:taxon-name></italic> Hollister, 1916.</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">1013</td>
+            <td rowspan="1" colspan="1">27</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">34</td>
+            <td rowspan="1" colspan="1">11</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Crocidura">Crocidura</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="uncertainty-rank">cf.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="maurisca">maurisca</tp:taxon-name-part></tp:taxon-name></italic> Thomas, 1904</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Crocidura">Crocidura</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="uncertainty-rank">cf.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="muricauda">muricauda</tp:taxon-name-part></tp:taxon-name></italic> Miller, 1900</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Crocidura">Crocidura</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="olivieri">olivieri</tp:taxon-name-part></tp:taxon-name></italic> Lesson, 1827.</td>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1">173</td>
+            <td rowspan="1" colspan="1">43</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">11</td>
+            <td rowspan="1" colspan="1">10</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Crocidura">Crocidura</tp:taxon-name-part></tp:taxon-name> yoko sp1</italic>
+            </td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">64</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paracrocidura">Paracrocidura</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="schoutedeni">schoutedeni</tp:taxon-name-part></tp:taxon-name></italic> Heim de Balsac, 1956.</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">47</td>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1">33</td>
+            <td rowspan="1" colspan="1">4</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Scutisorex">Scutisorex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="congicus">congicus</tp:taxon-name-part></tp:taxon-name></italic> Thomas, 1915.</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">22</td>
+            <td rowspan="1" colspan="1">6</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Scutisorex">Scutisorex</tp:taxon-name-part></tp:taxon-name></italic> n.sp.</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">75</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Suncus">Suncus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="uncertainty-rank">cf.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="remyi">remyi</tp:taxon-name-part></tp:taxon-name></italic> Brosset, Dubost &amp; Heim de Balsac, 1965.</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">27</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">5</td>
+            <td rowspan="1" colspan="1">5</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sylvisorex">Sylvisorex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="akaibei">akaibei</tp:taxon-name-part></tp:taxon-name></italic> Mukinzi, Hutterer &amp; Barriere, 2009.</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">27</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sylvisorex">Sylvisorex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="uncertainty-rank">cf.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="johnstoni">johnstoni</tp:taxon-name-part></tp:taxon-name></italic> Dobson, 1888.</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">12</td>
+            <td rowspan="1" colspan="1">5</td>
+            <td rowspan="1" colspan="1">16</td>
+            <td rowspan="1" colspan="1">14</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sylvisorex">Sylvisorex</tp:taxon-name-part></tp:taxon-name> nsp1</italic>
+            </td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">11</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sylvisorex">Sylvisorex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="uncertainty-rank">cf.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="ollula">ollula</tp:taxon-name-part></tp:taxon-name></italic> Thomas, 1913.</td>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1">275</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Unidentified specimens</td>
+            <td rowspan="1" colspan="1">14</td>
+            <td rowspan="1" colspan="1">15</td>
+            <td rowspan="1" colspan="1">9</td>
+            <td rowspan="1" colspan="1">26</td>
+            <td rowspan="1" colspan="1">8</td>
+            <td rowspan="1" colspan="1">3</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Total</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>94</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>2017</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>485</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>106</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>223</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>76</bold>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+  </floats-group>
+</article>

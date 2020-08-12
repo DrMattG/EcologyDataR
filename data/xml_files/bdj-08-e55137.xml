@@ -1,0 +1,3057 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.8.e55137</article-id>
+      <article-id pub-id-type="publisher-id">55137</article-id>
+      <article-id pub-id-type="manuscript">13729</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Animalia</subject>
+          <subject>Plecoptera</subject>
+          <subject>Arthropoda</subject>
+          <subject>Invertebrata</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Molecular biology</subject>
+          <subject>Aquatic biology</subject>
+          <subject>Zoology &amp; Animal Biology</subject>
+          <subject>Genetics</subject>
+          <subject>Systematics</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>Europe</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>The InBIO Barcoding Initiative Database: contribution to the knowledge on DNA barcodes of Iberian <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name></article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes">
+          <name name-style="western">
+            <surname>Ferreira</surname>
+            <given-names>Sonia</given-names>
+          </name>
+          <email xlink:type="simple">hiporame@gmail.com</email>
+          <uri content-type="orcid">https://orcid.org/0000-0002-6884-3966</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Tierno de Figueroa</surname>
+            <given-names>José Manuel</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Martins</surname>
+            <given-names>Filipa MS</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0003-4191-5031</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Verissimo</surname>
+            <given-names>Joana</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Quaglietta</surname>
+            <given-names>Lorenzo</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-9703-0171</uri>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Grosso-Silva</surname>
+            <given-names>José Manuel</given-names>
+          </name>
+          <xref ref-type="aff" rid="A5">5</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Lopes</surname>
+            <given-names>Pedro B</given-names>
+          </name>
+          <xref ref-type="aff" rid="A6">6</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Sousa</surname>
+            <given-names>Pedro</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-5859-9656</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Paupério</surname>
+            <given-names>Joana</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0003-2569-0768</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Fonseca</surname>
+            <given-names>Nuno A</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0003-4832-578X</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Beja</surname>
+            <given-names>Pedro</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0001-8164-0760</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">CIBIO-InBIO, Centro de Investigação em Biodiversidade e Recursos Genéticos, Universidade do Porto, Vairão, Portugal</addr-line>
+        <institution>CIBIO-InBIO, Centro de Investigação em Biodiversidade e Recursos Genéticos, Universidade do Porto</institution>
+        <addr-line content-type="city">Vairão</addr-line>
+        <country>Portugal</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">Universidad de Granada, Granada, Spain</addr-line>
+        <institution>Universidad de Granada</institution>
+        <addr-line content-type="city">Granada</addr-line>
+        <country>Spain</country>
+      </aff>
+      <aff id="A3">
+        <label>3</label>
+        <addr-line content-type="verbatim">Departamento de Biologia, Faculdade de Ciências, Universidade do Porto, Porto, Portugal</addr-line>
+        <institution>Departamento de Biologia, Faculdade de Ciências, Universidade do Porto</institution>
+        <addr-line content-type="city">Porto</addr-line>
+        <country>Portugal</country>
+      </aff>
+      <aff id="A4">
+        <label>4</label>
+        <addr-line content-type="verbatim">CIBIO-InBIO, Centro de Investigação em Biodiversidade e Recursos Genéticos, Instituto Superior de Agronomia, Lisboa, Portugal</addr-line>
+        <institution>CIBIO-InBIO, Centro de Investigação em Biodiversidade e Recursos Genéticos, Instituto Superior de Agronomia</institution>
+        <addr-line content-type="city">Lisboa</addr-line>
+        <country>Portugal</country>
+      </aff>
+      <aff id="A5">
+        <label>5</label>
+        <addr-line content-type="verbatim">Museu de História Natural e da Ciência da Universidade do Porto, Porto, Portugal</addr-line>
+        <institution>Museu de História Natural e da Ciência da Universidade do Porto</institution>
+        <addr-line content-type="city">Porto</addr-line>
+        <country>Portugal</country>
+      </aff>
+      <aff id="A6">
+        <label>6</label>
+        <addr-line content-type="verbatim">Rua do Torgal nº16, Trigais - Covilhã, 6215-295 Erada, Covilhã, Portugal</addr-line>
+        <institution>Rua do Torgal nº16, Trigais - Covilhã, 6215-295 Erada</institution>
+        <addr-line content-type="city">Covilhã</addr-line>
+        <country>Portugal</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Sonia Ferreira (<email xlink:type="simple">hiporame@gmail.com</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Benjamin Price</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2020</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>07</day>
+        <month>07</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>8</volume>
+      <elocation-id>e55137</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/8ABCF776-AD07-5C10-9BFF-0B381FE77ADC">8ABCF776-AD07-5C10-9BFF-0B381FE77ADC</uri>
+      <history>
+        <date date-type="received">
+          <day>05</day>
+          <month>06</month>
+          <year>2020</year>
+        </date>
+        <date date-type="accepted">
+          <day>03</day>
+          <month>07</month>
+          <year>2020</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Sonia Ferreira, José Manuel Tierno de Figueroa, Filipa MS Martins, Joana Verissimo, Lorenzo Quaglietta, José Manuel Grosso-Silva, Pedro B Lopes, Pedro Sousa, Joana Paupério, Nuno A Fonseca, Pedro Beja</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>The use of DNA barcoding allows unprecedented advances in biodiversity assessments and monitoring schemes of freshwater ecosystems; nevertheless, it requires the construction of comprehensive reference collections of DNA sequences that represent the existing biodiversity. <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name> are considered particularly good ecological indicators and one of the most endangered groups of insects, but very limited information on their DNA barcodes is available in public databases. Currently, less than 50% of the Iberian species are represented in BOLD.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>The InBIO Barcoding Initiative Database: contribution to the knowledge on DNA barcodes of Iberian <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name> dataset contains records of 71 specimens of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name>. All specimens have been morphologically identified to species level and belong to 29 species in total. This dataset contributes to the knowledge on the DNA barcodes and distribution of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name> from the Iberian Peninsula and it is one of the IBI database public releases that makes available genetic and distribution data for a series of taxa.</p>
+          <p>The species represented in this dataset correspond to an addition to public databases of 17 species and 21 BINs. Fifty-eight specimens were collected in Portugal and 18 in Spain during the period of 2004 to 2018. All specimens are deposited in the IBI collection at CIBIO, Research Center in Biodiversity and Genetic Resources and their DNA barcodes are publicly available in the Barcode of Life Data System (BOLD) online database. The distribution dataset can be freely accessed through the Global Biodiversity Information Facility (GBIF).</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>occurrence records</kwd>
+        <kwd>species distributions</kwd>
+        <kwd>continental Portugal</kwd>
+        <kwd>continental Spain</kwd>
+        <kwd>DNA barcode</kwd>
+        <kwd>COI</kwd>
+      </kwd-group>
+      <funding-group>
+        <funding-statement>This project has received funding from the European Union’s Horizon 2020 Research and Innovation programme under grant agreement No 668981 and by the project PORBIOTA— Portuguese E-Infrastructure for Information and Research on Biodiversity (POCI-01-0145-FEDER-022127), supported by Operational Thematic Program for Competitiveness and Internationalization (POCI), under the PORTUGAL 2020 Partnership Agreement, through the European Regional Development Fund (FEDER), by EDP Biodiversity Chair, and is part of the research conducted at the Long Term Research Site of Baixo Sabor, (LTER_EU_PT_002). FMSM was supported by FCT PhD grant SFRH/BD/104703/2014, and JV by FCT PhD grant SFRH/BD/133159/2017.</funding-statement>
+      </funding-group>
+      <counts>
+        <fig-count count="1"/>
+        <table-count count="1"/>
+        <ref-count count="32"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>In freshwater ecosystems, biodiversity assessments and monitoring schemes often require the identification of aquatic insect species (e.g. <xref ref-type="bibr" rid="B5752835">Pawlowski et al. 2018</xref>), an often challenging step, namely when only first instars are available in the sample or when studies are developed in regions poorly known from a faunistic perspective. In such cases, DNA barcoding provides a powerful tool to overcome these challenges by using a fragment of DNA to assign organisms to a species in a rapid and automated way (<xref ref-type="bibr" rid="B5752921">Hebert et al. 2003</xref>). Furthermore, environmental DNA (eDNA) is an emerging tool with great potential in conservation for monitoring past and present biodiversity, both in terrestrial and aquatic ecosystems (<xref ref-type="bibr" rid="B5911814">Thomsen and Willerslev 2015</xref>), especially when DNA barcode reference collections are used to link the obtained sequences to reliably identified organisms. The use of DNA barcoding requires the construction of comprehensive reference collections of DNA sequences that represent the existing biodiversity (<xref ref-type="bibr" rid="B5752952">Ferreira et al. 2018</xref>, <xref ref-type="bibr" rid="B5752941">Kress et al. 2005</xref>, <xref ref-type="bibr" rid="B5752931">Baird et al. 2011</xref>). In Europe, initiatives like the DNA barcoding projects, overseen by the Bavarian State Collection of Zoology in Munich (SNSB-ZSM—www.barcoding. zsm.de) through the “Barcoding Fauna Bavarica project” (BFB—www.faunabavarica.de—Haszprunar, 2009), launched in 2009 and by the “German Barcode of Life project” (GBOL—www.bolgermany.de), launched in 2012 (<xref ref-type="bibr" rid="B5911866">Geiger et al. 2016</xref>), has led to the public release of DNA barcode sequence data of over 300 species of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Ephemeroptera</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Trichoptera</tp:taxon-name-part></tp:taxon-name> (<xref ref-type="bibr" rid="B5911892">Morinière et al. 2017</xref>). As part of the Mediterranean Basin Biodiversity Hotspot, the Iberian Peninsula presents not only high numbers of species, as it also harbours species with limited distribution range, with many absent in central and northern Europe. The InBIO Barcoding Initiative (IBI) was established to overcome the striking scarcity of genetic data associated with the high biodiversity found in Portugal, focusing mainly on invertebrate taxa. Within the project, a special focus was afforded to aquatic insects, given their role as indicators in biodiversity assessments and monitoring schemes (e.g. <xref ref-type="bibr" rid="B5752971">Weisser and Siemann 2004</xref>, <xref ref-type="bibr" rid="B5752874">Weigand et al. 2019</xref>) and their relevance to food webs and ecosystem functioning. Furthermore, many insect species occurring in the Iberian Peninsula are not represented in public barcode databases (<xref ref-type="bibr" rid="B5752793">Ferreira et al. 2019</xref>, <xref ref-type="bibr" rid="B5752952">Ferreira et al. 2018</xref>, <xref ref-type="bibr" rid="B5752874">Weigand et al. 2019</xref>) and those that exist often show high evolutionary distances to the sequences obtained in this region which may indicate cryptic diversity (<xref ref-type="bibr" rid="B5752990">Corley et al. 2019b</xref>, <xref ref-type="bibr" rid="B5753004">Corley et al. 2019a</xref>, <xref ref-type="bibr" rid="B5752952">Ferreira et al. 2018</xref>). DNA barcoding can therefore be used as a first step in new species discovery and, as such, be used as a tool to help address the taxonomic impediment problem (e.g. <xref ref-type="bibr" rid="B5753014">Kekkonen and Hebert 2014</xref>).</p>
+      <p><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name> is a neopteran exopterygote insect order characterised by a combination of mainly primitive characters, whose phylogenetic relationships with other insect orders are not completely resolved (<xref ref-type="bibr" rid="B5752198">Zwick 2000</xref>). Except in a few cases, they are amphibiotic animals, with eggs and nymphs occurring in freshwaters and adults inhabiting the terrestrial environment. The commonly called stoneflies are worldwide distributed, except in Antarctica and many islands and are usually associated with unpolluted and well-preserved waters, mainly rivers and streams, where they play important roles as part of their biota (<xref ref-type="bibr" rid="B5751942">Fochetti and Tierno de Figueroa 2008</xref>, <xref ref-type="bibr" rid="B5752220">Stewart 2009</xref>) contributing to important ecosystem services (<xref ref-type="bibr" rid="B5751932">DeWalt and Ower 2019</xref>). Their high vulnerability to environmental changes have driven stoneflies to be one of the most endangered groups of insects (<xref ref-type="bibr" rid="B5751942">Fochetti and Tierno de Figueroa 2008</xref>, <xref ref-type="bibr" rid="B5752122">Tierno de Figueroa et al. 2010</xref>).</p>
+      <p>A total of 3718 <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name> species have been described all over the world and 489 of them have been reported in Europe (<xref ref-type="bibr" rid="B5751932">DeWalt and Ower 2019</xref>). The European stonefly fauna, included in seven of the 16 existing families, is one of the best studied worldwide, but the degree of knowledge differs between countries. Of the Western European countries, Portugal is one of the less studied from a taxonomic and faunistic point of view. Furthermore, less than 50% of the Iberian <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name> have their DNA barcode sequenced. Although the first reports of stonefly species in Portugal date from the mid-XIXth century (<xref ref-type="bibr" rid="B5751952">Pictet 1841</xref>), only a few new records were added for this country during the following hundred years by authors such as Pictet A.E., Albarda, Kempny or Navás (in: <xref ref-type="bibr" rid="B5751961">Sánchez-Ortega et al. 2002</xref>). It was not until 1963 when the first exhaustive work on faunistic and chorology of stoneflies from Portugal, particularly for those of Serra da Estrela, was published as part of a wider study on the Iberian Peninsula (<xref ref-type="bibr" rid="B5751884">Aubert 1963</xref>). Afterwards, the main contributions to the knowledge of the taxonomy and/or faunistics of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name> from Portugal were those of <xref ref-type="bibr" rid="B5752161">Zwick (1972)</xref>, <xref ref-type="bibr" rid="B5752151">Whytton da Terra (1979)</xref>, <xref ref-type="bibr" rid="B5751913">Berthélemy and Whytton da Terra (1980)</xref>, <xref ref-type="bibr" rid="B5752017">Tierno de Figueroa et al. (1998)</xref>, increasing the number of recorded species in the country from 25 to 53. More recently, the Portuguese fauna have been also studied in general publications for the Iberian Peninsula, such as those by <xref ref-type="bibr" rid="B5751961">Sánchez-Ortega et al. (2002)</xref> and <xref ref-type="bibr" rid="B5752027">Tierno de Figueroa et al. (2003)</xref>, <xref ref-type="bibr" rid="B5752070">Tierno de Figueroa et al. (2015)</xref>. According to <xref ref-type="bibr" rid="B5752142">Tierno de Figueroa et al. (2018)</xref>, a total of 56 species were recorded in continental Portugal, without considering <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Isoperla">Isoperla</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="luzoni">luzoni</tp:taxon-name-part></tp:taxon-name></italic> Tierno de Figueroa &amp; Vinçon, 2005, whose presence should be confirmed. No <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name> species has ever been collected in the Portuguese archipelagoes of Madeira and the Azores. Other areas from the Iberian Peninsula have been better studied regarding their <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name> fauna. Currently, 148 species of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name> have been reported in the Iberian Peninsula and Balearic Islands (two of them endemic from the Balearic Islands), 144 species in Spain and 43 in Andorra (<xref ref-type="bibr" rid="B5752142">Tierno de Figueroa et al. 2018</xref>).</p>
+      <p>The InBIO Barcoding Initiative Database: contribution to the knowledge on DNA barcodes of Iberian <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name> dataset contains records of 71 specimens of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name> collected in the Iberian Peninsula, all of which were morphologically identified to species level, for a total of 29 species. This is the first IBI dataset on freshwater insects available in the Global Biodiversity Information Facility (GBIF). All specimens have their DNA barcodes made publicly available in the Barcode of Life Data System (BOLD). Overall, this paper increases the available information on Iberian freshwater insects by sharing and publicly disseminating the distribution records and DNA barcodes of specimens from our reference collection.</p>
+    </sec>
+    <sec sec-type="General description">
+      <title>General description</title>
+      <sec sec-type="Purpose">
+        <title>Purpose</title>
+        <p>This dataset aims to provide a first contribution to an authoritative DNA barcode sequences library for Iberian <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name>. Such a library should facilitate DNA-based identification of species for both traditional molecular studies and DNA-metabarcoding studies, as well as freshwater biomonitoring programmes and constitute a valuable resource for taxonomic research on Iberian <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name> and its distribution.</p>
+      </sec>
+      <sec sec-type="Additional information">
+        <title>Additional information</title>
+        <p>A total of 71 specimens of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name> were collected and DNA barcoded (Suppl. materials <xref ref-type="supplementary-material" rid="S5751722">1</xref>, <xref ref-type="supplementary-material" rid="S5751733">2</xref>, <xref ref-type="supplementary-material" rid="S5751734">3</xref>). Sequences of cytochrome c oxidase I (COI) DNA barcodes are 658 bp long (Folmer region) with the exception of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leuctra">Leuctra</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="cazorlana">cazorlana</tp:taxon-name-part></tp:taxon-name></italic>, from which a fragment of 325 bp was obtained. From the 29 species barcoded, 18 (62%) from seven families are new to the DNA barcode database BOLD at the moment of the release (marked with quotation mark ('') in the Species field of Table <xref ref-type="table" rid="T5856838">1</xref>). Six additional BINs from these datasets are new to BOLD (marked with asterisk symbol (*) in BOLD BIN field of Table <xref ref-type="table" rid="T5856838">1</xref>). Therefore, this dataset represents a significant contribution to enhance the species and genetic diversity of Iberian <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name> fauna represented in public libraries.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Project description">
+      <title>Project description</title>
+      <sec sec-type="Title">
+        <title>Title</title>
+        <p>The name “The InBIO Barcoding Initiative Database: contribution to the knowledge on DNA barcodes of Iberian <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name>” refers to the first data release of DNA barcodes and distribution data of stoneflies within the InBIO Barcoding Initiative.</p>
+      </sec>
+      <sec sec-type="Personnel">
+        <title>Personnel</title>
+        <p>Pedro Beja (project coordinator), Nuno Fonseca (project chair), Sónia Ferreira (taxonomist and IBI manager), Joana Paupério (IBI manager), Pedro Sousa (project technician), Filipa MS Martins (PhD student), Joana Veríssimo (PhD student), all affiliated to CIBIO-InBIO and Jose Manuel Tierno de Figueroa (taxonomist), Department of Zoology, University of Granada.</p>
+      </sec>
+      <sec sec-type="Study area description">
+        <title>Study area description</title>
+        <p>Iberian Peninsula (Fig. <xref ref-type="fig" rid="F5827310">1</xref><underline>)</underline></p>
+      </sec>
+      <sec sec-type="Design description">
+        <title>Design description</title>
+        <p><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name> specimens were collected in the field, morphologically identified and DNA barcoded.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Study extent">
+        <title>Study extent</title>
+        <p>Iberian Peninsula.</p>
+      </sec>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>The studied material was collected in 40 different localities from the Iberian Peninsula (Suppl. materials <xref ref-type="supplementary-material" rid="S5751722">1</xref>, <xref ref-type="supplementary-material" rid="S5751733">2</xref>). Sampling was conducted between 2004 and 2018 on a wide range of habitats, using mainly hand-held sweep-nets or direct search for specimens. Collected specimens were examined in ethanol using a binocular stereoscopic microscope and they were stored in 96% ethanol for downstream molecular analysis. Morphological identification was performed using keys and descriptions from literature (mainly <xref ref-type="bibr" rid="B5752027">Tierno de Figueroa et al. 2003</xref> and <xref ref-type="bibr" rid="B5752070">Tierno de Figueroa et al. 2015</xref>)</p>
+        <p>DNA extraction and sequencing followed the general pipeline used in the InBIO Barcoding Initiative (<xref ref-type="bibr" rid="B5752952">Ferreira et al. 2018</xref>). Briefly, genomic DNA was extracted from leg tissue using EasySpin Genomic DNA Tissue Kit (Citomed) following the manufacturer’s protocol. The cytochrome c oxidase I (COI) barcoding fragment (Folmer region) was amplified as two overlapping fragments (LC and BH), using two sets of primers: LCO1490 (<xref ref-type="bibr" rid="B5753024">Folmer et al. 1994</xref>) + Ill_C_R (<xref ref-type="bibr" rid="B5753035">Shokralla et al. 2015</xref>) and Ill_B_F (<xref ref-type="bibr" rid="B5753035">Shokralla et al. 2015</xref>) + HCO2198 (<xref ref-type="bibr" rid="B5753024">Folmer et al. 1994</xref>), respectively. The partial COI mitochondrial gene (Folmer region) was then sequenced in a MiSeq benchtop system. OBITools (<ext-link ext-link-type="uri" xlink:href="https://git.metabarcoding.org/obitools/obitools">https://git.metabarcoding.org/obitools/obitools</ext-link>) was used to process the initial sequences which were then assembled into a single 658 bp fragment using Geneious 9.1.8. (<ext-link ext-link-type="uri" xlink:href="https://www.geneious.com/">https://www.geneious.com</ext-link>).</p>
+      </sec>
+      <sec sec-type="Quality control">
+        <title>Quality control</title>
+        <p>All DNA barcodes sequences were compared against the BOLD database and the 99 top hits were inspected in order to detect possible issues due to contamination or misidentifications. Prior submission to GBIF, data were checked for errors and inconsistencies with OpenRefine 3.2 (<ext-link ext-link-type="uri" xlink:href="http://openrefine.org/">http://openrefine.org</ext-link>).</p>
+      </sec>
+      <sec sec-type="Step description">
+        <title>Step description</title>
+        <p>Specimens were collected in 40 different localities of the Iberian Peninsula. Sampling was conducted from 2004 to 2018 and consisted of direct search of specimens on rocks and vegetation of streams and river margins and in the use of entomological nets to intercept specimens in flight. Specimens collected were stored in 96% ethanol. A tissue sample (leg) was removed, from which DNA was extracted and the COI DNA barcode fragment was sequenced. Data generated were submitted to BOLD, GenBank and GBIF.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>Iberian Peninsula</p>
+      </sec>
+      <sec sec-type="Coordinates">
+        <title>Coordinates</title>
+        <p>35.97 and 43.99 Latitude; 9.55 and 3.34 Longitude.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>This dataset is composed of data relating to 71 <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name> specimens. All specimens were determined to species level. Overall, 29 species are represented in the dataset. These species belong to 16 genera and seven families.</p>
+      </sec>
+      <sec sec-type="Taxa included">
+        <title>Taxa included</title>
+        <table-wrap id="taxonomic_coverage" position="anchor" orientation="portrait">
+          <table rules="all">
+            <thead>
+              <tr>
+                <th rowspan="1" colspan="1">Rank</th>
+                <th rowspan="1" colspan="1">Scientific Name</th>
+                <th rowspan="1" colspan="1">Common Name</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">kingdom</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="kingdom">Animalia</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1">Animals</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">phylum</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="phylum">Arthropoda</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1">Arthropods</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">class</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="class">Insecta</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1">Insects</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">order</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1">Stoneflies</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Capniidae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Chloroperlidae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Leuctridae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Nemouridae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Perlidae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Perlodidae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Taeniopterygidae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <p><bold>Data range:</bold> 2004-6-22 – 2018-5-19.</p>
+      <sec sec-type="Notes">
+        <title>Notes</title>
+        <p>The sampled material was collected in the period from 22 June 2004 to 19 May 2018</p>
+      </sec>
+    </sec>
+    <sec sec-type="Collection data">
+      <title>Collection data</title>
+      <sec sec-type="Collection name">
+        <title>Collection name</title>
+        <p>InBIO Barcoding Initiative</p>
+      </sec>
+      <sec sec-type="Collection identifier">
+        <title>Collection identifier</title>
+        <p>4ec2b246-f5fa-4b90-9a8d-ddafc2a3f970</p>
+      </sec>
+      <sec sec-type="Specimen preservation method">
+        <title>Specimen preservation method</title>
+        <p>“Alcohol”</p>
+      </sec>
+      <sec sec-type="Curatorial unit">
+        <title>Curatorial unit</title>
+        <p>Voucher tube - 1 to 71, DNA extractions - 1 to 71</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Creative Commons Public Domain Waiver (CC-Zero)</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>The InBIO Barcoding Initiative Database: contribution to the knowledge on DNA barcodes of Iberian <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name></p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5883/DS-IBIPP01">dx.doi.org/10.5883/DS-IBIPP01</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>1</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>DS-IBIPP01 IBI-<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name> 01</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>dwc, xml, tsv, fasta</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>35</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_SearchTerms?query=DS-IBIPP01">http://www.boldsystems.org/index.php/Public_SearchTerms?query=DS-IBIPP01</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>The InBIO Barcoding Initiative Database: contribution to the knowledge on DNA barcodes of Iberian <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name> dataset can be downloaded from the Public Data Portal of BOLD (<ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_SearchTerms?query=DS-IBIPP01">http://www.boldsystems.org/index.php/Public_SearchTerms?query=DS-IBIPP01</ext-link>) in different formats (data as dwc, xml or tsv and sequences as fasta files). Alternatively, BOLD users can log-in and access the dataset via the Workbench platform of BOLD. All records are also searchable within BOLD, using the search function of the database.</p>
+          <p>The InBIO Barcoding Initiative will continue sequencing Iberian <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name> for the BOLD database, with the ultimate goal of comprehensive coverage. The version of the dataset, at the time of writing the manuscript, is included as Suppl. materials <xref ref-type="supplementary-material" rid="S5751722">1</xref>, <xref ref-type="supplementary-material" rid="S5751733">2</xref>, <xref ref-type="supplementary-material" rid="S5751734">3</xref> in the form of one text file for record information as downloaded from BOLD, one text file with the collection and identification data in Darwin Core Standard format (downloaded from GBIF, <xref ref-type="bibr" rid="B5863887">Ferreira et al. 2020</xref>) and of a fasta file containing all sequences as downloaded from BOLD.</p>
+          <p>It should be noted that, as the BOLD database is not compliant with the Darwin Core Standard format, the Darwin Core formatted file (dwc) that can be downloaded from BOLD is not strictly Darwin Core formatted. For a proper Darwin Core formatted file, see <ext-link ext-link-type="uri" xlink:href="http://ipt.gbif.pt/ipt/resource?r=plecoptera_01&amp;amp;v=1.0">http://ipt.gbif.pt/ipt/resource?r=plecoptera_01&amp;amp;v=1.2</ext-link> (Suppl. material <xref ref-type="supplementary-material" rid="S5751733">2</xref>).</p>
+          <p>All data are available in the BioStudies database (<ext-link ext-link-type="uri" xlink:href="http://www.ebi.ac.uk/biostudies">http://www.ebi.ac.uk/biostudies</ext-link>) under accession number S-BSST402.</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">processid</td>
+                  <td rowspan="1" colspan="1">Unique identifier for the sample</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">sampleid</td>
+                  <td rowspan="1" colspan="1">Identifier for the sample being sequenced, i.e. IBI catalogue number at Cibio-InBIO, Porto University. Often identical to the "Field ID" or "Museum ID"</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">recordID</td>
+                  <td rowspan="1" colspan="1">Identifier for specimen assigned in the field</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">catalognum</td>
+                  <td rowspan="1" colspan="1">Catalogue number</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">fieldnum</td>
+                  <td rowspan="1" colspan="1">Field number</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">institution_storing</td>
+                  <td rowspan="1" colspan="1">The full name of the institution that has physical possession of the voucher specimen</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">bin_uri</td>
+                  <td rowspan="1" colspan="1">Barcode Index Number system identifier</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">phylum_taxID</td>
+                  <td rowspan="1" colspan="1">Phylum taxonomic numeric code</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">phylum_name</td>
+                  <td rowspan="1" colspan="1">Phylum name</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">class_taxID</td>
+                  <td rowspan="1" colspan="1">Class taxonomic numeric code</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">class_name</td>
+                  <td rowspan="1" colspan="1">Class name</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">order_taxID</td>
+                  <td rowspan="1" colspan="1">Order taxonomic numeric code</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">order_name</td>
+                  <td rowspan="1" colspan="1">Order name</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">family_taxID</td>
+                  <td rowspan="1" colspan="1">Family taxonomic numeric code</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">family_name</td>
+                  <td rowspan="1" colspan="1">Family name</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">subfamily_taxID</td>
+                  <td rowspan="1" colspan="1">Subfamily taxonomic numeric code</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">subfamily_name</td>
+                  <td rowspan="1" colspan="1">Subfamily name</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">genus_taxID</td>
+                  <td rowspan="1" colspan="1">Genus taxonomic numeric code</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">genus_name</td>
+                  <td rowspan="1" colspan="1">Genus name</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">species_taxID</td>
+                  <td rowspan="1" colspan="1">Species taxonomic numeric code</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">species_name</td>
+                  <td rowspan="1" colspan="1">Species name</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">identification_provided_by</td>
+                  <td rowspan="1" colspan="1">Full name of primary individual who assigned the specimen to a taxonomic group</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">identification_method</td>
+                  <td rowspan="1" colspan="1">The method used to identify the specimen</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">voucher_status</td>
+                  <td rowspan="1" colspan="1">Status of the specimen in an accessioning process (BOLD controlled vocabulary)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">tissue_type</td>
+                  <td rowspan="1" colspan="1">A brief description of the type of tissue or material analysed</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">collectors</td>
+                  <td rowspan="1" colspan="1">The full or abbreviated names of the individuals or team responsible for collecting the sample in the field</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">lifestage</td>
+                  <td rowspan="1" colspan="1">The age class or life stage of the specimen at the time of sampling</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">sex</td>
+                  <td rowspan="1" colspan="1">The sex of the specimen</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">lat</td>
+                  <td rowspan="1" colspan="1">The geographical latitude (in decimal degrees) of the geographic centre of a location</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">lon</td>
+                  <td rowspan="1" colspan="1">The geographical longitude (in decimal degrees) of the geographic centre of a location</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">elev</td>
+                  <td rowspan="1" colspan="1">Elevation of sampling site (in metres above sea level)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">country</td>
+                  <td rowspan="1" colspan="1">The full, unabbreviated name of the country where the organism was collected</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">province_state</td>
+                  <td rowspan="1" colspan="1">The full, unabbreviated name of the province ("Distrito" in Portugal) where the organism was collected</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">region</td>
+                  <td rowspan="1" colspan="1">The full, unabbreviated name of the municipality ("Concelho" in Portugal) where the organism was collected</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">exactsite</td>
+                  <td rowspan="1" colspan="1">Additional name/text description regarding the exact location of the collection site relative to a geographic relevant landmark</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>This project has received funding from the European Union’s Horizon 2020 Research and Innovation Programme under grant agreement No 668981 and by the project PORBIOTA— Portuguese E-Infrastructure for Information and Research on Biodiversity (POCI-01-0145-FEDER-022127), supported by Operational Thematic Program for Competitiveness and Internationalization (POCI), under the PORTUGAL 2020 Partnership Agreement, through the European Regional Development Fund (FEDER), by EDP Biodiversity Chair and is part of the research conducted at the Long Term Research Site of Baixo Sabor, (LTER_EU_PT_002). FMSM was supported by FCT PhD grant SFRH/BD/104703/2014 and JV by FCT PhD grant SFRH/BD/133159/2017.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B5751884">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Aubert</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <year>1963</year>
+          <article-title>Les Plécoptères de la Péninsule Iberique</article-title>
+          <source>EOS</source>
+          <volume>39</volume>
+          <fpage>23</fpage>
+          <lpage>107</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5752931">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Baird</surname>
+              <given-names>Donald J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pascoe</surname>
+              <given-names>Timothy J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zhou</surname>
+              <given-names>Xin</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hajibabaei</surname>
+              <given-names>Mehrdad</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>Building freshwater macroinvertebrate DNA-barcode libraries from reference collection material: formalin preservation vs specimen age</article-title>
+          <source>Journal of the North American Benthological Society</source>
+          <volume>30</volume>
+          <issue>1</issue>
+          <fpage>125</fpage>
+          <lpage>130</lpage>
+          <pub-id pub-id-type="doi">10.1899/10-013.1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5751913">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Berthélemy</surname>
+              <given-names>C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Whytton da Terra</surname>
+              <given-names>L. S.</given-names>
+            </name>
+          </person-group>
+          <year>1980</year>
+          <article-title>Plécoptères du Portugal (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Insecta</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Annales de Limnologie</source>
+          <volume>16</volume>
+          <issue>2</issue>
+          <fpage>159</fpage>
+          <lpage>182</lpage>
+          <pub-id pub-id-type="doi">10.1051/limn/1980018</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5753004">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Corley</surname>
+              <given-names>Martin FV</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Buchner</surname>
+              <given-names>P</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ferreira</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Depressaria">Depressaria</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="infernella">infernella</tp:taxon-name-part></tp:taxon-name></italic> Corley &amp; Buchner, a new Iberian species of the <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Depressaria">Depressaria</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="douglasella">douglasella</tp:taxon-name-part></tp:taxon-name></italic> group (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Lepidoptera</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Depressariidae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>SHILAP Revista de Lepidopterología</source>
+          <volume>47</volume>
+          <issue>186</issue>
+          <fpage>293</fpage>
+          <lpage>300</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5752990">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Corley</surname>
+              <given-names>Martin FV</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ferreira</surname>
+              <given-names>Sónia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mata</surname>
+              <given-names>Vanessa A.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ypsolopha">Ypsolopha</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="rhinolophi">rhinolophi</tp:taxon-name-part></tp:taxon-name></italic> sp. nov. (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Lepidoptera</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Ypsolophidae</tp:taxon-name-part></tp:taxon-name>), a new species from Portugal and France unveiled by bats</article-title>
+          <source>Zootaxa</source>
+          <volume>4609</volume>
+          <issue>3</issue>
+          <pub-id pub-id-type="doi">10.11646/zootaxa.4609.3.10</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5751932">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>DeWalt</surname>
+              <given-names>RE</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ower</surname>
+              <given-names>GD</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Ecosystem services, global diversity, and rate of stonefly species descriptions (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Insecta</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name>).</article-title>
+          <source>Insects</source>
+          <volume>10</volume>
+          <issue>4</issue>
+          <fpage>1</fpage>
+          <lpage>13</lpage>
+          <pub-id pub-id-type="doi">10.3390/insects10040099</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5752952">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ferreira</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fonseca</surname>
+              <given-names>N</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Egeter</surname>
+              <given-names>B</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Paupério</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Galhardo</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Oxelfelt</surname>
+              <given-names>F</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Aresta</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Martins</surname>
+              <given-names>FMS</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Archer</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Corley</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Penado</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pina</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jarman</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Beja</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <source>Deliverable 4.2 (D4.2): Protocol for building and organising reference collections of DNA sequences, EnvMetaGen project (Grant Agreement No 668981)</source>
+          <publisher-name>European Union Horizon 2020 Research &amp; Innovation Programme - H2020-WIDESPREAD-2014-2</publisher-name>
+          <size units="page">56</size>
+          <pub-id pub-id-type="doi">10.5281/zenodo.258689</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5752793">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ferreira</surname>
+              <given-names>Sónia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Paupério</surname>
+              <given-names>Joana</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Grosso-Silva</surname>
+              <given-names>José Manuel</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Beja</surname>
+              <given-names>Pedro</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>DNA barcoding of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sialis">Sialis</tp:taxon-name-part></tp:taxon-name></italic> sp. (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Megaloptera</tp:taxon-name-part></tp:taxon-name>) in Portugal: the missing tool to species identification</article-title>
+          <source>Aquatic Insects</source>
+          <volume>40</volume>
+          <issue>2</issue>
+          <fpage>173</fpage>
+          <lpage>184</lpage>
+          <pub-id pub-id-type="doi">10.1080/01650424.2019.1571612</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5863887">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ferreira</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tierno de Figueroa</surname>
+              <given-names>J. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Martins</surname>
+              <given-names>F. M. S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Veríssimo</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Quaglietta</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Grosso-Silva</surname>
+              <given-names>J. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lopes</surname>
+              <given-names>P. B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sousa</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Beja</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>The InBIO Barcoding Initiative Database: contribution to the knowledge on DNA barcodes of Iberian <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name>. v1.3. CIBIO (Research Center in Biodiversity and Genetic Resources) Portugal. Dataset/Occurrence.</article-title>
+          <uri>http://ipt.gbif.pt/ipt/resource?r=plecoptera_01&amp;v=1.3</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5751942">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Fochetti</surname>
+              <given-names>R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tierno de Figueroa</surname>
+              <given-names>JM</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Global diversity of stoneﬂies (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name>; <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Insecta</tp:taxon-name-part></tp:taxon-name>) in freshwater. In: Balian E, Martens K, Lévêque C, Segers H (eds), A global assessment of animal diversity in freshwater.</article-title>
+          <source>Hydrobiologia</source>
+          <volume>595</volume>
+          <fpage>365</fpage>
+          <lpage>377</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10750-007-9031-3</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5753024">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Folmer</surname>
+              <given-names>O</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Black</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hoeh</surname>
+              <given-names>W</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lutz</surname>
+              <given-names>R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vrijenhoek</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <year>1994</year>
+          <article-title>DNA primers for amplification of mitochondrial cytochrome c oxidase subunit I from diverse metazoan invertebrates.</article-title>
+          <source>Molecular Marine Biology and Biotechnology</source>
+          <volume>3</volume>
+          <issue>5</issue>
+          <fpage>294</fpage>
+          <lpage>9</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5911866">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Geiger</surname>
+              <given-names>M. F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Astrin</surname>
+              <given-names>J. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Borsch</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Burkhardt</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Grobe</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hand</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hausmann</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hohberg</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Krogmann</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lutz</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Monje</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Misof</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Morinière</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Müller</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pietsch</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Quandt</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rulik</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Scholler</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Traunspurger</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Haszprunar</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wägele</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>How to tackle the molecular species inventory for an industrialized nation—lessons from the first phase of the German Barcode of Life initiative GBOL (2012–2015)</article-title>
+          <source>Genome</source>
+          <volume>59</volume>
+          <issue>9</issue>
+          <fpage>661</fpage>
+          <lpage>670</lpage>
+          <pub-id pub-id-type="doi">10.1139/gen-2015-0185</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5752921">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Hebert</surname>
+              <given-names>Paul D. N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cywinska</surname>
+              <given-names>Alina</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ball</surname>
+              <given-names>Shelley L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>deWaard</surname>
+              <given-names>Jeremy R.</given-names>
+            </name>
+          </person-group>
+          <year>2003</year>
+          <article-title>Biological identifications through DNA barcodes</article-title>
+          <source>Proceedings of the Royal Society of London. Series B: Biological Sciences</source>
+          <volume>270</volume>
+          <issue>1512</issue>
+          <fpage>313</fpage>
+          <lpage>321</lpage>
+          <pub-id pub-id-type="doi">10.1098/rspb.2002.2218</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5753014">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kekkonen</surname>
+              <given-names>Mari</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hebert</surname>
+              <given-names>Paul D. N.</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>DNA barcode-based delineation of putative species: efficient start for taxonomic workflows</article-title>
+          <source>Molecular Ecology Resources</source>
+          <volume>14</volume>
+          <issue>4</issue>
+          <fpage>706</fpage>
+          <lpage>715</lpage>
+          <pub-id pub-id-type="doi">10.1111/1755-0998.12233</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5752941">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kress</surname>
+              <given-names>W. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wurdack</surname>
+              <given-names>K. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zimmer</surname>
+              <given-names>E. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Weigt</surname>
+              <given-names>L. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Janzen</surname>
+              <given-names>D. H.</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <article-title>Use of DNA barcodes to identify flowering plants</article-title>
+          <source>Proceedings of the National Academy of Sciences</source>
+          <volume>102</volume>
+          <issue>23</issue>
+          <fpage>8369</fpage>
+          <lpage>8374</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.0503123102</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5911892">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Morinière</surname>
+              <given-names>Jérôme</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hendrich</surname>
+              <given-names>Lars</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Balke</surname>
+              <given-names>Michael</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Beermann</surname>
+              <given-names>Arne J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>König</surname>
+              <given-names>Tobias</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hess</surname>
+              <given-names>Monika</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Koch</surname>
+              <given-names>Stefan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Müller</surname>
+              <given-names>Reinhard</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Leese</surname>
+              <given-names>Florian</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hebert</surname>
+              <given-names>Paul D. N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hausmann</surname>
+              <given-names>Axel</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schubart</surname>
+              <given-names>Christoph D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Haszprunar</surname>
+              <given-names>Gerhard</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>A DNA barcode library for Germany′s mayflies, stoneflies and caddisflies (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Ephemeroptera</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Trichoptera</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Molecular Ecology Resources</source>
+          <volume>17</volume>
+          <issue>6</issue>
+          <fpage>1293</fpage>
+          <lpage>1307</lpage>
+          <pub-id pub-id-type="doi">10.1111/1755-0998.12683</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5752835">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Pawlowski</surname>
+              <given-names>Jan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kelly-Quinn</surname>
+              <given-names>Mary</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Altermatt</surname>
+              <given-names>Florian</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Apothéloz-Perret-Gentil</surname>
+              <given-names>Laure</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Beja</surname>
+              <given-names>Pedro</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Boggero</surname>
+              <given-names>Angela</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Borja</surname>
+              <given-names>Angel</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bouchez</surname>
+              <given-names>Agnès</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cordier</surname>
+              <given-names>Tristan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Domaizon</surname>
+              <given-names>Isabelle</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Feio</surname>
+              <given-names>Maria Joao</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Filipe</surname>
+              <given-names>Ana Filipa</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fornaroli</surname>
+              <given-names>Riccardo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Graf</surname>
+              <given-names>Wolfram</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Herder</surname>
+              <given-names>Jelger</given-names>
+            </name>
+            <name name-style="western">
+              <surname>van der Hoorn</surname>
+              <given-names>Berry</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Iwan Jones</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sagova-Mareckova</surname>
+              <given-names>Marketa</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Moritz</surname>
+              <given-names>Christian</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barquín</surname>
+              <given-names>Jose</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Piggott</surname>
+              <given-names>Jeremy J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pinna</surname>
+              <given-names>Maurizio</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rimet</surname>
+              <given-names>Frederic</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rinkevich</surname>
+              <given-names>Buki</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sousa-Santos</surname>
+              <given-names>Carla</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Specchia</surname>
+              <given-names>Valeria</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Trobajo</surname>
+              <given-names>Rosa</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vasselon</surname>
+              <given-names>Valentin</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vitecek</surname>
+              <given-names>Simon</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zimmerman</surname>
+              <given-names>Jonas</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Weigand</surname>
+              <given-names>Alexander</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Leese</surname>
+              <given-names>Florian</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kahlert</surname>
+              <given-names>Maria</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>The future of biotic indices in the ecogenomic era: Integrating (e)DNA metabarcoding in biological assessment of aquatic ecosystems</article-title>
+          <source>Science of The Total Environment</source>
+          <fpage>1295</fpage>
+          <lpage>1310</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.scitotenv.2018.05.002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5751952">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Pictet</surname>
+              <given-names>FJ</given-names>
+            </name>
+          </person-group>
+          <year>1841</year>
+          <source>Histoire naturelle générale et particulière des insectes Néuroptères. famille des Perlides.</source>
+          <volume>1</volume>
+          <publisher-name>Kessman</publisher-name>
+          <publisher-loc>Genève</publisher-loc>
+          <size units="page">423</size>
+          <pub-id pub-id-type="doi">10.5962/bhl.title.124172</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5751961">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Sánchez-Ortega</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Alba-Tercedor</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tierno de Figueroa</surname>
+              <given-names>JM</given-names>
+            </name>
+          </person-group>
+          <year>2002</year>
+          <source>Lista faunística y bibliográfica de los Plecópteros de la Península Ibérica e Islas Baleares</source>
+          <volume>16</volume>
+          <publisher-name>Publicaciones de la Asociación española de Limnología</publisher-name>
+          <publisher-loc>Madrid</publisher-loc>
+          <size units="page">198</size>
+        </element-citation>
+      </ref>
+      <ref id="B5753035">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Shokralla</surname>
+              <given-names>Shadi</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Porter</surname>
+              <given-names>Teresita M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gibson</surname>
+              <given-names>Joel F</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dobosz</surname>
+              <given-names>Rafal</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Janzen</surname>
+              <given-names>Daniel H</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hallwachs</surname>
+              <given-names>Winnie</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Golding</surname>
+              <given-names>G Brian</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hajibabaei</surname>
+              <given-names>Mehrdad</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Massively parallel multiplex DNA sequencing for specimen identification using an Illumina MiSeq platform.</article-title>
+          <source>Scientific Reports</source>
+          <volume>5</volume>
+          <fpage>9687</fpage>
+          <pub-id pub-id-type="doi">10.1038/srep09687</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5752220">
+        <element-citation publication-type="chapter">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Stewart</surname>
+              <given-names>KW</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <chapter-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name>: Stoneflies</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Resh VH</surname>
+            </name>
+            <name name-style="western">
+              <surname>Cardé</surname>
+              <given-names>RT</given-names>
+            </name>
+          </person-group>
+          <source>Encyclopedia of Insects</source>
+          <publisher-name>Academic Press</publisher-name>
+          <publisher-loc>Burlington</publisher-loc>
+          <pub-id pub-id-type="doi">10.1016/B978-0-12-374144-8.00214-9</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5911814">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Thomsen</surname>
+              <given-names>Philip Francis</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Willerslev</surname>
+              <given-names>Eske</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Environmental DNA – An emerging tool in conservation for monitoring past and present biodiversity</article-title>
+          <source>Biological Conservation</source>
+          <volume>183</volume>
+          <fpage>4</fpage>
+          <lpage>18</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.biocon.2014.11.019</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5752017">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Tierno de Figueroa</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Luzón-Ortega</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sánchez-Ortega</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <year>1998</year>
+          <article-title>Contribución al conocimiento de la fauna de plecópteros (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Insecta</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name>) del Algarve (Sur de Portugal)</article-title>
+          <source>Boletim da Sociedade Portuguesa de Entomologia</source>
+          <volume>187</volume>
+          <issue>VII-5</issue>
+          <fpage>45</fpage>
+          <lpage>54</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5752027">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Tierno de Figueroa</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sánchez-Ortega</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Membiela-Iglesia</surname>
+              <given-names>P</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Luzón-Ortega</surname>
+              <given-names>JM</given-names>
+            </name>
+          </person-group>
+          <year>2003</year>
+          <source><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name>. Fauna Ibérica</source>
+          <publisher-name>CSIC</publisher-name>
+          <publisher-loc>Madrid</publisher-loc>
+          <size units="page">404</size>
+        </element-citation>
+      </ref>
+      <ref id="B5752122">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Tierno de Figueroa</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name name-style="western">
+              <surname>López-Rodríguez</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lorenz</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Graf</surname>
+              <given-names>W</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schmidt-Kloiber</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hering</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>Vulnerable taxa of European <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Insecta</tp:taxon-name-part></tp:taxon-name>) in the context of climate change</article-title>
+          <source>Biodiversity and Conservation</source>
+          <volume>19</volume>
+          <issue>5</issue>
+          <fpage>1269</fpage>
+          <lpage>1277</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10531-009-9753-9</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5752070">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Tierno de Figueroa</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Luzón-Ortega</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name name-style="western">
+              <surname>López-Rodríguez</surname>
+              <given-names>MJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Orden <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name>. In: IBERFAUNA. El Banco de Datos de la Fauna Ibérica. Museo Nacional de Ciencias Naturales (CSIC)</article-title>
+          <uri>http://iberfauna.mncn.csic.es/showficha.aspx?rank=J&amp;idtax=571</uri>
+          <date-in-citation content-type="access-date">2020-04-09T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5752142">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Tierno de Figueroa</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Luzón-Ortega</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name name-style="western">
+              <surname>López-Rodríguez</surname>
+              <given-names>MJ</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <source>Checklist de Fauna Ibérica. Orden <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Arthropoda</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Insecta</tp:taxon-name-part></tp:taxon-name>) en la península ibérica e islas Baleares (edición 2018). In: Documentos Fauna Ibérica, 5. Ramos MA &amp; Sánchez Ruiz M (Eds).</source>
+          <publisher-name>Museo Nacional de Ciencias Naturales, CSIC</publisher-name>
+          <publisher-loc>Madrid</publisher-loc>
+          <size units="page">15</size>
+        </element-citation>
+      </ref>
+      <ref id="B5752874">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Weigand</surname>
+              <given-names>Hannah</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Beermann</surname>
+              <given-names>Arne J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Čiampor</surname>
+              <given-names>Fedor</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Costa</surname>
+              <given-names>Filipe O.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Csabai</surname>
+              <given-names>Zoltán</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Duarte</surname>
+              <given-names>Sofia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Geiger</surname>
+              <given-names>Matthias F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Grabowski</surname>
+              <given-names>Michał</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rimet</surname>
+              <given-names>Frédéric</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rulik</surname>
+              <given-names>Björn</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Strand</surname>
+              <given-names>Malin</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Szucsich</surname>
+              <given-names>Nikolaus</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Weigand</surname>
+              <given-names>Alexander M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Willassen</surname>
+              <given-names>Endre</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wyler</surname>
+              <given-names>Sofia A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bouchez</surname>
+              <given-names>Agnès</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Borja</surname>
+              <given-names>Angel</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Čiamporová-Zaťovičová</surname>
+              <given-names>Zuzana</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ferreira</surname>
+              <given-names>Sónia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dijkstra</surname>
+              <given-names>KD</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Eisendle</surname>
+              <given-names>Ursula</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Freyhof</surname>
+              <given-names>Jörg</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gadawski</surname>
+              <given-names>Piotr</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Graf</surname>
+              <given-names>Wolfram</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Haegerbaeumer</surname>
+              <given-names>Arne</given-names>
+            </name>
+            <name name-style="western">
+              <surname>van der Hoorn</surname>
+              <given-names>Berry B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Japoshvili</surname>
+              <given-names>Bella</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Keresztes</surname>
+              <given-names>Lujza</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Keskin</surname>
+              <given-names>Emre</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Leese</surname>
+              <given-names>Florian</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Macher</surname>
+              <given-names>Jan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mamos</surname>
+              <given-names>Tomasz</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Paz</surname>
+              <given-names>Guy</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pešić</surname>
+              <given-names>Vladimir</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pfannkuchen</surname>
+              <given-names>Daniela Maric</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pfannkuchen</surname>
+              <given-names>Martin Andreas</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Price</surname>
+              <given-names>Benjamin W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rinkevich</surname>
+              <given-names>Buki</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Teixeira</surname>
+              <given-names>Marcos A. L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Várbíró</surname>
+              <given-names>Gábor</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ekrem</surname>
+              <given-names>Torbjørn</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>DNA barcode reference libraries for the monitoring of aquatic biota in Europe: Gap-analysis and recommendations for future work</article-title>
+          <source>
+            <ext-link ext-link-type="uri" xlink:href="https://www.sciencedirect.com/science/journal/00489697">Science of The Total Environment</ext-link>
+          </source>
+          <volume>678</volume>
+          <fpage>499</fpage>
+          <lpage>524</lpage>
+          <pub-id pub-id-type="doi">10.1101/576553</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5752971">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Weisser</surname>
+              <given-names>WW</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Siemann</surname>
+              <given-names>E</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <source>Insects and ecosystem function</source>
+          <publisher-name>Springer-Verlag</publisher-name>
+          <publisher-loc>Berlin</publisher-loc>
+          <size units="page">415</size>
+        </element-citation>
+      </ref>
+      <ref id="B5752151">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Whytton da Terra</surname>
+              <given-names>LS</given-names>
+            </name>
+          </person-group>
+          <year>1979</year>
+          <article-title>Notes on the Portuguese <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name></article-title>
+          <source>Gewässer und Abwässer</source>
+          <volume>64</volume>
+          <fpage>60</fpage>
+          <lpage>68</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5752161">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Zwick</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <year>1972</year>
+          <article-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name> (Ins.) aus dem Mittelmeergebiet, vor allem aus Portugal und Spanien</article-title>
+          <source>Ciência Biológica Ciência Biológica</source>
+          <volume>1</volume>
+          <fpage>7</fpage>
+          <lpage>17</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5752198">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Zwick</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <article-title>Phylogenetic system and zoogeography of the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name></article-title>
+          <source>Annual Review of Entomology</source>
+          <volume>45</volume>
+          <fpage>709</fpage>
+          <lpage>746</lpage>
+          <pub-id pub-id-type="doi">10.1146/annurev.ento.45.1.709</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F5827310" position="float" orientation="portrait">
+      <object-id content-type="arpha">11D5860E-2304-5DB4-B974-96CC77CE638A</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e55137.figure1</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Map of the localities where <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name> samples were collected in the Iberian Peninsula.</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e55137-g001.png" position="float" id="oo_412208.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/412208</uri>
+      </graphic>
+    </fig>
+    <table-wrap id="T5856838" position="float" orientation="portrait">
+      <label>Table 1.</label>
+      <caption>
+        <p>List of species that were collected and DNA barcoded within this project. " Indicate species new to BOLD database and * new BINs in BOLD database.</p>
+      </caption>
+      <table rules="all" border="0" style="width:744px">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">Family</td>
+            <td rowspan="1" colspan="1">Species</td>
+            <td rowspan="1" colspan="1">IBI code</td>
+            <td rowspan="1" colspan="1">BOLD code</td>
+            <td rowspan="1" colspan="1">BOLD BIN</td>
+            <td rowspan="1" colspan="1">GenBank</td>
+            <td rowspan="1" colspan="1">BOLD BIN</td>
+          </tr>
+          <tr>
+            <td rowspan="6" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Capniidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Capnioneura">Capnioneura</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="libera">libera</tp:taxon-name-part></tp:taxon-name></italic>"</td>
+            <td rowspan="1" colspan="1">INV00770</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP042-20">IBIPP042-20</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC8556">AEC8556</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407216">MT407216</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC8556">AEC8556</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="3" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Capnioneura">Capnioneura</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mitis">mitis</tp:taxon-name-part></tp:taxon-name></italic>"</td>
+            <td rowspan="1" colspan="1">INV02034</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP045-20">IBIPP045-20</ext-link>
+            </td>
+            <td rowspan="3" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC7867">AEC7867</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407200">MT407200</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC7867">AEC7867</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV02035</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP046-20">IBIPP046-20</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407211">MT407211</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC7867">AEC7867</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV02036</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP047-20">IBIPP047-20</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407226">MT407226</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC7867">AEC7867</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Capnioneura">Capnioneura</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="petitpierreae">petitpierreae</tp:taxon-name-part></tp:taxon-name></italic>"</td>
+            <td rowspan="1" colspan="1">INV03768</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP079-20">IBIPP079-20</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC8557">AEC8557</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407228">MT407228</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC8557">AEC8557</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Capnopsis">Capnopsis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="schilleri">schilleri</tp:taxon-name-part></tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">INV03770</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP009-19">IBIPP009-19</ext-link>
+            </td>
+            <td rowspan="1" colspan="1"><ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:ADV3255">ADV3255</ext-link>*</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407199">MT407199</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:ADV3255">ADV3255</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="8" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Chloroperlidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Chloroperla">Chloroperla</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="acuta">acuta</tp:taxon-name-part></tp:taxon-name></italic>"</td>
+            <td rowspan="1" colspan="1">INV06355</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP099-20">IBIPP099-20</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC9580">AEC9580</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407268">MT407268</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC9580">AEC9580</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="7" colspan="1">
+              <italic>
+                <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Siphonoperla">Siphonoperla</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="torrentium">torrentium</tp:taxon-name-part></tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">INV00467</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP002-19">IBIPP002-19</ext-link>
+            </td>
+            <td rowspan="7" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:ADT9540">ADT9540</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407262">MT407262</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:ADT9540">ADT9540</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV03933</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP011-19">IBIPP011-19</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407247">MT407247</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:ADT9540">ADT9540</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV03934</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP012-19">IBIPP012-19</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407207">MT407207</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:ADT9540">ADT9540</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV06330</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP095-20">IBIPP095-20</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407206">MT407206</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:ADT9540">ADT9540</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV06354</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP098-20">IBIPP098-20</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407244">MT407244</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:ADT9540">ADT9540</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV06359</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP100-20">IBIPP100-20</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407208">MT407208</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:ADT9540">ADT9540</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV06360</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP101-20">IBIPP101-20</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407265">MT407265</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:ADT9540">ADT9540</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="12" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Leuctridae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leuctra">Leuctra</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="andalusiaca">andalusiaca</tp:taxon-name-part></tp:taxon-name></italic>"</td>
+            <td rowspan="1" colspan="1">INV03771</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP010-19">IBIPP010-19</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:ACX4018">ACX4018</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407238">MT407238</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:ACX4018">ACX4018</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leuctra">Leuctra</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="cazorlana">cazorlana</tp:taxon-name-part></tp:taxon-name></italic>"</td>
+            <td rowspan="1" colspan="1">INV03775</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP082-20">IBIPP082-20</ext-link>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407235">MT407235</ext-link>
+            </td>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leuctra">Leuctra</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="franzi">franzi</tp:taxon-name-part></tp:taxon-name></italic>"</td>
+            <td rowspan="1" colspan="1">INV03718</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP076-20">IBIPP076-20</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC8030">AEC8030</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407220">MT407220</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC8030">AEC8030</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="2" colspan="1">
+              <italic>
+                <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leuctra">Leuctra</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="geniculata">geniculata</tp:taxon-name-part></tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">INV02033</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP007-19">IBIPP007-19</ext-link>
+            </td>
+            <td rowspan="2" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AAM4209">AAM4209</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407255">MT407255</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AAM4209">AAM4209</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV03720</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP008-19">IBIPP008-19</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407267">MT407267</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AAM4209">AAM4209</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="2" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leuctra">Leuctra</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="iliberis">iliberis</tp:taxon-name-part></tp:taxon-name></italic>"</td>
+            <td rowspan="1" colspan="1">INV02025</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP052-20">IBIPP052-20</ext-link>
+            </td>
+            <td rowspan="2" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC6493">AEC6493</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407209">MT407209</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC6493">AEC6493</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV02026</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP044-20">IBIPP044-20</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407261">MT407261</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC6493">AEC6493</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leuctra">Leuctra</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="major">major</tp:taxon-name-part></tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">INV03719</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP077-20">IBIPP077-20</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:ACB2856">ACB2856</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407242">MT407242</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:ACB2856">ACB2856</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="4" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Tyrrhenoleuctra">Tyrrhenoleuctra</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="lusohispanica">lusohispanica</tp:taxon-name-part></tp:taxon-name></italic>"</td>
+            <td rowspan="1" colspan="1">INV00350</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP017-19">IBIPP017-19</ext-link>
+            </td>
+            <td rowspan="4" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:ACD6989">ACD6989</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407256">MT407256</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:ACD6989">ACD6989</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV00405</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP023-19">IBIPP023-19</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407263">MT407263</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:ACD6989">ACD6989</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV02875</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP048-20">IBIPP048-20</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407257">MT407257</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:ACD6989">ACD6989</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV02926</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP074-20">IBIPP074-20</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407222">MT407222</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:ACD6989">ACD6989</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="16" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Nemouridae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Amphinemura">Amphinemura</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="guadarramensis">guadarramensis</tp:taxon-name-part></tp:taxon-name></italic>"</td>
+            <td rowspan="1" colspan="1">INV06379</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP102-20">IBIPP102-20</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC7918">AEC7918</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407223">MT407223</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC7918">AEC7918</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Amphinemura">Amphinemura</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="sulcicollis">sulcicollis</tp:taxon-name-part></tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">INV00773</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP004-19">IBIPP004-19</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AAM5074">AAM5074</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407202">MT407202</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AAM5074">AAM5074</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="2" colspan="1">
+              <italic>
+                <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Nemoura">Nemoura</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="cinerea">cinerea</tp:taxon-name-part></tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">INV00367</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP033-20">IBIPP033-20</ext-link>
+            </td>
+            <td rowspan="2" colspan="1"><ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:ADS8217">ADS8217</ext-link>*</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407251">MT407251</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:ADS8217">ADS8217</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV00368</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP001-19">IBIPP001-19</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407266">MT407266</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:ADS8217">ADS8217</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="9" colspan="1">
+              <italic>
+                <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Nemoura">Nemoura</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="lacustris">lacustris</tp:taxon-name-part></tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">INV00389</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP020-19">IBIPP020-19</ext-link>
+            </td>
+            <td rowspan="2" colspan="1"><ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEB8934">AEB8934</ext-link>*</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407258">MT407258</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEB8934">AEB8934</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV00392</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP021-19">IBIPP021-19</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407215">MT407215</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEB8934">AEB8934</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV00345</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP016-19">IBIPP016-19</ext-link>
+            </td>
+            <td rowspan="6" colspan="1"><ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEB9369">AEB9369</ext-link>*</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407225">MT407225</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEB9369">AEB9369</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV00382</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP018-19">IBIPP018-19</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407224">MT407224</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEB9369">AEB9369</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV00385</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP019-19">IBIPP019-19</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407214">MT407214</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEB9369">AEB9369</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV00454</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP024-19">IBIPP024-19</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407212">MT407212</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEB9369">AEB9369</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV04847</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP037-20">IBIPP037-20</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407250">MT407250</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEB9369">AEB9369</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV06416</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP103-20">IBIPP103-20</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407264">MT407264</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEB9369">AEB9369</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV00404</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP022-19">IBIPP022-19</ext-link>
+            </td>
+            <td rowspan="1" colspan="1"><ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC1305">AEC1305</ext-link>*</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407237">MT407237</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC1305">AEC1305</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Protonemura">Protonemura</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="alcazaba">alcazaba</tp:taxon-name-part></tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">INV02028</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP067-20">IBIPP067-20</ext-link>
+            </td>
+            <td rowspan="1" colspan="1"><ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC7157">AEC7157</ext-link>*</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407227">MT407227</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC7157">AEC7157</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="2" colspan="1">
+              <italic>
+                <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Protonemura">Protonemura</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="meyeri">meyeri</tp:taxon-name-part></tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">INV02031</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP005-19">IBIPP005-19</ext-link>
+            </td>
+            <td rowspan="2" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:ADS3277">ADS3277</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407253">MT407253</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:ADS3277">ADS3277</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV02032</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP006-19">IBIPP006-19</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407252">MT407252</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:ADS3277">ADS3277</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="8" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Perlidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eoperla">Eoperla</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="ochracea">ochracea</tp:taxon-name-part></tp:taxon-name></italic>"</td>
+            <td rowspan="1" colspan="1">INV02021</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP043-20">IBIPP043-20</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC9593">AEC9593</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407249">MT407249</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC9593">AEC9593</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="5" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Perla">Perla</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="madritensis">madritensis</tp:taxon-name-part></tp:taxon-name></italic>"</td>
+            <td rowspan="1" colspan="1">INV00640</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP026-19">IBIPP026-19</ext-link>
+            </td>
+            <td rowspan="5" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEB9929">AEB9929</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407260">MT407260</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEB9929">AEB9929</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV00677</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP027-19">IBIPP027-19</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407245">MT407245</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEB9929">AEB9929</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV00688</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP028-19">IBIPP028-19</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407205">MT407205</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEB9929">AEB9929</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV00764</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP039-20">IBIPP039-20</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407233">MT407233</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEB9929">AEB9929</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV05226</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP038-20">IBIPP038-20</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407232">MT407232</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEB9929">AEB9929</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="2" colspan="1">
+              <italic>
+                <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Perla">Perla</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="marginata">marginata</tp:taxon-name-part></tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">INV04280</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP013-19">IBIPP013-19</ext-link>
+            </td>
+            <td rowspan="2" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AAL2357">AAL2357</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407210">MT407210</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AAL2357">AAL2357</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV04281</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP014-19">IBIPP014-19</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407221">MT407221</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AAL2357">AAL2357</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="19" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Perlodidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="3" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Guadalgenus">Guadalgenus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="franzi">franzi</tp:taxon-name-part></tp:taxon-name></italic>"</td>
+            <td rowspan="1" colspan="1">INV00344</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP015-19">IBIPP015-19</ext-link>
+            </td>
+            <td rowspan="3" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEB8450">AEB8450</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407248">MT407248</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEB8450">AEB8450</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV00355</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP055-20">IBIPP055-20</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407230">MT407230</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEB8450">AEB8450</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV00358</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP032-20">IBIPP032-20</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407269">MT407269</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEB8450">AEB8450</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="3" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hemimelaena">Hemimelaena</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="flaviventris">flaviventris</tp:taxon-name-part></tp:taxon-name></italic>"</td>
+            <td rowspan="1" colspan="1">INV00507</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP025-19">IBIPP025-19</ext-link>
+            </td>
+            <td rowspan="3" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC1314">AEC1314</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407236">MT407236</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC1314">AEC1314</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV00766</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP040-20">IBIPP040-20</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407243">MT407243</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC1314">AEC1314</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV02925</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP031-19">IBIPP031-19</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407218">MT407218</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC1314">AEC1314</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="2" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Isoperla">Isoperla</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="bipartita">bipartita</tp:taxon-name-part></tp:taxon-name></italic>"</td>
+            <td rowspan="1" colspan="1">INV00828</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP029-19">IBIPP029-19</ext-link>
+            </td>
+            <td rowspan="2" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC0487">AEC0487</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407203">MT407203</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC0487">AEC0487</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV00850</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP030-19">IBIPP030-19</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407231">MT407231</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC0487">AEC0487</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="10" colspan="1">
+              <italic>
+                <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Isoperla">Isoperla</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="grammatica">grammatica</tp:taxon-name-part></tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">INV00183</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP053-20">IBIPP053-20</ext-link>
+            </td>
+            <td rowspan="10" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC9627">AEC9627</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407254">MT407254</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC9627">AEC9627</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV00479</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP034-20">IBIPP034-20</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407240">MT407240</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC9627">AEC9627</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV00500</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP003-19">IBIPP003-19</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407213">MT407213</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC9627">AEC9627</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV00548</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP035-20">IBIPP035-20</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407234">MT407234</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC9627">AEC9627</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV00767</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP058-20">IBIPP058-20</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407204">MT407204</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC9627">AEC9627</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV00768</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP059-20">IBIPP059-20</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407219">MT407219</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC9627">AEC9627</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV03931</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP084-20">IBIPP084-20</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407201">MT407201</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC9627">AEC9627</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV03932</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP085-20">IBIPP085-20</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407246">MT407246</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC9627">AEC9627</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV04831</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP036-20">IBIPP036-20</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407217">MT407217</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC9627">AEC9627</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">INV07241</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP104-20">IBIPP104-20</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407229">MT407229</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC9627">AEC9627</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Isoperla">Isoperla</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pallida">pallida</tp:taxon-name-part></tp:taxon-name></italic>"</td>
+            <td rowspan="1" colspan="1">INV03772</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP050-20">IBIPP050-20</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AED0411">AED0411</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407259">MT407259</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AED0411">AED0411</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="2" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Taeniopterygidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Brachyptera">Brachyptera</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="auberti">auberti</tp:taxon-name-part></tp:taxon-name></italic>"</td>
+            <td rowspan="1" colspan="1">INV04837</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP092-20">IBIPP092-20</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC8527">AEC8527</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407241">MT407241</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC8527">AEC8527</ext-link>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Rhabdiopteryx">Rhabdiopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="thienemanni">thienemanni</tp:taxon-name-part></tp:taxon-name></italic>"</td>
+            <td rowspan="1" colspan="1">INV03773</td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://www.boldsystems.org/index.php/Public_RecordView?processid=IBIPP051-20">IBIPP051-20</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC7722">AEC7722</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MT407239">MT407239</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">
+              <ext-link ext-link-type="uri" xlink:href="http://boldsystems.org/index.php/Public_BarcodeCluster?clusteruri=BOLD:AEC7722">AEC7722</ext-link>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <supplementary-material id="S5751722" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">BA2C0392-35B7-5E62-AE99-20D07837AA3E</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e55137.suppl1</object-id>
+      <label>Supplementary material 1</label>
+      <caption>
+        <p>IBI-<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name> 01 library - Specimen details</p>
+      </caption>
+      <statement content-type="dataType">
+        <label>Data type</label>
+        <p>Record information - specimen data</p>
+      </statement>
+      <statement content-type="notes">
+        <label>Brief description</label>
+        <p>The file includes information about all records in BOLD for the IBI-<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name> 01 library. It contains collection and identification data. The data are as downloaded from BOLD, without further processing.</p>
+      </statement>
+      <p>File: oo_417920.txt</p>
+      <media xlink:href="bdj-08-e55137-s001.txt" mimetype="txt file" mime-subtype="txt" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/417920</uri>
+      </media>
+      <attrib specific-use="authors">Sonia Ferreira, Jose Manuel Tierno de Figueroa, Lorenzo Quaglietta, José Manuel Grosso-Silva, Pedro B Lopes, Pedro Sousa, Pedro Beja</attrib>
+    </supplementary-material>
+    <supplementary-material id="S5751733" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">4807D8D9-D2DC-5F26-8E15-FE051964A7EB</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e55137.suppl2</object-id>
+      <label>Supplementary material 2</label>
+      <caption>
+        <p>IBI-<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name> 01 library - Specimen details - Darwin Core Standard<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3897/BDJ.8.e49985.suppl3"> </ext-link></p>
+      </caption>
+      <statement content-type="dataType">
+        <label>Data type</label>
+        <p>Record information - specimen data in Darwin Core Standard format</p>
+      </statement>
+      <statement content-type="notes">
+        <label>Brief description</label>
+        <p>The file includes information about all records in BOLD for the IBI-<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name> 01 library. It contains collection and identification data. The data are downloaded from GBIF, without further processing.</p>
+      </statement>
+      <p>File: oo_417919.txt</p>
+      <media xlink:href="bdj-08-e55137-s002.txt" mimetype="txt file" mime-subtype="txt" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/417919</uri>
+      </media>
+      <attrib specific-use="authors">Sonia Ferreira, Jose Manuel Tierno de Figueroa, Filipa Martins, Joana Veríssimo, Pedro Sousa, Pedro Beja</attrib>
+    </supplementary-material>
+    <supplementary-material id="S5751734" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">2A18AAB5-E066-5134-BEB0-88F1A3729241</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e55137.suppl3</object-id>
+      <label>Supplementary material 3</label>
+      <caption>
+        <p>IBI-<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Plecoptera</tp:taxon-name-part></tp:taxon-name> 01 library - DNA sequences</p>
+      </caption>
+      <statement content-type="dataType">
+        <label>Data type</label>
+        <p>Genomic data, DNA sequences</p>
+      </statement>
+      <statement content-type="notes">
+        <label>Brief description</label>
+        <p>COI sequences in fasta format. Each sequence is identified by the BOLD ProcessID, species name, marker and GenBank accession number, separated by pipe. The data are as downloaded from BOLD.</p>
+      </statement>
+      <p>File: oo_417901.fas</p>
+      <media xlink:href="bdj-08-e55137-s003.fas" mimetype="fas file" mime-subtype="fas" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/417901</uri>
+      </media>
+      <attrib specific-use="authors">Sonia Ferreira, Jose Manuel Tierno de Figueroa, Filipa Martins, Joana Veríssimo, Joana Paupério, Pedro Sousa, Pedro Beja</attrib>
+    </supplementary-material>
+  </floats-group>
+</article>

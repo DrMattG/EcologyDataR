@@ -1,0 +1,1483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.7.e38248</article-id>
+      <article-id pub-id-type="publisher-id">38248</article-id>
+      <article-id pub-id-type="manuscript">11803</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Biodiversity &amp; Conservation</subject>
+          <subject>Cartography, Remote Sensing and GIS</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>South America</subject>
+          <subject>Americas</subject>
+          <subject>Brazil</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Geographic review on the specimens of the Caatinga Biome in the Jardim Botânico do Rio de Janeiro (RB) herbarium</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes">
+          <name name-style="western">
+            <surname>Magdalena</surname>
+            <given-names>Ulises Rodrigo</given-names>
+          </name>
+          <email xlink:type="simple">ulisesrodrigo@id.uff.br</email>
+          <uri content-type="orcid">https://orcid.org/0000-0002-1634-4778</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Silva</surname>
+            <given-names>Luís Alexandre Estevão da</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-7464-922X</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Oliveira</surname>
+            <given-names>Felipe Alves</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0003-4011-3504</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Lima</surname>
+            <given-names>Rafael Oliveira</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Bellon</surname>
+            <given-names>Ernani</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Ribeiro</surname>
+            <given-names>Rafael</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Lanna</surname>
+            <given-names>João Monnerat</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-4455-5142</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Abieri</surname>
+            <given-names>Maria Luiza</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Cardoso</surname>
+            <given-names>Gabriel de Oliveira</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Amorim</surname>
+            <given-names>Aline Vieira Amorim de</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Forzza</surname>
+            <given-names>Rafaela Campostrini</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Instituto de Pesquisas Jardim Botânico do Rio de Janeiro, Rio de Janeiro, Brazil</addr-line>
+        <institution>Instituto de Pesquisas Jardim Botânico do Rio de Janeiro</institution>
+        <addr-line content-type="city">Rio de Janeiro</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">Instituto de Biologia, Universidade Federal do Rio de Janeiro, Rio de Janeiro, Brazil</addr-line>
+        <institution>Instituto de Biologia, Universidade Federal do Rio de Janeiro</institution>
+        <addr-line content-type="city">Rio de Janeiro</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Ulises Rodrigo Magdalena (<email xlink:type="simple">ulisesrodrigo@id.uff.br</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Yasen Mutafchiev</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>03</day>
+        <month>10</month>
+        <year>2019</year>
+      </pub-date>
+      <volume>7</volume>
+      <elocation-id>e38248</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/2219A06B-353F-52C2-832D-D742E7FF0DD2">2219A06B-353F-52C2-832D-D742E7FF0DD2</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/3479940">3479940</uri>
+      <history>
+        <date date-type="received">
+          <day>13</day>
+          <month>07</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>19</day>
+          <month>09</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Ulises Rodrigo Magdalena, Luís Alexandre Estevão da Silva, Felipe Alves Oliveira, Rafael Oliveira Lima, Ernani Bellon, Rafael Ribeiro, João Monnerat Lanna, Maria Luiza Abieri, Gabriel de Oliveira Cardoso, Aline Vieira Amorim de Amorim, Rafaela Campostrini Forzza</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>This article provides a quantitative description of flora specimens stored in the Jardim Botânico of Rio de Janeiro Herbarium that belongs to the Federal Conservation Units of Caatinga’s phytogeography domain. The Caatinga represents 11% of Brazilian territory and is, in South America, the largest and most biodiverse semi-arid tropical ecoregion, yet only 5% of its territory is covered by Federal Conservation Units, with few collections of flora samples. Thus, providing a georeferenced inventory of existing collections is essential for purposes of species distribution, environmental management and conservation. The aim of this data paper is to gauge, by means of geographic coordinates correction and retrieval of the flora specimens present in the RB Herbarium, the amount of specimen gatherings performed in the Federal Conservation Units belonging to the Caatinga domain.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>Currently, the RB data is publicly available online at several biodiversity portals, such as our institutional database JABOT, the Reflora Virtual Herbarium, the SiBBr and the GBIF portal (<xref ref-type="bibr" rid="B5365860">Lanna et al. 2019</xref>). However, a description of the dataset that belongs to the Federal Conservation Units of Caatinga’s phytogeography domain as a whole is not yet available in the literature.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>Caatinga domain</kwd>
+        <kwd>Federal Conservation Units</kwd>
+        <kwd>Flora samples</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="2"/>
+        <table-count count="2"/>
+        <ref-count count="26"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>The Caatinga phytogeographic domain is South America’s largest and most biodiverse tropical semi-arid ecoregion (<xref ref-type="bibr" rid="B5207360">Moro et al. 2016</xref>). It occupies interplanaltic depression areas northeast and northwards of Minas Gerais state in Brazil (<xref ref-type="bibr" rid="B5207227">Ab’Saber 2007</xref>) and is distributed along an estimated area of 844,000 km². Originally, the biome represented 11% of the Brazilian territory (<xref ref-type="bibr" rid="B5207441">Ministério do Meio Ambiente 2018</xref>). Although the diversity of plants and animals may be considered low when compared with other regions (e.g. tropical forests), the biological patrimony in this region is adapted to the local extreme conditions, resulting in high endemism rates (<xref ref-type="bibr" rid="B5207256">Queiroz et al. 2017</xref>).</p>
+      <p>Caatinga encompasses woody vegetation that is thorny and deciduous (<xref ref-type="bibr" rid="B5207381">Ab’Saber 1974</xref>) and can be divided into 12 types according to abiotic variations of altitude, continentality and soil features (<xref ref-type="bibr" rid="B5207279">Alves et al. 2008</xref>, <xref ref-type="bibr" rid="B5207247">Araújo et al. 2005</xref>). This biome is facing continuous deforestation processes related to wood extraction, farming and agriculture (<xref ref-type="bibr" rid="B5207236">Ribeiro et al. 2015</xref>, <xref ref-type="bibr" rid="B5207370">Marinho et al. 2016</xref>), which generates negative effects on biodiversity, such as habitat loss and fragmentation (<xref ref-type="bibr" rid="B5207217">Antongiovanni et al. 2018</xref>) and desertification (<xref ref-type="bibr" rid="B5207426">Hauff 2010</xref>).</p>
+      <p>Conservation Units are defined as territorial spaces protected by public or private initiatives in order to promote biodiversity conservation, restoration and management, as well as to protect natural resources while encompassing extractivism and sustainable uses. In Brazil, the National System of Conservation Units (<xref ref-type="bibr" rid="B5207478">Brasil 2011</xref>) separates Conservation Units into two conservation groups and some categories of preservation. The Full Protection Units group targets nature preservation in a restrictive way, accepting only indirect use of its natural resources. On the other hand, the Sustainable Use Units aim to reconcile nature conservation and sustainable uses.</p>
+      <p>Less than 5% of Caatinga’s territory is currently covered by Conservation Units (CU) (<xref ref-type="bibr" rid="B5207289">Oliveira et al. 2013</xref>), whereas 30% of its typical biodiversity occurs entirely outside of protected areas, which promotes gaps in the protection, research and management of flora species (<xref ref-type="bibr" rid="B5207487">Fonseca and Venticinque 2018</xref>). It is estimated that at least 4,843 species of plants have been registered for this region (<xref ref-type="bibr" rid="B5207450">BFG 2018</xref>), with 1,523 cases of endemism (<xref ref-type="bibr" rid="B5207460">Flora do Brasil 2020 2019</xref>)</p>
+      <p>Although the importance and conservation of Caatinga’s biodiversity is well recognised, new gatherings of flora specimens are scarce (<xref ref-type="bibr" rid="B5346906">Correia et al. 2019</xref>, <xref ref-type="bibr" rid="B5207360">Moro et al. 2016</xref>). In this regard, for collected samples, a specimens’ inventory is essential for subsidising systematic analyses that are capable of promoting scientific research projects, public policies and guiding authorities’ decisions about its management and restoration (<xref ref-type="bibr" rid="B5207270">Silva et al. 2017</xref>).</p>
+      <p>The RB Herbarium of Jardim Botânico of Rio de Janeiro (JBRJ), created in 1890, is composed of seven botanical collections: mounted specimens (RB – 750,000, with 7,500 nomenclatural types and ~3,000 paratypes), wood (RBw - ca. 10,300 specimens), fruits (RBcarpo - ca. 8,000 specimens), DNA bank (RBdna - ca. 5,700 specimens), spirit (RBspirit - ca. 2,500 specimens), seedbank (RBsem - ca. 2,700 specimens) and ethnobotany (RBetno – ca. 200 specimens) (<xref ref-type="bibr" rid="B5207391">Forzza et al. 2016</xref>, <xref ref-type="bibr" rid="B5207302">Lanna et al. 2018</xref>). Data used in the present work were acquired in the RB Herbarium collections and exhibit a historical series encompassing approximately 130 years (Fig. <xref ref-type="fig" rid="F5202891">1</xref>A), distributed throughout eight states (Fig. <xref ref-type="fig" rid="F5202891">1</xref>B).</p>
+      <p>Our goal is to gauge the amount of collections performed in Federal Conservation Units that belong to the Caatinga domain through the correction and recovery of geographic coordinates of flora samples present in the RB Herbarium. The objective is to make the material available in the Jardim Botânico Botanical Collections Management System (Jabot) (<xref ref-type="bibr" rid="B5207341">Silva et al. 2017</xref>) to assist historical series research development (<xref ref-type="bibr" rid="B5207203">Kamino et al. 2011</xref>), predictive modelling for species distributions and to support conservation status assessments.</p>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Study extent">
+        <title>Study extent</title>
+        <p>The Caatinga biome has 25 Federal Conservation Units that total 31,952 km², which represents 5% of its territory and encompasses the states of Alagoas, Bahia, Ceará, Maranhão, Pernambuco, Paraíba, Rio Grande do Norte, Piauí, Sergipe and the north of Minas Gerais (<xref ref-type="bibr" rid="B5346305">Brasil 2018</xref>). Despite the long collection of historical data (Fig. <xref ref-type="fig" rid="F5202891">1</xref>), scarce samples are still in the states of Maranhão and north of Minas Gerais (Fig. <xref ref-type="fig" rid="F5346851">2</xref>). One of the main reasons for such scarcity is that these states are territories of transition between the Cerrado and the Caatinga biomes, in which Conservation Units are commonly categorised as belonging to the Cerrado biome. The study area, the Conservation Units spatial distribution and samples of pre- and post-geographic coordinates correction are presented in Fig. <xref ref-type="fig" rid="F5346851">2</xref>.</p>
+      </sec>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>The determination of the set of samples of Caatinga flora, present in the RB herbarium that would be analysed, was determined through a selection in Jabot, where all the samples existing at the Caatinga domain were acquired. Subsequently, a sub-selection was performed in order to acquire all the samples collected only at the municipalities that present Conservation Units, as illustrated in Fig. <xref ref-type="fig" rid="F5346851">2</xref>C. The sample universe encompassed 6,058 data related to 25 Federal Conservation Units (Fig. <xref ref-type="fig" rid="F5346851">2</xref>B).</p>
+      </sec>
+      <sec sec-type="Quality control">
+        <title>Quality control</title>
+        <p>Thereafter, the methodological procedures present in <xref ref-type="bibr" rid="B5207317">Magdalena et al. (2018)</xref> were adopted: (1) definition of geographic reference base; (2) identification of the records with geographic coordinates; (3) identification of the records without geographic coordinates; and (4) location search</p>
+        <p>The Continuous Cartographic Base of Brazil 1:250,000 (CB250) (<xref ref-type="bibr" rid="B5350565">Brasil, Coordenação de Cartografia (CCAR), Diretoria de Geociências (DGC) 2017</xref>) was the geographic reference base adopted to perform the analyses. This base is provided by the Instituto Brasileiro de Geografia e Estatística (IBGE) and includes all the 5,570 municipalities of the 26 states and one Federal District that constitute the formal divisions of Brazil. Using CB250 allowed the standardisation and synchronisation of geographic names and limits, as well as the coordinates included in the collected samples.</p>
+        <p>All coordinates were converted to decimal format to validate a record. Then, if they matched, data were marked as correct. If any inconsistencies amongst the data were found, data were investigated to identify the issues regarding them. Two usual types of problems related to geographic data from botanical collections were then analysed: (1) error caused by the reversal of latitude and longitude values and (2) the absence of a cardinal direction that identifies the N–S and E–W hemispheres. The solution for the first case was to invert the coordinates based on the location details. In the second case, it was necessary to denominate the cardinal direction, according to the locality described the record.</p>
+        <p>Typically, records with geographic coordinates are scarce in historical herbaria, such as RB. Hence, the process previously described should be applied to individually analyse incompatible data. This was necessary due to some errors, such as typing coordinates in an incompatible way, confusing coordinates with regards to international (longitude and latitude) and national (latitude and longitude) standards; typing municipalities that are homonyms but belong to different states (e.g. Bonito, Mato Grosso do Sul and Bonito, Pernambuco).</p>
+        <p>After establishing records that lack geographic coordinates, a filter was applied to distinguish collections with and without a location description. For the specimen labels that include a location description, analyses were carried out to ensure the greatest accuracy possible when inferring the geographic coordinates. For these data, the user is informed that the stated coordinates were estimated by the description on the specimen label.</p>
+        <p>It was possible to infer the location of the collection for a record without coordinates if the specimen had a location description and/or some of the following information on the label: country, state, municipality, gazetteer, name of protected area (if informed) and physical toponyms. A georeferencing process was then conducted using toponym lists from IBGE and other federal institutes with database services, such as Serviço Geológico do Brasil, Instituto Chico Mendes de Conservação da Biodiversidade, Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis and Ministério do Meio Ambiente - MMA. This is the slowest phase of the process because it is usually carried out record by record. In order to optimise the location, searches of all the collections from the same location were grouped and, thereupon, the coordinates were inferred for the group.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>Results revealed 5,948 samples checked and recovered (98%), of which 2,408 (34%) were located inside Conservation Units’ (CU) limits, 1,383 encompassed the Full Protection Unit category and 1,025 were related to the Sustainable Use Units category (Fig. <xref ref-type="fig" rid="F5346851">2</xref>D).</p>
+        <p>A total of 2,818 (47%) samples were placed in the Buffer Zone (BZ) of 10 km and 722 (12%) were outside of this zone. Regarding the remaining data, 110 (2%) did not present enough information to enable the geographic coordinate’s recovery due to the absence of locality description. Table <xref ref-type="table" rid="T5207191">1</xref> and Table <xref ref-type="table" rid="T5207192">2</xref> show the number of samples collected per Conservation Unit category.</p>
+      </sec>
+      <sec sec-type="Coordinates">
+        <title>Coordinates</title>
+        <p>-16.046 and -2.636 Latitude; -34.673 and -44.473 Longitude.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Collection data">
+      <title>Collection data</title>
+      <sec sec-type="Collection name">
+        <title>Collection name</title>
+        <p>Herbário Dimitri Sucre Benjamin</p>
+      </sec>
+      <sec sec-type="Collection identifier">
+        <title>Collection identifier</title>
+        <p>RB</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Creative Commons Public Domain Waiver (CC-Zero)</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p> Caatinga Biome - RB - Rio de Janeiro Botanical Garden Herbarium Collection</p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="https://www.gbif.org/dataset/98d7a49c-5776-41eb-a928-b6f5174eadd1">https://www.gbif.org/dataset/98d7a49c-5776-41eb-a928-b6f5174eadd1</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>1</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Caatinga Biome - RB - Rio de Janeiro Botanical Garden Herbarium Collection</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Darwin Core Archive (DwC-A)</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>48</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="http://ipt.jbrj.gov.br/jbrj/resource?r=rb_caatinga&amp;v=1.25">http://ipt.jbrj.gov.br/jbrj/resource?r=rb_caatinga&amp;v=1.25</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="">
+          <title/>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceID</td>
+                  <td rowspan="1" colspan="1">The unique identifier of the occurrence.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">type</td>
+                  <td rowspan="1" colspan="1">The nature or genre of the resource.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">modified</td>
+                  <td rowspan="1" colspan="1">The most recent date-time on which the resource was changed.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">rightsHolder</td>
+                  <td rowspan="1" colspan="1">The organisation owning or managing rights over the resource.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">institutionCode</td>
+                  <td rowspan="1" colspan="1">The name in use by the institution having custody of the object or information referred to in the record.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">collectionCode</td>
+                  <td rowspan="1" colspan="1">The name coden or initialism identifying the collection or dataset from which the record was derived.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">basisOfRecord</td>
+                  <td rowspan="1" colspan="1">The specific nature of the data record.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">catalogNumber </td>
+                  <td rowspan="1" colspan="1">Barcode of the specimen.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceRemarks</td>
+                  <td rowspan="1" colspan="1">Comments or notes about the occurrence.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">recordNumber</td>
+                  <td rowspan="1" colspan="1">The collector's number.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">recordedBy</td>
+                  <td rowspan="1" colspan="1">A list of names of people responsible for recording the original occurrence.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">otherCatalogNumbers</td>
+                  <td rowspan="1" colspan="1">Sequential register number historically adopted by the RB herbarium.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">associatedMedia</td>
+                  <td rowspan="1" colspan="1">A list, concatenated and separated by "|" of the specimens images URLs in a low resolution format to be used as thumbnails.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">associatedOccurrences</td>
+                  <td rowspan="1" colspan="1">A list of identifiers of other occurrence records and their associations with this occurrence.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventDate</td>
+                  <td rowspan="1" colspan="1">Date of collection.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">year</td>
+                  <td rowspan="1" colspan="1">Year of collection.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">month </td>
+                  <td rowspan="1" colspan="1">Month of collection.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">day</td>
+                  <td rowspan="1" colspan="1">Day of collection.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">fieldNotes</td>
+                  <td rowspan="1" colspan="1">The text of notes taken in the field about the specimen.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">country</td>
+                  <td rowspan="1" colspan="1">The name of the country or major administrative unit in which the Location occurs.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">countryCode</td>
+                  <td rowspan="1" colspan="1">The standard code for the country .</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">stateProvince</td>
+                  <td rowspan="1" colspan="1">The name of the next smaller administrative region than country in which the Location occurs.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">locality</td>
+                  <td rowspan="1" colspan="1">The specific description of the place.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">municipality</td>
+                  <td rowspan="1" colspan="1">A spatial region or named place.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">minimumElevationInMetres</td>
+                  <td rowspan="1" colspan="1">The lower limit of the range of elevation (altitude, usually above sea level), in metres.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">maximumElevationInMetres</td>
+                  <td rowspan="1" colspan="1">The upper limit of the range of elevation (altitude, usually above sea level), in metres.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">verbatimLatitude</td>
+                  <td rowspan="1" colspan="1">The verbatim original latitude of the Location.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">verbatimLongitude</td>
+                  <td rowspan="1" colspan="1">The verbatim original longitude of the Location.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLatitude</td>
+                  <td rowspan="1" colspan="1">The geographic latitude of the geographic centre of a Location.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLongitude</td>
+                  <td rowspan="1" colspan="1">The geographic longitude of the geographic centre of a Location.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">geodeticDatum</td>
+                  <td rowspan="1" colspan="1">The ellipsoid, geodetic datum or spatial reference system (SRS) upon which the geographic coordinates given in decimalLatitude and decimalLongitude as based.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">georeferencedDate</td>
+                  <td rowspan="1" colspan="1">The date on which the Location was georeferenced.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">georeferenceProtocol</td>
+                  <td rowspan="1" colspan="1">A description or reference to the methods used to determine the spatial footprint, coordinates and uncertainties.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">georeferenceVerificationStatus</td>
+                  <td rowspan="1" colspan="1">A categorical description of the extent to which the georeference has been verified to represent the best possible spatial description.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">georeferenceRemarks</td>
+                  <td rowspan="1" colspan="1">Notes or comments about the spatial description determination.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">identifiedBy</td>
+                  <td rowspan="1" colspan="1">A list of names of people, groups or organisations who assigned the Taxon to the subject.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">dateIdentified</td>
+                  <td rowspan="1" colspan="1">The date on which the subject was identified as representing the Taxon.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">identificationRemarks</td>
+                  <td rowspan="1" colspan="1">Comments or notes about the identification.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">identificationQualifier</td>
+                  <td rowspan="1" colspan="1">A standard term to express the determiner's doubts about the identification.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">typeStatus</td>
+                  <td rowspan="1" colspan="1">Status of the type. Controlled vocabulary of terms. The category "TYPUS" is used for undefined type status.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificName</td>
+                  <td rowspan="1" colspan="1">The full scientific name, with authorship.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">kingdom</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the kingdom in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">family</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the family in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">genus</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the genus in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">specificEpithet</td>
+                  <td rowspan="1" colspan="1">The name of the first or species epithet of the scientificName.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">infraspecificEpithet</td>
+                  <td rowspan="1" colspan="1">The name of the lowest or terminal infraspecific epithet of the scientificName.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">taxonRank</td>
+                  <td rowspan="1" colspan="1">The taxonomic rank of the most specific name in the scientificName.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificNameAuthorship</td>
+                  <td rowspan="1" colspan="1">The authorship information for the scientificName.</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>The authors thank CNPq (Conselho Nacional de Desenvolvimento Científico e Tecnológico), FAPERJ (Fundação de Amparo à Pesquisa do Estado do Rio de Janeiro), SiBBr (Sistema de Informação sobre a Biodiversidade Brasileira) and The Natura Company for supporting the Project and providing resources for the development of computational systems. R.C.F. received a Research Productivity Fellowship and U.R.M received a Research Technology Productivity Fellowship from CNPq.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B5207381">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ab’Saber</surname>
+              <given-names>Aziz Nacib</given-names>
+            </name>
+          </person-group>
+          <year>1974</year>
+          <article-title>O domínio morfoclimático semi-árido das caatingas brasileiras</article-title>
+          <source>Geomorfologia</source>
+        </element-citation>
+      </ref>
+      <ref id="B5207227">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ab’Saber</surname>
+              <given-names>Aziz. Nacib</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <source>Os Domínios de natureza do Brasil: potencialidades paisagísticas.</source>
+          <edition>4</edition>
+          <publisher-name>Ateliê Editorial</publisher-name>
+          <publisher-loc>São Paulo</publisher-loc>
+        </element-citation>
+      </ref>
+      <ref id="B5207279">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Alves</surname>
+              <given-names>Jose Jakson Amancio</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Araújo</surname>
+              <given-names>Maria Aparecida</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nascimento</surname>
+              <given-names>Sebastiana Santos</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Degradação da Caatinga: uma investigação ecogeografica</article-title>
+          <source>Caminhos de Geografia</source>
+          <volume>9</volume>
+          <issue>27</issue>
+          <fpage>143</fpage>
+          <lpage>155</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5207217">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Antongiovanni</surname>
+              <given-names>Marina</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Venticinque</surname>
+              <given-names>Eduardo M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fonseca</surname>
+              <given-names>Carlos Roberto</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Fragmentation patterns of the Caatinga drylands</article-title>
+          <source>Landscape Ecology</source>
+          <volume>33</volume>
+          <issue>8</issue>
+          <fpage>1353</fpage>
+          <lpage>1367</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10980-018-0672-6</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5207247">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Araújo</surname>
+              <given-names>Francisca Soares</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rodal</surname>
+              <given-names>Maria Jesus Nogueira</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barbosa</surname>
+              <given-names>Maria Regina de Vasconcelos</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <source>Análise das variações da biodiversidade do bioma caatinga: suporte a estratégia regionais de conservação</source>
+          <publisher-name>Ministério do Meio Ambiente</publisher-name>
+          <publisher-loc>Brasília</publisher-loc>
+          <isbn>9788578110796</isbn>
+          <pub-id pub-id-type="doi">10.1017/CBO9781107415324.004</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5207450">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>BFG</surname>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC)</article-title>
+          <source>Rodriguésia</source>
+          <volume>68</volume>
+          <issue>4</issue>
+          <fpage>1513</fpage>
+          <lpage>1527</lpage>
+          <uri>http://www.scielo.br/scielo.php?script=sci_arttext&amp;pid=S2175-78602018000401513</uri>
+          <pub-id pub-id-type="doi">10.1590/2175-7860201869402</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5207478">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Brasil</surname>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <source>SNUC – Sistema Nacional de Unidades de Conservação da Natureza: Lei nº 9.985, de 18 de julho de 2000; Decreto nº 4.340, de 22 de agosto de 2002; Decreto nº 5.746, de 5 de abril de 2006. Plano Estratégico Nacional de Áreas Protegidas: Decreto nº 5.758, de 13 de abril de 2006.</source>
+          <publisher-name>Ministério do Meio Ambiente</publisher-name>
+          <publisher-loc>Brasília</publisher-loc>
+          <size units="page">76</size>
+          <uri>http://www.mma.gov.br/legislacao/areas-protegidas.html</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5346305">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Brasil</surname>
+            </name>
+          </person-group>
+          <article-title>Caatinga</article-title>
+          <uri>https://www.mma.gov.br/biomas/caatinga</uri>
+          <date-in-citation content-type="access-date">2018-06-15T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5350565">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Brasil</surname>
+              <given-names>Coordenação de Cartografia (CCAR), Diretoria de Geociências (DGC)</given-names>
+            </name>
+          </person-group>
+          <article-title>BC250 - Base Cartográfica Contínua do Brasil - 1:250 000 - 2017</article-title>
+          <uri>http://www.visualizador.inde.gov.br/</uri>
+          <date-in-citation content-type="access-date">2019-09-13T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5346906">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Correia</surname>
+              <given-names>Ricardo A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ruete</surname>
+              <given-names>Alejandro</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stropp</surname>
+              <given-names>Juliana</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Malhado</surname>
+              <given-names>Ana C. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>dos Santos</surname>
+              <given-names>Janisson W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lessa</surname>
+              <given-names>Thainá</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Alves</surname>
+              <given-names>José A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ladle</surname>
+              <given-names>Richard J.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Using ignorance scores to explore biodiversity recording effort for multiple taxa in the Caatinga</article-title>
+          <source>Ecological Indicators</source>
+          <volume>106</volume>
+          <pub-id pub-id-type="doi">10.1016/J.ECOLIND.2019.105539</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5207460">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>2020</surname>
+              <given-names>Flora do Brasil</given-names>
+            </name>
+          </person-group>
+          <article-title>Flora do Brasil 2020 em construção</article-title>
+          <uri>http://floradobrasil.jbrj.gov.br</uri>
+          <date-in-citation content-type="access-date">2019-02-12T00:00:00+02:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5207487">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Fonseca</surname>
+              <given-names>Carlos Roberto</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Venticinque</surname>
+              <given-names>Eduardo Martins</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Biodiversity conservation gaps in Brazil: A role for systematic conservation planning</article-title>
+          <source>Perspectives in Ecology and Conservation</source>
+          <volume>16</volume>
+          <issue>2</issue>
+          <fpage>61</fpage>
+          <lpage>67</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.pecon.2018.03.001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5207391">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Forzza</surname>
+              <given-names>Rafaela Campostrini</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Carvalho Jr</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Andrade</surname>
+              <given-names>Antônio Carlos S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Franco</surname>
+              <given-names>Luciana</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Estevão</surname>
+              <given-names>Luís Alexandre</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fonseca-Kruel</surname>
+              <given-names>Viviane S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Coelho</surname>
+              <given-names>Marcus A. Nadruz</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tamaio</surname>
+              <given-names>Neusa</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zappi</surname>
+              <given-names>Daniela</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Coleções biológicas do Jardim Botânico do Rio de Janeiro à luz das metas da GSPC/CDB: Onde estaremos em 2020?</article-title>
+          <source>Revista Museologia &amp; Interdisciplinaridade</source>
+          <volume>5</volume>
+          <issue>9</issue>
+          <fpage>135</fpage>
+          <lpage>159</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5207426">
+        <element-citation publication-type="conference-paper">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Hauff</surname>
+              <given-names>Shirley N.</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Desenvolvimento</surname>
+              <given-names>PNUD - Programa das Nações Unidas para o</given-names>
+            </name>
+          </person-group>
+          <article-title>Representatividade do Sistema Nacional de Unidades de Conservação na Caatinga.</article-title>
+          <source>PROJETO BRA/00/021: Sustentabilidade e Repartição dos Benefícios da Biodiversidade</source>
+          <conf-loc>Brasília</conf-loc>
+          <conf-date>Setembro, 2010</conf-date>
+        </element-citation>
+      </ref>
+      <ref id="B5207203">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kamino</surname>
+              <given-names>L. H. Y.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stehmann</surname>
+              <given-names>J. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Amaral</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Marco</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rangel</surname>
+              <given-names>T. F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Siqueira</surname>
+              <given-names>M. F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Giovanni</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hortal</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>Challenges and perspectives for species distribution modelling in the neotropics</article-title>
+          <source>Biology Letters</source>
+          <volume>8</volume>
+          <issue>3</issue>
+          <fpage>324</fpage>
+          <lpage>326</lpage>
+          <pub-id pub-id-type="doi">10.1098/rsbl.2011.0942</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5207302">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lanna</surname>
+              <given-names>João</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dalcin</surname>
+              <given-names>Eduardo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Oliveira</surname>
+              <given-names>Felipe</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Forzza</surname>
+              <given-names>Rafaela</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Morim</surname>
+              <given-names>Marli</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Silva</surname>
+              <given-names>Luís Alexandre</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Filardi</surname>
+              <given-names>Fabiana</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Leitman</surname>
+              <given-names>Paula</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Queiroz</surname>
+              <given-names>Natália</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Herbarium collection of the Rio de Janeiro Botanical Garden (RB), Brazil</article-title>
+          <source>Biodiversity Data Journal</source>
+          <volume>6</volume>
+          <pub-id pub-id-type="doi">10.3897/bdj.6.e22757</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5365860">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lanna</surname>
+              <given-names>João</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Forzza</surname>
+              <given-names>Rafaela</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Magdalena</surname>
+              <given-names>Ulises</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>aatinga Biome - RB - Rio de Janeiro Botanical Garden Herbarium Collection. Version 1.26. Instituto de Pesquisas Jardim Botanico do Rio de Janeiro</article-title>
+          <source>Occurrence dataset accessed via GBIF.org on 2019-10-03.</source>
+          <pub-id pub-id-type="doi">10.15468/BBSQOA</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5207317">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Magdalena</surname>
+              <given-names>Ulises Rodrigo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Silva</surname>
+              <given-names>Luís Alexandre Estevão</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lima</surname>
+              <given-names>Rafael Oliveira</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bellon</surname>
+              <given-names>Ernani</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ribeiro</surname>
+              <given-names>Rafael</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Oliveira</surname>
+              <given-names>Felipe Alves</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Siqueira</surname>
+              <given-names>Marinez Ferreira</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Forzza</surname>
+              <given-names>Rafaela Campostrini</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>A new methodology for the retrieval and evaluation of geographic coordinates within databases of scientific plant collections</article-title>
+          <source>Applied Geography</source>
+          <volume>96</volume>
+          <issue>September 2017</issue>
+          <fpage>11</fpage>
+          <lpage>15</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.apgeog.2018.05.002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5207370">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Marinho</surname>
+              <given-names>Felipe Pereira</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mazzochini</surname>
+              <given-names>Guilherme Gerhardt</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Manhães</surname>
+              <given-names>Adriana Pellegrini</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Weisser</surname>
+              <given-names>Wolfgang W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ganade</surname>
+              <given-names>Gislene</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Effects of past and present land use on vegetation cover and regeneration in a tropical dryland forest</article-title>
+          <source>Journal of Arid Environments</source>
+          <volume>132</volume>
+          <fpage>26</fpage>
+          <lpage>33</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jaridenv.2016.04.006</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5207441">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ambiente</surname>
+              <given-names>Ministério do Meio</given-names>
+            </name>
+          </person-group>
+          <article-title>Caatinga.</article-title>
+          <uri>http://www.mma.gov.br</uri>
+          <date-in-citation content-type="access-date">2018-09-10T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5207360">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Moro</surname>
+              <given-names>Marcelo Freire</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lughadha</surname>
+              <given-names>Eimear Nic</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Araújo</surname>
+              <given-names>Francisca Soares de</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Martins</surname>
+              <given-names>Fernando Roberto</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>A phytogeographical metaanalysis of the semiarid Caatinga Domain in Brazil</article-title>
+          <source>Botanical Review</source>
+          <volume>82</volume>
+          <issue>2</issue>
+          <fpage>91</fpage>
+          <lpage>148</lpage>
+          <pub-id pub-id-type="doi">10.1007/s12229-016-9164-z</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5207289">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Oliveira</surname>
+              <given-names>Luciana dos Santos D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Moro</surname>
+              <given-names>Marcelo Freire</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lughadha</surname>
+              <given-names>Eimear M. Nic</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Martins</surname>
+              <given-names>Fernando Roberto</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Melo</surname>
+              <given-names>André Laurênio</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Esser</surname>
+              <given-names>Hans-Joachim</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sales</surname>
+              <given-names>Margareth F.</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Hidden in the dry woods: Mapping the collection history and distribution of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Gymnanthes">Gymnanthes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="boticario">boticario</tp:taxon-name-part></tp:taxon-name></italic>, a well-collected but very recently described species restricted to the dry vegetation of South America</article-title>
+          <source>Phytotaxa</source>
+          <volume>97</volume>
+          <issue>1</issue>
+          <fpage>1</fpage>
+          <lpage>16</lpage>
+          <pub-id pub-id-type="doi">10.11646/phytotaxa.97.1.1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5207256">
+        <element-citation publication-type="chapter">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Queiroz</surname>
+              <given-names>Luciano Paganucci</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cardoso</surname>
+              <given-names>Domingos</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fernandes</surname>
+              <given-names>Moabe Ferreira</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Moro</surname>
+              <given-names>Marcelo Freire</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <chapter-title>Diversity and evolution of flowering plants of the Caatinga Domain</chapter-title>
+          <source>Caatinga</source>
+          <publisher-name>Springer International Publishing</publisher-name>
+          <publisher-loc>Cham</publisher-loc>
+          <size units="page">40</size>
+          <pub-id pub-id-type="doi">10.1007/978-3-319-68339-3_2</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5207236">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ribeiro</surname>
+              <given-names>Elâine M. S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Arroyo-Rodríguez</surname>
+              <given-names>Víctor</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tabarelli</surname>
+              <given-names>Marcelo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Santos</surname>
+              <given-names>Bráulio A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Leal</surname>
+              <given-names>Inara R.</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Chronic anthropogenic disturbance drives the biological impoverishment of the Brazilian Caatinga vegetation</article-title>
+          <source>Journal of Applied Ecology</source>
+          <volume>52</volume>
+          <issue>3</issue>
+          <fpage>611</fpage>
+          <lpage>620</lpage>
+          <pub-id pub-id-type="doi">10.1111/1365-2664.12420</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5207270">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Silva</surname>
+              <given-names>José Maria Cardoso</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Leal</surname>
+              <given-names>Inara R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tabarelli</surname>
+              <given-names>Marcelo</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <source>Caatinga: The largest tropical dry forest region in South America</source>
+          <publisher-name>Springer International Publishing</publisher-name>
+          <publisher-loc>Cham</publisher-loc>
+          <size units="page">43</size>
+          <isbn>978-3-319-68338-6</isbn>
+          <pub-id pub-id-type="doi">10.1007/978-3-319-68339-3</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5207341">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Silva</surname>
+              <given-names>Luís Alexandre Estevão da</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fraga</surname>
+              <given-names>Claudio Nicoletti da</given-names>
+            </name>
+            <name name-style="western">
+              <surname>De Almeida</surname>
+              <given-names>Thaís Moreira Hidalgo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gonzalez</surname>
+              <given-names>Marcos</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lima</surname>
+              <given-names>Rafael Oliveira</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rocha</surname>
+              <given-names>Mônica Sousa</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bellon</surname>
+              <given-names>Ernani</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Silva Ribeiro</surname>
+              <given-names>Rafael da</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Oliveira</surname>
+              <given-names>Felipe Alves de</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Silva Clemente</surname>
+              <given-names>Leonardo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Magdalena</surname>
+              <given-names>Ulises Rodrigo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Von Sohsten Medeiros</surname>
+              <given-names>Erika</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Forzza</surname>
+              <given-names>Rafaela Campostrini</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Jabot - Sistema de gerenciamento de Coleções Botânicas: A experiência de uma década de desenvolvimento e avanços</article-title>
+          <source>Rodriguesia</source>
+          <volume>68</volume>
+          <issue>2</issue>
+          <fpage>391</fpage>
+          <lpage>410</lpage>
+          <pub-id pub-id-type="doi">10.1590/2175-7860201768208</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F5202891" position="float" orientation="portrait">
+      <object-id content-type="arpha">601C9C31-BFB4-518C-919B-BF54402ABC4B</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e38248.figure1</object-id>
+      <object-id content-type="zenodo_dep_id">3479952</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Number of Caatinga’s species deposited in the RB Herbarium. <bold>A.</bold> Number of species deposited per year; <bold>B.</bold> Number of species deposited per State.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e38248-g001.jpg" position="float" id="oo_295449.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/295449</uri>
+      </graphic>
+    </fig>
+    <fig id="F5346851" position="float" orientation="portrait">
+      <object-id content-type="arpha">BE31E5ED-38B4-52B3-A1E8-47931C0D1F5A</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e38248.figure2</object-id>
+      <object-id content-type="zenodo_dep_id">3479954</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p><bold>A.</bold> Study area; <bold>B. </bold>Spatial distribution of Brazilian Conservation Units according to the Brazilian Ministry of the Environment; <bold>C.</bold> Samples’ distribution before geographic coordinates correction; <bold>D.</bold> Samples’ distribution after geographic correction. Maps were prepared using ArcGIS.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e38248-g002.jpg" position="float" id="oo_339045.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/339045</uri>
+      </graphic>
+    </fig>
+    <table-wrap id="T5207191" position="float" orientation="portrait">
+      <label>Table 1.</label>
+      <caption>
+        <p>Full Protection Units.</p>
+      </caption>
+      <table rules="all" cellpadding="1" cellspacing="0">
+        <tbody>
+          <tr>
+            <th rowspan="1" colspan="1">Name</th>
+            <th rowspan="1" colspan="1">Collects on the CU</th>
+            <th rowspan="1" colspan="1">Collects on the BZ</th>
+            <th rowspan="1" colspan="1">Total (CU + BZ)</th>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">Esec Aiuaba</td>
+            <td rowspan="1" colspan="1">10</td>
+            <td rowspan="1" colspan="1">14</td>
+            <td rowspan="1" colspan="1">24</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Esec Castanhão</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Esec Seridó</td>
+            <td rowspan="1" colspan="1">21</td>
+            <td rowspan="1" colspan="1">7</td>
+            <td rowspan="1" colspan="1">28</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Esec Raso da Catarina</td>
+            <td rowspan="1" colspan="1">44</td>
+            <td rowspan="1" colspan="1">34</td>
+            <td rowspan="1" colspan="1">78</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">MN Rio São Francisco</td>
+            <td rowspan="1" colspan="1">94</td>
+            <td rowspan="1" colspan="1">140</td>
+            <td rowspan="1" colspan="1">234</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Parna Chapada Diamantina</td>
+            <td rowspan="1" colspan="1">784</td>
+            <td rowspan="1" colspan="1">1788</td>
+            <td rowspan="1" colspan="1">2572</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Parna Furna Feia</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">27</td>
+            <td rowspan="1" colspan="1">27</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Parna Serra da Capivara</td>
+            <td rowspan="1" colspan="1">79</td>
+            <td rowspan="1" colspan="1">237</td>
+            <td rowspan="1" colspan="1">316</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Parna Jericoacoara</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Parna Sete Cidades</td>
+            <td rowspan="1" colspan="1">205</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">205</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Parna Ubajara</td>
+            <td rowspan="1" colspan="1">35</td>
+            <td rowspan="1" colspan="1">63</td>
+            <td rowspan="1" colspan="1">98</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Parna Catimbau</td>
+            <td rowspan="1" colspan="1">80</td>
+            <td rowspan="1" colspan="1">126</td>
+            <td rowspan="1" colspan="1">206</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Rebio Serra Negra</td>
+            <td rowspan="1" colspan="1">31</td>
+            <td rowspan="1" colspan="1">30</td>
+            <td rowspan="1" colspan="1">61</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Total</td>
+            <td rowspan="1" colspan="1">1383</td>
+            <td rowspan="1" colspan="1">2468</td>
+            <td rowspan="1" colspan="1">3851</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T5207192" position="float" orientation="portrait">
+      <label>Table 2.</label>
+      <caption>
+        <p>Sustainable Use Units.</p>
+      </caption>
+      <table rules="all" cellpadding="5" cellspacing="0">
+        <tbody>
+          <tr>
+            <th rowspan="1" colspan="1">Name</th>
+            <th rowspan="1" colspan="1">Collects on the CU</th>
+            <th rowspan="1" colspan="1">Collects on the BZ</th>
+            <th rowspan="1" colspan="1">Total (CU + BZ)</th>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">APA Chapada do Araripe</td>
+            <td rowspan="1" colspan="1">407</td>
+            <td rowspan="1" colspan="1">123</td>
+            <td rowspan="1" colspan="1">530</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">APA Serra da Ibiapaba</td>
+            <td rowspan="1" colspan="1">404</td>
+            <td rowspan="1" colspan="1">66</td>
+            <td rowspan="1" colspan="1">470</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">APA Serra da Meruoca</td>
+            <td rowspan="1" colspan="1">14</td>
+            <td rowspan="1" colspan="1">13</td>
+            <td rowspan="1" colspan="1">27</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Arie Cocorobó</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Arie Vale dos Dinossauros</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">23</td>
+            <td rowspan="1" colspan="1">23</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Flona Contendas do Sincorá</td>
+            <td rowspan="1" colspan="1">5</td>
+            <td rowspan="1" colspan="1">32</td>
+            <td rowspan="1" colspan="1">37</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Flona Açu</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">46</td>
+            <td rowspan="1" colspan="1">46</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Flona Negreiros</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Flona Palmares</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">9</td>
+            <td rowspan="1" colspan="1">9</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Flona Sobral</td>
+            <td rowspan="1" colspan="1">16</td>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1">22</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Flona Araripe-Apodi</td>
+            <td rowspan="1" colspan="1">178</td>
+            <td rowspan="1" colspan="1">28</td>
+            <td rowspan="1" colspan="1">206</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Resex Batoque</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">5</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Total</td>
+            <td rowspan="1" colspan="1">1025</td>
+            <td rowspan="1" colspan="1">350</td>
+            <td rowspan="1" colspan="1">1375</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+  </floats-group>
+</article>

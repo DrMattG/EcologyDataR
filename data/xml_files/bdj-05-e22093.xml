@@ -1,0 +1,1123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="3.0" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.5.e22093</article-id>
+      <article-id pub-id-type="publisher-id">22093</article-id>
+      <article-id pub-id-type="manuscript">8422</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Plantae</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Ecology &amp; Environmental sciences</subject>
+          <subject>Biogeography</subject>
+        </subj-group>
+        <subj-group subj-group-type="Chronological classification">
+          <subject>Neogene</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>Norway incl. Finnmark</subject>
+          <subject>Europe</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>20<sup>th</sup> century <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Betula">Betula</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pubescens">pubescens</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">subsp.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="czerepanovii">czerepanovii</tp:taxon-name-part></tp:taxon-name> tree- and forest lines in Norway</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes" xlink:type="simple">
+          <name name-style="western">
+            <surname>Bryn</surname>
+            <given-names>Anders</given-names>
+          </name>
+          <email xlink:type="simple">anders.bryn@nibio.no</email>
+          <uri content-type="orcid" xlink:type="simple">https://orcid.org/0000-0003-4712-8266</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Potthoff</surname>
+            <given-names>Kerstin</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">University of Oslo, Oslo, Norway</addr-line>
+        <institution xlink:type="simple">University of Oslo</institution>
+        <addr-line content-type="city">Oslo</addr-line>
+        <country>Norway</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">Norwegian Institute of Bioeconomy Research, Ås, Norway</addr-line>
+        <institution xlink:type="simple">Norwegian Institute of Bioeconomy Research</institution>
+        <addr-line content-type="city">Ås</addr-line>
+        <country>Norway</country>
+      </aff>
+      <aff id="A3">
+        <label>3</label>
+        <addr-line content-type="verbatim">Department of Geography, Bergen, Norway</addr-line>
+        <institution xlink:type="simple">Department of Geography</institution>
+        <addr-line content-type="city">Bergen</addr-line>
+        <country>Norway</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Anders Bryn (<email xlink:type="simple">anders.bryn@nibio.no</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Quentin Groom</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2017</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>23</day>
+        <month>11</month>
+        <year>2017</year>
+      </pub-date>
+      <volume>5</volume>
+      <elocation-id>e22093</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/FF84FFA3-FFC5-5869-396D-FF86FF901A46">FF84FFA3-FFC5-5869-396D-FF86FF901A46</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/1137501">1137501</uri>
+      <history>
+        <date date-type="received">
+          <day>06</day>
+          <month>11</month>
+          <year>2017</year>
+        </date>
+        <date date-type="accepted">
+          <day>18</day>
+          <month>11</month>
+          <year>2017</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Anders Bryn, Kerstin Potthoff</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License 4.0 (CC-BY), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>Georeferenced tree- and forest line data has a wide range of applications and are increasingly used for e.g. monitoring of climate change impacts and range shift modelling. As part of a research project, registrations of previously re-mapped tree- and forest lines have been georeferenced. The data described in this paper contains 100 re-mapped registrations of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Betula">Betula</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pubescens">pubescens</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">subsp.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="czerepanovii">czerepanovii</tp:taxon-name-part></tp:taxon-name> throughout Norway. All of the re-mapped tree- and forest line localities are georeferenced, elevation and aspect are given, elevational and spatial uncertainty are provided, and the re-mapping methods are explained. The published data weremapped for the first time between 1819 and 1963. The same sites were re-mapped between 1928 and 1996, but have until now been missing spatial coordinates. The entries contain 40 x 2 tree lines and 60 x 2 forest lines, most likely presenting the regionally highest registered tree- and forest lines at the given time. The entire material is stored and available for download through the GBIF server.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>Previously, the entries have been published in journals or reports, partly in Norwegian or German only. Without the provision of the spatial coordinates, the specific locations have been unknown. The material is now available for modelling and monitoring of tree- and forest line range shifts: The recordings are useful for interpretation of climate change impacts on tree- and forest lines, and the locations of re-mapped tree- and forest lines can be implemented in future monitoring projects. Since the recordings most likely provide the highest registered <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Betula">Betula</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pubescens">pubescens</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">subsp.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="czerepanovii">czerepanovii</tp:taxon-name-part></tp:taxon-name> locations within their specific regions, they are probably representing the contemporary physiognomic range limits.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>elevation</kwd>
+        <kwd>mountain birch</kwd>
+        <kwd>range limit</kwd>
+        <kwd>re-mapping</kwd>
+        <kwd>spatial coordinates</kwd>
+        <kwd>treeline</kwd>
+      </kwd-group>
+      <funding-group>
+        <funding-statement>The work has been financially supported by Natural History Museum, University of Oslo and Department of Geography, University of Bergen</funding-statement>
+      </funding-group>
+      <counts>
+        <fig-count count="2"/>
+        <table-count count="1"/>
+        <ref-count count="18"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>The last century of global warming affects the world’s vegetation, particularly in cold temperature-limited ecosystems (e.g. <xref ref-type="bibr" rid="B3863849">Hudson and Henry 2009</xref>, <xref ref-type="bibr" rid="B3863877">Pauli et al. 2012</xref>). The two most striking vegetation boundaries along the elevational gradient at northern latitudes, are i) the transition from forest to low-alpine areas with scattered trees (forest line) and ii) the uppermost single trees towards treeless alpine areas (treeline). Both vegetation boundaries (termed TFLs) are primarily limited by low temperatures (<xref ref-type="bibr" rid="B3908847">Holtmeier 2009</xref>, <xref ref-type="bibr" rid="B3863859">Körner 2012</xref>), restricting establishment and height growth, and regulating survival and die-back. A general agreement exists that the TFLs of Norway are moving upwards (e.g. <xref ref-type="bibr" rid="B3863915">Rannow 2013</xref>) and northwards (e.g. <xref ref-type="bibr" rid="B3863820">Hofgaard et al. 2012</xref>). Recent reviews of TFL changes however, have been built on very few and spatially scattered entries from Norway (e.g. <xref ref-type="bibr" rid="B3863793">Cudlín et al. 2017</xref>). Previous re-sampling studies of TFLs from Norway have not been systematically reviewed the last decades, and the data availability has been restricted by the analog format. In addition, the exact locations of the previous re-sampling studies have never been georeferenced, and are partly published in Norwegian or German. To enable renewed re-sampling and to document historical TFL distributions, we have georeferenced 100 locations of re-mapped TFLs of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Betula">Betula</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pubescens">pubescens</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">subsp.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="czerepanovii">czerepanovii</tp:taxon-name-part></tp:taxon-name> (N.I. Orlova) Hämet-Ahti from Norway.</p>
+    </sec>
+    <sec sec-type="General description">
+      <title>General description</title>
+      <sec sec-type="Purpose">
+        <title>Purpose</title>
+        <p>The purpose of making re-mapped and georeferenced data of TFLs available was to enable the data's potential for spatiotemporal analyses of TFL dynamics. Specifically the goals were to identify the localities, georeference them, and through GBIF publish re-mapped TFL locations of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Betula">Betula</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pubescens">pubescens</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">subsp.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="czerepanovii">czerepanovii</tp:taxon-name-part></tp:taxon-name> from Norway.</p>
+      </sec>
+      <sec sec-type="Additional information">
+        <title>Additional information</title>
+        <p>The data described in this article contains 100 georeferenced entries of re-mapped TFLs of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Betula">Betula</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pubescens">pubescens</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">subsp.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="czerepanovii">czerepanovii</tp:taxon-name-part></tp:taxon-name>. The data contains registrations of elevation from two periods, a first registry and a second re-mapped registry from the same site. Each entry consists of re-mapped TFL localities that are georeferenced. The elevation and exposition is given for both records. Elevational and spatial uncertainty is provided for all entries, and the re-mapping methods are explained. The entries have recently been published (18 October 2017) on the GBIF-server, they are stored there, and are available for download.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Study extent">
+        <title>Study extent</title>
+        <p>The study extent includes mainland Norway.</p>
+      </sec>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>The TFLs have originally been re-sampled in six different ways (Table <xref ref-type="table" rid="T3861565">1</xref>): i) Most of the re-sampling has been carried out by in-situ re-mapping (79 entries), that is to re-visit locations during field-work. ii) Nine entries have been re-sampled through in-situ comparison of old and young forest. The age of the young forest at higher elevation, is then contrasted with the elevation of older forest at lower altitudes. iii) Eight entries were registered through comparing empirical TFLs with climatic TFLs, i.e. documenting elevational difference between lowest land use disturbed TFLs with uppermost climatic TFLs. iv) One entry was re-sampled by comparing the present day forest line with the historical forest line identified on an old photograph, whereas v) one forest line entry was re-sampled based on oral information on the elevation of previous forest line. vi) Two entries were re-sampled by comparing previous TFLs with an updated map.</p>
+        <p>The TFL locations which have been georeferenced, were spatially located through three steps using GIS (ArcGIS v. 10.3). First, the locality names provided by the authors were used to locate sites based on a query in the standard Norwegian topographic maps (<xref ref-type="bibr" rid="B3863868">NMA 2017</xref>). If locality names had changed, they were identified with the help of contemporary analog maps (historical maps). Second, we located the provided aspect on an aspect map derived from a 20 m digital elevation model over Norway. Third, we identified the most likely position at the reported elevation, by interpretation of both old and new aerial photos.</p>
+        <p>The georeferenced locations have two main potential sources of uncertainty: i) the uncertainty given by the original authors regarding the measurements of elevation and ii) the uncertainty regarding the exact spatial position along the combination of aspect and elevation.</p>
+        <p>The uncertainties have been reported in two ways: i) The altitudinal uncertainty (expected precision) has been divided into three categorical classes: high precision (± 5 m a.s.l.) reflects standard GPS quality, intermediate precision (± 10 m a.s.l.) reflects in-situ measurements using barometer, and comparisons of empirical and climatic forest lines, whereas low precision (± 25 m a.s.l.) reflects comparisons of old and young forest lines, comparison with old photo, map comparison, or where authors have reported uncertain measurements of elevation. ii) The uncertainty regarding coordinate precision has been reported as a vector length combining aspect and elevation at the sites. This uncertainty ranges between 160 and 5200 m, with an average of 1113 m.</p>
+      </sec>
+      <sec sec-type="Quality control">
+        <title>Quality control</title>
+        <p>All re-sampled records have been checked with aerial photos, and 76 of the locations (76 %) have been visited during field-work from 2013 to 2017. The oldest re-sampled records are more or less impossible to validate, since they are older than all available aerial photos and precise maps, and since most trees from that period are dead and lost through decomposition.</p>
+        <p>Twenty potential records have not been registered. Ten records were average numbers, and did not represent single locations, whereas the other ten records only showed the elevational change and not the elevation at the locations.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The TFLs have been re-sampled in the main mountain regions of Norway, but some regions have far more entries than others (Fig. <xref ref-type="fig" rid="F3862853">1</xref>). South-central Norway has most of the entries, whereas mid Norway and southeastern Norway lack entries. The coastal mountains have few and scattered entries. The dataset has been gathered within the uppermost parts of the boreal (forest line) and the lower parts of the alpine (treeline) bioclimatic regions (<xref ref-type="bibr" rid="B3863757">Bakkestuen et al. 2008</xref>).</p>
+      </sec>
+      <sec sec-type="Coordinates">
+        <title>Coordinates</title>
+        <p>57°58'50'' and 71°11'8'' Latitude; 4°49'8'' and 31°3'26'' Longitude.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>This dataset includes occurrence data from 1 species, mountain birch (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Betula">Betula</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pubescens">pubescens</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">subsp.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="czerepanovii">czerepanovii</tp:taxon-name-part></tp:taxon-name>). There are two common synonyms, namely <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Betula">Betula</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pubescens">pubescens</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">subsp.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="tortuosa">tortuosa</tp:taxon-name-part></tp:taxon-name> (Ledeb.) Nyman, and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Betula">Betula</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pubescens">pubescens</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">var.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="variety" reg="pumila">pumila</tp:taxon-name-part></tp:taxon-name> (L.) Govaerts. Misidentification of mountain birch (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Betula">Betula</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pubescens">pubescens</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">subsp.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="czerepanovii">czerepanovii</tp:taxon-name-part></tp:taxon-name>), at the highest elevated locations, is highly unlikely. This is because it is the only known tree-forming birch species present at the boreal-alpine ecotone in Norway. In GBIF, the higher nomenclature was added to all records, from Kingdom to Subspecies.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Traits coverage">
+      <title>Traits coverage</title>
+      <p>The entries include mountain birches tall enough to be defined as trees following the definitions of the original authors (Table 1). It is thus the location of a physiognomic plant unit that has been georeferenced.</p>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <sec sec-type="Notes">
+        <title>Notes</title>
+        <p>The data havebeen re-sampled from 1928 to 1996, varying in number from 1 entry in the years 1935, 1962, 1963 and 1993 to 61 entries in 1967 (Fig. <xref ref-type="fig" rid="F3862857">2</xref>). The re-sampled period also varies, from 27 to 109 years. For nine entries, the year of first registry is unknown, since the method was based on comparing previously land use influenced forest lines at low elevation with contemporary high elevation forest lines (<xref ref-type="bibr" rid="B3863943">Ve 1940</xref>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Creative Commons Public Domain Waiver (CC-Zero)</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>20th century <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Betula">Betula</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pubescens">pubescens</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">ssp.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="czerepanovii">czerepanovii</tp:taxon-name-part></tp:taxon-name> tree- and forest lines in Norway</p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.15468/rb4gcc" xlink:type="simple">http://DOI.org/10.15468/rb4gcc</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Alternative identifiers">
+        <title>Alternative identifiers</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="https://www.gbif.org/dataset/ec961283-84ec-46e4-80ba-2cedb9ee51d3" xlink:type="simple">https://www.gbif.org/dataset/ec961283-84ec-46e4-80ba-2cedb9ee51d3</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>1</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>20th century <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Betula">Betula</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pubescens">pubescens</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">ssp.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="czerepanovii">czerepanovii</tp:taxon-name-part></tp:taxon-name> tree- and forest lines in Norway</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Darwin Core Archive Format</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>41</p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>Occurences of re-sampled tree- and forest lines in Norway. The dataset consists of Darwin Core Attributes.</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceID</td>
+                  <td rowspan="1" colspan="1">An identifier for the occurrence</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventID</td>
+                  <td rowspan="1" colspan="1">An identifier for the record (record code)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">parentEventID</td>
+                  <td rowspan="1" colspan="1">An identifier for the pairs of re-sampled occurrences (grouping of events)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">organismID</td>
+                  <td rowspan="1" colspan="1">An identifier for the organism instance</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">dcterms:modified</td>
+                  <td rowspan="1" colspan="1">The most recent date-time on which the resource was changed</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">institutionCode</td>
+                  <td rowspan="1" colspan="1">The acronym of the institution providing the record</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">datasetName</td>
+                  <td rowspan="1" colspan="1">The name identifying the data set from which the record was derived</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificName</td>
+                  <td rowspan="1" colspan="1">The full scientific species name, including authorship information</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">basisOfrecord</td>
+                  <td rowspan="1" colspan="1">The specific nature of the data record</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">kingdom</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the kingdom in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">phylum</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the phylum in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">class</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the class in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">order</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the order in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">family</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the family in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">genus</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the genus in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">specificEpithet</td>
+                  <td rowspan="1" colspan="1">The name of the species epithet of the scientificName</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">infraspecificEpithet</td>
+                  <td rowspan="1" colspan="1">The name of the terminal infraspecific epithet of the scientificName, excluding any rank designation</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificNameAuthorship</td>
+                  <td rowspan="1" colspan="1">The authorship information for the scientificName formatted according to the conventions of the applicable nomenclaturalCode</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">recordedBy</td>
+                  <td rowspan="1" colspan="1">Names of the person(s) who has recorded data</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">year</td>
+                  <td rowspan="1" colspan="1">The four-digit year in which the Event occurred, according to the Common Era Calendar</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">month</td>
+                  <td rowspan="1" colspan="1">The ordinal month in which the Event occurred</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">country</td>
+                  <td rowspan="1" colspan="1">The name of the country in which the location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">stateProvince</td>
+                  <td rowspan="1" colspan="1">The name of the county in which the data werecollected</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">locality</td>
+                  <td rowspan="1" colspan="1">The specific name of the locality</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">verbatimLongitude</td>
+                  <td rowspan="1" colspan="1">The verbatim original longitude of the location</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">verbatimLatitude</td>
+                  <td rowspan="1" colspan="1">The verbatim original latitude of the location</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">verbatimCoordinateSystem</td>
+                  <td rowspan="1" colspan="1">The spatial coordinate system for the verbatimLatitude and verbatimLongitude</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLongitude</td>
+                  <td rowspan="1" colspan="1">The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a location</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLatitude</td>
+                  <td rowspan="1" colspan="1">The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a location</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">geodeticDatum</td>
+                  <td rowspan="1" colspan="1">The ellipsoid, geodetic datum, or spatial reference system (SRS) upon which the geographic coordinates given in decimalLatitude and decimalLongitude as based</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">coordinateUncertaintyInMeters</td>
+                  <td rowspan="1" colspan="1">The coordinate uncertainty of the specific locality given in meters</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">georeferencedBy</td>
+                  <td rowspan="1" colspan="1">Names of those who determined the georeference (spatial representation) for the location</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">verbatimElevation</td>
+                  <td rowspan="1" colspan="1">The original description of the elevation (altitude above sea level) of the location, in meters</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">minimumElevationInMeters</td>
+                  <td rowspan="1" colspan="1">The lower limit of the range of elevation (altitude above sea level) of the location, in meters</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">maximumElevationInMeters</td>
+                  <td rowspan="1" colspan="1">The higher limit of the range of elevation (altitude above sea level) of the location, in meters</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">associatedReferences</td>
+                  <td rowspan="1" colspan="1">Reference to the original literature associated with the occurrence</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">dynamicProperties</td>
+                  <td rowspan="1" colspan="1">Aspect of the locality given as categories (E, SE, S, SW, W, NW, N, NE)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventRemarks</td>
+                  <td rowspan="1" colspan="1">Provides a record of the two physiognomic units that were measured at the location; tree line or forest line</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">samplingProtocol</td>
+                  <td rowspan="1" colspan="1">A short name describing the method for re-sampling tree- and forest lines</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventRemarks</td>
+                  <td rowspan="1" colspan="1">Specific comment regarding uncertainty or method</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">samplingProtocol</td>
+                  <td rowspan="1" colspan="1">A short name describing the type of physiognomic range limit (single highest or lowest)</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>The authors would like to thank Dag Endresen and Christian Svindseth at GBIF Oslo, Peter Horvath for help during field-work, two anonymous reviewers for their comments on the manuscript, and all authors of the publications from which we have georeferenced entries.</p>
+    </ack>
+    <notes>
+      <sec sec-type="Author contributions">
+        <title>Author contributions</title>
+        <p>Both authors have contributed equally.</p>
+      </sec>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B3863704">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Aas</surname>
+              <given-names>Börre</given-names>
+            </name>
+          </person-group>
+          <year>1969</year>
+          <article-title>Climatically raised birch lines in Southeastern Norway 1918-1968</article-title>
+          <source>Norsk Geografisk Tidsskrift</source>
+          <volume>23</volume>
+          <issue>3</issue>
+          <fpage>119</fpage>
+          <lpage>130</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1080/00291956908542805</uri>
+          <pub-id pub-id-type="doi">10.1080/00291956908542805</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3863714">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Aas</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Faarlund</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <year>1995</year>
+          <article-title>Skoggrenseutviklingen i Norge, særlig i det 20. århundre.</article-title>
+          <source>AmS-Varia</source>
+          <volume>24</volume>
+          <fpage>89</fpage>
+          <lpage>100</lpage>
+          <comment content-type="language">Norwegian</comment>
+        </element-citation>
+      </ref>
+      <ref id="B3863734">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Aas</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Faarlund</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <year>1996</year>
+          <chapter-title>The present and the Holocene subalpine birch belt in Norway</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Frenzel</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <source>Holocene treeline oscillations, dendrochronology and palaeoclimate</source>
+          <publisher-name>Gustav Fischer Verlag</publisher-name>
+          <publisher-loc>Stuttgart</publisher-loc>
+          <size units="page">19-42</size>
+          <isbn>3437253867</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B3863748">
+        <element-citation publication-type="thesis" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Axelsen</surname>
+              <given-names>B. J.</given-names>
+            </name>
+          </person-group>
+          <year>1975</year>
+          <source>Ressursutnyttelse i et fjellområde. Seterfjellet i Øystre Slidre - Utnyttelse av og påvirking på naturgrunnlaget</source>
+          <publisher-name>University of Oslo</publisher-name>
+          <publisher-loc>Oslo</publisher-loc>
+          <comment content-type="language">Norwegian</comment>
+        </element-citation>
+      </ref>
+      <ref id="B3863757">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Bakkestuen</surname>
+              <given-names>Vegar</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Erikstad</surname>
+              <given-names>Lars</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Halvorsen</surname>
+              <given-names>Rune</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Step-less models for regional environmental variation in Norway</article-title>
+          <source>Journal of Biogeography</source>
+          <volume>35</volume>
+          <issue>10</issue>
+          <fpage>1906</fpage>
+          <lpage>1922</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1111/j.1365-2699.2008.01941.x</uri>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2699.2008.01941.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3863793">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Cudlín</surname>
+              <given-names>P</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Klopčič</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tognetti</surname>
+              <given-names>R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Malis</surname>
+              <given-names>F</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Alados</surname>
+              <given-names>CL</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bebi</surname>
+              <given-names>P</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Grunewald</surname>
+              <given-names>K</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zhiyanski</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Andonowski</surname>
+              <given-names>V</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Porta</surname>
+              <given-names>N La</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bratanova-Doncheva</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kachaunova</surname>
+              <given-names>E</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Edwards-Jonášová</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ninot</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rigling</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hofgaard</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hlásny</surname>
+              <given-names>T</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Skalák</surname>
+              <given-names>P</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wielgolaski</surname>
+              <given-names>FE</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Drivers of treeline shift in different European mountains</article-title>
+          <source>Climate Research</source>
+          <volume>73</volume>
+          <fpage>135</fpage>
+          <lpage>150</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.3354/cr01465</uri>
+          <pub-id pub-id-type="doi">10.3354/cr01465</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3863830">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ekrheim</surname>
+              <given-names>O</given-names>
+            </name>
+          </person-group>
+          <year>1935</year>
+          <source>Die Waldgrenzen auf der Haugesund-Halbinsel im westlichen Norwegen</source>
+          <publisher-name>Det Norske Videnskaps-Akademi i Oslo</publisher-name>
+          <publisher-loc>Oslo</publisher-loc>
+          <comment content-type="language">German</comment>
+        </element-citation>
+      </ref>
+      <ref id="B3863820">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Hofgaard</surname>
+              <given-names>Annika</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tømmervik</surname>
+              <given-names>Hans</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rees</surname>
+              <given-names>Gareth</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hanssen</surname>
+              <given-names>Frank</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Latitudinal forest advance in northernmost Norway since the early 20th century</article-title>
+          <source>Journal of Biogeography</source>
+          <volume>40</volume>
+          <issue>5</issue>
+          <fpage>938</fpage>
+          <lpage>949</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1111/jbi.12053</uri>
+          <pub-id pub-id-type="doi">10.1111/jbi.12053</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3908847">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Holtmeier</surname>
+              <given-names>F. K.</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <source>Mountain Timberlines: Ecology, Patchiness, and Dynamics</source>
+          <edition>2nd Edition</edition>
+          <publisher-name>Springer Netherlands</publisher-name>
+          <size units="page">438</size>
+          <pub-id pub-id-type="doi">10.1007/978-1-4020-9705-8</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3863849">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Hudson</surname>
+              <given-names>J. M. G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Henry</surname>
+              <given-names>G. H. R.</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>Increased plant biomass in a High Arctic heath community from 1981 to 2008</article-title>
+          <source>Ecology</source>
+          <volume>90</volume>
+          <issue>10</issue>
+          <fpage>2657</fpage>
+          <lpage>2663</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1890/09-0102.1</uri>
+          <pub-id pub-id-type="doi">10.1890/09-0102.1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3863859">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Körner</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <source>Alpine Treeline. Functional Ecology of the Global High Elevation Tree Limits</source>
+          <publisher-name>Springer Verlag</publisher-name>
+          <publisher-loc>Basel</publisher-loc>
+          <isbn>978-3-0348-0395-3</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B3863868">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>NMA</surname>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <source>The N50 topographic map series of Norway. Scale 1:50.000.</source>
+          <publisher-name>Norwegian Mapping Authority</publisher-name>
+          <publisher-loc>Hønesfoss</publisher-loc>
+          <comment content-type="language">Norwegian</comment>
+        </element-citation>
+      </ref>
+      <ref id="B3863877">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Pauli</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gottfried</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dullinger</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Abdaladze</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Akhalkatsi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Alonso</surname>
+              <given-names>J. L. B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Coldea</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dick</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Erschbamer</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Calzado</surname>
+              <given-names>R. F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ghosn</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Holten</surname>
+              <given-names>J. I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kanka</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kazakis</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kollar</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Larsson</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Moiseev</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Moiseev</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Molau</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mesa</surname>
+              <given-names>J. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nagy</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pelino</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Puscas</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rossi</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stanisci</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Syverhuset</surname>
+              <given-names>A. O.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Theurillat</surname>
+              <given-names>J. P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tomaselli</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Unterluggauer</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Villar</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vittoz</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Grabherr</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Recent plant diversity changes on Europe's mountain summits</article-title>
+          <source>Science</source>
+          <volume>336</volume>
+          <issue>6079</issue>
+          <fpage>353</fpage>
+          <lpage>355</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1126/science.1219033</uri>
+          <pub-id pub-id-type="doi">10.1126/science.1219033</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3863915">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Rannow</surname>
+              <given-names>Sven</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Do shifting forest limits in south-west Norway keep up with climate change?</article-title>
+          <source>Scandinavian Journal of Forest Research</source>
+          <volume>28</volume>
+          <issue>6</issue>
+          <fpage>574</fpage>
+          <lpage>580</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1080/02827581.2013.793776</uri>
+          <pub-id pub-id-type="doi">10.1080/02827581.2013.793776</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3863925">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Skar</surname>
+              <given-names>Ø.</given-names>
+            </name>
+          </person-group>
+          <year>1964</year>
+          <source>Vettismorki. Monografi over et skogområde. Meldinger fra Norges Landbrukshøgskole 43</source>
+          <publisher-name>Norges Landbrukshøgskole</publisher-name>
+          <publisher-loc>Ås</publisher-loc>
+          <comment content-type="language">Norwegian</comment>
+        </element-citation>
+      </ref>
+      <ref id="B3863934">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ve</surname>
+              <given-names>Søren</given-names>
+            </name>
+          </person-group>
+          <year>1930</year>
+          <source>Skogtrærnes forekomst og høidegrenser i Årdal. Plantegeografiske og bygdehistoriske studier</source>
+          <publisher-name>A.S. John Griegs Boktrykkeri</publisher-name>
+          <publisher-loc>Bergen</publisher-loc>
+          <comment content-type="language">Norwegian</comment>
+        </element-citation>
+      </ref>
+      <ref id="B3863943">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ve</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <year>1940</year>
+          <source>Skog og treslag i Indre Sogn frå Lærdal til Fillefjell. Med ei utgreiding um gran i Sogn.</source>
+          <publisher-name>Vestlandets forstlige forsøksstation</publisher-name>
+          <publisher-loc>Bergen</publisher-loc>
+          <comment content-type="language">Norwegian</comment>
+        </element-citation>
+      </ref>
+      <ref id="B3863952">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ve</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <year>1951</year>
+          <chapter-title>Stig skoggrensa?</chapter-title>
+          <source>Tidsskrift for skogbruk</source>
+          <edition>59</edition>
+          <size units="page">305-317</size>
+          <comment content-type="language">Norwegian</comment>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F3862853" position="float" orientation="portrait">
+      <object-id content-type="arpha">151F17E8-CCB4-5C46-A52D-D81EBAB10FF7</object-id>
+      <object-id content-type="doi">10.3897/BDJ.5.e22093.figure1</object-id>
+      <object-id content-type="zenodo_dep_id">1137503</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Distribution of the re-mapped tree- and forest lines in Norway.</p>
+      </caption>
+      <graphic xlink:href="bdj-05-e22093-g001.jpg" position="float" id="oo_164976.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/164976</uri>
+      </graphic>
+    </fig>
+    <fig id="F3862857" position="float" orientation="portrait">
+      <object-id content-type="arpha">9E302A94-2EE2-53BA-AC2E-AE115D32B812</object-id>
+      <object-id content-type="doi">10.3897/BDJ.5.e22093.figure2</object-id>
+      <object-id content-type="zenodo_dep_id">1137505</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>Number of re-mapped records per year.</p>
+      </caption>
+      <graphic xlink:href="bdj-05-e22093-g002.jpg" position="float" id="oo_164977.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/164977</uri>
+      </graphic>
+    </fig>
+    <table-wrap id="T3861565" position="float" orientation="portrait">
+      <label>Table 1.</label>
+      <caption>
+        <p>Reference to original author and number of entries of tree- and forest lines.</p>
+      </caption>
+      <table rules="all" border="1">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Original author (reference)</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Tree lines</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Forest lines</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Re-sampling method</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <xref ref-type="bibr" rid="B3863714">Aas and Faarlund 1995</xref>
+            </td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">In-situ re-mapping (1), photo comparison (1) and map comparison (1)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <xref ref-type="bibr" rid="B3863734">Aas and Faarlund 1996</xref>
+            </td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">5</td>
+            <td rowspan="1" colspan="1">In-situ re-mapping (4) and map comparison (1)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <xref ref-type="bibr" rid="B3863704">Aas 1969</xref>
+            </td>
+            <td rowspan="1" colspan="1">36</td>
+            <td rowspan="1" colspan="1">25</td>
+            <td rowspan="1" colspan="1">In-situ re-mapping</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <xref ref-type="bibr" rid="B3863748">Axelsen 1975</xref>
+            </td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">7</td>
+            <td rowspan="1" colspan="1">In-situ re-mapping</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <xref ref-type="bibr" rid="B3863830">Ekrheim 1935</xref>
+            </td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">Oral information</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <xref ref-type="bibr" rid="B3863925">Skar 1964</xref>
+            </td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">In-situ re-mapping</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <xref ref-type="bibr" rid="B3863934">Ve 1930</xref>
+            </td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">In-situ re-mapping</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <xref ref-type="bibr" rid="B3863943">Ve 1940</xref>
+            </td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">8</td>
+            <td rowspan="1" colspan="1">Comparison of empiric and climatic forest</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <xref ref-type="bibr" rid="B3863952">Ve 1951</xref>
+            </td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">7</td>
+            <td rowspan="1" colspan="1">Comparison of old and young forests</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Total</td>
+            <td rowspan="1" colspan="1">40</td>
+            <td rowspan="1" colspan="1">60</td>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+  </floats-group>
+</article>

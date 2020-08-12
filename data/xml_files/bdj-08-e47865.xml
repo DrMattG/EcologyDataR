@@ -1,0 +1,1725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.8.e47865</article-id>
+      <article-id pub-id-type="publisher-id">47865</article-id>
+      <article-id pub-id-type="manuscript">12171</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="conference-part">
+          <subject>Azores Biota</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Chordata</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Biodiversity &amp; Conservation</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>Atlantic Ocean</subject>
+          <subject>Europe</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Wildlife inventory from camera-trapping surveys in the Azores (Pico and Terceira islands)</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes">
+          <name name-style="western">
+            <surname>Lamelas-Lopez</surname>
+            <given-names>Lucas</given-names>
+          </name>
+          <email xlink:type="simple">lucaslamelaslopez@gmail.com</email>
+          <uri content-type="orcid">https://orcid.org/0000-0002-2230-7033</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Pardavila</surname>
+            <given-names>Xose</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0001-9772-0052</uri>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Amorim</surname>
+            <given-names>Isabel R.</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0001-6847-3320</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Borges</surname>
+            <given-names>Paulo A. V.</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-8448-7623</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">CE3C – Centre for Ecology, Evolution and Environmental Changes / Azorean Biodiversity Group and Universidade dos Açores, Angra do Heroísmo, Azores, Portugal</addr-line>
+        <institution>CE3C – Centre for Ecology, Evolution and Environmental Changes / Azorean Biodiversity Group and Universidade dos Açores</institution>
+        <addr-line content-type="city">Angra do Heroísmo, Azores</addr-line>
+        <country>Portugal</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">Área de Ecoloxía, Departamento de Bioloxía Celular e Ecoloxía, Universidade de Santiago de Compostela. Spain., Santiago de Compostela, Spain</addr-line>
+        <institution>Área de Ecoloxía, Departamento de Bioloxía Celular e Ecoloxía, Universidade de Santiago de Compostela. Spain.</institution>
+        <addr-line content-type="city">Santiago de Compostela</addr-line>
+        <country>Spain</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Lucas Lamelas-Lopez (<email xlink:type="simple">lucaslamelaslopez@gmail.com</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Cynthia Parr</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2020</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>24</day>
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>8</volume>
+      <elocation-id>e47865</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/EEE265EE-6DB6-5D19-8F16-9E22CB915242">EEE265EE-6DB6-5D19-8F16-9E22CB915242</uri>
+      <history>
+        <date date-type="received">
+          <day>31</day>
+          <month>10</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>03</day>
+          <month>01</month>
+          <year>2020</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Lucas Lamelas-Lopez, Xose Pardavila, Isabel R. Amorim, Paulo A. V. Borges</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>The present publication provides a dataset from five camera-trapping sampling campaigns on two islands of the Azorean archipelago (Pico and Terceira islands), between 2013-2018. This dataset was obtained as a by-product of campaigns designed for different purposes. The sampling campaigns were designed to: (i) study the ecology of introduced mammals; (ii) assess the impact of introduced mammals on native birds (Azores woodpigeon - <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Columba">Columba</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="palumbus">palumbus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="azorica">azorica</tp:taxon-name-part></tp:taxon-name></italic> and Cory's shearwater - <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Calonectris">Calonectris</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="diomeda">diomeda</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="borealis">borealis</tp:taxon-name-part></tp:taxon-name></italic>), through nest predation; and (iii) obtain information about the impact of vertebrates on agricultural systems, particularly on Azorean traditional vineyards. A total of 258 sites and 47 nests were sampled using camera traps. These sampling campaigns provided a large data series that allowed the creation of a vertebrate wildlife inventory.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>We obtained a total of 102,095 camera-trap records, which allowed us to to identify 30 species of vertebrates: one amphibian, one reptile, 17 birds and ten mammal species. This represented 100% of the amphibians and terrestrial mammals, 58% of the breeding birds and 50% of the reptile species known for Pico and/or Terceira islands. Concerning the colonisation status of the species, we recorded 15 indigenous (native non-endemic or endemic) and three introduced bird species; all known terrestrial amphibians, reptiles and mammals in the Azores are introduced species. The data collected contribute to increasing knowledge on the distribution of vertebrate species on Pico and Terceira islands, where most existing records of some species were only available to Island level (e.g. mustelids and hedgehogs). None of the identified species was previously unknown to the study area.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>Camera-traps</kwd>
+        <kwd>Vertebrates</kwd>
+        <kwd>Oceanic islands</kwd>
+        <kwd>Introduced species</kwd>
+      </kwd-group>
+      <funding-group>
+        <funding-statement>LLL was supported by a grant from the Fundação para a Ciência e Tecnologia - FCT (SFRH/BD/115022/2016). IRA was funded by national funds through FCT – Fundação para a Ciência e a Tecnologia, I.P., under the Norma Transitória – DL57/2016/CP1375/CT0003. Open access was funded by FEDER (85%) and by Azorean Public funds (15%), through Operational Program Azores 2020 under the project AZORESBIOPORTAL – PORBIOTA (ACORES-01-0145-FEDER-000072)</funding-statement>
+      </funding-group>
+      <counts>
+        <fig-count count="2"/>
+        <table-count count="1"/>
+        <ref-count count="23"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>Camera-trapping is commonly used to answer a variety of research questions in the fields of animal ecology, behavioural studies and conservation biology (<xref ref-type="bibr" rid="B5301917">O’Connell et al. 2011</xref>). It has also been used to assess the impacts of invasive species on native biodiversity (<xref ref-type="bibr" rid="B5301752">Hervías et al. 2012</xref>, <xref ref-type="bibr" rid="B5301769">Oppel et al. 2014</xref>) and the damage to wildlife in agriculture systems (<xref ref-type="bibr" rid="B5301782">Coates et al. 2010</xref>), as well as to address questions on spatial and temporal dynamics of animal populations (<xref ref-type="bibr" rid="B5301917">O’Connell et al. 2011</xref>). Although camera-traps are most often used to study medium- and large-sized terrestrial mammals (<xref ref-type="bibr" rid="B5301792">Tobler et al. 2008</xref>, <xref ref-type="bibr" rid="B5301805">Rovero et al. 2010</xref>), they have been successfully used to study arboreal mammals (<xref ref-type="bibr" rid="B5301846">Oliveira-Santos et al. 2008</xref>, <xref ref-type="bibr" rid="B5301856">Di Cerbo and Biancardi 2012</xref>) and small-sized species (<xref ref-type="bibr" rid="B5301866">MCCleery et al. 2014</xref>, <xref ref-type="bibr" rid="B5301878">Rendall et al. 2014</xref>, <xref ref-type="bibr" rid="B5301888">Taylor et al. 2014</xref>). Camera-traps are also useful for detecting rare or elusive species (<xref ref-type="bibr" rid="B5319667">Si et al. 2014</xref>).</p>
+      <p>Cameras are triggered by passing animals, allowing a record of animal presence and date and time of the detection (<xref ref-type="bibr" rid="B5301917">O’Connell et al. 2011</xref>). This allows the estimation of abundance and density (using capture-recapture models) for individually recognisable species (<xref ref-type="bibr" rid="B5301898">Karanth 1995</xref>, <xref ref-type="bibr" rid="B5301917">O’Connell et al. 2011</xref>). However, when it is impossible to distinguish specimens individually, camera-traps can also be used to calculate relative abundance indices of species (<xref ref-type="bibr" rid="B5301926">Rovero and Marshall 2009</xref>, <xref ref-type="bibr" rid="B5301917">O’Connell et al. 2011</xref>).</p>
+      <p>Camera-trapping has demonstrated to be one of the most efficient and low-cost sampling methods for faunal assessments, although it requires a large initial investment (<xref ref-type="bibr" rid="B5301936">Silveira et al. 2003</xref>, <xref ref-type="bibr" rid="B5301946">Lyra-Jorge et al. 2008</xref>, <xref ref-type="bibr" rid="B5301956">De Bondi et al. 2010</xref>). In particular, it is a very useful technique for wildlife inventories (<xref ref-type="bibr" rid="B5301792">Tobler et al. 2008</xref>, <xref ref-type="bibr" rid="B5301805">Rovero et al. 2010</xref>, <xref ref-type="bibr" rid="B5468245">Rovero et al. 2016</xref>) and monitoring (<xref ref-type="bibr" rid="B5301977">Yasuda 2004</xref>, <xref ref-type="bibr" rid="B5301966">Glen et al. 2013</xref>, <xref ref-type="bibr" rid="B5301878">Rendall et al. 2014</xref>), given its ability to generate large data series, recording the presence of target and non-target species.</p>
+      <p>In the Azores, very few studies have been done using camera-trapping to study vertebrates (but see, for example, <xref ref-type="bibr" rid="B5301752">Hervías et al. 2012</xref> about nest predation). Here we aim to describe the main findings of the five sampling campaigns using camera-trapping to survey vertebrates, conducted between 2013 and 2018 in the Azores, namely on the islands of Pico and Terceira.</p>
+    </sec>
+    <sec sec-type="General description">
+      <title>General description</title>
+      <sec sec-type="Purpose">
+        <title>Purpose</title>
+        <p>To provide a vertebrate inventory for the Azores (Pico and Terceira islands), based on data obtained as a by-product from five field sampling campaigns using camera-trapping.</p>
+      </sec>
+      <sec sec-type="Additional information">
+        <title>Additional information</title>
+        <p>Between 2013 and 2018, two sampling campaigns were conducted on Terceira island ("TER_13-15" survey) and on Terceira and Pico islands ("TER-PIC_18" survey) in order to study the ecology of introduced mammals. A third sampling campaign was performed between 2015 and 2017 in vineyards on Terceira island in order to evaluate grape consumption by vertebrate species ("Vineyards_15-17" survey). Additionally, between 2016 and 2018, two sampling campaigns were performed on Terceira island, in order to assess the impact of introduced mammals on native birds, on Cory's Shearwater (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Calonectris">Calonectris</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="diomedea">diomedea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="borealis">borealis</tp:taxon-name-part></tp:taxon-name></italic>; "Calonectris_16" survey) and the Azores woodpigeon (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Columba">Columba</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="palumba">palumba</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="azorica">azorica</tp:taxon-name-part></tp:taxon-name></italic>; "Columba_17-18" survey), through nest predation monitoring.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Study extent">
+        <title>Study extent</title>
+        <p>This dataset was obtained from different sampling campaigns performed between 2013 and 2018 in two islands of the central group of the Azores archipelago, Pico and Terceira Islands.</p>
+        <p>We described the study extent of the different sampling campaigns below:</p>
+        <p><list list-type="bullet">
+          <list-item>
+            <p>The survey "TER_13-15" was conducted between 2013 and 2015 on Terceira island, to investigate the ecology of introduced mammals. A total of 72 sites were sampled, but five sites were excluded due to camera failures. Each site was sampled during seven consecutive days.</p>
+          </list-item>
+          <list-item>
+            <p>The survey "PIC-TER_18" was conducted in 2018 on Pico and Terceira islands, to investigate the ecology of introduced mammals. A total of 69 sites were sampled, with 33 and 34 sites, located in Pico and Terceira islands, respectively. Each site was sampled during ten consecutive days.</p>
+          </list-item>
+          <list-item>
+            <p>The survey "Vineyards_15-17" was conducted in three consecutive years (2015, 2016 and 2017) in a vineyards area known as Protected Landscape Area of Biscoitos Vineyards, located in the North of Terceira island, to evaluate grape consumption by vertebrates. A total of 117 sites were sampled, with 20, 49 and 48 sites sampled during 2015, 2016 and 2017, respectively. Each site was sampled during seven consecutive days.</p>
+          </list-item>
+          <list-item>
+            <p>The survey "Calonectris_16" was conducted in 2016 on Terceira island, to assess the impact of introduced mammals. A total of 17 nests of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Calonectris">Calonectris</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="diomedea">diomedea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="borealis">borealis</tp:taxon-name-part></tp:taxon-name></italic> were sampled. Each nest was sampled during ten consecutive days.</p>
+          </list-item>
+          <list-item>
+            <p>The survey "Columba_17-18" was conducted in 2017 and 2018 on Terceira island, to assess the impact of introduced mammals. A total of 30 nests of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Columba">Columba</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="palumbus">palumbus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="azorica">azorica</tp:taxon-name-part></tp:taxon-name></italic> were sampled, with 9 and 21 sites sampled in 2017 and 2018, respectively. Each nest was sampled during ten consecutive days.</p>
+          </list-item>
+        </list></p>
+      </sec>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>All sites were sampled using camera-traps that were fixed to a tree or wooden stick. The sampling effort was measured as camera-trap days, i.e. the number of camera traps multiplied by the number of days that they remained active (<xref ref-type="bibr" rid="B5301805">Rovero et al. 2010</xref>). The sensitivity of the infrared sensor was configured to high to increase the species detection (<xref ref-type="bibr" rid="B5301917">O’Connell et al. 2011</xref>). Cameras were configured to take events with 30 seconds of delay between them, recording the date and time of each event. Cameras remained active 24 hours per day.</p>
+        <p>For the surveys "TER_13-15" and "PIC-TER_18" sampling sites were randomly selected, separated at least by 1 km. In each sampling site, one camera trap and a bait were deployed, 150-200 cm apart. Bait, consisting of meat or fish, fruit or vegetables and molasses, was used to increase the species detection (<xref ref-type="bibr" rid="B5302030">du Preez et al. 2014</xref>).</p>
+        <p>For the surveys "Vineyards_15-17", "Calonectris_16" and "Columba_17-18", no bait was used. In the case of the "Vineyards_15-17" survey, sampling sites were selected at random, deploying one camera at each site, facing bunches of grapes. For "Calonectris_16" and "Columba_17-18" surveys, one camera was installed at 50-150 cm from the study nest (Fig. <xref ref-type="fig" rid="F5302049">1</xref>).</p>
+      </sec>
+      <sec sec-type="Quality control">
+        <title>Quality control</title>
+        <p>Taxonomic nomenclature followed the GBIF species profile and, for Azorean subspecies, we used the vertebrate checklist in <xref ref-type="bibr" rid="B5309255">Borges et al. 2010</xref>.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>Pico and Terceira islands, the Azores, Macaronesia, Portugal</p>
+      </sec>
+      <sec sec-type="Coordinates">
+        <title>Coordinates</title>
+        <p>38.434491 and 38.7617777778 Latitude; -28.4228543692 and -27.1971972222 Longitude.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Taxa included">
+        <title>Taxa included</title>
+        <table-wrap id="taxonomic_coverage" position="anchor" orientation="portrait">
+          <table rules="all">
+            <thead>
+              <tr>
+                <th rowspan="1" colspan="1">Rank</th>
+                <th rowspan="1" colspan="1">Scientific Name</th>
+                <th rowspan="1" colspan="1">Common Name</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">class</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1">Mammals</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">class</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1">Birds</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">class</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1">Reptiles</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">class</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="class">Amphibia</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1">Amphibians</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <p><bold>Data range:</bold> 2013-9-08 – 2018-8-10.</p>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Open Data Commons Attribution License</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>Wildlife inventory in the Azores using camera trapping</p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="http://ipt.gbif.pt/ipt/resource?r=camera_trapping_azores">http://ipt.gbif.pt/ipt/resource?r=camera_trapping_azores</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Alternative identifiers">
+        <title>Alternative identifiers</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="https://www.gbif.org/dataset/7d6b90d2-14c0-4ba6-9e45-449b56bab878">https://www.gbif.org/dataset/7d6b90d2-14c0-4ba6-9e45-449b56bab878</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>1</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Wildlife inventory in the Azores using camera trapping</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Darwin Core Archive</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>39</p>
+        </sec>
+        <sec sec-type="Data format version">
+          <title>Data format version</title>
+          <p>version 1</p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>The dataset was published in GBIF (see <xref ref-type="bibr" rid="B5382123">Lamelas-López et al. 2019</xref>). The following data table includes all the records for which a taxonomic identification of the species was possible. The dataset submitted to GBIF is structured as a sample event dataset, with two tables: event (as core) and occurrences. The data in this sampling event resource have been published as a Darwin Core Archive (DwCA), which is a standardised format for sharing biodiversity data as a set of one or more data tables. The core data table contains 2,308 records (eventID). One extension data table also exists with 108,186 occurrences. This large number of occurrences is a consequence of the fact that cameras were configured to take occurrences with 30 seconds of delay between them, recording the date and time of each record. Cameras remained active 24 hours per day. An extension record supplies extra information about a core record. The number of records in each extension data table is illustrated in the IPT link. This IPT archives the data and thus serves as the data repository. The data and resource metadata are available for downloading in the downloads section.</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">Table of Sampling Events</td>
+                  <td rowspan="1" colspan="1">Table with sampling events data</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventID</td>
+                  <td rowspan="1" colspan="1">Identifier of the events, unique for the dataset</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">samplingProtocol</td>
+                  <td rowspan="1" colspan="1">The sampling method used</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">sampleSizeValue</td>
+                  <td rowspan="1" colspan="1">The number of days that the cameras remain active in each sampling</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">sampleSizeUnit</td>
+                  <td rowspan="1" colspan="1">The unit of the sample size value</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">samplingEffort</td>
+                  <td rowspan="1" colspan="1">The number of camera-trap days expended during an event</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventDate</td>
+                  <td rowspan="1" colspan="1">Date when the event occurred</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">habitat</td>
+                  <td rowspan="1" colspan="1">The habitat type in which the event occurred</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">locationID</td>
+                  <td rowspan="1" colspan="1">An identifier of the camera location</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">island</td>
+                  <td rowspan="1" colspan="1">Name of the island on which camera location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">country</td>
+                  <td rowspan="1" colspan="1">Country in which camera location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">countryCode</td>
+                  <td rowspan="1" colspan="1">ISO code of the country in which camera location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">stateProvince</td>
+                  <td rowspan="1" colspan="1">Name of the region in which camera location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLatitude</td>
+                  <td rowspan="1" colspan="1">The geographic latitude, in decimal degrees</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLongitude</td>
+                  <td rowspan="1" colspan="1">The geographic longitude, in decimal degrees</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">geodeticDatum</td>
+                  <td rowspan="1" colspan="1">The reference point for the various coordinate systems used in mapping the earth</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">coordinateUncertaintyInMetres</td>
+                  <td rowspan="1" colspan="1">Uncertainty of the coordinates, in metres</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">fieldNotes</td>
+                  <td rowspan="1" colspan="1">Notes about the use or non-use of bait in the sampling sites</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventRemarks</td>
+                  <td rowspan="1" colspan="1">Additional information supporting the survey code</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Table of Occurrences</td>
+                  <td rowspan="1" colspan="1">Table with species occurrences</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">id</td>
+                  <td rowspan="1" colspan="1">Unique identifier</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventID</td>
+                  <td rowspan="1" colspan="1">A unique identifier of an occurrence</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">ocurrenceID</td>
+                  <td rowspan="1" colspan="1">Identifier of the event, coded as a global unique identifier</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">basisOfRecord</td>
+                  <td rowspan="1" colspan="1">The nature of the data record</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventDate</td>
+                  <td rowspan="1" colspan="1">Date when the event occurred</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventTime</td>
+                  <td rowspan="1" colspan="1">Time of the day when the event occurred</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">organismQuantity</td>
+                  <td rowspan="1" colspan="1">A number for the quantity of organisms</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">organismQuantityType</td>
+                  <td rowspan="1" colspan="1">The unit used to quantify the organisms</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceStatus</td>
+                  <td rowspan="1" colspan="1">Information about the presence/absence of a taxon at a camera location</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">kingdom</td>
+                  <td rowspan="1" colspan="1">Kingdom name in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">phylum</td>
+                  <td rowspan="1" colspan="1">Phylum name in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">class</td>
+                  <td rowspan="1" colspan="1">Class name in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">order</td>
+                  <td rowspan="1" colspan="1">Order name in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">family</td>
+                  <td rowspan="1" colspan="1">Family name in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">genus</td>
+                  <td rowspan="1" colspan="1">Genus name in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">specificEpithet</td>
+                  <td rowspan="1" colspan="1">Species name in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">infraspecificEpithet</td>
+                  <td rowspan="1" colspan="1">Subspecies name in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificName</td>
+                  <td rowspan="1" colspan="1">The full scientific name including author and year</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">taxonRank</td>
+                  <td rowspan="1" colspan="1">Lowest taxonomic rank of the event</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+    <sec sec-type="Additional information">
+      <title>Additional information</title>
+      <p>
+        <bold>Results and Discussion</bold>
+      </p>
+      <p>A total of 102,095 records were obtained (see example in Fig. <xref ref-type="fig" rid="F5302053">2</xref>): two were amphibians, 12,072 reptiles, 61,329 birds and 28,692 mammals. The majority of records were obtained on Terceira Island (94,731) since most of the sampling campaigns occurred on this island. Additionally, for 11,203 records, species identification was not possible, although most individuals could unequivocally be assigned to the mammal order <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Rodentia</tp:taxon-name-part></tp:taxon-name> (11,055). This dataset provides reliable records that contribute to increasing knowledge on the distribution of vertebrate species on Pico and Terceira islands, where most existing records of some species were only available to Island level (e.g. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Mustela">Mustela</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="furo">furo</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Mustela">Mustela</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="nivalis">nivalis</tp:taxon-name-part></tp:taxon-name></italic> or <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Erinaceus">Erinaceus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="europaeus">europaeus</tp:taxon-name-part></tp:taxon-name></italic>), according to current GBIF occurrence data. Spatial (e.g. habitat type) and temporal (date and hour of the record) information of the species are also included in the dataset resources.</p>
+      <p>A total of 30 species were identified: one amphibian, one reptile, 17 birds and ten mammal species (Table <xref ref-type="table" rid="T5300964">1</xref>). According to the most recent available Azorean biota checklist (<xref ref-type="bibr" rid="B5309255">Borges et al. 2010</xref>), we recorded 100% of the amphibians and terrestrial mammals, 58% of the breeding birds and 50% of the reptile species known for Pico and/or Terceira islands. Cattle (e.g. cows) and invertebrate species (e.g. flies, bees or snails) were also recorded, but were excluded from the analysis and results.</p>
+      <p>The species with the highest number of records were the Azores Woodpigeon - <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Columba">Columba</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="palumbus">palumbus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="azorica">azorica</tp:taxon-name-part></tp:taxon-name></italic> (53,752), the black rat - <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Rattus">Rattus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="rattus">rattus</tp:taxon-name-part></tp:taxon-name></italic> (40,756) and the Madeira lizard - <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Teira">Teira</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="dugesii">dugesii</tp:taxon-name-part></tp:taxon-name></italic> (24,074). In the case of the Azores Woodpigeon, the high number of records was due to the fact that adults remain in the nests for long periods, causing many camera captures.</p>
+      <p>Green frog - <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pelophylax">Pelophylax</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="perezi">perezi</tp:taxon-name-part></tp:taxon-name></italic>, the European quail - <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Coturnix">Coturnix</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="coturnix">coturnix</tp:taxon-name-part></tp:taxon-name></italic>, Azorean buzzard- <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Buteo">Buteo</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="buteo">buteo</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="rothschildi">rothschildi</tp:taxon-name-part></tp:taxon-name></italic>, Atlantic yellow-legged gull - <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Larus">Larus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="michaellis">michaellis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="atlantis">atlantis</tp:taxon-name-part></tp:taxon-name></italic>, common snipe - <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Gallinago">Gallinago</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="gallinago">gallinago</tp:taxon-name-part></tp:taxon-name></italic>, long-eared owl - <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Asio">Asio</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="otus">otus</tp:taxon-name-part></tp:taxon-name></italic> and grey wagtail - <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Motacilla">Motacilla</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="cinerea">cinerea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="patriciae">patriciae</tp:taxon-name-part></tp:taxon-name></italic> were the least captured species (&lt; 10 records).</p>
+      <p>In total, we recorded 15 indigenous (native non-endemic or endemic) and three introduced bird species (Table <xref ref-type="table" rid="T5300964">1</xref>). All known amphibians, reptiles and terrestrial mammals found in Azores are introduced species (<xref ref-type="bibr" rid="B5309255">Borges et al. 2010</xref>). None of the identified species was previously unknown to the study area.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>We thank Lucía Lamelas, Herlander Lima, Jose Sarangollo, David Rodilla, María Olivo, Sophie Wallon, Raquel Daza, Alejandra Ros, William Sharkey, Jose Ortolá and Luis Ansias for their assistance during the fieldwork, and Jagoba Malumbres-Olarte for his useful comments in the first version of the manuscript. We are also grateful to the Agrarian Development Service of Terceira and the Natural Park of Terceira for logistical support, particularly to Fábio Raposo, Paula Cordeiro, Sónia Alves and João Amaral. LLL was supported by a grant from Fundação para a Ciência e Tecnologia - FCT (SFRH/BD/115022/2016). Open access was funded by FEDER (85%) and by Azorean Public funds (15%), through the Operational Program Azores 2020 under the project AZORESBIOPORTAL – PORBIOTA (ACORES-01-0145-FEDER-000072).</p>
+    </ack>
+    <sec sec-type="Author contributions">
+      <title>Author contributions</title>
+      <p>LLL and XP conceived the sampling protocols. LLL and PAV conceived the data paper. LLL performed the fieldwork. LLL analysed the data; LLL led the writing of the manuscript and XP, IRA and PAV contributed to the final manuscript.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="B5309255">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Borges</surname>
+              <given-names>P. A. V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Costa</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cunha</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gabriel</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gonçalves</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Martins</surname>
+              <given-names>A. F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Melo</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Parente</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Raposeiro</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rodrigues</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Santos</surname>
+              <given-names>R. S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Silva</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vieira</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vieira</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <source>A list of the terrestrial and marine biota from the Azores.</source>
+          <publisher-name>Princípia</publisher-name>
+          <publisher-loc>Cascais</publisher-loc>
+          <size units="page">430</size>
+          <uri>http:// www.azoresbioportal.angra.uac.pt/files/publicacoes_Listagem_ml.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5301782">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Coates</surname>
+              <given-names>Robert W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Delwiche</surname>
+              <given-names>Michael J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gorenzel</surname>
+              <given-names>W. Paul</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Salmon</surname>
+              <given-names>Terrell P.</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>Evaluation of damage by vertebrate pests in California vineyards and control of wild turkeys by bioacoustics</article-title>
+          <source>Utah State University</source>
+          <volume>4</volume>
+          <issue>1</issue>
+          <fpage>130</fpage>
+          <lpage>144</lpage>
+          <pub-id pub-id-type="doi">10.26077/KMNP-J738</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5301956">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>De Bondi</surname>
+              <given-names>Natasha</given-names>
+            </name>
+            <name name-style="western">
+              <surname>White</surname>
+              <given-names>John G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stevens</surname>
+              <given-names>Mike</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cooke</surname>
+              <given-names>Raylene</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>A comparison of the effectiveness of camera trapping and live trapping for sampling terrestrial small-mammal communities</article-title>
+          <source>Wildlife Research</source>
+          <volume>37</volume>
+          <issue>6</issue>
+          <fpage>456</fpage>
+          <lpage>465</lpage>
+          <pub-id pub-id-type="doi">10.1071/wr10046</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5301856">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Di Cerbo</surname>
+              <given-names>Anna Rita</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Biancardi</surname>
+              <given-names>Carlo M.</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Monitoring small and arboreal mammals by camera traps: effectiveness and applications</article-title>
+          <source>Acta Theriologica</source>
+          <volume>58</volume>
+          <issue>3</issue>
+          <fpage>279</fpage>
+          <lpage>283</lpage>
+          <pub-id pub-id-type="doi">10.1007/s13364-012-0122-9</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5302030">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>du Preez</surname>
+              <given-names>Byron D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Loveridge</surname>
+              <given-names>Andrew J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Macdonald</surname>
+              <given-names>David W.</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>To bait or not to bait: A comparison of camera-trapping methods for estimating leopard <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Panthera">Panthera</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pardus">pardus</tp:taxon-name-part></tp:taxon-name></italic> density</article-title>
+          <source>Biological Conservation</source>
+          <volume>176</volume>
+          <fpage>153</fpage>
+          <lpage>161</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.biocon.2014.05.021</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5301966">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Glen</surname>
+              <given-names>Alistair S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cockburn</surname>
+              <given-names>Stuart</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nichols</surname>
+              <given-names>Margaret</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ekanayake</surname>
+              <given-names>Jagath</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Warburton</surname>
+              <given-names>Bruce</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Optimising camera traps for monitoring small mammals</article-title>
+          <source>PLOS One</source>
+          <volume>8</volume>
+          <issue>6</issue>
+          <fpage>e67940</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0067940</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5301752">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Hervías</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Henriques</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Oliveira</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pipa</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cowen</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ramos</surname>
+              <given-names>J. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nogales</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Geraldes</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Silva</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>de Ybáñez</surname>
+              <given-names>R. Ruiz</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Oppel</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Studying the effects of multiple invasive mammals on Cory’s shearwater nest survival</article-title>
+          <source>Biological Invasions</source>
+          <volume>15</volume>
+          <issue>1</issue>
+          <fpage>143</fpage>
+          <lpage>155</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10530-012-0274-1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5301898">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Karanth</surname>
+              <given-names>K. Ullas</given-names>
+            </name>
+          </person-group>
+          <year>1995</year>
+          <article-title>Estimating tiger <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Panthera">Panthera</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="tigris">tigris</tp:taxon-name-part></tp:taxon-name></italic> populations from camera-trap data using capture—recapture models</article-title>
+          <source>Biological Conservation</source>
+          <volume>71</volume>
+          <issue>3</issue>
+          <fpage>333</fpage>
+          <lpage>338</lpage>
+          <pub-id pub-id-type="doi">10.1016/0006-3207(94)00057-w</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5382123">
+        <element-citation publication-type="software">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lamelas-López</surname>
+              <given-names>L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pardavila</surname>
+              <given-names>X</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Amorim</surname>
+              <given-names>I. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Borges</surname>
+              <given-names>P. A. V.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Wildlife inventory in the Azores using camera trapping. v1.4. Universidade dos Açores. Dataset/Samplingevent</article-title>
+          <publisher-name>GBIF</publisher-name>
+          <date-in-citation content-type="released">2019-10-17T00:00:00+03:00</date-in-citation>
+          <pub-id pub-id-type="doi">10.15468/tcmnya</pub-id>
+          <comment content-type="Version">1.4</comment>
+        </element-citation>
+      </ref>
+      <ref id="B5301946">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lyra-Jorge</surname>
+              <given-names>Maria Carolina</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ciocheti</surname>
+              <given-names>Giordano</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pivello</surname>
+              <given-names>Vânia Regina</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Meirelles</surname>
+              <given-names>Sérgio Tadeu</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Comparing methods for sampling large- and medium-sized mammals: camera traps and track plots</article-title>
+          <source>European Journal of Wildlife Research</source>
+          <volume>54</volume>
+          <issue>4</issue>
+          <fpage>739</fpage>
+          <lpage>744</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10344-008-0205-8</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5301866">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>MCCleery</surname>
+              <given-names>Robert A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zweig</surname>
+              <given-names>Christa L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Desa</surname>
+              <given-names>Melissa A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hunt</surname>
+              <given-names>Rodney</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kitchens</surname>
+              <given-names>Wiley M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Percival</surname>
+              <given-names>H. Franklin</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>A novel method for camera-trapping small mammals</article-title>
+          <source>Wildlife Society Bulletin</source>
+          <volume>38</volume>
+          <issue>4</issue>
+          <fpage>887</fpage>
+          <lpage>891</lpage>
+          <pub-id pub-id-type="doi">10.1002/wsb.447</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5301917">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>O’Connell</surname>
+              <given-names>Allan F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nichols</surname>
+              <given-names>James D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Karanth</surname>
+              <given-names>K. Ullas</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <source>Camera traps in animal ecology: Methods and analyses</source>
+          <publisher-name>Springer Science &amp; Business Media</publisher-name>
+          <size units="page">271</size>
+          <pub-id pub-id-type="doi">10.1007/978-4-431-99495-4</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5301846">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Oliveira-Santos</surname>
+              <given-names>Luiz Gustavo R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tortato</surname>
+              <given-names>Marcos A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Graipel</surname>
+              <given-names>Maurício E.</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Activity pattern of Atlantic Forest small arboreal mammals as revealed by camera traps</article-title>
+          <source>Journal of Tropical Ecology</source>
+          <volume>24</volume>
+          <issue>5</issue>
+          <fpage>563</fpage>
+          <lpage>567</lpage>
+          <pub-id pub-id-type="doi">10.1017/s0266467408005324</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5301769">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Oppel</surname>
+              <given-names>Steffen</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Burns</surname>
+              <given-names>Fiona</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vickery</surname>
+              <given-names>Juliet</given-names>
+            </name>
+            <name name-style="western">
+              <surname>George</surname>
+              <given-names>Kevin</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ellick</surname>
+              <given-names>Gavin</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Leo</surname>
+              <given-names>Dennis</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hillman</surname>
+              <given-names>Jesse C.</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>Habitat-specific effectiveness of feral cat control for the conservation of an endemic ground-nesting bird species</article-title>
+          <source>Journal of Applied Ecology</source>
+          <volume>51</volume>
+          <issue>5</issue>
+          <fpage>1246</fpage>
+          <lpage>1254</lpage>
+          <pub-id pub-id-type="doi">10.1111/1365-2664.12292</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5301878">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Rendall</surname>
+              <given-names>Anthony R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sutherland</surname>
+              <given-names>Duncan R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cooke</surname>
+              <given-names>Raylene</given-names>
+            </name>
+            <name name-style="western">
+              <surname>White</surname>
+              <given-names>John</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>Camera trapping: A contemporary approach to monitoring invasive rodents in high conservation priority ecosystems</article-title>
+          <source>PLOS One</source>
+          <volume>9</volume>
+          <issue>3</issue>
+          <fpage>e86592</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0086592</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5301926">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Rovero</surname>
+              <given-names>Francesco</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Marshall</surname>
+              <given-names>Andrew R.</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>Camera trapping photographic rate as an index of density in forest ungulates</article-title>
+          <source>Journal of Applied Ecology</source>
+          <volume>46</volume>
+          <issue>5</issue>
+          <fpage>1011</fpage>
+          <lpage>1017</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2664.2009.01705.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5301805">
+        <element-citation publication-type="chapter">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Rovero</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tobler</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sanderson</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <chapter-title>Camera trapping for inventorying terrestrial vertebrates.</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Eymann</surname>
+              <given-names>Jutta</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Häuser</surname>
+              <given-names>Christoph</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Monje</surname>
+              <given-names>Juan Carlos</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Samyn</surname>
+              <given-names>Yves</given-names>
+            </name>
+            <name name-style="western">
+              <surname>VandenSpiegel</surname>
+              <given-names>Didier</given-names>
+            </name>
+          </person-group>
+          <source>Manual on field recording techniques and protocols for all taxa biodiversity inventories</source>
+          <publisher-name>The Belgian National Focal Point to the Global Taxonomy Initiative</publisher-name>
+          <size units="page">100-128</size>
+        </element-citation>
+      </ref>
+      <ref id="B5468245">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Rovero</surname>
+              <given-names>Francesco</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Owen</surname>
+              <given-names>Nisha</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jones</surname>
+              <given-names>Trevor</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Canteri</surname>
+              <given-names>Elisabetta</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Iemma</surname>
+              <given-names>Aaron</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tattoni</surname>
+              <given-names>Clara</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Camera trapping surveys of forest mammal communities in the Eastern Arc Mountains reveal generalized habitat and human disturbance responses</article-title>
+          <source>Biodiversity and Conservation</source>
+          <volume>26</volume>
+          <issue>5</issue>
+          <fpage>1103</fpage>
+          <lpage>1119</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10531-016-1288-2</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5301936">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Silveira</surname>
+              <given-names>Leandro</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jácomo</surname>
+              <given-names>Anah T. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Diniz-Filho</surname>
+              <given-names>José Alexandre F.</given-names>
+            </name>
+          </person-group>
+          <year>2003</year>
+          <article-title>Camera trap, line transect census and track surveys: a comparative evaluation</article-title>
+          <source>Biological Conservation</source>
+          <volume>114</volume>
+          <issue>3</issue>
+          <fpage>351</fpage>
+          <lpage>355</lpage>
+          <pub-id pub-id-type="doi">10.1016/s0006-3207(03)00063-6</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5319667">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Si</surname>
+              <given-names>Xingfeng</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kays</surname>
+              <given-names>Roland</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ding</surname>
+              <given-names>Ping</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>How long is enough to detect terrestrial animals? Estimating the minimum trapping effort on camera traps</article-title>
+          <source>PeerJ</source>
+          <volume>2</volume>
+          <pub-id pub-id-type="doi">10.7717/peerj.374</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5301888">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Taylor</surname>
+              <given-names>Brendan D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Goldingay</surname>
+              <given-names>Ross L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lindsay</surname>
+              <given-names>John M.</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>Horizontal or vertical? Camera trap orientations and recording modes for detecting potoroos, bandicoots and pademelons</article-title>
+          <source>Australian Mammalogy</source>
+          <volume>36</volume>
+          <issue>1</issue>
+          <fpage>60</fpage>
+          <lpage>66</lpage>
+          <pub-id pub-id-type="doi">10.1071/am13012</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5301792">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Tobler</surname>
+              <given-names>M. W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Carrillo-Percastegui</surname>
+              <given-names>S. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pitman</surname>
+              <given-names>R. Leite</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mares</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Powell</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>An evaluation of camera traps for inventorying large‐ and medium‐sized terrestrial rainforest mammals</article-title>
+          <source>Animal Conservation</source>
+          <volume>11</volume>
+          <issue>3</issue>
+          <fpage>169</fpage>
+          <lpage>178</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1469-1795.2008.00169.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5301977">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Yasuda</surname>
+              <given-names>Masatoshi</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <article-title>Monitoring diversity and abundance of mammals with camera traps: a case study on Mount Tsukuba, central Japan</article-title>
+          <source>Mammal Study</source>
+          <volume>29</volume>
+          <issue>1</issue>
+          <fpage>37</fpage>
+          <lpage>46</lpage>
+          <pub-id pub-id-type="doi">10.3106/mammalstudy.29.37</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F5302049" position="float" orientation="portrait">
+      <object-id content-type="arpha">8F04EA2C-E3CE-552B-80D6-8D48A9BF1158</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e47865.figure1</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Examples of camera trap sampling sites. Left: camera facing a <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Calonectris">Calonectris</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="diomedea">diomedea</tp:taxon-name-part></tp:taxon-name></italic> nest; Right: camera trap facing a bait station.</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e47865-g001.png" position="float" id="oo_324005.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/324005</uri>
+      </graphic>
+    </fig>
+    <fig id="F5302053" position="float" orientation="portrait">
+      <object-id content-type="arpha">DAFA7562-9916-5294-A98D-9C7293C3D2AE</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e47865.figure2</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>Example of a camera trap record. The record shows the presence of a cat (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Felis">Felis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="catus">catus</tp:taxon-name-part></tp:taxon-name></italic>) on 21 February 2015, at 06:44 pm.</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e47865-g002.jpg" position="float" id="oo_324009.JPG" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/324009</uri>
+      </graphic>
+    </fig>
+    <table-wrap id="T5300964" position="float" orientation="portrait">
+      <label>Table 1.</label>
+      <caption>
+        <p>Number of events (photos or videos) and colonisation status of species recorded in different projects in Terceira and Pico, since 2013 until 2018, based on camera-trapping. Abbreviations: endemic subspecies of Azores (azo); endemic of Macaronesia (mac); introduced (int); native non-endemic (nat).</p>
+      </caption>
+      <table rules="all" border="0">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">Class</td>
+            <td rowspan="1" colspan="1" style="width: 204px;">Species</td>
+            <td rowspan="1" colspan="1" style="width: 46px;">Status</td>
+            <td rowspan="1" colspan="1">TER_13-15</td>
+            <td rowspan="1" colspan="1" style="width: 61px;">PIC-TER_18</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">Vineyards_15-17</td>
+            <td rowspan="1" colspan="1" style="width: 82px;">Calonectris_16</td>
+            <td rowspan="1" colspan="1">Columba_17-18</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Amphibia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 204px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pelophylax">Pelophylax</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="perezi">perezi</tp:taxon-name-part></tp:taxon-name></italic> (López-Seoane, 1885)</td>
+            <td rowspan="1" colspan="1" style="width: 46px;">int</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1" style="width: 61px;">2</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 82px;">0</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 204px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Teira">Teira</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="dugesii">dugesii</tp:taxon-name-part></tp:taxon-name></italic> (Milne-Edwards, 1829)</td>
+            <td rowspan="1" colspan="1" style="width: 46px;">int</td>
+            <td rowspan="1" colspan="1">56</td>
+            <td rowspan="1" colspan="1" style="width: 61px;">985</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">11017</td>
+            <td rowspan="1" colspan="1" style="width: 82px;">14</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 204px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Coturnix">Coturnix</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="coturnix">coturnix</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="conturbans">conturbans</tp:taxon-name-part></tp:taxon-name></italic> Hartert, 1917</td>
+            <td rowspan="1" colspan="1" style="width: 46px;">nat</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1" style="width: 61px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">1</td>
+            <td rowspan="1" colspan="1" style="width: 82px;">0</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 204px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Calonectris">Calonectris</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="borealis">borealis</tp:taxon-name-part></tp:taxon-name></italic> (Cory, 1891)</td>
+            <td rowspan="1" colspan="1" style="width: 46px;">nat</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1" style="width: 61px;">3</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 82px;">2015</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 204px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Buteo">Buteo</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="buteo">buteo</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="rothschildi">rothschildi</tp:taxon-name-part></tp:taxon-name></italic> (Swann, 1919)</td>
+            <td rowspan="1" colspan="1" style="width: 46px;">azo</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1" style="width: 61px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 82px;">0</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 204px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Larus">Larus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="michahellis">michahellis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="atlantis">atlantis</tp:taxon-name-part></tp:taxon-name></italic> Dwight, 1922</td>
+            <td rowspan="1" colspan="1" style="width: 46px;">azo</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1" style="width: 61px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 82px;">0</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 204px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Gallinago">Gallinago</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="gallinago">gallinago</tp:taxon-name-part></tp:taxon-name></italic> (Linnaeus, 1758)</td>
+            <td rowspan="1" colspan="1" style="width: 46px;">nat</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1" style="width: 61px;">2</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 82px;">0</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 204px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Scolopax">Scolopax</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="rusticola">rusticola</tp:taxon-name-part></tp:taxon-name></italic> Linnaeus, 1758</td>
+            <td rowspan="1" colspan="1" style="width: 46px;">nat</td>
+            <td rowspan="1" colspan="1">16</td>
+            <td rowspan="1" colspan="1" style="width: 61px;">102</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 82px;">0</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 204px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Columba">Columba</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="livia">livia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="domestica">domestica</tp:taxon-name-part></tp:taxon-name></italic> Gmelin, 1789</td>
+            <td rowspan="1" colspan="1" style="width: 46px;">int</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1" style="width: 61px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">23</td>
+            <td rowspan="1" colspan="1" style="width: 82px;">100</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 204px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Columba">Columba</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="palumbus">palumbus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="azorica">azorica</tp:taxon-name-part></tp:taxon-name></italic> Hartert, 1905</td>
+            <td rowspan="1" colspan="1" style="width: 46px;">azo</td>
+            <td rowspan="1" colspan="1">47</td>
+            <td rowspan="1" colspan="1" style="width: 61px;">6</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">40</td>
+            <td rowspan="1" colspan="1" style="width: 82px;">0</td>
+            <td rowspan="1" colspan="1">53752</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 204px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Asio">Asio</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="otus">otus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="otus">otus</tp:taxon-name-part></tp:taxon-name></italic> (Linnaeus, 1758)</td>
+            <td rowspan="1" colspan="1" style="width: 46px;">nat</td>
+            <td rowspan="1" colspan="1">7</td>
+            <td rowspan="1" colspan="1" style="width: 61px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 82px;">0</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 204px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Chloris">Chloris</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="chloris">chloris</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="aurantiiventris">aurantiiventris</tp:taxon-name-part></tp:taxon-name></italic> (Cabanis, 1851)</td>
+            <td rowspan="1" colspan="1" style="width: 46px;">int</td>
+            <td rowspan="1" colspan="1">9</td>
+            <td rowspan="1" colspan="1" style="width: 61px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">2</td>
+            <td rowspan="1" colspan="1" style="width: 82px;">0</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 204px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Fringilla">Fringilla</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="coelebs">coelebs</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="moreletti">moreletti</tp:taxon-name-part></tp:taxon-name></italic> Pucheran, 1859</td>
+            <td rowspan="1" colspan="1" style="width: 46px;">azo</td>
+            <td rowspan="1" colspan="1">60</td>
+            <td rowspan="1" colspan="1" style="width: 61px;">117</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">88</td>
+            <td rowspan="1" colspan="1" style="width: 82px;">1</td>
+            <td rowspan="1" colspan="1">8</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 204px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Serinus">Serinus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="canaria">canaria</tp:taxon-name-part></tp:taxon-name></italic> (Linnaeus, 1758)</td>
+            <td rowspan="1" colspan="1" style="width: 46px;">mac</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1" style="width: 61px;">6</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">259</td>
+            <td rowspan="1" colspan="1" style="width: 82px;">2</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 204px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Motacilla">Motacilla</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="cinerea">cinerea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="patriciae">patriciae</tp:taxon-name-part></tp:taxon-name></italic> Vaurie, 1957</td>
+            <td rowspan="1" colspan="1" style="width: 46px;">azo</td>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1" style="width: 61px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 82px;">0</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 204px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Passer">Passer</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="domesticus">domesticus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="domesticus">domesticus</tp:taxon-name-part></tp:taxon-name></italic> Linnaeus, 1758</td>
+            <td rowspan="1" colspan="1" style="width: 46px;">int</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1" style="width: 61px;">3</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">1544</td>
+            <td rowspan="1" colspan="1" style="width: 82px;">0</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 204px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sturnus">Sturnus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="vulgaris">vulgaris</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="granti">granti</tp:taxon-name-part></tp:taxon-name></italic> Hartert, 1903</td>
+            <td rowspan="1" colspan="1" style="width: 46px;">azo</td>
+            <td rowspan="1" colspan="1">10</td>
+            <td rowspan="1" colspan="1" style="width: 61px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 82px;">1</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 204px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sylvia">Sylvia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="atricapilla">atricapilla</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="gularis">gularis</tp:taxon-name-part></tp:taxon-name></italic> Alexander, 1898</td>
+            <td rowspan="1" colspan="1" style="width: 46px;">azo</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1" style="width: 61px;">248</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">65</td>
+            <td rowspan="1" colspan="1" style="width: 82px;">2</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 204px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Erithacus">Erithacus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="rubecula">rubecula</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="rubecula">rubecula</tp:taxon-name-part></tp:taxon-name></italic> (Linnaeus, 1758)</td>
+            <td rowspan="1" colspan="1" style="width: 46px;">nat</td>
+            <td rowspan="1" colspan="1">25</td>
+            <td rowspan="1" colspan="1" style="width: 61px;">92</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">6</td>
+            <td rowspan="1" colspan="1" style="width: 82px;">6</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 204px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Turdus">Turdus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="merula">merula</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="azorensis">azorensis</tp:taxon-name-part></tp:taxon-name></italic> Hartert, 1905</td>
+            <td rowspan="1" colspan="1" style="width: 46px;">azo</td>
+            <td rowspan="1" colspan="1">300</td>
+            <td rowspan="1" colspan="1" style="width: 61px;">1403</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">912</td>
+            <td rowspan="1" colspan="1" style="width: 82px;">23</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 204px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Mustela">Mustela</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="nivalis">nivalis</tp:taxon-name-part></tp:taxon-name></italic> (Linnaeus, 1758)</td>
+            <td rowspan="1" colspan="1" style="width: 46px;">int</td>
+            <td rowspan="1" colspan="1">14</td>
+            <td rowspan="1" colspan="1" style="width: 61px;">1</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">13</td>
+            <td rowspan="1" colspan="1" style="width: 82px;">2</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 204px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Mustela">Mustela</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="furo">furo</tp:taxon-name-part></tp:taxon-name></italic> (Linnaeus, 1758)</td>
+            <td rowspan="1" colspan="1" style="width: 46px;">int</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1" style="width: 61px;">43</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 82px;">1</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 204px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Felis">Felis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="silvestris">silvestris</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="catus">catus</tp:taxon-name-part></tp:taxon-name></italic> Schreber, 1775</td>
+            <td rowspan="1" colspan="1" style="width: 46px;">int</td>
+            <td rowspan="1" colspan="1">996</td>
+            <td rowspan="1" colspan="1" style="width: 61px;">1042</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">41</td>
+            <td rowspan="1" colspan="1" style="width: 82px;">10</td>
+            <td rowspan="1" colspan="1">30</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 204px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Canis">Canis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="lupus">lupus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="familiaris">familiaris</tp:taxon-name-part></tp:taxon-name></italic> Linnaeus, 1758</td>
+            <td rowspan="1" colspan="1" style="width: 46px;">int</td>
+            <td rowspan="1" colspan="1">150</td>
+            <td rowspan="1" colspan="1" style="width: 61px;">64</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">1</td>
+            <td rowspan="1" colspan="1" style="width: 82px;">0</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 204px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Dama">Dama</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="dama">dama</tp:taxon-name-part></tp:taxon-name></italic> (Linnaeus, 1758)</td>
+            <td rowspan="1" colspan="1" style="width: 46px;">int</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1" style="width: 61px;">4</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 82px;">2</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 204px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Mus">Mus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="musculus">musculus</tp:taxon-name-part></tp:taxon-name></italic> Linnaeus, 1758</td>
+            <td rowspan="1" colspan="1" style="width: 46px;">int</td>
+            <td rowspan="1" colspan="1">83</td>
+            <td rowspan="1" colspan="1" style="width: 61px;">3037</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">63</td>
+            <td rowspan="1" colspan="1" style="width: 82px;">2</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 204px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Rattus">Rattus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="norvergicus">norvergicus</tp:taxon-name-part></tp:taxon-name></italic> (Berkenhout, 1769)</td>
+            <td rowspan="1" colspan="1" style="width: 46px;">int</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1" style="width: 61px;">2134</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 82px;">0</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 204px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Rattus">Rattus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="rattus">rattus</tp:taxon-name-part></tp:taxon-name></italic> (Linnaeus, 1758)</td>
+            <td rowspan="1" colspan="1" style="width: 46px;">int</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1" style="width: 61px;">20239</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 82px;">0</td>
+            <td rowspan="1" colspan="1">278</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 204px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oryctolagus">Oryctolagus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="cuniculus">cuniculus</tp:taxon-name-part></tp:taxon-name></italic> (Linnaeus, 1758)</td>
+            <td rowspan="1" colspan="1" style="width: 46px;">int</td>
+            <td rowspan="1" colspan="1">369</td>
+            <td rowspan="1" colspan="1" style="width: 61px;">3</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">4</td>
+            <td rowspan="1" colspan="1" style="width: 82px;">0</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 204px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Erinaceus">Erinaceus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="europaeus">europaeus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="europaeus">europaeus</tp:taxon-name-part></tp:taxon-name></italic> (Linnaeus, 1758)</td>
+            <td rowspan="1" colspan="1" style="width: 46px;">int</td>
+            <td rowspan="1" colspan="1">40</td>
+            <td rowspan="1" colspan="1" style="width: 61px;">20</td>
+            <td rowspan="1" colspan="1" style="width: 76px;">2</td>
+            <td rowspan="1" colspan="1" style="width: 82px;">0</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+  </floats-group>
+</article>

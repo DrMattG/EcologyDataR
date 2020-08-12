@@ -1,0 +1,2484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.8.e48623</article-id>
+      <article-id pub-id-type="publisher-id">48623</article-id>
+      <article-id pub-id-type="manuscript">12986</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Amphibia</subject>
+          <subject>Pulmonata</subject>
+          <subject>Arachnida</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Biogeography</subject>
+          <subject>Biodiversity &amp; Conservation</subject>
+          <subject>Ecology &amp; Environmental sciences</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>Sardinia</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Cave morphology, microclimate and abundance of five cave predators from the Monte Albo (Sardinia, Italy)</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes">
+          <name name-style="western">
+            <surname>Lunghi</surname>
+            <given-names>Enrico</given-names>
+          </name>
+          <email xlink:type="simple">enrico.arti@gmail.com</email>
+          <uri content-type="orcid">https://orcid.org/0000-0002-4228-2750</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Corti</surname>
+            <given-names>Claudia</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Mulargia</surname>
+            <given-names>Manuela</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <name name-style="western">
+            <surname>Zhao</surname>
+            <given-names>Yahui</given-names>
+          </name>
+          <email xlink:type="simple">zhaoyh@ioz.ac.cn</email>
+          <uri content-type="orcid">https://orcid.org/0000-0002-4615-596X</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Manenti</surname>
+            <given-names>Raoul</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0001-6071-8194</uri>
+          <xref ref-type="aff" rid="A5">5</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Ficetola</surname>
+            <given-names>Gentile Francesco</given-names>
+          </name>
+          <xref ref-type="aff" rid="A5">5</xref>
+          <xref ref-type="aff" rid="A6">6</xref>
+          <xref ref-type="aff" rid="A7">7</xref>
+          <xref ref-type="aff" rid="A8">8</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Veith</surname>
+            <given-names>Michael</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Key Laboratory of the Zoological Systematics and Evolution, Institute of Zoology, Chinese Academy of Sciences, Beijing, China</addr-line>
+        <institution>Key Laboratory of the Zoological Systematics and Evolution, Institute of Zoology, Chinese Academy of Sciences</institution>
+        <addr-line content-type="city">Beijing</addr-line>
+        <country>China</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">Museo di Storia Naturale dell'Università degli Studi di Firenze, "La Specola", Firenze, Italy</addr-line>
+        <institution>Museo di Storia Naturale dell'Università degli Studi di Firenze, "La Specola"</institution>
+        <addr-line content-type="city">Firenze</addr-line>
+        <country>Italy</country>
+      </aff>
+      <aff id="A3">
+        <label>3</label>
+        <addr-line content-type="verbatim">Universität Trier Fachbereich VI Raum-und Umweltwissenschaften Biogeographie, Trier, Germany</addr-line>
+        <institution>Universität Trier Fachbereich VI Raum-und Umweltwissenschaften Biogeographie</institution>
+        <addr-line content-type="city">Trier</addr-line>
+        <country>Germany</country>
+      </aff>
+      <aff id="A4">
+        <label>4</label>
+        <addr-line content-type="verbatim">CEAS Santa Lucia, Siniscola, Italy</addr-line>
+        <institution>CEAS Santa Lucia</institution>
+        <addr-line content-type="city">Siniscola</addr-line>
+        <country>Italy</country>
+      </aff>
+      <aff id="A5">
+        <label>5</label>
+        <addr-line content-type="verbatim">Department of Environmental Sciences and Policy, Università degli Studi di Milano, Milano, Italy</addr-line>
+        <institution>Department of Environmental Sciences and Policy, Università degli Studi di Milano</institution>
+        <addr-line content-type="city">Milano</addr-line>
+        <country>Italy</country>
+      </aff>
+      <aff id="A6">
+        <label>6</label>
+        <addr-line content-type="verbatim">Université Grenoble Alpes, CNRS,, Grenoble, France</addr-line>
+        <institution>Université Grenoble Alpes, CNRS,</institution>
+        <addr-line content-type="city">Grenoble</addr-line>
+        <country>France</country>
+      </aff>
+      <aff id="A7">
+        <label>7</label>
+        <addr-line content-type="verbatim">LECA, Laboratoire d’Ecologie Alpine, Grenoble, France</addr-line>
+        <institution>LECA, Laboratoire d’Ecologie Alpine</institution>
+        <addr-line content-type="city">Grenoble</addr-line>
+        <country>France</country>
+      </aff>
+      <aff id="A8">
+        <label>8</label>
+        <addr-line content-type="verbatim">Université Savoie Mont Blanc, Annecy, France</addr-line>
+        <institution>Université Savoie Mont Blanc</institution>
+        <addr-line content-type="city">Annecy</addr-line>
+        <country>France</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding authors: Enrico Lunghi (<email xlink:type="simple">enrico.arti@gmail.com</email>), Yahui Zhao (<email xlink:type="simple">zhaoyh@ioz.ac.cn</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Pedro Cardoso</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2020</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>03</day>
+        <month>02</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>8</volume>
+      <elocation-id>e48623</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/9E3544BB-7F5F-58C6-848A-5235C12FCEA5">9E3544BB-7F5F-58C6-848A-5235C12FCEA5</uri>
+      <history>
+        <date date-type="received">
+          <day>20</day>
+          <month>11</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>16</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Enrico Lunghi, Claudia Corti, Manuela Mulargia, Yahui Zhao, Raoul Manenti, Gentile Francesco Ficetola, Michael Veith</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>Systematic data collection on species and their exploited environments is of key importance for conservation studies. Within the less-known environments, the subterranean ones are neither easy to be studied, nor to be explored. Subterranean environments house a wide number of specialised organisms, many of which show high sensitivity to habitat alteration. Despite the undeniable importance to monitor the status of the subterranean biodiversity, standardised methodologies to record biotic and abiotic data in these environments are still not fully adopted, impeding therefore the creation of comparable datasets useful for monitoring the ecological condition in the subterranean environments and for conservation assessment of related species.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>In this work we describe a methodology allowing the collection of standardised abiotic and biotic data in subterranean environments. To show this, we created a large dataset including information on environmental features (morphology and microclimate) and abundance of five predators (one salamander, three spiders and one snail) occurring in seven caves of the Monte Albo (Sardinia, Italy), an important biodiversity hotspot. We performed 77 surveys on 5,748 m<sup>2</sup> of subterranean environments througout a year, recording 1,695 observations of the five cave predators. The fine-scale data collection adopted in our methodology allowed us to record detailed information related to both morphology and microclimate of the cave inner environment. Furthermore, this method allows us to account for species-imperfect detection when recording presence/abundance data.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>Dataset</kwd>
+        <kwd>standardised data collection</kwd>
+        <kwd>cave biology</kwd>
+        <kwd>troglophiles</kwd>
+        <kwd>salamander</kwd>
+        <kwd>spider</kwd>
+        <kwd>snail</kwd>
+        <kwd>monitoring</kwd>
+        <kwd>endangered species</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="2"/>
+        <table-count count="0"/>
+        <ref-count count="62"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>Subterranean environments represent peculiar habitats with an extraordinary biodiversity, including species with unique adaptive traits (<xref ref-type="bibr" rid="B5444287">Culver and Pipan 2015</xref>, <xref ref-type="bibr" rid="B5444329">Ficetola et al. 2019</xref>, <xref ref-type="bibr" rid="B5444506">Mammola 2019</xref>). Subterranean environments, ranging from small and narrow crevices to great and deep natural (or artificial) caves, are semi-closed systems with, at least, one connection with the surface (<xref ref-type="bibr" rid="B5444676">Culver and Pipan 2019</xref>). Thus, external climate influences the subterranean microclimate, in particular in its shallow parts (<xref ref-type="bibr" rid="B5444195">Badino 2004</xref>, <xref ref-type="bibr" rid="B5444205">Badino 2010</xref>, <xref ref-type="bibr" rid="B5444278">Culver and Pipan 2014</xref>). Subterranean environments are generally divided into different ecological zones according to the intensity of external influence (<xref ref-type="bibr" rid="B5444676">Culver and Pipan 2019</xref>); this differentiation of microhabitats promotes local biodiversity (<xref ref-type="bibr" rid="B5444258">Campbell Grant et al. 2007</xref>, <xref ref-type="bibr" rid="B5444268">Culver and Pipan 2010</xref>). The entrance and twilight zones of the cave are the parts most influenced by the external climatic conditions, while, far from the surface, such influence becomes weaker and the microclimate is more stable (<xref ref-type="bibr" rid="B5444463">Lunghi et al. 2015</xref>, <xref ref-type="bibr" rid="B5444676">Culver and Pipan 2019</xref>).</p>
+      <p>Subterranean environments are inhabited by peculiar animal communities (<xref ref-type="bibr" rid="B5444297">Culver and White 2005</xref>, <xref ref-type="bibr" rid="B5444615">Romero 2009</xref>, <xref ref-type="bibr" rid="B5444624">Romero 2011</xref>). Species living in subterranean environments are subdivided into three macro-categories according to their degree of adaptation to the subterranean environment (<xref ref-type="bibr" rid="B5444594">Pavan 1944</xref>, <xref ref-type="bibr" rid="B5444371">Howarth and Moldovan 2018</xref>). The trogloxenes are species showing little or no adaptation and are often an accidental presence in subterranean environments. Troglophiles are species that can show some adaptations to cave life and are able to spend at least part of their life in subterranean habitats. Troglobites are obligate cave species showing the highest adaptation to these particular environments. Species commonly thought to visit caves accidentally were usually considered of least importance for subterranean habitats (<xref ref-type="bibr" rid="B5444634">Sket 2008</xref>, <xref ref-type="bibr" rid="B5453404">Trajano and de Carvalho 2017</xref>); however, recent studies showed that some of them are actually selecting areas with specific conditions (<xref ref-type="bibr" rid="B5444453">Lunghi et al. 2014</xref>, <xref ref-type="bibr" rid="B5444560">Manenti et al. 2017</xref><xref ref-type="bibr" rid="B5444415">Lunghi et al. 2018a</xref>) and, in some cases, they can hold a key role in supplying organic matter to the entire ecosystem (<xref ref-type="bibr" rid="B5444238">Barzaghi et al. 2017</xref>, <xref ref-type="bibr" rid="B5444676">Culver and Pipan 2019</xref>). Most of the cave-related species are usually very sensitive to habitat alterations, a condition promoted by the high stability of the subterranean microclimate (<xref ref-type="bibr" rid="B5444604">Rizzo et al. 2015</xref>, <xref ref-type="bibr" rid="B5444526">Mammola et al. 2019a</xref>). The adaptation to the narrow range of environmental conditions present in these particular habitats, promotes a reduced home range and dispersal ability in subterranean organisms, often resulting in high rates of endemism (<xref ref-type="bibr" rid="B5444537">Manenti et al. 2018</xref>, <xref ref-type="bibr" rid="B5444676">Culver and Pipan 2019</xref>). This feature contributes to increasing the risk of extinction of cave animals (<xref ref-type="bibr" rid="B5444644">Williams et al. 2009</xref>, <xref ref-type="bibr" rid="B5444443">Lunghi et al. 2019</xref>) and thus, particular attention and updated information are needed to protect the subterranean environments and their inhabiting biodiversity (<xref ref-type="bibr" rid="B5444329">Ficetola et al. 2019</xref>, <xref ref-type="bibr" rid="B5453414">Mammola et al. 2019b</xref>).</p>
+      <p>Considering the complexity of exploring subterranean habitats (<xref ref-type="bibr" rid="B5444656">Zagmajster et al. 2010</xref>), information on these environments is generally limited to a small group of specialists and have coarse scales. For example, the information related to the cave inner morphology usually describes the overall shape of the subterranean space and it is often published in local speleological bulletins or cadasters. Moreover, studies on cave microclimate rarely focus on fine-scale data collection (<xref ref-type="bibr" rid="B5453495">Cigna 2002</xref>), which is the most reliable information to detect potential alterations of the environment due to human activities (<xref ref-type="bibr" rid="B5458339">Langer 2001</xref>, <xref ref-type="bibr" rid="B5458348">Marín et al. 2012</xref>, <xref ref-type="bibr" rid="B5453414">Mammola et al. 2019b</xref>), as well as to assess the microclimatic conditions actually experienced by species characterised by limited home ranges (<xref ref-type="bibr" rid="B5444258">Campbell Grant et al. 2007</xref>, <xref ref-type="bibr" rid="B5444473">Lunghi et al. 2017</xref>, <xref ref-type="bibr" rid="B5444339">Ficetola et al. 2018a</xref>, <xref ref-type="bibr" rid="B5444516">Mammola et al. 2018</xref>). Today, we observe a growing interest in the ecology and biodiversity of subterranean environments, as testified by the increasing amount of available literature (<xref ref-type="bibr" rid="B5444615">Romero 2009</xref>, <xref ref-type="bibr" rid="B5444685">Moldovan et al. 2018</xref>, <xref ref-type="bibr" rid="B5444506">Mammola 2019</xref>, <xref ref-type="bibr" rid="B5444712">White et al. 2019</xref>) and related datasets (<xref ref-type="bibr" rid="B5444425">Lunghi et al. 2018c</xref>, <xref ref-type="bibr" rid="B5458359">Lunghi et al. 2019b</xref>, <xref ref-type="bibr" rid="B5444881">Mammola et al. 2019c</xref>); however, a standardised methodology to record data in these environments is still not widely adopted, therefore impeding the creation of comparable datasets (<xref ref-type="bibr" rid="B5453505">Wynne et al. 2019</xref>). Here we provide a detailed description of a methodology useful to record fine-scale standardised biotic and abiotic data in subterranean environments. Using this approach, we produced a large dataset containing fine-scale data describing the morphology and microclimate of the inner environment from seven caves located in the Monte Albo massif (Sardinia, Italy) (Fig. <xref ref-type="fig" rid="F5444741">1</xref>). Furthermore, this approach also allowed us to record data on species presence and abundance, information of key importance for assessing species conservation status (<xref ref-type="bibr" rid="B5444361">Ficetola et al. 2017</xref>, <xref ref-type="bibr" rid="B5444306">Ficetola et al. 2018b</xref>).</p>
+    </sec>
+    <sec sec-type="General description">
+      <title>General description</title>
+      <sec sec-type="Purpose">
+        <title>Purpose</title>
+        <p>The aim of this paper is to describe a standardised method to record fine-scale ecological and biological data in subterranean environments. To prove this, we here provide a large dataset recorded using the proposed approach (Suppl. material <xref ref-type="supplementary-material" rid="S5445654">1</xref>). The dataset includes morphological and microclimatic features from seven caves located in the Monte Albo massif (Sardinia, Italy). Furthermore, the dataset includes the abundance of five cave predators (Fig. <xref ref-type="fig" rid="F5445676">2</xref>): <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hydromantes">Hydromantes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="flavus">flavus</tp:taxon-name-part></tp:taxon-name></italic> Stefani, 1969 (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Urodela</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Plethodontidae</tp:taxon-name-part></tp:taxon-name>), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Meta">Meta</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="bourneti">bourneti</tp:taxon-name-part></tp:taxon-name></italic> (Roberts, 1995) (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Tetragnathidae</tp:taxon-name-part></tp:taxon-name>), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Metellina">Metellina</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="merianae">merianae</tp:taxon-name-part></tp:taxon-name></italic> (Scopoli, 1763) (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Tetragnathidae</tp:taxon-name-part></tp:taxon-name>), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Tegenaria">Tegenaria</tp:taxon-name-part></tp:taxon-name></italic> sp. Latreille, 1804 (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Agelenidae</tp:taxon-name-part></tp:taxon-name>), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oxychilus">Oxychilus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="oppressus">oppressus</tp:taxon-name-part></tp:taxon-name></italic> (Shuttleworth, 1877) (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Gastropoda</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Oxychilidae</tp:taxon-name-part></tp:taxon-name>). Data here are integrated with those published in <xref ref-type="bibr" rid="B5444405">Lunghi (2018)</xref>.</p>
+      </sec>
+      <sec sec-type="Additional information">
+        <title>Additional information</title>
+        <p>Recommendations to adopt this survey method:</p>
+        <p><list list-type="bullet">
+          <list-item>
+            <p>This methodology was designed to monitor the endangered European cave salamanders of the genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hydromantes">Hydromantes</tp:taxon-name-part></tp:taxon-name></italic> (<xref ref-type="bibr" rid="B5444351">Ficetola et al. 2012</xref>, <xref ref-type="bibr" rid="B5444453">Lunghi et al. 2014</xref>, <xref ref-type="bibr" rid="B5444463">Lunghi et al. 2015</xref>), therefore the cave inner environment was divided according to the home range of these salamanders in subterranean environment (~3 m<sup>2</sup>; <xref ref-type="bibr" rid="B5444385">Lanza et al. 2006</xref>). Although this methodology is also useful to monitor a wide number of taxa, including frogs, toads, crickets, spiders and slugs/snails (<xref ref-type="bibr" rid="B5444473">Lunghi et al. 2017</xref>, <xref ref-type="bibr" rid="B5444405">Lunghi 2018</xref>, <xref ref-type="bibr" rid="B5444415">Lunghi et al. 2018a</xref>), we recommend to adapt the size of cave sectors based on the biology of the target species;</p>
+          </list-item>
+          <list-item>
+            <p>We here provide recommendation only on the length of cave sectors (i.e. 3 linear metres long), but not on the width. In our case, the inner cave environments did not reach a significant width (cave sector width always &lt; 15 m and generally &lt; 3 m); we therefore suggest to consider horizontally subdividing the cave sectors when the area is particularly wide;</p>
+          </list-item>
+          <list-item>
+            <p>The species monitored here are generally found on cave walls and on the ground; if researchers need to also include the ceiling in their survey, we suggest to increase the searching time to 10 min per cave sector;</p>
+          </list-item>
+          <list-item>
+            <p>The Visual Encounter Survey adopted here allows the collection of data only on species easily detectable by sight, while for those particularly secretive, alternative approaches are needed (<xref ref-type="bibr" rid="B5453505">Wynne et al. 2019</xref>);</p>
+          </list-item>
+          <list-item>
+            <p>The easily detectability of our target species and the relatively small monitored area, allowed us to collect reliable data within the defined monitoring time; however, the time and/or cave sector size may be changed according to specific requirements.</p>
+          </list-item>
+        </list></p>
+      </sec>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Study extent">
+        <title>Study extent</title>
+        <p>We monitored 7 caves located in different areas of the Monte Albo massif (Fig. <xref ref-type="fig" rid="F5444741">1</xref>); surveys were performed at least twice per season (with a gap of 1 to 7 days between the two seasonal surveys), starting from Autumn 2015 to Summer 2016. We performed a total of 77 surveys (average ± SD per cave; 11.43 ± 4.39) throughout a year (Autumn, <italic>N</italic> = 14; Winter, <italic>N</italic> = 14; Spring, <italic>N</italic> = 35; Summer, <italic>N</italic> = 14). Each pair of surveys was performed by day (9 a.m. – 6 p.m.) and when similar meteorological conditions occurred (i.e. sunny days with similar air temperature and humidity). Each cave was divided into 3 longitudinal linear metres sections (hereafter, sectors) in order to collect fine-scale data of the inner environment (<xref ref-type="bibr" rid="B5444351">Ficetola et al. 2012</xref>, <xref ref-type="bibr" rid="B5444453">Lunghi et al. 2014</xref>). Overall, we monitored 179 cave sectors for a total of 5,748.35 m<sup>2</sup> (ceilings were not considered as they were usually too high). For each cave, we measured the maximum height and width of the main entrance, while, at the end of each cave sector, we recorded: maximum height, maximum width and average wall irregularity (see Abiotic data collection – Morphology). During each season, at 5-10 m from the cave entrance, we recorded the external air temperature and humidity. At the end of each cave sector, we seasonally recorded the following data: average air temperature, average air humidity, maximum and minimum illuminance (see Abiotic data collection – <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Microclimate">Microclimate</tp:taxon-name-part></tp:taxon-name>). Within each sector, we recorded the abundance of five predator species (see Species data collection), providing a total of 1,695 observations: <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hydromantes">H.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="italicus">italicus</tp:taxon-name-part></tp:taxon-name></italic>, <italic>N</italic> = 831; <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Meta">M.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="bourneti">bourneti</tp:taxon-name-part></tp:taxon-name></italic>, <italic>N</italic> = 182; <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Metellina">M.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="merianae">merianae</tp:taxon-name-part></tp:taxon-name></italic>, <italic>N</italic> = 351; <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Tegenaria">Tegenaria</tp:taxon-name-part></tp:taxon-name></italic> sp., <italic>N</italic> = 151; <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oxychilus">O.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="oppressus">oppressus</tp:taxon-name-part></tp:taxon-name></italic>, <italic>N</italic> = 180 (Fig. <xref ref-type="fig" rid="F5445676">2</xref>).</p>
+      </sec>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>
+          <bold>Abiotic data collection</bold>
+        </p>
+        <p>
+          <italic>Morphology</italic>
+        </p>
+        <p>Caves were explored entirely or up to the point reachable without speleological equipment. Using a laser meter (Anself RZE-70, accuracy 2 mm), we recorded the maximum height and width of the cave entrance (i.e. the main connection with the external environment). Using a tape meter, the cave environment was divided into 3-metre cave sectors. At the end of each cave sector, we recorded the maximum height and width using a laser meter. At the same point, we estimated the average maximum wall irregularity (i.e. presence of wall protuberances). To estimate wall irregularity, we used a string of one metre length, flattened vertically against the most irregular part of each cave wall (left and right), at a height ranging from 0.5 to 2 m; a tape meter was then used to measure the linear distance between the two extremities of the string (<xref ref-type="bibr" rid="B5444351">Ficetola et al. 2012</xref>, <xref ref-type="bibr" rid="B5444453">Lunghi et al. 2014</xref>). We then merged the data and obtained the average cave sector maximum wall irregularity.</p>
+        <p>
+          <italic>
+            <tp:taxon-name>
+              <tp:taxon-name-part taxon-name-part-type="genus" reg="Microclimate">Microclimate</tp:taxon-name-part>
+            </tp:taxon-name>
+          </italic>
+        </p>
+        <p>During each season, air temperature and humidity were recorded in the external surroundings of each cave, in a shaded area 5-10 m from the entrance, using a Lafayette TDP92 thermo-hygrometer (accuracy: 0.1°C and 0.1%). At the end of each cave sector, the average air temperature and humidity were estimated by averaging data recorded at ground level and at 2.5 m height (or at the ceiling if sector height was lower). Microclimatic data were recorded paying attention to limit researcher influence (<xref ref-type="bibr" rid="B5444395">Lopes Ferreira et al. 2015</xref>). At the end of each sector, the maximum and minimum incident light was measured using a Velleman DVM1300 light meter (minimum recordable light: 0.1 lx).</p>
+        <p>
+          <bold>Species data collection</bold>
+        </p>
+        <p>Data on species occurrence and on the number of detected individuals were obtained using the Visual Encounter Survey (i.e. the surveyor visually inspected the whole cave sector without disturbing species) (<xref ref-type="bibr" rid="B5444759">Crump and Scott 1994</xref>). Within each cave sector, the surveyor dedicated 7.5 minutes in assessing the presence/abundance of the target species (<xref ref-type="bibr" rid="B5444463">Lunghi et al. 2015</xref>, <xref ref-type="bibr" rid="B5444473">Lunghi et al. 2017</xref>, <xref ref-type="bibr" rid="B5444405">Lunghi 2018</xref>); the use of a fixed time within each cave sector allows the surveyor to limit potential effects of imperfect species detection (<xref ref-type="bibr" rid="B5444225">Banks-Leite et al. 2014</xref>). When at least one individual was observed within the cave sector, the species was considered present; when no individuals were observed, the species was considered absent. For the three spiders, the number of cocoons observed per sector was also recorded.</p>
+      </sec>
+      <sec sec-type="Quality control">
+        <title>Quality control</title>
+        <p>A dataset is provided to be readily used with R statistical software.</p>
+        <p>Several scientific studies support the reliability of the monitoring methodology proposed here (<xref ref-type="bibr" rid="B5444351">Ficetola et al. 2012</xref>, <xref ref-type="bibr" rid="B5444339">Ficetola et al. 2018a</xref>, <xref ref-type="bibr" rid="B5444453">Lunghi et al. 2014</xref>, <xref ref-type="bibr" rid="B5444463">Lunghi et al. 2015</xref>, <xref ref-type="bibr" rid="B5444473">Lunghi et al. 2017</xref>, <xref ref-type="bibr" rid="B5444405">Lunghi 2018</xref>, <xref ref-type="bibr" rid="B5444415">Lunghi et al. 2018a</xref>, <xref ref-type="bibr" rid="B5444483">Lunghi et al. 2018b</xref>).</p>
+        <p>The standardised methodology adpoted here and its overall repeatability, allowed the collection of comparable data from different environments during multiple time series (e.g. seasons or years). This makes it possible to identify potential changes of the local environmental conditions, giving the chance to promptly plan habitat conservation actions (<xref ref-type="bibr" rid="B5458339">Langer 2001</xref>, <xref ref-type="bibr" rid="B5458348">Marín et al. 2012</xref>, <xref ref-type="bibr" rid="B5453414">Mammola et al. 2019b</xref>).</p>
+        <p>Species can be overlooked, especially the small-sized ones: a lack of observation does not mean a true absence (<xref ref-type="bibr" rid="B5444495">MacKenzie et al. 2006</xref>). Adopting a standardised monitoring method allows the limitation of biases due to imperfect species detection (<xref ref-type="bibr" rid="B5444225">Banks-Leite et al. 2014</xref>, <xref ref-type="bibr" rid="B5444405">Lunghi 2018</xref>); in our case, we standardised the effort (time/sector) dedicated in searching of species.</p>
+        <p>Sites were surveyed twice per season with a maximum gap ≤ 7 days, allowing us to meet prerequisites for population closure and to limit variation of climate conditions, which can, in turn, affect individuals’ activity (<xref ref-type="bibr" rid="B5444495">MacKenzie et al. 2006</xref>, <xref ref-type="bibr" rid="B5444463">Lunghi et al. 2015</xref>). The two seasonal presence/absence data collected within this short time allowed us to statistically estimate the probability to detect the target species. The seasonal pair of surveys performed here allowed us to estimate species detection probability for each season, providing, therefore, important information on species occurrence throughout the year.</p>
+        <p>Abundance data collected in a relatively short time allows us to estimate population size, thus providing the fundamental information to perform species conservation assessments (<xref ref-type="bibr" rid="B5444361">Ficetola et al. 2017</xref>, <xref ref-type="bibr" rid="B5444306">Ficetola et al. 2018b</xref>). The multiple counts of individuals can be analysed with the <italic>N</italic>-mixture models to estimate the population size; the higher the number of counts, the more precise the estimation will be (<xref ref-type="bibr" rid="B5444306">Ficetola et al. 2018b</xref>).</p>
+        <p>In order to consider possible differences in the activity of the studied species, surveys were performed during the four seasons. The studied species are usually more active at the end of the cold season (<xref ref-type="bibr" rid="B5444215">Bale and Hayward 2010</xref>, <xref ref-type="bibr" rid="B5444483">Lunghi et al. 2018b</xref>, <xref ref-type="bibr" rid="B5444425">Lunghi et al. 2018c</xref>), thus spring surveys were the most numerous. Increasing the number of surveys within a short period allows the increase of robustness of analyses related to detection probability and population size estimation (<xref ref-type="bibr" rid="B5444225">Banks-Leite et al. 2014</xref>, <xref ref-type="bibr" rid="B5444306">Ficetola et al. 2018b</xref>).</p>
+        <p>The target species are not obligate cave species and they likely show day/night changes in their activity pattern (<xref ref-type="bibr" rid="B5453394">Mammola and Isaia 2018</xref>); our methodology allowed us to avoid this potential bias. Species abundances obtained from each seasonal pair of survey can be merged to obtain an average seasonal species abundance; futhermore, the survey with the highest number of observations can be set as the maximum observed seasonal abundance.</p>
+        <p>The fine-scale standardised methodology described here allows us to characterise the multiple subterranean microhabitats (<xref ref-type="bibr" rid="B5444258">Campbell Grant et al. 2007</xref>) and collect detailed information on species abundance (<xref ref-type="bibr" rid="B5444463">Lunghi et al. 2015</xref>, <xref ref-type="bibr" rid="B5444473">Lunghi et al. 2017</xref>, <xref ref-type="bibr" rid="B5444415">Lunghi et al. 2018a</xref>, <xref ref-type="bibr" rid="B5444405">Lunghi 2018</xref>).</p>
+        <p>This methodology, based on just observations, is appropriate for monitoring protected species (<xref ref-type="bibr" rid="B5458383">Ficetola et al. 2016</xref>, <xref ref-type="bibr" rid="B5458369">Lunghi et al. 2016</xref>, <xref ref-type="bibr" rid="B5444361">Ficetola et al. 2017</xref>), providing a practical tool compatible with restrictions imposed by local and international law (<xref ref-type="bibr" rid="B5444703">Stoch and Genovesi 2016</xref>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The Monte Albo is listed as a Site of Community Importance (SCI) by European law (European Commission Habitats Directive 92/43/EEC), as it represents an important biodiversity hotspot including several endangered species (<xref ref-type="bibr" rid="B5444666">AA. VV. 2006</xref>, <xref ref-type="bibr" rid="B5444570">Mulargia et al. 2018</xref>); nonetheless, it also represents the whole distribution range of the Monte Albo cave salamander <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hydromantes">Hydromantes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="flavus">flavus</tp:taxon-name-part></tp:taxon-name></italic> (<xref ref-type="bibr" rid="B5444385">Lanza et al. 2006</xref>).</p>
+      </sec>
+      <sec sec-type="Coordinates">
+        <title>Coordinates</title>
+        <p>40.4379 and 40.5701 Latitude; 9.5110 and 9.6815 Longitude.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The presence and abundance of the following five cave predators were recorded: The Monte Albo cave salamander <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hydromantes">Hydromantes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="flavus">flavus</tp:taxon-name-part></tp:taxon-name></italic>, the spiders <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Meta">Meta</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="bourneti">bourneti</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Metellina">Metellina</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="merianae">merianae</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Tegenaria">Tegenaria</tp:taxon-name-part></tp:taxon-name></italic> sp., the land snail <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oxychilus">Oxychilus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="oppressus">oppressus</tp:taxon-name-part></tp:taxon-name></italic> (Fig. <xref ref-type="fig" rid="F5445676">2</xref>). Species identification of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Tegenaria">Tegenaria</tp:taxon-name-part></tp:taxon-name></italic> in the field is not possible without handling animals (<xref ref-type="bibr" rid="B5444248">Bolzern et al. 2013</xref>); to avoid disturbance, all records refer to the genus. The monitored species show different life traits (<xref ref-type="bibr" rid="B5444473">Lunghi et al. 2017</xref>, <xref ref-type="bibr" rid="B5444405">Lunghi 2018</xref>) and are at the top of the cave food chain, providing a top-down control to other cave-dwelling invertebrates; however, interactions between these predator species are also possible (<xref ref-type="bibr" rid="B5444580">Pastorelli and Laghi 2006</xref>, <xref ref-type="bibr" rid="B5444549">Manenti et al. 2016</xref>, <xref ref-type="bibr" rid="B5444425">Lunghi et al. 2018c</xref>). The Monte Albo cave salamander is a local endemism that deserves particular protection, as its conservation status is considered Vulnerable by the IUCN Red List (<xref ref-type="bibr" rid="B5444385">Lanza et al. 2006</xref>, <xref ref-type="bibr" rid="B5453441">Lecis et al. 2009</xref>, <xref ref-type="bibr" rid="B5444694">Rondinini et al. 2013</xref>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <p><bold>Data range:</bold> 2015-10-14 – 2016-6-27.</p>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Creative Commons Public Domain Waiver (CC-Zero)</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>Dataset_Monte_Albo</p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>1</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>data_monte_albo</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Semi-colon delimited text file (.csv)</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>39</p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>Detailed information on cave features and abundance of five predator species (Suppl. material <xref ref-type="supplementary-material" rid="S5445654">1</xref>).</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">country</td>
+                  <td rowspan="1" colspan="1">The name of the country in which the sampling was performed</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">region</td>
+                  <td rowspan="1" colspan="1">The name of the region in which the sampling was performed</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">county</td>
+                  <td rowspan="1" colspan="1">The name of the county in which the sampling was performed</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">locationID</td>
+                  <td rowspan="1" colspan="1">The unique name of the surveyed location</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventDate</td>
+                  <td rowspan="1" colspan="1">The date in which the survey was performed</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventSeason</td>
+                  <td rowspan="1" colspan="1">The season in which the survey was performed</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLatitude</td>
+                  <td rowspan="1" colspan="1">Coordinates of the latitute in WGS84 decimal degrees (N)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLongitude</td>
+                  <td rowspan="1" colspan="1">Coordinates of the longitude in WGS84 decimal degrees (E)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">ElevationInMetres</td>
+                  <td rowspan="1" colspan="1">Elevation (m a.s.l.) of the surveyed site</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">entrance_heightValue</td>
+                  <td rowspan="1" colspan="1">The maximum height of the cave entrance (m)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">entrance_widthValue</td>
+                  <td rowspan="1" colspan="1">The maximum width of the cave entrance (m)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">external_temperatureValue</td>
+                  <td rowspan="1" colspan="1">The outdoor air temperature (°C) measured at 5-10 m from the cave entrance</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">external_humidityValue</td>
+                  <td rowspan="1" colspan="1">The outdoor air humidity (%) measured at 5-10 m from the cave entrance</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">branchID</td>
+                  <td rowspan="1" colspan="1">The number of the cave branch</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">sector_depthValue</td>
+                  <td rowspan="1" colspan="1">The linear distance (m) of the sector from the cave entrance</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">sector_heightValue</td>
+                  <td rowspan="1" colspan="1">The maximum height (m) of the cave sector</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">sector_widthValue</td>
+                  <td rowspan="1" colspan="1">The maximum width (m) of the cave sector</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">sector_wall_irregularityValue</td>
+                  <td rowspan="1" colspan="1">The average wall irregularity (m) of the cave sector. This value tends to 1 when cave walls show low irregularity, while it gets smaller when the wall irregularity increases</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">sector_temperatureValue</td>
+                  <td rowspan="1" colspan="1">The seasonal average air temperature (°C) of the cave sector</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">sector_humidityValue</td>
+                  <td rowspan="1" colspan="1">The seasonal average air humidity (%) of the cave sector</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">sector_max_illuminanceValue</td>
+                  <td rowspan="1" colspan="1">The seasonal average maximum illuminance (lx) of the cave sector</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">sector_min_illuminanceValue</td>
+                  <td rowspan="1" colspan="1">The seasonal average minimum illuminance (lx) of the cave sector</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Hydromantes_flavusQuantityType</td>
+                  <td rowspan="1" colspan="1">The typology of data recorded for <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hydromantes">Hydromantes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="flavus">flavus</tp:taxon-name-part></tp:taxon-name></italic> Stefani, 1969 (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Urodela</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Plethodontidae</tp:taxon-name-part></tp:taxon-name>): individual</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Hydromantes_flavusQuantity</td>
+                  <td rowspan="1" colspan="1">Number of observed <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hydromantes">Hydromantes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="flavus">flavus</tp:taxon-name-part></tp:taxon-name></italic></td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Meta_bournetiQuantityType</td>
+                  <td rowspan="1" colspan="1">The typology of data recorded for <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Meta">Meta</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="bourneti">bourneti</tp:taxon-name-part></tp:taxon-name></italic> (Roberts 1995) (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Tetragnathidae</tp:taxon-name-part></tp:taxon-name>): individual</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Meta_bournetiQuantity</td>
+                  <td rowspan="1" colspan="1">Number of observed <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Meta">Meta</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="bourneti">bourneti</tp:taxon-name-part></tp:taxon-name></italic></td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Meta_bourneti_eggQuantityType</td>
+                  <td rowspan="1" colspan="1">The typology of data recorded for <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Meta">Meta</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="bourneti">bourneti</tp:taxon-name-part></tp:taxon-name></italic> egg sacks: cocoons</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Meta_bourneti_eggQuantity</td>
+                  <td rowspan="1" colspan="1">Number of observed <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Meta">Meta</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="bourneti">bourneti</tp:taxon-name-part></tp:taxon-name></italic> egg sacks</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">TegenariaQuantityType</td>
+                  <td rowspan="1" colspan="1">The typology of data recorded for <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Tegenaria">Tegenaria</tp:taxon-name-part></tp:taxon-name></italic> Latreille, 1804 (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Agelenidae</tp:taxon-name-part></tp:taxon-name>): individual</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">TegenariaQuantity</td>
+                  <td rowspan="1" colspan="1">Number of observed <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Tegenaria">Tegenaria</tp:taxon-name-part></tp:taxon-name></italic></td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Tegenaria_eggQuantityType</td>
+                  <td rowspan="1" colspan="1">The typology of data recorded for <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Tegenaria">Tegenaria</tp:taxon-name-part></tp:taxon-name></italic> egg sacks: cocoons</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Tegenaria_eggQuantity</td>
+                  <td rowspan="1" colspan="1">Number of observed <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Tegenaria">Tegenaria</tp:taxon-name-part></tp:taxon-name></italic> egg sacks</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Metellina_merianaeQuantityType</td>
+                  <td rowspan="1" colspan="1">The typology of data recorded for <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Metellina">Metellina</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="merianae">merianae</tp:taxon-name-part></tp:taxon-name></italic> (Scopoli, 1763) (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Tetragnathidae</tp:taxon-name-part></tp:taxon-name>): individual</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Metellina_merianaeQuantity</td>
+                  <td rowspan="1" colspan="1">Number of observed <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Metellina">Metellina</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="merianae">merianae</tp:taxon-name-part></tp:taxon-name></italic></td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Metellina_merianae_eggQuantityType</td>
+                  <td rowspan="1" colspan="1">The typology of data recorded for <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Metellina">Metellina</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="merianae">merianae</tp:taxon-name-part></tp:taxon-name></italic> egg sacks: cocoons</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Metellina_merianae_eggQuantity</td>
+                  <td rowspan="1" colspan="1">Number of observed <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Metellina">Metellina</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="merianae">merianae</tp:taxon-name-part></tp:taxon-name></italic> egg sacks</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Oxychilus_oppressusQuantityType</td>
+                  <td rowspan="1" colspan="1">The typology of data recorded for <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oxychilus">Oxychilus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="oppressus">oppressus</tp:taxon-name-part></tp:taxon-name></italic> (Shuttleworth, 1877) (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Gastropoda</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Oxychilidae</tp:taxon-name-part></tp:taxon-name>): individual</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Oxychilus_oppressusQuantity</td>
+                  <td rowspan="1" colspan="1">Number of observed <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oxychilus">Oxychilus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="oppressus">oppressus</tp:taxon-name-part></tp:taxon-name></italic></td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">recordedBy</td>
+                  <td rowspan="1" colspan="1">The Name and Surname of person recording the data</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>Enrico Lunghi is supported by the Chinese Academy of Sciences President's International Fellowship Initiative for postdoctoral researchers, National Speleological Society and Instrumentl.</p>
+    </ack>
+    <sec sec-type="Author contributions">
+      <title>Author contributions</title>
+      <p>We thank P. Cardoso and S. Mammola for useful comments. E.L., M.M. R.M. and G.F.F. participated in data collection; E.L. prepared tables, figures and first draft of the manuscript; M.V., R.M., G.F.F., Y.Z. and C.C contributed in reviewing the manuscript.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="B5444666">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>VV.</surname>
+              <given-names>AA.</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <article-title>Gestione del sito di importanza comunitaria "Monte Albo ITB021107"</article-title>
+          <source>POR Sardegna 2000-2006 ASSE I Misura 1.5 Rete Ecologica Regionale</source>
+        </element-citation>
+      </ref>
+      <ref id="B5444195">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Badino</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <article-title>Cave temperatures and global climatic change</article-title>
+          <source>International Journal of Speleology</source>
+          <volume>33</volume>
+          <fpage>103</fpage>
+          <lpage>114</lpage>
+          <pub-id pub-id-type="doi">10.5038/1827-806X.33.1.10</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5444205">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Badino</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>Underground meteorology - “what’s the weather underground?”</article-title>
+          <source>Acta Carsologica</source>
+          <volume>39</volume>
+          <fpage>427</fpage>
+          <lpage>448</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5444215">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Bale</surname>
+              <given-names>J. S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hayward</surname>
+              <given-names>S. A. L.</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>Insect overwintering in a changing climate</article-title>
+          <source>The Journal of Experimental Biology</source>
+          <volume>213</volume>
+          <fpage>980</fpage>
+          <lpage>994</lpage>
+          <pub-id pub-id-type="doi">10.1242/jeb.037911</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5444225">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Banks-Leite</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pardini</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Boscolo</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Righetto Cassano</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Püttker</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Santos Barros</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barlow</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>Assessing the utility of statistical adjustments for imperfect detection in tropical conservation science</article-title>
+          <source>Journal of Applied Ecology</source>
+          <volume>51</volume>
+          <fpage>849</fpage>
+          <lpage>859</lpage>
+          <pub-id pub-id-type="doi">10.1111/1365-2664.12272</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5444238">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Barzaghi</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ficetola</surname>
+              <given-names>G. F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pennati</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Manenti</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Biphasic predators provide biomass subsidies in small freshwater habitats: a case study of spring and cave pools</article-title>
+          <source>Freshwater Biology</source>
+          <volume>62</volume>
+          <issue>9</issue>
+          <fpage>1637</fpage>
+          <lpage>1644</lpage>
+          <pub-id pub-id-type="doi">10.1111/fwb.12975</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5444248">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Bolzern</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Burckhardt</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hänggi</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Phylogeny and taxonomy of European funnel-web spiders of the <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Tegenaria-Malthonica">Tegenaria-Malthonica</tp:taxon-name-part></tp:taxon-name></italic> complex (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Agelenidae</tp:taxon-name-part></tp:taxon-name>) based upon morphological and molecular data</article-title>
+          <source>Zoological Journal of the Linnean Society of London</source>
+          <volume>168</volume>
+          <fpage>723</fpage>
+          <lpage>848</lpage>
+          <pub-id pub-id-type="doi">10.1111/zoj.12040</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5444258">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Campbell Grant</surname>
+              <given-names>E. H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lowe</surname>
+              <given-names>W. H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fagan</surname>
+              <given-names>W. F.</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <article-title>Living in the branches: population dynamics and ecological processes in dendritic networks</article-title>
+          <source>Ecology Letters</source>
+          <volume>10</volume>
+          <fpage>165</fpage>
+          <lpage>175</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1461-0248.2006.01007.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5453495">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Cigna</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <year>2002</year>
+          <article-title>Modern trend in cave monitoring</article-title>
+          <source>Acta Carsologica</source>
+          <volume>31/1</volume>
+          <issue>3</issue>
+          <fpage>35</fpage>
+          <lpage>54</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5444759">
+        <element-citation publication-type="chapter">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Crump</surname>
+              <given-names>M. L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Scott</surname>
+              <given-names>N. J.</given-names>
+            </name>
+          </person-group>
+          <year>1994</year>
+          <chapter-title>Visual encounter surveys</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Heyer</surname>
+              <given-names>W. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Donnelly</surname>
+              <given-names>M. .A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>McDiarmid</surname>
+              <given-names>R. W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hayek</surname>
+              <given-names>L. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Foster</surname>
+              <given-names>M. S.</given-names>
+            </name>
+          </person-group>
+          <source>Measuring and monitoring biological diversity: standard methods for Amphibians</source>
+        </element-citation>
+      </ref>
+      <ref id="B5444297">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Culver</surname>
+              <given-names>D. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>White</surname>
+              <given-names>W. B.</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <source>Encyclopedia of caves</source>
+          <publisher-name>Elsevier Academic Press</publisher-name>
+          <publisher-loc>San Diego, California, U.S.A.</publisher-loc>
+        </element-citation>
+      </ref>
+      <ref id="B5444268">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Culver</surname>
+              <given-names>D. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pipan</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>Climate, abiotic factors, and the evolution of subterranean life</article-title>
+          <source>Acta Carsologica</source>
+          <volume>39</volume>
+          <issue>3</issue>
+          <fpage>577</fpage>
+          <lpage>586</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5444278">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Culver</surname>
+              <given-names>D. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pipan</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <source>Shallow subterranean habitats: Ecology, evolution, and conservation</source>
+          <publisher-name>Oxford University Press</publisher-name>
+          <publisher-loc>New York, USA</publisher-loc>
+          <pub-id pub-id-type="doi">10.1093/acprof:oso/9780199646173.001.0001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5444287">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Culver</surname>
+              <given-names>D. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pipan</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Shifting paradigms of the evolution of cave life</article-title>
+          <source>Acta Carsologica</source>
+          <volume>44</volume>
+          <issue>3</issue>
+          <fpage>415</fpage>
+          <lpage>425</lpage>
+          <pub-id pub-id-type="doi">10.3986/ac.v44i3.1688</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5444676">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Culver</surname>
+              <given-names>D. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pipan</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <source>The biology of caves and other subterranean habitats. Second edition</source>
+          <publisher-name>New York</publisher-name>
+          <pub-id pub-id-type="doi">10.1093/oso/9780198820765.001.0001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5444351">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ficetola</surname>
+              <given-names>G. F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pennati</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Manenti</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Do cave salamanders occur randomly in cavities? An analysis with <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hydromantes">Hydromantes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="strinatii">strinatii</tp:taxon-name-part></tp:taxon-name></italic></article-title>
+          <source><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Amphibia</tp:taxon-name-part></tp:taxon-name>-<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part></tp:taxon-name></source>
+          <volume>33</volume>
+          <fpage>251</fpage>
+          <lpage>259</lpage>
+          <pub-id pub-id-type="doi">10.1163/156853812X638536</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5458383">
+        <element-citation publication-type="chapter">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ficetola</surname>
+              <given-names>G. F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lunghi</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fiacchini</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Salvidio</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <chapter-title><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Speleomantes">Speleomantes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="ambrosii">ambrosii</tp:taxon-name-part></tp:taxon-name></italic> (Lanza, 1955) (Geotritone di Ambrosi), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Speleomantes">S.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="strinatii">strinatii</tp:taxon-name-part></tp:taxon-name></italic> (Aellen, 1958) (Geotritone di Strinati)</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Stoch</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Genovesi</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <source>Manuali per il monitoraggio di specie e habitat di interesse comunitario (Direttiva 92/43/CEE) in Italia: specie animali</source>
+          <publisher-name>ISPRA, Serie Manuali e linee guida, 141/2016</publisher-name>
+          <publisher-loc>Roma</publisher-loc>
+          <size units="page">3</size>
+        </element-citation>
+      </ref>
+      <ref id="B5444361">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ficetola</surname>
+              <given-names>G. F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Romano</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Salvidio</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sindaco</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Optimizing monitoring schemes to detect trends in abundance over broad scales</article-title>
+          <source>Animal Conservation</source>
+          <volume>21</volume>
+          <fpage>221</fpage>
+          <lpage>231</lpage>
+          <pub-id pub-id-type="doi">10.1111/acv.12356</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5444339">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ficetola</surname>
+              <given-names>G. F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lunghi</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Canedoli</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Padoa-Schioppa</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pennati</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Manenti</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Differences between microhabitat and broad-scale patterns of niche evolution in terrestrial salamanders</article-title>
+          <source>Scientific Reports</source>
+          <volume>8</volume>
+          <fpage>10575</fpage>
+          <pub-id pub-id-type="doi">10.1038/s41598-018-28796-x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5444306">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ficetola</surname>
+              <given-names>G. F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barzaghi</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Melotto</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Muraro</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lunghi</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Canedoli</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lo Parrino</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nanni</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Silva-Rocha</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Urso</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Carretero</surname>
+              <given-names>M. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Salvi</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Scali</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Scarì</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pennati</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Andreone</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Manenti</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title><italic>N</italic>-mixture models reliably estimate the abundance of small vertebrates</article-title>
+          <source>Scientific Reports</source>
+          <volume>8</volume>
+          <fpage>10357</fpage>
+          <pub-id pub-id-type="doi">10.1038/s41598-018-28432-8</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5444329">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ficetola</surname>
+              <given-names>G. F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Canedoli</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stock</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>The Racovitzan impediment and the hidden biodiversity of unexplored environments</article-title>
+          <source>Conservation Biology</source>
+          <volume>33</volume>
+          <fpage>214</fpage>
+          <lpage>216</lpage>
+          <pub-id pub-id-type="doi">10.1111/cobi.13179</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5444371">
+        <element-citation publication-type="chapter">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Howarth</surname>
+              <given-names>F. G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Moldovan</surname>
+              <given-names>O. T.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <chapter-title>The ecological classification of cave animals and their adaptations</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Moldovan</surname>
+              <given-names>O. T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kováč</surname>
+              <given-names>Ľ.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Halse</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <source>Cave Ecology</source>
+          <publisher-name>Springer</publisher-name>
+          <publisher-loc>Berlin</publisher-loc>
+          <size units="page">26</size>
+          <pub-id pub-id-type="doi">10.1007/978-3-319-98852-8_4</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5458339">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Langer</surname>
+              <given-names>W. H.</given-names>
+            </name>
+          </person-group>
+          <year>2001</year>
+          <source>Potential environmental impacts of quarrying stone in karst — A literature review</source>
+          <publisher-name>U.S. Geological Survey</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B5444385">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lanza</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pastorelli</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Laghi</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cimmaruta</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <article-title>A review of systematics, taxonomy, genetics, biogeography and natural history of the genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Speleomantes">Speleomantes</tp:taxon-name-part></tp:taxon-name></italic> Dubois, 1984 (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Amphibia</tp:taxon-name-part></tp:taxon-name> <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Caudata</tp:taxon-name-part></tp:taxon-name> <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Plethodontidae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Atti del Museo Civico di Storia Naturale di Trieste</source>
+          <volume>52</volume>
+          <fpage>5</fpage>
+          <lpage>135</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5453441">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lecis</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Andreone</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Edgar</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Corti</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sindaco</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Romano</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>
+            <italic>
+              <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Speleomantes">Speleomantes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="flavus">flavus</tp:taxon-name-part></tp:taxon-name>
+            </italic>
+          </article-title>
+          <source>The IUCN Red List of Threatened Species 2009</source>
+          <pub-id pub-id-type="doi">10.2305/IUCN.UK.2009.RLTS.T20455A9200640.en</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5444395">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lopes Ferreira</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mendes Martins</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Arantes Paixão</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Souza Silva</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Spatial and temporal fluctuations of the abundance of Neotropical cave-dwelling moth <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hypena">Hypena</tp:taxon-name-part></tp:taxon-name></italic> sp. (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Noctuidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Lepidoptera</tp:taxon-name-part></tp:taxon-name>) influenced by temperature and humidity</article-title>
+          <source>Subterranean Biology</source>
+          <volume>16</volume>
+          <fpage>47</fpage>
+          <lpage>60</lpage>
+          <pub-id pub-id-type="doi">10.3897/subtbiol.16.5137</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5444453">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lunghi</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Manenti</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ficetola</surname>
+              <given-names>G. F.</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>Do cave features affect underground habitat exploitation by non-troglobite species?</article-title>
+          <source>Acta Oecologica</source>
+          <volume>55</volume>
+          <fpage>29</fpage>
+          <lpage>35</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.actao.2013.11.003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5444463">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lunghi</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Manenti</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ficetola</surname>
+              <given-names>G. F.</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Seasonal variation in microhabitat of salamanders: environmental variation or shift of habitat selection?</article-title>
+          <source>PeerJ</source>
+          <volume>3</volume>
+          <pub-id pub-id-type="doi">10.7717/peerj.1122</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5458369">
+        <element-citation publication-type="chapter">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lunghi</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Manenti</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ficetola</surname>
+              <given-names>G. F.</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <chapter-title><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Speleomantes">Speleomantes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="flavus">flavus</tp:taxon-name-part></tp:taxon-name></italic> (Stefani, 1969) (Geotritone del Monte Albo); <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Speleomantes">S.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="genei">genei</tp:taxon-name-part></tp:taxon-name></italic> (Temminck &amp; Schlegel, 1838) (Geotritone di Gené); <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Speleomantes">S.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="imperialis">imperialis</tp:taxon-name-part></tp:taxon-name></italic> (Stefani, 1969) (Geotritone imperiale); <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Speleomantes">S.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="sarrabusensis">sarrabusensis</tp:taxon-name-part></tp:taxon-name></italic> (Lanza et al., 2001) (Geotritone dei Sette Fratelli); <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Speleomantes">S.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="supramontis">supramontis</tp:taxon-name-part></tp:taxon-name></italic> (Lanza, Nascetti &amp; Bullini, 1986) (Geotritone del Supramonte)</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Stoch</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Genovesi</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <source>Manuali per il monitoraggio di specie e habitat di interesse comunitario (Direttiva 92/43/CEE) in Italia: specie animali</source>
+          <publisher-name>ISPRA, Serie Manuali e linee guida, 141/2016</publisher-name>
+          <publisher-loc>Roma</publisher-loc>
+          <size units="page">3</size>
+        </element-citation>
+      </ref>
+      <ref id="B5444473">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lunghi</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Manenti</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ficetola</surname>
+              <given-names>G. F.</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Cave features, seasonality and subterranean distribution of non-obligate cave dwellers</article-title>
+          <source>PeerJ</source>
+          <volume>5</volume>
+          <pub-id pub-id-type="doi">10.7717/peerj.3169</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5444405">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lunghi</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Ecology and life history of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Meta">Meta</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="bourneti">bourneti</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Tetragnathidae</tp:taxon-name-part></tp:taxon-name>) from Monte Albo (Sardinia, Italy)</article-title>
+          <source>PeerJ</source>
+          <volume>6</volume>
+          <pub-id pub-id-type="doi">10.7717/peerj.6049</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5444415">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lunghi</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bruni</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ficetola</surname>
+              <given-names>G. F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Manenti</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Is the Italian stream frog (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Rana">Rana</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="italica">italica</tp:taxon-name-part></tp:taxon-name></italic> Dubois, 1987) an opportunistic exploiter of cave twilight zone?</article-title>
+          <source>Subterranean Biology</source>
+          <volume>25</volume>
+          <fpage>49</fpage>
+          <lpage>60</lpage>
+          <pub-id pub-id-type="doi">10.3897/subtbiol.25.23803</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5444483">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lunghi</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Manenti</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mulargia</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Veith</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Corti</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ficetola</surname>
+              <given-names>G. F.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Environmental suitability models predict population density, performance and body condition for microendemic salamanders</article-title>
+          <source>Scientific Reports</source>
+          <volume>8</volume>
+          <fpage>7527</fpage>
+          <pub-id pub-id-type="doi">10.1038/s41598-018-25704-1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5444425">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lunghi</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cianferoni</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ceccolini</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mulargia</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cogoni</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barzaghi</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cornago</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Avitabile</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Veith</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Manenti</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ficetola</surname>
+              <given-names>G. F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Corti</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Field-recorded data on the diet of six species of European <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hydromantes">Hydromantes</tp:taxon-name-part></tp:taxon-name></italic> cave salamanders</article-title>
+          <source>Scientific Data</source>
+          <volume>5</volume>
+          <pub-id pub-id-type="doi">10.1038/sdata.2018.83</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5444443">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lunghi</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Corti</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Manenti</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ficetola</surname>
+              <given-names>G. F.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Consider species specialism when publishing datasets</article-title>
+          <source>Nature Ecology &amp; Evolution</source>
+          <volume>3</volume>
+          <pub-id pub-id-type="doi">10.1038/s41559-019-0803-8</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5458359">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lunghi</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zhao</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sun</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zhao</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Morphometrics of eight Chinese cavefish species</article-title>
+          <source>Scientific Data</source>
+          <volume>6</volume>
+          <pub-id pub-id-type="doi">10.1038/s41597-019-0257-5</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5444495">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>MacKenzie</surname>
+              <given-names>D. I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nichols</surname>
+              <given-names>J. D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Royle</surname>
+              <given-names>J. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pollock</surname>
+              <given-names>K. H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bailey</surname>
+              <given-names>L. L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hines</surname>
+              <given-names>J. E.</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <source>Occupancy estimation and modeling. Inferring patterns and dynamics of species occurrence</source>
+          <publisher-name>Academic Press</publisher-name>
+          <publisher-loc>San Diego, California, U.S.A.</publisher-loc>
+        </element-citation>
+      </ref>
+      <ref id="B5453394">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Mammola</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Isaia</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Day–night and seasonal variations of a subterranean invertebrate community in the twilight zone</article-title>
+          <source>Subterranean Biology</source>
+          <volume>27</volume>
+          <fpage>31</fpage>
+          <lpage>51</lpage>
+          <pub-id pub-id-type="doi">10.3897/subtbiol.27.28909</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5444516">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Mammola</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Goodacre</surname>
+              <given-names>S. L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Isaia</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Climate change may drive cave spiders to extinction</article-title>
+          <source>Ecography</source>
+          <volume>41</volume>
+          <fpage>233</fpage>
+          <lpage>243</lpage>
+          <pub-id pub-id-type="doi">10.1111/ecog.02902</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5444506">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Mammola</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Finding answers in the dark: caves as models in ecology fifty years after Poulson and White</article-title>
+          <source>Ecography</source>
+          <volume>42</volume>
+          <issue>7</issue>
+          <fpage>1331</fpage>
+          <lpage>1351</lpage>
+          <pub-id pub-id-type="doi">10.1111/ecog.03905</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5444526">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Mammola</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Piano</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Malard</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vernon</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Isaia</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Extending Janzen's hypothesis to temperate regions: a test using subterranean ecosystems</article-title>
+          <source>Functional Ecology</source>
+          <volume>33</volume>
+          <fpage>1638</fpage>
+          <lpage>1650</lpage>
+          <pub-id pub-id-type="doi">10.1111/1365-2435.13382</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5453414">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Mammola</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cardoso</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Culver</surname>
+              <given-names>D. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Deharveng</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ferreira</surname>
+              <given-names>R. L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fišer</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Galassi</surname>
+              <given-names>D. M. P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Griebler</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Halse</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Humphreys</surname>
+              <given-names>W. S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Isaia</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Malard</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Martinez</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Moldovan</surname>
+              <given-names>O. T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Niemiller</surname>
+              <given-names>M. L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pavlek</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Reboleira</surname>
+              <given-names>A. S. P. S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Souza-Silva</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Teeling</surname>
+              <given-names>E. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wynne</surname>
+              <given-names>J. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zagmajster</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Scientists’ warning on the conservation of subterranean ecosystems</article-title>
+          <source>BioScience</source>
+          <volume>69</volume>
+          <fpage>641</fpage>
+          <lpage>650</lpage>
+          <pub-id pub-id-type="doi">10.1093/biosci/biz064</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5444881">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Mammola</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cardoso</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Angyal</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Balázs</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Blick</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brustel</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Carter</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ćurčić</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Danflous</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dányi</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Déjean</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Deltshev</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Elverici</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fernández</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gasparo</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Komnenov</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Komposch</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kováč</surname>
+              <given-names>L'.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Boğaç Kunt</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mock</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Moldovan</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Naumova</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pavlek</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Prieto</surname>
+              <given-names>C. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ribera</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rozwałka</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Růžička</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vargovitsh</surname>
+              <given-names>R. S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zaenker</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Isaia</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Continental data on cave-dwelling spider communities across Europe (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Arachnida</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Biodiversity Data Journal</source>
+          <volume>7</volume>
+          <fpage>e38492</fpage>
+          <pub-id pub-id-type="doi">10.3897/BDJ.7.e38492</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5444549">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Manenti</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lunghi</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Canedoli</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bonaccorsi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ficetola</surname>
+              <given-names>G. F.</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Parasitism of the leech, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Batracobdella">Batracobdella</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="algira">algira</tp:taxon-name-part></tp:taxon-name></italic> (Moquin-Tandon, 1846), on Sardinian cave salamanders (genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hydromantes">Hydromantes</tp:taxon-name-part></tp:taxon-name></italic>) (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Caudata</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">plethodontidae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Herpetozoa</source>
+          <volume>29</volume>
+          <issue>1/2</issue>
+          <fpage>27</fpage>
+          <lpage>35</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5444560">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Manenti</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lunghi</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ficetola</surname>
+              <given-names>G. F.</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Cave exploitation by an usual epigean species: a review on the current knowledge on fire salamander breeding in cave</article-title>
+          <source>Biogeographia</source>
+          <volume>32</volume>
+          <fpage>31</fpage>
+          <lpage>46</lpage>
+          <pub-id pub-id-type="doi">10.21426/B632136017</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5444537">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Manenti</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barzaghi</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lana</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stocchino</surname>
+              <given-names>G. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Manconi</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lunghi</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>The stenoendemic cave-dwelling planarians (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Platyhelminthes</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Tricladida</tp:taxon-name-part></tp:taxon-name>) of the Italian Alps and Apennines: conservation issues</article-title>
+          <source>Journal of Nature Conservation</source>
+          <volume>45</volume>
+          <fpage>90</fpage>
+          <lpage>97</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jnc.2018.08.001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5458348">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Marín</surname>
+              <given-names>A. I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Andreo</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jiménez-Sánchez</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Domínguez-Cuesta</surname>
+              <given-names>M. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>MeléNdez-Asensio</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Delineating protection areas for caves using contamination vulnerability mapping techniques: the case of Herrerías Cave, Asturias, Spain</article-title>
+          <source>Journal of Cave and Karst Studies</source>
+          <volume>74</volume>
+          <issue>1</issue>
+          <fpage>103</fpage>
+          <lpage>115</lpage>
+          <pub-id pub-id-type="doi">10.4311/2011jcks0197</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5444685">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Moldovan</surname>
+              <given-names>O. T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kovác</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Halse</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <source>Cave Ecology</source>
+          <publisher-name>Springer Nature Switzerland</publisher-name>
+          <pub-id pub-id-type="doi">10.1007/978-3-319-98852-8</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5444570">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Mulargia</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Corti</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lunghi</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>The herpetofauna of the Monte Albo, Sardinia (Italy)</article-title>
+          <source>Russian Journal of Herpetology</source>
+          <volume>25</volume>
+          <issue>3</issue>
+          <fpage>172</fpage>
+          <lpage>176</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5444580">
+        <element-citation publication-type="chapter">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Pastorelli</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Laghi</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <chapter-title>Predation of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Speleomantes">Speleomantes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="italicus">italicus</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Amphibia</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Caudata</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Plethodontidae</tp:taxon-name-part></tp:taxon-name>) by <italic>Meta menardi</italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Arachnida</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Metidae</tp:taxon-name-part></tp:taxon-name>)</chapter-title>
+          <source>Atti del 6° Congresso Nazionale della Societas Herpetologica Italica (Roma, 27.IX-1.X.2006)</source>
+          <publisher-loc>Roma</publisher-loc>
+          <size units="page">3</size>
+        </element-citation>
+      </ref>
+      <ref id="B5444594">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Pavan</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <year>1944</year>
+          <article-title>Appunti di biospeleologia I. Considerazioni sui concetti di Troglobio, Troglofilo e Troglosseno.</article-title>
+          <source>Le Grotte d'Italia</source>
+          <volume>5</volume>
+          <fpage>33</fpage>
+          <lpage>41</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5444604">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Rizzo</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sánchez-Fernández</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fresneda</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cieslak</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ribera</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Lack of evolutionary adjustment to ambient temperature in highly specialized cave beetles</article-title>
+          <source>BMC Evolutionary Biology</source>
+          <volume>15</volume>
+          <pub-id pub-id-type="doi">10.1186/s12862-015-0288-2</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5444615">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Romero</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <source>Cave Biology</source>
+          <publisher-name>Cambridge University Press</publisher-name>
+          <publisher-loc>Cambridge, UK</publisher-loc>
+          <pub-id pub-id-type="doi">10.1017/CBO9780511596841</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5444624">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Romero</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>The Evolution of Cave Life</article-title>
+          <source>American Scientist</source>
+          <volume>99</volume>
+          <fpage>144</fpage>
+          <lpage>151</lpage>
+          <pub-id pub-id-type="doi">10.1511/2011.89.144</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5444694">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Rondinini</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Battistoni</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Peronace</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Teo li</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <source>Lista Rossa IUCN dei vertebrati Italiani</source>
+          <publisher-name>Comitato Italiano IUCN e Ministero dell’Ambiente e della Tutela del Territorio e del Mare</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B5444634">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Sket</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Can we agree on an ecological classification of subterranean animals?</article-title>
+          <source>Journal of Natural History</source>
+          <volume>42</volume>
+          <fpage>1549</fpage>
+          <lpage>1563</lpage>
+          <pub-id pub-id-type="doi">10.1080/00222930801995762</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5444703">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Stoch</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Genovesi</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <source>Manuali per il monitoraggio di specie e habitat di interesse comunitario (Direttiva 92/43/CEE) in Italia: specie animali</source>
+          <publisher-name>ISPRA</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B5453404">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Trajano</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>de Carvalho</surname>
+              <given-names>M. R.</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Towards a biologically meaningful classification of subterranean organisms: a critical analysis of the Schiner-Racovitza system from a historical perspective, difficulties of its application and implications for conservation</article-title>
+          <source>Subterranean Biology</source>
+          <volume>22</volume>
+          <fpage>1</fpage>
+          <lpage>26</lpage>
+          <pub-id pub-id-type="doi">10.3897/subtbiol.22.9759</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5444712">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>White</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Culver</surname>
+              <given-names>D. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pipan</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <source>Encyclopedia of caves</source>
+          <publisher-name>Academic Press</publisher-name>
+          <pub-id pub-id-type="doi">10.1016/B978-0-12-814124-3.09991-X</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5444644">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Williams</surname>
+              <given-names>S. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Williams</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>VanDerWal</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Isaac</surname>
+              <given-names>J. L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Shoo</surname>
+              <given-names>L. P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Johnson</surname>
+              <given-names>C. N.</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>Ecological specialization and population size in a biodiversity hotspot: How rare species avoid extinction</article-title>
+          <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+          <volume>106</volume>
+          <issue>suppl. 2</issue>
+          <fpage>19737</fpage>
+          <lpage>19741</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.0901640106</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5453505">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Wynne</surname>
+              <given-names>J. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Howarth</surname>
+              <given-names>F. G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sommer</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dickson</surname>
+              <given-names>B. G.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Fifty years of cave arthropod sampling: techniques and best practices</article-title>
+          <source>International Journal of Speleology</source>
+          <volume>48</volume>
+          <issue>1</issue>
+          <fpage>33</fpage>
+          <lpage>48</lpage>
+          <pub-id pub-id-type="doi">10.5038/1827-806X.48.1.2231</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5444656">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Zagmajster</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Culver</surname>
+              <given-names>D. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Christman</surname>
+              <given-names>M. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sket</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>Evaluating the sampling bias in pattern of subterranean species richness: combining approaches</article-title>
+          <source>Biodiversity and Conservation</source>
+          <volume>19</volume>
+          <fpage>3035</fpage>
+          <lpage>3048</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10531-010-9873-2</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F5444741" position="float" orientation="portrait">
+      <object-id content-type="arpha">A20576CF-85E7-5556-95CE-E74EC9D215D5</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e48623.figure1</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Map of the study area showing the location of the Monte Albo and the seven monitored caves (pink circles). Detailed representation of the map is avoided to increase species protection (<xref ref-type="bibr" rid="B5444443">Lunghi et al. 2019</xref>).</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e48623-g001.png" position="float" id="oo_361689.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/361689</uri>
+      </graphic>
+    </fig>
+    <fig-group id="F5445676" position="float" orientation="portrait">
+      <caption>
+        <p>The five monitored predator species: a) the salamander <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hydromantes">Hydromantes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="flavus">flavus</tp:taxon-name-part></tp:taxon-name></italic>; b) the spider <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Metellina">Metellina</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="merianae">merianae</tp:taxon-name-part></tp:taxon-name></italic>; c) the spider <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Tegenaria">Tegenaria</tp:taxon-name-part></tp:taxon-name></italic> sp.; d) the snail <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oxychilus">Oxychilus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="oppressus">oppressus</tp:taxon-name-part></tp:taxon-name></italic>; e) the spider <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Meta">Meta</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="bourneti">bourneti</tp:taxon-name-part></tp:taxon-name></italic>.</p>
+      </caption>
+      <fig id="F5445681" position="float" orientation="portrait">
+        <object-id content-type="arpha">D5357838-7E37-5F8C-B269-09C6FD54D48D</object-id>
+        <object-id content-type="doi">10.3897/BDJ.8.e48623.figure2a</object-id>
+        <label>Figure 2a.</label>
+        <caption>
+          <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hydromantes">Hydromantes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="flavus">flavus</tp:taxon-name-part></tp:taxon-name></italic> Stefani, 1969 (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Urodela</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Plethodontidae</tp:taxon-name-part></tp:taxon-name>)</p>
+        </caption>
+        <graphic xlink:href="bdj-08-e48623-g002_a.jpg" xlink:type="simple" position="float" orientation="portrait" id="oo_358191.jpg">
+          <uri content-type="original_file">https://binary.pensoft.net/fig/358191</uri>
+        </graphic>
+      </fig>
+      <fig id="F5445682" position="float" orientation="portrait">
+        <object-id content-type="arpha">C298EAED-7041-5ED3-AE5E-76D427582DB1</object-id>
+        <object-id content-type="doi">10.3897/BDJ.8.e48623.figure2b</object-id>
+        <label>Figure 2b.</label>
+        <caption>
+          <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Metellina">Metellina</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="merianae">merianae</tp:taxon-name-part></tp:taxon-name></italic> (Scopoli, 1763) (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Tetragnathidae</tp:taxon-name-part></tp:taxon-name>)</p>
+        </caption>
+        <graphic xlink:href="bdj-08-e48623-g002_b.jpg" xlink:type="simple" position="float" orientation="portrait" id="oo_358192.jpg">
+          <uri content-type="original_file">https://binary.pensoft.net/fig/358192</uri>
+        </graphic>
+      </fig>
+      <fig id="F5445683" position="float" orientation="portrait">
+        <object-id content-type="arpha">9C67C7BD-78F6-5A17-8F0C-1C49B17657C5</object-id>
+        <object-id content-type="doi">10.3897/BDJ.8.e48623.figure2c</object-id>
+        <label>Figure 2c.</label>
+        <caption>
+          <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Tegenaria">Tegenaria</tp:taxon-name-part></tp:taxon-name></italic> sp. Latreille, 1804 (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Agelenidae</tp:taxon-name-part></tp:taxon-name>)</p>
+        </caption>
+        <graphic xlink:href="bdj-08-e48623-g002_c.jpg" xlink:type="simple" position="float" orientation="portrait" id="oo_358193.jpg">
+          <uri content-type="original_file">https://binary.pensoft.net/fig/358193</uri>
+        </graphic>
+      </fig>
+      <fig id="F5445684" position="float" orientation="portrait">
+        <object-id content-type="arpha">2B965491-F5B4-5620-B6F7-08915B3586BD</object-id>
+        <object-id content-type="doi">10.3897/BDJ.8.e48623.figure2d</object-id>
+        <label>Figure 2d.</label>
+        <caption>
+          <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oxychilus">Oxychilus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="oppressus">oppressus</tp:taxon-name-part></tp:taxon-name></italic> (Shuttleworth, 1877) (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Gastropoda</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Oxychilidae</tp:taxon-name-part></tp:taxon-name>)</p>
+        </caption>
+        <graphic xlink:href="bdj-08-e48623-g002_d.png" xlink:type="simple" position="float" orientation="portrait" id="oo_358194.png">
+          <uri content-type="original_file">https://binary.pensoft.net/fig/358194</uri>
+        </graphic>
+      </fig>
+      <fig id="F5445685" position="float" orientation="portrait">
+        <object-id content-type="arpha">0822925A-266E-5852-B453-6D1C5468448F</object-id>
+        <object-id content-type="doi">10.3897/BDJ.8.e48623.figure2e</object-id>
+        <label>Figure 2e.</label>
+        <caption>
+          <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Meta">Meta</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="bourneti">bourneti</tp:taxon-name-part></tp:taxon-name></italic> (Roberts 1995) (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Tetragnathidae</tp:taxon-name-part></tp:taxon-name>)</p>
+        </caption>
+        <graphic xlink:href="bdj-08-e48623-g002_e.jpg" xlink:type="simple" position="float" orientation="portrait" id="oo_358195.jpg">
+          <uri content-type="original_file">https://binary.pensoft.net/fig/358195</uri>
+        </graphic>
+      </fig>
+    </fig-group>
+    <supplementary-material id="S5445654" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">B431F286-7F9D-513B-A2F6-96BD581CCD87</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e48623.suppl1</object-id>
+      <label>Supplementary material 1</label>
+      <caption>
+        <p>Dataset_Monte_Albo</p>
+      </caption>
+      <p>Data type: Dataset</p>
+      <p>Brief description: Detailed information on morphology and microclimate of the surveyed caves in the Monte Albo massif and number of observed individuals belonging to five predator species exploiting these caves. For spiders, the number of the observed cocoons is also reported. NA means that the data is not available.</p>
+      <p>File: oo_375031.csv</p>
+      <media xlink:href="bdj-08-e48623-s001.csv" mimetype="Comma Separated Values File" mime-subtype="csv" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/375031</uri>
+      </media>
+      <attrib specific-use="authors">Enrico Lunghi, Claudia Corti, Manuela Mulargia, Yahui Zhao, Raoul Manenti, Gentile Francesco Ficetola, Michael Veith</attrib>
+    </supplementary-material>
+  </floats-group>
+</article>

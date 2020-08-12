@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="3.0" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.5.e12252</article-id>
+      <article-id pub-id-type="publisher-id">12252</article-id>
+      <article-id pub-id-type="manuscript">7009</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Coleoptera</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Biodiversity &amp; Conservation</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>Brazil</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>An Online Database of the Immatures of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Coleoptera</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Arthopoda</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Insecta</tp:taxon-name-part></tp:taxon-name>) Described from Brazil</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes" xlink:type="simple">
+          <name name-style="western">
+            <surname>S. Ferreira</surname>
+            <given-names>Vinicius</given-names>
+          </name>
+          <email xlink:type="simple">vinicius.sfb@gmail.com</email>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Costa</surname>
+            <given-names>Cleide</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Montana State University, Bozeman, United States of America</addr-line>
+        <institution xlink:type="simple">Montana State University</institution>
+        <addr-line content-type="city">Bozeman</addr-line>
+        <country>United States of America</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">Museu de Zoologia da Universidade de São Paulo, São Paulo, Brazil</addr-line>
+        <institution xlink:type="simple">Museu de Zoologia da Universidade de São Paulo</institution>
+        <addr-line content-type="city">São Paulo</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Vinicius S. Ferreira (<email xlink:type="simple">vinicius.sfb@gmail.com</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Dmitry Schigel</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2017</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>06</day>
+        <month>04</month>
+        <year>2017</year>
+      </pub-date>
+      <volume>5</volume>
+      <elocation-id>e12252</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/FFEADC49-4825-800C-D57C-FFD420223A20">FFEADC49-4825-800C-D57C-FFD420223A20</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/574586">574586</uri>
+      <history>
+        <date date-type="received">
+          <day>13</day>
+          <month>02</month>
+          <year>2017</year>
+        </date>
+        <date date-type="accepted">
+          <day>03</day>
+          <month>04</month>
+          <year>2017</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Vinicius S. Ferreira, Cleide Costa</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License 4.0 (CC-BY), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>An online database of the described immature beetles from Brazil is presented for the first time based on published literature. The main purpose of this online database is to ensure accessibility to data associated with the described immature <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Coleoptera</tp:taxon-name-part></tp:taxon-name> from Brazil, which will be useful for future biological, ecological, conservational and biogeographical studies.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>More than 9,486 specimens of 248 genera, 282 species and 4 subspecies of 76 <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Coleoptera</tp:taxon-name-part></tp:taxon-name> families from 15 states and the Federal District of Brazil were found. Taxonomical and ecological information about each species, when available, are given. The dataset of Immatures of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Coleoptera</tp:taxon-name-part></tp:taxon-name> described from Brazil are available and can be accessed through the portals of GBIF at <ext-link ext-link-type="uri" xlink:href="http://www.gbif.org/dataset/8e0e9330-e1b2-475a-9891-4fa8e5c6f57f" xlink:type="simple">http://www.gbif.org/dataset/8e0e9330-e1b2-475a-9891-4fa8e5c6f57f</ext-link> and the SiBBr at <ext-link ext-link-type="uri" xlink:href="http://ipt.sibbr.gov.br/sibbr/resource?r=coleoptera_immature_of_brazil" xlink:type="simple">http://ipt.sibbr.gov.br/sibbr/resource?r=coleoptera_immature_of_brazil</ext-link>.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>Neotropical Region</kwd>
+        <kwd>Larvae</kwd>
+        <kwd>Pupae</kwd>
+        <kwd>South America</kwd>
+        <kwd>Beetles.</kwd>
+      </kwd-group>
+      <funding-group>
+        <funding-statement>Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq) of Brazil.</funding-statement>
+      </funding-group>
+      <counts>
+        <fig-count count="0"/>
+        <table-count count="0"/>
+        <ref-count count="5"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p><xref ref-type="bibr" rid="B3564220">Chavan and Penev (2011)</xref> stated that “<italic>one of the effective strategies for addressing the growing biodiversity crisis is access to a range of biodiversity- and ecosystems-related data and information in a useful form to fill the extensive biodiversity knowledge gap that exists today</italic>”. The authors proposed “<italic>the biodiversity data paper as a mechanism to incentivize efforts and investment towards discovery and publishing of biodiversity data resources</italic>”.</p>
+      <p><italic>Following their definition, a data paper is a journal publication whose primary purpose is to describe data, rather than to report a research investigation</italic> (<italic><xref ref-type="bibr" rid="B3564220">Chavan and Penev 2011</xref>). As such, a data paper will contain facts about data but no hypotheses or</italic> arguments in support of hypotheses and theories based on data (<xref ref-type="bibr" rid="B3564220">Chavan and Penev 2011</xref>). Still according to these authors, the purposes of a data paper can be summarized in three: (1) provide a citable journal publication that brings credit to the data publisher, (2) describe the data in a structured and human-readable format and (3) to bring the existence of that data to the attention of the scientific community, and these three points are exactly what we wanted to do about the knowledge of immature beetles in Brazil.</p>
+      <p>The knowledge of the immature beetle’s diversity is still very incipient and the task of the Coleopterists to identify and determine beetles at this stages is enormous. Larvae and adults of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Coleoptera</tp:taxon-name-part></tp:taxon-name> possess a mix of dependent and independent adaptations that reflect a complex evolution. Taxonomic and phylogenetic analyses that involves characters of larvae and adults could offer a wider vision of the evolutionary process.</p>
+      <p>Besides the taxonomic and systematic perspective, the study of the whole life cycle of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Coleoptera</tp:taxon-name-part></tp:taxon-name> is very important for the economic, environment and medical perspectives, especially because many immatures of beetles are responsible for considerable financial losses in crops, trees and other aspects that impact on peoples lives.</p>
+      <p>In this paper, an online dataset of the immatures of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Coleoptera</tp:taxon-name-part></tp:taxon-name> described from Brazil is provided for the first time. In this dataset, for each species, information about the amount of specimens studied, development time, localities, host plants and other relevant information is given.</p>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>The bibliographic survey was made by means of The Zoological Record Online version which is an electronic index of Zoological literature. The terms used in the online searches were several combinations of the following key words: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Coleoptera</tp:taxon-name-part></tp:taxon-name>, Immature, Imaturos, Immatures, Larvae, Larva, Pupa, Pupae, Brazil, Brasil, Beetles, Besouros.</p>
+        <p>The time span of the online search is from 1864 to the current year of 2017 (February) and a total of 127 publications were used to compose this dataset. We have also consulted the literature published by Costa and collaborators, which include 27 scientific articles dealing with the specimens of the MZUSP collection in a series entitled “Larvae of Neotropical <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Coleoptera</tp:taxon-name-part></tp:taxon-name>” and a book on the “<italic>Larvas de <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Coleoptera</tp:taxon-name-part></tp:taxon-name> do Brasil</italic>”, in 1988 (<xref ref-type="bibr" rid="B3564230">Costa et al. 1988</xref>). Although numerous immature descriptions in many publications were made based on correlation with adults in field or posterior association most of the specimens of Costa and collaborators were reared in laboratory under controlled conditions, thus ensuring a high level of certainty in the identification of immature beetles.</p>
+        <p>The majority of specimens described in the literature and enrolled in this datapaper (about 8,131) belong to the Collection of the “Museu de Zoologia da Universidade de São Paulo” (CIC-MZUSP). This collection is maintained in glass flasks of several sizes, with about 51,000 specimens maintained in 70% ethanol (<xref ref-type="bibr" rid="B3564239">Costa 2010</xref>, <xref ref-type="bibr" rid="B3564249">Barbosa et al. 2013</xref>). Most of the adults are stored together with the immature reared in the laboratory, and part of the adults are mounted and kept in separate cabinets associated with the immature collection.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The sampling area of this work is delimited by the current administrative boundaries of the Brazilian territory. Many species are from the Atlantic Forest and “Cerrado” vegetation in Central Brazil, part of the Amazon Forest and the Restinga areas in the South Coast of São Paulo and Rio Grande do Sul states. We found specimens of immatures of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Coleoptera</tp:taxon-name-part></tp:taxon-name> described from 15 states and the Federal District and 137 counties.</p>
+        <p>As most of the papers used to compose this dataset did not present the exactly geographical coordinates of the localities, the geo referencing of the localities was made using the geoLoc tool &lt;<ext-link ext-link-type="uri" xlink:href="http://splink.cria.org.br/geoloc" xlink:type="simple">http://splink.cria.org.br/geoloc</ext-link>&gt;, a tool developed by CRIA to assist biological collections in geo referencing their data. Their database includes approximately 750,000 of Brazilian names localities.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>According to <xref ref-type="bibr" rid="B3564203">Bouchard et al. (2011)</xref> about 125 families of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Coleoptera</tp:taxon-name-part></tp:taxon-name> occurs in Brazil and just a tiny number of immatures are known. This dataset corresponds to more than 9,486 specimens of 248 genera, 282 species and 4 subspecies of 76 families (which included eggs, larvae, pupae, pre-pupae and their exuviae) of immatures of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Coleoptera</tp:taxon-name-part></tp:taxon-name> that were described from Brazil. The identifications and classification of the taxa were made by the authors of each publication. We claim no responsibility for any potential misidentification in the data provided in this dataset.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Traits coverage">
+      <title>Traits coverage</title>
+      <p>From the literature consulted the specimens were collected in many habitats, that are summarized below. The precise information on each specimen, when provided, is on the dataset.</p>
+      <list list-type="bullet">
+        <list-item>
+          <p>Specimens were originally found in wooden floors inside residences, under decaying wood of different kinds of trees, in pasture fields, inside holes in the grass or inside galleries of dead trunks and bounds, in litter and on beach and at night walking in arenous railroad.</p>
+        </list-item>
+        <list-item>
+          <p>In aquatic environments specimens were found in streams of water close to rocks, in aquatic rocky wall, temporary pounds and lagoons.</p>
+        </list-item>
+        <list-item>
+          <p>Associated with other Insects, Arthropods and mammals and birds and their excrements the specimens were found in subterranean nest of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Geotrigona">Geotrigona</tp:taxon-name-part></tp:taxon-name></italic> sp. (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Apidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Meliponinae</tp:taxon-name-part></tp:taxon-name>), in dead bodies of rats, chicken and hedgehog; in epigeum nests <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Isoptera</tp:taxon-name-part></tp:taxon-name> of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Anoplotermes">Anoplotermes</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Microcerotermes">Microcerotermes</tp:taxon-name-part></tp:taxon-name></italic> sp., <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Nasutitermes">Nasutitermes</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cornitermes">Cornitermes</tp:taxon-name-part></tp:taxon-name></italic> sp., in excrements of bird, equines, bovines and swine, preying on <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Homoptera</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Psyllidae</tp:taxon-name-part></tp:taxon-name> and inside <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Mantidae</tp:taxon-name-part></tp:taxon-name> ootheca.</p>
+        </list-item>
+        <list-item>
+          <p>Associated with vegetables and fungi immatures were found in hard trunks of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Lauraceae</tp:taxon-name-part></tp:taxon-name>, probably of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Nectranda">Nectranda</tp:taxon-name-part></tp:taxon-name></italic> or <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ocotea">Ocotea</tp:taxon-name-part></tp:taxon-name></italic>, in bromeliads with vegetal detritus, in the axil of leaves, sugar cane plantation, in <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Casuarina">Casuarina</tp:taxon-name-part></tp:taxon-name></italic> sp. and in dried cut bamboos as well as inside many fruits and leaves of several families of plants and associated with fungi.</p>
+        </list-item>
+      </list>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Other</p>
+      </sec>
+      <sec sec-type="IP rights notes">
+        <title>IP rights notes</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/deed.en" xlink:type="simple">Creative Commons - Attribution 4.0 International (CC BY 4.0)</ext-link>
+        </p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>An Online Database of the Immatures of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Coleoptera</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Arthopoda</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Insecta</tp:taxon-name-part></tp:taxon-name>) Described from Brazil</p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="http://www.gbif.org/dataset/8e0e9330-e1b2-475a-9891-4fa8e5c6f57f" xlink:type="simple">http://www.gbif.org/dataset/8e0e9330-e1b2-475a-9891-4fa8e5c6f57f</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Alternative identifiers">
+        <title>Alternative identifiers</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="http://ipt.sibbr.gov.br/sibbr/resource?r=coleoptera_immature_of_brazil" xlink:type="simple">http://ipt.sibbr.gov.br/sibbr/resource?r=coleoptera_immature_of_brazil</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>1</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>An Online Database of the Immatures of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Coleoptera</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Arthopoda</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Insecta</tp:taxon-name-part></tp:taxon-name>) Described from Brazil</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Darwin Core</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>1</p>
+        </sec>
+        <sec sec-type="Character set">
+          <title>Character set</title>
+          <p>UTF-8</p>
+        </sec>
+        <sec sec-type="Data format version">
+          <title>Data format version</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="http://rs.tdwg.org/dwc/terms/" xlink:type="simple">http://rs.tdwg.org/dwc/terms/</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="">
+          <title/>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">
+                    <ext-link ext-link-type="uri" xlink:href="http://rs.tdwg.org/dwc/terms/" xlink:type="simple">http://rs.tdwg.org/dwc/terms/</ext-link>
+                  </td>
+                  <td rowspan="1" colspan="1">See terms in the link.</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>We thank the SiBBr (Sistema de Informação Sobre a Biodiversidade Brasileira) team by their help and assistance with the edition of data, specially to Danny Vélez, Rafael Fonseca, David Valentim, Eduardo Rudas and Clara Baringo; the team of the Museu de Zooologia library, specially Dione Seripieri and Viviane Neves for providing the missing literature; Thamires Gonçalves for her assistance with data analysis; Sérgio A. Vanin (Instituto de Biociências, Universidade de São Paulo, Brazil) for reading a previous version of the manuscript of this paper; to Charles J. Hart and Frank E. Etzler (MTEC) for the English review and other suggestions of a previous version of this manuscript. VSF is very grateful to Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq) of Brazil for the PhD scholarship (process 202559/2015-7). Cleide Costa is very grateful to CNPq for her awarded Research Grant (Pq-Sr).</p>
+    </ack>
+    <notes>
+      <sec sec-type="Author contributions">
+        <title>Author contributions</title>
+        <p>Vinicius S. Ferreira was responsible by the design of the work, the data collection, data analysis, drafting the article, critical revision of the article and final approval of the version to be published.</p>
+        <p>Cleide Costa was responsible by the design of the work, drafting the article, critical revision of the article and final approval of the version to be published.</p>
+      </sec>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B3564249">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Barbosa</surname>
+              <given-names>F. F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Quintino</surname>
+              <given-names>H. Y.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ferreira</surname>
+              <given-names>V. S.</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Checklist of the Immature <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Coleoptera</tp:taxon-name-part></tp:taxon-name> Collection of the Museu de Zoologia da Universidade de São Paulo (CIC–MZSP) In: Fikáček, M., Skuhrovec, J. &amp; Šípek, P. (Eds.), Abstracts of the Immature Beetles Meeting 2013 October 3–4, Prague, Czech Republic</article-title>
+          <source>Acta Entomologica Musei Nationalis Pragae</source>
+          <volume>53</volume>
+          <issue>2</issue>
+          <fpage>891</fpage>
+          <lpage>910</lpage>
+          <comment content-type="language">English</comment>
+        </element-citation>
+      </ref>
+      <ref id="B3564203">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Bouchard</surname>
+              <given-names>Patrice</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bousquet</surname>
+              <given-names>Yves</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Davies</surname>
+              <given-names>Anthony</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Alonso-Zarazaga</surname>
+              <given-names>Miguel</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lawrence</surname>
+              <given-names>John</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lyal</surname>
+              <given-names>Christopher</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Newton</surname>
+              <given-names>Alfred</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Reid</surname>
+              <given-names>Chris</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schmitt</surname>
+              <given-names>Michael</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Slipinski</surname>
+              <given-names>Adam</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Smith</surname>
+              <given-names>Andrew</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>Family-Group Names In <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Coleoptera</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Insecta</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>ZooKeys</source>
+          <volume>88</volume>
+          <fpage>1</fpage>
+          <lpage>972</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.3897/zookeys.88.807</uri>
+          <pub-id pub-id-type="doi">10.3897/zookeys.88.807</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3564220">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Chavan</surname>
+              <given-names>Vishwas</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Penev</surname>
+              <given-names>Lyubomir</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>The data paper: a mechanism to incentivize data publishing in biodiversity science</article-title>
+          <source>BMC Bioinformatics</source>
+          <volume>12</volume>
+          <fpage>S2</fpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1186/1471-2105-12-s15-s2</uri>
+          <pub-id pub-id-type="doi">10.1186/1471-2105-12-s15-s2</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3564239">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Costa</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>The Immature <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Coleoptera</tp:taxon-name-part></tp:taxon-name> Collection of The “Museu de Zoologia da Universidade de São Paulo” Brazil. In: Fikáček, M., Skuhrovec, J. &amp; Šípek, P. (Eds.), Abstracts of the Immature Beetles Meeting 2009, October 1–2, Prague, Czech Republic</article-title>
+          <source>Acta Entomologica Musei Nationalis Pragae</source>
+          <volume>50</volume>
+          <fpage>324</fpage>
+          <lpage>325</lpage>
+          <comment content-type="language">English</comment>
+        </element-citation>
+      </ref>
+      <ref id="B3564230">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Costa</surname>
+              <given-names>Cleide</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Casari-Chen</surname>
+              <given-names>Sonia A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vanin</surname>
+              <given-names>Sergio A</given-names>
+            </name>
+          </person-group>
+          <year>1988</year>
+          <source>Larvas de <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Coleoptera</tp:taxon-name-part></tp:taxon-name> do Brasil</source>
+          <edition>1</edition>
+          <publisher-name>Museu de Zoologia, Universidade de São Paulo</publisher-name>
+          <size units="page">282 + 65 plates</size>
+          <comment content-type="language">Portuguese</comment>
+          <uri xlink:type="simple">http://dx.doi.org/10.5962/bhl.title.100233</uri>
+          <pub-id pub-id-type="doi">10.5962/bhl.title.100233</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

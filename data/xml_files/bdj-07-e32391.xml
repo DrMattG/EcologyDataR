@@ -1,0 +1,1190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="3.0" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.7.e32391</article-id>
+      <article-id pub-id-type="publisher-id">32391</article-id>
+      <article-id pub-id-type="manuscript">10523</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Animalia</subject>
+          <subject>Odonata</subject>
+          <subject>Insecta</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Biodiversity &amp; Conservation</subject>
+          <subject>Faunistics &amp; Distribution</subject>
+          <subject>Catalogues and Checklists</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>Italy</subject>
+          <subject>Europe</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Dragonfly biodiversity 90 years ago in an Alpine region: The <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Odonata</tp:taxon-name-part></tp:taxon-name> historical collection of the MUSE (Trento, Italy)</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes" xlink:type="simple">
+          <name name-style="western">
+            <surname>Assandri</surname>
+            <given-names>Giacomo</given-names>
+          </name>
+          <email xlink:type="simple">giacomo.assandri@gmail.com</email>
+          <uri content-type="orcid" xlink:type="simple">https://orcid.org/0000-0001-5161-5353</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Franceschini</surname>
+            <given-names>Alessandra</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Lencioni</surname>
+            <given-names>Valeria</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">MUSE - Science Museum of Trento, Trento, Italy</addr-line>
+        <institution xlink:type="simple">MUSE - Science Museum of Trento</institution>
+        <addr-line content-type="city">Trento</addr-line>
+        <country>Italy</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Giacomo Assandri (<email xlink:type="simple">giacomo.assandri@gmail.com</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Benjamin Price</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>01</month>
+        <year>2019</year>
+      </pub-date>
+      <volume>7</volume>
+      <elocation-id>e32391</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/F856A4D4-6258-59DA-9FA4-29B3B07FE8BF">F856A4D4-6258-59DA-9FA4-29B3B07FE8BF</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/2559691">2559691</uri>
+      <history>
+        <date date-type="received">
+          <day>13</day>
+          <month>12</month>
+          <year>2018</year>
+        </date>
+        <date date-type="accepted">
+          <day>11</day>
+          <month>01</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Giacomo Assandri, Alessandra Franceschini, Valeria Lencioni</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>Historical collections of natural science museums play a fundamental role in documenting environmental changes and patterns of biodiversity transformation. This considered, they should have a pivotal role to plan conservation and management actions.</p>
+          <p>The MUSE - Science Museum of Trento is an Italian regional museum preserving about 5.5 million items (organised in 297 collections). About one million of them are invertebrates, 70% of which are of local origin, gathered in the collection "Miscellanea Invertebrati". <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Odonata</tp:taxon-name-part></tp:taxon-name> account for a minor part of this collection; however, most of them are of local or regional relevance. A complete catalogue of this collection does not exist to date.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>The collection was studied in 2017-2018 and this contribution aims to present the Catalogue of the historic collection of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Odonata</tp:taxon-name-part></tp:taxon-name> of the MUSE - Museo delle Scienze of Trento (Italy).</p>
+          <p>In all, 836 specimens of adult dragonflies and damselflies are found in the collection referring to an overall 56 species. The collection covers a period between 1924 and 1957 and refer to 74 defined localities, all located in northern Italy (most of them in Trentino - Alto Adige Region).</p>
+          <p>The samples conserved in the collection are, for several species, the only indisputable confirmation of their former occurrence in that region.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>dragonflies; damselflies; Italy; natural science museum</kwd>
+        <kwd>Trentino-Alto Adige</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="4"/>
+        <table-count count="0"/>
+        <ref-count count="17"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>The MUSE - Science Museum of Trento (formerly Museo Tridentino di Scienze Naturali) is an Italian regional museum founded in 1922. The natural history and archaeological collections of the museum (297 collections and 5.5 million objects) are of great interest for their close relationship with the Alpine Region. The oldest materials were collected more than two centuries ago and the collections increase every year through many new acquisitions. Invertebrate collections of the MUSE include more than 1.2 million specimens, aquatic and terrestrial, 70% of which are of local origin. Historical collections (1850-1950) include mainly terrestrial insects.</p>
+      <p><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Odonata</tp:taxon-name-part></tp:taxon-name> account for a minor part of the "Miscellanea Invertebrati" collection (cINV017), with 954 specimens collected since 1924, mostly in Trentino (NE-Italy). The bulk of the collection (836 specimens) was created between 1924 and 1957 and is referred hereafter as the 'historical collection of dragonflies of the Science Museum (MUSE) of Trento'. The remaining samples refer to 2009 and were collected at two sites of Trentino in the framework of a specific project, the results from which have already been reported in <xref ref-type="bibr" rid="B4791893">Lampo et al. (2011)</xref>. Hence, this contribution intends to present the catalogue of the historical bulk of the collection.</p>
+      <p>The dragonflies in the Museo Tridentino di Scienze Naturali collection were previously studied by Cesare Nielsen in 1932, who reported the available records at that time (which were a small number compared to the ones available today) (<xref ref-type="bibr" rid="B4791913">Nielsen 1932</xref>). They were subsequently studied by Cesare Conci and Osvaldo Galvagni in 1944, who only reported several relevant data for an individual species, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sympecma">Sympecma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="paedisca">paedisca</tp:taxon-name-part></tp:taxon-name></italic> (Brauer, 1882) (<xref ref-type="bibr" rid="B4791923">Conci and Galvagni 1944</xref>).</p>
+      <p>This considered, we think it important to publish the full catalogue of the historical collection of dragonflies of the Science Museum of Trento, since these data represent the first organic and verifiable bulk of knowledge on the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Odonata</tp:taxon-name-part></tp:taxon-name> of Trentino. In fact, apart from two 19<sup>th</sup> century very general and not verifiable studies (<xref ref-type="bibr" rid="B4894789">Ambrosi 1851</xref>, <xref ref-type="bibr" rid="B4894779">Ausserer 1869</xref>), no other previous information exists which allow the delineation of the past odonate fauna of this area. Additionally, during the 34 years to which the records in this collection refer, few data on the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Odonata</tp:taxon-name-part></tp:taxon-name> of Trentino were published and most of them referred only to scarce species (i.e. apart from those already cited: <xref ref-type="bibr" rid="B4895806">Morton 1926</xref>, <xref ref-type="bibr" rid="B4895840">Conci and Galvagni 1946</xref>, <xref ref-type="bibr" rid="B4895889">Conci 1957</xref>, <xref ref-type="bibr" rid="B4895879">Conci 1948</xref>, <xref ref-type="bibr" rid="B4895816">Morton 1928</xref>, <xref ref-type="bibr" rid="B4895869">Marcuzzi 1948</xref>).</p>
+      <p>Historical data from the Natural Science Museum collections allow comparisons with present animal assemblages and enable the understanding of the dynamics of the communities (i.e. species extinctions and colonisations) and concurrently of ecosystems (<xref ref-type="bibr" rid="B4895980">Regneire et al. 2015</xref>). These modifications could be the result of natural processes or, more often, of the anthropogenic impacts on biodiversity; thus, collection data play a fundamental role in documenting environmental changes (<xref ref-type="bibr" rid="B4916884">Schmitt et al. 2018</xref>). This also explains their invaluable importance in planning conservation and management actions (<xref ref-type="bibr" rid="B4895960">Remsen 1995</xref>, <xref ref-type="bibr" rid="B4895970">Gobbi et al. 2012</xref>). As an example, of the 61 odonate species recorded in Trentino, four (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sympecma">Sympecma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="paedisca">paedisca</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Lestes">Lestes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="barbarus">barbarus</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Coenagrion">Coenagrion</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="scitulum">scitulum</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Brachytron">Brachytron</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pratense">pratense</tp:taxon-name-part></tp:taxon-name></italic>) were not reported after 1950 (Assandri, unpublished data). For all of them, at least one sample is conserved in the historical collection of dragonflies of the MUSE, confirming their indisputable former occurrence in that region.</p>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Study extent">
+        <title>Study extent</title>
+        <p>The historical specimens of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Odonata</tp:taxon-name-part></tp:taxon-name> conserved in the collection "Miscellanea Invertebrati" of MUSE are 836 referring to 74 localities. Specimens are contained in a total of 44 entomological boxes.</p>
+      </sec>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>No data on sampling protocols used in the past were available, although it is likely that most of the specimens derived from opportunistic sampling performed by personnel of the Museum, in particular by Guido Castelli and Tullio Perini, in Trentino Alto-Adige. Few specimens come from donations by other entomologists.</p>
+        <p>The collection is kept dry, most of the specimens are pinned (N=737), whereas the others are conserved in dragonfly envelopes (N=99).</p>
+      </sec>
+      <sec sec-type="Quality control">
+        <title>Quality control</title>
+        <p>The collection was studied by GA in 2017-2018. All the samples were revised and reordered. A point of strength of the collection is that labels are mostly conserved and complete, thus relevant data about date and locality are available. These were digitalised. Geographical data on labels were georeferenced based on locality names. In most cases, the localities were well defined and straightforward for georeferencing as they referred to specific physical elements (lakes, mountains, wetlands). When the locality referred to a town or a city, we associated it with the approximate present centroid of the urban area, although it could have been more vague (e.g. referred to the municipality). When the information is too imprecise for georeferencing (e.g. valleys) or unclear, we do not provide coordinates.</p>
+        <p>Taxonomy and nomenclature in this paper and associated dataset follow <xref ref-type="bibr" rid="B4792073">Boudot and Kalkman (2015)</xref>.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>All the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Odonata</tp:taxon-name-part></tp:taxon-name> specimens, deposited in the collection "Miscellanea Invertebrati" of MUSE, geographically refer to Northern Italy. Most of them come Central-Eastern Alps, specifically from Trentino (N=692) and Alto Adige (N=138). Another 3 specimens come from Veneto (all 3 <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leucorrhinnia">Leucorrhinnia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="dubia">dubia</tp:taxon-name-part></tp:taxon-name></italic>), 1 from Lombardia (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Calopteryx">Calopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="splendens">splendens</tp:taxon-name-part></tp:taxon-name></italic>) and 2 from Liguria (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Calopteryx">Calopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="xanthostoma">xanthostoma</tp:taxon-name-part></tp:taxon-name></italic>) (Fig. <xref ref-type="fig" rid="F4794368">1</xref>A). Overall, data for 74 localities are available (collection effort per locality: 1-122 Fig. <xref ref-type="fig" rid="F4794368">1</xref>B).</p>
+        <p>Specimens refer to an altitudinal gradient between 66 and 2600 m a.s.l., although the 86% of them were collected at low elevation (within 1000 m a.s.l.) (Fig. <xref ref-type="fig" rid="F4795270">2</xref>). Considering that most of the data came from a region which extends for 70% above 1000 m a.s.l. (<xref ref-type="bibr" rid="B4795282">Rossi 2005</xref>), this evidence suggests a possible disproportionate sampling tendency towards the valley bottom, while admitting that the diversity of dragonflies in the Alps is concentrated at lower altitudes.</p>
+      </sec>
+      <sec sec-type="Coordinates">
+        <title>Coordinates</title>
+        <p>44.449 and 46.815 Latitude; 12.265 and 9.012 Longitude.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>A total of 56 <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Odonata</tp:taxon-name-part></tp:taxon-name> species are represented in the MUSE "Miscellanea Invertebrati" collection (Fig. <xref ref-type="fig" rid="F4795507">3</xref>). Those represent 59% of the 95 species recorded at least once in Italy (<ext-link ext-link-type="uri" xlink:href="http://www.odonata.it/libe-italiane" xlink:type="simple">http://www.odonata.it/libe-italiane</ext-link>) and 39% of the 143 species recorded in Europe (<xref ref-type="bibr" rid="B4792073">Boudot and Kalkman 2015</xref>).</p>
+      </sec>
+      <sec sec-type="Taxa included">
+        <title>Taxa included</title>
+        <table-wrap id="taxonomic_coverage" position="anchor" orientation="portrait">
+          <table rules="all">
+            <thead>
+              <tr>
+                <th rowspan="1" colspan="1">Rank</th>
+                <th rowspan="1" colspan="1">Scientific Name</th>
+                <th rowspan="1" colspan="1"/>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">kingdom</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="kingdom">Animalia</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">phylum</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>Artropoda</tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">class</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="class">Insecta</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">order</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="order">Odonata</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Aeshna">Aeshna</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="affinis">affinis</tp:taxon-name-part></tp:taxon-name></italic> Vander Linden, 1820</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Aeshna">Aeshna</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="cyanea">cyanea</tp:taxon-name-part></tp:taxon-name></italic> (Müller, 1764)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Aeshna">Aeshna</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="grandis">grandis</tp:taxon-name-part></tp:taxon-name></italic> (Linnaeus, 1758)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Aeshna">Aeshna</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="juncea">juncea</tp:taxon-name-part></tp:taxon-name></italic> (Linnaeus, 1758)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Aeshna">Aeshna</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mixta">mixta</tp:taxon-name-part></tp:taxon-name></italic> (Latreille, 1805)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Anax">Anax</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="imperator">imperator</tp:taxon-name-part></tp:taxon-name></italic> Leach, 1815</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Brachytron">Brachytron</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pratense">pratense</tp:taxon-name-part></tp:taxon-name></italic> (Müller, 1764)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Calopteryx">Calopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="splendens">splendens</tp:taxon-name-part></tp:taxon-name></italic> (Harris, 1780)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Calopteryx">Calopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="virgo">virgo</tp:taxon-name-part></tp:taxon-name></italic> (Linnaeus, 1758)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Calopteryx">Calopteryx</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="xanthostoma">xanthostoma</tp:taxon-name-part></tp:taxon-name></italic> (Charpentier, 1825)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Chalcolestes">Chalcolestes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="viridis">viridis</tp:taxon-name-part></tp:taxon-name></italic> (Vander Linden, 1825)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Coenagrion">Coenagrion</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="puella">puella</tp:taxon-name-part></tp:taxon-name></italic> (Linnaeus, 1758)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Coenagrion">Coenagrion</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pulchellum">pulchellum</tp:taxon-name-part></tp:taxon-name></italic> (Vander Linden, 1825)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Coenagrion">Coenagrion</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="scitulum">scitulum</tp:taxon-name-part></tp:taxon-name></italic> (Rambur, 1842)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cordulegaster">Cordulegaster</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="bidentata">bidentata</tp:taxon-name-part></tp:taxon-name></italic> Selys, 1843</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cordulegaster">Cordulegaster</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="boltonii">boltonii</tp:taxon-name-part></tp:taxon-name></italic> (Donovan, 1807)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cordulia">Cordulia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="aenea">aenea</tp:taxon-name-part></tp:taxon-name></italic> (Linnaeus, 1758)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Crocothemis">Crocothemis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="erythraea">erythraea</tp:taxon-name-part></tp:taxon-name></italic> (Brullé, 1832)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Enallagma">Enallagma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="cyathigerum">cyathigerum</tp:taxon-name-part></tp:taxon-name></italic> (Charpentier, 1840)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Erythromma">Erythromma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="lindenii">lindenii</tp:taxon-name-part></tp:taxon-name></italic> (Selys, 1840)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Erythromma">Erythromma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="najas">najas</tp:taxon-name-part></tp:taxon-name></italic> (Hansemann, 1823)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Erythromma">Erythromma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="viridulum">viridulum</tp:taxon-name-part></tp:taxon-name></italic> (Charpentier, 1840)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Gomphus">Gomphus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="vulgatissimus">vulgatissimus</tp:taxon-name-part></tp:taxon-name></italic> (Linnaeus, 1758)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ischnura">Ischnura</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="elegans">elegans</tp:taxon-name-part></tp:taxon-name></italic> (Vander Linden, 1820)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Lestes">Lestes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="barbarus">barbarus</tp:taxon-name-part></tp:taxon-name></italic> (Fabricius, 1798)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Lestes">Lestes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="virens">virens</tp:taxon-name-part></tp:taxon-name></italic> (Charpentier, 1825)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Lestes">Lestes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="dryas">dryas</tp:taxon-name-part></tp:taxon-name></italic> (Kirby, 1890)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Lestes">Lestes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="sponsa">sponsa</tp:taxon-name-part></tp:taxon-name></italic> (Hansemann, 1823)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Lestes">Lestes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="virens">virens</tp:taxon-name-part></tp:taxon-name></italic> (Charpentier, 1825)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leucorrhinia">Leucorrhinia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="dubia">dubia</tp:taxon-name-part></tp:taxon-name></italic> (Vander Linden, 1825)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leucorrhinia">Leucorrhinia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pectoralis">pectoralis</tp:taxon-name-part></tp:taxon-name></italic> (Charpentier, 1825)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Libellula">Libellula</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="depressa">depressa</tp:taxon-name-part></tp:taxon-name></italic> Linnaeus, 1758</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Libellula">Libellula</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="fulva">fulva</tp:taxon-name-part></tp:taxon-name></italic> (Müller, 1764)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Libellula">Libellula</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="quadrimaculata">quadrimaculata</tp:taxon-name-part></tp:taxon-name></italic> Linnaeus, 1758</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Onychogomphus">Onychogomphus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="forcipatus">forcipatus</tp:taxon-name-part></tp:taxon-name></italic> (Linnaeus, 1758)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Orthetrum">Orthetrum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="albistylum">albistylum</tp:taxon-name-part></tp:taxon-name></italic> (Selys, 1848)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Orthetrum">Orthetrum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="brunneum">brunneum</tp:taxon-name-part></tp:taxon-name></italic> (Fonscolombe, 1837)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Orthetrum">Orthetrum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="cancellatum">cancellatum</tp:taxon-name-part></tp:taxon-name></italic> (Linnaeus, 1758)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Orthetrum">Orthetrum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="coerulescens">coerulescens</tp:taxon-name-part></tp:taxon-name></italic> (Fabricius, 1798)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Platycnemis">Platycnemis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pennipes">pennipes</tp:taxon-name-part></tp:taxon-name></italic> (Pallas, 1771)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pyrrhosoma">Pyrrhosoma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="nymphula">nymphula</tp:taxon-name-part></tp:taxon-name></italic> (Sulzer, 1776)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Somatochlora">Somatochlora</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="alpestris">alpestris</tp:taxon-name-part></tp:taxon-name></italic> (Selys, 1840)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Somatochlora">Somatochlora</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="arctica">arctica</tp:taxon-name-part></tp:taxon-name></italic> (Zetterstedt, 1840)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Somatochlora">Somatochlora</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="flavomaculata">flavomaculata</tp:taxon-name-part></tp:taxon-name></italic> (Vander Linden, 1825)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Somatochlora">Somatochlora</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="metallica">metallica</tp:taxon-name-part></tp:taxon-name></italic> (Vander Linden, 1825)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sympecma">Sympecma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="fusca">fusca</tp:taxon-name-part></tp:taxon-name></italic> (Vander Linden, 1820)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sympecma">Sympecma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="paedisca">paedisca</tp:taxon-name-part></tp:taxon-name></italic> (Brauer, 1877)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sympetrum">Sympetrum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="danae">danae</tp:taxon-name-part></tp:taxon-name></italic> (Sulzer, 1776)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sympetrum">Sympetrum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="depressiusculum">depressiusculum</tp:taxon-name-part></tp:taxon-name></italic> (Selys, 1841)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sympetrum">Sympetrum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="flaveolum">flaveolum</tp:taxon-name-part></tp:taxon-name></italic> (Linnaeus, 1758)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sympetrum">Sympetrum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="fonscolombii">fonscolombii</tp:taxon-name-part></tp:taxon-name></italic> (Selys, 1840)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sympetrum">Sympetrum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="meridionale">meridionale</tp:taxon-name-part></tp:taxon-name></italic> (Selys, 1841)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sympetrum">Sympetrum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pedemontanum">pedemontanum</tp:taxon-name-part></tp:taxon-name></italic> (Müller in Allioni, 1766)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sympetrum">Sympetrum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="sanguineum">sanguineum</tp:taxon-name-part></tp:taxon-name></italic> (Müller, 1764)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sympetrum">Sympetrum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="striolatum">striolatum</tp:taxon-name-part></tp:taxon-name></italic> (Charpentier, 1840)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sympetrum">Sympetrum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="vulgatum">vulgatum</tp:taxon-name-part></tp:taxon-name></italic> (Linnaeus, 1758)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+    </sec>
+    <sec sec-type="Traits coverage">
+      <title>Traits coverage</title>
+      <sec sec-type="Data coverage of traits">
+        <title>Data coverage of traits</title>
+        <p>PLEASE FILL IN TRAIT INFORMATION HERE</p>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <sec sec-type="Notes">
+        <title>Notes</title>
+        <p>The <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Odonata</tp:taxon-name-part></tp:taxon-name> specimens deposited in the MUSE "Miscellanea invertebrati collection" cover a timespan of 34 years between 1924 and 1957 (Fig. <xref ref-type="fig" rid="F4795671">4</xref>). This motivated the name ("historical") chosen to designate this collection as an unique entity, which in fact is the result of heterogeneous entomological activities carried on by different collectors. It is noteworthy to mention the almost total cessation of the collecting activities during the years of World War II (1940-1945).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Collection data">
+      <title>Collection data</title>
+      <sec sec-type="Collection name">
+        <title>Collection name</title>
+        <p>"Miscellanea invertebrati" - MUSE</p>
+      </sec>
+      <sec sec-type="Collection identifier">
+        <title>Collection identifier</title>
+        <p>cINV017</p>
+      </sec>
+      <sec sec-type="Parent collection identifier">
+        <title>Parent collection identifier</title>
+        <p>MUSE</p>
+      </sec>
+      <sec sec-type="Specimen preservation method">
+        <title>Specimen preservation method</title>
+        <p>Dried specimens (pinned; dragonfly envelopes).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Creative Commons Public Domain Waiver (CC-Zero)</p>
+      </sec>
+      <sec sec-type="IP rights notes">
+        <title>IP rights notes</title>
+        <p>This work is licensed under a Creative Commons Attribution (CC-BY) 4.0 License.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>Historical collection of dragonflies (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Insecta</tp:taxon-name-part></tp:taxon-name> : <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Odonata</tp:taxon-name-part></tp:taxon-name>) of the Science Museum (MUSE) of Trento</p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="http://ipt.pensoft.net/resource?r=muse_odonata&amp;v=1.7" xlink:type="simple">http://ipt.pensoft.net/resource?r=muse_odonata</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>1</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Historical collection of dragonflies (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Insecta</tp:taxon-name-part></tp:taxon-name> : <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Odonata</tp:taxon-name-part></tp:taxon-name>) of the Science Museum (MUSE) of Trento</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Darwin Core</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>41</p>
+        </sec>
+        <sec sec-type="">
+          <title/>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">type</td>
+                  <td rowspan="1" colspan="1">The nature of the resource</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">language</td>
+                  <td rowspan="1" colspan="1">The language of the resource</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">institutionCode</td>
+                  <td rowspan="1" colspan="1">The name in use by the institution having custody of the object or information referred to in the record</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">collectionCode</td>
+                  <td rowspan="1" colspan="1">The name and acronym identifying the collection from which the record was derived</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">datasetName</td>
+                  <td rowspan="1" colspan="1">The name identifying the dataset from which the record was derived</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">basisOfRecord</td>
+                  <td rowspan="1" colspan="1">The specific nature of the data record</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">dynamicProperties</td>
+                  <td rowspan="1" colspan="1">box: the entomological box number in which the specimen is conserved</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">catalogNumber</td>
+                  <td rowspan="1" colspan="1">An unique identifier for the record within the dataset and collection</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceRemarks</td>
+                  <td rowspan="1" colspan="1">Notes about the Occurrence</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">recordedBy</td>
+                  <td rowspan="1" colspan="1">A person responsible for recording the original Occurrence (legit)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">individualCount</td>
+                  <td rowspan="1" colspan="1">The number of specimen available for an Occurrence</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">sex</td>
+                  <td rowspan="1" colspan="1">The sex of the specimen represented in the Occurrence</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">lifeStage</td>
+                  <td rowspan="1" colspan="1">The age class or life stage of the specimen of the Occurrence</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">preparations</td>
+                  <td rowspan="1" colspan="1">Preparations and preservation methods for the specimen</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventDate</td>
+                  <td rowspan="1" colspan="1">Date when the specimen was collected (according to label)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">year</td>
+                  <td rowspan="1" colspan="1">The four-digit year in which the Event occurred, according to the Common Era Calendar</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">month</td>
+                  <td rowspan="1" colspan="1">The ordinal month in which the Event occurred</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">day</td>
+                  <td rowspan="1" colspan="1">The integer day of the month on which the Event occurred</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">continent</td>
+                  <td rowspan="1" colspan="1">The name of the continent in which the Location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">country</td>
+                  <td rowspan="1" colspan="1">The name of the country in which the Location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">stateProvince</td>
+                  <td rowspan="1" colspan="1">The name of the next smaller administrative region than country (region) in which the Location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">county</td>
+                  <td rowspan="1" colspan="1">The name of the next smaller administrative region than stateProvince (Province) in which the Location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">municipality</td>
+                  <td rowspan="1" colspan="1">The full, unabbreviated name of the next smaller administrative region than county (municipality) in which the Location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">locality</td>
+                  <td rowspan="1" colspan="1">The specific description of the place. This term may contain information modified from the original to correct perceived errors or to standardise the description.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">verbatimLocality</td>
+                  <td rowspan="1" colspan="1">The original textual description of the place</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">verbatimElevation</td>
+                  <td rowspan="1" colspan="1">The original description of the elevation (altitude, usually above sea level) of the Location</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">minimumElevationInMeters</td>
+                  <td rowspan="1" colspan="1">The lower limit of the range of elevation (altitude, usually above sea level), in metres. This is referred to georeferenced Location</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLatitude</td>
+                  <td rowspan="1" colspan="1">The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic centre of a Location</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLongitude</td>
+                  <td rowspan="1" colspan="1">The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic centre of a Location</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">geodeticDatum</td>
+                  <td rowspan="1" colspan="1">The geodetic datum upon which the geographic coordinates given in decimalLatitude and decimalLongitude as based</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">georeferencedBy</td>
+                  <td rowspan="1" colspan="1">Who determined the georeference (spatial representation) for the Location</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">georeferenceVerificationStatus</td>
+                  <td rowspan="1" colspan="1">A categorical description of the extent to which the georeference has been verified to represent the best possible spatial description</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">identifiedBy</td>
+                  <td rowspan="1" colspan="1">A list (concatenated and separated) of names of people who assigned the Taxon to the subject</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificName</td>
+                  <td rowspan="1" colspan="1">The full scientific name, with authorship and date information</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">order</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the order in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">taxonRank</td>
+                  <td rowspan="1" colspan="1">The taxonomic rank of the most specific name in the scientificName</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceID</td>
+                  <td rowspan="1" colspan="1">A globally unique identifier for the Occurrence</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">genus</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the genus in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">specificEpithet</td>
+                  <td rowspan="1" colspan="1">The name of the first or species epithet of the scientificName</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">infraspecificEpithet</td>
+                  <td rowspan="1" colspan="1">The name of the lowest or terminal infraspecific epithet of the scientificName, excluding any rank designation</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificNameAuthorship</td>
+                  <td rowspan="1" colspan="1">The authorship information for the scientificName formatted according to the conventions of the applicable nomenclaturalCode</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+    <sec sec-type="Additional information">
+      <title>Additional information</title>
+      <p>Assandri G (2018): Dragonfly biodiversity 90 years ago in an Alpine region: The <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Odonata</tp:taxon-name-part></tp:taxon-name> historical collection of the MUSE (Trento, Italy). v1.6. Biodiversity Data Journal. Dataset/Occurrence. <ext-link ext-link-type="uri" xlink:href="http://ipt.pensoft.net/resource?r=muse_odonata&amp;v=1.7" xlink:type="simple">http://ipt.pensoft.net/resource?r=muse_odonata</ext-link></p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>We would like to thank Maria Chiara Deflorian for her valuable help on the definition of the collection catalogue codes and the Pensoft staff for its assistance on technical issues related to the creation of this paper.</p>
+    </ack>
+    <sec sec-type="Author contributions">
+      <title>Author contributions</title>
+      <p>GA and VL conceived the idea; GA revised the collection with the support of AF; GA created the collection database, analysed the data and wrote a first draft of the paper; VL supervised as chief-curator of the entomology department of the MUSE the research development and acquired funding for publication; all authors contributed critically to the drafts and gave final approval for publication.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="B4894789">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ambrosi</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <year>1851</year>
+          <source>Prospetto delle specie zoologiche conosciute nel Trentino</source>
+          <publisher-name>Perini (Tip.)</publisher-name>
+          <publisher-loc>Trento</publisher-loc>
+        </element-citation>
+      </ref>
+      <ref id="B4894779">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ausserer</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <year>1869</year>
+          <article-title>Neurotteri Tirolesi colla diagnosi di tutti i generi europei. Parte I. Pseudoneurotteri</article-title>
+          <source>Annuario della Società dei Naturalisti in Modena</source>
+          <volume>4</volume>
+          <fpage>71</fpage>
+          <lpage>156</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B4792073">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Boudot</surname>
+              <given-names>J. P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kalkman</surname>
+              <given-names>V. J.</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <source>Atlas of the European Dragonflies and Damselflies</source>
+          <publisher-name>KNNV Publishing</publisher-name>
+          <publisher-loc>The Netherlands</publisher-loc>
+          <isbn>978 90 5011 4806</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B4791923">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Conci</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Galvagni</surname>
+              <given-names>O.</given-names>
+            </name>
+          </person-group>
+          <year>1944</year>
+          <article-title>Alcune interessanti catture di Odonati in Liguria e Venezia Tridentina</article-title>
+          <source>Memorie della Società Entomologica Italiana</source>
+          <volume>23</volume>
+          <fpage>71</fpage>
+          <lpage>73</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B4895840">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Conci</surname>
+              <given-names>C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Galvagni</surname>
+              <given-names>O.</given-names>
+            </name>
+          </person-group>
+          <year>1946</year>
+          <article-title>Osservazioni su alcune specie di Odonati della Venezia Tridentina</article-title>
+          <source>Pubblicazione della Società Museo Civico in Rovereto</source>
+          <volume>68</volume>
+          <fpage>3</fpage>
+          <lpage>6</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B4895879">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Conci</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <year>1948</year>
+          <article-title>Note su Odonati Italiani. Bollettino della Società Entomologica</article-title>
+          <source>Bollettino della Società Entomologica Italiana</source>
+          <volume>78</volume>
+          <fpage>25</fpage>
+          <lpage>27</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B4895889">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Conci</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <year>1957</year>
+          <article-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Aeshna">Aeshna</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="grandis">grandis</tp:taxon-name-part></tp:taxon-name> in Italia (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Odonata</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Bollettino della Società Entomologica Italiana</source>
+          <volume>87</volume>
+          <fpage>18</fpage>
+          <lpage>20</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B4895970">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Gobbi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Riservato</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bragalanti</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lencioni</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>An expert-based approach to invertebrate conservation: Identification of priority areas in central-eastern Alps</article-title>
+          <source>Journal for Nature Conservation</source>
+          <volume>20</volume>
+          <fpage>274</fpage>
+          <lpage>279</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jnc.2012.05.003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4791893">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lampo</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Riservato</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lencioni</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>Contributo alla conoscenza dell’odonatofauna della Val di Ledro (Trentino).</article-title>
+          <source>Studi Trentini di Scienze Naturali Naturali</source>
+          <volume>88</volume>
+          <fpage>53</fpage>
+          <lpage>59</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B4895869">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Marcuzzi</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <year>1948</year>
+          <article-title>Note sulla biologia di una “torbiera piana” del Trentino. Archivio di Oceanografia e</article-title>
+          <source>Archivio di Oceanografia e Limnologia</source>
+          <volume>5</volume>
+          <fpage>155</fpage>
+          <lpage>188</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B4895806">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Morton</surname>
+              <given-names>K. J.</given-names>
+            </name>
+          </person-group>
+          <year>1926</year>
+          <article-title>Notes on dragonflies observed in the Italian lake district</article-title>
+          <source>The Entomologist</source>
+          <volume>59</volume>
+          <fpage>235</fpage>
+          <lpage>239</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B4895816">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Morton</surname>
+              <given-names>K. J.</given-names>
+            </name>
+          </person-group>
+          <year>1928</year>
+          <article-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Odonata</tp:taxon-name-part></tp:taxon-name> collected in Austrian Tirol, the Trentino and Tuscany</article-title>
+          <source>The Entomologist's Monthly Magazine.</source>
+          <volume>64</volume>
+          <fpage>254</fpage>
+          <lpage>260</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B4791913">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Nielsen</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <year>1932</year>
+          <article-title>Odonati della Venezia Tridentina</article-title>
+          <source>Naturali</source>
+          <volume>10-11</volume>
+          <fpage>198</fpage>
+          <lpage>218</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B4895980">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Regneire</surname>
+              <given-names>C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Achaz</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lambert</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cowie</surname>
+              <given-names>R. H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bouchet</surname>
+              <given-names>P</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fontaine</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Mass extinction in poorly known taxa</article-title>
+          <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+          <volume>112</volume>
+          <fpage>7761</fpage>
+          <lpage>7766</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.1502350112</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4895960">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Remsen</surname>
+              <given-names>J. V.</given-names>
+            </name>
+          </person-group>
+          <year>1995</year>
+          <article-title>The importance of continued collecting of bird specimens to ornithology and bird conservation</article-title>
+          <source>Bird Conservation International</source>
+          <volume>5</volume>
+          <fpage>146</fpage>
+          <lpage>180</lpage>
+          <pub-id pub-id-type="doi">10.1017/S095927090000099X</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4795282">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Rossi</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <chapter-title>L'Area di studio: Il Trentino</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Pedrini</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Caldonazzi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zanghellini</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <source>Atlante degli Ucelli nidificanti e svernanti in Provincia di Trento</source>
+          <publisher-name>Museo Tridentino di Scienze Naturali</publisher-name>
+          <publisher-loc>Trento</publisher-loc>
+          <size units="page">692</size>
+        </element-citation>
+      </ref>
+      <ref id="B4916884">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Schmitt</surname>
+              <given-names>C. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cook</surname>
+              <given-names>J. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zamudio</surname>
+              <given-names>K. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Edwards</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Museum specimens of terrestrial vertebrates are sensitive indicators of environmental change in the Anthropocene</article-title>
+          <source>Philosophical Transactions of the Royal Society of London, Series B</source>
+          <volume>374</volume>
+          <fpage>20170387</fpage>
+          <pub-id pub-id-type="doi">10.1098/rstb.2017.0387</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F4794368" position="float" orientation="portrait">
+      <object-id content-type="arpha">DA912329-A5EE-56BB-BDB3-45F5BA68D932</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e32391.figure1</object-id>
+      <object-id content-type="zenodo_dep_id">2559717</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Geographical distribution of the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Odonata</tp:taxon-name-part></tp:taxon-name> specimens conserved in the MUSE "Miscellanea invertebrati" collection. <bold>A.</bold> All specimens. Base-map: Northern Italy - USGS The National Map: Orthoimagery. Data refreshed October 2017; <bold>B.</bold> Focus on Trentino - Alto Adige region with number of specimens per locality detailed (N=825).</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e32391-g001.jpg" position="float" id="oo_242397.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/242397</uri>
+      </graphic>
+    </fig>
+    <fig id="F4795270" position="float" orientation="portrait">
+      <object-id content-type="arpha">8202CA61-58A3-57F4-8F90-9D8FACBF9142</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e32391.figure2</object-id>
+      <object-id content-type="zenodo_dep_id">2559719</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>Altitudinal distribution of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Odonata</tp:taxon-name-part></tp:taxon-name> specimens in the MUSE "Miscellanea invertebrati" collection (N=815).</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e32391-g002.png" position="float" id="oo_242992.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/242992</uri>
+      </graphic>
+    </fig>
+    <fig id="F4795507" position="float" orientation="portrait">
+      <object-id content-type="arpha">02229F34-CAE6-52C0-8C23-5845AC5A0C33</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e32391.figure3</object-id>
+      <object-id content-type="zenodo_dep_id">2559721</object-id>
+      <label>Figure 3.</label>
+      <caption>
+        <p>Number of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Odonata</tp:taxon-name-part></tp:taxon-name> specimens in the MUSE "Miscellanea invertebrati" collection divided by species (N=836).</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e32391-g003.png" position="float" id="oo_242996.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/242996</uri>
+      </graphic>
+    </fig>
+    <fig id="F4795671" position="float" orientation="portrait">
+      <object-id content-type="arpha">5C174CE0-C367-52B2-A344-BD4A690A6DDE</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e32391.figure4</object-id>
+      <object-id content-type="zenodo_dep_id">2559723</object-id>
+      <label>Figure 4.</label>
+      <caption>
+        <p>Temporal distribution of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Odonata</tp:taxon-name-part></tp:taxon-name> specimens in the MUSE "Miscellanea invertebrati" collection (N=835).</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e32391-g004.png" position="float" id="oo_243234.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/243234</uri>
+      </graphic>
+    </fig>
+  </floats-group>
+</article>

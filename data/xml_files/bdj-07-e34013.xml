@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="3.0" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.7.e34013</article-id>
+      <article-id pub-id-type="publisher-id">34013</article-id>
+      <article-id pub-id-type="manuscript">10795</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Animalia</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Biodiversity &amp; Conservation</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>South America</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Dataset from the Snakes (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Serpentes</tp:taxon-name-part></tp:taxon-name>, Reptiles) collection of the Museu Paraense Emílio Goeldi, Pará, Brazil</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>da Costa Prudente</surname>
+            <given-names>Ana Lúcia</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Ramos</surname>
+            <given-names>Lorran Alves da Cruz</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Silva</surname>
+            <given-names>Timóteo Monteiro da</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Sarmento</surname>
+            <given-names>João Fabrício de Melo</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Dourado</surname>
+            <given-names>Angelo Cortez Moreira</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Silva</surname>
+            <given-names>Fernanda Magalhães</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Almeida</surname>
+            <given-names>Paula Carolina Rodrigues de</given-names>
+          </name>
+          <uri content-type="orcid" xlink:type="simple">https://orcid.org/0000-0001-9677-3216</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Santos</surname>
+            <given-names>Cleverson Rannieri Meira dos</given-names>
+          </name>
+          <uri content-type="orcid" xlink:type="simple">https://orcid.org/0000-0003-0467-2798</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes" xlink:type="simple">
+          <name name-style="western">
+            <surname>Sousa</surname>
+            <given-names>Marcos Paulo Alves de</given-names>
+          </name>
+          <email xlink:type="simple">msousa@museu-goeldi.br</email>
+          <uri content-type="orcid" xlink:type="simple">https://orcid.org/0000-0002-3379-4754</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Museu Paraense Emílio Goeldi, Belém, Brazil</addr-line>
+        <institution xlink:type="simple">Museu Paraense Emílio Goeldi</institution>
+        <addr-line content-type="city">Belém</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Marcos Paulo Alves de Sousa (<email xlink:type="simple">msousa@museu-goeldi.br</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Franco Andreone</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>18</day>
+        <month>04</month>
+        <year>2019</year>
+      </pub-date>
+      <volume>7</volume>
+      <elocation-id>e34013</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/0BE59CCD-6A71-5BA2-856B-B683BA15F67E">0BE59CCD-6A71-5BA2-856B-B683BA15F67E</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/2651757">2651757</uri>
+      <history>
+        <date date-type="received">
+          <day>21</day>
+          <month>02</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>08</day>
+          <month>04</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Ana Lúcia da Costa Prudente, Lorran Alves da Cruz Ramos, Timóteo Monteiro da Silva, João Fabrício de Melo Sarmento, Angelo Cortez Moreira Dourado, Fernanda Magalhães Silva, Paula Carolina Rodrigues de Almeida, Cleverson Rannieri Meira dos Santos, Marcos Paulo Alves de Sousa</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>We present a dataset with information from the snake collection of the Museu Paraense Emílio Goeldi, known as the “Ophidia Collection”. This collection currently has 26,728 specimens of snakes, including 9 families, 66 genera and 220 species. For the most part, it represents material from the Amazon Region. Specimens are preserved mostly in wet (alcohol) preparation, with some samples preserved in dry form, as is the case of the shells and skeletons of turtles. The dataset is now available for public consultation on the Global Biodiversity Information Facility portal (<underline><ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15468/lt0wet" xlink:type="simple">https://doi.org/10.15468/lt0wet</ext-link></underline>).</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>The Herpetological collection of Museu Paraense Emílio Goeldi comprises the largest collection of its kind in the Amazon region with about 100,000 specimens of amphibians and reptiles (chelonians, alligators, lizards, snakes and amphisbaenians). This collection currently has 26,728 specimens of snakes, including 9 families, 66 genera and 220 species, some of which are endemic to the Amazon rainforest region. The Museu Paraense Emílio Goeldi is the second oldest institution of science in Brazil in activity, founded in 1866.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>Snakes</kwd>
+        <kwd>collection</kwd>
+        <kwd>diversity</kwd>
+        <kwd>Amazon</kwd>
+        <kwd>inventories</kwd>
+        <kwd>biodiversity dataset</kwd>
+        <kwd>rainforest</kwd>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="order">Squamata</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="suborder">Serpentes</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>Reptiles.</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="6"/>
+        <table-count count="0"/>
+        <ref-count count="16"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>The Museu Paraense Emílio Goeldi (MPEG) or Goeldi Museum, located in Belém, Pará, Brazil, is a federal research institution within the Brazilian Ministry of Science, Technology and Communication (MCTIC). Although herpetological studies in Goeldi Museum were initiated by the Swiss naturalist Emílio Goeldi in the late 19<sup>th</sup> century, the specimens collected during this period did not, however, remain in the Museum. Other important researchers contributed to the formation and enhancement of the herpetological collections, including Emília Snethlage and Gottfried Hagmann. Emília Snethlage was hired at the Goeldi Museum in June 1905, when she began developing numerous field works on scientific expeditions in the Amazon to collect specimens. In 1914, she became director of the Goeldi Museum, being the first woman to administer a scientific institution in South America (<xref ref-type="bibr" rid="B5168939">Junghans 2008</xref>).</p>
+      <p>In June 1965, a Division of Herpetology was installed at the Goeldi by Osvaldo R. Cunha. The rapid increase in knowledge of the herpetofauna from the 1950s to 1975 was largely associated with the work of Osvaldo R. Cunha and Francisco P. Nascimento, who developed an ambitious field collection programme (<xref ref-type="bibr" rid="B5005805">Cunha and Nascimento 1978</xref>;<xref ref-type="bibr" rid="B5006057">Cunha and Nascimento 1993</xref>; <xref ref-type="bibr" rid="B5006067">Hoogmoed et al. 2011</xref>). This reptile collection initiative included collaboration with inhabitants of several localities, initially covering the eastern region of Pará, later extending to the south of the state and to the west of Maranhão, Brazil. This long-term study resulted in a series of important papers (as listed in <xref ref-type="bibr" rid="B5006067">Hoogmoed et al. 2011</xref>), which became basic reference works for the eastern Amazonian snakes.</p>
+      <p>Despite this important sampling effort by Cunha and Nascimento, accessibility and time constraints hindered full coverage of the area, such that many municipalities remained unsampled. More recently, detailed field studies of some of these areas, plus the inclusion of new areas, has increased our knowledge of the herpetological fauna of the region (<xref ref-type="bibr" rid="B5005083">Avila-Pires 1995</xref>; <xref ref-type="bibr" rid="B5005111">Avila-Pires et al. 2009</xref>; <xref ref-type="bibr" rid="B5006183">Rodrigues and Prudente 2011</xref>; <xref ref-type="bibr" rid="B5006293">Silva et al. 2011</xref>; <xref ref-type="bibr" rid="B5006153">Prudente et al. 2013</xref>; <xref ref-type="bibr" rid="B5006163">Prudente et al. 2018</xref>). The Herpetological collection of the MPEG constitutes an irreplaceable source of information for these studies and represents an historical record for the occurrence of several species in areas that are now totally altered by anthropic actions, especially in the region known as the “arc of deforestation” (<xref ref-type="bibr" rid="B5006163">Prudente et al. 2018</xref>).</p>
+      <p>Currently, the Herpetological collection comprises the largest collection of its kind in the Amazon region, with about 100,000 specimens of amphibians and reptiles (chelonians, alligators, lizards, snakes and amphisbaenians) (Fig. <xref ref-type="fig" rid="F5168833">1</xref>). There are currently three staff researchers and one associate researcher, as well as undergraduate and graduate students from the Postgraduate Program in Zoology (PPGZOOL) of the Federal University of Pará/MPEG and in the recently created graduate programme in Biodiversity and Evolution (PPGBE) at MPEG. In this paper, we describe and synthesise information about Amazonian snake biodiversity as represented in the collection of MPEG, by providing a summary of taxonomic coverage and geographical distribution, in the hopes of facilitating rapid and dynamic access to these records.</p>
+      <p>Data published through GBIF: <underline><ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15468/lt0wet" xlink:type="simple">https://doi.org/10.15468/lt0wet</ext-link></underline>.</p>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>The specimens were preserved mostly in liquid (alcohol) collections, although some individuals were preserved as dry specimens. The collection also had tissue samples for molecular studies.</p>
+      </sec>
+      <sec sec-type="Quality control">
+        <title>Quality control</title>
+        <p>The snake collection of MPEG has received collections from dozens of scientists who had used various methods of sampling.They included time-constrained search, pitfall traps with drift fence and incidental encounters (<xref ref-type="bibr" rid="B5006278">Santos-Costa and Prudente 2003</xref>; <xref ref-type="bibr" rid="B5006143">Maschio et al. 2016</xref>). The validity of species’ names was checked using the catalogue The Brazilian Reptiles – List of species (<xref ref-type="bibr" rid="B5005778">Costa and Bérnils 2018</xref>). Synonymies were checked across all mentioned lists and, if incongruences were found, the earliest name on the record was used for disambiguation. If the names used in the earlier lists did not resolve the nomenclatural inconsistency, geographical ranges of the species were checked and used to assign the currently accepted species name. If identification problems persisted after these steps, the authors carried out a more thorough re-identification of the specimens. Given the current data policy of the Goeldi Museum biological collections, collection sites without specific geographic coordinates, identified with locality names, were georeferenced using the location of the municipal centre of the region of occurrence, in order to guarantee a consistent distribution for Occurrence Data of Sensitive Primary Species.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>Although most of the species came from Brazil (n= 26,678), there are records for Argentina (n= 1), Colombia (n= 27), Ecuador (n= 1), French Guiana (n= 1), Peru (n= 1) and Suriname (n= 1) (Fig. <xref ref-type="fig" rid="F5006466">2</xref>. Most samples from Brazil were from the Amazon region, mainly in eastern Pará state. Most specimens were captured within the polygon defined by the following coordinates: 1°0'0"N and 4°0'0"S latitude; 51°0'0"W and 45°0'0"W longitude. Coordinates 12°0'0"N and 30°0'0"S latitude; 81°0'0"W and 33°0'0"W longitude.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The snakes collection of MPEG includes 26,728 specimens, representing 9 families, 66 genera and 220 species. About 99% of the specimens come from Brazil, with few records in Colombia (27 specimens), Argentina (2 specimens), Ecuador, French Guiana, Peru and Suriname (with one specimen each country). For the most part, this material came from the Amazon. There are 15 holotypes, one neotype (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hydrodynastes">Hydrodynastes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="bicintus">bicintus</tp:taxon-name-part></tp:taxon-name></italic>) and 13 paratypes. More than 98% of the specimens are identified at the species level.</p>
+        <p>All type species found in the collection are detailed below:</p>
+        <p>List of species with holotype in the collection:</p>
+        <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Atractus">Atractus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="albuquerquei">albuquerquei</tp:taxon-name-part></tp:taxon-name></italic> Cunha &amp; Nascimento, 1983; <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Atractus">Atractus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="alphonsehogei">alphonsehogei</tp:taxon-name-part></tp:taxon-name></italic> Cunha &amp; Nascimento, 1983; <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Atractus">Atractus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="boimirim">boimirim</tp:taxon-name-part></tp:taxon-name></italic> Passos, Prudente &amp; Lynch, 2016; <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Atractus">Atractus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="caxiuana">caxiuana</tp:taxon-name-part></tp:taxon-name></italic> Prudente &amp; Santos-Costa, 2006; <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Atractus">Atractus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="snethlageae">snethlageae</tp:taxon-name-part></tp:taxon-name></italic> Cunha &amp; Nascimento, 1983; <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Atractus">Atractus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="hoogmoedi">hoogmoedi</tp:taxon-name-part></tp:taxon-name></italic> Prudente &amp; Passos, 2010; <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Atractus">Atractus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="natans">natans</tp:taxon-name-part></tp:taxon-name></italic> Hoogmoed &amp; Prudente, 2003; <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Atractus">Atractus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="surucucu">surucucu</tp:taxon-name-part></tp:taxon-name></italic> Prudente &amp; Passos, 2008; <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Erythrolamprus">Erythrolamprus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="carajasensis">carajasensis</tp:taxon-name-part></tp:taxon-name></italic> Cunha, Nascimento &amp; Avila-Pires, 1985; <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Mastigodryas">Mastigodryas</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="bifossatus">bifossatus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="lacerdai">lacerdai</tp:taxon-name-part></tp:taxon-name></italic> Cunha &amp; Nascimento, 1978; <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Micrurus">Micrurus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="paraensis">paraensis</tp:taxon-name-part></tp:taxon-name></italic> Cunha &amp; Nascimento, 1973; <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Micrurus">Micrurus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="tikuna">tikuna</tp:taxon-name-part></tp:taxon-name></italic> Feitosa, Silva Jr, Pires, Zaher &amp; Prudente, 2015 (Fig. <xref ref-type="fig" rid="F5168808">3</xref>); <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oxyrhopus">Oxyrhopus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="melanogenys">melanogenys</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="orientalis">orientalis</tp:taxon-name-part></tp:taxon-name></italic> Cunha &amp; Nascimento, 1983; <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sibynomorphus">Sibynomorphus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mikanii">mikanii</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="septentrionalis">septentrionalis</tp:taxon-name-part></tp:taxon-name></italic> Cunha et al 1980; <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Taeniophallus">Taeniophallus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="quadriocellatus">quadriocellatus</tp:taxon-name-part></tp:taxon-name></italic> Santos-Jr, Di-Bernardo &amp; Lema, 2008.</p>
+        <p>List of species with only paratypes in the collection:</p>
+        <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Atractus">Atractus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="alphonsehogei">alphonsehogei</tp:taxon-name-part></tp:taxon-name></italic> (n = 6), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Atractus">Atractus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="boimirim">boimirim</tp:taxon-name-part></tp:taxon-name></italic> (n = 15), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Atractus">Atractus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="caxiuana">caxiuana</tp:taxon-name-part></tp:taxon-name></italic> (n = 3), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Atractus">Atractus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="hoogmoedi">hoogmoedi</tp:taxon-name-part></tp:taxon-name></italic> (n = 2), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Atractus">Atractus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="natans">natans</tp:taxon-name-part></tp:taxon-name></italic> (n = 2), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Atractus">Atractus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="snethlageae">snethlageae</tp:taxon-name-part></tp:taxon-name></italic> (n = 13), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Atractus">Atractus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="surucucu">surucucu</tp:taxon-name-part></tp:taxon-name></italic> (n = 2), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Atactus">Atactus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="tartarus">tartarus</tp:taxon-name-part></tp:taxon-name></italic> Passos, Prudente &amp; Lynch, 2016 (n = 6); <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Erythrolamprus">Erythrolamprus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="carajasensis">carajasensis</tp:taxon-name-part></tp:taxon-name></italic> (n = 27), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Micrurus">Micrurus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="paraensis">paraensis</tp:taxon-name-part></tp:taxon-name></italic> (n = 2), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oxyrhopus">Oxyrhopus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="melanogenys">melanogenys</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="orientalis">orientalis</tp:taxon-name-part></tp:taxon-name></italic> (n = 94), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sibynomorphus">Sibynomorphus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mikanii">mikanii</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="septentrionalis">septentrionalis</tp:taxon-name-part></tp:taxon-name></italic> (n = 41), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Taeniophallus">Taeniophallus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="quadriocellatus">quadriocellatus</tp:taxon-name-part></tp:taxon-name></italic> (n = 5).</p>
+        <p>
+          <bold>Taxonomic ranks</bold>
+        </p>
+        <p><bold>Kingdom</bold>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="kingdom">Animalia</tp:taxon-name-part></tp:taxon-name></p>
+        <p><bold>Phylum</bold>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Chordata</tp:taxon-name-part></tp:taxon-name></p>
+        <p><bold>Class</bold>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part></tp:taxon-name></p>
+        <p><bold>Order</bold>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Squamata</tp:taxon-name-part></tp:taxon-name></p>
+        <p><bold>Family</bold>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Aniliidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Anomalepididae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Boidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Colubridae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Dipsadidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Elapidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Leptotyphlopidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Typhlopidae</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Viperidae</tp:taxon-name-part></tp:taxon-name> (Fig. <xref ref-type="fig" rid="F5006461">4</xref>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <p><bold>Formation period:</bold> 1900-2017.</p>
+      <sec sec-type="Notes">
+        <title>Notes</title>
+        <p>The temporal range of the records is between 1900–2017 (Fig. <xref ref-type="fig" rid="F5006470">5</xref>). A rapid increase in knowledge of the eastern Amazonian herpetofauna from the 1950s to 1975 was largely associated with the work of Osvaldo R. Cunha and Francisco P. Nascimento, MPEG researchers who developed a collection programme in the region during that period (<xref ref-type="bibr" rid="B5006067">Hoogmoed et al. 2011</xref>). Despite significant sampling efforts by several collaborators, accessibility and time constraints hindered full coverage of the area, such that many municipalities remained unsampled.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Collection data">
+      <title>Collection data</title>
+      <sec sec-type="Collection name">
+        <title>Collection name</title>
+        <p>Ophidia</p>
+      </sec>
+      <sec sec-type="Collection identifier">
+        <title>Collection identifier</title>
+        <p>MPEG.HOP</p>
+      </sec>
+      <sec sec-type="Parent collection identifier">
+        <title>Parent collection identifier</title>
+        <p>Museu Paraense Emílio Goeldi</p>
+      </sec>
+      <sec sec-type="Specimen preservation method">
+        <title>Specimen preservation method</title>
+        <p>Alcohol</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Other</p>
+      </sec>
+      <sec sec-type="IP rights notes">
+        <title>IP rights notes</title>
+        <p>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>Museu Paraense Emílio Goeldi - Ophidia Collection</p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="https://www.gbif.org/dataset/85bce05a-fce5-4918-a8f0-ab4b82718c25" xlink:type="simple">https://www.gbif.org/dataset/85bce05a-fce5-4918-a8f0-ab4b82718c25</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Alternative identifiers">
+        <title>Alternative identifiers</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15468/lt0wet" xlink:type="simple">https://doi.org/10.15468/lt0wet</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>1</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Museu Paraense Emílio Goeldi - Ophidia Collection</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Darwin Core Archive (DwC-A)</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>28</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="https://www.gbif.org/dataset/85bce05a-fce5-4918-a8f0-ab4b82718c25" xlink:type="simple">https://www.gbif.org/dataset/85bce05a-fce5-4918-a8f0-ab4b82718c25</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Data format version">
+          <title>Data format version</title>
+          <p>11.2</p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>This collection currently has 26,728 specimens of snakes, including 9 families, 66 genera and 220 species. The full database is available via the Integrated Publishing Toolkit (IPT) of Museu Paraense Emílio Goeldi (version 3.18 published in 2019-03-26).</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceID</td>
+                  <td rowspan="1" colspan="1">An identifier for the Occurrence</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">dcterms:modified</td>
+                  <td rowspan="1" colspan="1">The most recent date-time on which the resource was changed</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">dcterms:license</td>
+                  <td rowspan="1" colspan="1">A legal document giving official permission to do something with the resource</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">dcterms:rightsHolder</td>
+                  <td rowspan="1" colspan="1">A person or organisation owning or managing rights over the resource</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">institutionCode</td>
+                  <td rowspan="1" colspan="1">The name (or acronym) in use by the institution having custody of the object(s) or information referred to in the record</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">collectionCode</td>
+                  <td rowspan="1" colspan="1">The name, acronym, coden or initialism identifying the collection or dataset from which the record was derived</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">datasetName</td>
+                  <td rowspan="1" colspan="1">The name identifying the dataset from which the record was derived</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">basisOfRecord</td>
+                  <td rowspan="1" colspan="1">The specific nature of the data record - a subtype of the dcterms:type</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">catalogNumber</td>
+                  <td rowspan="1" colspan="1">An identifier for the record within the dataset or collection</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">recordedBy</td>
+                  <td rowspan="1" colspan="1">A list of names of people, groups or organisations responsible for recording the original Occurrence</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">preparations</td>
+                  <td rowspan="1" colspan="1">A list of preparations and preservation methods for a specimen</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">otherCatalogNumbers</td>
+                  <td rowspan="1" colspan="1">A list of previous or alternate fully qualified catalogue numbers or other human-used identifiers for the same Occurrence</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">EventDate</td>
+                  <td rowspan="1" colspan="1">The date-time or interval during which an Event occurred</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">higherGeography</td>
+                  <td rowspan="1" colspan="1">A list of geographic names less specific than the information captured in the locality term.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">continent</td>
+                  <td rowspan="1" colspan="1">The name of the continent in which the Location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">country</td>
+                  <td rowspan="1" colspan="1">The name of the country or major administrative unit in which the Location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">stateProvince</td>
+                  <td rowspan="1" colspan="1">The name of the next smaller administrative region than country</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">county</td>
+                  <td rowspan="1" colspan="1">The full, unabbreviated name of the next smaller administrative region than stateProvince</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">typeStatus</td>
+                  <td rowspan="1" colspan="1">A list of nomenclatural types</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificName</td>
+                  <td rowspan="1" colspan="1">The full scientific name</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">kingdom</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the kingdom in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">phylum</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the phylum or division in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">class</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the class in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">order</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the order in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">family</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the family in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">genus</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the genus in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">specificEpithet</td>
+                  <td rowspan="1" colspan="1">The name of the first or species epithet of the scientificName</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">infraspecificEpithet</td>
+                  <td rowspan="1" colspan="1">The name of the lowest or terminal infraspecific epithet of the scientificName, excluding any rank designation</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+    <sec sec-type="Additional information">
+      <title>Additional information</title>
+      <sec sec-type="Data publication protocol">
+        <title>Data publication protocol</title>
+        <p>Prior to digitising the collection, the preservation status of specimens was reviewed. Specimens were identified or existing identifications were reviewed. The digitising and publication process followed the protocols of previous work in the Goeldi's Ichthyology collection (<xref ref-type="bibr" rid="B5006305">Silva et al. 2017</xref>), as illustrated in Fig. <xref ref-type="fig" rid="F5006474">6</xref>. First, all biodiversity and biological collection data were digitised in a Microsoft Excel spreadsheet adopting the Specify format (<xref ref-type="bibr" rid="B5006363">SPECIFY 2018</xref>). Next, the data spreadsheet was imported into the Specify database, using the Workbench tool to perform a data check for duplicate records, consistency and standardisation errors (for example, geographical coordinates, date etc.). After this data check, the data were imported. Then the data were exported from Specify software to the Darwin Core Archive format v1.4 (<xref ref-type="bibr" rid="B5006372">Wieczorek et al. 2012</xref>), creating a dataset with metadata. In the fourth and final step, a collection dataset repository was created using the Integrated Publishing Toolkit (IPT), which was submitted and published in GBIF (<ext-link ext-link-type="uri" xlink:href="http://www.gbif.org" xlink:type="simple">http://www.gbif.org</ext-link>).</p>
+      </sec>
+      <sec sec-type="Curatorship and storage">
+        <title>Curatorship and storage</title>
+        <p>The material is identified by comparison with bibliographic sources and material present in the collection. The data and metadata are digitised and deposited in the collection and maintained in air-conditioning at 22°C. The specimens are fixed in formalin for 24 hours and transferred into a 70% ethanol solution for permanent storage. Snakes are injected at 4-5 cm intervals along the whole length of belly and tail. Moderate pressure at the base of the tail of a freshly killed snake everts its hemipenes. Hemipenial morphology is very helpful in taxonomic determinations. Injection of formalin at the tail base also serves to put pressure to evert hemipenis and harden them at the same time. Samples are stored in glass jars or other containers (for example, high density polyethylene drums), organised in alphabetical order by family, genus and species. The tissue samples are taken from freshly killed specimens, preserved in ethanol and stored in a freezer. Loans, exchanges and donation of materials are made through a request to the curator, who evaluates each proposal.</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>We would like to thank Ulisses Galatti, Teresa Cristina Avila-Pires and Marinus Hoogmoed (researchers) and financial support by Sistema de Informação sobre a Biodiversidade Brasileira (SIBBr). We are grateful to G. Shepard Jr. for reviewing the English of the manuscript. ALCP thanks Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq (grants 30.5475/2014-2 and 44.0413/2015-0) and FMS thanks to Programa de Capacitação Institucional (MPEG/MCTIC) (grant number 300332/2017-3).</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B5005083">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Avila-Pires</surname>
+              <given-names>Teresa Cristina Sauer</given-names>
+            </name>
+          </person-group>
+          <year>1995</year>
+          <chapter-title>Lizards of the Brazilian Amazonia (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Squamata</tp:taxon-name-part></tp:taxon-name>)</chapter-title>
+          <source>Zoologische Verhandelingen, 299: 1-706</source>
+          <publisher-name>Backhuys Publishers</publisher-name>
+          <size units="page">706</size>
+          <isbn>9073239400</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B5005111">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Avila-Pires</surname>
+              <given-names>Teresa Cristina Sauer</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vitt</surname>
+              <given-names>Laurie Joseph</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sartorius</surname>
+              <given-names>Shawn Scott</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zani</surname>
+              <given-names>Peter Andrew</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Squamata</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part></tp:taxon-name>) from four sites in southern Amazonia, with a biogeographic analysis of Amazonian lizards</article-title>
+          <source>Boletim do Museu Paraense Emilio Goeldi, Ciências Naturais</source>
+          <volume>4</volume>
+          <fpage>99</fpage>
+          <lpage>118</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5005778">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Costa</surname>
+              <given-names>Henrique Caldeira</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bérnils</surname>
+              <given-names>Renato Silveira</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Répteis do Brasil e suas Unidades Federativas: Lista de espécies</article-title>
+          <source>Herpetologia Brasileira</source>
+          <volume>7</volume>
+          <issue>1</issue>
+          <uri xlink:type="simple">http://sbherpetologia.org.br/wp-content/uploads/2016/10/lista-de-repteis-2018-2.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5005805">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Cunha</surname>
+              <given-names>Osvaldo Rodrigues</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nascimento</surname>
+              <given-names>Francisco Paiva</given-names>
+            </name>
+          </person-group>
+          <year>1978</year>
+          <article-title>Ofídios da Amazônia X - As cobras da região leste do Pará</article-title>
+          <source>Publicações Avulsas Museu Paraense Emilio Goeldi</source>
+          <uri xlink:type="simple">http://repositorio.museu-goeldi.br/handle/mgoeldi/904</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5006057">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Cunha</surname>
+              <given-names>Osvaldo Rodrigues</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nascimento</surname>
+              <given-names>Francisco Paiva</given-names>
+            </name>
+          </person-group>
+          <year>1993</year>
+          <article-title>Ofídios da amazônia. as cobras da região Leste do Pará</article-title>
+          <source>Boletim do Museu Paraense Emilio Goeldi, Zoologia</source>
+          <volume>9</volume>
+          <fpage>1</fpage>
+          <lpage>191</lpage>
+          <uri xlink:type="simple">http://repositorio.museu-goeldi.br/handle/123456789/816</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5006067">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Hoogmoed</surname>
+              <given-names>Marinus Steven</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Avila-Pires</surname>
+              <given-names>Teresa Cristina Sauer de</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sanjad</surname>
+              <given-names>Nelson</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>Obituário de Osvaldo Rodrigues da Cunha (1928-2011)</article-title>
+          <source>Boletim do Museu Paraense Emilio Goeldi, Ciências Naturais</source>
+          <volume>6</volume>
+          <fpage>75</fpage>
+          <lpage>87</lpage>
+          <uri xlink:type="simple">http://scielo.iec.gov.br/pdf/bmpegcn/v6n1/v6n1a04.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5168939">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Junghans</surname>
+              <given-names>Miriam</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Emilia Snethlage (1868-1929): uma naturalista alemã na Amazônia</article-title>
+          <source>História, Ciências, Saúde-Manguinhos</source>
+          <volume>15</volume>
+          <fpage>243</fpage>
+          <lpage>255</lpage>
+          <uri xlink:type="simple">10.1590/s0104-59702008000500013</uri>
+          <pub-id pub-id-type="doi">10.1590/s0104-59702008000500013</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5006143">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Maschio</surname>
+              <given-names>Gleomar F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Santos-Costa</surname>
+              <given-names>Maria C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Prudente</surname>
+              <given-names>Ana L. C.</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Road-kills of snakes in a tropical rainforest in the Central Amazon Basin, Brazil</article-title>
+          <source>South American Journal of Herpetology</source>
+          <volume>11</volume>
+          <issue>1</issue>
+          <fpage>46</fpage>
+          <lpage>53</lpage>
+          <pub-id pub-id-type="doi">10.2994/sajh-d-15-00026.1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5006153">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Prudente</surname>
+              <given-names>Ana Lúcia Costa</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Magalhães</surname>
+              <given-names>Fernanda</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Menks</surname>
+              <given-names>Alessandro</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sarmento</surname>
+              <given-names>João Fabrício De Melo</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Checklist of lizards of the Juruti, state of Pará, Brazil</article-title>
+          <source>Check List</source>
+          <volume>9</volume>
+          <issue>1</issue>
+          <fpage>42</fpage>
+          <pub-id pub-id-type="doi">10.15560/9.1.42</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5006163">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Prudente</surname>
+              <given-names>Ana Lúcia da Costa</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sarmento</surname>
+              <given-names>João Fabrício Melo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Avila-Pires</surname>
+              <given-names>Teresa Cristina Sauer de</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maschio</surname>
+              <given-names>Gleomar</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sturaro</surname>
+              <given-names>Marcelo José</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>How much do we know about the diversity of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">squamata</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part></tp:taxon-name>) in the most degraded region of Amazonia?</article-title>
+          <source>South American Journal of Herpetology</source>
+          <volume>13</volume>
+          <issue>2</issue>
+          <fpage>117</fpage>
+          <pub-id pub-id-type="doi">10.2994/sajh-d-17-00009.1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5006183">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Rodrigues</surname>
+              <given-names>Francílio da Silva</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Prudente</surname>
+              <given-names>Ana Lúcia da Costa</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>The snake assemblage (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Squamata</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Serpentes</tp:taxon-name-part></tp:taxon-name>) of a Cerrado-Caatinga transition area in Castelo do Piauí, state of Piauí, Brazil</article-title>
+          <source>Zoologia (Curitiba)</source>
+          <volume>28</volume>
+          <issue>4</issue>
+          <fpage>440</fpage>
+          <lpage>448</lpage>
+          <pub-id pub-id-type="doi">10.1590/s1984-46702011000400005</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5006278">
+        <element-citation publication-type="conference-paper" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Santos-Costa</surname>
+              <given-names>Maria Cristina dos</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Prudente</surname>
+              <given-names>Ana Lúcia da Costa</given-names>
+            </name>
+          </person-group>
+          <year>2003</year>
+          <article-title>Diversity of snakes community of the rain forest on Estação Científica Ferreira Penna, Eastern Amazon, Brazil</article-title>
+          <source>Joint Meeting - COPEIA</source>
+          <publisher-loc>Manaus</publisher-loc>
+        </element-citation>
+      </ref>
+      <ref id="B5006293">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Silva</surname>
+              <given-names>Fernanda Magalhães</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Menks</surname>
+              <given-names>Alessandro Costa</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Costa Prudente</surname>
+              <given-names>Ana Lúcia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lopes Costa</surname>
+              <given-names>João Carlos</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Melo Travassos</surname>
+              <given-names>Alessandra Elisa</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Galatti</surname>
+              <given-names>Ulisses</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>Squamate reptiles from municipality of Barcarena and surroundings, state of Pará, north of Brazil</article-title>
+          <source>Check List</source>
+          <volume>7</volume>
+          <issue>3</issue>
+          <fpage>220</fpage>
+          <pub-id pub-id-type="doi">10.15560/7.3.220</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5006305">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Silva</surname>
+              <given-names>Timóteo Monteiro</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Santos</surname>
+              <given-names>Juliana Corrêa</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ferreira</surname>
+              <given-names>Victor Amazonas Viegas</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ramos</surname>
+              <given-names>Lorran Alves Cruz</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wosiacki</surname>
+              <given-names>Wolmar Benjamin</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sousa</surname>
+              <given-names>Marcos Paulo Alves</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Data from the ichthyological collection of the Museu Paraense Emílio Goeldi</article-title>
+          <source>ZooKeys</source>
+          <volume>687</volume>
+          <fpage>89</fpage>
+          <lpage>99</lpage>
+          <pub-id pub-id-type="doi">10.3897/zookeys.687.11233</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5006363">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>SPECIFY</surname>
+            </name>
+          </person-group>
+          <article-title>Specify Software Project (2018) Biodiversity Institute, University of Kansas</article-title>
+          <uri xlink:type="simple">http://www.specifysoftware.org</uri>
+          <date-in-citation content-type="access-date">2018-04-09T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5006372">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Wieczorek</surname>
+              <given-names>John</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bloom</surname>
+              <given-names>David</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Guralnick</surname>
+              <given-names>Robert</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Blum</surname>
+              <given-names>Stan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Döring</surname>
+              <given-names>Markus</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Giovanni</surname>
+              <given-names>Renato</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Robertson</surname>
+              <given-names>Tim</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vieglais</surname>
+              <given-names>David</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Darwin Core: an evolving community-developed biodiversity data standard</article-title>
+          <source>PLoS ONE</source>
+          <volume>7</volume>
+          <issue>1</issue>
+          <fpage>e29715</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0029715</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F5168833" position="float" orientation="portrait">
+      <object-id content-type="arpha">941F042E-AA3E-578F-8368-C7A8B0824987</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e34013.figure1</object-id>
+      <object-id content-type="zenodo_dep_id">2651781</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>General view of the Herpetological collection of the Museu Paraense Emílio Goeldi, Belém, Pará, Brazil.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e34013-g001.jpg" position="float" id="oo_277040.JPG" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/277040</uri>
+      </graphic>
+    </fig>
+    <fig id="F5006466" position="float" orientation="portrait">
+      <object-id content-type="arpha">69FC1CF8-8479-56B0-B9E7-DD7CD7EF9FCD</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e34013.figure2</object-id>
+      <object-id content-type="zenodo_dep_id">2651783</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>Map of collection occurrence records, represented by sampled municipality, where one point may represent more than one event. Most specimens were captured within the rectangle area.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e34013-g002.jpg" position="float" id="oo_264929.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/264929</uri>
+      </graphic>
+    </fig>
+    <fig id="F5168808" position="float" orientation="portrait">
+      <object-id content-type="arpha">078B2663-F242-5340-92FF-AE10CF25BEB7</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e34013.figure3</object-id>
+      <object-id content-type="zenodo_dep_id">2651785</object-id>
+      <label>Figure 3.</label>
+      <caption>
+        <p>Dorsal view of the holotype of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Micrurus">Micrurus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="tikuna">tikuna</tp:taxon-name-part></tp:taxon-name></italic> (MPEG 18199), from the municipality of Tabatinga (04º14'36'S, 69º54'15'W), state of Amazonas, Brazil. Scale = 50 mm</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e34013-g003.jpg" position="float" id="oo_277038.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/277038</uri>
+      </graphic>
+    </fig>
+    <fig id="F5006461" position="float" orientation="portrait">
+      <object-id content-type="arpha">CCA867B8-F04F-51C9-A23A-75E790FE7024</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e34013.figure4</object-id>
+      <object-id content-type="zenodo_dep_id">2651787</object-id>
+      <label>Figure 4.</label>
+      <caption>
+        <p>Distribution of families in the snake collections, MPEG. Number of specimens and frequencies are represented for each family.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e34013-g004.png" position="float" id="oo_264915.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/264915</uri>
+      </graphic>
+    </fig>
+    <fig id="F5006470" position="float" orientation="portrait">
+      <object-id content-type="arpha">E36A5763-235E-5EC1-A0C6-B8626B2E147D</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e34013.figure5</object-id>
+      <object-id content-type="zenodo_dep_id">2651789</object-id>
+      <label>Figure 5.</label>
+      <caption>
+        <p>Distribution of the number of specimens collected per year in the snake collection, MPEG</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e34013-g005.png" position="float" id="oo_292870.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/292870</uri>
+      </graphic>
+    </fig>
+    <fig id="F5006474" position="float" orientation="portrait">
+      <object-id content-type="arpha">90524FFD-6915-53F6-869D-F41A2DD1A2C7</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e34013.figure6</object-id>
+      <object-id content-type="zenodo_dep_id">2651791</object-id>
+      <label>Figure 6.</label>
+      <caption>
+        <p>Schematic diagram of data publication protocol.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e34013-g006.png" position="float" id="oo_264944.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/264944</uri>
+      </graphic>
+    </fig>
+  </floats-group>
+</article>

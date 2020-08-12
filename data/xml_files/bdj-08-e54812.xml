@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.8.e54812</article-id>
+      <article-id pub-id-type="publisher-id">54812</article-id>
+      <article-id pub-id-type="manuscript">13006</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Angiospermae</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Biogeography</subject>
+          <subject>Ecology &amp; Environmental sciences</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>Europe</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Vascular plant colonisation of Surtsey Island (1965-1990) - a dataset</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes">
+          <name name-style="western">
+            <surname>Wasowicz</surname>
+            <given-names>Pawel</given-names>
+          </name>
+          <email xlink:type="simple">pawel@ni.is</email>
+          <uri content-type="orcid">https://orcid.org/0000-0002-6864-6786</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Thorsteinsson</surname>
+            <given-names>Sally</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Magnússon</surname>
+            <given-names>Borgþór</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Einarsson</surname>
+            <given-names>Eyþór</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Bjarnason</surname>
+            <given-names>Valgeir</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Bjarnason</surname>
+            <given-names>Ágúst H.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Guðmundsson</surname>
+            <given-names>Jón</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Richter</surname>
+            <given-names>Sigurður H</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Jónasson</surname>
+            <given-names>Ragnar</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Sveinbjörnsson</surname>
+            <given-names>Bjartmar</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Magnússon</surname>
+            <given-names>Skúli Þ</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Icelandic Institute of Natural History, Akureyri, Iceland</addr-line>
+        <institution>Icelandic Institute of Natural History</institution>
+        <addr-line content-type="city">Akureyri</addr-line>
+        <country>Iceland</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">Icelandic Institute of Natural History, Garðabær, Iceland</addr-line>
+        <institution>Icelandic Institute of Natural History</institution>
+        <addr-line content-type="city">Garðabær</addr-line>
+        <country>Iceland</country>
+      </aff>
+      <aff id="A3">
+        <label>3</label>
+        <addr-line content-type="verbatim">Surtsey Research Society, Reykjavík, Iceland</addr-line>
+        <institution>Surtsey Research Society</institution>
+        <addr-line content-type="city">Reykjavík</addr-line>
+        <country>Iceland</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Pawel Wasowicz (<email xlink:type="simple">pawel@ni.is</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Quentin Groom</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2020</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>07</day>
+        <month>07</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>8</volume>
+      <elocation-id>e54812</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/FE37E0C5-738B-5C6E-9729-57C79382F7E1">FE37E0C5-738B-5C6E-9729-57C79382F7E1</uri>
+      <history>
+        <date date-type="received">
+          <day>27</day>
+          <month>05</month>
+          <year>2020</year>
+        </date>
+        <date date-type="accepted">
+          <day>04</day>
+          <month>07</month>
+          <year>2020</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Pawel Wasowicz, Sally Thorsteinsson, Borgþór Magnússon, Eyþór Einarsson, Valgeir Bjarnason, Ágúst H. Bjarnason, Jón Guðmundsson, Sigurður H Richter, Ragnar Jónasson, Bjartmar Sveinbjörnsson, Skúli Þ Magnússon</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>The process of ecosystem development over time that takes place on a new substrate devoid of biological activity (such as, for example, lava) is called primary succession. Research on primary succession is not easy, as it is limited to rare occasions when a piece of land totally lacking in any pre-existing life occurs. The emergence of volcanic islands is such an occasion; it is a unique event that allows a natural experiment in the study of colonisation processes and primary succession. Surtsey (located in the Vestmannaeyar archipelago off the southern coast of Iceland) is an iconic example of a place where primary succession has been studied for decades and where human disturbance has been minimised due to significant geographic isolation and early protection efforts. Here, we present a georeferenced dataset of vacular plant occurrences collected during the field studies carried out on Surtsey Island during the first three decades of its existence.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>To date, no dataset containing plant distribution data documenting the process of early stages of colonisation of Surtsey has been published. What is more, to our knowledge, there is no other dataset that can be compared with our Surtsey data that is readily available for researchers working on plant colonisation dynamics and primary succession processes. Here, we present a complete, geo-referenced dataset of all plant occurrences (10,094 in total) collected on Surtsey between 1965 and 1990.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>Surtsey</kwd>
+        <kwd>Iceland</kwd>
+        <kwd>primary succession</kwd>
+        <kwd>Northern Atlantic</kwd>
+        <kwd>volcanism</kwd>
+        <kwd>colonisation</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="3"/>
+        <table-count count="0"/>
+        <ref-count count="14"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>Surtsey is a volcanic island located approximately 32 km off the south coast of Iceland. It was formed during a volcanic eruption taking place from November 1963 to June 1967 (<xref ref-type="bibr" rid="B5792400">Þórarinsson 1968</xref>). In 1965, the whole island became legally protected due to its special scientific value and the research opportunities that arose with its formation. Indeed, the protection of Surtsey created an isolated island environment, free of human interference, that enabled researchers to collect priceless data documenting the process of colonisation of the newly-formed island.</p>
+      <p>Surtsey is a part of the Vestmannaeyjar archipelago (S Iceland, Fig. <xref ref-type="fig" rid="F5908827">1</xref>). The archipelago constitutes a separate volcanic system, consisting of 18 islands and a number of skerries and is situated on the insular shelf off the south coast of Iceland. As a result of volcanic activity between 1963 and 1967, an additional island was formed, Surtsey, that initially had an area of 2.65 km<sup>2</sup> (<xref ref-type="bibr" rid="B5912421">Baldursson and Ingadóttir 2007</xref>). The total volume of the erupted material was estimated to be about 1.1 km<sup>3</sup> and consisted of tephra (70%) and lava (30%). The surface of Surtsey has been mapped in detail using traditional methods, but no GIS data are publicly available. The eruptive products at Surtsey, tephra and lava, are composed of alkali basalt with phenocrysts of olivine, plagioclase and chromian spinel. With the passage of time, three secondary geological units were formed: palagonite tuff, aeolian and talus sediments and coastal sediments. The highest elevation on Surtsey is 155 m. It is good to have in mind that the shape of Surtsey is constantly modified by the harsh weather conditions, particularly during winter (<xref ref-type="bibr" rid="B5912421">Baldursson and Ingadóttir 2007</xref>).</p>
+      <p>Automatic weather measurements in Surtsey have ben carried out since 2009 and were recently summarised by <xref ref-type="bibr" rid="B5912403">Petersen and Jónsson 2020</xref>. The climate here is maritime, with the annual temperature variation dampened by the sea that cools the climate during summer and warms it during winter. Average winter temperatures (December to March) are between 2.5 and 4.0ºC, while average summer temperatures (July and August) are close to 10ºC. The frost-free period lasts here for about 199 days. The highest temperature recorded on Surtsey was 18.3ºC, while the minimum was -9.7ºC. The average annual precipitation is about 1000 mm, with June being the driest month and October being the wettest. Snowfall is rare and rather slight. Winds are strong. On average, there are 229 days per year with precipitation. Average wind speed on Surtsey is 7.8 m/s. There are 30 days (on average) with wind speeds exceeding 20 m/s. The maximum wind speed recorded here was 35.2 m/s, while the maximum wind gust was 47.8 m/s (<xref ref-type="bibr" rid="B5912403">Petersen and Jónsson 2020</xref>).</p>
+      <p>Botanical observations on Surtsey commenced in May 1964 (<xref ref-type="bibr" rid="B5782640">Einarsson 1963</xref>), when the eruption was still underway and uncovered, even at that time, a significant amount of plant material carried by sea currents that was able to reach the island. A year later (on 3 June 1965), the first vascular plant species (seedlings of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cakile">Cakile</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="maritima">maritima</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">subsp.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="islandica">islandica</tp:taxon-name-part></tp:taxon-name>) was discovered growing on Surtsey (<xref ref-type="bibr" rid="B5782650">Friðriksson 1966</xref>). During 56 years of careful, yearly observations, a significant amount of data on plant distribution and colonisation was collected, resulting in many scientific papers (e.g. <xref ref-type="bibr" rid="B5782721">Einarsson 1967</xref>, <xref ref-type="bibr" rid="B5782650">Friðriksson 1966</xref>, <xref ref-type="bibr" rid="B5782751">Friðriksson 1978</xref>, <xref ref-type="bibr" rid="B5782761">Friðriksson 1982</xref>, <xref ref-type="bibr" rid="B5782771">Friðriksson 1992</xref>, <xref ref-type="bibr" rid="B5782741">Friðriksson et al. 1972</xref>, <xref ref-type="bibr" rid="B5782709">Friðriksson 1967</xref>, <xref ref-type="bibr" rid="B5782731">Friðriksson and Johnsen 1968</xref>, <xref ref-type="bibr" rid="B5782685">Magnússon et al. 2014</xref>). More detailed information on various aspects of research carried out in Surtsey can be found in a series of reports published by Surtsey Research Society. All the reports are available at https://surtsey.is/utgafa-surtseyjarfelagsins/ .</p>
+      <p>During the first decades of research carried out on Surtsey, every single plant growing on the island was precisely marked (initially using wooden poles), numbered and mapped using coordinate paper. In the present data paper, we publish the results of digitisation of these maps containing observations of plant life during the first decades of the history of Surtsey. This project, recently completed at the Icelandic Institute of Natural History, resulted in a database of 10,094 records documenting the process of colonisation and subsequent spread of vascular plants on Surtsey.</p>
+    </sec>
+    <sec sec-type="General description">
+      <title>General description</title>
+      <sec sec-type="Purpose">
+        <title>Purpose</title>
+        <p>The present project was focused on digitising the data on plant distribution on Surtsey Island, collected between 1965-1990 by botanists taking part in yearly expeditions to the Island.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>
+          <bold>Original data collection</bold>
+        </p>
+        <p>Original data were collected during field studies carried out on Surtsey between 1964 and 1990. Original maps documenting vascular plant colonisation in 1965 and 1966 were not available. Instead, based on original descriptions and maps of Surtsey from 1965 and 1966, three distribution points were located in squares B12 (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cakile">Cakile</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="maritima">maritima</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">subsp.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="islandica">islandica</tp:taxon-name-part></tp:taxon-name>, the first record from 1965 based on a description from <xref ref-type="bibr" rid="B5782650">Friðriksson 1966</xref>), A12 (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cakile">Cakile</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="maritima">maritima</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">subsp.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="islandica">islandica</tp:taxon-name-part></tp:taxon-name>, record from 1966 based on <xref ref-type="bibr" rid="B5782709">Friðriksson 1967</xref>) and A11 (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leymus">Leymus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="arenarius">arenarius</tp:taxon-name-part></tp:taxon-name></italic>, record from 1966 based on <xref ref-type="bibr" rid="B5782709">Friðriksson 1967</xref>). These points were assigned with 300 m coordinate uncertainty in our dataset. It is worth noting that localities of these initial colonisers were short-living and very soon (within weeks) were wiped out by volcanic ash and sea waves.</p>
+        <p>From the year 1967 onwards, the digitisation was based on original distribution maps. The whole area of the Island was divided into 1 ha squares and plant mapping was carried out in each plot (Fig. <xref ref-type="fig" rid="F5782884">2</xref>). Between 1964 and 1978, the whole area of the Island was searched annually for the presence of vascular plants. When found, each plant was initially marked with a wooden stick, numbered and subsequently mapped using coordinate paper (an example of such a map can be found in Fig. <xref ref-type="fig" rid="F5782793">3</xref>). When the number of plants increased, marking with wooden sticks was discontinued. Mapping activities were also carried out on Surtsey in 1980 (<xref ref-type="bibr" rid="B5782761">Friðriksson 1982</xref>) and in 1990 (<xref ref-type="bibr" rid="B5782771">Friðriksson 1992</xref>).</p>
+        <p>
+          <bold>Digitisation process and coordinate uncertainty levels</bold>
+        </p>
+        <p>During the digitisation, each map was scanned and then georeferenced using corners of the net of 1 ha square grid as control points. The number of control points was different for each map, but the minimal number of control points was 10 for a map sheet covering an area of 12 ha (the smallest map digitised). As a rule, each occurrence point on a map corresponds with one point digitised in our dataset. However, when authors of the original map sheets marked an area and indicated the number of individuals growing in the area, the same number of points was distributed randomly within this area during the digitisation process.</p>
+        <p>From 1980, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Honckenya">Honckenya</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="peploides">peploides</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">subsp.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="diffusa">diffusa</tp:taxon-name-part></tp:taxon-name> became so common on Surtsey that it was impossible to map every single plant and its distribution on original maps was recorded by drawing areas rather than points. We approached this problem in the following way: 1. species distribution was recorded per 1 ha square and distribution points in our dataset represent centroids of each 1 ha plot, where the occurrence of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Honckenya">H.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="peploides">peploides</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">subsp.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="diffusa">diffusa</tp:taxon-name-part></tp:taxon-name> was confirmed; 2. areas with confirmed presence of the species were digitised as polygons and corresponding shapefiles are available as a separate data resource. This applies only to <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Honckenya">H.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="peploides">peploides</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">subsp.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="diffusa">diffusa</tp:taxon-name-part></tp:taxon-name> in the years 1980 and 1990.</p>
+        <p>Coordinate uncertainty was experimentally established during the field studies using a set of 30 wooden sticks (used in mapping during the first decade of research). Only sticks with clearly legible numbers were included. Coordinates of these sticks were recorded in the field (using Garmin GPSmap 62s) and then compared with the data obtained from digitisation. The mean uncertainty was established to be 10 m. This level of coordinate uncertainty was used throughout the dataset unless otherwise stated. When points of distribution were recorded as polygon centroids (see above), the uncertainty was set to 50 m. The three initial observations made on Surtsey were assigned 300 m uncertainty level, due to the reasons stated above.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>All the data published in the present paper originate from the island of Surtsey.</p>
+      </sec>
+      <sec sec-type="Coordinates">
+        <title>Coordinates</title>
+        <p>63.288 and 63.315 Latitude; -20.580 and -20.630 Longitude.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The dataset covers 27 vascular plant taxa recorded from Surtsey between 1965 and 1990. Latin nomenclature follows Annotated checklist of vascular plants of Iceland (<xref ref-type="bibr" rid="B5792272">Wasowicz 2020</xref>).</p>
+      </sec>
+      <sec sec-type="Taxa included">
+        <title>Taxa included</title>
+        <table-wrap id="taxonomic_coverage" position="anchor" orientation="portrait">
+          <table rules="all">
+            <thead>
+              <tr>
+                <th rowspan="1" colspan="1">Rank</th>
+                <th rowspan="1" colspan="1">Scientific Name</th>
+                <th rowspan="1" colspan="1">Common Name</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Agrostis">Agrostis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="stolonifera">stolonifera</tp:taxon-name-part></tp:taxon-name></italic> L.</td>
+                <td rowspan="1" colspan="1">Skriðlíngresi</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Alchemilla">Alchemilla</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="filicaulis">filicaulis</tp:taxon-name-part></tp:taxon-name></italic> Buser</td>
+                <td rowspan="1" colspan="1">Maríustakkur</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">subspecies</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Angelica">Angelica</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="archangelica">archangelica</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="authority">L.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">subsp.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="archangelica">archangelica</tp:taxon-name-part></tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1">Ætihvönn</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Arabiopsis">Arabiopsis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="petrea">petrea</tp:taxon-name-part></tp:taxon-name></italic> (L.) V.I. Dorof.</td>
+                <td rowspan="1" colspan="1">Melablóm</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">subspecies</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Armeria">Armeria</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="maritima">maritima</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="basionym-authority">(Miller)</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="authority">Willd.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">subsp.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="maritima">maritima</tp:taxon-name-part></tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1">Geldingahnappur</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cakile">Cakile</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="maritima">maritima</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">subsp.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="islandica">islandica</tp:taxon-name-part></tp:taxon-name> (Gand.) Hyl. ex Elven</td>
+                <td rowspan="1" colspan="1">Fjörukál</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Capsella">Capsella</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="bursa-pastoris">bursa-pastoris</tp:taxon-name-part></tp:taxon-name></italic> (L.) Medik.</td>
+                <td rowspan="1" colspan="1">Hjartarfi</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Carex">Carex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="maritima">maritima</tp:taxon-name-part></tp:taxon-name></italic> Gunnerus</td>
+                <td rowspan="1" colspan="1">Bjúgstör</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">subspecies</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cerastium">Cerastium</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="fontanum">fontanum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="authority">Baumg.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">subsp.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="fontanum">fontanum</tp:taxon-name-part></tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1">Vegarfi</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cochlearia">Cochlearia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="islandica">islandica</tp:taxon-name-part></tp:taxon-name></italic> Pobed.</td>
+                <td rowspan="1" colspan="1">Skarfakál</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cystopteris">Cystopteris</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="fragilis">fragilis</tp:taxon-name-part></tp:taxon-name></italic> (L.) Bernh.</td>
+                <td rowspan="1" colspan="1">Tófugras</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Epilobium">Epilobium</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="palustre">palustre</tp:taxon-name-part></tp:taxon-name></italic> L.</td>
+                <td rowspan="1" colspan="1">Mýradúnurt</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">subspecies</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Equisetum">Equisetum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="arvense">arvense</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="authority">L.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">subsp.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="arvense">arvense</tp:taxon-name-part></tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1">Klóelfting</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Festuca">Festuca</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="richardsonii">richardsonii</tp:taxon-name-part></tp:taxon-name></italic> Hook.</td>
+                <td rowspan="1" colspan="1">Túnvingull</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">subspecies</td>
+                <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Honckenya">Honckenya</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="peploides">peploides</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">subsp.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="diffusa">diffusa</tp:taxon-name-part></tp:taxon-name> (Hornem.) Hultén ex V.V. Petrovsky</td>
+                <td rowspan="1" colspan="1">Fjöruarfi</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Juncus">Juncus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="arcticus">arcticus</tp:taxon-name-part></tp:taxon-name></italic> Willd.</td>
+                <td rowspan="1" colspan="1">Tryppanál</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leymus">Leymus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="arenarius">arenarius</tp:taxon-name-part></tp:taxon-name></italic> (L.) Hochst.</td>
+                <td rowspan="1" colspan="1">Melgresi</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">subspecies</td>
+                <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Luzula">Luzula</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="multiflora">multiflora</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">subsp.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="frigida">frigida</tp:taxon-name-part></tp:taxon-name> (Buchenau) V.I. Krecz.</td>
+                <td rowspan="1" colspan="1">Vallhæra</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">subspecies</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Mertensia">Mertensia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="maritima">maritima</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="basionym-authority">(L.)</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="authority">Gray</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">subsp.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="maritima">maritima</tp:taxon-name-part></tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1">Blálilja</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Poa">Poa</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="annua">annua</tp:taxon-name-part></tp:taxon-name></italic> L.</td>
+                <td rowspan="1" colspan="1">Varpasveifgras</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">subspecies</td>
+                <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Poa">Poa</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pratensis">pratensis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">subsp.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="irrigata">irrigata</tp:taxon-name-part></tp:taxon-name> (Lindm.) H. Lindb.</td>
+                <td rowspan="1" colspan="1">Vallarsveifgras</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Puccinellia">Puccinellia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="maritima">maritima</tp:taxon-name-part></tp:taxon-name></italic> (Huds.) Parl.</td>
+                <td rowspan="1" colspan="1">Sjávarfitjungur</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Rumex">Rumex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="acetosella">acetosella</tp:taxon-name-part></tp:taxon-name></italic> L.</td>
+                <td rowspan="1" colspan="1">Hundasúra</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sagina">Sagina</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="procumbens">procumbens</tp:taxon-name-part></tp:taxon-name></italic> L.</td>
+                <td rowspan="1" colspan="1">Skammkrækill</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Silene">Silene</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="vulgaris">vulgaris</tp:taxon-name-part></tp:taxon-name></italic> (Moench) Garcke</td>
+                <td rowspan="1" colspan="1">Garðaholurt</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Stellaria">Stellaria</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="media">media</tp:taxon-name-part></tp:taxon-name></italic> (L.) Vill.</td>
+                <td rowspan="1" colspan="1">Haugarfi</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">subspecies</td>
+                <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Tripleurospermum">Tripleurospermum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="maritimum">maritimum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">subsp.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="subpolare">subpolare</tp:taxon-name-part></tp:taxon-name> (Pobed.) Hämet-Ahti</td>
+                <td rowspan="1" colspan="1">Baldursbrá</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <p><bold>Formation period:</bold> 1965-1990.</p>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Other</p>
+      </sec>
+      <sec sec-type="IP rights notes">
+        <title>IP rights notes</title>
+        <p>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>Distribution of vascular plants on the island of Surtsey (Iceland) between 1965 and 1990</p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>2</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Vascular plants on Surtsey Island (Iceland) point distribution data</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>27</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>https://doi.org/10.15468/cht6nd</p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>The occurrence of vascular plant species recorded during floristic surveys on Surtsey (Iceland) from 1965 to 1990.</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceID</td>
+                  <td rowspan="1" colspan="1">An identifier for the occurrence (unique).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceRemarks</td>
+                  <td rowspan="1" colspan="1">Comments or notes about the Occurrence.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">recordedBy</td>
+                  <td rowspan="1" colspan="1">A list of names of people, groups or organisations responsible for recording the original Occurrence.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificName</td>
+                  <td rowspan="1" colspan="1">The full scientific name, with authorship and date information, if known.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">kingdom</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the kingdom in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">family</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the family in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">genus</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the genus in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">specificEpithet</td>
+                  <td rowspan="1" colspan="1">The name of the first or species epithet of the scientificName</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">infraspecificEpithet</td>
+                  <td rowspan="1" colspan="1">The name of the lowest or terminal infraspecific epithet of the scientificName, excluding any rank designation</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">taxonRank</td>
+                  <td rowspan="1" colspan="1">The taxonomic rank of the most specific name in the scientificName.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificNameAuthorship</td>
+                  <td rowspan="1" colspan="1">The authorship information for the scientificName formatted according to the conventions of the applicable nomenclaturalCode.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">vernacularName</td>
+                  <td rowspan="1" colspan="1">A common or vernacular name.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">continent</td>
+                  <td rowspan="1" colspan="1">The name of the continent in which the Location occurs.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">country</td>
+                  <td rowspan="1" colspan="1">The name of the country or major administrative unit in which the Location occurs.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">locality</td>
+                  <td rowspan="1" colspan="1">The specific description of the place.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLatitude</td>
+                  <td rowspan="1" colspan="1">The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic centre of a Location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLongitude</td>
+                  <td rowspan="1" colspan="1">The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic centre of a Location. Positive values are east of the Greenwich Meridian, negative values are west of it. Legal values lie between -180 and 180, inclusive.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">geodeticDatum</td>
+                  <td rowspan="1" colspan="1">The ellipsoid, geodetic datum or spatial reference system (SRS) upon which the geographic coordinates given in decimalLatitude and decimalLongitude as based.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">coordinateUncertaintyInMetres</td>
+                  <td rowspan="1" colspan="1">The horizontal distance (in metres) from the given decimalLatitude and decimalLongitude describing the smallest circle containing the whole of the Location. Leave the value empty if the uncertainty is unknown, cannot be estimated or is not applicable (because there are no coordinates).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">georeferencedBy</td>
+                  <td rowspan="1" colspan="1">A list (concatenated and separated) of names of people, groups or organisations who determined the georeference (spatial representation) for the Location.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">identifiedBy</td>
+                  <td rowspan="1" colspan="1">A list (concatenated and separated) of names of people, groups or organisations who assigned the Taxon to the subject.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">dateIdentified</td>
+                  <td rowspan="1" colspan="1">The date on which the subject was identified as representing the Taxon.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">year</td>
+                  <td rowspan="1" colspan="1">The four-digit year in which the Event occurred, according to the Common Era Calendar.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">month</td>
+                  <td rowspan="1" colspan="1">The ordinal month in which the Event occurred</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">day</td>
+                  <td rowspan="1" colspan="1">The integer day of the month on which the Event occurred.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">basisOfRecord</td>
+                  <td rowspan="1" colspan="1">The specific nature of the data record.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">language</td>
+                  <td rowspan="1" colspan="1">A language of the resource.</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+      <sec sec-type="Data set 2">
+        <title>Data set 2.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Distribution of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Honckenya">Honckenya</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="peploides">peploides</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">ssp.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="diffusa">diffusa</tp:taxon-name-part></tp:taxon-name> on Surtsey in 1980 and 1990 (as polygons).</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>ESRI shape file, CRS: EPSG:3057 - ISN93/Lambert 1993</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>3</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5281/zenodo.3909368">https://doi.org/10.5281/zenodo.3909368</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>The distribution of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Honckenya">Honckenya</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="peploides">peploides</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">subsp.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="diffusa">diffusa</tp:taxon-name-part></tp:taxon-name> in 1980 and 1990 digitised as polygons. The data is available in ESRI shapefile: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Honckenya">Honckenya</tp:taxon-name-part></tp:taxon-name> pepl 1980_1990 polygons.shp</p>
+          <table-wrap id="DS2" orientation="portrait" position="anchor">
+            <label>Data set 2.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">ID</td>
+                  <td rowspan="1" colspan="1">An identifier for the occurrence (polygon)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">year</td>
+                  <td rowspan="1" colspan="1">The four-digit year in which the event occurred, according to the Common Era Calendar.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">species</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the species</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>Sturla Friðriksson (the leader of the research on Surtsey) and Björn Johnsen who passed away contributed their knowledge and data to the dataset that is now being published. Þór Gunnarsson took part in data collection after 1980. We would like to thank Anette Th. Meier (GIS specialist and Cartographer at the Icelandic Institute of Natural History) for her help in preparing Figure 1.</p>
+    </ack>
+    <sec sec-type="Author contributions">
+      <title>Author contributions</title>
+      <p>PW designed and directed the digitisation project, took part in georeferencing, prepared the dataset and wrote the paper. ST took part in georeferencing and contributed to the final manuscript. BM, EE, VB, ÁHB, JG, SHR, RJ, BJ, SÞM collected original data.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="B5912421">
+        <element-citation publication-type="book">
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Baldursson</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ingadóttir</surname>
+              <given-names>Á</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <source>Nomination of Surtsey for the Unesco World Heritage List</source>
+          <publisher-name>Icelandic Institute of Natural History</publisher-name>
+          <publisher-loc>Reykjavík</publisher-loc>
+          <size units="page">123</size>
+          <uri>https://surtsey.is/wp-content/uploads/2019/08/Surtsey_Nomination_Report_2007_72dpi.pdf</uri>
+          <isbn>978-9979-9335-6-4</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B5782640">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Einarsson</surname>
+              <given-names>Eythor</given-names>
+            </name>
+          </person-group>
+          <year>1963</year>
+          <article-title>Report on dispersal of plants to Surtsey</article-title>
+          <source>Surtsey Research Progress Report</source>
+          <volume>1</volume>
+          <fpage>16</fpage>
+          <lpage>18</lpage>
+          <uri>http://surtsey.is/wp-content/uploads/2019/08/1965_I_3_01.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5782721">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Einarsson</surname>
+              <given-names>Eythor</given-names>
+            </name>
+          </person-group>
+          <year>1967</year>
+          <article-title>Comparative ecology of colonizing species of vascular plants</article-title>
+          <source>Surtsey Research Progress Report</source>
+          <volume>3</volume>
+          <fpage>13</fpage>
+          <lpage>16</lpage>
+          <uri>http://surtsey.is/wp-content/uploads/2019/08/1967_III_2_02.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5782650">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Friðriksson</surname>
+              <given-names>Sturla</given-names>
+            </name>
+          </person-group>
+          <year>1966</year>
+          <article-title>The pioneer species of vascular plants in Surtsey, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cakile">Cakile</tp:taxon-name-part></tp:taxon-name> edentula.</article-title>
+          <source>Surtsey Research Progress Report</source>
+          <volume>2</volume>
+          <fpage>63</fpage>
+          <lpage>65</lpage>
+          <uri>http://surtsey.is/wp-content/uploads/2019/08/1966_II_2_10.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5782709">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Friðriksson</surname>
+              <given-names>Sturla</given-names>
+            </name>
+          </person-group>
+          <year>1967</year>
+          <article-title>A second species of vascular plants discovered in Surtsey</article-title>
+          <source>Surtsey Research Progress Report</source>
+          <volume>3</volume>
+          <fpage>17</fpage>
+          <lpage>19</lpage>
+          <uri>http://surtsey.is/wp-content/uploads/2019/08/1967_III_2_03.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5782731">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Friðriksson</surname>
+              <given-names>Sturla</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Johnsen</surname>
+              <given-names>Björn</given-names>
+            </name>
+          </person-group>
+          <year>1968</year>
+          <article-title>The colonization of vascular plants on Surtsey in 1967</article-title>
+          <source>Surtsey Research Progress Report</source>
+          <volume>4</volume>
+          <fpage>31</fpage>
+          <lpage>38</lpage>
+          <uri>http://surtsey.is/wp-content/uploads/2019/08/1968_IV_2_03.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5782741">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Friðriksson</surname>
+              <given-names>Sturla</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bjarnason</surname>
+              <given-names>Águst H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sveinbjörnsson</surname>
+              <given-names>Bjartmar</given-names>
+            </name>
+          </person-group>
+          <year>1972</year>
+          <article-title>Vascular plants in Surtsey 1969</article-title>
+          <source>Surtsey Research Progress Report</source>
+          <volume>4</volume>
+          <fpage>30</fpage>
+          <lpage>33</lpage>
+          <uri>http://surtsey.is/wp-content/uploads/2019/08/1972_VI_2_08.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5782751">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Friðriksson</surname>
+              <given-names>Sturla</given-names>
+            </name>
+          </person-group>
+          <year>1978</year>
+          <article-title>Vascular plants on Surtsey 1971-1976</article-title>
+          <source>Surtsey Research Progress Report</source>
+          <volume>8</volume>
+          <fpage>9</fpage>
+          <lpage>24</lpage>
+          <uri>http://surtsey.is/wp-content/uploads/2019/08/1978_VIII_2_01.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5782761">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Friðriksson</surname>
+              <given-names>Sturla</given-names>
+            </name>
+          </person-group>
+          <year>1982</year>
+          <article-title>Vascular plants on Surtsey 1977-1980</article-title>
+          <source>Surtsey Research Progress Report</source>
+          <volume>9</volume>
+          <fpage>46</fpage>
+          <lpage>58</lpage>
+          <uri>http://surtsey.is/wp-content/uploads/2019/08/1982_IX_2_04.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5782771">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Friðriksson</surname>
+              <given-names>Sturla</given-names>
+            </name>
+          </person-group>
+          <year>1992</year>
+          <article-title>Vascular plants on Surtsey 1981-1990</article-title>
+          <source>Surtsey Research Progress Report</source>
+          <volume>10</volume>
+          <fpage>17</fpage>
+          <lpage>30</lpage>
+          <uri>http://surtsey.is/wp-content/uploads/2019/08/1992_X_2_02.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5782685">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Magnússon</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Magnússon</surname>
+              <given-names>S. H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ólafsson</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sigurdsson</surname>
+              <given-names>B. D.</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>Plant colonization, succession and ecosystem development on Surtsey with reference to neighbouring islands</article-title>
+          <source>Biogeosciences</source>
+          <volume>11</volume>
+          <issue>19</issue>
+          <fpage>5521</fpage>
+          <lpage>5537</lpage>
+          <pub-id pub-id-type="doi">10.5194/bg-11-5521-2014</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5912403">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Petersen</surname>
+              <given-names>Guðrún Nína</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jónsson</surname>
+              <given-names>Trausti</given-names>
+            </name>
+          </person-group>
+          <year>2020</year>
+          <article-title>The climate of Surtsey</article-title>
+          <source>Surtsey Research</source>
+          <volume>14</volume>
+          <fpage>9</fpage>
+          <lpage>16</lpage>
+          <pub-id pub-id-type="doi">10.33112/surtsey.14.1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5792272">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Wasowicz</surname>
+              <given-names>Pawel</given-names>
+            </name>
+          </person-group>
+          <year>2020</year>
+          <article-title>Annotated checklist of vascular plants of Iceland.</article-title>
+          <source>Fjölrit Náttúrufræðistofnunar</source>
+          <volume>57</volume>
+          <fpage>1</fpage>
+          <lpage>195</lpage>
+          <uri>http://utgafa.ni.is/fjolrit/Fjolrit_57.pdf</uri>
+          <pub-id pub-id-type="doi">10.33112/1027-832X.57</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5792400">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Þórarinsson</surname>
+              <given-names>Sigurður</given-names>
+            </name>
+          </person-group>
+          <year>1968</year>
+          <article-title>The Surtsey eruption. Course of events during the year 1967.</article-title>
+          <source>Surtsey Research Progress Report</source>
+          <volume>4</volume>
+          <fpage>143</fpage>
+          <lpage>148</lpage>
+          <uri>http://surtsey.is/wp-content/uploads/2019/08/1968_IV_3_06.pdf</uri>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F5908827" position="float" orientation="portrait">
+      <object-id content-type="arpha">C9FC90DC-4442-5AC8-AE3C-9CF32026280A</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e54812.figure1</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Location and general topography of Surtsey. The coastline of Surtsey as of 2018.</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e54812-g001.png" position="float" id="oo_426158.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/426158</uri>
+      </graphic>
+    </fig>
+    <fig id="F5782884" position="float" orientation="portrait">
+      <object-id content-type="arpha">24E6051D-BA4B-5F9B-A800-4546782A9EAA</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e54812.figure2</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>The 1 ha grid used in the mapping of plant distribution on Surtsey and changes of the coastline (caused by coastal erosion) of the island between 1964 and 1992.</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e54812-g002.png" position="float" id="oo_407489.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/407489</uri>
+      </graphic>
+    </fig>
+    <fig id="F5782793" position="float" orientation="portrait">
+      <object-id content-type="arpha">6BFC4FD8-C5C7-54A1-985A-7AD5D63C5638</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e54812.figure3</object-id>
+      <label>Figure 3.</label>
+      <caption>
+        <p>An example of an original map sheet made on coordinate paper and containing the information on the distribution of plant species on Surtsey recorded in 1974. Note that this map is only a fragment covering 1 ha square with numbers L16-18, K16-18, I16-18 and J16-18.</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e54812-g003.png" position="float" id="oo_407464.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/407464</uri>
+      </graphic>
+    </fig>
+  </floats-group>
+</article>

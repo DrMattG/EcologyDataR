@@ -1,0 +1,1571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.8.e50121</article-id>
+      <article-id pub-id-type="publisher-id">50121</article-id>
+      <article-id pub-id-type="manuscript">12193</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Vernal pool amphibian breeding ecology monitoring from 1931 to present: A harmonised historical and ongoing observational ecology dataset</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes">
+          <name name-style="western">
+            <surname>Garretson</surname>
+            <given-names>Alexis</given-names>
+          </name>
+          <email xlink:type="simple">alexis@garretson.net</email>
+          <uri content-type="orcid">https://orcid.org/0000-0002-7260-0131</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Napoli</surname>
+            <given-names>Megan</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0003-2390-6545</uri>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Feldsine</surname>
+            <given-names>Natalie</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0003-4331-3042</uri>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Adler-Colvin</surname>
+            <given-names>Penelope</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <name name-style="western">
+            <surname>Long</surname>
+            <given-names>Elizabeth</given-names>
+          </name>
+          <email xlink:type="simple">elong@mohonkpreserve.org</email>
+          <uri content-type="orcid">https://orcid.org/0000-0002-7410-5548</uri>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">George Mason University, School of Systems Biology, Fairfax, United States of America</addr-line>
+        <institution>George Mason University, School of Systems Biology</institution>
+        <addr-line content-type="city">Fairfax</addr-line>
+        <country>United States of America</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">George Mason University, Department of Biology, Fairfax, United States of America</addr-line>
+        <institution>George Mason University, Department of Biology</institution>
+        <addr-line content-type="city">Fairfax</addr-line>
+        <country>United States of America</country>
+      </aff>
+      <aff id="A3">
+        <label>3</label>
+        <addr-line content-type="verbatim">Mohonk Preserve, New Paltz, United States of America</addr-line>
+        <institution>Mohonk Preserve</institution>
+        <addr-line content-type="city">New Paltz</addr-line>
+        <country>United States of America</country>
+      </aff>
+      <aff id="A4">
+        <label>4</label>
+        <addr-line content-type="verbatim">SUNY New Paltz, New Paltz, United States of America</addr-line>
+        <institution>SUNY New Paltz</institution>
+        <addr-line content-type="city">New Paltz</addr-line>
+        <country>United States of America</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding authors: Alexis Garretson (<email xlink:type="simple">alexis@garretson.net</email>), Elizabeth Long (<email xlink:type="simple">elong@mohonkpreserve.org</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Franco Andreone</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2020</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>14</day>
+        <month>04</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>8</volume>
+      <elocation-id>e50121</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/113D2DE8-AF67-5EE2-90E2-858B3A7B6703">113D2DE8-AF67-5EE2-90E2-858B3A7B6703</uri>
+      <history>
+        <date date-type="received">
+          <day>14</day>
+          <month>01</month>
+          <year>2020</year>
+        </date>
+        <date date-type="accepted">
+          <day>06</day>
+          <month>04</month>
+          <year>2020</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Alexis Garretson, Megan Napoli, Natalie Feldsine, Penelope Adler-Colvin, Elizabeth Long</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>For 88 years (1931-present), the Mohonk Preserve's Daniel Smiley Research Center has been collecting data on occupancy and reproductive success of amphibian species, as well as associated water quality of 11 vernal pools each spring (February to May). Though sampling effort has varied over the dataset range, the size of the dataset is unprecedented within the field of amphibian ecology. With more than 2,480 individual species sampling dates and more than 151,701 recorded individual occurrences of the nine amphibian species, the described dataset represents the longest and largest time-series of herpetological sampling with paired water quality data.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>We describe the novel publication of a paired dataset of amphibian occurrence with environmental indicators spanning nearly 90 years of data collection. As of February 2020, the dataset includes 2,480 sampling dates across eleven vernal pools and 151,701 unique occurrences of egg masses or individuals recorded across nine species of amphibian. The dataset also includes environmental conditions associated with the species occurrences with complete coverage for air temperature and precipitation records and partial coverage for a variety of other weather and water quality measures. Data collection has included species, egg mass and tadpole counts; weather conditions including precipitation, sky and wind codes; water quality measurements including water temperature and pH; and vernal pool assessment including depth and surface vegetation coverage. Collection of data was sporadic from 1931–1991, but data have been collected consistently from 1991 to present. We also began monitoring dissolved oxygen, nitrate concentrations and conductivity of the vernal pools using a YSI Sonde Professional Plus Instrument and turbidity using a turbidity tube in February 2018. The dataset (and periodic updates), as well as metadata in the EML format, are available in the Environmental Data Initiative Repository under package <ext-link ext-link-type="uri" xlink:href="https://portal.edirepository.org/nis/mapbrowse?scope=edi&amp;identifier=398">edi.398</ext-link>.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>amphibians</kwd>
+        <kwd>frogs</kwd>
+        <kwd>salamanders</kwd>
+        <kwd>phenology</kwd>
+        <kwd>wood frog</kwd>
+        <kwd>spring peeper</kwd>
+        <kwd>spotted salamander</kwd>
+        <kwd>Jefferson salamander</kwd>
+        <kwd>red-spotted newt</kwd>
+        <kwd>seasonal wetlands</kwd>
+        <kwd>vernal pools</kwd>
+        <kwd>ecology</kwd>
+        <kwd>community ecology</kwd>
+        <kwd>Mohonk Preserve</kwd>
+        <kwd>Daniel Smiley Research Center</kwd>
+        <kwd>Shawangunk Ridge</kwd>
+        <kwd>water quality</kwd>
+        <kwd>temperature</kwd>
+        <kwd>pH</kwd>
+        <kwd>dissolved oxygen</kwd>
+        <kwd>conductivity</kwd>
+        <kwd>nitrate</kwd>
+        <kwd>reproductive ecology</kwd>
+        <kwd>breeding</kwd>
+        <kwd>seasonality</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="7"/>
+        <table-count count="0"/>
+        <ref-count count="24"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>Mohonk Preserve is a nature preserve and land trust located in New Paltz, New York State, USA. As the largest non-profit nature preserve in New York State, Mohonk Preserve protects and manages more than 8,000 acres of the Shawangunk Mountains, a northern section of the Appalachian Mountains. Renowned for its high biodiversity value, the Shawangunks harbour more than 1,400 known plant and animal species, including 57 that are rare and imperilled (<xref ref-type="bibr" rid="B5261130">Thompson and Huth 2011</xref>, <xref ref-type="bibr" rid="B5261120">Batcher 2000</xref>). Mohonk Preserve's conservation science division is affiliated with the Organization of Biological Field Stations and acts as a NOAA Climate Observation Center. Mohonk Preserve's conservation unit is the Daniel Smiley Research Center (DSRC), which coordinates a research and educational network that includes over 20 researchers from regional and national research institutions and more than 1,000 students and dozens of faculties from colleges and universities in the Hudson Valley and beyond. DSRC staff and citizen scientists carry out a variety of long-term monitoring projects, including the described amphibian breeding in woodland vernal pools. In addition to the ongoing monitoring, the DSRC manages an extensive archive of historical observations including 86 years of natural history observations, 123 years of daily weather data, 60,000 physical items, 9,000 photographs and a research library. Of those physical items, there are over 3,000 herbarium specimens, 139 mammal specimens, 107 bird specimens, 140 butterfly specimens, 400 arthropod specimens and over 14,000 index cards with handwritten and/or typed natural history observations. The data and natural history collections underpin the Mohonk Preserve’s land management and stewardship (Fig. <xref ref-type="fig" rid="F5259858">1</xref>) and have been crucial to an increasing number of scientific publications (e.g. <xref ref-type="bibr" rid="B5261078">Cook et al. 2009</xref>, <xref ref-type="bibr" rid="B5261066">Cook et al. 2008</xref>, <xref ref-type="bibr" rid="B5261102">Charifson et al. 2015</xref>, <xref ref-type="bibr" rid="B5261090">Richardson et al. 2016</xref>).</p>
+      <p>The Vernal Pool Monitoring programme began in 1931 with the observations of Daniel Smiley (1907–1989). Smiley documented extensive records of a variety of taxa within the Shawangunk Mountains beginning in the late 1920s (<xref ref-type="bibr" rid="B5261306">Huth 1996</xref>). The majority of his observations are recorded in a card filing system or one- to two-page reports, that are now available in the DSRC archives. He first began monitoring amphibians in 1930 and began regularly monitoring vernal pools in the surrounding regions in the 1950s. Smiley's particular interest in the impacts of acid rain and pesticides provides us with records of water quality extending to some of Smiley's earliest observations (<xref ref-type="bibr" rid="B5261306">Huth 1996</xref>, <xref ref-type="bibr" rid="B5261290">Weathers et al. 1986</xref>).</p>
+      <p>The presented dataset includes observations at 11 vernal pools on Mohonk Preserve lands: Sleepy Hollow, Ski Loop, Canaan, Long Woodland Swamp, Long Woodland Pool, Talus, Terrace, Bonticou, Oakwood, Hermits and North Mud Pond (Fig. <xref ref-type="fig" rid="F5261015">2</xref>). These vernal pools vary in size and are distributed across the Mohonk Preserve landscape at a range of elevations (166–384 m). The current goal of the project is to monitor the seasonality and reproductive ecology of amphibians. As the breeding behaviour of amphibians is highly dependent on environmental quality, particularly water quality, data collection in recent years has strived to provide a holistic environmental context for occurrence records (<xref ref-type="bibr" rid="B5261236">Semlitsch 2002</xref>, <xref ref-type="bibr" rid="B5261226">Marco et al. 1999</xref>, <xref ref-type="bibr" rid="B5261216">Karraker et al. 2008</xref>, <xref ref-type="bibr" rid="B5261246">Hamer and McDonnell 2008</xref>).</p>
+      <p>A major hurdle to making this natural history dataset available to the research community has been the digitisation of the historical data records. The majority of the historical data points were extracted from the notecards (Fig. <xref ref-type="fig" rid="F5259854">3</xref>) These cards were scanned, transcribed and formatted for data archiving by volunteer citizen scientists at the DSRC facilities, demonstrating the significant impact of citizen science contributions in natural history data rescue efforts and mitigating data risk factors (<xref ref-type="bibr" rid="B5261196">Griffin 2017</xref>, <xref ref-type="bibr" rid="B5261206">Brunet and Jones 2011</xref>, <xref ref-type="bibr" rid="B5661207">Mayernik et al. 2020</xref>). Due to the size and scope of the DSRC's historical holdings, the digitisation process remains ongoing and, as historical occurrences become available, they will be added to the described dataset periodically. In addition to the digitised historical data, the dataset is also comprised of ongoing, yearly vernal pool monitoring. Combining the historical data with ongoing monitoring enables researchers to elucidate long-term trends, project impacts of climate change or urbanisation and compare these predictions with future and current data collection.</p>
+      <p>This dataset significantly adds to our knowledge of amphibian breeding ecology by providing a nearly 90-year time series of amphibian reproductive occurrences paired with environmental variables from a single geographic region with multiple replicate pools. With more than 2,480 individual species sampling dates and more than 151,701 recorded individual occurrences of the nine amphibian species, the described dataset represents the longest and largest time-series of herpetological sampling with paired water quality data. Additionally, the dataset incorporates records from Long Woodland Vernal Swamp from years immediately preceding its drying. These records may be of particular interest to researchers interested in transitional ecology. The dataset also extends into the 1930s, allowing for significant investigations into the impacts of climate change and acid rain on amphibian reproductive ecology and phenology. In this paper, we will describe the data structure and synthesise the collection protocols in the hopes of facilitating future reuse and consistent access to this valuable data resource.</p>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>Amphibian occupancy, breeding and water quality of vernal pools on the Preserve have been monitored since 1931. Sampling effort has varied significantly over the dataset range, with stochastic sampling prior to 2017 and post-2017 weekly spring sampling. From 1931 - 2015, data collected at each vernal pool varied, but often included current weather conditions, water level (%), water temperature (°F), water pH and species/egg mass counts. Observations at each vernal pool occur annually between February and May. From 1931 – 1991, sampling at vernal pools and the number of vernal pools sampled each year varied. Starting in 1991, each vernal pool was observed at least two times each spring. Starting in 2016, a more rigorous protocol was adopted from the USGS Amphibian Reproductive Monitoring Initiative programme with sampling at 10 vernal pools being completed at least four times per spring season (<xref ref-type="bibr" rid="B5261272">Muths et al. 2005</xref>).The number of observers during each survey varies and is weather and logistic dependent, but with a goal of weekly sampling of each vernal pool, beginning at the onset of amphibian emergence and continuing until larvae hatch from egg masses.</p>
+        <p>In 2016, the new protocol dictated more parameters to be sampled consistently. Upon arrival at each vernal pool, initial observations performed included:</p>
+        <p><list list-type="order">
+          <list-item>
+            <p>weather conditions: sky code, wind code, air temperature (°F) and previous day precipitation occurrence; and</p>
+          </list-item>
+          <list-item>
+            <p>qualitative measurements: water level (%), surface ice (%), surface vegetation (%), surface vegetation species, water odour and fairy shrimp (order <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Anostraca</tp:taxon-name-part></tp:taxon-name>) presence.</p>
+          </list-item>
+        </list></p>
+        <p>In addition to the qualitative observations, quantitative measurements are taken of:</p>
+        <p><list list-type="order">
+          <list-item>
+            <p>water quality: temperature (°F), pH, conductivity (µS), dissolved oxygen (%), nitrate concentration (mg/l), and turbidity (NTU); and</p>
+          </list-item>
+          <list-item>
+            <p>amphibian species counts: number of adults alive, dead, in amplexus; egg masses, calling frogs, spermatophores, juveniles and tadpole/larvae.</p>
+          </list-item>
+        </list></p>
+        <p>The data are recorded by hand on to standardised data sheets (Fig. <xref ref-type="fig" rid="F5261007">4</xref>) and later input into a machine-readable format. All parameters of amphibian species counts since 2016 were collected using the Double-Observer Dependent method (<xref ref-type="bibr" rid="B5262729">Cook and Jacobson 1979</xref>, <xref ref-type="bibr" rid="B5262717">Nichols et al. 2000</xref>). Observer A walks halfway around the pool and calls out counts to Observer B. Observer B records count made by Observer A, but also records counts that Observer A missed without informing Observer A. Observers A and B switch roles when the second half of the pool is surveyed. Prior to November 2017, water from the vernal pool was collected in a high-density polyethylene bottle and temperature was immediately recorded on-site with an analogue thermometer. The sample was then brought back to the DSRC where pH was measured. Prior to 13 December 1991, pH was measured using a Sargent-Welch analogue pH meter. Beginning 13 December 1991, pH was measured with a Fisher Accumet digital pH meter with higher resolution and probes were replaced every 6 months. In 2002, the meter was replaced with a new Fisher Accumet pH meter. Starting in February 2018, temperature and pH were collected in situ using a YSI Sonde Professional Plus hand-held multiparameter meter and additional Sonde measurements of percent dissolved oxygen, nitrate concentrations and conductivity were incorporated in the water quality measurements. Starting in March 2019, a turbidity tube was incorporated to measure turbidity.</p>
+      </sec>
+      <sec sec-type="Quality control">
+        <title>Quality control</title>
+        <p>Prior to the publication of the dataset, historical records were checked for biological consistency. During field surveys, utmost caution was used when monitoring and sampling from the vernal pools. To avoid disturbance, wading was not done in the pools and the YSI Sonde was only submerged in areas that did not contain visible animals, egg masses, spermatophores or larvae. Starting in 2017, between each vernal pool survey, equipment and boots were disinfected with a 5% bleach solution to avoid transference of disease. The YSI Sonde was calibrated before each vernal pool survey to ensure that water quality measurements were accurate; probes were replaced as needed.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>Mohonk Preserve is located in the Hudson Valley region of New York State, in Ulster County. The Preserve has land in the towns of New Paltz, Gardiner, Rochester, Marbletown and Rosendale. Main vegetation types of the Preserve are Appalachian oak-hickory forest, beech-maple mesic forest, chestnut oak forest, hemlock northern hardwood forest and grasslands/pastures (Fig. <xref ref-type="fig" rid="F5259862">5</xref>, <xref ref-type="bibr" rid="B5261130">Thompson and Huth 2011</xref>). The geology of this area has been influenced by the Taconic and Acadian orogenies; rocks occurring in abundance include shale, greywacke, quartz conglomerate and sandstone. Surficial geology of the Preserve includes kame deposits, lacustrine deltas, lacustrine silt &amp; clay, bedrock and till. Bedrock geology includes Normanskill Shale and the Bloomsburg Formation (<xref ref-type="bibr" rid="B5284253">New York State Museum 1999</xref>). The coordinates below designate the bounding box surrounding the area where observations were recorded. Due to the sensitivity of the vernal pools and the amphibian species, specific locations were not revealed as part of this data package, but are available upon request from the DSRC to individuals carrying out direct research.</p>
+      </sec>
+      <sec sec-type="Coordinates">
+        <title>Coordinates</title>
+        <p>41.80133 and 41.738856 Latitude; -74.109075 and -74.190815 Longitude.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The described dataset, ongoing as of February 2020, includes 2,480 recorded dates, sampled across the nine amphibian species. Spotted salamanders were surveyed on the greatest number of dates, with 521 unique events and blue-spotted salamanders were surveyed the least, with 144 unique events (Fig. <xref ref-type="fig" rid="F5259850">6</xref>). Across all species, life stages and sampling events, a total of 151,701 individuals were recorded. All the species included in the sampling are native to this region. Three of the sampled <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ambystoma">Ambystoma</tp:taxon-name-part></tp:taxon-name></italic> species: Jefferson salamander, marbled salamander and blue-spotted salamander were listed in 2013 as species of special concern in the State of New York as defined in Section 182.2(i) of 6NYCRR Part 182. As defined by the State, species of special concern need increased consideration and monitoring, but current information does not warrant listing these species as threatened or endangered.</p>
+        <p>The current taxonomic authority of the dataset is the Integrated Taxonomic Information System (ITIS) (<xref ref-type="bibr" rid="B5636824">Bisby et al. 2006</xref>). If the ITIS taxonomic classification of the monitored species changes, the dataset will be updated at that point to reflect those changes. Particularly, there has been significant debate about the appropriate genus name for green frogs, wood frogs and bullfrogs. The elevation of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Lithobates">Lithobates</tp:taxon-name-part></tp:taxon-name></italic> as a genus name for these species has been questioned by <xref ref-type="bibr" rid="B5636878">Yuan et al. (2016)</xref> and <xref ref-type="bibr" rid="B5636868">Pauly et al. (2009)</xref>. Presently, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Rana">Rana</tp:taxon-name-part></tp:taxon-name></italic> is used by the vast majority of ranid systematists around the world, so we anticipate the eventual transition from <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Lithobates">Lithobates</tp:taxon-name-part></tp:taxon-name></italic> to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Rana">Rana</tp:taxon-name-part></tp:taxon-name></italic> in ITIS in the near future and the subsequent updating of the data package.</p>
+      </sec>
+      <sec sec-type="Taxa included">
+        <title>Taxa included</title>
+        <table-wrap id="taxonomic_coverage" position="anchor" orientation="portrait">
+          <table rules="all">
+            <thead>
+              <tr>
+                <th rowspan="1" colspan="1">Rank</th>
+                <th rowspan="1" colspan="1">Scientific Name</th>
+                <th rowspan="1" colspan="1">Common Name</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ambystoma">Ambystoma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="maculatum">maculatum</tp:taxon-name-part></tp:taxon-name></italic> (Shaw, 1802)</td>
+                <td rowspan="1" colspan="1">Spotted Salamander</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ambystoma">Ambystoma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="jeffersonianum">jeffersonianum</tp:taxon-name-part></tp:taxon-name></italic> (Green, 1827)</td>
+                <td rowspan="1" colspan="1">Jefferson Salamander</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ambystoma">Ambystoma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="laterale">laterale</tp:taxon-name-part></tp:taxon-name></italic> (Hallowell, 1856)</td>
+                <td rowspan="1" colspan="1">Blue-spotted Salamander</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Notophthalmus">Notophthalmus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="viridescens">viridescens</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="viridescens">viridescens</tp:taxon-name-part></tp:taxon-name></italic> (Rafinesque, 1820)</td>
+                <td rowspan="1" colspan="1">Red-spotted Newt</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pseudacris">Pseudacris</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="crucifer">crucifer</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="crucifer">crucifer</tp:taxon-name-part></tp:taxon-name></italic> (Wied-Neuwied, 1838)</td>
+                <td rowspan="1" colspan="1">Northern Spring Peeper</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Lithobates">Lithobates</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="clamitans">clamitans</tp:taxon-name-part></tp:taxon-name></italic> (Latreille in Sonnini de Manoncourt and Latreille, 1801)</td>
+                <td rowspan="1" colspan="1">Green Frog</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1">
+                  <italic>
+                    <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Lithobates">Lithobates</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="catesbeianus">catesbeianus</tp:taxon-name-part></tp:taxon-name>
+                  </italic>
+                </td>
+                <td rowspan="1" colspan="1">Bullfrog</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ambystoma">Ambystoma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="opacum">opacum</tp:taxon-name-part></tp:taxon-name></italic> (Gravenhorst, 1807)</td>
+                <td rowspan="1" colspan="1">Marbled Salamander</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Lithobates">Lithobates</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="sylvaticus">sylvaticus</tp:taxon-name-part></tp:taxon-name></italic> (LeConte, 1825)</td>
+                <td rowspan="1" colspan="1">Wood Frog</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <sec sec-type="Notes">
+        <title>Notes</title>
+        <p>The temporal extent of the dataset is from 1931-04-21 through 2019-05-01; and the months included in the dataset are February - May. Data collection is ongoing, as is digitisation of old records. Thus, the dataset will be updated accordingly over time and will continue to be available under edi.398 in the Environmental Data Initiative repository (<xref ref-type="bibr" rid="B5292455">Preserve et al. 2019</xref>, Fig. <xref ref-type="fig" rid="F5261007">4</xref>). Collection of both species occurrence data and environmental data was sporadic from 1931 - 1991, but spring data collection from 10 pools has been consistent from 1991 - present (Fig. <xref ref-type="fig" rid="F5298942">7</xref>). If pools dry up or access is no longer possible, additional pools may be added to have coverage of 10 pools each spring. For example, Long Woodland Vernal Swamp was no longer holding water as of 2017, so consistent collection of data at Ski Loop Vernal Pool commenced in 2018.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Creative Commons Public Domain Waiver (CC-Zero)</p>
+      </sec>
+      <sec sec-type="IP rights notes">
+        <title>IP rights notes</title>
+        <p>This data package is released to the “public domain” under Creative Commons CC0 1.0 “No Rights Reserved” (see: <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/publicdomain/zero/1.0/">https://creativecommons.org/publicdomain/zero/1.0/</ext-link>). It is considered professional etiquette to provide attribution of the original work, if this data package is shared in whole or by individual components. A generic citation is provided for this data package on the website <ext-link ext-link-type="uri" xlink:href="https://portal.edirepository.org">https://portal.edirepository.org</ext-link> (herein “website”) in the summary metadata page. Communication (and collaboration) with the creators of this data package is recommended to prevent duplicate research or publication. This data package (and its components) is made available “as is” and with no warranty of accuracy or fitness for use. The creators of this data package and the website shall not be liable for any damages resulting from misinterpretation or misuse of the data package or its components. Periodic updates of this data package may be available from the website.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>Mohonk Preserve Amphibian and Water Quality Monitoring Dataset at 11 Vernal Pools from 1931–Present</p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p><ext-link ext-link-type="uri" xlink:href="https://doi.org/10.6073/pasta/9eb31b2e15146e6a71f3fea8d3724aaa">https://doi.org/10.6073/pasta/9eb31b2e15146e6a71f3fea8d3724aaa</ext-link> <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.6073/pasta/6dcebcefed8b536dc387fe232306134e"> </ext-link></p>
+      </sec>
+      <sec sec-type="Alternative identifiers">
+        <title>Alternative identifiers</title>
+        <p>Mohonk Vernal Pool Monitoring, edi.398</p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>4</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Species occurrence data</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Comma-separated values</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>16</p>
+        </sec>
+        <sec sec-type="Character set">
+          <title>Character set</title>
+          <p>UTF-8</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="https://portal.edirepository.org/nis/dataviewer?packageid=edi.398.1&amp;entityid=b8ca689bfc2160a075f8714d5b274dc9">https://portal.edirepository.org/nis/dataviewer?packageid=edi.398.4&amp;entityid=737389d6c2090ee27a3084898f2e7853</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>This dataset includes the recorded observations of nine species of amphibians at 11 vernal pools. On some dates, no individuals were observed, but were looked for, so the column may include all 0 values. The individuals observed were noted by life stage, as described in the columns below. Finally, the chorus heard during sampling was recorded with a chorus code and a count of the number of calling individuals, if the calls were distinguishable.</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">CommonName</td>
+                  <td rowspan="1" colspan="1">Common name of the amphibian species observed</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">ScientificName</td>
+                  <td rowspan="1" colspan="1">Scientific name of the vernal pool amphibian species observed</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Authorship</td>
+                  <td rowspan="1" colspan="1">Citation for the scientific name</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">ITIS_TSN</td>
+                  <td rowspan="1" colspan="1">The taxonomic serial number for the amphibian species in the Integrated Taxonomic Information System</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">NY_Concern</td>
+                  <td rowspan="1" colspan="1">A binary variable indicating whether the species is presently listed as a New York state species of concern (1 = yes, 0 = no)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Location</td>
+                  <td rowspan="1" colspan="1">Name of vernal pool for occurrence record</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Sample_Date</td>
+                  <td rowspan="1" colspan="1">Date of sample observation and occurrence record, format: YYYY-MM-DD</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">ChorusCode</td>
+                  <td rowspan="1" colspan="1">Frog chorus code heard during sampling: 0 = No calling frogs; 1 = Individuals can be counted, calls not overlapping; 2 = Calls overlap (simultaneous calling), but individuals are distinguishable; 3 = Full chorus, calls continuous and overlapping. Cannot distinguish individuals; 4 = calling indicated, but additional information not provided (Historical code)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">ChorusCount</td>
+                  <td rowspan="1" colspan="1">If calls are distinguishable, the number of calling individuals.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Live_n</td>
+                  <td rowspan="1" colspan="1">Number of live adults observed</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Dead_n</td>
+                  <td rowspan="1" colspan="1">Number of dead adults observed</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">AmplectantPairs_n</td>
+                  <td rowspan="1" colspan="1">Number of amplectant pairs of adults observed</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">EggMass_n</td>
+                  <td rowspan="1" colspan="1">Number of egg masses observed</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Juv_n</td>
+                  <td rowspan="1" colspan="1">Number of juvenile individuals observed</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Sperm_n</td>
+                  <td rowspan="1" colspan="1">Number of spermatophores observed</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">TadLarv_n</td>
+                  <td rowspan="1" colspan="1">Number of tadpoles and larvae observed</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+      <sec sec-type="Data set 2">
+        <title>Data set 2.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Weather and water quality data</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Comma-separated values</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>22</p>
+        </sec>
+        <sec sec-type="Character set">
+          <title>Character set</title>
+          <p>UTF-8</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="https://portal.edirepository.org/nis/dataviewer?packageid=edi.398.1&amp;entityid=b120d4c16bbd23df49d75151e9dd6b52">https://portal.edirepository.org/nis/dataviewer?packageid=edi.398.4&amp;entityid=5835a29e0fbe1ba179ee5ffe27121df6</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>This dataset includes environmental and water quality data points collected for each pool for each sampling date. There is 100% coverage of air temperature and the presence of previous day precipitation for all sites on all sampling dates, but the collection of other environmental indicators was inconsistent from 1931–1991. Since 1991, collection of these data points has been more consistent, with a significant increase in the number of variables available in Feb 2018 due to the continued use of the YSI Sonde Professional Plus instrument to collect water quality data.</p>
+          <table-wrap id="DS2" orientation="portrait" position="anchor">
+            <label>Data set 2.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">Location</td>
+                  <td rowspan="1" colspan="1">Name of vernal pool sampled</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Sample_Date</td>
+                  <td rowspan="1" colspan="1">Date of sample observations</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Sky_Code</td>
+                  <td rowspan="1" colspan="1">Categorical descriptor of sky conditions: 0 = Clear or few clouds (&lt; 20% of sky); 1 = Partly cloudy or variable (20-50% of sky); 2 = Cloudy or overcast (&gt; 50% of sky); 3 = Fog; 4 = Mist; 5 = Showers or light rain; 6 = Heavy rain; 7 = Sleet/hail; 8 = Snow</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Wind_Code</td>
+                  <td rowspan="1" colspan="1">Categorical descriptor of wind conditions: 0 = Calm, smoke rises vertically (&lt; 1 mph); 1 = Light air movement, smoke drifts (2–3 mph); 2 = Light breeze, wind felt on face, leaves rustle (4–7 mph); 3 = Gentle breeze, leaves twigs in constant motion, raises dust (8–12 mph); 4 = Moderate breeze, small branches move (13–18 mph); 5 = Fresh breeze, small trees begin to sway (19–24 mph); 6 = Strong breeze, large branches move (25–31 mph); 7 = Strong winds (&gt; 31 mph)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">PDP</td>
+                  <td rowspan="1" colspan="1">Binary variable for the presence of precipitation on the previous day (0 = no previous day precipitation, 1 = previous day precipitation)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Air_Temp_C</td>
+                  <td rowspan="1" colspan="1">Air temperature at time of observation (degrees Celsius)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Water_Temp_C</td>
+                  <td rowspan="1" colspan="1">Water temperature of the vernal pool at time of collection (degrees Celsius)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">pH</td>
+                  <td rowspan="1" colspan="1">pH of vernal pool water</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Water_Depth</td>
+                  <td rowspan="1" colspan="1">Quantitative depth measurement of the depth of the vernal pool (cm)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Water_Level</td>
+                  <td rowspan="1" colspan="1">Qualitative measurement of how full the vernal pool was at the time of observation :0 = Pool is dry; &lt; 25 = &lt; 1/4 full relative to the maximum depth; 25 = 1/4 full relative to the maximum depth; 50 = 1/2 full relative to the maximum depth; 75 = 3/4 full relative to the maximum depth; 100 = full at the maximum depth.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Visibility_Imp</td>
+                  <td rowspan="1" colspan="1">Binary variable designating whether visibility was impaired while counting egg masses or determining species identity (1 = yes, 0 = no)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Surface_Ice</td>
+                  <td rowspan="1" colspan="1">Percentage of the vernal pool surface covered in ice</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Surface_Veg</td>
+                  <td rowspan="1" colspan="1">Percentage of the vernal pool surface covered by vegetation</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">SurfaceVeg_spp</td>
+                  <td rowspan="1" colspan="1">Character string of vegetation species covering the surface of the vernal pool</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Odor</td>
+                  <td rowspan="1" colspan="1">Categorical variable for the odour emitted by vernal pool: None = no water odour; Peat = Peat water odour; Sulphur = Sulphur water odour; Methane = Methane water odour</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Shrimp</td>
+                  <td rowspan="1" colspan="1">Binary variable for the presence or absence of fairy shrimp in the vernal pool (1 = presence, 0 = absence)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Snails</td>
+                  <td rowspan="1" colspan="1">Binary variable for the presence or absence of freshwater snails in the vernal pool water (1 = presence, 0 = absence)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Turbidity_NTU</td>
+                  <td rowspan="1" colspan="1">Turbidity of the vernal pool water (nephlometric turbidity units)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Chloride</td>
+                  <td rowspan="1" colspan="1">Chloride of the vernal pool water (milli-equivalents per litre)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Conductivity</td>
+                  <td rowspan="1" colspan="1">Conductivity of the vernal pool water (Siemens per metre)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">DO</td>
+                  <td rowspan="1" colspan="1">Dissolved oxygen of the vernal pool water (milligrams per litre)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Nitrate</td>
+                  <td rowspan="1" colspan="1">Nitrate of the vernal pool water (milligrams per litre)</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+      <sec sec-type="Data set 3">
+        <title>Data set 3.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Additional location information</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Comma-separated values</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>5</p>
+        </sec>
+        <sec sec-type="Character set">
+          <title>Character set</title>
+          <p>UTF-8</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="https://portal.edirepository.org/nis/dataviewer?packageid=edi.398.3&amp;entityid=b36ad2883a6e852ddce4afbfb121518a">https://portal.edirepository.org/nis/dataviewer?packageid=edi.398.4&amp;entityid=ceaabc36d68cdfb681122ce1f0941420</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>This dataset includes additional information about the 11 sampling locations included in the dataset, including the name used in the weather and water dataset and the species occurrence dataset and associated information about the vernal pool location and sizes. These data were collected in 1999 and we anticipate an update within the next few sampling years (<xref ref-type="bibr" rid="B5669282">Barbour 1999</xref>).</p>
+          <table-wrap id="DS3" orientation="portrait" position="anchor">
+            <label>Data set 3.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">Location</td>
+                  <td rowspan="1" colspan="1">Vernal pool location name</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Elevation</td>
+                  <td rowspan="1" colspan="1">Elevation of the vernal pool (metres)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">MaxDepth</td>
+                  <td rowspan="1" colspan="1">The maximum depth of the vernal pool at full capacity (metres)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Length</td>
+                  <td rowspan="1" colspan="1">The length of the vernal pool at its longest point (metres)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Width</td>
+                  <td rowspan="1" colspan="1">The width of the vernal pool at its widest point (metres)</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+      <sec sec-type="Data set 4">
+        <title>Data set 4.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Metadata for Mohonk Preserve Amphibian and Water Quality Monitoring Dataset at 11 Vernal Pools from 1931-Present</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Ecological Metadata Language</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>1</p>
+        </sec>
+        <sec sec-type="Character set">
+          <title>Character set</title>
+          <p>XMLENCOD</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="https://pasta.lternet.edu/package/metadata/eml/edi/398/1">https://portal.edirepository.org/nis/metadataviewer?packageid=edi.398.4&amp;contentType=application/xml</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Data format version">
+          <title>Data format version</title>
+          <p>EML version 2.1.1</p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>The metadata, in the Ecological Metadata Language format as XML, for the described datasets and sampling project.</p>
+          <table-wrap id="DS4" orientation="portrait" position="anchor">
+            <label>Data set 4.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">NA</td>
+                  <td rowspan="1" colspan="1">NA</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+    <sec sec-type="Additional information">
+      <title>Additional information</title>
+      <sec sec-type="Additional Data Considerations and Information">
+        <title>Additional Data Considerations and Information</title>
+        <p><list list-type="order">
+          <list-item>
+            <p>Due to the sensitivity of the vernal pools and the amphibian species, specific locations were not revealed as part of this data package, but are available upon request from the DSRC to individuals carrying out direct research.</p>
+          </list-item>
+          <list-item>
+            <p>Additional historical data exists in Daniel Smiley Research Center Library and is currently being digitised and will be added to the dataset as records become available.</p>
+          </list-item>
+          <list-item>
+            <p>Egg masses belonging to the Jefferson salamander or Jefferson/Blue-spotted salamander hybrids are incredibly difficult to distinguish. Historical determinations have been preserved as they were recorded, but additional care should be taken with these records.</p>
+          </list-item>
+          <list-item>
+            <p>Historical water depth measurements were taken as inches from maximum pool depth, so prior to 2015, depth measurements were converted to cm and added to the maximum depths recorded in the location information. Any remaining negative depths were omitted for clarity.</p>
+          </list-item>
+          <list-item>
+            <p>Long Woodland Swamp data collection ceased in 2016 due to the swamp drying up and the pool no longer holding water in the spring.</p>
+          </list-item>
+        </list></p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>The authors thank the enormous number of historical data collectors and digitisation volunteers, particularly Daniel Smiley and Paul Huth. We acknowledge partial support from the Environmental Data Initiative, funded by the US National Science Foundation award #DBI-1629233. AG also acknowledges funding and support provided by the ESIP Community Fellowship Program with support from the National Aeronautics and Space Administration (NASA), National Oceanic and Atmospheric Administration (NOAA) and the United States Geologic Survey (USGS) and the Science Gateways Community Institute Science Ambassadors Program. AG was also supported by the National Science Foundation Graduate Research Fellowship Program under Grant No. 1842191. Publication of this article was funded in part by the George Mason University Libraries Open Access Publishing Fund.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B5669282">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Barbour</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <year>1999</year>
+          <article-title>Northern Shawangunks Vernal Pools Inventory. Unpublished report.</article-title>
+          <source>Eastern New York Chapter of The Nature Conservancy</source>
+        </element-citation>
+      </ref>
+      <ref id="B5261120">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Batcher</surname>
+              <given-names>M. S.</given-names>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <article-title>Ecological processes and natural communities of the northern Shawangunk Mountains</article-title>
+          <source>Shawangunk Ridge Biodiversity Partnership, Buskirk, NY</source>
+        </element-citation>
+      </ref>
+      <ref id="B5636824">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Bisby</surname>
+              <given-names>Frank A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ruggerio</surname>
+              <given-names>M. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wilson</surname>
+              <given-names>K. L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cachuela-Palacio</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kimani</surname>
+              <given-names>S. W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Roskov</surname>
+              <given-names>Yuri</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Soulier-Perkins</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Van Hertum</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <article-title>Species 2000 &amp; ITIS Catalogue of Life, Annual Checklist</article-title>
+          <source>ITIS Catalogue of Life</source>
+        </element-citation>
+      </ref>
+      <ref id="B5261206">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Brunet</surname>
+              <given-names>Manola</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jones</surname>
+              <given-names>Phil</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>Data rescue initiatives: bringing historical climate data into the 21st century</article-title>
+          <source>Climate Research</source>
+          <volume>47</volume>
+          <issue>1-2</issue>
+          <fpage>29</fpage>
+          <lpage>40</lpage>
+          <pub-id pub-id-type="doi">10.3354/cr00960</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5261102">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Charifson</surname>
+              <given-names>David M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Huth</surname>
+              <given-names>Paul C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Thompson</surname>
+              <given-names>John E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Angyal</surname>
+              <given-names>Robert K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Flaherty</surname>
+              <given-names>Michael J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Richardson</surname>
+              <given-names>David C.</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>History of fish presence and absence following lake acidification and recovery in Lake Minnewaska, Shawangunk Ridge, NY</article-title>
+          <source>Northeastern Naturalist</source>
+          <volume>22</volume>
+          <issue>4</issue>
+          <fpage>762</fpage>
+          <lpage>781</lpage>
+          <pub-id pub-id-type="doi">10.1656/045.022.0411</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5261066">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Cook</surname>
+              <given-names>Benjamin I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cook</surname>
+              <given-names>Edward R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Huth</surname>
+              <given-names>Paul C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Thompson</surname>
+              <given-names>John E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Forster</surname>
+              <given-names>Anna</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Smiley</surname>
+              <given-names>Daniel</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>A cross‐taxa phenological dataset from Mohonk Lake, NY and its relationship to climate</article-title>
+          <source>International Journal of Climatology</source>
+          <volume>28</volume>
+          <issue>10</issue>
+          <fpage>1369</fpage>
+          <lpage>1383</lpage>
+          <pub-id pub-id-type="doi">10.1002/joc.1629</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5261078">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Cook</surname>
+              <given-names>Benjamin I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cook</surname>
+              <given-names>Edward R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Anchukaitis</surname>
+              <given-names>Kevin J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Huth</surname>
+              <given-names>Paul C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Thompson</surname>
+              <given-names>John E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Smiley</surname>
+              <given-names>Shanan F.</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>A homogeneous record (1896–2006) of daily weather and climate at Mohonk Lake, New York</article-title>
+          <source>Journal of Applied Meteorology and Climatology</source>
+          <volume>49</volume>
+          <issue>3</issue>
+          <fpage>544</fpage>
+          <lpage>555</lpage>
+          <pub-id pub-id-type="doi">10.1175/2009JAMC2221.1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5262729">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Cook</surname>
+              <given-names>R. Dennis</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jacobson</surname>
+              <given-names>Jerald O.</given-names>
+            </name>
+          </person-group>
+          <year>1979</year>
+          <article-title>A design for estimating visibility bias in aerial surveys</article-title>
+          <source>Biometrics</source>
+          <volume>35</volume>
+          <issue>4</issue>
+          <fpage>735</fpage>
+          <lpage>742</lpage>
+          <pub-id pub-id-type="doi">10.2307/2530104</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5261196">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Griffin</surname>
+              <given-names>Elizabeth</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Rescue old data before it’s too late</article-title>
+          <source>Nature News</source>
+          <volume>545</volume>
+          <issue>7654</issue>
+        </element-citation>
+      </ref>
+      <ref id="B5261246">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Hamer</surname>
+              <given-names>Andrew J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>McDonnell</surname>
+              <given-names>Mark J.</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Amphibian ecology and conservation in the urbanising world: a review</article-title>
+          <source>Biological Conservation</source>
+          <volume>141</volume>
+          <issue>10</issue>
+          <fpage>2432</fpage>
+          <lpage>2449</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.biocon.2008.07.020</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5261306">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Huth</surname>
+              <given-names>Paul</given-names>
+            </name>
+          </person-group>
+          <year>1996</year>
+          <article-title>Daniel Smiley and his natural history legacy: Amphibian Research 1930-1989</article-title>
+          <source>Mohonk Preserve Research Reports</source>
+          <fpage>1</fpage>
+          <lpage>40</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5261216">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Karraker</surname>
+              <given-names>Nancy E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gibbs</surname>
+              <given-names>James P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vonesh</surname>
+              <given-names>James R.</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Impacts of road deicing salt on the demography of vernal pool-breeding amphibians</article-title>
+          <source>Ecological Applications</source>
+          <volume>18</volume>
+          <issue>3</issue>
+          <fpage>724</fpage>
+          <lpage>734</lpage>
+          <pub-id pub-id-type="doi">10.1890/07-1644.1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5261226">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Marco</surname>
+              <given-names>Adolfo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Quilchano</surname>
+              <given-names>Consuelo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Blaustein</surname>
+              <given-names>Andrew R.</given-names>
+            </name>
+          </person-group>
+          <year>1999</year>
+          <article-title>Sensitivity to nitrate and nitrite in pond-breeding amphibians from the Pacific Northwest, USA</article-title>
+          <source>Environmental Toxicology and Chemistry: An International Journal</source>
+          <volume>18</volume>
+          <issue>12</issue>
+          <fpage>2836</fpage>
+          <lpage>2839</lpage>
+          <pub-id pub-id-type="doi">10.1002/etc.5620181225</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5661207">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Mayernik</surname>
+              <given-names>Matthew S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Breseman</surname>
+              <given-names>Kelsey</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Downs</surname>
+              <given-names>Robert R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Duerr</surname>
+              <given-names>Ruth</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Garretson</surname>
+              <given-names>Alexis</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hou</surname>
+              <given-names>Chung-Yi (Sophie)</given-names>
+            </name>
+          </person-group>
+          <year>2020</year>
+          <article-title>Risk Assessment for Scientific Data</article-title>
+          <source>Data Science Journal</source>
+          <volume>19</volume>
+          <pub-id pub-id-type="doi">10.5334/dsj-2020-010</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5261272">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Muths</surname>
+              <given-names>Erin</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jung</surname>
+              <given-names>Robin E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bailey</surname>
+              <given-names>Larissa L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Adams</surname>
+              <given-names>Michael J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Corn</surname>
+              <given-names>P. Stephen</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dodd Jr</surname>
+              <given-names>C. Kenneth</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fellers</surname>
+              <given-names>Gary M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sadinski</surname>
+              <given-names>Walter J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schwalbe</surname>
+              <given-names>Cecil R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Walls</surname>
+              <given-names>Susan C.</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <article-title>Amphibian Research and Monitoring Initiative (ARMI): a successful start to a national program in the United States</article-title>
+          <source>USGS Staff–Published Research</source>
+        </element-citation>
+      </ref>
+      <ref id="B5284253">
+        <element-citation publication-type="software">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Museum</surname>
+              <given-names>New York State</given-names>
+            </name>
+          </person-group>
+          <year>1999</year>
+          <article-title>NYS Geological Survey Bedrock Attributes</article-title>
+          <publisher-name>New York State Museum</publisher-name>
+          <uri>http://www.nysm.nysed.gov/research-collections/geology/gis</uri>
+          <comment content-type="Version">1.0</comment>
+        </element-citation>
+      </ref>
+      <ref id="B5262717">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Nichols</surname>
+              <given-names>J. D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hines</surname>
+              <given-names>J. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sauer</surname>
+              <given-names>J. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fallon</surname>
+              <given-names>F. W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fallon</surname>
+              <given-names>J. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Heglund</surname>
+              <given-names>P. J.</given-names>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <article-title>A double-observer approach for estimating detection probability and abundance from point counts</article-title>
+          <source>The Auk</source>
+          <volume>117</volume>
+          <issue>2</issue>
+          <fpage>393</fpage>
+          <lpage>408</lpage>
+          <pub-id pub-id-type="doi">10.1642/0004-8038(2000)117%5B0393%3AADOAFE%5D2.0.CO%3B2</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5636868">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Pauly</surname>
+              <given-names>Gregory B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hillis</surname>
+              <given-names>David M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cannatella</surname>
+              <given-names>David C.</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>Taxonomic freedom and the role of official lists of species names</article-title>
+          <source>Herpetologica</source>
+          <volume>65</volume>
+          <issue>2</issue>
+          <fpage>115</fpage>
+          <lpage>128</lpage>
+          <pub-id pub-id-type="doi">10.1655/08-031R1.1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5292455">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Preserve</surname>
+              <given-names>Mohonk</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Feldsine</surname>
+              <given-names>Natalie</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Forester</surname>
+              <given-names>Anna</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Garretson</surname>
+              <given-names>Alexis</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Huth</surname>
+              <given-names>Paul</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Long</surname>
+              <given-names>Elizabeth</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Napoli</surname>
+              <given-names>Megan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pierce</surname>
+              <given-names>Ethan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Smiley</surname>
+              <given-names>Daniel</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Smiley</surname>
+              <given-names>Shanan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Thompson</surname>
+              <given-names>John</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Mohonk Preserve amphibian and water quality monitoring dataset at 11 vernal pools from 1931-present</article-title>
+          <source>Environmental Data Initiative</source>
+          <pub-id pub-id-type="doi">10.6073/PASTA/864AEA25998B73C5D1A5B5F36CB6583E</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5261090">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Richardson</surname>
+              <given-names>David C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Charifson</surname>
+              <given-names>David M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stanson</surname>
+              <given-names>Valerie J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stern</surname>
+              <given-names>Erich M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Thompson</surname>
+              <given-names>John E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Townley</surname>
+              <given-names>Lauren A.</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Reconstructing a trophic cascade following unintentional introduction of golden shiner to Lake Minnewaska, New York, USA</article-title>
+          <source>Inland Waters</source>
+          <volume>6</volume>
+          <issue>1</issue>
+          <fpage>29</fpage>
+          <lpage>33</lpage>
+          <pub-id pub-id-type="doi">10.5268/IW-6.1.915</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5261236">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Semlitsch</surname>
+              <given-names>Raymond D.</given-names>
+            </name>
+          </person-group>
+          <year>2002</year>
+          <article-title>Critical elements for biologically based recovery plans of aquatic-breeding amphibians</article-title>
+          <source>Conservation Biology</source>
+          <volume>16</volume>
+          <issue>3</issue>
+          <fpage>619</fpage>
+          <lpage>629</lpage>
+          <pub-id pub-id-type="doi">10.1046/j.1523-1739.2002.00512.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5261130">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Thompson</surname>
+              <given-names>John E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Huth</surname>
+              <given-names>Paul C.</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>Vegetation dynamics in the northern Shawangunk Mountains</article-title>
+          <source>Environmental History of the Hudson River: Human Uses that Changed the Ecology, Ecology that Changed Human Uses. SUNY Press, Albany, NY</source>
+          <fpage>135</fpage>
+          <lpage>151</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5261290">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Weathers</surname>
+              <given-names>K. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Likens</surname>
+              <given-names>G. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bormann</surname>
+              <given-names>F. H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Eaton</surname>
+              <given-names>J. S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bowden</surname>
+              <given-names>W. B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Andersen</surname>
+              <given-names>Janet L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cass</surname>
+              <given-names>D. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Galloway</surname>
+              <given-names>J. N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Keene</surname>
+              <given-names>W. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kimball</surname>
+              <given-names>K. D.</given-names>
+            </name>
+          </person-group>
+          <year>1986</year>
+          <article-title>A regional acidic cloud/fog water event in the eastern United States</article-title>
+          <source>Nature</source>
+          <volume>319</volume>
+          <fpage>657</fpage>
+          <lpage>658</lpage>
+          <pub-id pub-id-type="doi">10.1038/319657a0</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5636878">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Yuan</surname>
+              <given-names>Zhi-Yong</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zhou</surname>
+              <given-names>Wei-Wei</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chen</surname>
+              <given-names>Xin</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Poyarkov</surname>
+              <given-names>Nikolay A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chen</surname>
+              <given-names>Hong-Man</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jang-Liaw</surname>
+              <given-names>Nian-Hong</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chou</surname>
+              <given-names>Wen-Hao</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Matzke</surname>
+              <given-names>Nicholas J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Iizuka</surname>
+              <given-names>Koji</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Min</surname>
+              <given-names>Mi-Sook</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kuzmin</surname>
+              <given-names>Sergius L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zhang</surname>
+              <given-names>Ya-Ping</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cannatella</surname>
+              <given-names>David C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hillis</surname>
+              <given-names>David M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Che</surname>
+              <given-names>Jing</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Spatiotemporal diversification of the true frogs (genus <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Rana">Rana</tp:taxon-name-part></tp:taxon-name>): A historical framework for a widely studied group of model organisms</article-title>
+          <source>Systematic Biology</source>
+          <volume>65</volume>
+          <issue>5</issue>
+          <fpage>824</fpage>
+          <lpage>842</lpage>
+          <pub-id pub-id-type="doi">10.1093/sysbio/syw055</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F5259858" position="float" orientation="portrait">
+      <object-id content-type="arpha">1F456054-0C11-5C59-8181-25992BCB0B73</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e50121.figure1</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>The Daniel Smiley Research Center (DSRC) collection of long-term research data includes more than 14,000 index cards with historical observations (top right), a significant library of historical reports and natural history literature (bottom left) and more than 60,000 physical items, including 107 bird specimens (top left, bottom right).</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e50121-g001.png" position="float" id="oo_313396.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/313396</uri>
+      </graphic>
+    </fig>
+    <fig id="F5261015" position="float" orientation="portrait">
+      <object-id content-type="arpha">3B6F88C3-6D34-5C4D-962B-27645DDE5FCB</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e50121.figure2</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>Representative images of two of the sampled vernal pools: Sleepy Hollow (left) and Canaan (right).</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e50121-g002.png" position="float" id="oo_312707.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/312707</uri>
+      </graphic>
+    </fig>
+    <fig id="F5259854" position="float" orientation="portrait">
+      <object-id content-type="arpha">3981581B-4613-5291-82E1-B95864301751</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e50121.figure3</object-id>
+      <label>Figure 3.</label>
+      <caption>
+        <p>Scanned historical occurrence notecards. Dates, locations, occurrence stages and any water quality or environmental indicators were extracted from narrative statements and are included in the described dataset.</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e50121-g003.png" position="float" id="oo_312725.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/312725</uri>
+      </graphic>
+    </fig>
+    <fig id="F5261007" position="float" orientation="portrait">
+      <object-id content-type="arpha">D784D4C2-4EA1-5C78-906D-3274140C8927</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e50121.figure4</object-id>
+      <label>Figure 4.</label>
+      <caption>
+        <p>Current format of the vernal pool monitoring data sheet for ongoing data collection. As additional data are collected, the data object in the Environmental Data Initiative repository (package identifier: edi.398) will be updated accordingly.</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e50121-g004.png" position="float" id="oo_313397.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/313397</uri>
+      </graphic>
+    </fig>
+    <fig id="F5259862" position="float" orientation="portrait">
+      <object-id content-type="arpha">DBB388F6-DBCC-5011-908A-D5BEC747E670</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e50121.figure5</object-id>
+      <label>Figure 5.</label>
+      <caption>
+        <p>Vegetation cover and geography of the vernal pool data collection region in the Mohonk Preserve. Vegetation cover adapted from <xref ref-type="bibr" rid="B5261130">Thompson and Huth (2011)</xref> and <xref ref-type="bibr" rid="B5284253">New York State Museum (1999)</xref>.</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e50121-g005.png" position="float" id="oo_313758.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/313758</uri>
+      </graphic>
+    </fig>
+    <fig id="F5259850" position="float" orientation="portrait">
+      <object-id content-type="arpha">E092F4DF-14DD-503C-BD72-6AA54259DA7E</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e50121.figure6</object-id>
+      <label>Figure 6.</label>
+      <caption>
+        <p>Pie chart showing the percent of dataset occurrence records by species. Jefferson/blue-spotted salamander complex omitted from the total, with 13 total records (0.5%).</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e50121-g006.png" position="float" id="oo_395040.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/395040</uri>
+      </graphic>
+    </fig>
+    <fig-group id="F5298942" position="float" orientation="portrait">
+      <caption>
+        <p>Bar graph of the temporal coverage of the species occurrence records (A) and environmental condition records (B).</p>
+      </caption>
+      <fig id="F5298947" position="float" orientation="portrait">
+        <object-id content-type="arpha">44BD3953-FE39-5180-B7C2-E426332282C7</object-id>
+        <object-id content-type="doi">10.3897/BDJ.8.e50121.figure7a</object-id>
+        <label>Figure 7a.</label>
+        <caption>
+          <p>The number of species occurrence records for each year in the sampling period.</p>
+        </caption>
+        <graphic xlink:href="bdj-08-e50121-g007_a.png" xlink:type="simple" position="float" orientation="portrait" id="oo_322482.png">
+          <uri content-type="original_file">https://binary.pensoft.net/fig/322482</uri>
+        </graphic>
+      </fig>
+      <fig id="F5298948" position="float" orientation="portrait">
+        <object-id content-type="arpha">992A3D6F-9244-5CCC-AE97-84AFB140DD56</object-id>
+        <object-id content-type="doi">10.3897/BDJ.8.e50121.figure7b</object-id>
+        <label>Figure 7b.</label>
+        <caption>
+          <p>The number of environmental condition records for each year in the sampling period.</p>
+        </caption>
+        <graphic xlink:href="bdj-08-e50121-g007_b.png" xlink:type="simple" position="float" orientation="portrait" id="oo_322483.png">
+          <uri content-type="original_file">https://binary.pensoft.net/fig/322483</uri>
+        </graphic>
+      </fig>
+    </fig-group>
+  </floats-group>
+</article>

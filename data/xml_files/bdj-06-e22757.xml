@@ -1,0 +1,1720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="3.0" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.6.e22757</article-id>
+      <article-id pub-id-type="publisher-id">22757</article-id>
+      <article-id pub-id-type="manuscript">8028</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Plantae</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Systematics</subject>
+          <subject>Biodiversity &amp; Conservation</subject>
+          <subject>Bioinformatics</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>Brazil</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Herbarium collection of the Rio de Janeiro Botanical Garden (RB), Brazil</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes" xlink:type="simple">
+          <name name-style="western">
+            <surname>Lanna</surname>
+            <given-names>João M.</given-names>
+          </name>
+          <email xlink:type="simple">joaomlanna@gmail.com</email>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>da Silva</surname>
+            <given-names>Luís Alexandre E</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Morim</surname>
+            <given-names>Marli P.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Leitman</surname>
+            <given-names>Paula M.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Queiroz</surname>
+            <given-names>Natália O.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Filardi</surname>
+            <given-names>Fabiana L. R.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Dalcin</surname>
+            <given-names>Eduardo C.</given-names>
+          </name>
+          <uri content-type="orcid" xlink:type="simple">https://orcid.org/0000-0002-4661-0272</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Oliveira</surname>
+            <given-names>Felipe A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes" xlink:type="simple">
+          <name name-style="western">
+            <surname>Forzza</surname>
+            <given-names>Rafaela C.</given-names>
+          </name>
+          <email xlink:type="simple">rafaela@jbrj.gov.br</email>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Rio de Janeiro Botanical Garden, Rio de Janeiro, Brazil</addr-line>
+        <institution xlink:type="simple">Rio de Janeiro Botanical Garden</institution>
+        <addr-line content-type="city">Rio de Janeiro</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding authors: João M. Lanna (<email xlink:type="simple">joaomlanna@gmail.com</email>), Rafaela C. Forzza (<email xlink:type="simple">rafaela@jbrj.gov.br</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Lauren Gardiner</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>12</day>
+        <month>03</month>
+        <year>2018</year>
+      </pub-date>
+      <volume>6</volume>
+      <elocation-id>e22757</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/FFA25740-FFF2-8B07-7337-F6464C178B5B">FFA25740-FFF2-8B07-7337-F6464C178B5B</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/1222214">1222214</uri>
+      <uri content-type="zoobank" xlink:href="http://zoobank.org/01184AD8-4C7A-43E2-AAB3-20F9860F47E2">01184AD8-4C7A-43E2-AAB3-20F9860F47E2</uri>
+      <history>
+        <date date-type="received">
+          <day>04</day>
+          <month>12</month>
+          <year>2017</year>
+        </date>
+        <date date-type="accepted">
+          <day>27</day>
+          <month>02</month>
+          <year>2018</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>João M. Lanna, Luís Alexandre E da Silva, Marli P. Morim, Paula M. Leitman, Natália O. Queiroz, Fabiana L. R. Filardi, Eduardo C. Dalcin, Felipe A. Oliveira, Rafaela C. Forzza</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License 4.0 (CC-BY), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>This paper provides a quantitative and general description of the Rio de Janeiro Botanical Garden herbarium (RB) dataset. Created over a century ago, the RB currently comprises ca. 750,000 mounted specimens, with a strong representation of Brazilian flora, mainly from the Atlantic and Amazon forests. Nearly 100% of these specimens have been entered into the database and imaged and, at present, about 17% have been geo-referenced. This data paper is focused exclusively on RB's exsiccatae collection of land plants and algae, which is currently increasing by about twenty to thirty thousand specimens per year thanks to fieldwork, exchange and donations. Since 2005, many national and international projects have been implemented, improving the quality and accessibility of the collection. The most important facilitating factor in this process was the creation of the institutional system for plants collection and management, named JABOT. Since the RB is continuously growing, the dataset is updated weekly on SiBBr and GBIF portals.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>The most represented environments are the Atlantic and Amazon forests, a biodiversity hotspot and the world's largest rain forest, respectively. The dataset described in this article contains the data and metadata of plants and algae specimens in the RB collection and the link to access the respective images. Currently, the RB data is publicly available online at several biodiversity portals, such as our institutional database JABOT, the Reflora Virtual Herbarium, the SiBBr and the GBIF portal. However, a description of the RB dataset as a whole is not available in the literature.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>Southern Brazil</kwd>
+        <kwd>Atlantic forest</kwd>
+        <kwd>Amazon forest</kwd>
+        <kwd>neotropical flora</kwd>
+        <kwd>taxonomy</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="5"/>
+        <table-count count="0"/>
+        <ref-count count="21"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>Created in 1890, the RB herbarium of the Rio de Janeiro Botanical Garden (JBRJ) is composed of seven botanical collections consisting of: mounted specimens (RB – 750,000, with 7,500 nomenclatural types and around 3,000 paratypes), wood (RBw - ca. 10,300 specimens), fruits (RBcarpo - ca. 8,000 specimens), DNA bank (RBdna - ca. 5,700 specimens), spirit (RBspirit - ca. 2,500 specimens), seed bank (RBsem - ca. 2,700 specimens) and ethnobotany (RBetno – ca. 200 specimens). For further details about the history and structure of the herbarium see (<xref ref-type="bibr" rid="B3736455">Marquete et al. 2001</xref>, <xref ref-type="bibr" rid="B3736298">Forzza et al. 2015b</xref>, <xref ref-type="bibr" rid="B3736324">Forzza et al. 2016</xref>). This data paper is focused on the main mounted plants and algae herbarium specimens, which are currently increasing by about twenty to thirty thousand new specimens per year.</p>
+      <p>Samples are organised alphabetically across two floors in the herbarium building: the dicots families of angiosperms from A to N are stored on the first floor; the remaining families of dicots, monocots, gymnosperms, ferns, lycophytes, bryophytes, algae, fungi, lichens and the other collections (fruits, spirit, wood and ethnobotanical) on the second floor.</p>
+      <p>Regarding the adopted taxonomic classification system, due to its large size and the efforts involved in rearranging so many specimens, currently the angiosperms are organised according to <xref ref-type="bibr" rid="B3736258">Cronquist (1981)</xref> and are gradually being reorganised to <xref ref-type="bibr" rid="B3736159">APG IV (2016)</xref>. The gymnosperms are organised according to <xref ref-type="bibr" rid="B3736218">Christenhusz et al. (2011)</xref>; ferns and lycophytes follow <xref ref-type="bibr" rid="B4088466">PPG I (2016)</xref>; bryophytes follow <xref ref-type="bibr" rid="B3737135">Söderström et al. (2016)</xref>; and algae follow <xref ref-type="bibr" rid="B3736397">Guiry and Guiry (2017)</xref>.</p>
+      <p>Fig. <xref ref-type="fig" rid="F3737180">1</xref> shows the families that have ≥4,000 specimens deposited in RB. Amongst these 34 families, 32 belong to angiosperms and two to ferns. The four angiosperm families with the highest amount of specimens are: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Fabaceae</tp:taxon-name-part></tp:taxon-name> (78,437), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Asteraceae</tp:taxon-name-part></tp:taxon-name> (45,871), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Rubiaceae</tp:taxon-name-part></tp:taxon-name> (31,971) and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Melastomataceae</tp:taxon-name-part></tp:taxon-name> (30,907). Non-angiosperm groups are represented as follows: Gymnosperms - <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Podocarpaceae</tp:taxon-name-part></tp:taxon-name> (187), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Gnetaceae</tp:taxon-name-part></tp:taxon-name> (112), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Pinaceae</tp:taxon-name-part></tp:taxon-name> (73) and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Araucariaceae</tp:taxon-name-part></tp:taxon-name> (59); Ferns - <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Polypodiaceae</tp:taxon-name-part></tp:taxon-name> (5,733), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Pteridaceae</tp:taxon-name-part></tp:taxon-name> (5,280), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Dryopteridaceae</tp:taxon-name-part></tp:taxon-name> (3,708) and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Aspleniaceae</tp:taxon-name-part></tp:taxon-name> (2,532); Bryophyte - <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Lejeuneaceae</tp:taxon-name-part></tp:taxon-name> (2,439), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Sphagnaceae</tp:taxon-name-part></tp:taxon-name> (707), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Leucobryaceae</tp:taxon-name-part></tp:taxon-name> (622) and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Metzgeriaceae</tp:taxon-name-part></tp:taxon-name> (613); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="above-genus">Algae</tp:taxon-name-part></tp:taxon-name> - <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Rhodomelaceae</tp:taxon-name-part></tp:taxon-name> (1,334), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Cladophoraceae</tp:taxon-name-part></tp:taxon-name> (835), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Dictyotaceae</tp:taxon-name-part></tp:taxon-name> (620) and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Corallinaceae</tp:taxon-name-part></tp:taxon-name> (487).</p>
+      <p>The collection is completely digitised and it is managed using the <ext-link ext-link-type="uri" xlink:href="http://jabot.jbrj.gov.br/v2/consulta.php" xlink:type="simple">JABOT</ext-link> system (<xref ref-type="bibr" rid="B3736277">Silva et al. 2017</xref>, <xref ref-type="bibr" rid="B3736387">Gonzales 2009</xref>), which was developed by JBRJ staff. With the implementation of the REFLORA project (<xref ref-type="bibr" rid="B3736311">Forzza et al. 2015a</xref>, <xref ref-type="bibr" rid="B3737043">Nic Lughadha et al. 2016</xref>), nearly 100% of the mounted specimens were photographed and are available through the public interface of the JABOT system and in other biodiversity portals, such as the <ext-link ext-link-type="uri" xlink:href="http://reflora.jbrj.gov.br/" xlink:type="simple">Reflora Virtual Herbarium</ext-link> (<xref ref-type="bibr" rid="B3736311">Forzza et al. 2015a</xref>), the Brazilian Biodiversity Information System (<ext-link ext-link-type="uri" xlink:href="http://sibbr.gov.br/" xlink:type="simple">SiBBr</ext-link>) (<xref ref-type="bibr" rid="B3736359">Gadelha et al. 2014</xref>) and the Global Biodiversity Information Facility (<ext-link ext-link-type="uri" xlink:href="http://www.gbif.org/" xlink:type="simple">GBIF</ext-link>) (<xref ref-type="bibr" rid="B3737097">Robertson et al. 2014</xref>). Currently, new accessions are digitised and photographed before they are incorporated into the herbarium and all new identifications are updated in the JABOT system on a daily basis. At present, about 17% of the specimens have been assigned geographic coordinates (Fig. <xref ref-type="fig" rid="F3737182">2</xref>).</p>
+      <sec sec-type="Temporal coverage">
+        <title>Temporal coverage</title>
+        <p>The RB herbarium was created by the naturalist João Barbosa Rodrigues in 1890. The first specimens came from a private collection of about 25,000 specimens donated by Emperor Dom Pedro II (<xref ref-type="bibr" rid="B3736455">Marquete et al. 2001</xref>). Aiming to make the herbarium a reference for the study of the Brazilian flora, Barbosa Rodrigues and other naturalists (e.g. A. Ducke, J.G. Kuhlmann, A.P. Duarte, A.C. Brade, D. Sucre) conducted many expeditions throughout Brazil, considerably enriching the collection. The herbarium has been a national reference since then, increasing its collections over the years (Fig. <xref ref-type="fig" rid="F3737184">3</xref>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>The herbarium specimen collection combines specimens from institutional projects, undergraduate and post-graduate research and exchanges or donations from other herbaria. In addition, from 1970 onwards, relevant national projects of flora documentation sent specimens to RB, such as RADAMBRASIL Project (1970-1985) and the Flora Program CNPq (1975-1983, MCT/CNPq 1987). Furthermore, as the official custodian for the Ministry of Environment, RB also receives many specimens from private companies with activities related to environmental impact studies and phytochemical products and most of these specimens are donated in exchange for identification. The institution includes 53 associate researchers and hosts around 550 visiting taxonomists every year, standing out as the most visited herbarium in Brazil.</p>
+      </sec>
+      <sec sec-type="Quality control">
+        <title>Quality control</title>
+        <p>The RB uses the institutional system JABOT to perform all functions regarding herbarium management (i.e. loans, donations, new specimen registration, database management, quality control and web publication). The JABOT is a PostgreSQL database management system with 117 tables specifically created for botanical collections. The data insertion can be made directly into the JABOT interface or via uploading spreadsheets, with controlled and free text fields (<xref ref-type="bibr" rid="B3736277">Silva et al. 2017</xref>).</p>
+      </sec>
+      <sec sec-type="Step description">
+        <title>Step description</title>
+        <p>
+          <bold>Plant processing procedures</bold>
+        </p>
+        <p>The herbarium follows the usual procedures for processing specimens (<xref ref-type="bibr" rid="B3736169">Bridson and Forman 2000</xref>, <xref ref-type="bibr" rid="B3737114">Simpson 2006</xref>). Fresh materials are pressed and dried over a stove or in an oven. Once they are dry, specimens are glued on to acid-free paper, with gummed cloth tape or thread for bulky plants. Bryophytes, fungi and lichens are placed into acid-free packets. <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="above-genus">Algae</tp:taxon-name-part></tp:taxon-name> can also be mounted on acid-free paper with gummed cloth tape or stored in plastic boxes in the case of calcareous algae.</p>
+        <p>
+          <bold>Collection digitisation history</bold>
+        </p>
+        <p>Once JABOT was created in 2005, data entry for the herbarium started with the “<italic>Projeto de Informatização</italic>” funded by Petrobras, which lasted until 2007. After this, between 2008 and 2010, without a project specifically directed towards data inclusion into the system, this task was performed only for new specimens of previously digitised families, by a smaller team, part of institutional projects and core herbarium staff. At the end of 2010, the Reflora project started, boosting data entry into the system and was completed during 2014. The GFJP and GUA herbaria were incorporated into RB in 2016 and 2017, respectively, which substantially increased the number of specimens entered into the system, as can be seen in Fig. <xref ref-type="fig" rid="F3737188">4</xref>.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The majority of specimens were collected in Brazil (ca. 90%) and the country’s most widely represented region is the Southeast, where the herbarium is based (ca. 349.000 specimens, 50% of the total). The south-eastern states of Rio de Janeiro (ca. 189,000 specimens) and Minas Gerais (ca. 90,000) are represented by the largest number of specimens (Fig. <xref ref-type="fig" rid="F3737186">5</xref>). It should be noted that most of this region is part of the Atlantic Forest and Rio de Janeiro state is positioned entirely within this biome.</p>
+        <p>North Brazil ranks second in number of specimens and the states of Amazonas and Pará are the best represented, with ca. 29,000 (ca. 4%) and 28,000 (ca. 4%), respectively (Fig. <xref ref-type="fig" rid="F3737186">5</xref>). One of the first great plant collectors in the region, especially with regard to Amazonian flora, was Adolf Ducke, who conducted expeditions in the states of Amazonas and Pará, mainly in the first half of the 20th century.</p>
+      </sec>
+      <sec sec-type="Coordinates">
+        <title>Coordinates</title>
+        <p>-34.1618 and 5.5285 Latitude; -34.4531 and -74.1796 Longitude.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>Taxonomic ranks</p>
+        <p><bold>Group</bold>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Spermatophyta</tp:taxon-name-part></tp:taxon-name></p>
+        <p><bold>Family</bold>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ACANTHACEAE</tp:taxon-name-part></tp:taxon-name> (6603 specimens/773 names); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ACERACEAE</tp:taxon-name-part></tp:taxon-name> (52/43); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ACHARIACEAE</tp:taxon-name-part></tp:taxon-name> (96/19); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ACHATOCARPACEAE</tp:taxon-name-part></tp:taxon-name> (27/4); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ACORACEAE</tp:taxon-name-part></tp:taxon-name> (3/6); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ACTINIDIACEAE</tp:taxon-name-part></tp:taxon-name> (33/19); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ADOXACEAE</tp:taxon-name-part></tp:taxon-name> (14/3); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">AGAVACEAE</tp:taxon-name-part></tp:taxon-name> (82/43); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">AIZOACEAE</tp:taxon-name-part></tp:taxon-name> (84/20); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ALISMATACEAE</tp:taxon-name-part></tp:taxon-name> (504/64); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ALSTROEMERIACEAE</tp:taxon-name-part></tp:taxon-name> (489/47); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">AMARANTHACEAE</tp:taxon-name-part></tp:taxon-name> (2664/273); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">AMARYLLIDACEAE</tp:taxon-name-part></tp:taxon-name> (727/220); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ANACARDIACEAE</tp:taxon-name-part></tp:taxon-name> (2918/227); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ANISOPHYLLEACEAE</tp:taxon-name-part></tp:taxon-name> (20/6); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ANNONACEAE</tp:taxon-name-part></tp:taxon-name> (6334/548); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ANTHERICACEAE</tp:taxon-name-part></tp:taxon-name> (18/10); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">APIACEAE</tp:taxon-name-part></tp:taxon-name> (923/144); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">APOCYNACEAE</tp:taxon-name-part></tp:taxon-name> (10292/1144); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">APODANTHACEAE</tp:taxon-name-part></tp:taxon-name> (12/5); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">APONOGETONACEAE</tp:taxon-name-part></tp:taxon-name> (2/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">AQUIFOLIACEAE</tp:taxon-name-part></tp:taxon-name> (1382/168); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ARACEAE</tp:taxon-name-part></tp:taxon-name> (7726/1102); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ARALIACEAE</tp:taxon-name-part></tp:taxon-name> (1957/499); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ARAUCARIACEAE</tp:taxon-name-part></tp:taxon-name> (59/17); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ARECACEAE</tp:taxon-name-part></tp:taxon-name> (2235/546); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ARISTOLOCHIACEAE</tp:taxon-name-part></tp:taxon-name> (693/166); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ASCLEPIADACEAE</tp:taxon-name-part></tp:taxon-name> (3520/543); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ASPARAGACEAE</tp:taxon-name-part></tp:taxon-name> (272/115); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ASPHODELACEAE</tp:taxon-name-part></tp:taxon-name> (6/6); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ASTERACEAE</tp:taxon-name-part></tp:taxon-name> (45873/5672); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ASTERANTHACEAE</tp:taxon-name-part></tp:taxon-name> (5/1); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">AVICENNIACEAE</tp:taxon-name-part></tp:taxon-name> (129/12); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">BALANOPHORACEAE</tp:taxon-name-part></tp:taxon-name> (230/22); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">BALSAMINACEAE</tp:taxon-name-part></tp:taxon-name> (61/13); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">BARRINGTONIACEAE</tp:taxon-name-part></tp:taxon-name> (9/7); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">BASELLACEAE</tp:taxon-name-part></tp:taxon-name> (64/8); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">BATACEAE</tp:taxon-name-part></tp:taxon-name> (5/1); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">BEGONIACEAE</tp:taxon-name-part></tp:taxon-name> (3434/251); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">BERBERIDACEAE</tp:taxon-name-part></tp:taxon-name> (149/42); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">BETULACEAE</tp:taxon-name-part></tp:taxon-name> (86/52); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">BIGNONIACEAE</tp:taxon-name-part></tp:taxon-name> (9683/968); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">BIXACEAE</tp:taxon-name-part></tp:taxon-name> (250/14); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">BOMBACACEAE</tp:taxon-name-part></tp:taxon-name> (1465/187); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">BONNETIACEAE</tp:taxon-name-part></tp:taxon-name> (142/17); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">BORAGINACEAE</tp:taxon-name-part></tp:taxon-name> (5052/419); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">BRASSICACEAE</tp:taxon-name-part></tp:taxon-name> (159/97); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">BROMELIACEAE</tp:taxon-name-part></tp:taxon-name> (12391/1641); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">BURMANNIACEAE</tp:taxon-name-part></tp:taxon-name> (224/49); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">BURSERACEAE</tp:taxon-name-part></tp:taxon-name> (2006/171); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">BUTOMACEAE</tp:taxon-name-part></tp:taxon-name> (7/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">BUXACEAE</tp:taxon-name-part></tp:taxon-name> (13/6); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CABOMBACEAE</tp:taxon-name-part></tp:taxon-name> (59/10); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CACTACEAE</tp:taxon-name-part></tp:taxon-name> (3026/351); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CALCEOLARIACEAE</tp:taxon-name-part></tp:taxon-name> (6/3); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CALLITRICHACEAE</tp:taxon-name-part></tp:taxon-name> (15/7); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CALOPHYLLACEAE</tp:taxon-name-part></tp:taxon-name> (55/7); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CALYCANTHACEAE</tp:taxon-name-part></tp:taxon-name> (3/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CALYCERACEAE</tp:taxon-name-part></tp:taxon-name> (107/16); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CAMPANULACEAE</tp:taxon-name-part></tp:taxon-name> (1410/184); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CANELLACEAE</tp:taxon-name-part></tp:taxon-name> (51/12); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CANNABACEAE</tp:taxon-name-part></tp:taxon-name> (266/17); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CANNACEAE</tp:taxon-name-part></tp:taxon-name> (245/18); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CAPPARACEAE</tp:taxon-name-part></tp:taxon-name> (975/91); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CAPRIFOLIACEAE</tp:taxon-name-part></tp:taxon-name> (258/89); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CARDIOPTERIDACEAE</tp:taxon-name-part></tp:taxon-name> (22/7); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CARICACEAE</tp:taxon-name-part></tp:taxon-name> (160/22); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CARYOCARACEAE</tp:taxon-name-part></tp:taxon-name> (312/26); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CARYOPHYLLACEAE</tp:taxon-name-part></tp:taxon-name> (1156/468); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CASUARINACEAE</tp:taxon-name-part></tp:taxon-name> (41/12); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CECROPIACEAE</tp:taxon-name-part></tp:taxon-name> (110/22); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CELASTRACEAE</tp:taxon-name-part></tp:taxon-name> (2542/209); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CENTROLEPIDACEAE</tp:taxon-name-part></tp:taxon-name> (4/3); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CERATOPHYLLACEAE</tp:taxon-name-part></tp:taxon-name> (14/5); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CHENOPODIACEAE</tp:taxon-name-part></tp:taxon-name> (309/118); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CHLORANTHACEAE</tp:taxon-name-part></tp:taxon-name> (235/22); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CHRYSOBALANACEAE</tp:taxon-name-part></tp:taxon-name> (3841/339); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CISTACEAE</tp:taxon-name-part></tp:taxon-name> (60/32); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CLEOMACEAE</tp:taxon-name-part></tp:taxon-name> (513/56); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CLETHRACEAE</tp:taxon-name-part></tp:taxon-name> (346/19); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CLUSIACEAE</tp:taxon-name-part></tp:taxon-name> (2439/264); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">COCHLOSPERMACEAE</tp:taxon-name-part></tp:taxon-name> (131/9); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">COLCHICACEAE</tp:taxon-name-part></tp:taxon-name> (20/13); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">COMBRETACEAE</tp:taxon-name-part></tp:taxon-name> (2715/180); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">COMMELINACEAE</tp:taxon-name-part></tp:taxon-name> (2492/146); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CONNARACEAE</tp:taxon-name-part></tp:taxon-name> (1035/115); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CONVALLARIACEAE</tp:taxon-name-part></tp:taxon-name> (44/23); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CONVOLVULACEAE</tp:taxon-name-part></tp:taxon-name> (5549/504); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CORIARIACEAE</tp:taxon-name-part></tp:taxon-name> (11/6); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CORNACEAE</tp:taxon-name-part></tp:taxon-name> (121/41); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CORYNOCARPACEAE</tp:taxon-name-part></tp:taxon-name> (4/1); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">COSTACEAE</tp:taxon-name-part></tp:taxon-name> (591/38); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CRASSULACEAE</tp:taxon-name-part></tp:taxon-name> (151/38); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CRUCIFERAE</tp:taxon-name-part></tp:taxon-name> (778/360); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CUCURBITACEAE</tp:taxon-name-part></tp:taxon-name> (2175/247); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CUNONIACEAE</tp:taxon-name-part></tp:taxon-name> (473/36); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CUPRESSACEAE</tp:taxon-name-part></tp:taxon-name> (169/84); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CUSCUTACEAE</tp:taxon-name-part></tp:taxon-name> (105/23); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CYCADACEAE</tp:taxon-name-part></tp:taxon-name> (6/10); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CYCLANTHACEAE</tp:taxon-name-part></tp:taxon-name> (256/30); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CYMODOCEACEAE</tp:taxon-name-part></tp:taxon-name> (3/3); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CYPERACEAE</tp:taxon-name-part></tp:taxon-name> (9590/1154); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CYRILLACEAE</tp:taxon-name-part></tp:taxon-name> (33/6); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">DIALYPETALANTHACEAE</tp:taxon-name-part></tp:taxon-name> (25/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">DICHAPETALACEAE</tp:taxon-name-part></tp:taxon-name> (293/44); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">DICLIDANTHERACEAE</tp:taxon-name-part></tp:taxon-name> (22/7); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">DILLENIACEAE</tp:taxon-name-part></tp:taxon-name> (2238/108); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">DIOSCOREACEAE</tp:taxon-name-part></tp:taxon-name> (2179/150); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">DIPSACACEAE</tp:taxon-name-part></tp:taxon-name> (45/28); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">DIPTEROCARPACEAE</tp:taxon-name-part></tp:taxon-name> (12/33); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">DRACAENACEAE</tp:taxon-name-part></tp:taxon-name> (29/12); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">DROSERACEAE</tp:taxon-name-part></tp:taxon-name> (256/47); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">DUCKEODENDRACEAE</tp:taxon-name-part></tp:taxon-name> (9/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">EBENACEAE</tp:taxon-name-part></tp:taxon-name> (742/86); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ELAEAGNACEAE</tp:taxon-name-part></tp:taxon-name> (18/8); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ELAEOCARPACEAE</tp:taxon-name-part></tp:taxon-name> (991/98); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ELATINACEAE</tp:taxon-name-part></tp:taxon-name> (6/5); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">EMPETRACEAE</tp:taxon-name-part></tp:taxon-name> (5/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">EPACRIDACEAE</tp:taxon-name-part></tp:taxon-name> (28/22); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">EPHEDRACEAE</tp:taxon-name-part></tp:taxon-name> (32/16); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ERICACEAE</tp:taxon-name-part></tp:taxon-name> (2111/298); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ERIOCAULACEAE</tp:taxon-name-part></tp:taxon-name> (2816/464); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ERYTHROXYLACEAE</tp:taxon-name-part></tp:taxon-name> (3067/163); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ESCALLONIACEAE</tp:taxon-name-part></tp:taxon-name> (77/8); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">EUPHORBIACEAE</tp:taxon-name-part></tp:taxon-name> (16907/1973); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">EUPHRONIACEAE</tp:taxon-name-part></tp:taxon-name> (4/3); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">FABACEAE</tp:taxon-name-part></tp:taxon-name> (57/14); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">FAGACEAE</tp:taxon-name-part></tp:taxon-name> (176/134); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">FLACOURTIACEAE</tp:taxon-name-part></tp:taxon-name> (4123/204); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">GELSEMIACEAE</tp:taxon-name-part></tp:taxon-name> (16/5); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">GENTIANACEAE</tp:taxon-name-part></tp:taxon-name> (2239/250); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">GERANIACEAE</tp:taxon-name-part></tp:taxon-name> (207/91); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">GESNERIACEAE</tp:taxon-name-part></tp:taxon-name> (2849/284); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">GINKGOACEAE</tp:taxon-name-part></tp:taxon-name> (2/1); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">GNETACEAE</tp:taxon-name-part></tp:taxon-name> (112/13); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">GOODENIACEAE</tp:taxon-name-part></tp:taxon-name> (56/19); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">GOUPIACEAE</tp:taxon-name-part></tp:taxon-name> (9/3); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">GRISELINIACEAE</tp:taxon-name-part></tp:taxon-name> (14/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">GUNNERACEAE</tp:taxon-name-part></tp:taxon-name> (18/7); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">GUTTIFERAE</tp:taxon-name-part></tp:taxon-name> (3053/379); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">HAEMODORACEAE</tp:taxon-name-part></tp:taxon-name> (57/12); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">HALORAGACEAE</tp:taxon-name-part></tp:taxon-name> (62/18); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">HAMAMELIDACEAE</tp:taxon-name-part></tp:taxon-name> (17/14); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">HELICONIACEAE</tp:taxon-name-part></tp:taxon-name> (1420/100); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">HEMEROCALLIDACEAE</tp:taxon-name-part></tp:taxon-name> (18/10); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">HERNANDIACEAE</tp:taxon-name-part></tp:taxon-name> (140/18); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">HIPPOCASTANACEAE</tp:taxon-name-part></tp:taxon-name> (10/9); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">HIPPOCRATEACEAE</tp:taxon-name-part></tp:taxon-name> (1133/113); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">HIPPURIDACEAE</tp:taxon-name-part></tp:taxon-name> (2/1); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">HUMIRIACEAE</tp:taxon-name-part></tp:taxon-name> (1237/82); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">HYACINTHACEAE</tp:taxon-name-part></tp:taxon-name> (29/20); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">HYDNORACEAE</tp:taxon-name-part></tp:taxon-name> (1/1); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">HYDROCHARITACEAE</tp:taxon-name-part></tp:taxon-name> (108/27); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">HYDROLEACEAE</tp:taxon-name-part></tp:taxon-name> (24/5); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">HYDROPHYLLACEAE</tp:taxon-name-part></tp:taxon-name> (103/38); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">HYPERICACEAE</tp:taxon-name-part></tp:taxon-name> (505/61); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">HYPOXIDACEAE</tp:taxon-name-part></tp:taxon-name> (106/10); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ICACINACEAE</tp:taxon-name-part></tp:taxon-name> (688/64); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ILLECEBRACEAE</tp:taxon-name-part></tp:taxon-name> (5/4); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">IRIDACEAE</tp:taxon-name-part></tp:taxon-name> (1336/243); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">IXONANTHACEAE</tp:taxon-name-part></tp:taxon-name> (3/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">JUGLANDACEAE</tp:taxon-name-part></tp:taxon-name> (24/31); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">JUNCACEAE</tp:taxon-name-part></tp:taxon-name> (386/110); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">JUNCAGINACEAE</tp:taxon-name-part></tp:taxon-name> (19/5); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">KRAMERIACEAE</tp:taxon-name-part></tp:taxon-name> (165/10); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LACISTEMATACEAE</tp:taxon-name-part></tp:taxon-name> (625/17); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LAMIACEAE</tp:taxon-name-part></tp:taxon-name> (6952/907); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LARDIZABALACEAE</tp:taxon-name-part></tp:taxon-name> (2/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LAURACEAE</tp:taxon-name-part></tp:taxon-name> (12630/753); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LECYTHIDACEAE</tp:taxon-name-part></tp:taxon-name> (2281/214); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LEGUMINOSAE</tp:taxon-name-part></tp:taxon-name> (78391/7103); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LENTIBULARIACEAE</tp:taxon-name-part></tp:taxon-name> (889/91); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LEPIDOBOTRYACEAE</tp:taxon-name-part></tp:taxon-name> (2/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LILIACEAE</tp:taxon-name-part></tp:taxon-name> (164/75); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LINACEAE</tp:taxon-name-part></tp:taxon-name> (206/50); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LINDERNIACEAE</tp:taxon-name-part></tp:taxon-name> (9/5); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LISSOCARPACEAE</tp:taxon-name-part></tp:taxon-name> (8/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LOASACEAE</tp:taxon-name-part></tp:taxon-name> (166/46); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LOBELIACEAE</tp:taxon-name-part></tp:taxon-name> (8/3); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LOGANIACEAE</tp:taxon-name-part></tp:taxon-name> (1495/152); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LOMANDRACEAE</tp:taxon-name-part></tp:taxon-name> (2/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LORANTHACEAE</tp:taxon-name-part></tp:taxon-name> (5629/455); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LYTHRACEAE</tp:taxon-name-part></tp:taxon-name> (2867/300); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">MAESACEAE</tp:taxon-name-part></tp:taxon-name> (11/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">MAGNOLIACEAE</tp:taxon-name-part></tp:taxon-name> (173/66); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">MALESHERBIACEAE</tp:taxon-name-part></tp:taxon-name> (4/4); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">MALPIGHIACEAE</tp:taxon-name-part></tp:taxon-name> (11646/706); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">MALVACEAE</tp:taxon-name-part></tp:taxon-name> (7095/846); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">MARANTACEAE</tp:taxon-name-part></tp:taxon-name> (3594/275); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">MARCGRAVIACEAE</tp:taxon-name-part></tp:taxon-name> (707/45); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">MARTYNIACEAE</tp:taxon-name-part></tp:taxon-name> (13/9); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">MAYACACEAE</tp:taxon-name-part></tp:taxon-name> (109/8); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">MELANTHIACEAE</tp:taxon-name-part></tp:taxon-name> (29/14); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">MELASTOMATACEAE</tp:taxon-name-part></tp:taxon-name> (30923/2316); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">MELIACEAE</tp:taxon-name-part></tp:taxon-name> (4466/272); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">MENISPERMACEAE</tp:taxon-name-part></tp:taxon-name> (1316/130); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">MENYANTHACEAE</tp:taxon-name-part></tp:taxon-name> (113/10); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">MOLLUGINACEAE</tp:taxon-name-part></tp:taxon-name> (205/12); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">MONIMIACEAE</tp:taxon-name-part></tp:taxon-name> (4887/158); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">MONTIACEAE</tp:taxon-name-part></tp:taxon-name> (2/1); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">MORACEAE</tp:taxon-name-part></tp:taxon-name> (8940/799); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">MORINGACEAE</tp:taxon-name-part></tp:taxon-name> (11/5); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">MUNTINGIACEAE</tp:taxon-name-part></tp:taxon-name> (19/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">MUSACEAE</tp:taxon-name-part></tp:taxon-name> (38/23); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">MYOPORACEAE</tp:taxon-name-part></tp:taxon-name> (26/15); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">MYRICACEAE</tp:taxon-name-part></tp:taxon-name> (33/17); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">MYRISTICACEAE</tp:taxon-name-part></tp:taxon-name> (1545/119); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">MYRTACEAE</tp:taxon-name-part></tp:taxon-name> (25903/1808); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">NARTHECIACEAE</tp:taxon-name-part></tp:taxon-name> (1/1); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">NELUMBONACEAE</tp:taxon-name-part></tp:taxon-name> (1/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">NEPENTHACEAE</tp:taxon-name-part></tp:taxon-name> (32/31); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">NYCTAGINACEAE</tp:taxon-name-part></tp:taxon-name> (3302/127); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">NYMPHAEACEAE</tp:taxon-name-part></tp:taxon-name> (227/46); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">OCHNACEAE</tp:taxon-name-part></tp:taxon-name> (3076/252); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">OLACACEAE</tp:taxon-name-part></tp:taxon-name> (1331/127); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">OLEACEAE</tp:taxon-name-part></tp:taxon-name> (334/121); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ONAGRACEAE</tp:taxon-name-part></tp:taxon-name> (1854/201); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">OPILIACEAE</tp:taxon-name-part></tp:taxon-name> (229/13); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ORCHIDACEAE</tp:taxon-name-part></tp:taxon-name> (13096/2258); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">OROBANCHACEAE</tp:taxon-name-part></tp:taxon-name> (239/57); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">OXALIDACEAE</tp:taxon-name-part></tp:taxon-name> (1366/159); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PANDANACEAE</tp:taxon-name-part></tp:taxon-name> (16/16); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PAPAVERACEAE</tp:taxon-name-part></tp:taxon-name> (233/99); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PASSIFLORACEAE</tp:taxon-name-part></tp:taxon-name> (2958/203); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PEDALIACEAE</tp:taxon-name-part></tp:taxon-name> (15/9); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PELLICIERACEAE</tp:taxon-name-part></tp:taxon-name> (2/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PENTAPHYLACACEAE</tp:taxon-name-part></tp:taxon-name> (42/12); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PERACEAE</tp:taxon-name-part></tp:taxon-name> (94/15); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PERIDISCACEAE</tp:taxon-name-part></tp:taxon-name> (7/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PHILESIACEAE</tp:taxon-name-part></tp:taxon-name> (4/3); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PHYLLANTHACEAE</tp:taxon-name-part></tp:taxon-name> (231/54); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PHYTOLACCACEAE</tp:taxon-name-part></tp:taxon-name> (992/54); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PICRAMNIACEAE</tp:taxon-name-part></tp:taxon-name> (137/19); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PICRODENDRACEAE</tp:taxon-name-part></tp:taxon-name> (3/1); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PINACEAE</tp:taxon-name-part></tp:taxon-name> (73/100); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PIPERACEAE</tp:taxon-name-part></tp:taxon-name> (18265/631); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PITTOSPORACEAE</tp:taxon-name-part></tp:taxon-name> (57/22); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PLANTAGINACEAE</tp:taxon-name-part></tp:taxon-name> (451/106); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PLATANACEAE</tp:taxon-name-part></tp:taxon-name> (15/8); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PLUMBAGINACEAE</tp:taxon-name-part></tp:taxon-name> (218/55); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">POACEAE</tp:taxon-name-part></tp:taxon-name> (18370/2588); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PODOCARPACEAE</tp:taxon-name-part></tp:taxon-name> (187/29); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PODOSTEMACEAE</tp:taxon-name-part></tp:taxon-name> (114/43); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">POLEMONIACEAE</tp:taxon-name-part></tp:taxon-name> (128/68); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">POLYGALACEAE</tp:taxon-name-part></tp:taxon-name> (6825/458); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">POLYGONACEAE</tp:taxon-name-part></tp:taxon-name> (2373/256); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PONTEDERIACEAE</tp:taxon-name-part></tp:taxon-name> (461/38); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PORTULACACEAE</tp:taxon-name-part></tp:taxon-name> (556/41); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">POTAMOGETONACEAE</tp:taxon-name-part></tp:taxon-name> (93/46); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PRIMULACEAE</tp:taxon-name-part></tp:taxon-name> (4897/332); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PROTEACEAE</tp:taxon-name-part></tp:taxon-name> (945/146); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PUNICACEAE</tp:taxon-name-part></tp:taxon-name> (21/3); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PUTRANJIVACEAE</tp:taxon-name-part></tp:taxon-name> (80/12); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PYROLACEAE</tp:taxon-name-part></tp:taxon-name> (24/13); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">QUIINACEAE</tp:taxon-name-part></tp:taxon-name> (374/51); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">QUILLAJACEAE</tp:taxon-name-part></tp:taxon-name> (2/1); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">RAFFLESIACEAE</tp:taxon-name-part></tp:taxon-name> (65/9); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">RANUNCULACEAE</tp:taxon-name-part></tp:taxon-name> (1031/376); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">RAPATEACEAE</tp:taxon-name-part></tp:taxon-name> (312/60); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">RESEDACEAE</tp:taxon-name-part></tp:taxon-name> (9/4); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">RESTIONACEAE</tp:taxon-name-part></tp:taxon-name> (9/9); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">RHABDODENDRACEAE</tp:taxon-name-part></tp:taxon-name> (4/5); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">RHAMNACEAE</tp:taxon-name-part></tp:taxon-name> (1643/176); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">RHIZOPHORACEAE</tp:taxon-name-part></tp:taxon-name> (185/26); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ROSACEAE</tp:taxon-name-part></tp:taxon-name> (1930/596); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">RUBIACEAE</tp:taxon-name-part></tp:taxon-name> (31966/3124); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">RUPPIACEAE</tp:taxon-name-part></tp:taxon-name> (35/6); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">RUSCACEAE</tp:taxon-name-part></tp:taxon-name> (13/7); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">RUTACEAE</tp:taxon-name-part></tp:taxon-name> (3974/476); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SABIACEAE</tp:taxon-name-part></tp:taxon-name> (110/21); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SACCIFOLIACEAE</tp:taxon-name-part></tp:taxon-name> (2/1); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SALICACEAE</tp:taxon-name-part></tp:taxon-name> (1272/188); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SALVADORACEAE</tp:taxon-name-part></tp:taxon-name> (2/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SANTALACEAE</tp:taxon-name-part></tp:taxon-name> (260/67); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SAPINDACEAE</tp:taxon-name-part></tp:taxon-name> (8942/519); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SAPOTACEAE</tp:taxon-name-part></tp:taxon-name> (4937/524); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SARRACENIACEAE</tp:taxon-name-part></tp:taxon-name> (17/14); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SAURURACEAE</tp:taxon-name-part></tp:taxon-name> (5/4); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SAXIFRAGACEAE</tp:taxon-name-part></tp:taxon-name> (388/133); <tp:taxon-name>SCHEUZERIACEAE</tp:taxon-name> (2/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SCHISANDRACEAE</tp:taxon-name-part></tp:taxon-name> (2/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SCHLEGELIACEAE</tp:taxon-name-part></tp:taxon-name> (41/12); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SCHOEPFIACEAE</tp:taxon-name-part></tp:taxon-name> (18/3); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SCROPHULARIACEAE</tp:taxon-name-part></tp:taxon-name> (2936/605); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SIMAROUBACEAE</tp:taxon-name-part></tp:taxon-name> (961/103); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SIPARUNACEAE</tp:taxon-name-part></tp:taxon-name> (232/20); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SMILACACEAE</tp:taxon-name-part></tp:taxon-name> (3730/79); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SOLANACEAE</tp:taxon-name-part></tp:taxon-name> (14488/1256); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SONNERATIACEAE</tp:taxon-name-part></tp:taxon-name> (2/3); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SPHENOCLEACEAE</tp:taxon-name-part></tp:taxon-name> (3/1); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">STACHYURACEAE</tp:taxon-name-part></tp:taxon-name> (4/1); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">STAPHYLEACEAE</tp:taxon-name-part></tp:taxon-name> (29/11); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">STEMONURACEAE</tp:taxon-name-part></tp:taxon-name> (17/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">STERCULIACEAE</tp:taxon-name-part></tp:taxon-name> (2398/268); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">STILBACEAE</tp:taxon-name-part></tp:taxon-name> (2/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">STRELITZIACEAE</tp:taxon-name-part></tp:taxon-name> (12/7); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">STYRACACEAE</tp:taxon-name-part></tp:taxon-name> (630/52); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SURIANACEAE</tp:taxon-name-part></tp:taxon-name> (6/1); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SYMPLOCACEAE</tp:taxon-name-part></tp:taxon-name> (757/66); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">TACCACEAE</tp:taxon-name-part></tp:taxon-name> (11/7); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">TAMARICACEAE</tp:taxon-name-part></tp:taxon-name> (28/14); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">TAXACEAE</tp:taxon-name-part></tp:taxon-name> (13/8); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">TEPUIANTHACEAE</tp:taxon-name-part></tp:taxon-name> (8/5); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">THEACEAE</tp:taxon-name-part></tp:taxon-name> (646/66); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">THURNIACEAE</tp:taxon-name-part></tp:taxon-name> (10/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">THYMELAEACEAE</tp:taxon-name-part></tp:taxon-name> (562/100); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">TILIACEAE</tp:taxon-name-part></tp:taxon-name> (1518/146); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">TOFIELDIACEAE</tp:taxon-name-part></tp:taxon-name> (10/5); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">TRAPACEAE</tp:taxon-name-part></tp:taxon-name> (4/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">TRIGONIACEAE</tp:taxon-name-part></tp:taxon-name> (961/45); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">TRIURIDACEAE</tp:taxon-name-part></tp:taxon-name> (32/13); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">TROPAEOLACEAE</tp:taxon-name-part></tp:taxon-name> (60/17); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">TURNERACEAE</tp:taxon-name-part></tp:taxon-name> (1120/155); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">TYPHACEAE</tp:taxon-name-part></tp:taxon-name> (111/14); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ULMACEAE</tp:taxon-name-part></tp:taxon-name> (1009/88); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">URTICACEAE</tp:taxon-name-part></tp:taxon-name> (2916/232); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">VALERIANACEAE</tp:taxon-name-part></tp:taxon-name> (237/193); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">VELLOZIACEAE</tp:taxon-name-part></tp:taxon-name> (1471/206); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">VERBENACEAE</tp:taxon-name-part></tp:taxon-name> (5550/541); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">VIOLACEAE</tp:taxon-name-part></tp:taxon-name> (2500/256); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">VITACEAE</tp:taxon-name-part></tp:taxon-name> (1266/123); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">VIVIANIACEAE</tp:taxon-name-part></tp:taxon-name> (23/11); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">VOCHYSIACEAE</tp:taxon-name-part></tp:taxon-name> (3971/237); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">WINTERACEAE</tp:taxon-name-part></tp:taxon-name> (242/17); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">XANTHORRHOEACEAE</tp:taxon-name-part></tp:taxon-name> (35/26); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">XYRIDACEAE</tp:taxon-name-part></tp:taxon-name> (1135/181); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ZAMIACEAE</tp:taxon-name-part></tp:taxon-name> (19/15); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ZANNICHELLIACEAE</tp:taxon-name-part></tp:taxon-name> (8/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ZINGIBERACEAE</tp:taxon-name-part></tp:taxon-name> (532/63); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ZOSTERACEAE</tp:taxon-name-part></tp:taxon-name> (3/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ZYGOPHYLLACEAE</tp:taxon-name-part></tp:taxon-name> (92/46).</p>
+        <p><bold>Group</bold>: Ferns &amp; Lycophytes</p>
+        <p><bold>Family</bold>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ANEMIACEAE</tp:taxon-name-part></tp:taxon-name> (607 specimens/58 names); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ASPLENIACEAE</tp:taxon-name-part></tp:taxon-name> (2532/183); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ATHYRIACEAE</tp:taxon-name-part></tp:taxon-name> (716/109); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">BLECHNACEAE</tp:taxon-name-part></tp:taxon-name> (1340/99); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CULCITACEAE</tp:taxon-name-part></tp:taxon-name> (17/4); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CYATHEACEAE</tp:taxon-name-part></tp:taxon-name> (1329/162); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CYSTOPTERIDACEAE</tp:taxon-name-part></tp:taxon-name> (48/14); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">DAVALLIACEAE</tp:taxon-name-part></tp:taxon-name> (56/32); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">DENNSTAEDTIACEAE</tp:taxon-name-part></tp:taxon-name> (502/100); <tp:taxon-name>DESMOPHLEBIACEAE</tp:taxon-name> (2/1); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">DICKSONIACEAE</tp:taxon-name-part></tp:taxon-name> (145/27); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">DIPTERIDACEAE</tp:taxon-name-part></tp:taxon-name> (4/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">DRYOPTERIDACEAE</tp:taxon-name-part></tp:taxon-name> (3708/578); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">EQUISETACEAE</tp:taxon-name-part></tp:taxon-name> (142/20); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">GLEICHENIACEAE</tp:taxon-name-part></tp:taxon-name> (664/59); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">HEMIDICTYACEAE</tp:taxon-name-part></tp:taxon-name> (28/1); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">HYMENOPHYLLACEAE</tp:taxon-name-part></tp:taxon-name> (2099/170); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ISOETACEAE</tp:taxon-name-part></tp:taxon-name> (39/16); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LINDSAEACEAE</tp:taxon-name-part></tp:taxon-name> (539/74); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LOMARIOPSIDACEAE</tp:taxon-name-part></tp:taxon-name> (377/46); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LYCOPODIACEAE</tp:taxon-name-part></tp:taxon-name> (1620/167); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LYGODIACEAE</tp:taxon-name-part></tp:taxon-name> (375/15); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">MARATTIACEAE</tp:taxon-name-part></tp:taxon-name> (198/24); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">MARSILEACEAE</tp:taxon-name-part></tp:taxon-name> (57/17); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">MATONIACEAE</tp:taxon-name-part></tp:taxon-name> (3/1); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">METAXYACEAE</tp:taxon-name-part></tp:taxon-name> (62/4); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">OLEANDRACEAE</tp:taxon-name-part></tp:taxon-name> (50/12); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ONOCLEACEAE</tp:taxon-name-part></tp:taxon-name> (8/3); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">OPHIOGLOSSACEAE</tp:taxon-name-part></tp:taxon-name> (83/17); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">OSMUNDACEAE</tp:taxon-name-part></tp:taxon-name> (115/19); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PLAGIOGYRIACEAE</tp:taxon-name-part></tp:taxon-name> (27/4); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">POLYPODIACEAE</tp:taxon-name-part></tp:taxon-name> (5733/589); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PSILOTACEAE</tp:taxon-name-part></tp:taxon-name> (33/3); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PTERIDACEAE</tp:taxon-name-part></tp:taxon-name> (5280/577); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SACCOLOMATACEAE</tp:taxon-name-part></tp:taxon-name> (110/8); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SALVINIACEAE</tp:taxon-name-part></tp:taxon-name> (233/18); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SCHIZAEACEAE</tp:taxon-name-part></tp:taxon-name> (1524/69); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SELAGINELLACEAE</tp:taxon-name-part></tp:taxon-name> (1294/133); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">TECTARIACEAE</tp:taxon-name-part></tp:taxon-name> (262/23); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">THELYPTERIDACEAE</tp:taxon-name-part></tp:taxon-name> (1529/237); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">WOODSIACEAE</tp:taxon-name-part></tp:taxon-name> (51/16).</p>
+        <p><bold>Group</bold>: Bryophytes</p>
+        <p><bold>Family</bold>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ACROBOLBACEAE</tp:taxon-name-part></tp:taxon-name> (3 specimens/3 names); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ADELANTHACEAE</tp:taxon-name-part></tp:taxon-name> (7/5); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ADELOTHECIACEAE</tp:taxon-name-part></tp:taxon-name> (7/1); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">AMBLYSTEGIACEAE</tp:taxon-name-part></tp:taxon-name> (87/25); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ANDREAEACEAE</tp:taxon-name-part></tp:taxon-name> (43/13); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ANEURACEAE</tp:taxon-name-part></tp:taxon-name> (255/19); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ANOMODONTACEAE</tp:taxon-name-part></tp:taxon-name> (11/8); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ANTHOCEROTACEAE</tp:taxon-name-part></tp:taxon-name> (45/8); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ARNELLIACEAE</tp:taxon-name-part></tp:taxon-name> (25/1); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">AULACOMNIACEAE</tp:taxon-name-part></tp:taxon-name> (8/3); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">AYTONIACEAE</tp:taxon-name-part></tp:taxon-name> (11/4); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">BALANTIOPSIDACEAE</tp:taxon-name-part></tp:taxon-name> (142/12); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">BARTRAMIACEAE</tp:taxon-name-part></tp:taxon-name> (202/61); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">BRACHYTHECIACEAE</tp:taxon-name-part></tp:taxon-name> (386/68); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">BRUCHIACEAE</tp:taxon-name-part></tp:taxon-name> (12/4); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">BRYACEAE</tp:taxon-name-part></tp:taxon-name> (318/60); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CALLIERGONACEAE</tp:taxon-name-part></tp:taxon-name> (5/4); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CALYMPERACEAE</tp:taxon-name-part></tp:taxon-name> (475/46); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CALYPOGEIACEAE</tp:taxon-name-part></tp:taxon-name> (53/12); <tp:taxon-name>CATAGONIACEAE</tp:taxon-name> (6/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CEPHALOZIACEAE</tp:taxon-name-part></tp:taxon-name> (45/18); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CEPHALOZIELLACEAE</tp:taxon-name-part></tp:taxon-name> (57/15); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CHONECOLEACEAE</tp:taxon-name-part></tp:taxon-name> (12/3); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CORSINIACEAE</tp:taxon-name-part></tp:taxon-name> (3/3); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CRYPHAEACEAE</tp:taxon-name-part></tp:taxon-name> (15/10); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">DALTONIACEAE</tp:taxon-name-part></tp:taxon-name> (8/5); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">DENDROCEROTACEAE</tp:taxon-name-part></tp:taxon-name> (23/4); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">DICRANACEAE</tp:taxon-name-part></tp:taxon-name> (357/88); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">DITRICHACEAE</tp:taxon-name-part></tp:taxon-name> (40/26); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">DUMORTIERACEAE</tp:taxon-name-part></tp:taxon-name> (85/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ENTODONTACEAE</tp:taxon-name-part></tp:taxon-name> (37/12); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">EPHEMERACEAE</tp:taxon-name-part></tp:taxon-name> (1/1); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ERPODIACEAE</tp:taxon-name-part></tp:taxon-name> (40/6); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">EUSTICHIACEAE</tp:taxon-name-part></tp:taxon-name> (7/5); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">FABRONIACEAE</tp:taxon-name-part></tp:taxon-name> (24/9); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">FISSIDENTACEAE</tp:taxon-name-part></tp:taxon-name> (270/59); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">FONTINALACEAE</tp:taxon-name-part></tp:taxon-name> (18/10); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">FOSSOMBRONIACEAE</tp:taxon-name-part></tp:taxon-name> (24/5); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">FRULLANIACEAE</tp:taxon-name-part></tp:taxon-name> (635/43); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">FUNARIACEAE</tp:taxon-name-part></tp:taxon-name> (50/19); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">GEOCALYCACEAE</tp:taxon-name-part></tp:taxon-name> (48/15); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">GRIMMIACEAE</tp:taxon-name-part></tp:taxon-name> (73/47); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">GYMNOMITRIACEAE</tp:taxon-name-part></tp:taxon-name> (15/7); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">HEDWIGIACEAE</tp:taxon-name-part></tp:taxon-name> (31/9); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">HELICOPHYLLACEAE</tp:taxon-name-part></tp:taxon-name> (21/1); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">HERBERTACEAE</tp:taxon-name-part></tp:taxon-name> (73/14); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">HOOKERIACEAE</tp:taxon-name-part></tp:taxon-name> (54/28); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">HYDROPOGONACEAE</tp:taxon-name-part></tp:taxon-name> (3/1); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">HYLOCOMIACEAE</tp:taxon-name-part></tp:taxon-name> (19/8); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">HYPNACEAE</tp:taxon-name-part></tp:taxon-name> (2/64); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">HYPNACEAE</tp:taxon-name-part></tp:taxon-name> (327/64); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">HYPOPTERYGIACEAE</tp:taxon-name-part></tp:taxon-name> (85/12); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">JAMESONIELLACEAE</tp:taxon-name-part></tp:taxon-name> (121/13); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">JUNGERMANNIACEAE</tp:taxon-name-part></tp:taxon-name> (75/32); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LEJEUNEACEAE</tp:taxon-name-part></tp:taxon-name> (1/255); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LEJEUNEACEAE</tp:taxon-name-part></tp:taxon-name> (2439/255); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LEMBOPHYLLACEAE</tp:taxon-name-part></tp:taxon-name> (153/25); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LEPICOLEACEAE</tp:taxon-name-part></tp:taxon-name> (6/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LEPIDOZIACEAE</tp:taxon-name-part></tp:taxon-name> (361/58); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LEPYRODONTACEAE</tp:taxon-name-part></tp:taxon-name> (7/1); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LESKEACEAE</tp:taxon-name-part></tp:taxon-name> (25/12); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LEUCOBRYACEAE</tp:taxon-name-part></tp:taxon-name> (622/89); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LEUCODONTACEAE</tp:taxon-name-part></tp:taxon-name> (17/8); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LEUCOMIACEAE</tp:taxon-name-part></tp:taxon-name> (8/3); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LOPHOCOLEACEAE</tp:taxon-name-part></tp:taxon-name> (202/29); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LUNULARIACEAE</tp:taxon-name-part></tp:taxon-name> (10/1); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">MARCHANTIACEAE</tp:taxon-name-part></tp:taxon-name> (134/7); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">METEORIACEAE</tp:taxon-name-part></tp:taxon-name> (131/37); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">METZGERIACEAE</tp:taxon-name-part></tp:taxon-name> (613/53); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">MNIACEAE</tp:taxon-name-part></tp:taxon-name> (96/32); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">MONOCLEACEAE</tp:taxon-name-part></tp:taxon-name> (48/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">MYRINIACEAE</tp:taxon-name-part></tp:taxon-name> (2/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">NECKERACEAE</tp:taxon-name-part></tp:taxon-name> (250/48); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">NOTOTHYLADACEAE</tp:taxon-name-part></tp:taxon-name> (15/4); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ORTHODONTIACEAE</tp:taxon-name-part></tp:taxon-name> (11/3); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ORTHOTRICHACEAE</tp:taxon-name-part></tp:taxon-name> (351/83); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PALLAVICINIACEAE</tp:taxon-name-part></tp:taxon-name> (259/13); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PELLIACEAE</tp:taxon-name-part></tp:taxon-name> (40/5); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PHYLLODREPANIACEAE</tp:taxon-name-part></tp:taxon-name> (1/1); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PHYLLOGONIACEAE</tp:taxon-name-part></tp:taxon-name> (98/6); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PHYMATOCEROTACEAE</tp:taxon-name-part></tp:taxon-name> (1/1); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PILOTRICHACEAE</tp:taxon-name-part></tp:taxon-name> (444/70); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PLAGIOCHILACEAE</tp:taxon-name-part></tp:taxon-name> (615/65); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PLAGIOTHECIACEAE</tp:taxon-name-part></tp:taxon-name> (15/6); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PLEUROZIACEAE</tp:taxon-name-part></tp:taxon-name> (1/1); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">POLYTRICHACEAE</tp:taxon-name-part></tp:taxon-name> (1/46); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">POLYTRICHACEAE</tp:taxon-name-part></tp:taxon-name> (346/46); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PORELLACEAE</tp:taxon-name-part></tp:taxon-name> (45/9); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">POTTIACEAE</tp:taxon-name-part></tp:taxon-name> (471/167); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PRIONODONTACEAE</tp:taxon-name-part></tp:taxon-name> (33/7); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PTERIGYNANDRACEAE</tp:taxon-name-part></tp:taxon-name> (2/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PTEROBRYACEAE</tp:taxon-name-part></tp:taxon-name> (65/16); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PTYCHOMITRIACEAE</tp:taxon-name-part></tp:taxon-name> (25/7); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PTYCHOMNIACEAE</tp:taxon-name-part></tp:taxon-name> (1/1); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PYLAISIADELPHACEAE</tp:taxon-name-part></tp:taxon-name> (96/16); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">RACOPILACEAE</tp:taxon-name-part></tp:taxon-name> (63/3); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">RADULACEAE</tp:taxon-name-part></tp:taxon-name> (243/28); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">RHABDOWEISIACEAE</tp:taxon-name-part></tp:taxon-name> (63/16); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">RHACHITHECIACEAE</tp:taxon-name-part></tp:taxon-name> (3/3); <tp:taxon-name>RHACOCARPACEAE</tp:taxon-name> (64/5); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">RHIZOGONIACEAE</tp:taxon-name-part></tp:taxon-name> (141/11); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">RICCIACEAE</tp:taxon-name-part></tp:taxon-name> (52/22); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">RIGODIACEAE</tp:taxon-name-part></tp:taxon-name> (21/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">RUTENBERGIACEAE</tp:taxon-name-part></tp:taxon-name> (2/1); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SCAPANIACEAE</tp:taxon-name-part></tp:taxon-name> (56/22); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SELIGERIACEAE</tp:taxon-name-part></tp:taxon-name> (2/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SEMATOPHYLLACEAE</tp:taxon-name-part></tp:taxon-name> (427/52); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SPHAGNACEAE</tp:taxon-name-part></tp:taxon-name> (1/114); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SPHAGNACEAE</tp:taxon-name-part></tp:taxon-name> (707/114); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SPLACHNACEAE</tp:taxon-name-part></tp:taxon-name> (5/4); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">STEREOPHYLLACEAE</tp:taxon-name-part></tp:taxon-name> (57/7); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SYMPHYODONTACEAE</tp:taxon-name-part></tp:taxon-name> (2/1); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">THUIDIACEAE</tp:taxon-name-part></tp:taxon-name> (172/35); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">TRICHOCOLEACEAE</tp:taxon-name-part></tp:taxon-name> (43/8).</p>
+        <p><bold>Group</bold>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="above-genus">Algae</tp:taxon-name-part></tp:taxon-name></p>
+        <p><bold>Family</bold>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ACINETOSPORACEAE</tp:taxon-name-part></tp:taxon-name> (40 specimens/10 names); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ANADYOMENACEAE</tp:taxon-name-part></tp:taxon-name> (33/6); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ARESCHOUGIACEAE</tp:taxon-name-part></tp:taxon-name> (3/3); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">BANGIACEAE</tp:taxon-name-part></tp:taxon-name> (99/28); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">BONNEMAISONIACEAE</tp:taxon-name-part></tp:taxon-name> (39/8); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">BOODLEACEAE</tp:taxon-name-part></tp:taxon-name> (20/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">BRYOPSIDACEAE</tp:taxon-name-part></tp:taxon-name> (159/32); <tp:taxon-name>CALLITHAMNIACEAE</tp:taxon-name> (187/71); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CAULERPACEAE</tp:taxon-name-part></tp:taxon-name> (295/34); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CERAMIACEAE</tp:taxon-name-part></tp:taxon-name> (516/104); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CHAMPIACEAE</tp:taxon-name-part></tp:taxon-name> (101/22); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CHARACEAE</tp:taxon-name-part></tp:taxon-name> (103/44); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CHLAMYDOMONADACEAE</tp:taxon-name-part></tp:taxon-name> (28/21); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CHNOOSPORACEAE</tp:taxon-name-part></tp:taxon-name> (5/1); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CHORDARIACEAE</tp:taxon-name-part></tp:taxon-name> (199/76); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CLADOPHORACEAE</tp:taxon-name-part></tp:taxon-name> (835/163); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CLOSTERIACEAE</tp:taxon-name-part></tp:taxon-name> (64/31); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CODIACEAE</tp:taxon-name-part></tp:taxon-name> (259/17); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CORALLINACEAE</tp:taxon-name-part></tp:taxon-name> (3/65); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CORALLINACEAE</tp:taxon-name-part></tp:taxon-name> (484/65); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">CYSTOCLONIACEAE</tp:taxon-name-part></tp:taxon-name> (279/22); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">DASYACEAE</tp:taxon-name-part></tp:taxon-name> (163/40); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">DASYCLADACEAE</tp:taxon-name-part></tp:taxon-name> (9/4); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">DELESSERIACEAE</tp:taxon-name-part></tp:taxon-name> (186/62); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">DERBESIACEAE</tp:taxon-name-part></tp:taxon-name> (20/3); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">DESMIDIACEAE</tp:taxon-name-part></tp:taxon-name> (273/193); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">DICTYOTACEAE</tp:taxon-name-part></tp:taxon-name> (620/85); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">DUMONTIACEAE</tp:taxon-name-part></tp:taxon-name> (11/9); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ECTOCARPACEAE</tp:taxon-name-part></tp:taxon-name> (75/35); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ERYTHROTRICHIACEAE</tp:taxon-name-part></tp:taxon-name> (3/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">GALAXAURACEAE</tp:taxon-name-part></tp:taxon-name> (97/12); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">GELIDIACEAE</tp:taxon-name-part></tp:taxon-name> (204/31); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">GELIDIELLACEAE</tp:taxon-name-part></tp:taxon-name> (43/7); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">GIGARTINACEAE</tp:taxon-name-part></tp:taxon-name> (174/32); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">GRACILARIACEAE</tp:taxon-name-part></tp:taxon-name> (296/30); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">HALIMEDACEAE</tp:taxon-name-part></tp:taxon-name> (41/8); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">HALYMENIACEAE</tp:taxon-name-part></tp:taxon-name> (216/31); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">HILDENBRANDIACEAE</tp:taxon-name-part></tp:taxon-name> (5/3); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">HYPNEACEAE</tp:taxon-name-part></tp:taxon-name> (74/5); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">KALLYMENIACEAE</tp:taxon-name-part></tp:taxon-name> (27/9); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">KORNMANNIACEAE</tp:taxon-name-part></tp:taxon-name> (6/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LAMINARIACEAE</tp:taxon-name-part></tp:taxon-name> (57/18); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LIAGORACEAE</tp:taxon-name-part></tp:taxon-name> (22/14); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">LOMENTARIACEAE</tp:taxon-name-part></tp:taxon-name> (79/18); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">NEMASTOMATACEAE</tp:taxon-name-part></tp:taxon-name> (4/3); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PALMOPHYLLACEAE</tp:taxon-name-part></tp:taxon-name> (3/1); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PEYSSONNELIACEAE</tp:taxon-name-part></tp:taxon-name> (18/7); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PHYLLOPHORACEAE</tp:taxon-name-part></tp:taxon-name> (113/14); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PLOCAMIACEAE</tp:taxon-name-part></tp:taxon-name> (74/9); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">POLYPHYSACEAE</tp:taxon-name-part></tp:taxon-name> (49/7); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PTEROCLADIACEAE</tp:taxon-name-part></tp:taxon-name> (169/5); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">PYLAIELLACEAE</tp:taxon-name-part></tp:taxon-name> (18/3); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">RHIZOPHYLLIDACEAE</tp:taxon-name-part></tp:taxon-name> (15/2); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">RHODOMELACEAE</tp:taxon-name-part></tp:taxon-name> (1334/278); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">RHODYMENIACEAE</tp:taxon-name-part></tp:taxon-name> (146/38); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SARGASSACEAE</tp:taxon-name-part></tp:taxon-name> (411/58); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SCENEDESMACEAE</tp:taxon-name-part></tp:taxon-name> (16/11); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SCHIZYMENIACEAE</tp:taxon-name-part></tp:taxon-name> (3/3); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SCINAIACEAE</tp:taxon-name-part></tp:taxon-name> (5/3); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SCYTOSIPHONACEAE</tp:taxon-name-part></tp:taxon-name> (71/17); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SEBDENIACEAE</tp:taxon-name-part></tp:taxon-name> (5/1); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SIPHONOCLADACEAE</tp:taxon-name-part></tp:taxon-name> (45/9); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SOLIERIACEAE</tp:taxon-name-part></tp:taxon-name> (66/17); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SPHACELARIACEAE</tp:taxon-name-part></tp:taxon-name> (38/17); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SPOROCHNACEAE</tp:taxon-name-part></tp:taxon-name> (27/13); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">SPYRIDIACEAE</tp:taxon-name-part></tp:taxon-name> (44/16); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">UDOTEACEAE</tp:taxon-name-part></tp:taxon-name> (39/15); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ULVACEAE</tp:taxon-name-part></tp:taxon-name> (1/58); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ULVACEAE</tp:taxon-name-part></tp:taxon-name> (587/58); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">VALONIACEAE</tp:taxon-name-part></tp:taxon-name> (15/10); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">WRANGELIACEAE</tp:taxon-name-part></tp:taxon-name> (118/42); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">ZYGNEMATACEAE</tp:taxon-name-part></tp:taxon-name> (199/110).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Collection data">
+      <title>Collection data</title>
+      <sec sec-type="Collection name">
+        <title>Collection name</title>
+        <p>Herbário Dimitri Sucre Benjamin</p>
+      </sec>
+      <sec sec-type="Collection identifier">
+        <title>Collection identifier</title>
+        <p>RB</p>
+      </sec>
+      <sec sec-type="Specimen preservation method">
+        <title>Specimen preservation method</title>
+        <p>Dried and pressed</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Other</p>
+      </sec>
+      <sec sec-type="IP rights notes">
+        <title>IP rights notes</title>
+        <p>This work is licensed under a <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution 4.0 International License</ext-link>.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>RB - Rio de Janeiro Botanical Garden Herbarium Collection</p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="http://www.gbif.org/dataset/4300f8d5-1ae5-49e5-a101-63894b005868" xlink:type="simple">http://www.gbif.org/dataset/4300f8d5-1ae5-49e5-a101-63894b005868</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>1</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>RB - Rio de Janeiro Botanical Garden Herbarium Collection</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Darwin Core Archive (DwC-A)</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>46</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="http://ipt.jbrj.gov.br/jbrj/archive.do?r=jbrj_rb&amp;v=84.131" xlink:type="simple">http://ipt.jbrj.gov.br/jbrj/archive.do?r=jbrj_rb&amp;v=84.131</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>The RB herbarium has 750,000 mounted specimens, making it the largest herbarium in Brazil (<xref ref-type="bibr" rid="B3736377">Gasper and Vieira 2015</xref>). The full database is available via the Integrated Publishing Toolkit (IPT) of Rio de Janeiro Botanical Garden (<ext-link ext-link-type="uri" xlink:href="http://ipt.jbrj.gov.br/jbrj/resource?r=jbrj_rb&amp;v=84.131" xlink:type="simple">Version 84.131</ext-link>, published in 2017-11-22) or via JABOT system (<underline><ext-link ext-link-type="uri" xlink:href="http://www.jbrj.gov.br/jabot" xlink:type="simple">http://www.jbrj.gov.br/jabot</ext-link>)</underline>. For the integration of Web-based applications, the JABOT Web service is available at <underline><ext-link ext-link-type="uri" xlink:href="http://servicos.jbrj.gov.br/jabot" xlink:type="simple">http://servicos.jbrj.gov.br/jabot</ext-link></underline>.</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceID</td>
+                  <td rowspan="1" colspan="1">The unique identifier of the Occurrence.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">identifiedBy</td>
+                  <td rowspan="1" colspan="1">A list (concatenated and separated) of names of people, groups or organisations who assigned the Taxon to the subject.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">dateIdentified</td>
+                  <td rowspan="1" colspan="1">The date on which the subject was identified as representing the Taxon.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">identificationRemarks</td>
+                  <td rowspan="1" colspan="1">Comments or notes about the identification.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">identificationQualifier</td>
+                  <td rowspan="1" colspan="1">A standard term ("cf.", "aff.") to express the determiner's doubts about the identification.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">typeStatus</td>
+                  <td rowspan="1" colspan="1">Status of the type. Controlled vocabulary of terms (HOLOTIPO, LECTOTIPO, ISOTIPO, SINTIPO, PARATIPO, NEOTIPO, EPITIPO, TYPUS). The category "TYPUS" is used for undefined type status.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificName</td>
+                  <td rowspan="1" colspan="1">The full scientific name, with authorship.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">family</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the family in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">genus</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the genus in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">SpecificEpithet</td>
+                  <td rowspan="1" colspan="1">The name of the first or species epithet of the scientificName.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">infraspecificEpithet</td>
+                  <td rowspan="1" colspan="1">The name of the lowest or terminal infraspecific epithet of the scientificName.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">taxonRank</td>
+                  <td rowspan="1" colspan="1">The taxonomic rank of the most specific name in the scientificName.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificNameAuthorship</td>
+                  <td rowspan="1" colspan="1">The authorship information for the scientificName.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">format</td>
+                  <td rowspan="1" colspan="1">Image file format.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">identifier</td>
+                  <td rowspan="1" colspan="1">A list, concatenated and separated by "|" of the specimens images URLs in a low-resolution format to be used as thumbnails.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">references</td>
+                  <td rowspan="1" colspan="1">A list, concatenated and separated by "|" of the specimens images URLs in a high-resolution format to be integrated into other portals and websites.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">license</td>
+                  <td rowspan="1" colspan="1">A legal document giving official permission to do something with the resource.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">rightsHolder</td>
+                  <td rowspan="1" colspan="1">A person or organisation owning or managing rights over the resource.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">type</td>
+                  <td rowspan="1" colspan="1">The nature or genre of the resource.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">modified</td>
+                  <td rowspan="1" colspan="1">The most recent date-time on which the resource was changed.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">institutionCode</td>
+                  <td rowspan="1" colspan="1">The name (or acronym) in use by the institution having custody of the object(s) or information referred to in the record.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">collectionCode</td>
+                  <td rowspan="1" colspan="1">The name, acronym, coden or initialism identifying the collection or data set from which the record was derived.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">basisOfRecord</td>
+                  <td rowspan="1" colspan="1">The specific nature of the data record.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">catalogNumber</td>
+                  <td rowspan="1" colspan="1">Barcode of the specimen.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">recordNumber</td>
+                  <td rowspan="1" colspan="1">The collector's number.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">recordedBy</td>
+                  <td rowspan="1" colspan="1">A list (concatenated and separated) of names of people, groups or organisations responsible for recording the original occurrence.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">otherCatalogNumbers</td>
+                  <td rowspan="1" colspan="1">Sequential register number historically adopted by the RB herbarium.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">associatedMedia</td>
+                  <td rowspan="1" colspan="1">A list, concatenated and separated by "|" of the specimens images URLs in a low-resolution format to be used as thumbnails. The content and sequence of this column is the same of the "License" column on the Multimedia extension and can be used as identifiers for the independent images.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventDate</td>
+                  <td rowspan="1" colspan="1">Date of collection.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">year</td>
+                  <td rowspan="1" colspan="1">Year of collection.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">month</td>
+                  <td rowspan="1" colspan="1">Month of collection.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">day</td>
+                  <td rowspan="1" colspan="1">Day of collection.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">fieldNumber</td>
+                  <td rowspan="1" colspan="1">An identifier given to the event in the field. Can be described as the number of the field campaign.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">fieldNotes</td>
+                  <td rowspan="1" colspan="1">The text of notes taken in the field about the specimen.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventRemarks</td>
+                  <td rowspan="1" colspan="1">Comments or notes about the field campaign.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">country</td>
+                  <td rowspan="1" colspan="1">The name of the country or major administrative unit in which the Location occurs.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">countryCode</td>
+                  <td rowspan="1" colspan="1">The standard code for the country in which the Location occurs according to ISO 3166-1-alpha-2 country codes.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">stateProvince</td>
+                  <td rowspan="1" colspan="1">The name of the next smaller administrative region than country (state, province, canton, department, region etc.) in which the Location occurs.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">county</td>
+                  <td rowspan="1" colspan="1">The full, unabbreviated name of the next smaller administrative region than stateProvince (county, shire, department etc.) in which the Location occurs.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">locality</td>
+                  <td rowspan="1" colspan="1">The specific description of the place. Less specific geographic information can be provided in other geographic terms (higherGeography, continent, country, stateProvince, county, municipality, waterBody, island, islandGroup). This term may contain information modified from the original to correct perceived errors or to standardise the description.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">minimumElevationInMeters</td>
+                  <td rowspan="1" colspan="1">The lower limit of the range of elevation (altitude, usually above sea level), in metres.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">maximumElevationInMeters</td>
+                  <td rowspan="1" colspan="1">The upper limit of the range of elevation (altitude, usually above sea level), in metres.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">verbatimLatitude</td>
+                  <td rowspan="1" colspan="1">The verbatim original latitude of the Location.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">verbatimLongitude</td>
+                  <td rowspan="1" colspan="1">The verbatim original longitude of the Location.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLatitude</td>
+                  <td rowspan="1" colspan="1">The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic centre of a Location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLongitude</td>
+                  <td rowspan="1" colspan="1">The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic centre of a Location. Positive values are east of the Greenwich Meridian, negative values are west of it. Legal values lie between -180 and 180, inclusive.</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+    <sec sec-type="Additional information">
+      <title>Additional information</title>
+      <sec sec-type="Recent projects">
+        <title>Recent projects</title>
+        <p><bold>Project title</bold>: “Informatização do Herbário do Jardim Botânico do Rio de Janeiro” (Digitisation of the herbarium of the Rio de Janeiro Botanical Garden).</p>
+        <p><bold>Project description</bold>: The digitisation of specimens started with the creation of an institutional system, known as JABOT. Constant upgrades were made during the last decade, including the construction of a digitisation module and improvements to the public interface.</p>
+        <p><bold>Funding</bold>: Petrobras (Petróleo Brasileiro S.A.)</p>
+        <p><bold>Duration</bold>: 2005-2007</p>
+        <p><bold>Project title</bold>: Global Plants Initiative</p>
+        <p><bold>Project description</bold>: The project focused on constructing a database and producing high-resolution images (600 dpi) of all type specimens deposited at RB. The image capture workflow involved inverted scanners developed by the Royal Botanic Gardens, Kew, called HerbScan.</p>
+        <p><bold>Funding</bold>: The Andrew W. Mellon Foundation</p>
+        <p><bold>Duration</bold>: 2007-2011</p>
+        <p><bold>Project title</bold>: “Plantas do Brasil: Resgate Histórico e Herbário Virtual para o conhecimento e conservação da flora brasileira – REFLORA” (Plants of Brazil: Historical Rescue and a Virtual Herbarium for knowledge and conservation of the Brazilian flora – REFLORA)</p>
+        <p><bold>Project description</bold>: This project, coordinated by the JBRJ, developed a virtual herbarium for public access, including samples collected in the Brazilian territory, during the 18th, 19th and 20th centuries, deposited at European herbaria. Concomitantly with the repatriation process, this project also financed the imaging of the RB specimens, which were also published on the <underline><ext-link ext-link-type="uri" xlink:href="http://reflora.jbrj.gov.br/reflora/herbarioVirtual/ConsultaPublicoHVUC/ConsultaPublicoHVUC.do" xlink:type="simple">Reflora Virtual Herbarium</ext-link></underline>.</p>
+        <p><bold>Funding</bold>: Brazilian National Council for Scientific and Technological Development (CNPq); Research Support Foundation of the State of Rio de Janeiro (FAPERJ); Minas Gerais State Agency for Research and Development (FAPEMIG); Vale Foundation, Natura Cosmetics and Newton Fund.</p>
+        <p><bold>Duration</bold>: 2010-2016</p>
+        <p><bold>Project title</bold>: “Conhecimento e conservação da flora brasileira: futuros desafios das coleções biológicas do Jardim Botânico do Rio de Janeiro” (Knowledge and conservation of the Brazilian flora: Future challenges for the biological collections of the Rio de Janeiro Botanical Garden).</p>
+        <p><bold>Project description</bold>: The project, aimed to capture data and images of RB specimens previously unavailable in the JABOT system, especially those in the fungi, bryophyte, algae, fruits and wood collections. It also facilitated visits by taxonomists, improving the quality of identifications, particularly for those groups for which there are no specialists at the RB.</p>
+        <p><bold>Funding</bold>: The Brazilian Science, Technology and Innovation Ministry (MCTI), CNPq and The Brazilian Biodiversity Information System (SiBBr).</p>
+        <p><bold>Duration</bold>: 2012-2015</p>
+        <p><bold>Project title</bold>: “Contribuições do Jardim Botânico do Rio de Janeiro à implementação do SiBBr” (Contributions of the Rio de Janeiro Botanical Garden to the implementation of the SiBBr).</p>
+        <p><bold>Project description</bold>: The Brazilian Biodiversity Information System (SiBBr), is an initiative that intends to ensure the proper use of Brazilian biodiversity and ecosystem data, integrating information and facilitating processes of decision-making and public policy development. It also assists national herbaria in the digitisation of their specimens and in the repatriation of images of specimens from European and North American herbaria. The RB contributes to this initiative by making available its collections' data and those of <underline><ext-link ext-link-type="uri" xlink:href="http://reflora.jbrj.gov.br/reflora/herbarioVirtual/ConsultaPublicoHVUC/ConsultaPublicoHVUC.do" xlink:type="simple">Reflora Virtual Herbarium</ext-link></underline> and the <underline><ext-link ext-link-type="uri" xlink:href="http://reflora.jbrj.gov.br/reflora/listaBrasil/ConsultaPublicaUC/ConsultaPublicaUC.do" xlink:type="simple">Brazilian Flora 2020</ext-link></underline>, projects coordinated by this institution. This initiative currently supports daily data and image capture of new specimens incorporated into RB herbarium.</p>
+        <p><bold>Funding</bold>: MCTI, SiBBr, CNPq</p>
+        <p><bold>Duration</bold>: 2014-2017</p>
+        <p><bold>Project title</bold>: “Inventário Florestal Nacional” (The National Forest Inventory)</p>
+        <p><bold>Project description</bold>: The National Forestry Inventory (<underline><ext-link ext-link-type="uri" xlink:href="http://www.florestal.gov.br/inventario-florestal-nacional" xlink:type="simple">IFN</ext-link></underline>) is coordinated by the Brazilian Forest Service (SFB) and aims to collect socio-economic and ecological information about the country's forest resources. It supports the formulation, implementation and execution of public policies for the development, use and conservation of these resources. In the state of Rio de Janeiro, the process for identification of botanical material has been carried out by taxonomist consultants hired by the IFN in the RB. In addition, all the fertile specimens collected by the project in the other Brazilian states are also sent to the RB. This project financed the acquisition of imaging equipment for all participant herbaria, contributing to collections digitisation. Also, at RB, due to its size, three technicians were hired to help with day-to-day herbarium activities.</p>
+        <p><bold>Funding</bold>: Brazilian Forest Service</p>
+        <p><bold>Duration</bold>: 2013-current</p>
+      </sec>
+      <sec sec-type="Challenges for biological collections digitisation and publication">
+        <title>Challenges for biological collections digitisation and publication</title>
+        <p>The costs related to the maintenance and curation of a herbarium are significant and curators are always under pressure to gain financial support (<xref ref-type="bibr" rid="B3736267">Deng 2015</xref>). There is also a demand for modernisation and data sharing, which greatly increases the costs for these collections, augmenting the need for financial support. Those new costs come mainly from IT infrastructure and its maintenance but also originate from a demand for new and specialised staff and for software maintenance and development.</p>
+        <p>The first phases of the project of digitisation and publishing the contents of the RB herbarium occurred between 2005 and 2007, with an investment of around US$254,000 for the incorporation of metadata of 291,630 specimens and digitisation of 10,646 specimens (<xref ref-type="bibr" rid="B3736387">Gonzales 2009</xref>). From 2007 to 2011, the Global Plants Initiative focused on the type specimens that are few in number comparing to the general collection. From 2010, a new phase of the digitisation of the RB herbarium started under the umbrella project Reflora, which has the following as one of its main goals: the repatriation of high resolution images of Brazilian specimens deposited in European and North American herbaria and the digitisation of many national herbaria. Considering the fact that this phase is included in such an enormous initiative, the quantification of the amount of investments expended exclusively with RB is imprecise, at least for the time being.</p>
+        <p>Regarding infrastructure, the dataset associated with the RB collection represents 2 5.6% of all institutional digital storage space, 6.8% of processing power (CPUs) and 9.7% of memory. The associated costs of power consumption, especially of climate control in the tropics, are also significant.</p>
+        <p>Despite the fact that literature cites a number of initiatives of online open-access biodiversity databases that failed due to lack of funding, after the initial push for resources (<xref ref-type="bibr" rid="B3736230">Costello et al. 2014</xref>), there has been a solid perception that nowadays "Without data we cannot generate information and build knowledge to make informed decisions or develop indicators to track progress towards biodiversity goals and targets" (<xref ref-type="bibr" rid="B3736406">Juffe-Bignoli et al. 2016</xref>).</p>
+        <p>Thus, it is considered that the trade-off for committing a substantial portion of theinstitutional budget, as well as technical and scientific staff time, to digitisation of and publication about the collections, has been very positive for the institutional relevance, as well as for its visibility and image and this is associated with a resulting gain in funding opportunities.</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>We are grateful to all funders cited throughout the text, without whom the results shown here would not be possible. We also thank curators of herbaria which donate samples to RB, so that this collection has a good representation of the Brazilian flora and taxonomists, who improve the quality of these specimens identification on a daily basis. The JBRJ IT staff, who works day and night in order to keep our data and infrastructure operating and the RB staff for daily dedicated work in the herbarium collection. Douglas Daly, Eimear Nic Lughadha, Fernando Matos and Walter G. Berendso for critical reading of the manuscript. JL, PL, FLRF and NQ are SiBBr grant holders. RCF is a CNPq research fellow.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B3736159">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>IV</surname>
+              <given-names>APG</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>An update of the Angiosperm Phylogeny Group classification for the orders and families of flowering plants: APG IV</article-title>
+          <source>Botanical Journal of the Linnean Society</source>
+          <volume>181</volume>
+          <issue>1</issue>
+          <fpage>1</fpage>
+          <lpage>20</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1111/boj.12385</uri>
+          <pub-id pub-id-type="doi">10.1111/boj.12385</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3736169">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Bridson</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Forman</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <source>The Herbarium Handbook</source>
+          <edition>3</edition>
+          <publisher-name>Royal Botanic Garden</publisher-name>
+          <publisher-loc>Kew</publisher-loc>
+          <size units="page">346</size>
+          <isbn>9781900347433</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B3736218">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Christenhusz</surname>
+              <given-names>M. J. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Reveal</surname>
+              <given-names>J. L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Farjon</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gardner</surname>
+              <given-names>M. F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mill</surname>
+              <given-names>R. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chase</surname>
+              <given-names>M. W.</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>A new classification and linear sequence of extant gymnosperms</article-title>
+          <source>Phytotaxa</source>
+          <volume>19</volume>
+          <issue>1</issue>
+          <fpage>55</fpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.11646/phytotaxa.19.1.3</uri>
+          <pub-id pub-id-type="doi">10.11646/phytotaxa.19.1.3</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3736230">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Costello</surname>
+              <given-names>Mark J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Appeltans</surname>
+              <given-names>Ward</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bailly</surname>
+              <given-names>Nicolas</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Berendsohn</surname>
+              <given-names>Walter G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jong</surname>
+              <given-names>Yde de</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Edwards</surname>
+              <given-names>Martin</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Froese</surname>
+              <given-names>Rainer</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Huettmann</surname>
+              <given-names>Falk</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Los</surname>
+              <given-names>Wouter</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mees</surname>
+              <given-names>Jan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Segers</surname>
+              <given-names>Hendrik</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bisby</surname>
+              <given-names>Frank A.</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>Strategies for the sustainability of online open-access biodiversity databases</article-title>
+          <source>Biological Conservation</source>
+          <volume>173</volume>
+          <fpage>155</fpage>
+          <lpage>165</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1016/j.biocon.2013.07.042</uri>
+          <pub-id pub-id-type="doi">10.1016/j.biocon.2013.07.042</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3736258">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Cronquist</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <year>1981</year>
+          <source>An integrated system of classification of flowering plants</source>
+          <publisher-name>Columbia University Press</publisher-name>
+          <publisher-loc>New York</publisher-loc>
+          <size units="page">1262</size>
+        </element-citation>
+      </ref>
+      <ref id="B3736267">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Deng</surname>
+              <given-names>Boer</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Plant collections left in the cold by cuts</article-title>
+          <source>Nature</source>
+          <volume>523</volume>
+          <issue>7558</issue>
+          <fpage>16</fpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1038/523016a</uri>
+          <pub-id pub-id-type="doi">10.1038/523016a</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3736311">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Forzza</surname>
+              <given-names>R. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Carvalho Jr.</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Andrade</surname>
+              <given-names>A. C.S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Franco</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nadruz</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tamaio</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fonseca-Kruel</surname>
+              <given-names>V. S.</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Herbário do Jardim Botânico do Rio de Janeiro (RB)</article-title>
+          <source>UNISANTA Bioscience</source>
+          <volume>4</volume>
+          <issue>6</issue>
+          <fpage>393</fpage>
+          <lpage>398</lpage>
+          <uri xlink:type="simple">http://periodicos.unisanta.br/index.php/bio/article/view/550</uri>
+        </element-citation>
+      </ref>
+      <ref id="B3736298">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Forzza</surname>
+              <given-names>R. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Filardi</surname>
+              <given-names>F. L.R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Condak</surname>
+              <given-names>J. P.S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Filho</surname>
+              <given-names>M. A.P. Accardo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Leitman</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Monteiro</surname>
+              <given-names>S. H.N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Monteiro</surname>
+              <given-names>V. F.</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Herbário Virtual Reflora</article-title>
+          <source>UNISANTA Bioscience</source>
+          <volume>4</volume>
+          <issue>6</issue>
+          <fpage>88</fpage>
+          <lpage>94</lpage>
+          <uri xlink:type="simple">http://periodicos.unisanta.br/index.php/bio/article/view/612</uri>
+        </element-citation>
+      </ref>
+      <ref id="B3736324">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Forzza</surname>
+              <given-names>R. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Carvalho Jr.</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Andrade</surname>
+              <given-names>A. C.S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Franco</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Estevão</surname>
+              <given-names>L. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fonseca-Kruel</surname>
+              <given-names>V. S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Coelho</surname>
+              <given-names>M. A.N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tamaio</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zappi</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Coleções biológicas do Jardim Botânico do Rio de Janeiro à luz das metas da GSPC/CDB: onde estaremos em 2020?</article-title>
+          <source>Museologia &amp; Interdiciplinaridade</source>
+          <volume>5</volume>
+          <issue>9</issue>
+          <fpage>135</fpage>
+          <lpage>159</lpage>
+          <uri xlink:type="simple">http://periodicos.unb.br/index.php/museologia/article/view/19234/18125</uri>
+        </element-citation>
+      </ref>
+      <ref id="B3736359">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Gadelha</surname>
+              <given-names>Luiz M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Guimarães</surname>
+              <given-names>Pedro</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Moura</surname>
+              <given-names>Ana Maria</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Drucker</surname>
+              <given-names>Debora P</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dalcin</surname>
+              <given-names>Eduardo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gall</surname>
+              <given-names>Guilherme</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tavares</surname>
+              <given-names>Jurandir</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Palazzi</surname>
+              <given-names>Daniele</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Poltosi</surname>
+              <given-names>Maira</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Porto</surname>
+              <given-names>Fabio</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Moura</surname>
+              <given-names>Francisco</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Leo</surname>
+              <given-names>Wagner Vieira</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>SiBBr: Uma Infraestrutura para Coleta, Integração e Análise de Dados sobre a Biodiversidade Brasileira</article-title>
+          <source>XXXIV Congresso da Sociedade Brasileira de Computação – CSBC</source>
+          <uri xlink:type="simple">http://dx.doi.org/10.13140/2.1.3653.8246</uri>
+          <pub-id pub-id-type="doi">10.13140/2.1.3653.8246</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3736377">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Gasper</surname>
+              <given-names>AL</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vieira</surname>
+              <given-names>AOS</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Herbários do Brasil</article-title>
+          <source>UNISANTA Bioscience</source>
+          <volume>4</volume>
+          <issue>6</issue>
+          <fpage>1</fpage>
+          <lpage>11</lpage>
+          <uri xlink:type="simple">http://periodicos.unisanta.br/index.php/bio/article/view/447/597</uri>
+        </element-citation>
+      </ref>
+      <ref id="B3736387">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Gonzales</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>Quantificação de custo e tempo no processo de informatização das coleções biológicas brasileiras: a experiência do herbário do Instituto de Pesquisas Jardim Botânico do Rio de Janeiro</article-title>
+          <source>Rodriguésia</source>
+          <volume>60</volume>
+          <issue>3</issue>
+          <fpage>711</fpage>
+          <lpage>721</lpage>
+          <uri xlink:type="simple">https://rodriguesia.jbrj.gov.br/FASCICULOS/rodrig60_3/014-09a.pdf</uri>
+          <pub-id pub-id-type="doi">10.1590/2175-7860200960315</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3736397">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Guiry</surname>
+              <given-names>M. D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Guiry</surname>
+              <given-names>G. M.</given-names>
+            </name>
+          </person-group>
+          <article-title>AlgaeBase</article-title>
+          <uri xlink:type="simple">http://www.algaebase.org</uri>
+          <date-in-citation content-type="access-date">2017-05-03T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B3736406">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Juffe-Bignoli</surname>
+              <given-names>Diego</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brooks</surname>
+              <given-names>Thomas M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Butchart</surname>
+              <given-names>Stuart H. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jenkins</surname>
+              <given-names>Richard B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Boe</surname>
+              <given-names>Kaia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hoffmann</surname>
+              <given-names>Michael</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Angulo</surname>
+              <given-names>Ariadne</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bachman</surname>
+              <given-names>Steve</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Böhm</surname>
+              <given-names>Monika</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brummitt</surname>
+              <given-names>Neil</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Carpenter</surname>
+              <given-names>Kent E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Comer</surname>
+              <given-names>Pat J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cox</surname>
+              <given-names>Neil</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cuttelod</surname>
+              <given-names>Annabelle</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Darwall</surname>
+              <given-names>William R. T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Marco</surname>
+              <given-names>Moreno Di</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fishpool</surname>
+              <given-names>Lincoln D. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Goettsch</surname>
+              <given-names>Bárbara</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Heath</surname>
+              <given-names>Melanie</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hilton-Taylor</surname>
+              <given-names>Craig</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hutton</surname>
+              <given-names>Jon</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Johnson</surname>
+              <given-names>Tim</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Joolia</surname>
+              <given-names>Ackbar</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Keith</surname>
+              <given-names>David A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Langhammer</surname>
+              <given-names>Penny F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Luedtke</surname>
+              <given-names>Jennifer</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lughadha</surname>
+              <given-names>Eimear Nic</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lutz</surname>
+              <given-names>Maiko</given-names>
+            </name>
+            <name name-style="western">
+              <surname>May</surname>
+              <given-names>Ian</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Miller</surname>
+              <given-names>Rebecca M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Oliveira-Miranda</surname>
+              <given-names>María A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Parr</surname>
+              <given-names>Mike</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pollock</surname>
+              <given-names>Caroline M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ralph</surname>
+              <given-names>Gina</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rodríguez</surname>
+              <given-names>Jon Paul</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rondinini</surname>
+              <given-names>Carlo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Smart</surname>
+              <given-names>Jane</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stuart</surname>
+              <given-names>Simon</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Symes</surname>
+              <given-names>Andy</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tordoff</surname>
+              <given-names>Andrew W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Woodley</surname>
+              <given-names>Stephen</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Young</surname>
+              <given-names>Bruce</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kingston</surname>
+              <given-names>Naomi</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Assessing the cost of global biodiversity and conservation knowledge</article-title>
+          <source>PLoS ONE</source>
+          <volume>11</volume>
+          <issue>8</issue>
+          <fpage>e0160640</fpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1371/journal.pone.0160640</uri>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0160640</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3736455">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Marquete</surname>
+              <given-names>N. F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Carvalho</surname>
+              <given-names>L. D.F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Baumgratz</surname>
+              <given-names>J. F.A.</given-names>
+            </name>
+          </person-group>
+          <year>2001</year>
+          <source>O herbário do Jardim Botânico do Rio de Janeiro: um expoente na história da flora brasileira</source>
+          <publisher-name>Editora Expressão e Cultura - Exped Ltda.</publisher-name>
+          <publisher-loc>Rio de Janeiro</publisher-loc>
+        </element-citation>
+      </ref>
+      <ref id="B3737043">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Nic Lughadha</surname>
+              <given-names>E</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Canteiro</surname>
+              <given-names>C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Filardi</surname>
+              <given-names>F</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Leitman</surname>
+              <given-names>P</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Filho</surname>
+              <given-names>M Accardo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Allkin</surname>
+              <given-names>R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Amaral</surname>
+              <given-names>H</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Budden</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Carretero</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chowdhury</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Clarke</surname>
+              <given-names>L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Clubbe</surname>
+              <given-names>C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cossu</surname>
+              <given-names>T</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ferreira</surname>
+              <given-names>GC</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Green</surname>
+              <given-names>L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Haigh</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Harvey-Brown</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hillebrecht</surname>
+              <given-names>W</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Klitgaard</surname>
+              <given-names>B</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lewis</surname>
+              <given-names>GP</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lucas</surname>
+              <given-names>EJ</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Medeiros</surname>
+              <given-names>E</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Milliken</surname>
+              <given-names>W</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Monteiro</surname>
+              <given-names>V</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Moro</surname>
+              <given-names>MF</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Musson</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Oliveira</surname>
+              <given-names>BH</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Patmore</surname>
+              <given-names>K</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Phillips</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Reis</surname>
+              <given-names>P</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Smart</surname>
+              <given-names>B</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sumal</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Weech</surname>
+              <given-names>MH</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zmarzty</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Forzza</surname>
+              <given-names>RC</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <source>Reflora</source>
+          <publisher-name>Royal Botanic Gardens</publisher-name>
+          <publisher-loc>Kew</publisher-loc>
+        </element-citation>
+      </ref>
+      <ref id="B4088466">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>I</surname>
+              <given-names>PPG</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>A community-derived classification for extant lycophytes and ferns</article-title>
+          <source>Journal of Systematics and Evolution</source>
+          <volume>54</volume>
+          <issue>6</issue>
+          <fpage>563</fpage>
+          <lpage>603</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1111/jse.12229</uri>
+          <pub-id pub-id-type="doi">10.1111/jse.12229</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3737097">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Robertson</surname>
+              <given-names>Tim</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Döring</surname>
+              <given-names>Markus</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Guralnick</surname>
+              <given-names>Robert</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bloom</surname>
+              <given-names>David</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wieczorek</surname>
+              <given-names>John</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Braak</surname>
+              <given-names>Kyle</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Otegui</surname>
+              <given-names>Javier</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Russell</surname>
+              <given-names>Laura</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Desmet</surname>
+              <given-names>Peter</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>The GBIF integrated publishing toolkit: facilitating the efficient publishing of biodiversity data on the internet</article-title>
+          <source>PLoS ONE</source>
+          <volume>9</volume>
+          <issue>8</issue>
+          <fpage>e102623</fpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1371/journal.pone.0102623</uri>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0102623</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3736277">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Silva</surname>
+              <given-names>L. A.E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fraga</surname>
+              <given-names>C. N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Almeida</surname>
+              <given-names>T. M.H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gonzalez</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lima</surname>
+              <given-names>R. O.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rocha</surname>
+              <given-names>M. S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bellon</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ribeiro</surname>
+              <given-names>R. S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Oliveira</surname>
+              <given-names>F. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Clemente</surname>
+              <given-names>L. S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Magdalena</surname>
+              <given-names>U. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Medeiros</surname>
+              <given-names>E. V.S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Forzza</surname>
+              <given-names>R. C.</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Jabot - Sistema de Gerenciamento de Coleções Botânicas: a experiência de uma década de desenvolvimento e avanços</article-title>
+          <source>Rodriguésia</source>
+          <volume>68</volume>
+          <issue>2</issue>
+          <fpage>391</fpage>
+          <lpage>410</lpage>
+          <pub-id pub-id-type="doi">10.1590/2175-7860201768208</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3737114">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Simpson</surname>
+              <given-names>M G</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <source>Plant Systematics</source>
+          <edition>1</edition>
+          <publisher-name>USA: Academic Press</publisher-name>
+          <size units="page">608</size>
+        </element-citation>
+      </ref>
+      <ref id="B3737135">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Söderström</surname>
+              <given-names>Lars</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hagborg</surname>
+              <given-names>Anders</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Konrat</surname>
+              <given-names>Matt von</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bartholomew-Began</surname>
+              <given-names>Sharon</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bell</surname>
+              <given-names>David</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Briscoe</surname>
+              <given-names>Laura</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brown</surname>
+              <given-names>Elizabeth</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cargill</surname>
+              <given-names>D. Christine</given-names>
+            </name>
+            <name name-style="western">
+              <surname>da Costa</surname>
+              <given-names>Denise Pinheiro</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Crandall-Stotler</surname>
+              <given-names>Barbara J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cooper</surname>
+              <given-names>Endymion</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dauphin</surname>
+              <given-names>Gregorio</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Engel</surname>
+              <given-names>John</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Feldberg</surname>
+              <given-names>Kathrin</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Glenny</surname>
+              <given-names>David</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gradstein</surname>
+              <given-names>S. Robbert</given-names>
+            </name>
+            <name name-style="western">
+              <surname>He</surname>
+              <given-names>Xiaolan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hentschel</surname>
+              <given-names>Joern</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ilkiu-Borges</surname>
+              <given-names>Anna Luiza</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Katagiri</surname>
+              <given-names>Tomoyuki</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Konstantinova</surname>
+              <given-names>Nadezhda A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Larraín</surname>
+              <given-names>Juan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Long</surname>
+              <given-names>David</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nebel</surname>
+              <given-names>Martin</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pócs</surname>
+              <given-names>Tamás</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Puche</surname>
+              <given-names>Felisa</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Reiner-Drehwald</surname>
+              <given-names>Elena</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Renner</surname>
+              <given-names>Matt</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sass-Gyarmati</surname>
+              <given-names>Andrea</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schäfer-Verwimp</surname>
+              <given-names>Alfons</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Segarra-Moragues</surname>
+              <given-names>José</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stotler</surname>
+              <given-names>Raymond E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sukkharak</surname>
+              <given-names>Phiangphak</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Thiers</surname>
+              <given-names>Barbara</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Uribe</surname>
+              <given-names>Jaime</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Váňa</surname>
+              <given-names>Jiří</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wigginton</surname>
+              <given-names>Martin</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zhang</surname>
+              <given-names>Li</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zhu</surname>
+              <given-names>Rui-Liang</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>World checklist of hornworts and liverworts</article-title>
+          <source>PhytoKeys</source>
+          <volume>59</volume>
+          <fpage>1</fpage>
+          <lpage>828</lpage>
+          <pub-id pub-id-type="doi">10.3897/phytokeys.59.6261</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F3737180" position="float" orientation="portrait">
+      <object-id content-type="arpha">67D37D5B-3519-5C3F-9286-CE18FA5B008B</object-id>
+      <object-id content-type="doi">10.3897/BDJ.6.e22757.figure1</object-id>
+      <object-id content-type="zenodo_dep_id">1223241</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Number of specimens per botanical family (≥ 4.000 specimens) deposited in the RB herbarium.</p>
+      </caption>
+      <graphic xlink:href="bdj-06-e22757-g001.jpeg" position="float" id="oo_166812.jpeg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/166812</uri>
+      </graphic>
+    </fig>
+    <fig id="F3737182" position="float" orientation="portrait">
+      <object-id content-type="arpha">C9C17740-D0AD-5E95-9942-8CAB22C87CE5</object-id>
+      <object-id content-type="doi">10.3897/BDJ.6.e22757.figure2</object-id>
+      <object-id content-type="zenodo_dep_id">1223243</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>Georeferenced specimen deposited in the RB herbarium (ca. 17% of the total).</p>
+      </caption>
+      <graphic xlink:href="bdj-06-e22757-g002.jpg" position="float" id="oo_150829.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/150829</uri>
+      </graphic>
+    </fig>
+    <fig id="F3737184" position="float" orientation="portrait">
+      <object-id content-type="arpha">BDB14C20-E146-5E9A-ADAC-9C25088DCA32</object-id>
+      <object-id content-type="doi">10.3897/BDJ.6.e22757.figure3</object-id>
+      <object-id content-type="zenodo_dep_id">1223245</object-id>
+      <label>Figure 3.</label>
+      <caption>
+        <p>Number of specimens deposited in the RB herbarium by year of collection.</p>
+      </caption>
+      <graphic xlink:href="bdj-06-e22757-g003.jpeg" position="float" id="oo_166813.jpeg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/166813</uri>
+      </graphic>
+    </fig>
+    <fig id="F3737188" position="float" orientation="portrait">
+      <object-id content-type="arpha">036547D6-AC07-5BEC-A356-F70209EB8268</object-id>
+      <object-id content-type="doi">10.3897/BDJ.6.e22757.figure4</object-id>
+      <object-id content-type="zenodo_dep_id">1223247</object-id>
+      <label>Figure 4.</label>
+      <caption>
+        <p>Number of specimens databased in JABOT system per year.</p>
+      </caption>
+      <graphic xlink:href="bdj-06-e22757-g004.jpeg" position="float" id="oo_166814.jpeg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/166814</uri>
+      </graphic>
+    </fig>
+    <fig id="F3737186" position="float" orientation="portrait">
+      <object-id content-type="arpha">7C51DBCD-4952-5ACD-AFC4-7D1B3BF2FAD5</object-id>
+      <object-id content-type="doi">10.3897/BDJ.6.e22757.figure5</object-id>
+      <object-id content-type="zenodo_dep_id">1223249</object-id>
+      <label>Figure 5.</label>
+      <caption>
+        <p>Number of vouchers per Brazilian states deposited in the RB herbarium.</p>
+      </caption>
+      <graphic xlink:href="bdj-06-e22757-g005.jpeg" position="float" id="oo_166815.jpeg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/166815</uri>
+      </graphic>
+    </fig>
+  </floats-group>
+</article>

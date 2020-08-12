@@ -1,0 +1,1759 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="3.0" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.7.e31817</article-id>
+      <article-id pub-id-type="publisher-id">31817</article-id>
+      <article-id pub-id-type="manuscript">10123</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Plantae</subject>
+          <subject>Fungi</subject>
+          <subject>Chromista</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Biodiversity &amp; Conservation</subject>
+          <subject>Bioinformatics</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>Africa</subject>
+          <subject>World</subject>
+          <subject>Europe</subject>
+          <subject>Australasia</subject>
+          <subject>Asia</subject>
+          <subject>Americas</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>A benchmark dataset of herbarium specimen images with label data</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes" xlink:type="simple">
+          <name name-style="western">
+            <surname>Dillen</surname>
+            <given-names>Mathias</given-names>
+          </name>
+          <email xlink:type="simple">mathias.dillen@plantentuinmeise.be</email>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Groom</surname>
+            <given-names>Quentin</given-names>
+          </name>
+          <uri content-type="orcid" xlink:type="simple">https://orcid.org/0000-0002-0596-5376</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Chagnoux</surname>
+            <given-names>Simon</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Güntsch</surname>
+            <given-names>Anton</given-names>
+          </name>
+          <uri content-type="orcid" xlink:type="simple">https://orcid.org/0000-0002-4325-4030</uri>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Hardisty</surname>
+            <given-names>Alex</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Haston</surname>
+            <given-names>Elspeth</given-names>
+          </name>
+          <xref ref-type="aff" rid="A5">5</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Livermore</surname>
+            <given-names>Laurence</given-names>
+          </name>
+          <xref ref-type="aff" rid="A6">6</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Runnel</surname>
+            <given-names>Veljo</given-names>
+          </name>
+          <xref ref-type="aff" rid="A7">7</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Schulman</surname>
+            <given-names>Leif</given-names>
+          </name>
+          <xref ref-type="aff" rid="A8">8</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Willemse</surname>
+            <given-names>Luc</given-names>
+          </name>
+          <xref ref-type="aff" rid="A9">9</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Wu</surname>
+            <given-names>Zhengzhe</given-names>
+          </name>
+          <xref ref-type="aff" rid="A8">8</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Phillips</surname>
+            <given-names>Sarah</given-names>
+          </name>
+          <xref ref-type="aff" rid="A10">10</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Meise Botanic Garden, Meise, Belgium</addr-line>
+        <institution xlink:type="simple">Meise Botanic Garden</institution>
+        <addr-line content-type="city">Meise</addr-line>
+        <country>Belgium</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">Muséum National d’Histoire Naturelle, Paris, France</addr-line>
+        <institution xlink:type="simple">Muséum National d’Histoire Naturelle</institution>
+        <addr-line content-type="city">Paris</addr-line>
+        <country>France</country>
+      </aff>
+      <aff id="A3">
+        <label>3</label>
+        <addr-line content-type="verbatim">Freie Universität Berlin, Berlin, Germany</addr-line>
+        <institution xlink:type="simple">Freie Universität Berlin</institution>
+        <addr-line content-type="city">Berlin</addr-line>
+        <country>Germany</country>
+      </aff>
+      <aff id="A4">
+        <label>4</label>
+        <addr-line content-type="verbatim">School of Computer Science &amp; Informatics, Cardiff University, Cardiff, United Kingdom</addr-line>
+        <institution xlink:type="simple">School of Computer Science &amp; Informatics, Cardiff University</institution>
+        <addr-line content-type="city">Cardiff</addr-line>
+        <country>United Kingdom</country>
+      </aff>
+      <aff id="A5">
+        <label>5</label>
+        <addr-line content-type="verbatim">Royal Botanic Garden Edinburgh, Edinburgh, United Kingdom</addr-line>
+        <institution xlink:type="simple">Royal Botanic Garden Edinburgh</institution>
+        <addr-line content-type="city">Edinburgh</addr-line>
+        <country>United Kingdom</country>
+      </aff>
+      <aff id="A6">
+        <label>6</label>
+        <addr-line content-type="verbatim">The Natural History Museum, London, United Kingdom</addr-line>
+        <institution xlink:type="simple">The Natural History Museum</institution>
+        <addr-line content-type="city">London</addr-line>
+        <country>United Kingdom</country>
+      </aff>
+      <aff id="A7">
+        <label>7</label>
+        <addr-line content-type="verbatim">University of Tartu, Tartu, Estonia</addr-line>
+        <institution xlink:type="simple">University of Tartu</institution>
+        <addr-line content-type="city">Tartu</addr-line>
+        <country>Estonia</country>
+      </aff>
+      <aff id="A8">
+        <label>8</label>
+        <addr-line content-type="verbatim">Finnish Museum of Natural History LUOMUS, Helsinki, Finland</addr-line>
+        <institution xlink:type="simple">Finnish Museum of Natural History LUOMUS</institution>
+        <addr-line content-type="city">Helsinki</addr-line>
+        <country>Finland</country>
+      </aff>
+      <aff id="A9">
+        <label>9</label>
+        <addr-line content-type="verbatim">Naturalis, Leiden, Netherlands</addr-line>
+        <institution xlink:type="simple">Naturalis</institution>
+        <addr-line content-type="city">Leiden</addr-line>
+        <country>Netherlands</country>
+      </aff>
+      <aff id="A10">
+        <label>10</label>
+        <addr-line content-type="verbatim">Royal Botanic Gardens Kew, Surrey, United Kingdom</addr-line>
+        <institution xlink:type="simple">Royal Botanic Gardens Kew</institution>
+        <addr-line content-type="city">Surrey</addr-line>
+        <country>United Kingdom</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Mathias Dillen (<email xlink:type="simple">mathias.dillen@plantentuinmeise.be</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Anne Thessen</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>08</day>
+        <month>02</month>
+        <year>2019</year>
+      </pub-date>
+      <volume>7</volume>
+      <elocation-id>e31817</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/76FA21BE-1551-5268-BB1C-636E515BFD46">76FA21BE-1551-5268-BB1C-636E515BFD46</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/2566688">2566688</uri>
+      <history>
+        <date date-type="received">
+          <day>21</day>
+          <month>11</month>
+          <year>2018</year>
+        </date>
+        <date date-type="accepted">
+          <day>04</day>
+          <month>02</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Mathias Dillen, Quentin Groom, Simon Chagnoux, Anton Güntsch, Alex Hardisty, Elspeth Haston, Laurence Livermore, Veljo Runnel, Leif Schulman, Luc Willemse, Zhengzhe Wu, Sarah Phillips</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>More and more herbaria are digitising their collections. Images of specimens are made available online to facilitate access to them and allow extraction of information from them. Transcription of the data written on specimens is critical for general discoverability and enables incorporation into large aggregated research datasets. Different methods, such as crowdsourcing and artificial intelligence, are being developed to optimise transcription, but herbarium specimens pose difficulties in data extraction for many reasons.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>To provide developers of transcription methods with a means of optimisation, we have compiled a benchmark dataset of 1,800 herbarium specimen images with corresponding transcribed data. These images originate from nine different collections and include specimens that reflect the multiple potential obstacles that transcription methods may encounter, such as differences in language, text format (printed or handwritten), specimen age and nomenclatural type status. We are making these specimens available with a Creative Commons Zero licence waiver and with permanent online storage of the data. By doing this, we are minimising the obstacles to the use of these images for transcription training. This benchmark dataset of images may also be used where a defined and documented set of herbarium specimens is needed, such as for the extraction of morphological traits, handwriting recognition and colour analysis of specimens.</p>
+        </sec>
+      </abstract>
+      <funding-group>
+        <funding-statement>ICEDIG: RIA 777483</funding-statement>
+      </funding-group>
+      <counts>
+        <fig-count count="4"/>
+        <table-count count="2"/>
+        <ref-count count="34"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>Herbarium specimens are a research tool, an archive and a reference for plant sciences. They provide data and verifiability to disciplines such as phytogeography, taxonomy and ecology (<xref ref-type="bibr" rid="B4683674">Baird 2010</xref>). These physical specimens are divided between an estimated 3,000 herbaria worldwide, which makes consultation of all virtually impossible. To facilitate access to the specimens, many herbaria are digitally imaging their collections and making these images available over the internet (<xref ref-type="bibr" rid="B4683919">Heerlien et al. 2015</xref>, <xref ref-type="bibr" rid="B4684137">Tulig et al. 2012</xref>). Although we have a long way to go before full digitisation of the world’s herbaria, there are already about 400 million digitised specimens and the number keeps growing (<xref ref-type="bibr" rid="B4684128">Thiers 2018</xref>). As of November 2018, there are more than 70 million preserved specimen records for plants in the Global Biodiversity Information Facility (<xref ref-type="bibr" rid="B4683809">GBIF.org 2018</xref>).</p>
+      <p>As digital imaging of the world’s herbaria continues, there is a recognition that large amounts of information can be extracted from these images. This information includes data concerning the specimen's origin on the labels, such as location, date and collector, but also traits and the identity of the plant itself (<xref ref-type="bibr" rid="B4683735">Corney et al. 2012</xref>, <xref ref-type="bibr" rid="B4683951">MacGillivray et al. 2009</xref>, <xref ref-type="bibr" rid="B4684029">Schuettpelz et al. 2017</xref>, <xref ref-type="bibr" rid="B4684090">Kho et al. 2017</xref>). Methods to extract these data are still being developed and require training datasets and test images to validate their effectiveness (<xref ref-type="bibr" rid="B4683694">Carranza-Rojas et al. 2017</xref>).</p>
+      <p>Herbarium specimens are far from homogeneous. They vary in the language, location and style of the labels, in whether they are typed or handwritten and in the quality and quantity of information on the labels (<xref ref-type="bibr" rid="B4683965">Mononen et al. 2014</xref>). Specimens are frequently annotated by more than one person and are stored by taxon, rather than by collector, both of which make handwriting recognition particularly difficult. A typical specimen will have text written on different dates and by different people in a mixture of printed, typed and handwritten scripts (<xref ref-type="bibr" rid="B4684148">Vollmar et al. 2010</xref>).</p>
+      <p>Not all herbarium digitisation projects are the same. They vary in aspects, such as the imaging methodology, the resolution of the digital image created and their approach to quality control (<xref ref-type="bibr" rid="B4683977">Nelson et al. 2012</xref>). Anyone building tools to analyse herbarium specimens needs to be aware of these variations and needs to account for them. The language used on the labels can also be problematic. Many collections have specimen labels written in a wide variety of languages, sometimes on the same specimen and one cannot assume the use of Latin script, even in Europe. The interpretation of certain symbols, such as those indicating nomenclatural type status, or of different labels, may not always be clear either.</p>
+      <p>For all these reasons, we feel it is useful to provide a benchmark dataset of digitised herbarium specimens, made openly available for the development of tools and workflows for data extraction. This dataset has been placed in the public domain specifically to act as a test dataset for research and a benchmark to compare different methods. We have also provided transcribed data, where available, associated with each image, which can be used for comparison or for training systems. In addition, for 250 of the specimens, we have provided image overlays that identify the position of labels. These can be used for segmentation analysis of the specimen.</p>
+      <p>The images have been released under a Creative Commons Zero licence waiver (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses" xlink:type="simple">https://creativecommons.org/licenses</ext-link>), to ensure that there are no limitations that could hinder or discourage anyone from using them. However, the authors expect users to follow the norms of scientific citation. Each upload of images and data about a specimen has been assigned a DOI (Digital Object Identifier), which will uniquely and persistently identify it to allow citation. Data and media are provided as they were assembled right now and will not be kept in sync with new developments at the collection level after publication. Stable identifiers for the collection specimens themselves can always be found as 'Alternative identifiers' at each upload's landing page (<xref ref-type="bibr" rid="B4894643">Groom et al. 2017</xref>, <xref ref-type="bibr" rid="B4894653">Güntsch et al. 2017</xref>).</p>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Study extent">
+        <title>Study extent</title>
+        <p>Curators from nine European herbaria volunteered to provide a sample of their digitally imaged herbarium sheets. Herbarium curators were requested to select specimens following a set of guidelines that were chosen to ensure a representative cross-section of specimen characteristics. The aim was to provide specimens that could answer questions related to the language, condition, age and geography of the specimen and, at the same time, provide a sufficient sample size for statistical analysis (Table <xref ref-type="table" rid="T4683478">1</xref>). Given the different origins and curatorial practices of different collections, not all institutions were capable of following these guidelines in full, particularly if the herbarium did not hold many type specimens (Table <xref ref-type="table" rid="T4683479">2</xref>). For the remainder of this article, we will use the Index Herbariorum codes listed in that table to abrreviate institution names.</p>
+      </sec>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>Where possible, images were collected in JPG and lossless TIFF formats. Data were collated as a Darwin Core (DwC) Archive (<xref ref-type="bibr" rid="B4683754">Darwin Core Task Group, Biodiversity Information Standards (TDWG) 2009</xref>), if available from the Global Biodiversity Information Facility (GBIF) using their application programming interface (API) through <italic>rgbif</italic> in the R programming language (<xref ref-type="bibr" rid="B4683715">Chamberlain 2017</xref>, <xref ref-type="bibr" rid="B4684010">R Core Team 2017</xref>). Data were processed in the R language using the <italic>tidyverse</italic> (<xref ref-type="bibr" rid="B4684177">Wickham 2017</xref>) and <italic>rworldmap</italic> (<xref ref-type="bibr" rid="B4895083">South 2011</xref>) packages. Scripts can be found in Suppl. materials <xref ref-type="supplementary-material" rid="S4683615">3</xref>, <xref ref-type="supplementary-material" rid="S4683616">4</xref>.</p>
+      </sec>
+      <sec sec-type="Quality control">
+        <title>Quality control</title>
+        <p>There are no clear indications in any data as to whether a specimen is completely or partially transcribed. The labels may contain a variety of information, so availability of the information in the data is not a good guide to whether it is present on the label. Nevertheless, of the 1,800 specimens, 94% had a collector listed and 56% had either a collector number or an explicit indication that there was no number. A total of 85% had either a verbatim or interpreted date and 90% had either a date or collector number. Hence, most of the specimens have some level of transcription.</p>
+        <p>All specimens were analysed by a polyglot to determine the primary language of the label. In some cases the label had no dominant single language or no other text beyond the scientific Latin name of the specimens. However, the language of the label could be identified for 90% of the dataset (Fig. <xref ref-type="fig" rid="F4683526">1</xref>). English appears most frequently, with just over 42%. Five other languages occur in more than 5% (i.e. 90) of specimens: French, Latin, Estonian, German and Dutch. Of these, only Estonian is linked to a single institution. This should make language-based analysis possible with this dataset.</p>
+      </sec>
+      <sec sec-type="Step description">
+        <title>Step description</title>
+        <p>As detailed in Table <xref ref-type="table" rid="T4683479">2</xref>, we compiled 200 images from each of nine institutes from seven different countries across Europe. All institutions provided JPEG format images and all but two could also provide TIFF format images; P and L were unable to provide TIFF images due to institution policy. Between institutions, the TIFF file size varied between 25 and 306 MB, with dimensions between 10 and 102 megapixels. Significant differences occurred within institutions too, due to different herbarium sheet sizes as well as different in-house scanning protocols. A total of 150 TIFFs of non-type specimens from H were horizontally photographed in two parts. To reconstruct an image of the whole specimen, these were stitched together in a semi-automated way using Adobe Photoshop CS4. No further image processing of JPEG or TIFF files was done.</p>
+        <p>For seven of the institutions, the data associated with these images were downloaded using the GBIF API (accessed 2018-07-12). One of the other two (B) provided these data in DwC format directly. The other (H) had no method to export all data in DwC format, so data were extracted in JSON format using their API (<ext-link ext-link-type="uri" xlink:href="https://api.laji.fi" xlink:type="simple">https://api.laji.fi</ext-link>) (Accessed 2018-07-09). These data were subsequently mapped to DwC in the R language using the package <italic>jsonlite</italic> (<xref ref-type="bibr" rid="B4684001">Ooms 2014</xref> and see Suppl. material <xref ref-type="supplementary-material" rid="S4683614">2</xref> for the mapping). Data for all specimens were fully joined in the R language. These data are available as Suppl. material <xref ref-type="supplementary-material" rid="S4685561">5</xref> as a Comma Separated Value (CSV) file as well as individual JSON-LD files for each image (script for this conversion in Suppl. material <xref ref-type="supplementary-material" rid="S4701914">6</xref>). Data are provided as they are available now and will not be kept up to date. However, users may be able to download up-to-date data from institutional repositories through the persistent identifiers of the specimens.</p>
+        <p>For each of a subset of 250 specimens with labels in English, two PNG overlays were manually made in GIMP (<xref ref-type="bibr" rid="B4701925">GIMP Development Team 2017</xref>). These overlays indicate the location and class of labels, stamps, colour charts or other reference objects on the imaged herbarium specimen. One overlay indicates the location of each label with a different colour against a black background (indicated as "_all"). The other overlay indicates the class of labels using a colour code of white for barcode label, yellow for a colour chart and red for any other sort of label (indicated as "_sel"). These overlays can be used to train algorithms to identify labels in order to facilitate data transcription.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>Locations were mapped using their country code and decimal coordinates (Fig. <xref ref-type="fig" rid="F4683538">4</xref>). A total of 15% had decimal coordinate values and 94% had a country code. Specimens originate from all continents, except Antarctica.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The higher taxonomy of specimens was determined from the GBIF backbone taxonomy when those data came from GBIF. For the data that did not originate from GBIF, we matched the family (B specimens) or genus (H specimens) in the data to the backbone (<xref ref-type="bibr" rid="B4683800">GBIF Secretariat 2017</xref>). Only seven specimens could not be matched to the backbone. Two had no identification and the other five were homonyms at the genus level (e.g. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pellaea">Pellaea</tp:taxon-name-part></tp:taxon-name></italic>, which is both an animal and plant genus). More than 90% of specimens were, not unexpectedly, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Tracheophyta</tp:taxon-name-part></tp:taxon-name>, but within this phylum, there was a significant taxonomic coverage of 204 different families in 58 different orders (Fig. <xref ref-type="fig" rid="F4683534">3</xref>, Suppl. material <xref ref-type="supplementary-material" rid="S4683540">1</xref>).</p>
+        <p>Although we aimed at incorporating 25% nomenclatural type specimens within the dataset, according to their data, only 19% are types. This lower value is because some collections are not created primarily for taxonomy and they therefore do not hold many types. Non-type specimens were selected as specimens without any type status. Hence, some specimens listed as non-types could actually be types, if they had not been identified as such in their digital publication.</p>
+        <p>Regarding the specimen collector names, there are 1,170 different names associated with the dataset. However, it is likely there are duplicates amongst those 1,170, as some names will not be exact textual matches. Only 6% of the specimens had no collector information.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <sec sec-type="Notes">
+        <title>Notes</title>
+        <p>A broad temporal coverage of the dataset was promoted by forcing a separation at 1970 (Table <xref ref-type="table" rid="T4683478">1</xref>). Year values were derived from the DwC terms eventDate or verbatimEventDate if it was in ISO 8601 format or otherwise standardised (Fig. <xref ref-type="fig" rid="F4683530">2</xref>). A year of collection could be identified for 82% of the specimens.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Creative Commons Public Domain Waiver (CC-Zero)</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>A benchmark dataset of herbarium specimen images with label data: Summary</p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="https://zenodo.org/communities/icedigtest/" xlink:type="simple">https://zenodo.org/communities/icedigtest/</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Alternative identifiers">
+        <title>Alternative identifiers</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5281/zenodo.1492197" xlink:type="simple">10.5281/zenodo.1492197</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>1</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Benchmark Dataset</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>1</p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>This landing page contains a CSV file compiling all data associated with herbarium specimens that are part of this dataset, as they could be found on GBIF, JACQ or FinBIF.</p>
+          <p>In addition, DOIs of the individual specimens uploaded to Zenodo and direct links to the different files (JPEG, TIFF, JSON, PNG) are also included. Index of these added variables:</p>
+          <p>- persistentID: Persistent Identifier of the collection specimen. The persistent identifier is maintained by each institution and should always lead to the most up-to-date version of a digital specimen record. Apart from the persistent identifier, other data are liable to being amended in institutional databases. Data uploaded as part of this dataset will not be updated with changes at the collection's repository, but this persistent URI will always point to the up-to-date information in the institutional system.</p>
+          <p>- jpegURL, tiffURL, jsonURL: URLs pointing straight to the respective image and data files themselves, to facilitate (selective) batch downloads.</p>
+          <p>- pngSegAllURL and pngSegSelURL: Segmented overlays of the herbarium specimens indicating the location of different labels and reference material on the sheet ("All") and their content ("Sel"). More information can be found in the paper (in prep.) associated with this data publication and the individual depositions themselves.</p>
+          <p>- DOI: The DOI of the deposition of images and data of these specimens on Zenodo. DOIs point to the most up-to-date version of these depositions at the time of the publication of this CSV file. As a rule, this CSV file will be updated should any changes happen to any of the depositions.</p>
+          <p>- jpegURL2, tiffURL2: A few herbarium sheets had labels on the back and consisted therefore of two scans. As a rule, the label scans are in this category.</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">Data and links.csv</td>
+                  <td rowspan="1" colspan="1">Supplementary Info 5</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+    <sec sec-type="Additional information">
+      <title>Additional information</title>
+      <p>As an increasing number of herbarium specimens are digitally imaged, the possibility of automated analysis becomes more attractive. However, simply providing access to the digital images does not enable full use of the resource. The data associated with the image also need to be accessible for most analyses and this requires these data to be digitised, categorised and standardised (<xref ref-type="bibr" rid="B4684069">Scoble 2010</xref>).</p>
+      <p>The digitisation of label data is one of the most significant bottlenecks to the full digitisation of herbaria (<xref ref-type="bibr" rid="B4683684">Barber et al. 2013</xref>). Digital image capture is only one step towards full digitisation. For this reason, many groups are working on ways to improve and simplify the process of label data capture (<xref ref-type="bibr" rid="B4683931">Hill et al. 2012</xref>, <xref ref-type="bibr" rid="B4683872">Haston et al. 2015</xref>, the ICEDIG Project: <ext-link ext-link-type="uri" xlink:href="http://icedig.eu" xlink:type="simple">http://icedig.eu</ext-link>). Currently, the main method being used is human transcription, either using professional transcribers or volunteers. Professionals may be herbarium employees or outsourcing companies and they may work on bespoke IT systems or online. Volunteers are often recruited online through citizen science portals, such as Notes from Nature (<ext-link ext-link-type="uri" xlink:href="https://www.notesfromnature.org" xlink:type="simple">https://www.notesfromnature.org</ext-link>), Les Herbonautes (<ext-link ext-link-type="uri" xlink:href="http://lesherbonautes.mnhn.fr" xlink:type="simple">http://lesherbonautes.mnhn.fr</ext-link>), DoeDat (<ext-link ext-link-type="uri" xlink:href="https://www.doedat.be" xlink:type="simple">https://www.doedat.be</ext-link>) and DigiVol (<ext-link ext-link-type="uri" xlink:href="https://digivol.ala.org.au/" xlink:type="simple">https://digivol.ala.org.au/</ext-link>). These different methods and platforms vary considerably in their approaches to quality control and completeness of transcription. There are many unresolved questions about the success of these different approaches, the quality of the data they generate and their cost-effectiveness (<xref ref-type="bibr" rid="B4683773">Ellwood et al. 2015</xref>). Such questions of quality can be addressed with a benchmark dataset of images, such as the one described in this paper. Trials involving this dataset on the transcription platforms mentioned above are already underway and some had already finished at the time of this article's submission. A publication including a comparatory analysis is planned.</p>
+      <p>Another approach to data extraction is automation. This might involve optical character recognition of text or other forms of pattern recognition (<xref ref-type="bibr" rid="B4683763">Drinkwater et al. 2014</xref>). Various research groups have had some success in this (<xref ref-type="bibr" rid="B4683872">Haston et al. 2015</xref>). Yet, questions remain on the quality of the data output, including post-processing to classify and standardise the data obtained and how this compares to human transcription. Again, benchmark datasets are required to provide a comparison of techniques. Though, even this diverse set of specimens will not provide training data for every possible need, particularly considering the wide range of languages used on specimens. The subset of 250 image overlays indicating the location and nature of the sheet labels can be used to evaluate the impact of segmenting out the labels before automated data extraction. It can also serve to train algorithms designed to automate label recognition.</p>
+      <p>Digital images of herbarium specimens may also be used for other purposes, for example, to extract trait data from plants or to identify the species in question (<xref ref-type="bibr" rid="B4683724">Cope et al. 2012</xref>, <xref ref-type="bibr" rid="B4683694">Carranza-Rojas et al. 2017</xref>). However, techniques and software need to be developed to industrialise this to the scale required. It can be expected that techniques of artificial intelligence / machine learning (ML) might be applied for this and the dataset to be used for training and proving purposes (<xref ref-type="bibr" rid="B4983618">Wäldchen et al. 2018</xref>).</p>
+      <p>Some analysis techniques may only be suitable for certain types of specimen, for example, when ML algorithms are trained only in one language or the handwriting of one collector. Here, we have provided a wide variety of test images from which subsamples can be selected for different purposes. However, in selecting the images, we have not attempted to provide a random subsample of specimens, but have tried to provide a good cross-section of the different kinds. This means that some countries, languages and scripts are not represented at all in the collection and the collection will be biased geographically and taxonomically. However, for those countries and languages represented in the set, there will be multiple specimens.</p>
+      <p>The whole dataset has been archived to the Zenodo research data repository (<ext-link ext-link-type="uri" xlink:href="https://zenodo.org" xlink:type="simple">https://zenodo.org</ext-link>, Suppl. material <xref ref-type="supplementary-material" rid="S4733646">7</xref>), where each specimen has its own digital object identifier (DOI). This DOI resolves to a landing page on Zenodo, which contains the specimen’s currently available data as a JSON-LD file and the scanned image in a compressed JPEG format. If available, a lossless TIFF version of the image and two overlay PNG versions can be found there as well. Most data values have also been incorporated into the Zenodo database to improve findability. They are encoded in the "Subjects" fields, combined with persistent identifiers for the Darwin Core and Dublin Core terminology. A landing page with its own DOI for the dataset as a whole contains a CSV file that comprises all available metadata for each specimen and links to the JPEG, PNG and TIFF files. This overarching file should make it easy to download parts of the dataset, such as JPEGs only, TIFFs only or even English specimens only, with simple batch download scripts. The dataset can be viewed at <ext-link ext-link-type="uri" xlink:href="https://zenodo.org/communities/icedigtest" xlink:type="simple">https://zenodo.org/communities/icedigtest</ext-link>. The landing page is available <ext-link ext-link-type="uri" xlink:href="https://zenodo.org/record/1492197" xlink:type="simple">here</ext-link> and its CSV file can also be found in the Supplementary Info (Suppl. material <xref ref-type="supplementary-material" rid="S4685561">5</xref>).</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>We gratefully acknowledge all the collectors of the specimens in our test dataset. We also wish to thank Nuno Veríssimo Pereira for identifying the language(s) used on the labels of each specimen and Phillippe Hendricx for creating the segmented overlays. We thank curators, technical collection staff and the management of the herbaria that provided digitised specimens for their support. Funding for this project was received from the EC H2020 programme (ICEDIG: RIA 777483).</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B4683674">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Baird</surname>
+              <given-names>Roger Charles</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>Leveraging the fullest potential of scientific collections through digitisation.</article-title>
+          <source>Biodiversity Informatics</source>
+          <volume>7</volume>
+          <issue>2</issue>
+          <fpage>130</fpage>
+          <lpage>136</lpage>
+          <pub-id pub-id-type="doi">10.17161/bi.v7i2.3987</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4683684">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Barber</surname>
+              <given-names>Anne</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lafferty</surname>
+              <given-names>Daryl</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Landrum</surname>
+              <given-names>Leslie R.</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>The SALIX Method: A semi-automated workflow for herbarium specimen digitization</article-title>
+          <source>Taxon</source>
+          <volume>62</volume>
+          <issue>3</issue>
+          <fpage>581</fpage>
+          <lpage>590</lpage>
+          <pub-id pub-id-type="doi">10.12705/623.16</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4683694">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Carranza-Rojas</surname>
+              <given-names>Jose</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Goeau</surname>
+              <given-names>Herve</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bonnet</surname>
+              <given-names>Pierre</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mata-Montero</surname>
+              <given-names>Erick</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Joly</surname>
+              <given-names>Alexis</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Going deeper in the automated identification of Herbarium specimens</article-title>
+          <source>BMC Evolutionary Biology</source>
+          <volume>17</volume>
+          <fpage>181</fpage>
+          <pub-id pub-id-type="doi">10.1186/s12862-017-1014-z</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4683715">
+        <element-citation publication-type="software" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Chamberlain</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>rgbif: Interface to the Global 'Biodiversity' Information Facility API.</article-title>
+          <publisher-name>CRAN</publisher-name>
+          <uri xlink:type="simple">https://CRAN.R-project.org/package=rgbif</uri>
+          <comment content-type="Version">0.9.9</comment>
+        </element-citation>
+      </ref>
+      <ref id="B4683724">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Cope</surname>
+              <given-names>James S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Corney</surname>
+              <given-names>David</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Clark</surname>
+              <given-names>Jonathan Y.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Remagnino</surname>
+              <given-names>Paolo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wilkin</surname>
+              <given-names>Paul</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Plant species identification using digital morphometrics: A review</article-title>
+          <source>Expert Systems with Applications</source>
+          <volume>39</volume>
+          <issue>8</issue>
+          <fpage>7562</fpage>
+          <lpage>7573</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.eswa.2012.01.073</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4683735">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Corney</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Clark</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wilkin</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Automatic extraction of leaf characters from herbarium specimens.</article-title>
+          <source>Taxon</source>
+          <volume>61</volume>
+          <fpage>231</fpage>
+          <lpage>244</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B4683754">
+        <element-citation publication-type="software" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Darwin Core Task Group</surname>
+              <given-names>Biodiversity Information Standards (TDWG)</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>Darwin Core.</article-title>
+          <date-in-citation content-type="released">2009-02-12T00:00:00+02:00</date-in-citation>
+          <uri xlink:type="simple">http://rs.tdwg.org/dwc/2014-11-08/</uri>
+          <comment content-type="Version">0.1</comment>
+        </element-citation>
+      </ref>
+      <ref id="B4683763">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Drinkwater</surname>
+              <given-names>Robyn</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cubey</surname>
+              <given-names>Robert</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Haston</surname>
+              <given-names>Elspeth</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>The use of Optical Character Recognition (OCR) in the digitisation of herbarium specimen labels</article-title>
+          <source>PhytoKeys</source>
+          <volume>38</volume>
+          <fpage>15</fpage>
+          <lpage>30</lpage>
+          <pub-id pub-id-type="doi">10.3897/phytokeys.38.7168</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4683773">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ellwood</surname>
+              <given-names>Elizabeth R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dunckel</surname>
+              <given-names>Betty A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Flemons</surname>
+              <given-names>Paul</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Guralnick</surname>
+              <given-names>Robert</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nelson</surname>
+              <given-names>Gil</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Newman</surname>
+              <given-names>Greg</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Newman</surname>
+              <given-names>Sarah</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Paul</surname>
+              <given-names>Deborah</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Riccardi</surname>
+              <given-names>Greg</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rios</surname>
+              <given-names>Nelson</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Seltmann</surname>
+              <given-names>Katja C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mast</surname>
+              <given-names>Austin R.</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Accelerating the Digitization of Biodiversity Research Specimens through Online Public Participation</article-title>
+          <source>BioScience</source>
+          <volume>65</volume>
+          <issue>4</issue>
+          <fpage>383</fpage>
+          <lpage>396</lpage>
+          <pub-id pub-id-type="doi">10.1093/biosci/biv005</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4683809">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>GBIF.org</surname>
+            </name>
+          </person-group>
+          <article-title>GBIF Occurrence download</article-title>
+          <pub-id pub-id-type="doi">10.15468/dl.v4htc9</pub-id>
+          <date-in-citation content-type="access-date">2018-07-18T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B4683800">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Secretariat</surname>
+              <given-names>GBIF</given-names>
+            </name>
+          </person-group>
+          <article-title>GBIF Backbone Taxonomy. Checklist dataset. accessed via R package rgbif</article-title>
+          <pub-id pub-id-type="doi">10.15468/39omei</pub-id>
+          <date-in-citation content-type="access-date">2018-07-12T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B4701925">
+        <element-citation publication-type="software" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Team</surname>
+              <given-names>GIMP Development</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>GNU Image Manipulation Program</article-title>
+          <uri xlink:type="simple">https://www.gimp.org</uri>
+          <comment content-type="Version">2.8.22</comment>
+        </element-citation>
+      </ref>
+      <ref id="B4894643">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Groom</surname>
+              <given-names>Quentin</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hyam</surname>
+              <given-names>Roger</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Güntsch</surname>
+              <given-names>Anton</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Data management: Stable identifiers for collection specimens</article-title>
+          <source>Nature</source>
+          <volume>546</volume>
+          <issue>7656</issue>
+          <fpage>33</fpage>
+          <lpage>33</lpage>
+          <pub-id pub-id-type="doi">10.1038/546033d</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4894653">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Güntsch</surname>
+              <given-names>Anton</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hyam</surname>
+              <given-names>Roger</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hagedorn</surname>
+              <given-names>Gregor</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chagnoux</surname>
+              <given-names>Simon</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Röpert</surname>
+              <given-names>Dominik</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Casino</surname>
+              <given-names>Ana</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Droege</surname>
+              <given-names>Gabi</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Glöckler</surname>
+              <given-names>Falko</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gödderz</surname>
+              <given-names>Karsten</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Groom</surname>
+              <given-names>Quentin</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hoffmann</surname>
+              <given-names>Jana</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Holleman</surname>
+              <given-names>Ayco</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kempa</surname>
+              <given-names>Matúš</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Koivula</surname>
+              <given-names>Hanna</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Marhold</surname>
+              <given-names>Karol</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nicolson</surname>
+              <given-names>Nicky</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Smith</surname>
+              <given-names>V. S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Triebel</surname>
+              <given-names>Dagmar</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Actionable, long-term stable and semantic web compatible identifiers for access to biological collection objects</article-title>
+          <source>Database</source>
+          <volume>2017</volume>
+          <pub-id pub-id-type="doi">10.1093/database/bax003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4683872">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Haston</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Albenga</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chagnoux</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Drinkwater</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Durrant</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gilbert</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Glöckler</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Green</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Harris</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Holetschek</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hudson</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kahle</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>King</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kirchhoff</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kroupa</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kvacek</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Le Bras</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Livermore</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mühlenberger</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Paul</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Phillips</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Smirnova</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vacek</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Walker</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Automating data capture from natural history specimens</article-title>
+          <source>SYNTHEYS 3 Work Package 4,</source>
+          <volume>116 pp</volume>
+        </element-citation>
+      </ref>
+      <ref id="B4683919">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Heerlien</surname>
+              <given-names>Maarten</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Leusen</surname>
+              <given-names>Joost Van</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schnörr</surname>
+              <given-names>Stephanie</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jong-Kole</surname>
+              <given-names>Suzanne De</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Raes</surname>
+              <given-names>Niels</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hulsen</surname>
+              <given-names>Kirsten Van</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>The Natural History Production Line</article-title>
+          <source>Journal on Computing and Cultural Heritage</source>
+          <volume>8</volume>
+          <issue>1</issue>
+          <fpage>1</fpage>
+          <lpage>11</lpage>
+          <pub-id pub-id-type="doi">10.1145/2644822</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4683931">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Hill</surname>
+              <given-names>Andrew</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Guralnick</surname>
+              <given-names>Robert</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Smith</surname>
+              <given-names>Arfon</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sallans</surname>
+              <given-names>Andrew</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Denslow</surname>
+              <given-names>Michael</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gross</surname>
+              <given-names>Joyce</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Murrell</surname>
+              <given-names>Zack</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Oboyski</surname>
+              <given-names>Peter</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ball</surname>
+              <given-names>Joan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Thomer</surname>
+              <given-names>Andrea</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Prys-Jones</surname>
+              <given-names>Robert</given-names>
+            </name>
+            <name name-style="western">
+              <surname>de Torre</surname>
+              <given-names>Javier</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kociolek</surname>
+              <given-names>Patrick</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fortson</surname>
+              <given-names>Lucy</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>The notes from nature tool for unlocking biodiversity records from museum records through citizen science.</article-title>
+          <source>ZooKeys</source>
+          <volume>209</volume>
+          <fpage>219</fpage>
+          <lpage>233</lpage>
+          <pub-id pub-id-type="doi">10.3897/zookeys.209.3472</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4684090">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kho</surname>
+              <given-names>Soon Jye</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Manickam</surname>
+              <given-names>Sugumaran</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Malek</surname>
+              <given-names>Sorayya</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mosleh</surname>
+              <given-names>Mogeeb</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dhillon</surname>
+              <given-names>Sarinder Kaur</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Automated plant identification using artificial neural network and support vector machine</article-title>
+          <source>Frontiers in Life Science</source>
+          <volume>10</volume>
+          <issue>1</issue>
+          <fpage>98</fpage>
+          <lpage>107</lpage>
+          <pub-id pub-id-type="doi">10.1080/21553769.2017.1412361</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4683951">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>MacGillivray</surname>
+              <given-names>Fran</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hudson</surname>
+              <given-names>Irene L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lowe</surname>
+              <given-names>Andrew J.</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <chapter-title>Herbarium collections and photographic images: Alternative data sources for phenological research</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Hudson</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Keatley</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <source>Phenological Research</source>
+          <publisher-name>Springer</publisher-name>
+          <publisher-loc>Dordrecht</publisher-loc>
+          <size units="page">425-461</size>
+          <pub-id pub-id-type="doi">10.1007/978-90-481-3335-2_19</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4683965">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Mononen</surname>
+              <given-names>Tero</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tegelberg</surname>
+              <given-names>Riitta</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sääskilahti</surname>
+              <given-names>Mira</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Huttunen</surname>
+              <given-names>Markku A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tähtinen</surname>
+              <given-names>Marko</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Saarenmaa</surname>
+              <given-names>Hannu</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>DigiWeb - a workflow environment for quality assurance of transcription in digitization of natural history collections</article-title>
+          <source>Biodiversity Informatics</source>
+          <volume>9</volume>
+          <issue>1</issue>
+          <fpage>18</fpage>
+          <lpage>29</lpage>
+          <pub-id pub-id-type="doi">10.17161/bi.v9i1.4748</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4683977">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Nelson</surname>
+              <given-names>Gil</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Paul</surname>
+              <given-names>Deborah</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Riccardi</surname>
+              <given-names>Greg</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mast</surname>
+              <given-names>Austin</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Five task clusters that enable efficient and effective digitization of biological collections</article-title>
+          <source>ZooKeys</source>
+          <volume>209</volume>
+          <fpage>19</fpage>
+          <lpage>45</lpage>
+          <pub-id pub-id-type="doi">10.3897/zookeys.209.3135</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4683987">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ondov</surname>
+              <given-names>Brian D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bergman</surname>
+              <given-names>Nicholas H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Phillippy</surname>
+              <given-names>Adam M.</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <chapter-title>Krona: Interactive Metagenomic Visualization in a Web Browser</chapter-title>
+          <source>Encyclopedia of Metagenomics</source>
+          <pub-id pub-id-type="doi">10.1007/978-1-4899-7478-5_802</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4684001">
+        <element-citation publication-type="software" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ooms</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>The jsonlite Package: A Practical and Consistent Mapping Between JSON Data and R Objects.</article-title>
+          <uri xlink:type="simple">arxiv.org/abs/1403.2805</uri>
+        </element-citation>
+      </ref>
+      <ref id="B4794846">
+        <element-citation publication-type="conference-paper" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Rainer</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vitek</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Stevanović</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Virtual herbaria - an open platform to join</article-title>
+          <source>Book of Abstracts</source>
+          <conf-name>5th Balkan Botanical Congress</conf-name>
+          <conf-date>2009</conf-date>
+        </element-citation>
+      </ref>
+      <ref id="B4684010">
+        <element-citation publication-type="software" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Team</surname>
+              <given-names>R Core</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria.</article-title>
+          <uri xlink:type="simple">https://www.R-project.org/</uri>
+        </element-citation>
+      </ref>
+      <ref id="B4684029">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Schuettpelz</surname>
+              <given-names>Eric</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Frandsen</surname>
+              <given-names>Paul</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dikow</surname>
+              <given-names>Rebecca</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brown</surname>
+              <given-names>Abel</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Orli</surname>
+              <given-names>Sylvia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Peters</surname>
+              <given-names>Melinda</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Metallo</surname>
+              <given-names>Adam</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Funk</surname>
+              <given-names>Vicki</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dorr</surname>
+              <given-names>Laurence</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Applications of deep convolutional neural networks to digitized natural history collections</article-title>
+          <source>Biodiversity Data Journal</source>
+          <volume>5</volume>
+          <fpage>e21139</fpage>
+          <pub-id pub-id-type="doi">10.3897/bdj.5.e21139</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4684059">
+        <element-citation publication-type="conference-preoceeding" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Schulman</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Juslén</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lahti</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <source>The Finnish Biodiversity Information Facility FinBIF – an integrated open data infrastructure supporting research and decision-making in conservation.</source>
+          <conf-name>Oral presentation by the first author and poster at the 5th European Congress of Conservation Biology, Jyväskylä, Finland</conf-name>
+          <conf-date>June 12–15, 2018</conf-date>
+          <source>Abstract available at</source>
+          <uri xlink:type="simple">https://peerageofscience.org/conference/eccb2018/108028/</uri>
+        </element-citation>
+      </ref>
+      <ref id="B4684069">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Scoble</surname>
+              <given-names>Malcolm</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>Rationale and value of natural history collections digitisation</article-title>
+          <source>Biodiversity Informatics</source>
+          <volume>7</volume>
+          <issue>2</issue>
+          <fpage>77</fpage>
+          <lpage>80</lpage>
+          <pub-id pub-id-type="doi">10.17161/bi.v7i2.3994</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4895083">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>South</surname>
+              <given-names>Andy</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>rworldmap: A new R package for mapping global data.</article-title>
+          <source>The R Journal</source>
+          <volume>3/1</volume>
+          <fpage>35</fpage>
+          <lpage>43</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B4684128">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Thiers</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>The World’s Herbaria 2017: A Summary Report Based on Data from Index Herbariorum.</article-title>
+          <uri xlink:type="simple">http://sweetgum.nybg.org/ih/</uri>
+          <date-in-citation content-type="access-date">2018-06-15T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B4684137">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Tulig</surname>
+              <given-names>Melissa</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tarnowsky</surname>
+              <given-names>Nicole</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bevans</surname>
+              <given-names>Michael</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kirchgessner</surname>
+              <given-names>Anthony</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Thiers</surname>
+              <given-names>Barbara</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Increasing the efficiency of digitization workflows for herbarium specimens</article-title>
+          <source>ZooKeys</source>
+          <volume>209</volume>
+          <fpage>103</fpage>
+          <lpage>113</lpage>
+          <pub-id pub-id-type="doi">10.3897/zookeys.209.3125</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4684148">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Vollmar</surname>
+              <given-names>Ana</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Macklin</surname>
+              <given-names>J. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ford</surname>
+              <given-names>Linda</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>Natural history specimen digitization: Challenges and concerns</article-title>
+          <source>Biodiversity Informatics</source>
+          <volume>7</volume>
+          <issue>2</issue>
+          <fpage>93</fpage>
+          <lpage>112</lpage>
+          <pub-id pub-id-type="doi">10.17161/bi.v7i2.3992</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4983618">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Wäldchen</surname>
+              <given-names>Jana</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rzanny</surname>
+              <given-names>Michael</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Seeland</surname>
+              <given-names>Marco</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mäder</surname>
+              <given-names>Patrick</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Automated plant species identification—Trends and future directions</article-title>
+          <source>PLOS Computational Biology</source>
+          <volume>14</volume>
+          <issue>4</issue>
+          <fpage>e1005993</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pcbi.1005993</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4684177">
+        <element-citation publication-type="software" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Wickham</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>tidyverse: Easily Install and Load the 'Tidyverse'. R package version 1.2.1.</article-title>
+          <uri xlink:type="simple">https://CRAN.R-project.org/package=tidyverse</uri>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F4683526" position="float" orientation="portrait">
+      <object-id content-type="arpha">D6E8A69C-E2C4-524A-804B-BAD00BAE3B54</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e31817.figure1</object-id>
+      <object-id content-type="zenodo_dep_id">2566700</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>A classification of the languages used on labels of the different specimens. EN = English, FR = French, LA = Latin, ET = Estonian, DE = German, NL = Dutch, PT = Portuguese, ES = Spanish, SV = Swedish, RU = Russian, FI = Finnish and IT = Italian. ZZ indicates a single language could not be determined: either there were multiple languages used on the label, there was no obvious use of a certain language (i.e. only scientific Latin terms) or the language was not readily identifiable. Different herbaria are identified by their Index Herbariorum codes (Institution Code in Table <xref ref-type="table" rid="T4683479">2</xref>).</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e31817-g001.png" position="float" id="oo_224522.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/224522</uri>
+      </graphic>
+    </fig>
+    <fig id="F4683530" position="float" orientation="portrait">
+      <object-id content-type="arpha">F0A893D9-AE52-5B53-A1CA-B499C221E526</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e31817.figure2</object-id>
+      <object-id content-type="zenodo_dep_id">2566702</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>The distribution of collection dates (by year, if known) of the specimens in the dataset for each providing institution. The heat colour indicates the number of specimens for each 10 year time period. Year data were extracted from Darwin Core eventDate and verbatimEventDate if these were in ISO 8601 standard. Codes for the herbaria follow <italic>Table <xref ref-type="table" rid="T4683479">2</xref></italic>.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e31817-g002.png" position="float" id="oo_224521.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/224521</uri>
+      </graphic>
+    </fig>
+    <fig id="F4683534" position="float" orientation="portrait">
+      <object-id content-type="arpha">BE283257-8A7F-5A20-8494-7445B4D0BCBC</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e31817.figure3</object-id>
+      <object-id content-type="zenodo_dep_id">2566704</object-id>
+      <label>Figure 3.</label>
+      <caption>
+        <p>A stacked pie chart generated using Krona (<xref ref-type="bibr" rid="B4683987">Ondov et al. 2015</xref>, <ext-link ext-link-type="uri" xlink:href="https://github.com/marbl/Krona/" xlink:type="simple"> https://github.com/marbl/Krona/</ext-link>), depicting the taxonomic distribution by phylum, order and family (if known). Missing taxa were extracted from the GBIF backbone by family, if possible. For H, they were extracted by genus, as family was unavailable. An interactive version of this graph is available as an HTML file in the supplementary material.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e31817-g003.png" position="float" id="oo_224470.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/224470</uri>
+      </graphic>
+    </fig>
+    <fig id="F4683538" position="float" orientation="portrait">
+      <object-id content-type="arpha">14FDACEA-6CB4-51D2-A684-2E826393DC83</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e31817.figure4</object-id>
+      <object-id content-type="zenodo_dep_id">2566706</object-id>
+      <label>Figure 4.</label>
+      <caption>
+        <p>The location of geolocated specimens within the dataset and the number of specimens from each country. A total of 267 (15%) specimens have coordinates associated with them and 1,695 (94%) are located to a country. Both categories may overlap. The map uses a Mollweide equal-area projection.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e31817-g004.png" position="float" id="oo_224520.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/224520</uri>
+      </graphic>
+    </fig>
+    <table-wrap id="T4683478" position="float" orientation="portrait">
+      <label>Table 1.</label>
+      <caption>
+        <p>The guidelines given to herbaria to select specimens for the test dataset. The goal was not to have a representative sample of all specimens, but to have comparable subsets, which will have labels written in different languages; will be printed or handwritten; will cover a wide range of dates; will be both type specimens and general collections and will provide specimens from different families and different parts of the world.</p>
+      </caption>
+      <table rules="all">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 81px;">Number of specimens</td>
+            <td rowspan="1" colspan="1" style="width: 71px;">Type status</td>
+            <td rowspan="1" colspan="1" style="width: 108px;">Date of collection</td>
+            <td rowspan="1" colspan="1" style="width: 459px;">Geography</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 81px;">25</td>
+            <td rowspan="1" colspan="1" style="width: 71px;">Type</td>
+            <td rowspan="1" colspan="1" style="width: 108px;">&lt; 1970</td>
+            <td rowspan="1" colspan="1" style="width: 459px;">Any country</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 81px;">25</td>
+            <td rowspan="1" colspan="1" style="width: 71px;">Type</td>
+            <td rowspan="1" colspan="1" style="width: 108px;">&gt; 1970</td>
+            <td rowspan="1" colspan="1" style="width: 459px;">Any country</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 81px;">25</td>
+            <td rowspan="1" colspan="1" style="width: 71px;">non-Type</td>
+            <td rowspan="1" colspan="1" style="width: 108px;">&lt; 1970</td>
+            <td rowspan="1" colspan="1" style="width: 459px;">From the country where the herbarium is located</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 81px;">25</td>
+            <td rowspan="1" colspan="1" style="width: 71px;">non-Type</td>
+            <td rowspan="1" colspan="1" style="width: 108px;">&gt; 1970</td>
+            <td rowspan="1" colspan="1" style="width: 459px;">From the country where the herbarium is located</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 81px;">100</td>
+            <td rowspan="1" colspan="1" style="width: 71px;">non-Type</td>
+            <td rowspan="1" colspan="1" style="width: 108px;">Any</td>
+            <td rowspan="1" colspan="1" style="width: 459px;">non-Type specimens from one other country or region of which the herbarium possesses a substantial number of specimens</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T4683479" position="float" orientation="portrait">
+      <label>Table 2.</label>
+      <caption>
+        <p>Contributions of 9 different institutes to the dataset. Availability of JPG and TIFF images is indicated, as well as the source of label data. Most institutes were able to follow the template in Table <xref ref-type="table" rid="T4683478">1</xref>. The regions picked for the 100 non-type specimens are indicated in the last column, as are deviations from the template in Table <xref ref-type="table" rid="T4683478">1</xref>. Institution codes follow Index Herbariorum (<ext-link ext-link-type="uri" xlink:href="http://sweetgum.nybg.org/science/ih/" xlink:type="simple">http://sweetgum.nybg.org/science/ih/</ext-link>). The DOI of the collections is listed if GBIF was used as a data source. FinBIF is the Finnish Biodiversity Information Facility available at <ext-link ext-link-type="uri" xlink:href="http://www.species.fi" xlink:type="simple">www.species.fi</ext-link> (<xref ref-type="bibr" rid="B4684059">Schulman et al. 2018</xref>). JACQ is a joint specimen data management system of over 30 European and Asian herbaria available at <ext-link ext-link-type="uri" xlink:href="https://herbarium.univie.ac.at/database/" xlink:type="simple">https://herbarium.univie.ac.at/database/</ext-link> (<xref ref-type="bibr" rid="B4794846">Rainer and Vitek 2009</xref>).</p>
+      </caption>
+      <table rules="all">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <bold>Institute</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 69px;">
+              <bold>Institution Code</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 104px;">
+              <bold>Data Source</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Composition (with ISO <ext-link ext-link-type="uri" xlink:href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" xlink:type="simple">3166-1 alpha-2</ext-link> Country Codes)</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;"><bold>Meise</bold> Botanic Garden</td>
+            <td rowspan="1" colspan="1" style="width: 69px;">BR</td>
+            <td rowspan="1" colspan="1" style="width: 104px;">
+              <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.15468/wrthhx" xlink:type="simple">10.15468/wrthhx</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">As Table 1; 100 from AU, CA, NZ, US</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">Royal Botanic Gardens, <bold>Kew</bold></td>
+            <td rowspan="1" colspan="1" style="width: 69px;">K</td>
+            <td rowspan="1" colspan="1" style="width: 104px;">
+              <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.15468/ly60bx" xlink:type="simple">10.15468/ly60bx</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">As Table 1; 100 from BR</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">Natural History Museum, <bold>London</bold></td>
+            <td rowspan="1" colspan="1" style="width: 69px;">BM</td>
+            <td rowspan="1" colspan="1" style="width: 104px;">
+              <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5519/0002965" xlink:type="simple">10.5519/0002965</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">As Table 1; 100 from AU, CA, NZ, US</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">Botanic Garden and Botanical Museum, <bold>Berlin</bold></td>
+            <td rowspan="1" colspan="1" style="width: 69px;">B</td>
+            <td rowspan="1" colspan="1" style="width: 104px;">
+              <ext-link ext-link-type="uri" xlink:href="https://herbarium.univie.ac.at/database" xlink:type="simple">JACQ</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">As Table 1; 100 from AU, BR, CN, ID, TZ, US</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">Royal Botanic Garden <bold>Edinburgh</bold></td>
+            <td rowspan="1" colspan="1" style="width: 69px;">E</td>
+            <td rowspan="1" colspan="1" style="width: 104px;">
+              <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.15468/ypoair" xlink:type="simple">10.15468/ypoair</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">As Table 1; 100 from CN</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">National Museum of Natural History, <bold>Paris</bold></td>
+            <td rowspan="1" colspan="1" style="width: 69px;">P</td>
+            <td rowspan="1" colspan="1" style="width: 104px;">
+              <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.15468/nc6rxy" xlink:type="simple">10.15468/nc6rxy</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">50 type, 50 non-Type FR, 100 non-Type not FR</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">Natural History Museum, University of <bold>Tartu</bold></td>
+            <td rowspan="1" colspan="1" style="width: 69px;">TU</td>
+            <td rowspan="1" colspan="1" style="width: 104px;">
+              <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.15156/bio/587444" xlink:type="simple">10.15156/bio/587444</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">100 &lt; 1970, 100 &gt; 1970</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;"><bold>Naturalis</bold> Biodiversity Center</td>
+            <td rowspan="1" colspan="1" style="width: 69px;">L</td>
+            <td rowspan="1" colspan="1" style="width: 104px;">
+              <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.15468/ib5ypt" xlink:type="simple">10.15468/ib5ypt</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">As Table 1; 100 from ID; no selection on date</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">Finnish Museum of Natural History LUOMUS, University of <bold>Helsinki</bold></td>
+            <td rowspan="1" colspan="1" style="width: 69px;">H</td>
+            <td rowspan="1" colspan="1" style="width: 104px;">
+              <ext-link ext-link-type="uri" xlink:href="http://www.species.fi" xlink:type="simple">FinBIF</ext-link>
+            </td>
+            <td rowspan="1" colspan="1">As Table 1; 14 FI, 36 ET instead of 50 FI; 100 from AU, BR, CN,<break/>ID, US</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <supplementary-material id="S4683540" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">55120A1B-2337-5C72-A514-B87186495D59</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e31817.suppl1</object-id>
+      <object-id content-type="zenodo_dep_id">2566718</object-id>
+      <label>Supplementary material 1</label>
+      <caption>
+        <p>Taxonomic coverage (interactive HTML file)</p>
+      </caption>
+      <p>Data type: Interactive chart</p>
+      <p>Brief description: Interactive version of the taxonomic coverage chart, Figure 2 in the article. Rendered using Krona (https://github.com/marbl/Krona).</p>
+      <p>File: oo_224472.html</p>
+      <media xlink:href="bdj-07-e31817-s001.html" mimetype="html file" mime-subtype="html" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/224472</uri>
+      </media>
+      <attrib specific-use="authors">Mathias Dillen</attrib>
+    </supplementary-material>
+    <supplementary-material id="S4683614" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">587BB23B-F86A-5637-B720-145EE2A8CB6B</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e31817.suppl2</object-id>
+      <object-id content-type="zenodo_dep_id">2566720</object-id>
+      <label>Supplementary material 2</label>
+      <caption>
+        <p>R script used to map data from FinBIF API to DwC</p>
+      </caption>
+      <p>Data type: R script</p>
+      <p>Brief description: This R script was used to obtain metadata for the specimens from H in Darwin Core format, using the FinBIF API. Certain transformations depend on what was present in this specific dataset and might not be generically applicable.</p>
+      <p>File: oo_224474.R</p>
+      <media xlink:href="bdj-07-e31817-s002.r" mimetype="R file" mime-subtype="R" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/224474</uri>
+      </media>
+      <attrib specific-use="authors">Mathias Dillen</attrib>
+    </supplementary-material>
+    <supplementary-material id="S4683615" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">9147262A-9C0D-5BE0-9644-ACF7A9A5BBB1</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e31817.suppl3</object-id>
+      <object-id content-type="zenodo_dep_id">2566722</object-id>
+      <label>Supplementary material 3</label>
+      <caption>
+        <p>R script CSV files</p>
+      </caption>
+      <p>Data type: Zipped CSV files</p>
+      <p>Brief description: This ZIP contains the CSV files necessary for the R script which retrieved and joined the metadata of the dataset and produced most of the graphs.</p>
+      <p>In addition to seven files with 200 barcodes each for BR, BM, E, K, L, P and TU and two files containing all metadata for B and H, it also contains a file listing the label language for each specimen, a summary table for languages in the dataset and a file mapping DwC terms to their overarching categories.</p>
+      <p>File: oo_224475.zip</p>
+      <media xlink:href="bdj-07-e31817-s003.zip" mimetype="Archive file" mime-subtype="zip" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/224475</uri>
+      </media>
+      <attrib specific-use="authors">Mathias Dillen</attrib>
+    </supplementary-material>
+    <supplementary-material id="S4683616" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">8D49291F-6B86-5600-AF9D-3304DE3CBE63</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e31817.suppl4</object-id>
+      <object-id content-type="zenodo_dep_id">2566724</object-id>
+      <label>Supplementary material 4</label>
+      <caption>
+        <p>R script used for this paper</p>
+      </caption>
+      <p>Data type: R script</p>
+      <p>Brief description: This R script file contains the different scripts used to obtain metadata, join it, export it and produce the paper's graphs (except for the taxonomic graph, which was done using data exported from R into the Krona Excel macro template, which can be found on Github). The CSV files needed for this script are in a separate ZIP file.</p>
+      <p>File: oo_224646.R</p>
+      <media xlink:href="bdj-07-e31817-s004.r" mimetype="R file" mime-subtype="R" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/224646</uri>
+      </media>
+      <attrib specific-use="authors">Mathias Dillen</attrib>
+    </supplementary-material>
+    <supplementary-material id="S4685561" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">14AD5E74-5AFC-563A-9307-A540078BD761</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e31817.suppl5</object-id>
+      <object-id content-type="zenodo_dep_id">2566726</object-id>
+      <label>Supplementary material 5</label>
+      <caption>
+        <p>Table of specimen data, DOIs and URIs</p>
+      </caption>
+      <p>Data type: CSV</p>
+      <p>Brief description: This file contains data of the 1800 digitised specimens this paper's dataset is composed of. The joined data originate from different sources as described above and have also been filtered for a few repository-specific variables, such as GBIF taxon keys. DwC extensions are encoded in JSON.</p>
+      <p>This file also contains a list of DOIs and Zenodo file URIs (jpegURI, tiffURI...) for the images of each specimen this dataset consists of. Using these links and DOIs, it should be easy to retrieve and cite any proportion of this dataset as needed.</p>
+      <p>File: oo_244128.csv</p>
+      <media xlink:href="bdj-07-e31817-s005.csv" mimetype="Comma Separated Values File" mime-subtype="csv" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/244128</uri>
+      </media>
+      <attrib specific-use="authors">Mathias Dillen</attrib>
+    </supplementary-material>
+    <supplementary-material id="S4701914" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">C7469854-8906-5944-A52E-8D7D3DF05DF9</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e31817.suppl6</object-id>
+      <object-id content-type="zenodo_dep_id">2566728</object-id>
+      <label>Supplementary material 6</label>
+      <caption>
+        <p>R Script to compile JSON files from CSV</p>
+      </caption>
+      <p>Data type: R script</p>
+      <p>Brief description: This R script was used to convert data in a CSV format to single JSON-LD files. The ZIP file also contains the original CSV file.</p>
+      <p>File: oo_230010.zip</p>
+      <media xlink:href="bdj-07-e31817-s006.zip" mimetype="Archive file" mime-subtype="zip" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/230010</uri>
+      </media>
+      <attrib specific-use="authors">Mathias Dillen</attrib>
+    </supplementary-material>
+    <supplementary-material id="S4733646" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">6F70B231-F08B-58EA-AF64-65F4874E1A84</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e31817.suppl7</object-id>
+      <object-id content-type="zenodo_dep_id">2566730</object-id>
+      <label>Supplementary material 7</label>
+      <caption>
+        <p>Python script to upload the dataset to Zenodo</p>
+      </caption>
+      <p>Data type: Python Script</p>
+      <p>Brief description: This Python script was used to upload the dataset to the Zenodo platform through their API.</p>
+      <p>File: oo_241268.py</p>
+      <media xlink:href="bdj-07-e31817-s007.py" mimetype="py file" mime-subtype="py" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/241268</uri>
+      </media>
+      <attrib specific-use="authors">Mathias Dillen</attrib>
+    </supplementary-material>
+  </floats-group>
+</article>

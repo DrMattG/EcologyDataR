@@ -1,0 +1,1409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="3.0" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.6.e22622</article-id>
+      <article-id pub-id-type="publisher-id">22622</article-id>
+      <article-id pub-id-type="manuscript">7598</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Amphipoda</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Biodiversity &amp; Conservation</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>Yucatan</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>A dataset on the species composition of amphipods (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subphylum">Crustacea</tp:taxon-name-part></tp:taxon-name>) in a Mexican marine national park: Alacranes Reef, Yucatan</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes" xlink:type="simple">
+          <name name-style="western">
+            <surname>Paz-Ríos</surname>
+            <given-names>Carlos E.</given-names>
+          </name>
+          <email xlink:type="simple">cepaz@ecosur.edu.mx</email>
+          <uri content-type="orcid" xlink:type="simple">https://orcid.org/0000-0002-5931-7788</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Simões</surname>
+            <given-names>Nuno</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A3">3</xref>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Pech</surname>
+            <given-names>Daniel</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Laboratorio de Biodiversidad Marina y Cambio Climatico (BIOMARCCA), El Colegio de la Frontera Sur, Unidad Campeche, Lerma, Campeche, Mexico</addr-line>
+        <institution xlink:type="simple">Laboratorio de Biodiversidad Marina y Cambio Climatico (BIOMARCCA), El Colegio de la Frontera Sur, Unidad Campeche</institution>
+        <addr-line content-type="city">Lerma, Campeche</addr-line>
+        <country>Mexico</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">Unidad Academica Sisal, Facultad de Ciencias, Universidad Nacional Autonoma de Mexico, Puerto de Abrigo, Sisal, Yucatan, Mexico</addr-line>
+        <institution xlink:type="simple">Unidad Academica Sisal, Facultad de Ciencias, Universidad Nacional Autonoma de Mexico</institution>
+        <addr-line content-type="city">Puerto de Abrigo, Sisal, Yucatan</addr-line>
+        <country>Mexico</country>
+      </aff>
+      <aff id="A3">
+        <label>3</label>
+        <addr-line content-type="verbatim">Laboratorio Nacional de Resiliencia Costera (LANRESC), Puerto de Abrigo, Sisal, Yucatan, Mexico</addr-line>
+        <institution xlink:type="simple">Laboratorio Nacional de Resiliencia Costera (LANRESC)</institution>
+        <addr-line content-type="city">Puerto de Abrigo, Sisal, Yucatan</addr-line>
+        <country>Mexico</country>
+      </aff>
+      <aff id="A4">
+        <label>4</label>
+        <addr-line content-type="verbatim">International Chair for Ocean and Coastal Studies, Harte Research Institute, Texas A&amp;M, Corpus Christi, Texas, United States of America</addr-line>
+        <institution xlink:type="simple">International Chair for Ocean and Coastal Studies, Harte Research Institute, Texas A&amp;M</institution>
+        <addr-line content-type="city">Corpus Christi, Texas</addr-line>
+        <country>United States of America</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Carlos E. Paz-Ríos (<email xlink:type="simple">cepaz@ecosur.edu.mx</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Yasen Mutafchiev</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>25</day>
+        <month>01</month>
+        <year>2018</year>
+      </pub-date>
+      <volume>6</volume>
+      <elocation-id>e22622</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/FFA0FFD3-7A72-C738-FFB1-FFFFFFA3FFD3">FFA0FFD3-7A72-C738-FFB1-FFFFFFA3FFD3</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/1166281">1166281</uri>
+      <history>
+        <date date-type="received">
+          <day>29</day>
+          <month>11</month>
+          <year>2017</year>
+        </date>
+        <date date-type="accepted">
+          <day>16</day>
+          <month>01</month>
+          <year>2018</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Carlos E. Paz-Ríos, Nuno Simões, Daniel Pech</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License 4.0 (CC-BY), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>Alacranes Reef was declared as a National Marine Park in 1994. Since then, many efforts have been made to inventory its biodiversity. However, groups such as amphipods have been underestimated or not considered when benthic invertebrates were inventoried. Here we present a dataset that contributes to the knowledge of benthic amphipods (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subphylum">Crustacea</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="superorder">Peracarida</tp:taxon-name-part></tp:taxon-name>) from the inner lagoon habitats from the Alacranes Reef National Park, the largest coral reef ecosystem in the Gulf of Mexico. The dataset contains information on records collected from 2009 to 2011. Data are available through Global Biodiversity Information Facility (GBIF).</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>A total of 110 amphipod species distributed in 93 nominal species and 17 generic species, belonging to 71 genera, 33 families and three suborders are presented here. This information represents the first online dataset of amphipods from the Alacranes Reef National Park. The biological material is currently deposited in the crustacean collection from the regional unit of the National Autonomous University of Mexico located at Sisal, Yucatan, Mexico (UAS-Sisal). The biological material includes 588 data records with a total abundance of 6,551 organisms. The species inventory represents, until now, the richest fauna of benthic amphipods registered from any discrete coral reef ecosystem in Mexico.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="order">Amphipoda</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="superorder">Peracarida</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>Macrofauna</kwd>
+        <kwd>Benthos</kwd>
+        <kwd>Species diversity</kwd>
+        <kwd>Coral Reef</kwd>
+        <kwd>Campeche Bank</kwd>
+        <kwd>Gulf of Mexico</kwd>
+        <kwd>occurrence record</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="1"/>
+        <table-count count="1"/>
+        <ref-count count="19"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>Alacranes Reef is a highly diverse protected coral reef ecosystem, located in the southern sector of the Gulf of México. It is considered as one of the largest coral reefs of the Gulf of Mexico (<xref ref-type="bibr" rid="B3807241">Liceaga-Correa and Hernández-Núñez 2000</xref>, <xref ref-type="bibr" rid="B3913069">Tunnell et al. 2007a</xref>). It was declared as a National Marine Park by the Mexican government in 1994 and as a Biosphere Reserve, by the UNESCO, in 2006. Since its declaration as a National Park, Alacranes Reef has been subject to different efforts to inventory its biodiversity, however, this task is not fulfilled until now. Recent studies on reef-associated benthic fauna include sea anemones (<xref ref-type="bibr" rid="B3993690">González-Muñoz et al. 2013</xref>), decapod crustaceans (<xref ref-type="bibr" rid="B3993700">Santana-Moreno et al. 2013</xref>), polychaetes (<xref ref-type="bibr" rid="B3993710">Ramírez-Hernández et al. 2015</xref>), sponges (<xref ref-type="bibr" rid="B3993730">Ugalde et al. 2015</xref>) and mollusks (<xref ref-type="bibr" rid="B3993745">Reyes-Gómez et al. 2017</xref>).The peracarid crustaceans, such as the amphipods, are one of the underestimated groups not considered in the main inventory lists reported for the reef (<xref ref-type="bibr" rid="B3807078">CONANP 2006</xref>, <xref ref-type="bibr" rid="B3913078">Tunnell et al. 2007b</xref>). The scarce evidence describing the richness of amphipods on the Alacranes reef (<xref ref-type="bibr" rid="B3807413">Paz-Ríos et al. 2014</xref>, <xref ref-type="bibr" rid="B3807373">Paz-Ríos et al. 2013a</xref>, <xref ref-type="bibr" rid="B3807403">Paz-Ríos et al. 2013b</xref>) has pointed out the relevance of this group as one of the most diverse in the entire reef ecosystem. The present contribution intends to show the high species richness of benthic amphipods inhabiting the bottom habitats from the inner reef lagoon by providing a dataset with taxonomic checklist. This checklist constitutes the first formal effort to inventory the biodiversity of such group in the Alacranes Reef ecosystem.</p>
+    </sec>
+    <sec sec-type="Project description">
+      <title>Project description</title>
+      <sec sec-type="Title">
+        <title>Title</title>
+        <p>Alacranes Reef Biodiversity Expedition.</p>
+      </sec>
+      <sec sec-type="Personnel">
+        <title>Personnel</title>
+        <p>Carlos Enrique Paz Ríos and Nuno Simões.</p>
+      </sec>
+      <sec sec-type="Design description">
+        <title>Design description</title>
+        <p>The dataset was composed using information from benthic macrofauna samples randomly collected on different benthic habitats and artificial substrates between 2009 and 2011, mostly in the inner lagoon of Alacranes reef.</p>
+      </sec>
+      <sec sec-type="Funding">
+        <title>Funding</title>
+        <p>Resources included funds to NS from the National Autonomous University of Mexico (UNAM) for supporting academic research (PAPIME-PE207210), funds from the Mexican Government for scientific research (SEMARNAT-CONACyT108285) and an international cooperation for marine scientific research between Mexico and USA (HRI-CONABIO-NE018) through the project “Actualización del conocimiento de la diversidad de especies de invertebrados marinos bentónicos de aguas someras (&lt;50 m) del Sur del Golfo de México”. Funds to CEPR was provided by CONACyT scholarship.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Study extent">
+        <title>Study extent</title>
+        <p>The dataset contains information on amphipods collected from three different expeditions: the first one in August 2009, the second one in April 2010 and the third one in October 2011. In each expedition a relatively high diversity of habitats was explored in order to increase the chance to capture the species diversity. In the 2010 and 2011 expeditions, special effort was made to collect information on navigation buoys and two wood docks nearby a sand island (isla Perez).</p>
+      </sec>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>Amphipods were collected from 50 sampling sites: Forty-one randomly distributed on natural habitats from the inner lagoon, including different benthic habitats (i.e. bare substrate, seagrass bed, coral patch, reef wall) and nine collected on artificial substrates (i.e. buoy, wood dock, lobster tramp). Diverse sampling devices were employed: PVC core for sandy substrates, shovel for patches of intertidal sand, suction device sampler for coral rubble, sand and shallow coral reef flats and, finally, a Riley push-net and trawl for shallow seagrass beds of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Thalassia">Thalassia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="testudinum">testudinum</tp:taxon-name-part></tp:taxon-name></italic> (Banks ex König, 1805).</p>
+      </sec>
+      <sec sec-type="Quality control">
+        <title>Quality control</title>
+        <p>Amphipod species were sorted and identified to the lowest possible taxonomical category, using specialised literature such as keys for identification, e.g. <xref ref-type="bibr" rid="B3807314">Myers (1981)</xref>, <xref ref-type="bibr" rid="B3807282">Lowry and Stoddart (1997)</xref>, <xref ref-type="bibr" rid="B3807171">LeCroy (2000)</xref> and illustrated guides, e.g. <xref ref-type="bibr" rid="B3807578">Winfield et al. (2007)</xref>, <xref ref-type="bibr" rid="B3807364">Ortiz et al. (2014)</xref>. The taxonomical arrangement used herein follows <xref ref-type="bibr" rid="B3993757">Lowry and Myers (2017)</xref>. Nine species were identified as possibly new species and were represented at the genus category (i.e. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Bemlos">Bemlos</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Elasmopus">Elasmopus</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Idunella">Idunella</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Harpinia">Harpinia</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leucothoe">Leucothoe</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Maera">Maera</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Psammogammarus">Psammogammarus</tp:taxon-name-part></tp:taxon-name></italic>); further specialised taxonomical effort will be needed before assigning a name. Species names were matched using the <italic>Taxon Match</italic> tool in the World Register of Marine Species (WoRMS) in order to corroborate, standardise and update if necessary. Sampling points in the reef, available in the Data resources (see below), were georeferenced and displayed into different maps using different software (i.e. QGIS<sup>®</sup>, ArcView GIS<sup>®</sup>, and Google Maps<sup>®</sup>).</p>
+      </sec>
+      <sec sec-type="Step description">
+        <title>Step description</title>
+        <p>Once collected, the amphipods were first anaesthetised with magnesium chloride (4%) for 15 to 20 min. and then fixed with formaldehyde solution (10%) buffered with seawater before storage. In the laboratory, samples were washed through a 500 µm size mesh and preserved with 70% of ethanol solution. Finally, the organisms were stored in glass containers with a catalogue number according to the regional collection ‘Crustáceos de Yucatán’ (YUC-CC-255-11), from the ‘Universidad Nacional Autónoma de México, Unidad Sisal’ Mexico.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The Alacranes Reef, Yucatan, Mexico (Fig. <xref ref-type="fig" rid="F3913014">1</xref>), is located in the Campeche/Yucatanean Outer Neritic area (<xref ref-type="bibr" rid="B3807563">Wilkinson et al. 2009</xref>) forming part of the North America's marine ecoregion 14 (Southern Gulf of Mexico). It is a platform reef type with a semi-elliptic shape, covering an area larger than 650 km<sup>2</sup> (<xref ref-type="bibr" rid="B3807241">Liceaga-Correa and Hernández-Núñez 2000</xref>).</p>
+      </sec>
+      <sec sec-type="Coordinates">
+        <title>Coordinates</title>
+        <p>22.337 and 22.605 North Latitude; -89.549 and -89.852 West Longitude.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The dataset contains information on 110 species (93 nominal species and 17 generic species), belonging to 71 genera, 33 families and three suborders. The suborder <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Amphilochidea</tp:taxon-name-part></tp:taxon-name> was composed of 46 species, 28 genera and 13 families, the suborder <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Colomastigidea</tp:taxon-name-part></tp:taxon-name> by 6 species, 1 genus and 1 family and the suborder <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Senticaudata</tp:taxon-name-part></tp:taxon-name> by 58 species, 42 genera and 19 families (Table <xref ref-type="table" rid="T3739220">1</xref>). Regardless suborder, 6 families presented the highest numbers of species, accounting for the 50% of all the fauna in the reef: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Ampithoidae</tp:taxon-name-part></tp:taxon-name> (6 spp.), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Colomastigidae</tp:taxon-name-part></tp:taxon-name> (6 spp.), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Lysianassidae</tp:taxon-name-part></tp:taxon-name> (8 spp.), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Leucothoidae</tp:taxon-name-part></tp:taxon-name> (11 spp.), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Maeridae</tp:taxon-name-part></tp:taxon-name> (12 spp.) and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Aoridae</tp:taxon-name-part></tp:taxon-name> (13 spp.).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <p><bold>Data range:</bold> 2009-8-01 – 2011-10-17.</p>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Other</p>
+      </sec>
+      <sec sec-type="IP rights notes">
+        <title>IP rights notes</title>
+        <p>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>Benthic amphipods from Alacranes Reef, Campeche Bank, Mexico</p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="http://ipt.iobis.org/caribbeanobis/resource?r=anfipodosbentonicos_bancodecampeche_mexico" xlink:type="simple">http://ipt.iobis.org/caribbeanobis/resource?r=anfipodosbentonicos_bancodecampeche_mexico</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Alternative identifiers">
+        <title>Alternative identifiers</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="http://ipt.iobis.org/caribbeanobis/archive.do?r=anfipodosbentonicos_bancodecampeche_mexico" xlink:type="simple">http://ipt.iobis.org/caribbeanobis/archive.do?r=anfipodosbentonicos_bancodecampeche_mexico</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>1</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Benthic amphipods from Alacranes Reef, Campeche Bank, Mexico</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Darwin Core Archive (DwC-A)</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>15</p>
+        </sec>
+        <sec sec-type="Character set">
+          <title>Character set</title>
+          <p>UTF-8</p>
+        </sec>
+        <sec sec-type="Data format version">
+          <title>Data format version</title>
+          <p>1.0</p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>The dataset presents an occurrence data sheet with 15 columns including information for 588 records.</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">eventID</td>
+                  <td rowspan="1" colspan="1">An identifier for the set of information associated with an Event (something that occurs at a place and time).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">basisOfRecord</td>
+                  <td rowspan="1" colspan="1">The specific nature of the data record.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceID</td>
+                  <td rowspan="1" colspan="1">An identifier for the Occurrence (i.e. number of collection catalogue).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">individualCount</td>
+                  <td rowspan="1" colspan="1">The number of individuals represented present at the time of the Occurrence.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceStatus</td>
+                  <td rowspan="1" colspan="1">A statement about the presence or absence of a Taxon at a Location.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">associatedReferences</td>
+                  <td rowspan="1" colspan="1">An identifier (i.e. Digital Object Identifier, DOI) of literature associated with the Occurrence.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">samplingProtocol</td>
+                  <td rowspan="1" colspan="1">The name of, reference to, or description of the method or protocol used during an Event.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventDate</td>
+                  <td rowspan="1" colspan="1">The date-time or interval during which an Event occurred.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLatitude</td>
+                  <td rowspan="1" colspan="1">The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic centre of a Location.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLongitude</td>
+                  <td rowspan="1" colspan="1">The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic centre of a Location.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">identificationQualifier</td>
+                  <td rowspan="1" colspan="1">A brief phrase or a standard term ("cf.", "aff.") to express the determiner's doubts about the Identification.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificNameID</td>
+                  <td rowspan="1" colspan="1">An identifier for the nomenclatural (not taxonomic) details of a scientific name (i.e. AphiaID).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificName</td>
+                  <td rowspan="1" colspan="1">The full scientific name.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">taxonRank</td>
+                  <td rowspan="1" colspan="1">The taxonomic rank of the most specific name in the scientificName.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">taxonRemarks</td>
+                  <td rowspan="1" colspan="1">Comments or notes about the taxon or name.</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>To Dr. Ana Carolina Peralta (Universidad Simon Bolivar, Venezuela) by her valuable guide for management our data into GBIF and OBIS. We also thank to Dr. Robert Mesibov for valuable technical evaluation on the Data Quality Checklist draft and two reviewers (Dr. Kristine White and Dr. Yasen Mutafchiev) for useful suggestions.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B3807078">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>CONANP</surname>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <chapter-title>Programa de conservación y manejo</chapter-title>
+          <source>Parque Nacional Arrecife Alacranes, Mexico</source>
+          <publisher-name>Comision Nacional de Areas Naturales Protegidas (CONANP)</publisher-name>
+          <publisher-loc>México</publisher-loc>
+          <uri xlink:type="simple">http://www.conanp.gob.mx/que_hacemos/programa_manejo.php</uri>
+        </element-citation>
+      </ref>
+      <ref id="B3993690">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>González-Muñoz</surname>
+              <given-names>Ricardo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Simões</surname>
+              <given-names>Nuno</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tello-Musi</surname>
+              <given-names>José Luis</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rodríguez</surname>
+              <given-names>Estefanía</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Sea anemones (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cnidaria</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Anthozoa</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Actiniaria</tp:taxon-name-part></tp:taxon-name>) from coral reefs in the southern Gulf of Mexico</article-title>
+          <source>ZooKeys</source>
+          <volume>341</volume>
+          <fpage>77</fpage>
+          <lpage>106</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.3897/zookeys.341.5816</uri>
+          <pub-id pub-id-type="doi">10.3897/zookeys.341.5816</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3807171">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>LeCroy</surname>
+              <given-names>S. E.</given-names>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <chapter-title>An Illustrated Identification Guide to the Nearshore Marine and Estuarine Gammaridean <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Amphipoda</tp:taxon-name-part></tp:taxon-name> of Florida. Volume 1</chapter-title>
+          <source>Families <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Gammaridae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Hadziidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Isaeidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Melitidae</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Oedicerotidae</tp:taxon-name-part></tp:taxon-name></source>
+          <publisher-name>Florida Department of Environmental Protection</publisher-name>
+          <publisher-loc>Tallahassee</publisher-loc>
+          <size units="page">195</size>
+        </element-citation>
+      </ref>
+      <ref id="B3807241">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Liceaga-Correa</surname>
+              <given-names>M. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hernández-Núñez</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <article-title>Localización y dimensiones del arrecife Alacranes</article-title>
+          <source>Jaina</source>
+          <volume>11</volume>
+          <fpage>8</fpage>
+          <lpage>10</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3807282">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lowry</surname>
+              <given-names>J. K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stoddart</surname>
+              <given-names>H. E.</given-names>
+            </name>
+          </person-group>
+          <year>1997</year>
+          <article-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Amphipoda</tp:taxon-name-part></tp:taxon-name><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subphylum">Crustacea</tp:taxon-name-part></tp:taxon-name> IV. Families <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Aristiidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Cyphocarididae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Endevouridae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Lysianassidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Scopelocheiridae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Uristidae</tp:taxon-name-part></tp:taxon-name></article-title>
+          <source>Memoirs of the Hourglass Cruises</source>
+          <volume>10</volume>
+          <fpage>1</fpage>
+          <lpage>148</lpage>
+          <uri xlink:type="simple">http://myfwc.com/research/publications/scientific/hourglass-cruises/</uri>
+        </element-citation>
+      </ref>
+      <ref id="B3993757">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lowry</surname>
+              <given-names>J. K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Myers</surname>
+              <given-names>A. A.</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>A phylogeny and classification of the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Amphipoda</tp:taxon-name-part></tp:taxon-name> with the establishment of the new order Ingolfiellida (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subphylum">Crustacea</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="superorder">Peracarida</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Zootaxa</source>
+          <volume>4265</volume>
+          <issue>1</issue>
+          <fpage>1</fpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.11646/zootaxa.4265.1.1</uri>
+          <pub-id pub-id-type="doi">10.11646/zootaxa.4265.1.1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3807314">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Myers</surname>
+              <given-names>A. A.</given-names>
+            </name>
+          </person-group>
+          <year>1981</year>
+          <article-title>Amphipod <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subphylum">Crustacea</tp:taxon-name-part></tp:taxon-name> I, Family <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Aoridae</tp:taxon-name-part></tp:taxon-name></article-title>
+          <source>Memoirs of the Hourglass Cruises</source>
+          <volume>5</volume>
+          <fpage>1</fpage>
+          <lpage>75</lpage>
+          <uri xlink:type="simple">http://myfwc.com/research/publications/scientific/hourglass-cruises/</uri>
+        </element-citation>
+      </ref>
+      <ref id="B3807364">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ortiz</surname>
+              <given-names>M. T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Winfield</surname>
+              <given-names>I. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Scheinvar</surname>
+              <given-names>G. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cházaro</surname>
+              <given-names>O. S.</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <source>Clave Ilustrada de anfípodos del Golfo de México y el Mar Caribe (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Gammaridea</tp:taxon-name-part></tp:taxon-name> y <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Caprellidea</tp:taxon-name-part></tp:taxon-name>)</source>
+          <publisher-name>Universidad Nacional Autónoma de México, Facultad de Estudios Superiores de Iztacala</publisher-name>
+          <publisher-loc>Mexico</publisher-loc>
+          <size units="page">252</size>
+        </element-citation>
+      </ref>
+      <ref id="B3807373">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Paz-Ríos</surname>
+              <given-names>C. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Simões</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ardisson</surname>
+              <given-names>P. L.</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Records and observations of amphipods (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Amphipoda</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Gammaridea</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Corophiidea</tp:taxon-name-part></tp:taxon-name>) from fouling assemblages in the Alacranes Reef, southern Gulf of Mexico</article-title>
+          <source>Marine Biodiversity Record</source>
+          <volume>6</volume>
+          <fpage>e90</fpage>
+          <pub-id pub-id-type="doi">10.1017/S175526721300064X</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3807403">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Paz-Ríos</surname>
+              <given-names>C. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Simões</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ardisson</surname>
+              <given-names>P. L.</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Intertidal and shallow water amphipods (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Amphipoda</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Gammaridea</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Corophiidea</tp:taxon-name-part></tp:taxon-name>) from Isla Pérez, Alacranes Reef, southern Gulf of Mexico</article-title>
+          <source>Nauplius</source>
+          <volume>21</volume>
+          <fpage>179</fpage>
+          <lpage>194</lpage>
+          <pub-id pub-id-type="doi">10.1590/S0104-64972013000200005</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3807413">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Paz-Ríos</surname>
+              <given-names>C. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Guerra-García</surname>
+              <given-names>J. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ardisson</surname>
+              <given-names>P. L.</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>Caprellids (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subphylum">Crustacea</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Amphipoda</tp:taxon-name-part></tp:taxon-name>) from the Gulf of Mexico, with observations on <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Deutella">Deutella</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mayeri">mayeri</tp:taxon-name-part></tp:taxon-name></italic>, redescription of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Metaprotella">Metaprotella</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="hummelincki">hummelincki</tp:taxon-name-part></tp:taxon-name></italic>, a taxonomic key and zoogeographical comments</article-title>
+          <source>Journal of Natural History</source>
+          <volume>48</volume>
+          <fpage>2517</fpage>
+          <lpage>2578</lpage>
+          <pub-id pub-id-type="doi">10.1080/00222933.2014.931481</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3993710">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ramírez-Hernández</surname>
+              <given-names>Adriana</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hernández-Alcántara</surname>
+              <given-names>Pablo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Solís-Weiss</surname>
+              <given-names>Vivianne</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Nereis">Nereis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="alacranensis">alacranensis</tp:taxon-name-part></tp:taxon-name></italic>, a new species of polychaete (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Annelida</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Nereididae</tp:taxon-name-part></tp:taxon-name>) from Alacranes Reef, southern Gulf of Mexico, with a key to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Nereis">Nereis</tp:taxon-name-part></tp:taxon-name></italic> from the Grand Caribbean</article-title>
+          <source>Zootaxa</source>
+          <volume>4012</volume>
+          <issue>1</issue>
+          <fpage>156</fpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.11646/zootaxa.4012.1.8</uri>
+          <pub-id pub-id-type="doi">10.11646/zootaxa.4012.1.8</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3993745">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Reyes-Gómez</surname>
+              <given-names>Adriana</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ortigosa</surname>
+              <given-names>Deneb</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Simões</surname>
+              <given-names>Nuno</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Chitons (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Mollusca</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Polyplacophora</tp:taxon-name-part></tp:taxon-name>) from Alacranes Reef, Yucatan, Mexico</article-title>
+          <source>ZooKeys</source>
+          <volume>665</volume>
+          <fpage>1</fpage>
+          <lpage>36</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.3897/zookeys.665.10476</uri>
+          <pub-id pub-id-type="doi">10.3897/zookeys.665.10476</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3993700">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Santana-Moreno</surname>
+              <given-names>Luis Daniel</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Grave</surname>
+              <given-names>Sammy De</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Simões</surname>
+              <given-names>Nuno</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>New records of caridean shrimps (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Decapoda</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="infraorder">Caridea</tp:taxon-name-part></tp:taxon-name>) from shallow water along the northern Yucatan Peninsula coasts of México</article-title>
+          <source>Nauplius</source>
+          <volume>21</volume>
+          <issue>2</issue>
+          <fpage>225</fpage>
+          <lpage>238</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1590/s0104-64972013000200009</uri>
+          <pub-id pub-id-type="doi">10.1590/s0104-64972013000200009</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3913069">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Tunnell</surname>
+              <given-names>J. W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chávez</surname>
+              <given-names>E. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Withers</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <source>Coral Reefs of the Southern Gulf of Mexico</source>
+          <publisher-name>Texas A &amp; M University Press</publisher-name>
+          <publisher-loc>Corpus Christi</publisher-loc>
+          <size units="page">194</size>
+          <isbn>978‐1‐58544‐617‐9</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B3913078">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Tunnell</surname>
+              <given-names>J. W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barrera</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Beaver</surname>
+              <given-names>C. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Davidson</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gourley</surname>
+              <given-names>J. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Moretzsohn</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nañez-James</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pearce</surname>
+              <given-names>J. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vega</surname>
+              <given-names>M. E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Checklist of the biota associated with Southern Gulf of Mexico coral reefs and coral reef islands</article-title>
+          <uri xlink:type="simple">http://www.gulfbase.org/checklist/</uri>
+          <date-in-citation content-type="access-date">2012-08-03T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B3993730">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ugalde</surname>
+              <given-names>Diana</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gómez</surname>
+              <given-names>Patricia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Simões</surname>
+              <given-names>Nuno</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Marine sponges (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Porifera</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Demospongiae</tp:taxon-name-part></tp:taxon-name>) from the Gulf of México, new records and redescription of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Erylus">Erylus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="trisphaerus">trisphaerus</tp:taxon-name-part></tp:taxon-name></italic> (de Laubenfels, 1953)</article-title>
+          <source>Zootaxa</source>
+          <volume>3911</volume>
+          <issue>2</issue>
+          <fpage>151</fpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.11646/zootaxa.3911.2.1</uri>
+          <pub-id pub-id-type="doi">10.11646/zootaxa.3911.2.1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3807563">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Wilkinson</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wiken</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bezaury-Creel</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hourigan</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Agardy</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Herrmann</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Janishevski</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Madden</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Morgan</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Padilla</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <source>Marine Ecoregions of North America</source>
+          <publisher-name>Commission for Environmental Cooperation</publisher-name>
+          <publisher-loc>Montreal</publisher-loc>
+          <size units="page">200</size>
+        </element-citation>
+      </ref>
+      <ref id="B3807578">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Winfield</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Escobar-Briones</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Álvarez</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <source>Clave para la identificación de los anfípodos bentónicos del Golfo de México y el sector norte del Mar Caribe</source>
+          <publisher-name>Universidad Nacional Autónoma de México, Comisión Nacional para el Conocimiento y Uso de la Biodiversidad</publisher-name>
+          <publisher-loc>Mexico</publisher-loc>
+          <size units="page">197</size>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F3913014" position="float" orientation="portrait">
+      <object-id content-type="arpha">8516FA05-390B-595A-99DE-22FD804A5E6F</object-id>
+      <object-id content-type="doi">10.3897/BDJ.6.e22622.figure1</object-id>
+      <object-id content-type="zenodo_dep_id">1166477</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Location of sampling points in the Alacranes Reef National Park. The image from the NASA Earth Observatory, was acquired by Jesse Allen on November 5, 2014, by the Operation Land Imager on Landsat 8.</p>
+      </caption>
+      <graphic xlink:href="bdj-06-e22622-g001.jpg" position="float" id="oo_168048.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/168048</uri>
+      </graphic>
+    </fig>
+    <table-wrap id="T3739220" position="float" orientation="portrait">
+      <label>Table 1.</label>
+      <caption>
+        <p>Checklist of benthic amphipod species in the Alacranes Reef, Yucatan.</p>
+      </caption>
+      <table rules="all" border="0" style="width:653px">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:88px">Suborder</td>
+            <td rowspan="1" colspan="1" style="width:116px">Family</td>
+            <td rowspan="1" colspan="1" style="width:449px">Species</td>
+          </tr>
+          <tr>
+            <td rowspan="46" colspan="1" style="width:88px">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="suborder">Amphilochidea</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="4" colspan="1" style="width:116px">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Ampeliscidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ampelisca">Ampelisca</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="brevisimulata">brevisimulata</tp:taxon-name-part></tp:taxon-name></italic> Barnard, 1954</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ampelisca">Ampelisca</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="cristata">cristata</tp:taxon-name-part></tp:taxon-name></italic> Holmes, 1908</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ampelisca">Ampelisca</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="schellenbergi">schellenbergi</tp:taxon-name-part></tp:taxon-name></italic> Shoemaker, 1933</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ampelisca">Ampelisca</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="vadorum">vadorum</tp:taxon-name-part></tp:taxon-name></italic> Mills, 1963</td>
+          </tr>
+          <tr>
+            <td rowspan="2" colspan="1" style="width:116px">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Amphilochidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apolochus">Apolochus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="delacaya">delacaya</tp:taxon-name-part></tp:taxon-name></italic> (McKinney, 1978)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apolochus">Apolochus</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+          </tr>
+          <tr>
+            <td rowspan="2" colspan="1" style="width:116px">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Bateidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Batea">Batea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="carinata">carinata</tp:taxon-name-part></tp:taxon-name></italic> (Shoemaker, 1926)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Batea">Batea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="cuspidata">cuspidata</tp:taxon-name-part></tp:taxon-name></italic> (Shoemaker, 1926)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:116px">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Cyproideidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hoplopheonoides">Hoplopheonoides</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="obesa">obesa</tp:taxon-name-part></tp:taxon-name></italic> Shoemaker, 1956</td>
+          </tr>
+          <tr>
+            <td rowspan="2" colspan="1" style="width:116px">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Dexaminidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Dexaminella">Dexaminella</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Notrotopis">Notrotopis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="minikoi">minikoi</tp:taxon-name-part></tp:taxon-name></italic> (Walker, 1905)</td>
+          </tr>
+          <tr>
+            <td rowspan="11" colspan="1" style="width:116px">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Leucothoidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Anamixis">Anamixis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="cavatura">cavatura</tp:taxon-name-part></tp:taxon-name></italic> Thomas, 1997</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Anamixis">Anamixis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="vanga">vanga</tp:taxon-name-part></tp:taxon-name></italic> Thomas, 1997</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leucothoe">Leucothoe</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="ashleyae">ashleyae</tp:taxon-name-part></tp:taxon-name></italic> Thomas &amp; Klebba, 2006</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leucothoe">Leucothoe</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="barana">barana</tp:taxon-name-part></tp:taxon-name></italic> Thomas &amp; Klebba, 2007</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leucothoe">Leucothoe</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="hendrickxi">hendrickxi</tp:taxon-name-part></tp:taxon-name></italic> Winfield &amp; Álvarez, 2009</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leucothoe">Leucothoe</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="kensleyi">kensleyi</tp:taxon-name-part></tp:taxon-name></italic> Thomas &amp; Klebba, 2005</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leucothoe">Leucothoe</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="laurensi">laurensi</tp:taxon-name-part></tp:taxon-name></italic> Thomas &amp; Ortiz, 1995</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leucothoe">Leucothoe</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="saron">saron</tp:taxon-name-part></tp:taxon-name></italic> Thomas &amp; Klebba, 2007</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leucothoe">Leucothoe</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="ubouhu">ubouhu</tp:taxon-name-part></tp:taxon-name></italic> Thomas &amp; Klebba, 2007</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leucothoe">Leucothoe</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="wuriti">wuriti</tp:taxon-name-part></tp:taxon-name></italic> Thomas &amp; Klebba, 2007</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leucothoe">Leucothoe</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+          </tr>
+          <tr>
+            <td rowspan="4" colspan="1" style="width:116px">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Liljeborgiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Liljeborgia">Liljeborgia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="bousfieldi">bousfieldi</tp:taxon-name-part></tp:taxon-name></italic> McKinney, 1979</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Liljeborgia">Liljeborgia</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Idunella">Idunella</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="barnardi">barnardi</tp:taxon-name-part></tp:taxon-name></italic> (Wigley, 1966)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Idunella">Idunella</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+          </tr>
+          <tr>
+            <td rowspan="8" colspan="1" style="width:116px">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Lysianassidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Aruga">Aruga</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="holmesi">holmesi</tp:taxon-name-part></tp:taxon-name></italic> Barnard, 1955</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Concarnes">Concarnes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="concavus">concavus</tp:taxon-name-part></tp:taxon-name></italic> (Shoemaker, 1933)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ensayara">Ensayara</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="entrichoma">entrichoma</tp:taxon-name-part></tp:taxon-name></italic> Gable &amp; Lazo-Wasem, 1990</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hippomedon">Hippomedon</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Lepidepecreum">Lepidepecreum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="madagascarensis">madagascarensis</tp:taxon-name-part></tp:taxon-name></italic> (Ledoyer, 1986)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Lysianopsis">Lysianopsis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="alba">alba</tp:taxon-name-part></tp:taxon-name></italic> (Holmes, 1905)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Orchomenella">Orchomenella</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="thomasi">thomasi</tp:taxon-name-part></tp:taxon-name></italic> Lowry &amp; Stoddart, 1997</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Shoemakerella">Shoemakerella</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="cubensis">cubensis</tp:taxon-name-part></tp:taxon-name></italic> (Stebbing, 1897)</td>
+          </tr>
+          <tr>
+            <td rowspan="3" colspan="1" style="width:116px">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Oedicerotidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Americhelidium">Americhelidium</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="americanum">americanum</tp:taxon-name-part></tp:taxon-name></italic> (Bousfield, 1973)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hartmanodes">Hartmanodes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="nyei">nyei</tp:taxon-name-part></tp:taxon-name></italic> (Shoemaker, 1933)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Perioculodes">Perioculodes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="cerasinus">cerasinus</tp:taxon-name-part></tp:taxon-name></italic> Thomas &amp; Barnard, 1985</td>
+          </tr>
+          <tr>
+            <td rowspan="4" colspan="1" style="width:116px">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Phoxocephalidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eobrolgus">Eobrolgus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="spinosus">spinosus</tp:taxon-name-part></tp:taxon-name></italic> (Holmes, 1905)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Harpinia">Harpinia</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Metharpinia">Metharpinia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="floridana">floridana</tp:taxon-name-part></tp:taxon-name></italic> (Shoemaker, 1933)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Rhepoxynius">Rhepoxynius</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:116px">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Platyischnopidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eudevenopus">Eudevenopus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="honduranus">honduranus</tp:taxon-name-part></tp:taxon-name></italic> Thomas &amp; Barnard, 1983</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:116px">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Sebidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Seba">Seba</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="tropica">tropica</tp:taxon-name-part></tp:taxon-name></italic> McKinney, 1980</td>
+          </tr>
+          <tr>
+            <td rowspan="3" colspan="1" style="width:116px">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Stenothoidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Stenothoe">Stenothoe</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="gallensis">gallensis</tp:taxon-name-part></tp:taxon-name></italic> Walker, 1904</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Stenothoe">Stenothoe</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="valida">valida</tp:taxon-name-part></tp:taxon-name></italic> Dana, 1853</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Stenothoe">Stenothoe</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+          </tr>
+          <tr>
+            <td rowspan="6" colspan="1" style="width:88px">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="suborder">Colomastigidea</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="6" colspan="1" style="width:116px">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Colomastigidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Colomastix">Colomastix</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="denticornis">denticornis</tp:taxon-name-part></tp:taxon-name></italic> LeCroy, 1995</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Colomastix">Colomastix</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="falcirama">falcirama</tp:taxon-name-part></tp:taxon-name></italic> LeCroy, 1995</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Colomastix">Colomastix</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="heardi">heardi</tp:taxon-name-part></tp:taxon-name></italic> LeCroy, 1995</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Colomastix">Colomastix</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="irciniae">irciniae</tp:taxon-name-part></tp:taxon-name></italic> LeCroy, 1995</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Colomastix">Colomastix</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="tridentata">tridentata</tp:taxon-name-part></tp:taxon-name></italic> LeCroy, 1995</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Colomastix">Colomastix</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+          </tr>
+          <tr>
+            <td rowspan="58" colspan="1" style="width:88px">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="suborder">Senticaudata</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="6" colspan="1" style="width:116px">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Ampithoidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ampithoe">Ampithoe</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="marcuzzii">marcuzzii</tp:taxon-name-part></tp:taxon-name></italic> Ruffo, 1954</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ampithoe">Ampithoe</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="ramondi">ramondi</tp:taxon-name-part></tp:taxon-name></italic> Audouin, 1826</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ampithoe">Ampithoe</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="valida">valida</tp:taxon-name-part></tp:taxon-name></italic> Smith, 1873</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cymadusa">Cymadusa</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="compta">compta</tp:taxon-name-part></tp:taxon-name></italic> (Smith, 1873)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cymadusa">Cymadusa</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="filosa">filosa</tp:taxon-name-part></tp:taxon-name></italic> Savigni, 1816</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pseudamphithoides">Pseudamphithoides</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="incurvaria">incurvaria</tp:taxon-name-part></tp:taxon-name></italic> (Just, 1977)</td>
+          </tr>
+          <tr>
+            <td rowspan="13" colspan="1" style="width:116px">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Aoridae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Bemlos">Bemlos</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="dentischium">dentischium</tp:taxon-name-part></tp:taxon-name></italic> (Myers, 1977)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Bemlos">Bemlos</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="kunkelae">kunkelae</tp:taxon-name-part></tp:taxon-name></italic> (Myers, 1977)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Bemlos">Bemlos</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="longicornis">longicornis</tp:taxon-name-part></tp:taxon-name></italic> Myers, 1978</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Bemlos">Bemlos</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="spinicarpus">spinicarpus</tp:taxon-name-part></tp:taxon-name></italic> (Pearse, 1912)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Bemlos">Bemlos</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="unicornis">unicornis</tp:taxon-name-part></tp:taxon-name></italic> (Bynum &amp; Fox, 1977)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Bemlos">Bemlos</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Globosolembos">Globosolembos</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="smithi">smithi</tp:taxon-name-part></tp:taxon-name></italic> (Holmes, 1905)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Grandidierella">Grandidierella</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="bonnieroides">bonnieroides</tp:taxon-name-part></tp:taxon-name></italic> Coutiere, 1904</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Lembos">Lembos</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="unifasciatus">unifasciatus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="reductus">reductus</tp:taxon-name-part></tp:taxon-name></italic> Myers, 1979</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Lembos">Lembos</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="unifasciatus">unifasciatus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="unifasciatus">unifasciatus</tp:taxon-name-part></tp:taxon-name></italic> Myers, 1977</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paramicrodeutopus">Paramicrodeutopus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="myersi">myersi</tp:taxon-name-part></tp:taxon-name></italic> (Bynum &amp; Fox, 1977)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Plesiolembos">Plesiolembos</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="ovalipes">ovalipes</tp:taxon-name-part></tp:taxon-name></italic> (Myers, 1979)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Plesiolembos">Plesiolembos</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="rectangulatus">rectangulatus</tp:taxon-name-part></tp:taxon-name></italic> (Myers, 1977)</td>
+          </tr>
+          <tr>
+            <td rowspan="3" colspan="1" style="width:116px">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Caprellidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Deutella">Deutella</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="caribensis">caribensis</tp:taxon-name-part></tp:taxon-name></italic> Guerra-García, Krapp-Schickel &amp; Müller, 2006</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hemiaegina">Hemiaegina</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="minuta">minuta</tp:taxon-name-part></tp:taxon-name></italic> Mayer, 1890</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Metaprotella">Metaprotella</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="hummelincki">hummelincki</tp:taxon-name-part></tp:taxon-name></italic> (McCain, 1968)</td>
+          </tr>
+          <tr>
+            <td rowspan="2" colspan="1" style="width:116px">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Eriopisidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Netamelita">Netamelita</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="tabaci">tabaci</tp:taxon-name-part></tp:taxon-name></italic> Thomas &amp; Barnard, 1991</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Psammogammarus">Psammogammarus</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:116px">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Hadziidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Protohadzia">Protohadzia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="schoenerae">schoenerae</tp:taxon-name-part></tp:taxon-name></italic> (Fox, 1973)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:116px">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Hornelliidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width:449px"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hornellia">Hornellia</tp:taxon-name-part> (<tp:taxon-name-part taxon-name-part-type="subgenus" reg="Metaceradocus">Metaceradocus</tp:taxon-name-part>) <tp:taxon-name-part taxon-name-part-type="species" reg="tequestae">tequestae</tp:taxon-name-part></tp:taxon-name> Thomas &amp; Barnard, 1986</td>
+          </tr>
+          <tr>
+            <td rowspan="2" colspan="1" style="width:116px">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Hyalidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Parhyale">Parhyale</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="hawaiensis">hawaiensis</tp:taxon-name-part></tp:taxon-name></italic> (Dana, 1853)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Protohyale">Protohyale</tp:taxon-name-part> (<tp:taxon-name-part taxon-name-part-type="subgenus" reg="Protohyale">Protohyale</tp:taxon-name-part>) <tp:taxon-name-part taxon-name-part-type="species" reg="macrodactyla">macrodactyla</tp:taxon-name-part></tp:taxon-name> (Stebbing, 1899)</td>
+          </tr>
+          <tr>
+            <td rowspan="3" colspan="1" style="width:116px">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Ischyroceridae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width:449px"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ambicholestes">Ambicholestes</tp:taxon-name-part> (<tp:taxon-name-part taxon-name-part-type="subgenus" reg="Ambicholestes">Ambicholestes</tp:taxon-name-part>) <tp:taxon-name-part taxon-name-part-type="species" reg="crassicornis">crassicornis</tp:taxon-name-part></tp:taxon-name> (Just, 1984)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ericthonius">Ericthonius</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="punctatus">punctatus</tp:taxon-name-part></tp:taxon-name></italic> (Bate, 1857)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ericthonius">Ericthonius</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+          </tr>
+          <tr>
+            <td rowspan="12" colspan="1" style="width:116px">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Maeridae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Anamaera">Anamaera</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="hixoni">hixoni</tp:taxon-name-part></tp:taxon-name></italic> Thomas &amp; Barnard, 1985</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ceradocus">Ceradocus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="rubromaculatus">rubromaculatus</tp:taxon-name-part></tp:taxon-name></italic> (Stimpson, 1856)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ceradocus">Ceradocus</tp:taxon-name-part> (<tp:taxon-name-part taxon-name-part-type="subgenus" reg="Denticeradocus">Denticeradocus</tp:taxon-name-part>) <tp:taxon-name-part taxon-name-part-type="species" reg="sheardi">sheardi</tp:taxon-name-part></tp:taxon-name> Shoemaker, 1948</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ceradocus">Ceradocus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="shoemakeri">shoemakeri</tp:taxon-name-part></tp:taxon-name></italic> Fox, 1973</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Elasmopus">Elasmopus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="rapax">rapax</tp:taxon-name-part></tp:taxon-name></italic> (Costa, 1853)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Elasmopus">Elasmopus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="thomasi">thomasi</tp:taxon-name-part></tp:taxon-name></italic> Ortiz &amp; Lalana, 1994</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Elasmopus">Elasmopus</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Maera">Maera</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Maeracoota">Maeracoota</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="galani">galani</tp:taxon-name-part></tp:taxon-name></italic> Krapp-Schickel &amp; Ruffo, 2001</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Meximaera">Meximaera</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="diffidentia">diffidentia</tp:taxon-name-part></tp:taxon-name></italic> Barnard, 1969</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Quadrimaera">Quadrimaera</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pacifica">pacifica</tp:taxon-name-part></tp:taxon-name></italic> (Schellenberg, 1938)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Spathiopus">Spathiopus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="looensis">looensis</tp:taxon-name-part></tp:taxon-name></italic> Thomas &amp; Barnard, 1985</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:116px">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Megaluropidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Gibberosus">Gibberosus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="myersi">myersi</tp:taxon-name-part></tp:taxon-name></italic> (McKinney, 1980)</td>
+          </tr>
+          <tr>
+            <td rowspan="2" colspan="1" style="width:116px">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Melitidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Dulichiella">Dulichiella</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="lecroyae">lecroyae</tp:taxon-name-part></tp:taxon-name></italic> Lowry &amp; Springthorpe, 2007</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic>Melita planaterga</italic> Kunkel, 1910</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:116px">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Neomegamphopidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Neomegamphopus">Neomegamphopus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="hiatus">hiatus</tp:taxon-name-part></tp:taxon-name></italic> Barnard &amp; Thomas, 1987</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:116px">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Nuuanuidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Nuuanu">Nuuanu</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="muelleri">muelleri</tp:taxon-name-part></tp:taxon-name></italic> Ortiz, 1976</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:116px">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Phliantidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pariphinotus">Pariphinotus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="seclusus">seclusus</tp:taxon-name-part></tp:taxon-name></italic> (Shoemaker, 1933)</td>
+          </tr>
+          <tr>
+            <td rowspan="4" colspan="1" style="width:116px">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Photidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Audulla">Audulla</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="chelifera">chelifera</tp:taxon-name-part></tp:taxon-name></italic> Chevreux, 1901</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Gammaropsis">Gammaropsis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="sutherlandi">sutherlandi</tp:taxon-name-part></tp:taxon-name></italic> Nelson, 1980</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Photis">Photis</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Rocasphotis">Rocasphotis</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+          </tr>
+          <tr>
+            <td rowspan="2" colspan="1" style="width:116px">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Podoceridae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Podocerus">Podocerus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="fissipes">fissipes</tp:taxon-name-part></tp:taxon-name></italic> Serejo, 1995</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Podocerus">Podocerus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="kleidus">kleidus</tp:taxon-name-part></tp:taxon-name></italic> Thomas &amp; Barnard, 1992</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:116px">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Pontogeneiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Nasageneia">Nasageneia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="yucatanensis">yucatanensis</tp:taxon-name-part></tp:taxon-name></italic> (McKinney, 1980)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:116px">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Talitridae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Tethorchestia">Tethorchestia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="antillensis">antillensis</tp:taxon-name-part></tp:taxon-name></italic> Bousfield, 1984</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:116px">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Unciolidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width:449px"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Rudilemboides">Rudilemboides</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="naglei">naglei</tp:taxon-name-part></tp:taxon-name></italic> Bousfield, 1973</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+  </floats-group>
+</article>

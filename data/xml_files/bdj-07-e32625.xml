@@ -1,0 +1,3208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="3.0" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.7.e32625</article-id>
+      <article-id pub-id-type="publisher-id">32625</article-id>
+      <article-id pub-id-type="manuscript">10609</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Animalia</subject>
+          <subject>Chelicerata</subject>
+          <subject>Araneae</subject>
+          <subject>Arachnida</subject>
+          <subject>Arthropoda</subject>
+          <subject>Invertebrata</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Ecology &amp; Environmental sciences</subject>
+          <subject>Zoology &amp; Animal Biology</subject>
+          <subject>Biodiversity &amp; Conservation</subject>
+          <subject>General ecology</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>Atlantic Ocean</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Standardised inventories of spiders (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Arachnida</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>) of Macaronesia I: The native forests of the Azores (Pico and Terceira islands)</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes" xlink:type="simple">
+          <name name-style="western">
+            <surname>Malumbres-Olarte</surname>
+            <given-names>Jagoba</given-names>
+          </name>
+          <email xlink:type="simple">jagoba.malumbres.olarte@gmail.com</email>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Cardoso</surname>
+            <given-names>Pedro</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A3">3</xref>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Crespo</surname>
+            <given-names>Luís Carlos Fonseca</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Gabriel</surname>
+            <given-names>Rosalina</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Pereira</surname>
+            <given-names>Fernando</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Carvalho</surname>
+            <given-names>Rui</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Rego</surname>
+            <given-names>Carla</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Nunes</surname>
+            <given-names>Rui</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Ferreira</surname>
+            <given-names>Maria Teresa</given-names>
+          </name>
+          <uri content-type="orcid" xlink:type="simple">https://orcid.org/0000-0002-3740-6069</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Amorim</surname>
+            <given-names>Isabel R.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Rigal</surname>
+            <given-names>François</given-names>
+          </name>
+          <xref ref-type="aff" rid="A5">5</xref>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Borges</surname>
+            <given-names>Paulo A. V.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A6">6</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">cE3c – Centre for Ecology, Evolution and Environmental Changes / Azorean Biodiversity Group and Universidade dos Açores, Rua Capitão João d’Ávila, São Pedro, 9700-042 , Angra do Heroísmo, Azores, Portugal</addr-line>
+        <institution xlink:type="simple">cE3c – Centre for Ecology, Evolution and Environmental Changes / Azorean Biodiversity Group and Universidade dos Açores, Rua Capitão João d’Ávila, São Pedro, 9700-042 </institution>
+        <addr-line content-type="city">Angra do Heroísmo, Azores</addr-line>
+        <country>Portugal</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">LIBRe – Laboratory for Integrative Biodiversity Research, Finnish Museum of Natural History, University of Helsinki, Helsinki, Finland</addr-line>
+        <institution xlink:type="simple">LIBRe – Laboratory for Integrative Biodiversity Research, Finnish Museum of Natural History, University of Helsinki</institution>
+        <addr-line content-type="city">Helsinki</addr-line>
+        <country>Finland</country>
+      </aff>
+      <aff id="A3">
+        <label>3</label>
+        <addr-line content-type="verbatim">IUCN SSC Spider &amp; Scorpion Specialist Group, Helsinki, Finland</addr-line>
+        <institution xlink:type="simple">IUCN SSC Spider &amp; Scorpion Specialist Group</institution>
+        <addr-line content-type="city">Helsinki</addr-line>
+        <country>Finland</country>
+      </aff>
+      <aff id="A4">
+        <label>4</label>
+        <addr-line content-type="verbatim">Biodiversity Research Institute UB, Department of Evolutionary Biology, Ecology and Environmental Sciences (Athropods), Av. Diagonal 645, E-08028, Barcelona, Spain</addr-line>
+        <institution xlink:type="simple">Biodiversity Research Institute UB, Department of Evolutionary Biology, Ecology and Environmental Sciences (Athropods), Av. Diagonal 645, E-08028</institution>
+        <addr-line content-type="city">Barcelona</addr-line>
+        <country>Spain</country>
+      </aff>
+      <aff id="A5">
+        <label>5</label>
+        <addr-line content-type="verbatim">CNRS/ L'Université de Pau et des Pays de l’Adour/ E2S UPPA, Institut Des Sciences Analytiques et de Physico –  Chimie pour L'environnement et les Materiaux – MIRA*, UMR5254, 64000, Pau, France</addr-line>
+        <institution xlink:type="simple">CNRS/ L'Université de Pau et des Pays de l’Adour/ E2S UPPA, Institut Des Sciences Analytiques et de Physico –  Chimie pour L'environnement et les Materiaux – MIRA*, UMR5254</institution>
+        <addr-line content-type="city">64000, Pau</addr-line>
+        <country>France</country>
+      </aff>
+      <aff id="A6">
+        <label>6</label>
+        <addr-line content-type="verbatim">IUCN SSC Mid-Atlantic Islands Specialist Group, Angra do Heroísmo, Azores, Portugal</addr-line>
+        <institution xlink:type="simple">IUCN SSC Mid-Atlantic Islands Specialist Group</institution>
+        <addr-line content-type="city">Angra do Heroísmo, Azores</addr-line>
+        <country>Portugal</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Jagoba Malumbres-Olarte (<email xlink:type="simple">jagoba.malumbres.olarte@gmail.com</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Jeremy Miller</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>16</day>
+        <month>04</month>
+        <year>2019</year>
+      </pub-date>
+      <volume>7</volume>
+      <elocation-id>e32625</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/D12D7A2D-99E7-5DD3-98A5-5F870736C20A">D12D7A2D-99E7-5DD3-98A5-5F870736C20A</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/2649618">2649618</uri>
+      <history>
+        <date date-type="received">
+          <day>26</day>
+          <month>12</month>
+          <year>2018</year>
+        </date>
+        <date date-type="accepted">
+          <day>08</day>
+          <month>03</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Jagoba Malumbres-Olarte, Pedro Cardoso, Luís Carlos Fonseca Crespo, Rosalina Gabriel, Fernando Pereira, Rui Carvalho, Carla Rego, Rui Nunes, Maria Teresa Ferreira, Isabel R. Amorim, François Rigal, Paulo A. V. Borges</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>The data presented here come from samples collected as part of two recent research projects (NETBIOME - ISLANDBIODIV and FCT - MACDIV) which aimed at understanding the drivers of community assembly in Macaronesian islands. We applied the sampling protocol COBRA (Conservation Oriented Biodiversity Rapid Assessment, <xref ref-type="bibr" rid="B4907508">Cardoso 2009</xref>) in sixteen 50 m x 50 m native forest plots in the Azorean Islands of Pico (6 plots) and Terceira (10 plots) to assess spider diversity. Through this publication, we contribute to the knowledge of the arachnofauna of the Azores and, more specifically, to that of the islands of Pico and Terceira.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>The collected samples yielded 8,789 specimens, of which 45% were adults (3,970) belonging to 13 families, 36 species and three morphospecies that have yet to be described. Species of the family <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part></tp:taxon-name> dominated the samples, with 17 species and two morphospecies that have yet to be described (48% of the taxa). Out of the identified (morpho)species, 16 were introduced, 13 Azorean endemic (three of which were undescribed) and seven native (five of them Macaronesian endemics). We report the first record of the introduced species <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Haplodrassus">Haplodrassus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="signifer">signifer</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Agyneta">Agyneta</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="decora">decora</tp:taxon-name-part></tp:taxon-name></italic> in Pico Island.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="phylum">Arthropoda</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>Azores</kwd>
+        <kwd>Terceira</kwd>
+        <kwd>Pico</kwd>
+        <kwd>native forest</kwd>
+        <kwd>exotic species</kwd>
+        <kwd>standardised sampling</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group xlink:type="simple">
+          <funding-source xlink:type="simple">
+            <named-content content-type="funder_name" xlink:type="simple">Fundação para a Ciência e a Tecnologia</named-content>
+            <named-content content-type="funder_identifier" xlink:type="simple">501100001871</named-content>
+            <named-content content-type="funder_doi" xlink:type="simple">http://doi.org/10.13039/501100001871</named-content>
+          </funding-source>
+        </award-group>
+      </funding-group>
+      <counts>
+        <fig-count count="6"/>
+        <table-count count="3"/>
+        <ref-count count="16"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>Despite six centuries of disturbance and land use changes, the Azorean islands still contain areas covered by unique native forest (<xref ref-type="bibr" rid="B4929617">Triantis et al. 2010</xref>). This forest accounts for about 5% of the total area of the archipelago and is mainly present on the islands of Flores, Pico and Terceira (<xref ref-type="bibr" rid="B4907550">Gaspar et al. 2010</xref>). From a conservation perspective, the importance of these forests resides in their being home to numerous endemic arthropod species, many of which have been given different status of conservation concern following the IUCN Red List criteria (see for the insects <xref ref-type="bibr" rid="B4907442">Borges et al. 2017</xref>, <xref ref-type="bibr" rid="B4907483">Borges et al. 2018a</xref>). Furthermore, many species – mainly arthropods – await discovery and taxonomic description, despite the high rate of taxonomic descriptions in the last decades (<xref ref-type="bibr" rid="B4907560">Lobo and Borges 2010</xref>). For instance, 24 out of the known 26 endemic spiders have been described since 1989 (<xref ref-type="bibr" rid="B4907498">Borges and Wunderlich 2008</xref>, <xref ref-type="bibr" rid="B4907423">Borges et al. 2010</xref>, <xref ref-type="bibr" rid="B4968752">Crespo et al. 2013</xref>, <xref ref-type="bibr" rid="B4968762">Crespo et al. 2014</xref>).</p>
+      <p>Indeed, the effective, appropriate and efficient conservation of ecologically valuable areas requires knowing the identity and colonisation status of species (i.e. endemic, native non-endemic or introduced), often provided by large-scale projects such as the EU NETBIOME funded ISLANDBIODIV (<italic>Understanding biodiversity dynamics in tropical and subtropical islands in an aid to science based conservation action</italic>) and the Portuguese FCT funded MACDIV (<italic>Macaronesian Islands as a testing ground to assess biodiversity drivers at multiple scales</italic>). Both ISLANDBIODIV and MACDIV aim to unveil the diversity patterns in vascular plants, springtails, beetles and spiders at local and regional scales in Macaronesian islands (see <xref ref-type="bibr" rid="B4907535">Emerson et al. 2016</xref>, <xref ref-type="bibr" rid="B4907518">Cicconardi et al. 2017</xref>, <xref ref-type="bibr" rid="B4907375">Borges et al. 2018b</xref>). Here we present the information on the species collected in the Azorean forest plots that are part of the ISLANDBIODIV and MACDIV projects.</p>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Study extent">
+        <title>Study extent</title>
+        <p>On each of the Azorean islands of Pico and Terceira, we established six and ten 50 m x 50 m plots along a longitudinal distance of 20 km and 13 km, respectively. In Pico, each plot is located at increasing distances from a first, reference plot (Table <xref ref-type="table" rid="T4907354">1</xref>): 0.1, 1, 5, 10 and 20 km (Fig. <xref ref-type="fig" rid="F4907373">1</xref>), covering the three existing forest fragments in order to test distance decay patterns on beta diversity in a log scale within project MACDIV. In Terceira, the 10 plots were randomly distributed in the four main fragments of native forest also to test patterns of alpha and beta diversity (see <xref ref-type="bibr" rid="B4907518">Cicconardi et al. 2017</xref>, <xref ref-type="bibr" rid="B4907375">Borges et al. 2018b</xref>). All plots were located in mid to high elevation native forest dominated by <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Juniperus">Juniperus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="brevifolia">brevifolia</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Laurus">Laurus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="azorica">azorica</tp:taxon-name-part></tp:taxon-name></italic> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ilex">Ilex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="perado">perado</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">subsp.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="azorica">azorica</tp:taxon-name-part></tp:taxon-name> trees (see <xref ref-type="bibr" rid="B4907375">Borges et al. 2018b</xref> for more details on the surveyed habitats) (Fig. <xref ref-type="fig" rid="F4962242">2</xref>).</p>
+      </sec>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>We sampled all plots using the optimised and standardised COBRA (Conservation Oriented Biodiversity Rapid Assessment) protocol for temperate forests (<xref ref-type="bibr" rid="B4907508">Cardoso 2009</xref>). Different variants of the COBRA protocol for spiders and beetles have already been applied in oceanic islands (<xref ref-type="bibr" rid="B4907535">Emerson et al. 2016</xref>) and for spiders on tropical forests (<xref ref-type="bibr" rid="B4907574">Malumbres-Olarte et al. 2016</xref>, <xref ref-type="bibr" rid="B4907585">Malumbres-Olarte et al. 2018</xref>). Although originally developed and optimised for mainland temperate and Mediterranean habitats, COBRA protocols have been recently proposed as the standard protocols for inventorying and monitoring spiders and beetles in island forest ecosystems (<xref ref-type="bibr" rid="B4907598">Borges et al. 2018c</xref>). The COBRA protocol, when applied to temperate forests, consists of: four night aerial samples (1 hour / sample), two day sweeping samples and two night sweeping samples (1 hour / sample), two day beating samples and two night beating samples (1 hour / sample) and 12 pitfall samples (4 traps / sample). Specifically for islands, we added two sampling methodologies to also cover beetle diversity (<xref ref-type="bibr" rid="B4907598">Borges et al. 2018c</xref>): two diurnal active aerial searching under bark, lichens and bryophytes (ABS) (1 hour / sample) and two diurnal active aerial searching in decaying trunks, dead wood on the ground and under stones (GWS) (1 hour / sample). We collected all samples in July 2016 (Pico, MACDIV) and in June-September 2012 (Terceira, ISLANDBIODIV).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>Pico and Terceira Islands, the Azores, Macaronesia, Portugal</p>
+      </sec>
+      <sec sec-type="Coordinates">
+        <title>Coordinates</title>
+        <p>38.434491 and 38.7617777778 Latitude; -28.4228543692 and -27.1971972222 Longitude.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Taxa included">
+        <title>Taxa included</title>
+        <table-wrap id="taxonomic_coverage" position="anchor" orientation="portrait">
+          <table rules="all">
+            <thead>
+              <tr>
+                <th rowspan="1" colspan="1">Rank</th>
+                <th rowspan="1" colspan="1">Scientific Name</th>
+                <th rowspan="1" colspan="1">Common Name</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">order</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1">Spiders</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <p><bold>Single date:</bold> 2012-6-01; 2016-9-26.</p>
+    </sec>
+    <sec sec-type="Collection data">
+      <title>Collection data</title>
+      <sec sec-type="Collection name">
+        <title>Collection name</title>
+        <p>Dalberto Teixeira Pombo insect collection at the University of Azores</p>
+      </sec>
+      <sec sec-type="Collection identifier">
+        <title>Collection identifier</title>
+        <p>DTP</p>
+      </sec>
+      <sec sec-type="Specimen preservation method">
+        <title>Specimen preservation method</title>
+        <p>All specimens were preserved in 96% ethanol</p>
+      </sec>
+      <sec sec-type="Curatorial unit">
+        <title>Curatorial unit</title>
+        <p>Dalberto Teixeira Pombo insect collection at the University of Azores (Curator: Paulo A. V. Borges)</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Open Data Commons Attribution License</p>
+      </sec>
+      <sec sec-type="IP rights notes">
+        <title>IP rights notes</title>
+        <p>CC-BY 4.0</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>MACDIV_COBRA_Azores_Forest</p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="https://www.gbif.org/dataset/6aa5ac09-2b55-4078-bd2d-ec94fb91850a" xlink:type="simple">https://www.gbif.org/dataset/6aa5ac09-2b55-4078-bd2d-ec94fb91850a</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>1</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>MACDIV_COBRA_Azores_Forest</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Darwin Core Archive</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>68</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="https://www.gbif.org/dataset/6aa5ac09-2b55-4078-bd2d-ec94fb91850a" xlink:type="simple">https://www.gbif.org/dataset/6aa5ac09-2b55-4078-bd2d-ec94fb91850a</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Data format version">
+          <title>Data format version</title>
+          <p>version 1</p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>The following data table includes all the records for which a taxonomic identification of the species was possible. The dataset submitted to GBIF is structured as a sample event dataset, with two tables: event (as core) and occurrences. The data in this sampling event resource have been published as a Darwin Core Archive (DwCA), which is a standardised format for sharing biodiversity data as a set of one or more data tables. The core data table contains 423 records (eventID). One extension data table also exists. An extension record supplies extra information about a core record. The number of records in each extension data table is illustrated in the IPT link. This IPT archives the data and thus serves as the data repository. The data and resource metadata are available for downloading in the downloads section. The versions table lists other versions of the resource that have been made publicly available and allows tracking changes made to the resource over time.</p>
+          <p>In Suppl. material <xref ref-type="supplementary-material" rid="S4931921">1</xref>, we provide a file with two tables, one with the samping event data and the other with the species abundance data.</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">Table of Sampling Events</td>
+                  <td rowspan="1" colspan="1">Table with sampling events data (beginning of table)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">id</td>
+                  <td rowspan="1" colspan="1">Unique identification code for sampling event data</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventID</td>
+                  <td rowspan="1" colspan="1">Identifier of the events, unique for the dataset</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">samplingProtocol</td>
+                  <td rowspan="1" colspan="1">The sampling protocol used to capture the species</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">sampleSizeValue</td>
+                  <td rowspan="1" colspan="1">The numeric amount of time spent in each sampling</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">sampleSizeUnit</td>
+                  <td rowspan="1" colspan="1">The unit of the sample size value</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">samplingEffort</td>
+                  <td rowspan="1" colspan="1">The amount of time of each sampling</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventDate</td>
+                  <td rowspan="1" colspan="1">Date or date range the record was collected</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventTime</td>
+                  <td rowspan="1" colspan="1">Time of the day the record was collected</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">startDayOfYear</td>
+                  <td rowspan="1" colspan="1">The earliest ordinal day of the year on which the event occurred</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">endDayOfYear</td>
+                  <td rowspan="1" colspan="1">The latest ordinal day of the year on which the event occurred</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">year</td>
+                  <td rowspan="1" colspan="1">Year of the event</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">month</td>
+                  <td rowspan="1" colspan="1">Month of the event</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">day</td>
+                  <td rowspan="1" colspan="1">Day of the event</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">habitat</td>
+                  <td rowspan="1" colspan="1">The surveyed habitat</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">fieldNumber</td>
+                  <td rowspan="1" colspan="1">The code given to each sample</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">locationID</td>
+                  <td rowspan="1" colspan="1">Identifier of the location</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">islandGroup</td>
+                  <td rowspan="1" colspan="1">Name of archipelago</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">island</td>
+                  <td rowspan="1" colspan="1">Name of the island</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">country</td>
+                  <td rowspan="1" colspan="1">Country of the sampling site</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">countryCode</td>
+                  <td rowspan="1" colspan="1">ISO code of the country of the sampling site</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">stateProvince</td>
+                  <td rowspan="1" colspan="1">Name of the region of the sampling site</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">municipality</td>
+                  <td rowspan="1" colspan="1">Name of the municipality</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">locality</td>
+                  <td rowspan="1" colspan="1">Name of the locality</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">minimumElevationInMetres</td>
+                  <td rowspan="1" colspan="1">Minimum elevation in metres</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">maximumElevationInMetres</td>
+                  <td rowspan="1" colspan="1">Maximum elevation in metres</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">locationRemarks</td>
+                  <td rowspan="1" colspan="1">Details on the locality site</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">verbatimCoordinates</td>
+                  <td rowspan="1" colspan="1">The Verbatim coordinates</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLatitude</td>
+                  <td rowspan="1" colspan="1">Approximate centre point decimal latitude of the field site in GPS coordinates</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLongitude</td>
+                  <td rowspan="1" colspan="1">Approximate centre point decimal longitude of the field site in GPS coordinates</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">geodeticDatum</td>
+                  <td rowspan="1" colspan="1">The reference point for the various coordinate systems used in mapping the earth</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">coordinateUncertaintyInMetres</td>
+                  <td rowspan="1" colspan="1">Uncertainty of the coordinates</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">coordinatePrecision</td>
+                  <td rowspan="1" colspan="1">Precision of the coordinates</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">georeferenceSources</td>
+                  <td rowspan="1" colspan="1">A list (concatenated and separated) of maps, gazetteers or other resources used to georeference the Location, described specifically enough to allow anyone in the future to use the same resources.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Table of Species Abundances</td>
+                  <td rowspan="1" colspan="1">Table with species abundance data (beginning of new table)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">id</td>
+                  <td rowspan="1" colspan="1">Unique identification code for species abundance data</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">type</td>
+                  <td rowspan="1" colspan="1">Type of the record, as defined by the Public Core standard</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">licence</td>
+                  <td rowspan="1" colspan="1">Reference to the licence under which the record is published</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">institutionID</td>
+                  <td rowspan="1" colspan="1">The identity of the institution publishing the data</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">collectionID</td>
+                  <td rowspan="1" colspan="1">The identity of the collection publishing the data</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">institutionCode</td>
+                  <td rowspan="1" colspan="1">The code of the institution publishing the data</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">collectionCode</td>
+                  <td rowspan="1" colspan="1">The code of the collection where the specimens are conserved</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">datasetName</td>
+                  <td rowspan="1" colspan="1">Name of the dataset</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">basisOfRecord</td>
+                  <td rowspan="1" colspan="1">The nature of the data record</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">dynamicProperties</td>
+                  <td rowspan="1" colspan="1">The name of the scientific project funding the sampling</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceID</td>
+                  <td rowspan="1" colspan="1">Identifier of the record, coded as a global unique identifier</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">catalogNumber</td>
+                  <td rowspan="1" colspan="1">Record number of the specimen in the collection</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">recordedBy</td>
+                  <td rowspan="1" colspan="1">Name of the person who performed the sampling of the specimens</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">individualCount</td>
+                  <td rowspan="1" colspan="1">Total number of individuals captured</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">organismQuantity</td>
+                  <td rowspan="1" colspan="1">Total number of individuals captured, as numeric</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">organismQuantityType</td>
+                  <td rowspan="1" colspan="1">The unit of the identification of the organisms</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">sex</td>
+                  <td rowspan="1" colspan="1">The sex and quantity of the individuals captured</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">lifeStage</td>
+                  <td rowspan="1" colspan="1">The life stage of the organisms captured</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">establishmentMeans</td>
+                  <td rowspan="1" colspan="1">The process of establishment of the species in the location, using a controlled vocabulary: 'native non-endemic', 'introduced', 'endemic'</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceStatus</td>
+                  <td rowspan="1" colspan="1">Information about the presence/absence of the species</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventID</td>
+                  <td rowspan="1" colspan="1">A unique identifier of an occurrence</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">identifiedBy</td>
+                  <td rowspan="1" colspan="1">Name of the person who made the identification</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">dateIdentified</td>
+                  <td rowspan="1" colspan="1">Date on which the record was identified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificName</td>
+                  <td rowspan="1" colspan="1">Complete scientific name including author and year</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">kingdom</td>
+                  <td rowspan="1" colspan="1">Kingdom name</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">phylum</td>
+                  <td rowspan="1" colspan="1">Phylum name</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">class</td>
+                  <td rowspan="1" colspan="1">Class name</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">order</td>
+                  <td rowspan="1" colspan="1">Order name</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">family</td>
+                  <td rowspan="1" colspan="1">Family name</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">genus</td>
+                  <td rowspan="1" colspan="1">Genus name</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">specificEpithet</td>
+                  <td rowspan="1" colspan="1">Specific epithet</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">taxonRank</td>
+                  <td rowspan="1" colspan="1">Lowest taxonomic rank of the record</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificNameAuthorship</td>
+                  <td rowspan="1" colspan="1">Name of the author of the lowest taxon rank included in the record</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+    <sec sec-type="Additional information">
+      <title>Additional information</title>
+      <sec sec-type="Results">
+        <title>Results</title>
+        <p>We collected 3,930 adult specimens (45% of all specimens), which we identified to 36 species and three morphospecies, belonging to 13 families (Tables <xref ref-type="table" rid="T4971374">2</xref>, <xref ref-type="table" rid="T4971375">3</xref>). Of the 39 taxa, 19 belonged to the family <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part></tp:taxon-name> (17 species and two morphospecies) and six species to <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Theridiidae</tp:taxon-name-part></tp:taxon-name>. The remaining families were represented by one or two taxa. The most widespread species were <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Gibbaranea">Gibbaranea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="occidentalis">occidentalis</tp:taxon-name-part></tp:taxon-name></italic> Wunderlich, 1989 (endemic), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Lathys">Lathys</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="dentichelis">dentichelis</tp:taxon-name-part></tp:taxon-name></italic> (Simon, 1883) (native), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Acorigone">Acorigone</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="acoreensis">acoreensis</tp:taxon-name-part></tp:taxon-name></italic> (Wunderlich, 1992) (endemic), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Tenuiphantes">Tenuiphantes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="miguelensis">miguelensis</tp:taxon-name-part></tp:taxon-name></italic> (Wunderlich, 1992) (Macaronesian), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Macaroeris">Macaroeris</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="cata">cata</tp:taxon-name-part></tp:taxon-name></italic> (Blackwall, 1867) (native) and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sancus">Sancus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="acoreensis">acoreensis</tp:taxon-name-part></tp:taxon-name></italic> (Wunderlich, 1992) (endemic), which were present in all plots of both islands. Three additional species were present in 15 out of the 16 plots: <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Canariphantes">Canariphantes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="acoreensis">acoreensis</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Microlinyphia">Microlinyphia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="johnsoni">johnsoni</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Savigniorrhipis">Savigniorrhipis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="acoreensis">acoreensis</tp:taxon-name-part></tp:taxon-name></italic>. Plots had between 15-23 (morpho)species of spiders, with the Terceiran Plot 8 having the maximum of 23 (morpho)species, followed by Plot 3 of Terceira (21 species).</p>
+        <p>Four species accounted for 54% of all specimens: <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Rugathodes">Rugathodes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="acoreensis">acoreensis</tp:taxon-name-part></tp:taxon-name></italic> (753 specimens) (Fig. <xref ref-type="fig" rid="F4962226">3</xref>), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sancus">Sancus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="acoreensis">acoreensis</tp:taxon-name-part></tp:taxon-name></italic> (506) (Fig. <xref ref-type="fig" rid="F4962230">4</xref>), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Tenuiphantes">Tenuiphantes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="miguelensis">miguelensis</tp:taxon-name-part></tp:taxon-name></italic> (479) (Fig. <xref ref-type="fig" rid="F4962234">5</xref>) and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Gibbaranea">Gibbaranea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="occidentalis">occidentalis</tp:taxon-name-part></tp:taxon-name></italic> (392) (Fig. <xref ref-type="fig" rid="F4962238">6</xref>). These species occur in different forest micro-habitats: the orb-weaver, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Gibbaranea">G.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="occidentalis">occidentalis</tp:taxon-name-part></tp:taxon-name></italic>, occurs in both canopy and intermediate understorey; the theridiid, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Rugathodes">R.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="acoreensis">acoreensis</tp:taxon-name-part></tp:taxon-name></italic>, is mostly a canopy species; the tetragnathid, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sancus">S.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="acoreensis">acoreensis</tp:taxon-name-part></tp:taxon-name></italic>, is usually associated with shrubs; and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Tenuiphantes">T.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="miguelensis">miguelensis</tp:taxon-name-part></tp:taxon-name></italic> is a forest ground linyphiid, building its sheet-webs between small holes in the ground or small crevices in volcanic rocks.</p>
+        <p>Of the 39 collected species, 34 have been recorded previously in both Pico and Terceira islands (<xref ref-type="bibr" rid="B4907423">Borges et al. 2010</xref>). In total, we recorded 13 endemic species, 16 introduced, five Macaronesian, two native and three of unknown biogeographic category but possibly also endemic (which will be subject to a molecular and morphological integrative taxonomic description). Two of the 16 introduced species (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Haplodrassus">Haplodrassus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="signifer">signifer</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Agyneta">Agyneta</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="decora">decora</tp:taxon-name-part></tp:taxon-name></italic>) were recorded in Pico for the first time (cf. <xref ref-type="bibr" rid="B4907423">Borges et al. 2010</xref>).</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>This research was supported by two projects: 1) the ERA-Net Net-Biome research framework, financed through Portuguese FCT-NETBIOME grant 0003/2011 (PB); and 2) FCT MACDIV – FCT-PTDC/BIABIC/0054/2014. CR, FR and IRA were supported by grants from Fundação da Ciência e Tecnologia – FCT-SFRH/BPD/91357/2012, FCT-PTDC/BIA-BIC/119255/2010, FCT-SFRH/BPD/102804/2014 respectively. Open Access was financed by the project FCT MACDIV – FCT-PTDC/BIABIC/0054/2014.</p>
+      <p>Image taken by Enésima Mendonça is open access at AZORESBIOPORTAL led by PAVB. This manuscript is also a contribution to the updated checklist of Azorean arthropods that is being prepared within the newly launched project AZORESBIOPORTAL –PORBIOTA (ACORES-01-0145-FEDER-000072), financed by FEDER in 85% and by Azorean Public funds by 15% through Operational Program Azores 2020.</p>
+    </ack>
+    <sec sec-type="Author contributions">
+      <title>Author contributions</title>
+      <p>PAVB, PC, FR and BCE conceived the study design and sampling programme. PAVB, PC, LCFC, RG, FP, RC, CR, RN, MTF, IRA and FR performed spider sampling. PAVB and LCFC performed spider identification. JM-O analysed the data and JM-O and PAVB led the writing. All authors commented on the final version of the manuscript.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="B4907498">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Borges</surname>
+              <given-names>P. A. V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wunderlich</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Spider biodiversity patterns and their conservation in the Azorean archipelago, with descriptions of new species</article-title>
+          <source>Systematics and Biodiversity</source>
+          <volume>6</volume>
+          <issue>2</issue>
+          <fpage>249</fpage>
+          <lpage>282</lpage>
+          <pub-id pub-id-type="doi">10.1017/s1477200008002648</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4907423">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Borges</surname>
+              <given-names>P. A. V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Costa</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cunha</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gabriel</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gonçalves</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Martins</surname>
+              <given-names>A. F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Melo</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Parente</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Raposeiro</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rodrigues</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Santos</surname>
+              <given-names>R. S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Silva</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vieira</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vieira</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <source>A list of the terrestrial and marine biota from the Azores</source>
+          <publisher-name>Princípia</publisher-name>
+          <publisher-loc>Cascais</publisher-loc>
+          <size units="page">432</size>
+          <uri xlink:type="simple">http://www.azoresbioportal.angra.uac.pt/files/publicacoes_Listagem_ml.pdf</uri>
+          <isbn>978-989-8131-75-1</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B4907442">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Borges</surname>
+              <given-names>P. A. V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lamelas-López</surname>
+              <given-names>L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Amorim</surname>
+              <given-names>I. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Danielczak</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nunes</surname>
+              <given-names>R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Serrano</surname>
+              <given-names>A. R. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Boieiro</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rego</surname>
+              <given-names>C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hochkirch</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vieira</surname>
+              <given-names>V</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Conservation status of the forest beetles (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Insecta</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Coleoptera</tp:taxon-name-part></tp:taxon-name>) from Azores, Portugal</article-title>
+          <source>Biodiversity Data Journal</source>
+          <volume>5</volume>
+          <fpage>e14557</fpage>
+          <pub-id pub-id-type="doi">10.3897/bdj.5.e14557</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4907483">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Borges</surname>
+              <given-names>P. A. V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Santa-Rita</surname>
+              <given-names>J. P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nunes</surname>
+              <given-names>R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Danielczak</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hochkirch</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Amorim</surname>
+              <given-names>I. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lamelas-Lopez</surname>
+              <given-names>L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Karsholt</surname>
+              <given-names>O</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vieira</surname>
+              <given-names>V</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Species conservation profile of moths (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Insecta</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Lepidoptera</tp:taxon-name-part></tp:taxon-name>) from Azores, Portugal</article-title>
+          <source>Biodiversity Data Journal</source>
+          <volume>6</volume>
+          <fpage>e23311</fpage>
+          <pub-id pub-id-type="doi">10.3897/bdj.6.e23311</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4907375">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Borges</surname>
+              <given-names>P. A. V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cardoso</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fattorini</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rigal</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Matthews</surname>
+              <given-names>T. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Di Biase</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Amorim</surname>
+              <given-names>I. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Florencio</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Borda-de-Água</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rego</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pereira</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nunes</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Carvalho</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ferreira</surname>
+              <given-names>M. T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lopez</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pérez Delgado</surname>
+              <given-names>A. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Otto</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fernández Lugo</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nascimento</surname>
+              <given-names>L. de</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Caujapé-Castells</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Casquet</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Danflous</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fournel</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sadeyen</surname>
+              <given-names>A - M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Elias</surname>
+              <given-names>R. B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fernández-Palacios</surname>
+              <given-names>J. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Oromí</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Thébaud</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Strasberg</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Emerson</surname>
+              <given-names>B. C.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Community structure of woody plants on islands along a bioclimatic gradient</article-title>
+          <source>Frontiers of Biogeography</source>
+          <volume>10</volume>
+          <issue>3-4</issue>
+          <fpage>1</fpage>
+          <lpage>31</lpage>
+          <comment content-type="language">English</comment>
+          <uri xlink:type="simple">https://escholarship.org/uc/item/63b2p4bz</uri>
+          <pub-id pub-id-type="doi">10.21425/F5FBG40295</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4907598">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Borges</surname>
+              <given-names>P. A. V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cardoso</surname>
+              <given-names>P</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kreft</surname>
+              <given-names>H</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Whittaker</surname>
+              <given-names>R. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fattorini</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Emerson</surname>
+              <given-names>B. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gil</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gillespie</surname>
+              <given-names>R. G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Matthews</surname>
+              <given-names>T. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Santos</surname>
+              <given-names>A. M. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Steinbauer</surname>
+              <given-names>M. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Thébaud</surname>
+              <given-names>C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ah-Peng</surname>
+              <given-names>C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Amorim</surname>
+              <given-names>I. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Aranda</surname>
+              <given-names>S. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Arroz</surname>
+              <given-names>A. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Azevedo</surname>
+              <given-names>J. M. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Boieiro</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Borda-de-Água</surname>
+              <given-names>L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Carvalho</surname>
+              <given-names>J. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Elias</surname>
+              <given-names>R. B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fernández-Palacios</surname>
+              <given-names>J. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Florencio</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>González-Mancebo</surname>
+              <given-names>J. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Heaney</surname>
+              <given-names>L. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hortal</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kueffer</surname>
+              <given-names>C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lequette</surname>
+              <given-names>B</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Martín-Esquivel</surname>
+              <given-names>J. L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>López</surname>
+              <given-names>H</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lamelas-López</surname>
+              <given-names>L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Marcelino</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nunes</surname>
+              <given-names>R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Oromí</surname>
+              <given-names>P</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Patiño</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pérez</surname>
+              <given-names>A. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rego</surname>
+              <given-names>C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ribeiro</surname>
+              <given-names>S. P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rigal</surname>
+              <given-names>F</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rodrigues</surname>
+              <given-names>P</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rominger</surname>
+              <given-names>A. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Santos-Reis</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schaefer</surname>
+              <given-names>H</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sérgio</surname>
+              <given-names>C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Serrano</surname>
+              <given-names>A. R. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sim-Sim</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stephenson</surname>
+              <given-names>P. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Soares</surname>
+              <given-names>A. O.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Strasberg</surname>
+              <given-names>D</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vanderporten</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vieira</surname>
+              <given-names>V</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gabriel</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Global Island Monitoring Scheme (GIMS): a proposal for the long-term coordinated survey and monitoring of native island forest biota</article-title>
+          <source>Biodiversity and Conservation</source>
+          <volume>27</volume>
+          <issue>10</issue>
+          <fpage>2567</fpage>
+          <lpage>2586</lpage>
+          <uri xlink:type="simple">http://ce3c.ciencias.ulisboa.pt/fotos/publicacoes/1530379785.pdf</uri>
+          <pub-id pub-id-type="doi">10.1007/s10531-018-1553-7</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4907508">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Cardoso</surname>
+              <given-names>Pedro</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>Standardization and optimization of arthropod inventories—the case of Iberian spiders</article-title>
+          <source>Biodiversity and Conservation</source>
+          <volume>18</volume>
+          <issue>14</issue>
+          <fpage>3949</fpage>
+          <lpage>3962</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10531-009-9690-7</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4907518">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Cicconardi</surname>
+              <given-names>F</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Borges</surname>
+              <given-names>P. A. V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Strasberg</surname>
+              <given-names>D</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Oromí</surname>
+              <given-names>P</given-names>
+            </name>
+            <name name-style="western">
+              <surname>López</surname>
+              <given-names>H</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pérez-Delgado</surname>
+              <given-names>A. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Casquet</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Caujapé-Castells</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fernández-Palacios</surname>
+              <given-names>J. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Thébaud</surname>
+              <given-names>C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Emerson</surname>
+              <given-names>B. C.</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>MtDNA metagenomics reveals large-scale invasion of belowground arthropod communities by introduced species</article-title>
+          <source>Molecular Ecology</source>
+          <volume>26</volume>
+          <issue>12</issue>
+          <fpage>3104</fpage>
+          <lpage>3115</lpage>
+          <pub-id pub-id-type="doi">10.1111/mec.14037</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4968752">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Crespo</surname>
+              <given-names>Luís Carlos</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bosmans</surname>
+              <given-names>Robert</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cardoso</surname>
+              <given-names>Pedro</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Borges</surname>
+              <given-names>P. A. V.</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>On the endemic spider species of the genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Savigniorrhipis">Savigniorrhipis</tp:taxon-name-part></tp:taxon-name></italic> Wunderlich, 1992 (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part></tp:taxon-name>) in the Azores (Portugal), with description of a new species</article-title>
+          <source>Zootaxa</source>
+          <volume>3745</volume>
+          <fpage>330</fpage>
+          <lpage>342</lpage>
+          <pub-id pub-id-type="doi">10.11646/zootaxa.3745.3.2</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4968762">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Crespo</surname>
+              <given-names>Luís Carlos</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bosmans</surname>
+              <given-names>Robert</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cardoso</surname>
+              <given-names>Pedro</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Borges</surname>
+              <given-names>P. A. V.</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>On three endemic species of the linyphiid spider genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Canariphantes">Canariphantes</tp:taxon-name-part></tp:taxon-name></italic> Wunderlich, 1992 (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part></tp:taxon-name>) from the Azores archipelago</article-title>
+          <source>Zootaxa</source>
+          <volume>3841</volume>
+          <issue>3</issue>
+          <fpage>403</fpage>
+          <lpage>417</lpage>
+          <pub-id pub-id-type="doi">10.11646/zootaxa.3841.3.5</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4907535">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Emerson</surname>
+              <given-names>B. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Casquet</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>López</surname>
+              <given-names>H</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cardoso</surname>
+              <given-names>P</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Borges</surname>
+              <given-names>P. A. V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mollaret</surname>
+              <given-names>N</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Oromí</surname>
+              <given-names>P</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Strasberg</surname>
+              <given-names>D</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Thébaud</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>A combined field survey and molecular identification protocol for comparing forest arthropod biodiversity across spatial scales</article-title>
+          <source>Molecular Ecology Resources</source>
+          <volume>17</volume>
+          <issue>4</issue>
+          <fpage>694</fpage>
+          <lpage>707</lpage>
+          <pub-id pub-id-type="doi">10.1111/1755-0998.12617</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4907550">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Gaspar</surname>
+              <given-names>C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gaston</surname>
+              <given-names>K. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Borges</surname>
+              <given-names>P. A. V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cardoso</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>Selection of priority areas for arthropod conservation in the Azores archipelago</article-title>
+          <source>Journal of Insect Conservation</source>
+          <volume>15</volume>
+          <issue>5</issue>
+          <fpage>671</fpage>
+          <lpage>684</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10841-010-9365-4</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4907560">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lobo</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Borges</surname>
+              <given-names>P. A. V.</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <chapter-title>The provisional status of arthropod inventories in the Macaronesian islands</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Serrano</surname>
+              <given-names>A. R.M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Borges</surname>
+              <given-names>P. A.V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Boieiro</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Oromí</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <source>Terrestrial Arthropods of Macaronesia – Biodiversity, Ecology and Evolution</source>
+          <publisher-name>Sociedade Portuguesa de Entomologia</publisher-name>
+          <publisher-loc>Lisboa</publisher-loc>
+          <size units="page">33-47</size>
+          <uri xlink:type="simple">http://hdl.handle.net/10400.3/1982</uri>
+        </element-citation>
+      </ref>
+      <ref id="B4907574">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Malumbres-Olarte</surname>
+              <given-names>Jagoba</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Scharff</surname>
+              <given-names>Nikolaj</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pape</surname>
+              <given-names>Thomas</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Coddington</surname>
+              <given-names>Jonathan A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cardoso</surname>
+              <given-names>Pedro</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Gauging megadiversity with optimized and standardized sampling protocols: A case for tropical forest spiders</article-title>
+          <source>Ecology and Evolution</source>
+          <volume>7</volume>
+          <issue>2</issue>
+          <fpage>494</fpage>
+          <lpage>506</lpage>
+          <pub-id pub-id-type="doi">10.1002/ece3.2626</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4907585">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Malumbres-Olarte</surname>
+              <given-names>Jagoba</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Crespo</surname>
+              <given-names>Luís</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cardoso</surname>
+              <given-names>Pedro</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Szűts</surname>
+              <given-names>Tamás</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fannes</surname>
+              <given-names>Wouter</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pape</surname>
+              <given-names>Thomas</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Scharff</surname>
+              <given-names>Nikolaj</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>The same but different: equally megadiverse but taxonomically variant spider communities along an elevational gradient</article-title>
+          <source>Acta Oecologica</source>
+          <volume>88</volume>
+          <fpage>19</fpage>
+          <lpage>28</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.actao.2018.02.012</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4929617">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Triantis</surname>
+              <given-names>K. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Borges</surname>
+              <given-names>P. A. V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ladle</surname>
+              <given-names>R. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hortal</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cardoso</surname>
+              <given-names>P</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gaspar</surname>
+              <given-names>C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dinis</surname>
+              <given-names>F</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mendonça</surname>
+              <given-names>E</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Silveira</surname>
+              <given-names>L. M. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gabriel</surname>
+              <given-names>R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Melo</surname>
+              <given-names>C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Santos</surname>
+              <given-names>A. M. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Amorim</surname>
+              <given-names>I. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ribeiro</surname>
+              <given-names>S. P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Serrano</surname>
+              <given-names>A. R. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Quartau</surname>
+              <given-names>J. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Whittaker</surname>
+              <given-names>R. J.</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>Extinction debt on oceanic islands</article-title>
+          <source>Ecography</source>
+          <volume>33</volume>
+          <fpage>285</fpage>
+          <lpage>294</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1600-0587.2010.06203.x</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F4907373" position="float" orientation="portrait">
+      <object-id content-type="arpha">61E309A3-5582-5686-BCDD-498C0BD63627</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e32625.figure1</object-id>
+      <object-id content-type="zenodo_dep_id">2649632</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Figure 1. Location of plots in Pico (left) and Terceira (right) islands.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e32625-g001.png" position="float" id="oo_247166.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/247166</uri>
+      </graphic>
+    </fig>
+    <fig id="F4962242" position="float" orientation="portrait">
+      <object-id content-type="arpha">C4CDE31E-E205-534D-BA7A-D912271C95EE</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e32625.figure2</object-id>
+      <object-id content-type="zenodo_dep_id">2649634</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>The native forest of Azores: Terra-Brava at Terceira Island - Plot Terceira 1 (Credit: Paulo A. V. Borges).</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e32625-g002.jpg" position="float" id="oo_248798.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/248798</uri>
+      </graphic>
+    </fig>
+    <fig id="F4962226" position="float" orientation="portrait">
+      <object-id content-type="arpha">AB49AF07-EE32-5AA5-A6EE-D5EFDA4D2015</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e32625.figure3</object-id>
+      <object-id content-type="zenodo_dep_id">2649636</object-id>
+      <label>Figure 3.</label>
+      <caption>
+        <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Rugathodes">Rugathodes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="acoreensis">acoreensis</tp:taxon-name-part></tp:taxon-name></italic> Wunderlich, 1992 (Credit: Enésima Mendonça, Azorean Biodiversity Portal).</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e32625-g003.jpg" position="float" id="oo_251104.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/251104</uri>
+      </graphic>
+    </fig>
+    <fig id="F4962230" position="float" orientation="portrait">
+      <object-id content-type="arpha">99C636B8-D949-5480-8DFB-5D6F6776DBF0</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e32625.figure4</object-id>
+      <object-id content-type="zenodo_dep_id">2649638</object-id>
+      <label>Figure 4.</label>
+      <caption>
+        <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sancus">Sancus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="acoreensis">acoreensis</tp:taxon-name-part></tp:taxon-name></italic> (Wunderlich, 1992) (Credit: Pedro Cardoso).</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e32625-g004.jpg" position="float" id="oo_248794.JPG" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/248794</uri>
+      </graphic>
+    </fig>
+    <fig id="F4962234" position="float" orientation="portrait">
+      <object-id content-type="arpha">C1BEFB47-B2A9-5DEE-8573-2A020A3A3760</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e32625.figure5</object-id>
+      <object-id content-type="zenodo_dep_id">2649640</object-id>
+      <label>Figure 5.</label>
+      <caption>
+        <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Tenuiphantes">Tenuiphantes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="miguelensis">miguelensis</tp:taxon-name-part></tp:taxon-name></italic> (Wunderlich, 1992) (Credit: Pedro Cardoso).</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e32625-g005.jpg" position="float" id="oo_248795.JPG" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/248795</uri>
+      </graphic>
+    </fig>
+    <fig id="F4962238" position="float" orientation="portrait">
+      <object-id content-type="arpha">27996162-FD89-53EA-8970-480F9C8E83AC</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e32625.figure6</object-id>
+      <object-id content-type="zenodo_dep_id">2649642</object-id>
+      <label>Figure 6.</label>
+      <caption>
+        <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Gibbaranea">Gibbaranea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="occidentalis">occidentalis</tp:taxon-name-part></tp:taxon-name></italic> Wunderlich, 1989 (Credit: Paulo A. V. Borges).</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e32625-g006.jpg" position="float" id="oo_248909.JPG" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/248909</uri>
+      </graphic>
+    </fig>
+    <table-wrap id="T4907354" position="float" orientation="portrait">
+      <label>Table 1.</label>
+      <caption>
+        <p>Coordinates of sampling plots.</p>
+      </caption>
+      <table rules="all">
+        <tbody>
+          <tr>
+            <th rowspan="1" colspan="1">Plot</th>
+            <th rowspan="1" colspan="1">Longitude</th>
+            <th rowspan="1" colspan="1">Latitude</th>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">Pico 1</td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">-28.2017136846</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">38.437588</named-content>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Pico 2</td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">-28.2117989478</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">38.437737</named-content>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Pico 3</td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">-28.2259599451</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">38.434491</named-content>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Pico 4</td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">-28.257662125</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">38.4561062785</named-content>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Pico 5</td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">-28.2733451278</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">38.4876669302</named-content>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Pico 6</td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">-28.4228543692</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">38.4998686917</named-content>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Terceira 1</td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">-27.1971972222</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">38.7320583333</named-content>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Terceira 2</td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">-27.2005772537</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">38.7364977463</named-content>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Terceira 3</td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">-27.2271119278</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">38.7334147054</named-content>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Terceira 4</td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">-27.2193222222</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">38.7617777778</named-content>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Terceira 5</td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">-27.3074033132</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">38.7355657746</named-content>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Terceira 6</td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">-27.3313027778</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">38.7520777778</named-content>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Terceira 7</td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">-27.233098</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">38.75214</named-content>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Terceira 8</td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">-27.3198583333</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">38.7471444444</named-content>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Terceira 9</td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">-27.2899410553</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">38.7372469297</named-content>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Terceira 10</td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">-27.2072466047</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">38.7501938461</named-content>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T4971374" position="float" orientation="portrait">
+      <label>Table 2.</label>
+      <caption>
+        <p>Abundance, biogeographic category and previous records of (morpho)species in each of the plots on Pico island. Abbreviations: Biogeographic category (Biog. cat): Endemic (END); Introduced (INT); Macaronesian (MAC); Native (NAT); Unknown (UK). Previous records (Prev. Rec.): Pico (P), Terceira (T), unrecorded (UR).</p>
+      </caption>
+      <table rules="all" border="0">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Family</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Species</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Biog.Cat.</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Prev.Rec.</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Pico 1</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Pico 2</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Pico 3</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Pico 4</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Pico 5</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Pico 6</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Araneidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Gibbaranea">Gibbaranea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="occidentalis">occidentalis</tp:taxon-name-part></tp:taxon-name></italic> Wunderlich, 1989</td>
+            <td rowspan="1" colspan="1">END</td>
+            <td rowspan="1" colspan="1">P, T</td>
+            <td rowspan="1" colspan="1">12</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">7</td>
+            <td rowspan="1" colspan="1">14</td>
+            <td rowspan="1" colspan="1">23</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Clubionidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cheiracanthium">Cheiracanthium</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="erraticum">erraticum</tp:taxon-name-part></tp:taxon-name></italic> (Walckenaer, 1802)</td>
+            <td rowspan="1" colspan="1">INT</td>
+            <td rowspan="1" colspan="1">P, T</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Dictynidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Lathys">Lathys</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="dentichelis">dentichelis</tp:taxon-name-part></tp:taxon-name></italic> (Simon, 1883)</td>
+            <td rowspan="1" colspan="1">MAC</td>
+            <td rowspan="1" colspan="1">P, T</td>
+            <td rowspan="1" colspan="1">23</td>
+            <td rowspan="1" colspan="1">31</td>
+            <td rowspan="1" colspan="1">10</td>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1">7</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Dictynidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Nigma">Nigma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="puella">puella</tp:taxon-name-part></tp:taxon-name></italic> (Simon, 1870)</td>
+            <td rowspan="1" colspan="1">INT</td>
+            <td rowspan="1" colspan="1">P, T</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Dysderidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Dysdera">Dysdera</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="crocata">crocata</tp:taxon-name-part></tp:taxon-name></italic> C. L. Koch, 1838</td>
+            <td rowspan="1" colspan="1">INT</td>
+            <td rowspan="1" colspan="1">P, T</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Gnaphosidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Haplodrassus">Haplodrassus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="signifer">signifer</tp:taxon-name-part></tp:taxon-name></italic> (C. L. Koch, 1839)</td>
+            <td rowspan="1" colspan="1">INT</td>
+            <td rowspan="1" colspan="1">T</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part></tp:taxon-name> morphospecies 1220</td>
+            <td rowspan="1" colspan="1">UK</td>
+            <td rowspan="1" colspan="1">UR</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part></tp:taxon-name> morphospecies 1265</td>
+            <td rowspan="1" colspan="1">UK</td>
+            <td rowspan="1" colspan="1">UR</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Acorigone">Acorigone</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="acoreensis">acoreensis</tp:taxon-name-part></tp:taxon-name></italic> (Wunderlich, 1992)</td>
+            <td rowspan="1" colspan="1">END</td>
+            <td rowspan="1" colspan="1">P, T</td>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1">5</td>
+            <td rowspan="1" colspan="1">7</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Agyneta">Agyneta</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="decora">decora</tp:taxon-name-part></tp:taxon-name></italic> (O. P.-Cambridge, 1871)</td>
+            <td rowspan="1" colspan="1">INT</td>
+            <td rowspan="1" colspan="1">T</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Canariphantes">Canariphantes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="acoreensis">acoreensis</tp:taxon-name-part></tp:taxon-name></italic> (Wunderlich, 1992)</td>
+            <td rowspan="1" colspan="1">END</td>
+            <td rowspan="1" colspan="1">P, T</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">12</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">7</td>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1">6</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Erigone">Erigone</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="atra">atra</tp:taxon-name-part></tp:taxon-name></italic> Blackwall, 1833</td>
+            <td rowspan="1" colspan="1">INT</td>
+            <td rowspan="1" colspan="1">P, T</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Erigone">Erigone</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="autumnalis">autumnalis</tp:taxon-name-part></tp:taxon-name></italic> Emerton, 1882</td>
+            <td rowspan="1" colspan="1">INT</td>
+            <td rowspan="1" colspan="1">P, T</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Erigone">Erigone</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="dentipalpis">dentipalpis</tp:taxon-name-part></tp:taxon-name></italic> (Wider, 1834)</td>
+            <td rowspan="1" colspan="1">INT</td>
+            <td rowspan="1" colspan="1">P, T</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Mermessus">Mermessus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="bryantae">bryantae</tp:taxon-name-part></tp:taxon-name></italic> (Ivie &amp; Barrows, 1935)</td>
+            <td rowspan="1" colspan="1">INT</td>
+            <td rowspan="1" colspan="1">P, T</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Microlinyphia">Microlinyphia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="johnsoni">johnsoni</tp:taxon-name-part></tp:taxon-name></italic> (Blackwall, 1859)</td>
+            <td rowspan="1" colspan="1">MAC</td>
+            <td rowspan="1" colspan="1">P, T</td>
+            <td rowspan="1" colspan="1">5</td>
+            <td rowspan="1" colspan="1">5</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">35</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">7</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Minicia">Minicia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="floresensis">floresensis</tp:taxon-name-part></tp:taxon-name></italic> Wunderlich, 1992</td>
+            <td rowspan="1" colspan="1">END</td>
+            <td rowspan="1" colspan="1">P, T</td>
+            <td rowspan="1" colspan="1">18</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">7</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oedothorax">Oedothorax</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="fuscus">fuscus</tp:taxon-name-part></tp:taxon-name></italic> (Blackwall, 1834)</td>
+            <td rowspan="1" colspan="1">INT</td>
+            <td rowspan="1" colspan="1">P, T</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Palliduphantes">Palliduphantes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="schmitzi">schmitzi</tp:taxon-name-part></tp:taxon-name></italic> (Kulczynski, 1899)</td>
+            <td rowspan="1" colspan="1">MAC</td>
+            <td rowspan="1" colspan="1">P, T</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">9</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Porrhomma">Porrhomma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="borgesi">borgesi</tp:taxon-name-part></tp:taxon-name></italic> Wunderlich, 2008</td>
+            <td rowspan="1" colspan="1">END</td>
+            <td rowspan="1" colspan="1">P, T</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Prinerigone">Prinerigone</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="vagans">vagans</tp:taxon-name-part></tp:taxon-name></italic> (Audouin, 1826)</td>
+            <td rowspan="1" colspan="1">INT</td>
+            <td rowspan="1" colspan="1">P, T</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Savigniorrhipis">Savigniorrhipis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="acoreensis">acoreensis</tp:taxon-name-part></tp:taxon-name></italic> Wunderlich, 1992</td>
+            <td rowspan="1" colspan="1">END</td>
+            <td rowspan="1" colspan="1">P, T</td>
+            <td rowspan="1" colspan="1">15</td>
+            <td rowspan="1" colspan="1">31</td>
+            <td rowspan="1" colspan="1">10</td>
+            <td rowspan="1" colspan="1">15</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">13</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Tenuiphantes">Tenuiphantes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="miguelensis">miguelensis</tp:taxon-name-part></tp:taxon-name></italic> (Wunderlich, 1992)</td>
+            <td rowspan="1" colspan="1">MAC</td>
+            <td rowspan="1" colspan="1">P, T</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">5</td>
+            <td rowspan="1" colspan="1">10</td>
+            <td rowspan="1" colspan="1">102</td>
+            <td rowspan="1" colspan="1">107</td>
+            <td rowspan="1" colspan="1">73</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Tenuiphantes">Tenuiphantes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="tenuis">tenuis</tp:taxon-name-part></tp:taxon-name></italic> (Blackwall, 1852)</td>
+            <td rowspan="1" colspan="1">INT</td>
+            <td rowspan="1" colspan="1">P, T</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">8</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">5</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Walckenaeria">Walckenaeria</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="grandis">grandis</tp:taxon-name-part></tp:taxon-name></italic> (Wunderlich, 1992)</td>
+            <td rowspan="1" colspan="1">END</td>
+            <td rowspan="1" colspan="1">P, T</td>
+            <td rowspan="1" colspan="1">13</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Lycosidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pardosa">Pardosa</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="acorensis">acorensis</tp:taxon-name-part></tp:taxon-name></italic> Simon, 1883</td>
+            <td rowspan="1" colspan="1">END</td>
+            <td rowspan="1" colspan="1">P, T</td>
+            <td rowspan="1" colspan="1">28</td>
+            <td rowspan="1" colspan="1">8</td>
+            <td rowspan="1" colspan="1">24</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Mimetidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ero">Ero</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="furcata">furcata</tp:taxon-name-part></tp:taxon-name></italic> (Villers, 1789)</td>
+            <td rowspan="1" colspan="1">INT</td>
+            <td rowspan="1" colspan="1">P, T</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Pisauridae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pisaura">Pisaura</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="acoreensis">acoreensis</tp:taxon-name-part></tp:taxon-name></italic> Wunderlich, 1992</td>
+            <td rowspan="1" colspan="1">END</td>
+            <td rowspan="1" colspan="1">P, T</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Salticidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Macaroeris">Macaroeris</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="cata">cata</tp:taxon-name-part></tp:taxon-name></italic> (Blackwall, 1867)</td>
+            <td rowspan="1" colspan="1">NAT</td>
+            <td rowspan="1" colspan="1">P, T</td>
+            <td rowspan="1" colspan="1">12</td>
+            <td rowspan="1" colspan="1">8</td>
+            <td rowspan="1" colspan="1">13</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">5</td>
+            <td rowspan="1" colspan="1">3</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Salticidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Neon">Neon</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="acoreensis">acoreensis</tp:taxon-name-part></tp:taxon-name></italic> Wunderlich, 2008</td>
+            <td rowspan="1" colspan="1">END</td>
+            <td rowspan="1" colspan="1">P, T</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Tetragnathidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Metellina">Metellina</tp:taxon-name-part></tp:taxon-name></italic> sp. 133</td>
+            <td rowspan="1" colspan="1">UK</td>
+            <td rowspan="1" colspan="1">T</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Tetragnathidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Metellina">Metellina</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="merianae">merianae</tp:taxon-name-part></tp:taxon-name></italic> (Scopoli, 1763)</td>
+            <td rowspan="1" colspan="1">INT</td>
+            <td rowspan="1" colspan="1">P, T</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">17</td>
+            <td rowspan="1" colspan="1">51</td>
+            <td rowspan="1" colspan="1">8</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Tetragnathidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sancus">Sancus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="acoreensis">acoreensis</tp:taxon-name-part></tp:taxon-name></italic> (Wunderlich, 1992)</td>
+            <td rowspan="1" colspan="1">END</td>
+            <td rowspan="1" colspan="1">P, T</td>
+            <td rowspan="1" colspan="1">35</td>
+            <td rowspan="1" colspan="1">38</td>
+            <td rowspan="1" colspan="1">19</td>
+            <td rowspan="1" colspan="1">14</td>
+            <td rowspan="1" colspan="1">11</td>
+            <td rowspan="1" colspan="1">50</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Theridiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Lasaeola">Lasaeola</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="oceanica">oceanica</tp:taxon-name-part></tp:taxon-name></italic> Simon, 1883</td>
+            <td rowspan="1" colspan="1">END</td>
+            <td rowspan="1" colspan="1">P, T</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">12</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">8</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Theridiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Neottiura">Neottiura</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="bimaculata">bimaculata</tp:taxon-name-part></tp:taxon-name></italic> (Linnaeus, 1767)</td>
+            <td rowspan="1" colspan="1">INT</td>
+            <td rowspan="1" colspan="1">P, T</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Theridiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Rugathodes">Rugathodes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="acoreensis">acoreensis</tp:taxon-name-part></tp:taxon-name></italic> Wunderlich, 1992</td>
+            <td rowspan="1" colspan="1">END</td>
+            <td rowspan="1" colspan="1">P, T</td>
+            <td rowspan="1" colspan="1">39</td>
+            <td rowspan="1" colspan="1">61</td>
+            <td rowspan="1" colspan="1">69</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">19</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Theridiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Steatoda">Steatoda</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="nobilis">nobilis</tp:taxon-name-part></tp:taxon-name></italic> (Thorell, 1875)</td>
+            <td rowspan="1" colspan="1">MAC</td>
+            <td rowspan="1" colspan="1">P, T</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Theridiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Theridion">Theridion</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="melanurum">melanurum</tp:taxon-name-part></tp:taxon-name></italic> Hahn, 1831</td>
+            <td rowspan="1" colspan="1">INT</td>
+            <td rowspan="1" colspan="1">P,</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">19</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Thomisidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Xysticus">Xysticus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="cor">cor</tp:taxon-name-part></tp:taxon-name></italic> Canestrini, 1873</td>
+            <td rowspan="1" colspan="1">NAT</td>
+            <td rowspan="1" colspan="1">P, T</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1">10</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="4">Species richness</td>
+            <td rowspan="1" colspan="1">19</td>
+            <td rowspan="1" colspan="1">20</td>
+            <td rowspan="1" colspan="1">19</td>
+            <td rowspan="1" colspan="1">17</td>
+            <td rowspan="1" colspan="1">17</td>
+            <td rowspan="1" colspan="1">18</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T4971375" position="float" orientation="portrait">
+      <label>Table 3.</label>
+      <caption>
+        <p>Abundance, biogeographic category and previous records of (morpho)species in each of the plots on Terceira island.</p>
+      </caption>
+      <table rules="all" border="0">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;">
+              <bold>Species</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 50px;">
+              <bold>Plot 1</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Plot 2</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Plot 3</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Plot 4</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Plot 5</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Plot 6</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Plot 7</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 53px;">
+              <bold>Plot 8</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 55px;">
+              <bold>Plot 9</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 47px;">
+              <bold>Plot 10</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 41px;">
+              <bold>Total</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Gibbaranea">Gibbaranea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="occidentalis">occidentalis</tp:taxon-name-part></tp:taxon-name></italic> Wunderlich, 1989</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">33</td>
+            <td rowspan="1" colspan="1">25</td>
+            <td rowspan="1" colspan="1">49</td>
+            <td rowspan="1" colspan="1">30</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">32</td>
+            <td rowspan="1" colspan="1">39</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">22</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">42</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">52</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">392</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cheiracanthium">Cheiracanthium</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="erraticum">erraticum</tp:taxon-name-part></tp:taxon-name></italic> (Walckenaer, 1802)</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">0</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">10</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">3</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">1</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">23</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Lathys">Lathys</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="dentichelis">dentichelis</tp:taxon-name-part></tp:taxon-name></italic> (Simon, 1883)</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">17</td>
+            <td rowspan="1" colspan="1">12</td>
+            <td rowspan="1" colspan="1">19</td>
+            <td rowspan="1" colspan="1">27</td>
+            <td rowspan="1" colspan="1">15</td>
+            <td rowspan="1" colspan="1">8</td>
+            <td rowspan="1" colspan="1">11</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">13</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">24</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">27</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">251</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Nigma">Nigma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="puella">puella</tp:taxon-name-part></tp:taxon-name></italic> (Simon, 1870)</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">6</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Dysdera">Dysdera</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="crocata">crocata</tp:taxon-name-part></tp:taxon-name></italic> C. L. Koch, 1838</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">1</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">2</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">17</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Haplodrassus">Haplodrassus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="signifer">signifer</tp:taxon-name-part></tp:taxon-name></italic> (C. L. Koch, 1839)</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part></tp:taxon-name> morphospecies 1220</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part></tp:taxon-name> morphospecies 1265</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">3</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Acorigone">Acorigone</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="acoreensis">acoreensis</tp:taxon-name-part></tp:taxon-name></italic> (Wunderlich, 1992)</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">6</td>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1">12</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">9</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">12</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">3</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">2</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">82</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Agyneta">Agyneta</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="decora">decora</tp:taxon-name-part></tp:taxon-name></italic> (O. P.-Cambridge, 1871)</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">3</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">7</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Canariphantes">Canariphantes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="acoreensis">acoreensis</tp:taxon-name-part></tp:taxon-name></italic> (Wunderlich, 1992)</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">9</td>
+            <td rowspan="1" colspan="1">13</td>
+            <td rowspan="1" colspan="1">12</td>
+            <td rowspan="1" colspan="1">10</td>
+            <td rowspan="1" colspan="1">22</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">8</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">4</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">1</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">121</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Erigone">Erigone</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="atra">atra</tp:taxon-name-part></tp:taxon-name></italic> Blackwall, 1833</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">7</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Erigone">Erigone</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="autumnalis">autumnalis</tp:taxon-name-part></tp:taxon-name></italic> Emerton, 1882</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">2</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">4</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Erigone">Erigone</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="dentipalpis">dentipalpis</tp:taxon-name-part></tp:taxon-name></italic> (Wider, 1834)</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Mermessus">Mermessus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="bryantae">bryantae</tp:taxon-name-part></tp:taxon-name></italic> (Ivie &amp; Barrows, 1935)</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">1</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Microlinyphia">Microlinyphia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="johnsoni">johnsoni</tp:taxon-name-part></tp:taxon-name></italic> (Blackwall, 1859)</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">4</td>
+            <td rowspan="1" colspan="1">30</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">8</td>
+            <td rowspan="1" colspan="1">11</td>
+            <td rowspan="1" colspan="1">13</td>
+            <td rowspan="1" colspan="1">9</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">5</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">6</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">5</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">148</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Minicia">Minicia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="floresensis">floresensis</tp:taxon-name-part></tp:taxon-name></italic> Wunderlich, 1992</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">0</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">4</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">5</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">41</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oedothorax">Oedothorax</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="fuscus">fuscus</tp:taxon-name-part></tp:taxon-name></italic> (Blackwall, 1834)</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">1</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">7</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Palliduphantes">Palliduphantes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="schmitzi">schmitzi</tp:taxon-name-part></tp:taxon-name></italic> (Kulczynski, 1899)</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">14</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Porrhomma">Porrhomma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="borgesi">borgesi</tp:taxon-name-part></tp:taxon-name></italic> Wunderlich, 2008</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">0</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">4</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">1</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">1</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">12</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Prinerigone">Prinerigone</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="vagans">vagans</tp:taxon-name-part></tp:taxon-name></italic> (Audouin, 1826)</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">0</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">1</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Savigniorrhipis">Savigniorrhipis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="acoreensis">acoreensis</tp:taxon-name-part></tp:taxon-name></italic> Wunderlich, 1992</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">26</td>
+            <td rowspan="1" colspan="1">63</td>
+            <td rowspan="1" colspan="1">23</td>
+            <td rowspan="1" colspan="1">22</td>
+            <td rowspan="1" colspan="1">11</td>
+            <td rowspan="1" colspan="1">56</td>
+            <td rowspan="1" colspan="1">16</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">16</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">15</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">35</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">367</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Tenuiphantes">Tenuiphantes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="miguelensis">miguelensis</tp:taxon-name-part></tp:taxon-name></italic> (Wunderlich, 1992)</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">18</td>
+            <td rowspan="1" colspan="1">13</td>
+            <td rowspan="1" colspan="1">11</td>
+            <td rowspan="1" colspan="1">18</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">36</td>
+            <td rowspan="1" colspan="1">5</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">39</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">10</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">24</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">479</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Tenuiphantes">Tenuiphantes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="tenuis">tenuis</tp:taxon-name-part></tp:taxon-name></italic> (Blackwall, 1852)</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">1</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">1</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">28</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Walckenaeria">Walckenaeria</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="grandis">grandis</tp:taxon-name-part></tp:taxon-name></italic> (Wunderlich, 1992)</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">10</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">28</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">1</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">56</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pardosa">Pardosa</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="acorensis">acorensis</tp:taxon-name-part></tp:taxon-name></italic> Simon, 1883</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">0</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">22</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">23</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">113</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ero">Ero</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="furcata">furcata</tp:taxon-name-part></tp:taxon-name></italic> (Villers, 1789)</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">4</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">5</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">3</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">3</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">22</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pisaura">Pisaura</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="acoreensis">acoreensis</tp:taxon-name-part></tp:taxon-name></italic> Wunderlich, 1992</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">2</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">2</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">4</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">9</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">27</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Macaroeris">Macaroeris</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="cata">cata</tp:taxon-name-part></tp:taxon-name></italic> (Blackwall, 1867)</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">6</td>
+            <td rowspan="1" colspan="1">9</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">15</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">16</td>
+            <td rowspan="1" colspan="1">5</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">3</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">14</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">10</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">123</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Neon">Neon</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="acoreensis">acoreensis</tp:taxon-name-part></tp:taxon-name></italic> Wunderlich, 2008</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">5</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Metellina">Metellina</tp:taxon-name-part></tp:taxon-name></italic> sp. 133</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">6</td>
+            <td rowspan="1" colspan="1">11</td>
+            <td rowspan="1" colspan="1">33</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">8</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">14</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">2</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">2</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">1</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">85</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Metellina">Metellina</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="merianae">merianae</tp:taxon-name-part></tp:taxon-name></italic> (Scopoli, 1763)</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">86</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sancus">Sancus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="acoreensis">acoreensis</tp:taxon-name-part></tp:taxon-name></italic> (Wunderlich, 1992)</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">37</td>
+            <td rowspan="1" colspan="1">26</td>
+            <td rowspan="1" colspan="1">37</td>
+            <td rowspan="1" colspan="1">26</td>
+            <td rowspan="1" colspan="1">34</td>
+            <td rowspan="1" colspan="1">32</td>
+            <td rowspan="1" colspan="1">56</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">34</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">16</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">41</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">506</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Lasaeola">Lasaeola</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="oceanica">oceanica</tp:taxon-name-part></tp:taxon-name></italic> Simon, 1883</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">4</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">8</td>
+            <td rowspan="1" colspan="1">11</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">14</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">9</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">79</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Neottiura">Neottiura</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="bimaculata">bimaculata</tp:taxon-name-part></tp:taxon-name></italic> (Linnaeus, 1767)</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Rugathodes">Rugathodes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="acoreensis">acoreensis</tp:taxon-name-part></tp:taxon-name></italic> Wunderlich, 1992</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">31</td>
+            <td rowspan="1" colspan="1">33</td>
+            <td rowspan="1" colspan="1">78</td>
+            <td rowspan="1" colspan="1">40</td>
+            <td rowspan="1" colspan="1">123</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">48</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">54</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">35</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">123</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">753</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Steatoda">Steatoda</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="nobilis">nobilis</tp:taxon-name-part></tp:taxon-name></italic> (Thorell, 1875)</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">4</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Theridion">Theridion</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="melanurum">melanurum</tp:taxon-name-part></tp:taxon-name></italic> Hahn, 1831</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">20</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Xysticus">Xysticus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="cor">cor</tp:taxon-name-part></tp:taxon-name></italic> Canestrini, 1873</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">0</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">4</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">0</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">2</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">32</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;">Species richness</td>
+            <td rowspan="1" colspan="1" style="width: 50px;">15</td>
+            <td rowspan="1" colspan="1">20</td>
+            <td rowspan="1" colspan="1">21</td>
+            <td rowspan="1" colspan="1">20</td>
+            <td rowspan="1" colspan="1">18</td>
+            <td rowspan="1" colspan="1">15</td>
+            <td rowspan="1" colspan="1">19</td>
+            <td rowspan="1" colspan="1" style="width: 53px;">23</td>
+            <td rowspan="1" colspan="1" style="width: 55px;">17</td>
+            <td rowspan="1" colspan="1" style="width: 47px;">20</td>
+            <td rowspan="1" colspan="1" style="width: 41px;">39</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <supplementary-material id="S4931921" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">7153E4A1-64CA-57B0-AF59-F12A30083627</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e32625.suppl1</object-id>
+      <object-id content-type="zenodo_dep_id">2649722</object-id>
+      <label>Supplementary material 1</label>
+      <caption>
+        <p>MACDIV_ISLANDBIOD_Spiders_Azores_Base_GBIF</p>
+      </caption>
+      <p>Data type: Species abundances and sampling events</p>
+      <p>Brief description: In this contribution, we present detailed data on the distribution and abundance of spider species found in Azores forest plots (six in Pico and 10 in Terceira).</p>
+      <p>File: oo_268313.xls</p>
+      <media xlink:href="bdj-07-e32625-s001.xls" mimetype="Microsoft Excel Document" mime-subtype="xls" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/268313</uri>
+      </media>
+      <attrib specific-use="authors">Malumbres-Olarte, J et al.</attrib>
+    </supplementary-material>
+  </floats-group>
+</article>

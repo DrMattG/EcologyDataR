@@ -1,0 +1,1051 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="3.0" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.5.e20200</article-id>
+      <article-id pub-id-type="publisher-id">20200</article-id>
+      <article-id pub-id-type="manuscript">4914</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Animalia</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Bioacoustics</subject>
+          <subject>Biodiversity &amp; Conservation</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>World</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>"My naturesound" - nature observations with sound recordings</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes" xlink:type="simple">
+          <name name-style="western">
+            <surname>Runnel</surname>
+            <given-names>Veljo</given-names>
+          </name>
+          <email xlink:type="simple">veljo.runnel@ut.ee</email>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Peterson</surname>
+            <given-names>Marko</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Zirk</surname>
+            <given-names>Allan</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">University of Tartu Natural History Museum and Botanical Garden, Tartu, Estonia</addr-line>
+        <institution xlink:type="simple">University of Tartu Natural History Museum and Botanical Garden</institution>
+        <addr-line content-type="city">Tartu</addr-line>
+        <country>Estonia</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">University of Tartu, Tartu, Estonia</addr-line>
+        <institution xlink:type="simple">University of Tartu</institution>
+        <addr-line content-type="city">Tartu</addr-line>
+        <country>Estonia</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Veljo Runnel (<email xlink:type="simple">veljo.runnel@ut.ee</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Yasen Mutafchiev</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2017</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>20</day>
+        <month>10</month>
+        <year>2017</year>
+      </pub-date>
+      <volume>5</volume>
+      <elocation-id>e20200</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/FF89FFA2-8B48-FB0B-FFD7-FFF8FF8EDE16">FF89FFA2-8B48-FB0B-FFD7-FFF8FF8EDE16</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/1115642">1115642</uri>
+      <history>
+        <date date-type="received">
+          <day>11</day>
+          <month>08</month>
+          <year>2017</year>
+        </date>
+        <date date-type="accepted">
+          <day>16</day>
+          <month>10</month>
+          <year>2017</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Veljo Runnel, Marko Peterson, Allan Zirk</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>Online systems for observation reporting by citizen scientists have been operating for many years. iNaturalist (<xref ref-type="bibr" rid="B3442897">California Academy of Sciences 2016</xref>), eBird (<xref ref-type="bibr" rid="B3442906">Cornell Lab of Ornithology 2016</xref>) and Observado (<xref ref-type="bibr" rid="B3442915">Observation International 2016</xref>) are well-known international systems, Artportalen (<xref ref-type="bibr" rid="B3442888">Swedish Species Information Centre 2016</xref>) and Artsobservasjoner (<xref ref-type="bibr" rid="B3442870">Norwegian Biodiversity Information Centre 2016</xref>) are Scandinavian. In addition, databases and online solutions exist that are more directly research-oriented but still offer participation by citizen scientists, such as the PlutoF (<xref ref-type="bibr" rid="B3386759">University of Tartu Natural History Museum 2016</xref>) platform. The University of Tartu Natural History Museum maintains the PlutoF platform (<xref ref-type="bibr" rid="B3386372">Abarenkov et al. 2010</xref>) for storing and managing biodiversity data, including taxon observations. In 2014, development was started to integrate an observation app "Minu loodusheli"/"My naturesound" (<xref ref-type="bibr" rid="B3773558">University of Tartu Natural History Museum 2017b</xref>) (My naturesound, Fig. <xref ref-type="fig" rid="F3739142">1</xref>) within PlutoF system. In 2017, an English language version of the app (<xref ref-type="bibr" rid="B3773586">University of Tartu Natural History Museum 2017c</xref>) was launched that includes nearly all major sound-producing taxon groups in its taxonomy. The application also acts as a practical tool for collecting and publishing occurrence data for the Global Biodiversity Information Facility (<xref ref-type="bibr" rid="B3775205">Global Biodiversity Information Facility 2017</xref>) in standardized Darwin Core format together with download links to the multimedia files. Although the sound recording ability of mobile phones opens new opportunities to validate taxon occurrences, current technological solutions limit the use of recordings in biodiversity research.</p>
+          <p>The "My naturesound" allows the user to record taxon occurrences and to provide audio recordings as evidence. After installing the application, the user is promted to login with PlutoF system credentials or to register with PlutoF. The application is targeted primarely to citizen scientists, but researchers themselves can also use it as a tool for easy annotation of taxon occurrences.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>The dataset consists observation data of birds, amphibians and insects by citizen scientists with on site audio recordings. The dataset gives the possibility to analyze the suitablility of mobile devices for recording animal vocalizations and their use in reporting.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>occurrence data</kwd>
+        <kwd>citizen science</kwd>
+        <kwd>biodiversity</kwd>
+        <kwd>sound recording</kwd>
+        <kwd>audio</kwd>
+        <kwd>multimedia</kwd>
+        <kwd>mobile application</kwd>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="order">Orthoptera</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="class">Amphibia</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group xlink:type="simple">
+          <funding-source xlink:type="simple">
+            <named-content content-type="project_title" xlink:type="simple">EU BON: Building the European Biodiversity Observation Network</named-content>
+            <named-content content-type="project_identifier" xlink:type="simple">308454</named-content>
+            <named-content content-type="project_funder_id" xlink:type="simple">501100000780</named-content>
+            <named-content content-type="project_funder_name" xlink:type="simple">European Commission</named-content>
+            <named-content content-type="project_funder_doi" xlink:type="simple">http://doi.org/10.13039/501100000780</named-content>
+          </funding-source>
+        </award-group>
+      </funding-group>
+      <counts>
+        <fig-count count="7"/>
+        <table-count count="0"/>
+        <ref-count count="14"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>The availability and affordability of smartphones have encouraged the use of mobile applications for nature observations. There are many well-known mobile applications that allow observers to annotate taxon occurrences and to add important data, such as date, time and coordinates, automatically from the mobile device itself, e.g. iNaturalist, eBird and Anymals+Plants (<xref ref-type="bibr" rid="B2487663">SiSol Systems 2015</xref>). As all modern smartphones are equipped with an easy to operate camera, adding a photo to a taxon observation is easy with plants, some mammals or less mobile insects. Photos can be used to aid identification, although the observer may not be aware of which aspect of the taxon is most important and needs to be clearly in focus or properly displayed. Taking mobile photos of distant animals provides much poorer resolution, thereby hindering indentification. While photography is widely used for observation applications (iNaturalist, eBird), audio recordings of nature observations are far less common. Although applications for mobile phones exist for use as the voice recorder (Samsung Voice Recorder, TapeMachine, Field Recorder etc on Android devices), few apps are used to provide an audio recording to a taxon observation. The benefits of this feature are obvious - even a mediocre sound recording of a bird hidden in the bushes can aid identification more than relying solely on a mobile photo at distance.</p>
+      <p>Although audio recording by mobile phones opens new opportunities for validation of biodiversity observations, there remain important limitations. Mobile phone sound processing is usually designed for human speech, thereby filtering certain frequencies. Also, recording capability is limited by the frequency response of the microphone unit and the sampling rate of the smartphone software (<xref ref-type="bibr" rid="B3775180">Brown and Evans 2011</xref>). We did not address these issues specifically in our project, but those using audio files recorded with mobile phones for research should be aware of these limitations.</p>
+      <p>"Minu loodusheli"/"My naturesound" is a mobile app developed by University of Tartu Natural History Museum in cooperation with the Estonian Natural History Museum. This app helps to annotate observations of a specific taxon and add a audio recording from the location of the observed specimen. The app is backed by the cloud database and workbench PlutoF, specifically designed for working with taxon occurrences and related biodiversity data. Both the mobile app and PlutoF workbench are also considered optimal for the European Biodiversity Observation Network (<xref ref-type="bibr" rid="B3459419">EU BON 2016</xref>) project. Collected data are published on the GBIF portal for download as Darwin Core Archive package, EML package or annotated GBIF data package.</p>
+      <p>The app is currently available for both Android and iOS platforms, but as the iOS version will not be updated for financial reasons, newer phones and operation system versions may not be compatible with the app.</p>
+    </sec>
+    <sec sec-type="Project description">
+      <title>Project description</title>
+      <sec sec-type="Title">
+        <title>Title</title>
+        <p>"My naturesound" - nature observations with sound recordings.</p>
+      </sec>
+      <sec sec-type="Personnel">
+        <title>Personnel</title>
+        <p>Observation data are collected by citizen scientists and other users of the application, observations are reviewed by professional biologists or volunteer naturalists recruited by University of Tartu Natural History Museum. As of August 2017, 186 individuals have contributed to the dataset. The full list of contributors and their individual input can be found on the project webpage (<xref ref-type="bibr" rid="B3739015">University of Tartu Natural History Museum 2017a</xref>).</p>
+      </sec>
+      <sec sec-type="Study area description">
+        <title>Study area description</title>
+        <p>Observation area is not restricted, but as most users live in Estonia, the observations are mostly from Estonia.</p>
+      </sec>
+      <sec sec-type="Design description">
+        <title>Design description</title>
+        <p>The mobile application enables the user to store observation data: date (aquired automatically), location (aquired automatically if GPS is switched on, otherwise manually using map application) and taxon (species-level identification or higher taxon level identification). As the application is intended mostly for citizen scientists, there are no obligatory data fields for environmental parameters, although the user can add additional information as remarks. Moreover, the PlutoF workbench allows later addition of data fields when working with uploaded observation data. Recording and adding an audio file to the observation is a prerequisite for app data flow; adding an image is optional. All observation data are linked to the user's profile and are transmitted via data upload to the cloud database. The app can be used offline for recording therefore the availability of mobile networks will not limit the use of the app in the field. The app uses PlutoF customized API protocol to upload data (<xref ref-type="bibr" rid="B3386759">University of Tartu Natural History Museum 2016</xref>).</p>
+        <p>Once the data have been stored in PlutoF cloud database and made publicly available, all registered database users can access the observation data and audio files for research purposes. For example, if a user executes a search for observations of Great Tit (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Parus">Parus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="major">major</tp:taxon-name-part></tp:taxon-name></italic> L.) with audio files attached, all such observations obtained via "My naturesound" app will be also retrieved and displayed (Fig. <xref ref-type="fig" rid="F3774534">2</xref>). If a single observation record is opened, the audio file can be downloaded (Fig. <xref ref-type="fig" rid="F3774567">3</xref>) and analyzed in the user’s computer with appropriate software. The audio file properties - type, format, original name, size etc - can also be viewed on the PlutoF workbench when the file properties menu is open (Fig. <xref ref-type="fig" rid="F3775306">4</xref>). As retrieval of audio file metadata from mobile phones is less straightforward than image files, the metadata of audio file is limited. In addition, privacy issues concerning citizen science projects must be adhered to when retrieving information from users’ phones. As PlutoF biodiversity data are regularily published on GBIF, all aforementioned information can be also retrieved from the GBIF data portal (Fig. <xref ref-type="fig" rid="F3775399">5</xref>). Occurrence record view also includes multimedia file information with a link to the actual audio file, which can be listened to and downloaded (Fig. <xref ref-type="fig" rid="F3775403">6</xref>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Study extent">
+        <title>Study extent</title>
+        <p>World</p>
+      </sec>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>Mostly observations by citizen scientists using mobile application to record coordinates and time of observation and adding audio recordings to the observation. Adding an audio file is obligatory when using the application, otherwise observations cannot be sent to database.</p>
+      </sec>
+      <sec sec-type="Quality control">
+        <title>Quality control</title>
+        <p>All observations include a audio recording used for species identification. Recordings are reviewed on the PlutoF workbench. Incorrect identifications are corrected; the observation with inappropriate recordings are rejected.</p>
+      </sec>
+      <sec sec-type="Step description">
+        <title>Step description</title>
+        <p>Observations are recorded with the mobile app "Minu loodusheli" (My naturesound), observation records with audio files are transferred to the PlutoF cloud database. Observations are reviewed within PlutoF system by appointed persons.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>App users can make observations throughout the world; there are no geographical limitations. As the promotion of the application is mostly in Estonian, majority of observations are also from Estonia (Fig. <xref ref-type="fig" rid="F3739012">7</xref>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Taxa included">
+        <title>Taxa included</title>
+        <table-wrap id="taxonomic_coverage" position="anchor" orientation="portrait">
+          <table rules="all">
+            <thead>
+              <tr>
+                <th rowspan="1" colspan="1">Rank</th>
+                <th rowspan="1" colspan="1">Scientific Name</th>
+                <th rowspan="1" colspan="1"/>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">kingdom</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">kingdom</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="order">Anura</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">kingdom</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="class">Insecta</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">kingdom</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <sec sec-type="Notes">
+        <title>Notes</title>
+        <p>2015-02-21 through 2017-09-25</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Creative Commons Public Domain Waiver (CC-Zero)</p>
+      </sec>
+      <sec sec-type="IP rights notes">
+        <title>IP rights notes</title>
+        <p>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>"My naturesound" - nature observations with sound recordings</p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.15156/bio/587439" xlink:type="simple">http://doi.org/10.15156/bio/587439</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Alternative identifiers">
+        <title>Alternative identifiers</title>
+        <p>cb6e66f1-3056-404d-a341-bb856762c57c</p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>2</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>"My naturesound" - nature observations with sound recordings</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Darwin Core</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>59</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="https://plutof.ut.ee/ipt/archive.do?r=naturesound" xlink:type="simple">https://plutof.ut.ee/ipt/archive.do?r=naturesound</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Data format version">
+          <title>Data format version</title>
+          <p>1.9</p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>Sound-based taxon occurrences provided by citizen scientists through the PlutoF workbench and connected mobile application "Minu loodusheli" (My naturesound). Every occurrence can be validated via accompanying audio recording. The dataset consists of two tables which for practical reasons are considered as individual datasets - one for occurrences (59 data columns) and the other for audio files linked to each occurrence (12 data columns). Multimedia files are referred in the data table by url and can be downloaded individually through the PlutoF workbench if the file owner has granted access to the files. All information is in English, except the "occurrenceRemarks" and "identificationRemarks" columns, which can be in set to the application user’s choice.</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">id</td>
+                  <td rowspan="1" colspan="1">Record ID</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">type</td>
+                  <td rowspan="1" colspan="1">The nature or genre of the resource. For Darwin Core, recommended best practice is to use the name of the class that defines the root of the record.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">modified</td>
+                  <td rowspan="1" colspan="1">The most recent date-time on which the resource was changed.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">language</td>
+                  <td rowspan="1" colspan="1">A language of the resource.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">license</td>
+                  <td rowspan="1" colspan="1">A legal document giving official permission to do something with the resource.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">rightsHolder</td>
+                  <td rowspan="1" colspan="1">A person or organization owning or managing rights over the resource.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">references</td>
+                  <td rowspan="1" colspan="1">A related resource that is referenced, cited, or otherwise pointed to by the described resource.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">datasetID</td>
+                  <td rowspan="1" colspan="1">An identifier for the set of data.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">datasetName</td>
+                  <td rowspan="1" colspan="1">The name identifying the data set from which the record was derived.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">basisOfRecord</td>
+                  <td rowspan="1" colspan="1">The specific nature of the data record (for current dataset - HumanObservation)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">informationWithheld</td>
+                  <td rowspan="1" colspan="1">Additional information that exists, but that has not been shared in the given record.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceID</td>
+                  <td rowspan="1" colspan="1">An identifier for the Occurrence (as opposed to a particular digital record of the occurrence).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceRemarks</td>
+                  <td rowspan="1" colspan="1">Comments or notes about the Occurrence.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">recordedBy</td>
+                  <td rowspan="1" colspan="1">A list (concatenated and separated) of names of people, groups, or organizations responsible for recording the original Occurrence.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">individualCount</td>
+                  <td rowspan="1" colspan="1">The number of individuals represented present at the time of the Occurrence.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">sex</td>
+                  <td rowspan="1" colspan="1">The sex of the biological individual(s) represented in the Occurrence.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">behavior</td>
+                  <td rowspan="1" colspan="1">A description of the behavior shown by the subject at the time the Occurrence was recorded.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">associatedMedia</td>
+                  <td rowspan="1" colspan="1">A list (concatenated and separated) of identifiers (publication, global unique identifier, URI) of media associated with the Occurrence.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">associatedReferences</td>
+                  <td rowspan="1" colspan="1">A list (concatenated and separated) of identifiers (publication, bibliographic reference, global unique identifier, URI) of literature associated with the Occurrence.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">associatedTaxa</td>
+                  <td rowspan="1" colspan="1">Secondary taxa, associated with current occurrence record</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventID</td>
+                  <td rowspan="1" colspan="1">An identifier for the set of information associated with an Event (something that occurs at a place and time).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventDate</td>
+                  <td rowspan="1" colspan="1">The date-time or interval during which an Event occurred.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">verbatimEventDate</td>
+                  <td rowspan="1" colspan="1">The verbatim original representation of the date and time information for an Event.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">habitat</td>
+                  <td rowspan="1" colspan="1">A category or description of the habitat in which the Event occurred.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">locationID</td>
+                  <td rowspan="1" colspan="1">An identifier for the set of location information (data associated with dcterms:Location).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">country</td>
+                  <td rowspan="1" colspan="1">The name of the country or major administrative unit in which the Location occurs.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">countryCode</td>
+                  <td rowspan="1" colspan="1">The standard code for the country in which the Location occurs. Recommended best practice is to use ISO 3166-1-alpha-2 country codes.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">stateProvince</td>
+                  <td rowspan="1" colspan="1">The name of the next smaller administrative region than country (state, province, canton, department, region, etc.) in which the Location occurs.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">county</td>
+                  <td rowspan="1" colspan="1">The full, unabbreviated name of the next smaller administrative region than stateProvince (county, shire, department, etc.) in which the Location occurs.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">municipality</td>
+                  <td rowspan="1" colspan="1">The full, unabbreviated name of the next smaller administrative region than county (city, municipality, etc.) in which the Location occurs. Do not use this term for a nearby named place that does not contain the actual location.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">locality</td>
+                  <td rowspan="1" colspan="1">The specific description of the place. Less specific geographic information can be provided in other geographic terms (higherGeography, continent, country, stateProvince, county, municipality, waterBody, island, islandGroup). This term may contain information modified from the original to correct perceived errors or standardize the description.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">minimumElevationInMeters</td>
+                  <td rowspan="1" colspan="1">The lower limit of the range of elevation (altitude, usually above sea level), in meters.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">maximumElevationInMeters</td>
+                  <td rowspan="1" colspan="1">The upper limit of the range of elevation (altitude, usually above sea level), in meters.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">minimumDepthInMeters</td>
+                  <td rowspan="1" colspan="1">The lesser depth of a range of depth below the local surface, in meters.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">maximumDepthInMeters</td>
+                  <td rowspan="1" colspan="1">The greater depth of a range of depth below the local surface, in meters.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLatitude</td>
+                  <td rowspan="1" colspan="1">The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLongitude</td>
+                  <td rowspan="1" colspan="1">The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location. Positive values are east of the Greenwich Meridian, negative values are west of it. Legal values lie between -180 and 180, inclusive.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">geodeticDatum</td>
+                  <td rowspan="1" colspan="1">The ellipsoid, geodetic datum, or spatial reference system (SRS) upon which the geographic coordinates given in decimalLatitude and decimalLongitude as based. Recommended best practice is use the EPSG code as a controlled vocabulary to provide an SRS, if known. Otherwise use a controlled vocabulary for the name or code of the geodetic datum, if known. Otherwise use a controlled vocabulary for the name or code of the ellipsoid, if known. If none of these is known, use the value "unknown".</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">coordinateUncertaintyInMeters</td>
+                  <td rowspan="1" colspan="1">The horizontal distance (in meters) from the given decimalLatitude and decimalLongitude describing the smallest circle containing the whole of the Location. Leave the value empty if the uncertainty is unknown, cannot be estimated, or is not applicable (because there are no coordinates). Zero is not a valid value for this term.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">identificationID</td>
+                  <td rowspan="1" colspan="1">An identifier for the Identification (the body of information associated with the assignment of a scientific name). May be a global unique identifier or an identifier specific to the data set.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">identifiedBy</td>
+                  <td rowspan="1" colspan="1">A list (concatenated and separated) of names of people, groups, or organizations who assigned the Taxon to the subject.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">dateIdentified</td>
+                  <td rowspan="1" colspan="1">The date on which the subject was identified as representing the Taxon. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">identificationRemarks</td>
+                  <td rowspan="1" colspan="1">Comments or notes about the Identification. Can be in users' native language.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">taxonID</td>
+                  <td rowspan="1" colspan="1">An identifier for the set of taxon information (data associated with the Taxon class). May be a global unique identifier or an identifier specific to the data set.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificNameID</td>
+                  <td rowspan="1" colspan="1">An identifier for the nomenclatural (not taxonomic) details of a scientific name.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificName</td>
+                  <td rowspan="1" colspan="1">The full scientific name, with authorship and date information if known. When forming part of an Identification, this should be the name in lowest level taxonomic rank that can be determined. This term should not contain identification qualifications, which should instead be supplied in the identificationQualifier term.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">higherClassification</td>
+                  <td rowspan="1" colspan="1">A list (concatenated and separated) of taxa names terminating at the rank immediately superior to the taxon referenced in the taxon record.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">kingdom</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the kingdom in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">phylum</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the phylum or division in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">class</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the class in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">order</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the order in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">family</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the family in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">genus</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the genus in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">subgenus</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the subgenus in which the taxon is classified. Values should include the genus to avoid homonym confusion.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">specificEpithet</td>
+                  <td rowspan="1" colspan="1">The name of the first or species epithet of the scientificName.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">infraspecificEpithet</td>
+                  <td rowspan="1" colspan="1">The name of the lowest or terminal infraspecific epithet of the scientificName, excluding any rank designation.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">taxonRank</td>
+                  <td rowspan="1" colspan="1">The taxonomic rank of the most specific name in the scientificName. Recommended best practice is to use a controlled vocabulary.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">verbatimTaxonRank</td>
+                  <td rowspan="1" colspan="1">The taxonomic rank of the most specific name in the scientificName as it appears in the original record.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">vernacularName</td>
+                  <td rowspan="1" colspan="1">A common or vernacular name.</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+      <sec sec-type="Data set 2">
+        <title>Data set 2.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Multimedia files linked to the "My naturesound" observations</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>12</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="https://plutof.ut.ee/ipt/archive.do?r=naturesound" xlink:type="simple">https://plutof.ut.ee/ipt/archive.do?r=naturesound</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>The data table describing the properties of audio files which are linked to the "My naturesound" observations.</p>
+          <table-wrap id="DS2" orientation="portrait" position="anchor">
+            <label>Data set 2.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">id</td>
+                  <td rowspan="1" colspan="1">Identifier of the resource</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">type</td>
+                  <td rowspan="1" colspan="1">The nature or genre of the resource.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">format</td>
+                  <td rowspan="1" colspan="1">The file format, physical medium, or dimensions of the resource.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">identifier</td>
+                  <td rowspan="1" colspan="1">An unambiguous reference to the resource within a given context.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">references</td>
+                  <td rowspan="1" colspan="1">A related resource that is referenced, cited, or otherwise pointed to by the described resource.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">title</td>
+                  <td rowspan="1" colspan="1">A name given to the resource.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">description</td>
+                  <td rowspan="1" colspan="1">An account of the resource.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">created</td>
+                  <td rowspan="1" colspan="1">Date of creation of the resource.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">creator</td>
+                  <td rowspan="1" colspan="1">An entity primarily responsible for making the resource.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">source</td>
+                  <td rowspan="1" colspan="1">A related resource from which the described resource is derived.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">license</td>
+                  <td rowspan="1" colspan="1">A legal document giving official permission to do something with the resource.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">rightsHolder</td>
+                  <td rowspan="1" colspan="1">A person or organization owning or managing rights over the resource.</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+    <sec sec-type="Additional information">
+      <title>Additional information</title>
+      <p>Natural History Museum, University of Tartu: "My naturesound" - nature observations with sound recordings.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>I hereby thank Kessy Abarenkov for reviewing and commenting the data paper.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B3386372">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Abarenkov</surname>
+              <given-names>K</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tedersoo</surname>
+              <given-names>L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nilsson</surname>
+              <given-names>RH</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vellak</surname>
+              <given-names>K</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Saar</surname>
+              <given-names>I</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Veldre</surname>
+              <given-names>V</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Parmasto</surname>
+              <given-names>E</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Prous</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Aan</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ots</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kurina</surname>
+              <given-names>O</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ostonen</surname>
+              <given-names>I</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jogeva</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Halapuu</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Poldmaa</surname>
+              <given-names>K</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Toots</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Truu</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Larsson</surname>
+              <given-names>K-H</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Koljalg</surname>
+              <given-names>U</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>PlutoF - a web based workbench for ecological and taxonomic research, with an online implementation for fungal ITS sequences.</article-title>
+          <source>Evolutionary Bioinformatics</source>
+          <volume>6</volume>
+          <fpage>189</fpage>
+          <lpage>196</lpage>
+          <pub-id pub-id-type="doi">10.4137/EBO.S6271</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3775180">
+        <element-citation publication-type="conference-paper" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Brown</surname>
+              <given-names>Rhys</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Evans</surname>
+              <given-names>Lee</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Society</surname>
+              <given-names>Australian Acoustical</given-names>
+            </name>
+          </person-group>
+          <article-title>Acoustics and smartphone</article-title>
+          <source>Proceedings of ACOUSTICS 2011</source>
+          <conf-name>Breaking New Ground, Conference of the Australian Acoustical Society</conf-name>
+          <conf-loc>Gold Coast, Australia</conf-loc>
+          <conf-date>2.-4. November 2011</conf-date>
+        </element-citation>
+      </ref>
+      <ref id="B3442897">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Sciences</surname>
+              <given-names>California Academy of</given-names>
+            </name>
+          </person-group>
+          <article-title>iNaturalist</article-title>
+          <uri xlink:type="simple">http://www.inaturalist.org/</uri>
+          <date-in-citation content-type="access-date">2017-08-10T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B3442906">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ornithology</surname>
+              <given-names>Cornell Lab of</given-names>
+            </name>
+          </person-group>
+          <article-title>eBird</article-title>
+          <uri xlink:type="simple">ebird.org</uri>
+          <date-in-citation content-type="access-date">2017-08-10T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B3459419">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>BON</surname>
+              <given-names>EU</given-names>
+            </name>
+          </person-group>
+          <article-title>European Biodiversity Observation Network</article-title>
+          <uri xlink:type="simple">http://eubon.eu</uri>
+          <date-in-citation content-type="access-date">2017-08-10T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B3775205">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Facility</surname>
+              <given-names>Global Biodiversity Information</given-names>
+            </name>
+          </person-group>
+          <article-title>Global Biodiversity Information Facility</article-title>
+          <uri xlink:type="simple">https://www.gbif.org</uri>
+          <date-in-citation content-type="access-date">2017-09-08T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B3442870">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Centre</surname>
+              <given-names>Norwegian Biodiversity Information</given-names>
+            </name>
+          </person-group>
+          <article-title>Artsobservasjoner</article-title>
+          <uri xlink:type="simple">www.artsobservasjoner.no</uri>
+          <date-in-citation content-type="access-date">2017-08-10T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B3442915">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>International</surname>
+              <given-names>Observation</given-names>
+            </name>
+          </person-group>
+          <article-title>Observado</article-title>
+          <uri xlink:type="simple">http://observado.org</uri>
+          <date-in-citation content-type="access-date">2017-08-10T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B2487663">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Systems</surname>
+              <given-names>SiSol</given-names>
+            </name>
+          </person-group>
+          <article-title>Anymals+Plants</article-title>
+          <uri xlink:type="simple">https://www.anymals.org/</uri>
+          <date-in-citation content-type="access-date">2017-08-10T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B3442888">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Centre</surname>
+              <given-names>Swedish Species Information</given-names>
+            </name>
+          </person-group>
+          <article-title>Artportalen</article-title>
+          <uri xlink:type="simple">http://www.artportalen.se/</uri>
+          <date-in-citation content-type="access-date">2017-08-10T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B3386759">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Museum</surname>
+              <given-names>University of Tartu Natural History</given-names>
+            </name>
+          </person-group>
+          <article-title>PlutoF public API</article-title>
+          <uri xlink:type="simple">https://api.plutof.ut.ee/v1/public/</uri>
+          <date-in-citation content-type="access-date">2017-08-10T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B3739015">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Museum</surname>
+              <given-names>University of Tartu Natural History</given-names>
+            </name>
+          </person-group>
+          <article-title>Helivaatlused (Sound observations)</article-title>
+          <uri xlink:type="simple">https://plutof.ut.ee/#/citizen-science-projects/loodusheli</uri>
+          <date-in-citation content-type="access-date">2017-08-08T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B3773558">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Museum</surname>
+              <given-names>University of Tartu Natural History</given-names>
+            </name>
+          </person-group>
+          <article-title>Minu loodusheli</article-title>
+          <uri xlink:type="simple">https://play.google.com/store/apps/details?id=ee.loodusheli.mobile.helivaatlus&amp;hl=et</uri>
+          <date-in-citation content-type="access-date">2017-09-06T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B3773586">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Museum</surname>
+              <given-names>University of Tartu Natural History</given-names>
+            </name>
+          </person-group>
+          <article-title>My Naturesound</article-title>
+          <uri xlink:type="simple">https://play.google.com/store/apps/details?id=ee.ut.plutof.mobile.mynaturesounds&amp;hl=et</uri>
+          <date-in-citation content-type="access-date">2017-09-06T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F3739142" position="float" orientation="portrait">
+      <object-id content-type="arpha">FD473CEF-9D2C-552D-A7E0-66CE30D6FABD</object-id>
+      <object-id content-type="doi">10.3897/BDJ.5.e20200.figure1</object-id>
+      <object-id content-type="zenodo_dep_id">1137100</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>The application interface on the Android patform.</p>
+      </caption>
+      <graphic xlink:href="bdj-05-e20200-g001.png" position="float" id="oo_149473.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/149473</uri>
+      </graphic>
+    </fig>
+    <fig id="F3774534" position="float" orientation="portrait">
+      <object-id content-type="arpha">FEA5F9B5-8520-5A3A-9AD5-786B80B4557B</object-id>
+      <object-id content-type="doi">10.3897/BDJ.5.e20200.figure2</object-id>
+      <object-id content-type="zenodo_dep_id">1137102</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>The search window of PlutoF workbench for <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Parus">Parus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="major">major</tp:taxon-name-part></tp:taxon-name> observations with the audio files attached.</p>
+      </caption>
+      <graphic xlink:href="bdj-05-e20200-g002.png" position="float" id="oo_154371.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/154371</uri>
+      </graphic>
+    </fig>
+    <fig id="F3774567" position="float" orientation="portrait">
+      <object-id content-type="arpha">A3B5376B-2AFC-5465-A938-0E4772762FFB</object-id>
+      <object-id content-type="doi">10.3897/BDJ.5.e20200.figure3</object-id>
+      <object-id content-type="zenodo_dep_id">1137104</object-id>
+      <label>Figure 3.</label>
+      <caption>
+        <p>The menu item of the PlutoF workbench which shows how the audio file is linked to an observation record.</p>
+      </caption>
+      <graphic xlink:href="bdj-05-e20200-g003.png" position="float" id="oo_154380.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/154380</uri>
+      </graphic>
+    </fig>
+    <fig id="F3775306" position="float" orientation="portrait">
+      <object-id content-type="arpha">354C467D-20BD-5D69-95D9-DA571C36B83B</object-id>
+      <object-id content-type="doi">10.3897/BDJ.5.e20200.figure4</object-id>
+      <object-id content-type="zenodo_dep_id">1137106</object-id>
+      <label>Figure 4.</label>
+      <caption>
+        <p>The properties of a multimedia file viewed on PlutoF workbench.</p>
+      </caption>
+      <graphic xlink:href="bdj-05-e20200-g004.png" position="float" id="oo_154503.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/154503</uri>
+      </graphic>
+    </fig>
+    <fig id="F3775399" position="float" orientation="portrait">
+      <object-id content-type="arpha">7ADAE45E-BB29-5386-A9FB-E360CF59E741</object-id>
+      <object-id content-type="doi">10.3897/BDJ.5.e20200.figure5</object-id>
+      <object-id content-type="zenodo_dep_id">1137108</object-id>
+      <label>Figure 5.</label>
+      <caption>
+        <p>The details of an occurrence record viewed on GBIF platform.</p>
+      </caption>
+      <graphic xlink:href="bdj-05-e20200-g005.png" position="float" id="oo_154515.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/154515</uri>
+      </graphic>
+    </fig>
+    <fig id="F3775403" position="float" orientation="portrait">
+      <object-id content-type="arpha">84630C7C-6613-58F7-A300-A0B199ADBCC7</object-id>
+      <object-id content-type="doi">10.3897/BDJ.5.e20200.figure6</object-id>
+      <object-id content-type="zenodo_dep_id">1137110</object-id>
+      <label>Figure 6.</label>
+      <caption>
+        <p>The details of a multimedia file viewed on GBIF platform.</p>
+      </caption>
+      <graphic xlink:href="bdj-05-e20200-g006.png" position="float" id="oo_154518.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/154518</uri>
+      </graphic>
+    </fig>
+    <fig id="F3739012" position="float" orientation="portrait">
+      <object-id content-type="arpha">74517DA6-5093-5C8B-B5D2-F4F139BF0AA0</object-id>
+      <object-id content-type="doi">10.3897/BDJ.5.e20200.figure7</object-id>
+      <object-id content-type="zenodo_dep_id">1137112</object-id>
+      <label>Figure 7.</label>
+      <caption>
+        <p>The occurrence map of "My naturesound" observations (as of August 2017).</p>
+      </caption>
+      <graphic xlink:href="bdj-05-e20200-g007.jpg" position="float" id="oo_149407.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/149407</uri>
+      </graphic>
+    </fig>
+  </floats-group>
+</article>

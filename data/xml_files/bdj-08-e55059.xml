@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.8.e55059</article-id>
+      <article-id pub-id-type="publisher-id">55059</article-id>
+      <article-id pub-id-type="manuscript">13458</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Animalia</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Zoology &amp; Animal Biology</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Dataset for mosquitoes (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Diptera</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Culicidae</tp:taxon-name-part></tp:taxon-name>) from Vaca Key, Monroe County, Florida USA</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes">
+          <name name-style="western">
+            <surname>Hribar</surname>
+            <given-names>Lawrence J.</given-names>
+          </name>
+          <email xlink:type="simple">lhribar@keysmosquito.org</email>
+          <uri content-type="orcid">https://orcid.org/0000-0003-3020-0030</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Florida Keys Mosquito Control District, Florida, United States of America</addr-line>
+        <institution>Florida Keys Mosquito Control District</institution>
+        <addr-line content-type="city">Florida</addr-line>
+        <country>United States of America</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Lawrence J. Hribar (<email xlink:type="simple">lhribar@keysmosquito.org</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Gunnar Kvifte</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2020</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>27</day>
+        <month>07</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>8</volume>
+      <elocation-id>e55059</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/2D01F8E9-F9CF-513A-8B64-4C4F1E58E054">2D01F8E9-F9CF-513A-8B64-4C4F1E58E054</uri>
+      <history>
+        <date date-type="received">
+          <day>03</day>
+          <month>06</month>
+          <year>2020</year>
+        </date>
+        <date date-type="accepted">
+          <day>22</day>
+          <month>06</month>
+          <year>2020</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Lawrence J. Hribar</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>The Florida Keys Mosquito Control District has used dry ice-baited light traps to monitor mosquito populations on Vaca Key since 1998. The first site sampled was monitored continuously for almost 20 years until all vegetation was removed.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>This paper describes a dataset compiled over almost 20 years of continuous trapping along Manor Lane on Vaca Key, Florida.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="order">Diptera</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="family">Culicidae</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>seasonal distribution</kwd>
+        <kwd>species composition</kwd>
+        <kwd>relative abundance</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="0"/>
+        <table-count count="0"/>
+        <ref-count count="2"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <sec sec-type="Background">
+        <title>Background</title>
+        <p>The Florida Keys Mosquito Control District conducted adult mosquito surveillance along Manor Lane in Vaca Key for almost twenty years. Surveillance was accomplished by use of dry ice-baited light traps. Traps were set and retrieved weekly except for interruptions due to unavoidable situations, such as storms and illness. Traps were provisioned with 2 pounds (ca. 1 kg) of dry ice, deployed in the late afternoon and retrieved the following morning. Traps were hung from the same tree limb each time they were set. Mosquitoes were returned to the laboratory, killed by freezing and identified to species. This paper reports data pertaining to 32 mosquito species.</p>
+      </sec>
+    </sec>
+    <sec sec-type="General description">
+      <title>General description</title>
+      <sec sec-type="Purpose">
+        <title>Purpose</title>
+        <p>These data were collected to document the species composition, seasonal distribution and relative abundance of mosquitoes on Vaca Key, Florida.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Study extent">
+        <title>Study extent</title>
+        <p>Monitoring of the mosquito fauna on Vaca Key began in the late summer of 1998 and continued until the winter of 2017. Collections were intended to be made weekly although, due to storms, illness and vacations, this was not always possible.</p>
+      </sec>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>A battery-powered light trap (American Biophysics Company, Clarke, John Hock) was baited with approximately two pounds (ca. 1 kg) of dry ice and hung from the same tree limb once per week for over 19 years. The trap was deployed in the late afternoon and retreived the following morning. The trap collection was taken to the laboratory, frozen, and all mosquitoes separated, identified, and counted. Data were recorded in spreadsheets. Voucher specimens of all taxa are retained in the synoptic mosquito reference collection maintained by the Florida Keys Mosquito Control District. Data may be found in Suppl. material <xref ref-type="supplementary-material" rid="S5557073">1</xref>.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The trap was deployed on Vaca Key, Monroe County, Florida, USA. The coordinates of the trap location trap were: <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">24°42'78"N, 81°04'56"W</named-content>.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>Thirty-two mosquito species were documented during the sampling period.</p>
+      </sec>
+      <sec sec-type="Taxa included">
+        <title>Taxa included</title>
+        <table-wrap id="taxonomic_coverage" position="anchor" orientation="portrait">
+          <table rules="all">
+            <thead>
+              <tr>
+                <th rowspan="1" colspan="1">Rank</th>
+                <th rowspan="1" colspan="1">Scientific Name</th>
+                <th rowspan="1" colspan="1">Common Name</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1">
+                  <italic>
+                    <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Aedes">Aedes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="taeniorhynchus">taeniorhynchus</tp:taxon-name-part></tp:taxon-name>
+                  </italic>
+                </td>
+                <td rowspan="1" colspan="1">Black salt marsh mosquito</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1">
+                  <italic>
+                    <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Deinocerites">Deinocerites</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="cancer">cancer</tp:taxon-name-part></tp:taxon-name>
+                  </italic>
+                </td>
+                <td rowspan="1" colspan="1">Crabhole mosquito</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1">
+                  <italic>
+                    <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Culex">Culex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="nigripalpus">nigripalpus</tp:taxon-name-part></tp:taxon-name>
+                  </italic>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1">
+                  <italic>
+                    <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Anopheles">Anopheles</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="atropos">atropos</tp:taxon-name-part></tp:taxon-name>
+                  </italic>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1">
+                  <italic>
+                    <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Culex">Culex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="quinquefsciatus">quinquefsciatus</tp:taxon-name-part></tp:taxon-name>
+                  </italic>
+                </td>
+                <td rowspan="1" colspan="1">Southern house mosquito</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1">
+                  <italic>
+                    <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Anopheles">Anopheles</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="crucians">crucians</tp:taxon-name-part></tp:taxon-name>
+                  </italic>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1">
+                  <italic>
+                    <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Culex">Culex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="bahamensis">bahamensis</tp:taxon-name-part></tp:taxon-name>
+                  </italic>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1">
+                  <italic>
+                    <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Aedes">Aedes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="infirmatus">infirmatus</tp:taxon-name-part></tp:taxon-name>
+                  </italic>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1">
+                  <italic>
+                    <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Aedes">Aedes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="atlanticus">atlanticus</tp:taxon-name-part></tp:taxon-name>
+                  </italic>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1">
+                  <italic>
+                    <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Psorophora">Psorophora</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="ciliata">ciliata</tp:taxon-name-part></tp:taxon-name>
+                  </italic>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1">
+                  <italic>
+                    <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Psorophora">Psorophora</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="columbiae">columbiae</tp:taxon-name-part></tp:taxon-name>
+                  </italic>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1">
+                  <italic>
+                    <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Aedes">Aedes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="sollicitans">sollicitans</tp:taxon-name-part></tp:taxon-name>
+                  </italic>
+                </td>
+                <td rowspan="1" colspan="1">Saltmarsh mosquito</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1">
+                  <italic>
+                    <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Aedes">Aedes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="aegypti">aegypti</tp:taxon-name-part></tp:taxon-name>
+                  </italic>
+                </td>
+                <td rowspan="1" colspan="1">Yellowfever mosquito</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1">
+                  <italic>
+                    <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Aedes">Aedes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="triseriatus">triseriatus</tp:taxon-name-part></tp:taxon-name>
+                  </italic>
+                </td>
+                <td rowspan="1" colspan="1">Eastern treehole mosquito</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1">
+                  <italic>
+                    <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Uranotaenia">Uranotaenia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="lowii">lowii</tp:taxon-name-part></tp:taxon-name>
+                  </italic>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1">
+                  <italic>
+                    <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Anopheles">Anopheles</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="quadrimaculatus">quadrimaculatus</tp:taxon-name-part></tp:taxon-name>
+                  </italic>
+                </td>
+                <td rowspan="1" colspan="1">Common malaria mosquito</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1">
+                  <italic>
+                    <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Culex">Culex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="erraticus">erraticus</tp:taxon-name-part></tp:taxon-name>
+                  </italic>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1">
+                  <italic>
+                    <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Culex">Culex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="atratus">atratus</tp:taxon-name-part></tp:taxon-name>
+                  </italic>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1">
+                  <italic>
+                    <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Culex">Culex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="iolambdis">iolambdis</tp:taxon-name-part></tp:taxon-name>
+                  </italic>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1">
+                  <italic>
+                    <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Culex">Culex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="peccator">peccator</tp:taxon-name-part></tp:taxon-name>
+                  </italic>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">subgenus</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Culex">Culex</tp:taxon-name-part> (<tp:taxon-name-part taxon-name-part-type="subgenus" reg="Melanoconion">Melanoconion</tp:taxon-name-part>)</tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1">Unidentified <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melanoconion">Melanoconion</tp:taxon-name-part></tp:taxon-name></italic></td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1">
+                  <italic>
+                    <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Culex">Culex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="salinarius">salinarius</tp:taxon-name-part></tp:taxon-name>
+                  </italic>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1">
+                  <italic>
+                    <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Culiseta">Culiseta</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="melanura">melanura</tp:taxon-name-part></tp:taxon-name>
+                  </italic>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1">
+                  <italic>
+                    <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Wyeomyia">Wyeomyia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mitchellii">mitchellii</tp:taxon-name-part></tp:taxon-name>
+                  </italic>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1">
+                  <italic>
+                    <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Psorophora">Psorophora</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="ferox">ferox</tp:taxon-name-part></tp:taxon-name>
+                  </italic>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1">
+                  <italic>
+                    <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Psorophora">Psorophora</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="johnstonii">johnstonii</tp:taxon-name-part></tp:taxon-name>
+                  </italic>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1">
+                  <italic>
+                    <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Aedes">Aedes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="tortilis">tortilis</tp:taxon-name-part></tp:taxon-name>
+                  </italic>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1">
+                  <italic>
+                    <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Anopheles">Anopheles</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="albimanus">albimanus</tp:taxon-name-part></tp:taxon-name>
+                  </italic>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1">
+                  <italic>
+                    <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Aedes">Aedes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="condolescens">condolescens</tp:taxon-name-part></tp:taxon-name>
+                  </italic>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1">
+                  <italic>
+                    <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Culex">Culex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="declarator">declarator</tp:taxon-name-part></tp:taxon-name>
+                  </italic>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Culicidae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1">Other unidentified</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1">
+                  <italic>
+                    <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Anopheles">Anopheles</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="grabhamii">grabhamii</tp:taxon-name-part></tp:taxon-name>
+                  </italic>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1">
+                  <italic>
+                    <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Culiseta">Culiseta</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="inorrnata">inorrnata</tp:taxon-name-part></tp:taxon-name>
+                  </italic>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1">
+                  <italic>
+                    <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Aedes">Aedes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="albopictus">albopictus</tp:taxon-name-part></tp:taxon-name>
+                  </italic>
+                </td>
+                <td rowspan="1" colspan="1">Asian tiger mosquito</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+    </sec>
+    <sec sec-type="Traits coverage">
+      <title>Traits coverage</title>
+      <p>The study site was described by <xref ref-type="bibr" rid="B5554896">Hribar (2002)</xref>. <xref ref-type="bibr" rid="B5554906">Hribar et al. (2018)</xref> described population declines for the four most commmonly collected species</p>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <sec sec-type="Notes">
+        <title>Notes</title>
+        <p>Data collection began on 17 August 1998 and ended on 27 December 2017.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Creative Commons Public Domain Waiver (CC-Zero)</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>CSV</p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>1</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Manor Lane BDJ</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Data in spreadsheet, csv.</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>38</p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>Number of adult female mosquitoes collected per trap per night. NA indicates that the species was not reported and so no numbers are available.</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">Year</td>
+                  <td rowspan="1" colspan="1">Year of Collection</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">DOY</td>
+                  <td rowspan="1" colspan="1">Day of Year: Ordinal date of collection; 1-365, 1-366 for leap years</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Date</td>
+                  <td rowspan="1" colspan="1">Date of collection, ISO 8601 forrmat (YYYY-MM-DD)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Season</td>
+                  <td rowspan="1" colspan="1">Season of collection, based on equinoxes and solstices: W, winter; S, spring; U, summer; F, fall (autumn)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Latitude</td>
+                  <td rowspan="1" colspan="1">Trap location coordinate; degrees, minutes, seconds</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Longitude</td>
+                  <td rowspan="1" colspan="1">Trap location coordinate; degrees, minutes, seconds</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Aeae</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Aedes">Aedes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="aegypti">aegypti</tp:taxon-name-part></tp:taxon-name>
+                    </italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Aeal</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Aedes">Aedes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="albopictus">albopictus</tp:taxon-name-part></tp:taxon-name>
+                    </italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Aeat</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Aedes">Aedes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="atlanticus">atlanticus</tp:taxon-name-part></tp:taxon-name>
+                    </italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Aeco</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Aedes">Aedes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="condolescens">condolescens</tp:taxon-name-part></tp:taxon-name>
+                    </italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Aein</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Aedes">Aedes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="infirmatus">infirmatus</tp:taxon-name-part></tp:taxon-name>
+                    </italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Aeso</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Aedes">Aedes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="sollicitans">sollicitans</tp:taxon-name-part></tp:taxon-name>
+                    </italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Aeta</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Aedes">Aedes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="taeniorhynchus">taeniorhynchus</tp:taxon-name-part></tp:taxon-name>
+                    </italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Aetr</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Aedes">Aedes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="triseriatus">triseriatus</tp:taxon-name-part></tp:taxon-name>
+                    </italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Anal</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Anopheles">Anopheles</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="albimanus">albimanus</tp:taxon-name-part></tp:taxon-name>
+                    </italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Ancr</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Anopheles">Anopheles</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="crucians">crucians</tp:taxon-name-part></tp:taxon-name>
+                    </italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Angr</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Anopheles">Anopheles</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="grabhamii">grabhamii</tp:taxon-name-part></tp:taxon-name>
+                    </italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Anqu</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Anopheles">Anopheles</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="quadrimaculatus">quadrimaculatus</tp:taxon-name-part></tp:taxon-name>
+                    </italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Csin</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Culiseta">Culiseta</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="inornata">inornata</tp:taxon-name-part></tp:taxon-name>
+                    </italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Csme</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Culiseta">Culiseta</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="melanura">melanura</tp:taxon-name-part></tp:taxon-name>
+                    </italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Cuat</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Culex">Culex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="atratus">atratus</tp:taxon-name-part></tp:taxon-name>
+                    </italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Cuba</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Culex">Culex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="bahamensis">bahamensis</tp:taxon-name-part></tp:taxon-name>
+                    </italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Cude</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Culex">Culex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="declarator">declarator</tp:taxon-name-part></tp:taxon-name>
+                    </italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Cuer</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Culex">Culex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="erraticus">erraticus</tp:taxon-name-part></tp:taxon-name>
+                    </italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Cuio</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Culex">Culex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="iolambdis">iolambdis</tp:taxon-name-part></tp:taxon-name>
+                    </italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Cuni</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Culex">Culex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="nigripalpus">nigripalpus</tp:taxon-name-part></tp:taxon-name>
+                    </italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Cupe</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Culex">Culex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="peccator">peccator</tp:taxon-name-part></tp:taxon-name>
+                    </italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Cuqu</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Culex">Culex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="quinquefasciatus">quinquefasciatus</tp:taxon-name-part></tp:taxon-name>
+                    </italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Cusa</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Culex">Culex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="salinarius">salinarius</tp:taxon-name-part></tp:taxon-name>
+                    </italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Deca</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Deinocerites">Deinocerites</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="cancer">cancer</tp:taxon-name-part></tp:taxon-name>
+                    </italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Psci</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Psorophora">Psorophora</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="ciliata">ciliata</tp:taxon-name-part></tp:taxon-name>
+                    </italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Psco</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Psorophora">Psorophora</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="columbiae">columbiae</tp:taxon-name-part></tp:taxon-name>
+                    </italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Psfe</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Psorophora">Psorophora</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="ferox">ferox</tp:taxon-name-part></tp:taxon-name>
+                    </italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Psjo</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Psorophora">Psorophora</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="johnstonii">johnstonii</tp:taxon-name-part></tp:taxon-name>
+                    </italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Urlo</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Uranotaenia">Uranotaenia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="lowii">lowii</tp:taxon-name-part></tp:taxon-name>
+                    </italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Wymi</td>
+                  <td rowspan="1" colspan="1">
+                    <italic>
+                      <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Wyeomyia">Wyeomyia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mitchellii">mitchellii</tp:taxon-name-part></tp:taxon-name>
+                    </italic>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">UINM</td>
+                  <td rowspan="1" colspan="1">Unidentified specimens (not <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Culex">Culex</tp:taxon-name-part> (<tp:taxon-name-part taxon-name-part-type="subgenus" reg="Melanoconion">Melanoconion</tp:taxon-name-part>)</tp:taxon-name>)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">UnCM</td>
+                  <td rowspan="1" colspan="1">Unidentfied <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Culex">Culex</tp:taxon-name-part> (<tp:taxon-name-part taxon-name-part-type="subgenus" reg="Melanoconion">Melanoconion</tp:taxon-name-part>)</tp:taxon-name> specimens</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>Sincere appreciation and thanks are extended to all Florida Keys Mosquito Control District employees who set and retrieved traps for all the years that collections were made at the Manor Lane site. Heidi L. Murray and David J. DeMay counted, sorted, and identified many thousands of the mosquitoes.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B5554896">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Hribar</surname>
+              <given-names>L. J.</given-names>
+            </name>
+          </person-group>
+          <year>2002</year>
+          <article-title>Mosquito (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Diptera</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Culicidae</tp:taxon-name-part></tp:taxon-name>) collections in the Florida Keys, Monroe County, Florida, USA</article-title>
+          <source>Studia Dipterologica</source>
+          <volume>9</volume>
+          <fpage>679</fpage>
+          <lpage>6921</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5554906">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Hribar</surname>
+              <given-names>L. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>DeMay</surname>
+              <given-names>D. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Murray</surname>
+              <given-names>H. L.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Life and death of a trap site.</article-title>
+          <source>Wing Beats</source>
+          <volume>29</volume>
+          <issue>1</issue>
+          <fpage>33</fpage>
+          <lpage>38</lpage>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <supplementary-material id="S5557073" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">9A80E46B-7502-5194-B548-621A6EECD0C2</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e55059.suppl1</object-id>
+      <label>Supplementary material 1</label>
+      <caption>
+        <p>Manor Lane BDJ</p>
+      </caption>
+      <statement content-type="dataType">
+        <label>Data type</label>
+        <p>Count data in a csv spreadsheet.</p>
+      </statement>
+      <statement content-type="notes">
+        <label>Brief description</label>
+        <p>Approximately 19.5 years of near-weekly mosquito collections from Vaca Key, Monroe County, Florida.</p>
+      </statement>
+      <p>File: oo_388380.csv</p>
+      <media xlink:href="bdj-08-e55059-s001.csv" mimetype="Comma Separated Values File" mime-subtype="csv" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/388380</uri>
+      </media>
+      <attrib specific-use="authors">Hribar, L.J.</attrib>
+    </supplementary-material>
+  </floats-group>
+</article>

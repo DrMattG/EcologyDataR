@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="3.0" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.5.e12012</article-id>
+      <article-id pub-id-type="publisher-id">12012</article-id>
+      <article-id pub-id-type="manuscript">6289</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Chromista</subject>
+          <subject>Protozoa</subject>
+          <subject>Animalia</subject>
+          <subject>Bacteria</subject>
+          <subject>Plantae</subject>
+          <subject>Fungi</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Biodiversity &amp; Conservation</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>World</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Repatriation Data: More than two million species occurrence records added to the Brazilian Biodiversity Information Facility Repository (SiBBr)</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Dias</surname>
+            <given-names>David</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes" xlink:type="simple">
+          <name name-style="western">
+            <surname>Baringo Fonseca</surname>
+            <given-names>Clara</given-names>
+          </name>
+          <email xlink:type="simple">baringo.fonseca.clara@gmail.com</email>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Correa</surname>
+            <given-names>Luiza</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Soto</surname>
+            <given-names>Nayara</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Portela</surname>
+            <given-names>Andrea</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Juarez</surname>
+            <given-names>Keila</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Tumolo Neto</surname>
+            <given-names>Roque João</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Ferro</surname>
+            <given-names>Murilo</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Gonçalves</surname>
+            <given-names>João</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Junior</surname>
+            <given-names>Jurandir</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Brazilian Biodiversity Information Facility (SiBBr), Brasília, Brazil</addr-line>
+        <institution xlink:type="simple">Brazilian Biodiversity Information Facility (SiBBr)</institution>
+        <addr-line content-type="city">Brasília</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Clara Baringo Fonseca (<email xlink:type="simple">baringo.fonseca.clara@gmail.com</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Quentin Groom</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2017</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>30</day>
+        <month>05</month>
+        <year>2017</year>
+      </pub-date>
+      <volume>5</volume>
+      <elocation-id>e12012</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/4341FF80-FFAC-FFC4-0108-1736FFA98457">4341FF80-FFAC-FFC4-0108-1736FFA98457</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/816382">816382</uri>
+      <history>
+        <date date-type="received">
+          <day>30</day>
+          <month>01</month>
+          <year>2017</year>
+        </date>
+        <date date-type="accepted">
+          <day>27</day>
+          <month>05</month>
+          <year>2017</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>David Dias, Clara Baringo Fonseca, Luiza Correa, Nayara Soto, Andrea Portela, Keila Juarez, Roque João  Tumolo Neto, Murilo Ferro, João  Gonçalves, Jurandir  Junior</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>Primary biodiversity data records, available on-line, are essential for conservation planning. Of the mega diversity countries, Brazil have reached a high level of scientific research in describing their biodiversity. However, there still remain significant limitations in recovering, collating and organizing available information on Brazil's biological diversity and its distribution. Since the colonial period, biological material were often collected and transferred to other countries, which were characterized, stored and maintained. As a result, natural history museums worldwide possess large amounts of primary biodiversity data originally from Brazil which are then published on-line in the international Global Biodiversity Information Facility (GBIF) infrastructure. Aiming to recover these data, the Brazilian Biodiversity Information System (SiBBr) developed an automatic repatriation tool capable of retrieving all records registered in Brazil but published outside Brazilian territory in an automated manner.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>Thus, 2,459,366 records were added to SiBBr’s Repository in one day. Europe and the United States hold about 80% of all records. The data set covers all life kingdoms. <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="kingdom">Animalia</tp:taxon-name-part></tp:taxon-name> is the most represented group with 3 main phylum's: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Chordata</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Arthropoda</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Mollusca</tp:taxon-name-part></tp:taxon-name>, within more than 40% of all records. <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="kingdom">Plantae</tp:taxon-name-part></tp:taxon-name> also comprises a large portion of the records with angiosperms having the major number of entries.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>Brazilian System for information on Biodiversity (SiBBr)</kwd>
+        <kwd>primary biodiversity data</kwd>
+        <kwd>Global Biodiversity Information Facility (GBIF)</kwd>
+        <kwd>repatriation data</kwd>
+        <kwd>occurrence records</kwd>
+        <kwd>Brazil</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="7"/>
+        <table-count count="0"/>
+        <ref-count count="10"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>Biodiversity primary data are key to address scientific conservation and sustainability issues (<xref ref-type="bibr" rid="B3527267">Hardisty et al. 2013</xref>). Among several methods to disseminate biodiversity data, initiatives mainly using the Internet have become a challenge and a priority. Data should be available, discoverable and freely reusable worldwide. The Global Biodiversity Information Facility (GBIF) provides an international open data infrastructure that allows access to biodiversity data, including data from natural history collections (<xref ref-type="bibr" rid="B3595472">Wheeler 2004</xref>). Countries are encouraged to digitize their data and share it through the platform (<xref ref-type="bibr" rid="B3595462">Berendsohn et al. 2010</xref>) providing access to more than 700 million occurrence records from more than 880 publishers.</p>
+      <p>Brazil is classified at the top of the world’s 17 megadiverse countries, and second in terms of species endemism (<xref ref-type="bibr" rid="B3638869">Ginsberg 1999</xref>). It hosts between 15-20% of the world’s biological diversity with new species reported each year. Although Brazil have achieved a high level of scientific research, with an extensive system of academic and research instituitions (<xref ref-type="bibr" rid="B3638927">Scarano 2007</xref>) there still remain significant limitations in recovering, collating and organising available information on Brazil's biological diversity and its distribution. Historically, Brazil has raised interest for its natural resources and biodiversity since colonial times. According to <xref ref-type="bibr" rid="B3599139">Leite 1995</xref>firstly it was limited to citizens of Portugal who were instructed to discover natural resources and their uses. Later on, during 18th and 19th century, other regions of Europe concerned with observing and classifying natural specimens organized scientific expeditions to Brazil. Referred as Naturalists and sponsored by noblemen or scientific societies, biologists and other researchers travelled around Brazil with the purpose of discovering flora and fauna. Therefore, biological material was often collected and transferred to other countries, which were characterized, stored and maintained. As a result, natural history museums worldwide possess huge collections of Brazilian biodiversity that are not easily accessible to researchers in the countries from which they were collected (<xref ref-type="bibr" rid="B3599862">Santos 2016</xref>, <xref ref-type="bibr" rid="B3527277">Edwards 2004</xref>). Part of these data have been digitalized and nowadays are available on GBIF.</p>
+      <p>Due to the importance of making such data available to the countries of origin, the Convention Biological Diversity (CBD) and GBIF have called for the increased mutual transfer of biodiversity data between countries, also referred to as the repatriation process (<xref ref-type="bibr" rid="B3527352">Laihonen et al. 2004</xref>). Repatriation contributes significantly to the scientific and technological development of the country, preserving its biological diversity and genetic heritage. Both must be safeguarded because of its ecological value as an integral element of the environment and the foundation of socioeconomic activities. Furthermore, repatriation allows biodiversity information data to be transferred and published in national collections, museums and on-line repositories, such as the Brazilian Biodiversity Information Facility (SiBBr). Since 2011, SiBBr represents Brazil in GBIF, offering infrastructure that stimulates and facilitates the publication, integration, access and use of information about Brazilian biodiversity to the community. SiBBr currently integrates more than 10 million records from biological collections of Brazil.</p>
+      <p>Aiming to repatriate digital data from other countries, the SiBBr developed an automatic repatriation tool capable of retrieving all GBIF records within Brazilian coordinates published outside Brazilian territory and indexing them in the SiBBr repository as a dataset that is periodically updated. The present data paper describes the repatriation data set published in SiBBr’s repository through the Integration Publishing Toolkit (IPT) and list the steps of the automated repatriation process.</p>
+    </sec>
+    <sec sec-type="Project description">
+      <title>Project description</title>
+      <sec sec-type="Title">
+        <title>Title</title>
+        <p>Brazilian Biodiversity Information Facility (SiBBr)</p>
+      </sec>
+      <sec sec-type="Design description">
+        <title>Design description</title>
+        <p>The Brazilian Biodiversity Information Facility, known as SiBBr (Fig. <xref ref-type="fig" rid="F3439497">1</xref>) is the national-wide system for biodiversity data. The project concept came as request from the Ministry of Science, Technology, Innovations and Communications of Brazil (MCTiC) due to the lack of an infrastructure to organize and assemble biodiversity information. Implemented in partnership with The United Nations Environment Program (UNEP) and funded by the Global Environment Facility (GEF), SiBBr represents the Brazilian web portal to make biodiversity databases available at a national level and worldwide through GBIF.</p>
+        <p>The SiBBr project goal is to ensure data-driven policy design and implementation by facilitating and mainstreaming biodiversity information into decision-making and policy development processes. Biodiversity primary data should be available to support strategic environmental action plans and official documents used by government agencies to identify priority areas for conservation, as well as procedures in the area of environmental licensing and impacts on biodiversity. The implementation is based on a collaborative network of institutions and actors where investments focus on the digitalization and modernization of biological collections and information to incorporate and use through the national on-line SiBBr repository.</p>
+        <p>SiBBr also provides instruments, tools and technology to support scientific research to expand base knowledge and the current capacity of learning about Brazilian biodiversity. The production of scientific knowledge will contribute the requirements of the society and allow decision-makers to establish policies that integrate biodiversity conservation and sustainable use objectives. SiBBr currently integrates approximately 300 datasets from 93 publishers between national and private institutions sharing more than 10 million records, including the repatriation data set.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>Data published in GBIF provide quick and easy access to global biodiversity data. Data users can search for specific data by customizing the search using filters such as publishing country or country of record which allows to find any data type. This procedure, done manually and on-line, is prolonged and a time-consuming effort. To avoid the procedure and aiming to speed up the process, in Brazil, repatriation of data from GBIF is automatic and periodic. The SiBBr team developed a tool that performs such action in an automated fashion indexing data in the SiBBr repository as it is placed in the system. Developed with Golang programming (<ext-link ext-link-type="uri" xlink:href="https://golang.org/" xlink:type="simple">https://golang.org/</ext-link>) and bash scripting, the source code comprises two different filters; country of origin (Brazil) and publishing country.</p>
+        <p>First of all, the repatriation tool makes an API request in GBIF database. Consequently, GBIF compiles all records that meets the conditions previously determined and retrieves a Comma Separated Values (csv) zipped file. Then, the csv file is converted to a sqlite database and published again through GBIF's Integrated Publishing Toolkit (<xref ref-type="bibr" rid="B3622576">Robertson et al. 2014</xref>) hosted in SiBBr.</p>
+        <p>However, data quality arrangements must be done before publish it again in SiBBr's repository through IPT. The tool is an open software developed to facilitate the share and usability of biodiversity primary data using a vocabulary or set of terms, named as Darwin Core (<ext-link ext-link-type="uri" xlink:href="http://rs.tdwg.org/dwc/terms/" xlink:type="simple">http://rs.tdwg.org/dwc/terms/</ext-link>) that describe biodiversity data (<xref ref-type="bibr" rid="B3595462">Berendsohn et al. 2010</xref>). Data from GBIF comes with restrictions based on modifications of the requirements for publication in IPT. In the current IPT version some fields are mandatory such the Darwin Core terms BasisOfRecord and occurrenceID. The term Basis of Record (the specific nature of the data record) uses a controlled vocabulary: "PreservedSpecimen", "FossilSpecimen", "LivingSpecimen", "HumanObservation", "MachineObservation". However, old versions of the IPT had a different controlled vocabulary. Instead of Human observation it was "observation" or "literature". Therefore, some modifications were made to adjust this requirement to publish in IPT. Finally, occurrenceID was rewritten to avoid duplicity.</p>
+        <p>The data paper describes the state of the data set when the procedure was used to harvest from GBIF for the first time on 9th of April of 2016, at which time 2,459,366 records were added into the SiBBr repository.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>A total of 2,459,366 records have been distributed among all publishing countries worldwide. Figs <xref ref-type="fig" rid="F3415312">2</xref>, <xref ref-type="fig" rid="F3415318">3</xref> give a representation of publishing countries with a major number of Brazilian occurrence records. The United States and Great Britain followed by the Netherlands, Denmark and other European countries and Argentina published the majority of all repatriated records. The most significant amount of data was collected in the Brazilian state of Mato Grosso, followed by Pará and Amazonas state (Fig. <xref ref-type="fig" rid="F3415326">4</xref>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The repatriation dataset comprises 2.459.366 records of all six life kingdoms; <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="kingdom">Animalia</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="kingdom">Plantae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="kingdom">Fungi</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="division">Bacteria</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="kingdom">Protozoa</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="kingdom">Chromista</tp:taxon-name-part></tp:taxon-name>. The best represented kingdom is <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="kingdom">Animalia</tp:taxon-name-part></tp:taxon-name> with 25 phyla; <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Chordata</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Arthropoda</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Mollusca</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Platyhelminthes</tp:taxon-name-part></tp:taxon-name> have the most records. Other pylums include <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cnidaria</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Nematoda</tp:taxon-name-part></tp:taxon-name>., <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Echinodermata</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Annelida</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Porifera</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Brachiopoda</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Bryozoa</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Rotifera</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Acanthocephala</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Sipuncula</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Hemichordata</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Kinorhyncha</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Myxozoa</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Nematomorpha</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Echiura</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Onychophora</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Kamptozoa</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Phoronida</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Chaetognatha</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Chaetognatha</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Nemertea</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Tardigrada</tp:taxon-name-part></tp:taxon-name> (Fig. <xref ref-type="fig" rid="F3415314">5</xref>).</p>
+        <p>For <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="kingdom">Plantae</tp:taxon-name-part></tp:taxon-name>, as despicted in Fig. <xref ref-type="fig" rid="F3415316">6</xref> majority of records belong to phylum <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Magnoliophyta</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Pteridophyta</tp:taxon-name-part></tp:taxon-name>, followed by <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Bryophyta</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Marchantiophyta</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Lycopodiophyta</tp:taxon-name-part></tp:taxon-name>. Other groups represented are <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Psilophyta</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Gnetophyta</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Ginkgophyta</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Equisetophyta</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cycadophyta</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Anthocerotophyta</tp:taxon-name-part></tp:taxon-name> and three groups of algae; <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Chlorophyta</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Rhodophyta</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Bacillariophyta</tp:taxon-name-part></tp:taxon-name>.</p>
+        <p>Regarding <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="kingdom">Fungi</tp:taxon-name-part></tp:taxon-name>, the dataset includes 5 groups: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Ascomycota</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Basidiomycota</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Glomeromycota</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Zygomycota</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Chytridiomycota</tp:taxon-name-part></tp:taxon-name> (Fig. <xref ref-type="fig" rid="F3415316">6</xref>). Finally, there are 4 groups of Chroomista: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Haptophyta</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Ochrophyta</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Oomycota</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Sagenista</tp:taxon-name-part></tp:taxon-name> and five phyla of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="kingdom">Protozoa</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cercozoa</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Ciliophora</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Dinophyta</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Euglenozoa</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Mycetozoa</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Myzozoa</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Sarcomastigophora</tp:taxon-name-part></tp:taxon-name> (Fig. <xref ref-type="fig" rid="F3415320">7</xref>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <sec sec-type="Notes">
+        <title>Notes</title>
+        <p>All data repatriated comprise a collecting period of time that goes from 1658 to 2016. The first record available in GBIF from Brazil is based on a specimen collected in July of 1658. The specimen belong to phylum <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Spermatophyta</tp:taxon-name-part></tp:taxon-name>, kingdom <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="kingdom">Plantae</tp:taxon-name-part></tp:taxon-name> published in GBIF by The United States and stored in The Field Museum of Natural History of Chicago.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Creative Commons Public Domain Waiver (CC-Zero)</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>Repatriados</p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="http://ipt.sibbr.gov.br/repatriados/resource?r=repatriados" xlink:type="simple">http://ipt.sibbr.gov.br/repatriados/resource?r=repatriados</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>1</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Dados Repatriados</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Darwin Core Archive .dwca</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>1</p>
+        </sec>
+        <sec sec-type="Character set">
+          <title>Character set</title>
+          <p>UTF - 8</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="http://ipt.sibbr.gov.br/repatriados/archive.do?r=repatriados" xlink:type="simple">http://ipt.sibbr.gov.br/repatriados/archive.do?r=repatriados</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Data format version">
+          <title>Data format version</title>
+          <p>1.0</p>
+        </sec>
+        <sec sec-type="">
+          <title/>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">Registro</td>
+                  <td rowspan="1" colspan="1">Id of each single record</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <title>References</title>
+      <ref id="B3595462">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Berendsohn</surname>
+              <given-names>Walter G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chavan</surname>
+              <given-names>Vishwas</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Macklin</surname>
+              <given-names>James</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>Summary of Recommendations of the GBIF Task Group on the Global Strategy and Action Plan for the Digitisation of Natural History Collections</article-title>
+          <source>Biodiversity Informatics</source>
+          <volume>7</volume>
+          <issue>2</issue>
+          <fpage>61</fpage>
+          <lpage>71</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.17161/bi.v7i2.3989</uri>
+          <pub-id pub-id-type="doi">10.17161/bi.v7i2.3989</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3527277">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Edwards</surname>
+              <given-names>JAMES L.</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <article-title>Research and Societal Benefits of the Global Biodiversity Information Facility</article-title>
+          <source>BioScience</source>
+          <volume>54</volume>
+          <issue>6</issue>
+          <fpage>486</fpage>
+          <uri xlink:type="simple">http://www.bioone.org/doi/abs/10.1641/0006-3568(2004)054%5B0486:RASBOT%5D2.0.CO%3B2</uri>
+        </element-citation>
+      </ref>
+      <ref id="B3638869">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ginsberg</surname>
+              <given-names>Joshua</given-names>
+            </name>
+          </person-group>
+          <year>1999</year>
+          <article-title>Global Conservation Priorities</article-title>
+          <source>Conservation Biology</source>
+          <volume>13</volume>
+          <issue>1</issue>
+          <fpage>5</fpage>
+          <lpage>5</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1046/j.1523-1739.1999.013001005.x</uri>
+          <pub-id pub-id-type="doi">10.1046/j.1523-1739.1999.013001005.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3527267">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Hardisty</surname>
+              <given-names>Alex</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Roberts</surname>
+              <given-names>Dave</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Informatics Community</surname>
+              <given-names>The Biodiversity</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>A decadal view of biodiversity informatics: challenges and priorities</article-title>
+          <source>BMC Ecology</source>
+          <volume>13</volume>
+          <issue>1</issue>
+          <fpage>16</fpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1186/1472-6785-13-16</uri>
+          <pub-id pub-id-type="doi">10.1186/1472-6785-13-16</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3527352">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Laihonen</surname>
+              <given-names>Pasi</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kalliola</surname>
+              <given-names>Risto</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Salo</surname>
+              <given-names>Jukka</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <article-title>The biodiversity information clearing-house mechanism (CHM) as a global effort</article-title>
+          <source>Environmental Science &amp; Policy</source>
+          <volume>7</volume>
+          <issue>2</issue>
+          <fpage>99</fpage>
+          <lpage>108</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1016/j.envsci.2003.12.003</uri>
+          <pub-id pub-id-type="doi">10.1016/j.envsci.2003.12.003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3599139">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Leite</surname>
+              <given-names>Miriam L. Moreira</given-names>
+            </name>
+          </person-group>
+          <year>1995</year>
+          <article-title>Naturalistas viajantes</article-title>
+          <source>História, Ciências, Saúde-Manguinhos</source>
+          <volume>1</volume>
+          <issue>2</issue>
+          <fpage>7</fpage>
+          <lpage>19</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1590/s0104-59701995000100002</uri>
+          <pub-id pub-id-type="doi">10.1590/s0104-59701995000100002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3622576">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Robertson</surname>
+              <given-names>Tim</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Döring</surname>
+              <given-names>Markus</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Guralnick</surname>
+              <given-names>Robert</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bloom</surname>
+              <given-names>David</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wieczorek</surname>
+              <given-names>John</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Braak</surname>
+              <given-names>Kyle</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Otegui</surname>
+              <given-names>Javier</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Russell</surname>
+              <given-names>Laura</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Desmet</surname>
+              <given-names>Peter</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>The GBIF integrated publishing toolkit: facilitating the efficient publishing of biodiversity data on the internet.</article-title>
+          <source>PloS one</source>
+          <volume>9</volume>
+          <issue>8</issue>
+          <fpage>e102623</fpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1371/journal.pone.0102623</uri>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0102623</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3599862">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Santos</surname>
+              <given-names>Karin dos</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Brazilian plant specimens at the Regnellian herbarium: history and repatriation</article-title>
+          <source>Rodriguésia</source>
+          <volume>67</volume>
+          <issue>4</issue>
+          <fpage>879</fpage>
+          <lpage>892</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1590/2175-7860201667403</uri>
+          <pub-id pub-id-type="doi">10.1590/2175-7860201667403</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3638927">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Scarano</surname>
+              <given-names>Fabio Rubio</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <article-title>Perspectives on biodiversity science in Brazil</article-title>
+          <source>Scientia Agricola</source>
+          <volume>64</volume>
+          <issue>4</issue>
+          <fpage>439</fpage>
+          <lpage>447</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1590/s0103-90162007000400016</uri>
+          <pub-id pub-id-type="doi">10.1590/s0103-90162007000400016</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3595472">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Wheeler</surname>
+              <given-names>QUENTIN D.</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <article-title>What if GBIF?</article-title>
+          <source>BioScience</source>
+          <volume>54</volume>
+          <issue>8</issue>
+          <fpage>718</fpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1641/0006-3568(2004)054[0718:wig]2.0.co;2</uri>
+          <pub-id pub-id-type="doi">10.1641/0006-3568(2004)054[0718:wig]2.0.co;2</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F3439497" position="float" orientation="portrait">
+      <object-id content-type="arpha">CF2A9117-2F55-50AB-80A2-6A073D40E37E</object-id>
+      <object-id content-type="doi">10.3897/BDJ.5.e12012.figure1</object-id>
+      <object-id content-type="zenodo_dep_id">917908</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>The Brazilian Biodiversity Information Facility - <ext-link ext-link-type="uri" xlink:href="http://www.sibbr.gov.br" xlink:type="simple">www.sibbr.gov.br</ext-link></p>
+      </caption>
+      <graphic xlink:href="bdj-05-e12012-g001.jpg" position="float" id="oo_107017.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/107017</uri>
+      </graphic>
+    </fig>
+    <fig id="F3415312" position="float" orientation="portrait">
+      <object-id content-type="arpha">053B889C-F20F-5FBD-8979-9B95E0333DC5</object-id>
+      <object-id content-type="doi">10.3897/BDJ.5.e12012.figure2</object-id>
+      <object-id content-type="zenodo_dep_id">917910</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>Geographic coverage by publishing country of the repatriation data set.</p>
+      </caption>
+      <graphic xlink:href="bdj-05-e12012-g002.png" position="float" id="oo_103751.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/103751</uri>
+      </graphic>
+    </fig>
+    <fig id="F3415318" position="float" orientation="portrait">
+      <object-id content-type="arpha">EB2A7163-CE46-5AB1-B6E4-43CB835C3D59</object-id>
+      <object-id content-type="doi">10.3897/BDJ.5.e12012.figure3</object-id>
+      <object-id content-type="zenodo_dep_id">917912</object-id>
+      <label>Figure 3.</label>
+      <caption>
+        <p>Number of Brazilian records per country published outside national borders (Logarithmic scale). US = United States of America; GB = United Kingdom; NL = Netherlands; DE = Germany; FR = France; SE = Sweden; AR = Argentina; ES = Spain; AT = Austria; CH = Switzerland; VE = Venezuela; AU = Australia; CA = Canada; BE = Belgium; JP = Japan; CO = Colombia; NO = Norway; FI = Finland; PL = Poland; EE = Estonia; DK = Denmark; ZA = South Africa; NZ = New Zealand; CR = Costa Rica; NI = Nicaragua; BG = Bulgaria; MX= Mexico; CL = Chile; CZ = Czech Republic; LU = Luxembourg; PR = Puerto Rico; PT = Portugal; GH = Ghana</p>
+      </caption>
+      <graphic xlink:href="bdj-05-e12012-g003.png" position="float" id="oo_103759.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/103759</uri>
+      </graphic>
+    </fig>
+    <fig id="F3415326" position="float" orientation="portrait">
+      <object-id content-type="arpha">EFB21B90-FBDC-56EF-8C4F-73F65D820AF8</object-id>
+      <object-id content-type="doi">10.3897/BDJ.5.e12012.figure4</object-id>
+      <object-id content-type="zenodo_dep_id">917914</object-id>
+      <label>Figure 4.</label>
+      <caption>
+        <p>Geographic coverage by records of occurrence by Brazilian state of the repatriated data set</p>
+      </caption>
+      <graphic xlink:href="bdj-05-e12012-g004.png" position="float" id="oo_103763.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/103763</uri>
+      </graphic>
+    </fig>
+    <fig id="F3415314" position="float" orientation="portrait">
+      <object-id content-type="arpha">D2936952-811C-57DA-A412-2F87564FDA95</object-id>
+      <object-id content-type="doi">10.3897/BDJ.5.e12012.figure5</object-id>
+      <object-id content-type="zenodo_dep_id">917916</object-id>
+      <label>Figure 5.</label>
+      <caption>
+        <p>Taxonomic coverage by phylum among kingdom <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="kingdom">Animalia</tp:taxon-name-part></tp:taxon-name> (Logarithmic scale).</p>
+      </caption>
+      <graphic xlink:href="bdj-05-e12012-g005.png" position="float" id="oo_103757.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/103757</uri>
+      </graphic>
+    </fig>
+    <fig id="F3415316" position="float" orientation="portrait">
+      <object-id content-type="arpha">C187FB1E-3A41-5A78-B92E-EDC7A2AB887F</object-id>
+      <object-id content-type="doi">10.3897/BDJ.5.e12012.figure6</object-id>
+      <object-id content-type="zenodo_dep_id">917918</object-id>
+      <label>Figure 6.</label>
+      <caption>
+        <p>Number of occurrence records distributed among <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="kingdom">Plantae</tp:taxon-name-part></tp:taxon-name> (black bars) and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="kingdom">Fungi</tp:taxon-name-part></tp:taxon-name> (gray bars) kingdoms by phyla published outside national borders (Logarithmic scale).</p>
+      </caption>
+      <graphic xlink:href="bdj-05-e12012-g006.png" position="float" id="oo_103758.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/103758</uri>
+      </graphic>
+    </fig>
+    <fig id="F3415320" position="float" orientation="portrait">
+      <object-id content-type="arpha">DDB6310B-D635-5169-89A6-485250493FBD</object-id>
+      <object-id content-type="doi">10.3897/BDJ.5.e12012.figure7</object-id>
+      <object-id content-type="zenodo_dep_id">917920</object-id>
+      <label>Figure 7.</label>
+      <caption>
+        <p>Number of occurrence records distributed among <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="kingdom">Chromista</tp:taxon-name-part></tp:taxon-name> (white bars), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="division">Bacteria</tp:taxon-name-part></tp:taxon-name> (gray bars) and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="kingdom">Protozoa</tp:taxon-name-part></tp:taxon-name> (black bars) kingdoms published outside national borders (logarithmic scale).</p>
+      </caption>
+      <graphic xlink:href="bdj-05-e12012-g007.png" position="float" id="oo_103760.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/103760</uri>
+      </graphic>
+    </fig>
+  </floats-group>
+</article>

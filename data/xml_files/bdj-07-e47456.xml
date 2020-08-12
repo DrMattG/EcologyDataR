@@ -1,0 +1,1512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.7.e47456</article-id>
+      <article-id pub-id-type="publisher-id">47456</article-id>
+      <article-id pub-id-type="manuscript">12475</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Opiliones</subject>
+          <subject>Arachnida</subject>
+          <subject>Arthropoda</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Biodiversity &amp; Conservation</subject>
+        </subj-group>
+        <subj-group subj-group-type="Chronological classification">
+          <subject>Neogene</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>South America</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Harvestmen occurrence database (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Arachnida</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Opiliones</tp:taxon-name-part></tp:taxon-name>) of the Museu Paraense Emílio Goeldi, Brazil</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>da Silva</surname>
+            <given-names>Valéria J.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Aguiar-Neto</surname>
+            <given-names>Manoel B.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Teixeira</surname>
+            <given-names>Dan J. S. T.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Santos</surname>
+            <given-names>Cleverson R. M.</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0003-0467-2798</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <name name-style="western">
+            <surname>de Sousa</surname>
+            <given-names>Marcos Paulo Alves</given-names>
+          </name>
+          <email xlink:type="simple">msousa@museu-goeldi.br</email>
+          <uri content-type="orcid">https://orcid.org/0000-0002-3379-4754</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>da Silva</surname>
+            <given-names>Timoteo M.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Ramos</surname>
+            <given-names>Lorran A. R.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <name name-style="western">
+            <surname>Bragio Bonaldo</surname>
+            <given-names>Alexandre</given-names>
+          </name>
+          <email xlink:type="simple">bonaldo@museu-goeldi.br</email>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Museu Paraense Emílio Goeldi, Belém, Brazil</addr-line>
+        <institution>Museu Paraense Emílio Goeldi</institution>
+        <addr-line content-type="city">Belém</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">Laboratório de Aracnologia, Museu Paraense Emílio Goeldi, C.P. 399, 66017-970 Belém, Pará, Brazil, Belém, Brazil</addr-line>
+        <institution>Laboratório de Aracnologia, Museu Paraense Emílio Goeldi, C.P. 399, 66017-970 Belém, Pará, Brazil</institution>
+        <addr-line content-type="city">Belém</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding authors: Marcos Paulo Alves de Sousa (<email xlink:type="simple">msousa@museu-goeldi.br</email>), Alexandre Bragio Bonaldo (<email xlink:type="simple">bonaldo@museu-goeldi.br</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Adriano Kury</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <volume>7</volume>
+      <elocation-id>e47456</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/74BE75A7-28C7-5A89-8395-91A5DBAEEE79">74BE75A7-28C7-5A89-8395-91A5DBAEEE79</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/3600664">3600664</uri>
+      <history>
+        <date date-type="received">
+          <day>19</day>
+          <month>10</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>20</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Valéria J. da Silva, Manoel B. Aguiar-Neto, Dan J. S. T. Teixeira, Cleverson R. M. Santos, Marcos Paulo Alves de Sousa, Timoteo M. da Silva, Lorran A. R. Ramos, Alexandre Bragio Bonaldo</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>We present a dataset with information from the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Opiliones</tp:taxon-name-part></tp:taxon-name> collection of the Museu Paraense Emílio Goeldi, Northern Brazil. This collection currently has 6,400 specimens distributed in 13 families, 30 genera and 32 species and holotypes of four species: <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Imeri">Imeri</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="ajuba">ajuba</tp:taxon-name-part></tp:taxon-name></italic> Coronato-Ribeiro, Pinto-da-Rocha &amp; Rheims, 2013, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phareicranaus">Phareicranaus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="patauateua">patauateua</tp:taxon-name-part></tp:taxon-name></italic> Pinto-da-Rocha &amp; Bonaldo, 2011, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Protimesius">Protimesius</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="trocaraincola">trocaraincola</tp:taxon-name-part></tp:taxon-name></italic> Pinto-da-Rocha, 1997 and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sickesia">Sickesia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="tremembe">tremembe</tp:taxon-name-part></tp:taxon-name></italic> Pinto-da-Rocha &amp; Carvalho, 2009. The material of the collection is exclusive from Brazil, mostly from the Amazon Region. The dataset is now available for public consultation on the Sistema de Informação sobre a Biodiversidade Brasileira (SiBBr) (<ext-link ext-link-type="uri" xlink:href="https://ipt.sibbr.gov.br/goeldi/resource?r=museuparaenseemiliogoeldi-collection-aracnologiaopiliones">https://ipt.sibbr.gov.br/goeldi/resource?r=museuparaenseemiliogoeldi-collection-aracnologiaopiliones</ext-link>). SiBBr is the Brazilian Biodiversity Information System, an initiative of the government and the Brazilian node of the Global Biodiversity Information Facility (GBIF), which aims to consolidate and make primary biodiversity data available on a platform (<xref ref-type="bibr" rid="B5450242">Dias et al. 2017</xref>).</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>Harvestmen or <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Opiliones</tp:taxon-name-part></tp:taxon-name> constitute the third largest arachnid order, with approximately 6,500 described species. Brazil is the holder of the greatest diversity in the world, with more than 1,000 described species, 95% (960 species) of which are endemic to the country. Of these, 32 species were identified and deposited in the collection of the Museu Paraense Emílio Goeldi.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>Amazon</kwd>
+        <kwd>arachnology</kwd>
+        <kwd>database</kwd>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="order">Opiliones</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>occurrence</kwd>
+      </kwd-group>
+      <funding-group>
+        <funding-statement>Programa de Capacitação Institucional (MPEG/MCTIC) and Conselho Nacional de Desenvolvimento Cientifíco e Tecnológico, CNPq (grant number 300124/2018-0 to VJS; 300836/2018-0 to DJST; PQ grant 304965/2012-0 to ABB), and CRMS thanks to Sistema de Informação sobre a Biodiversidade Brasileira (SiBBr) by the financial support (CNPq project numbers 401901/2014-9; 442021/2016-0) and to Financiadora de Estudos e Projetos (FINEP. Project number 1343/13</funding-statement>
+      </funding-group>
+      <counts>
+        <fig-count count="6"/>
+        <table-count count="0"/>
+        <ref-count count="27"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>The Museu Paraense Emílio Goeldi (MPEG) is the second oldest, with a preserved collection, institution of research and natural history of Brazil and the oldest zoo of the country (<xref ref-type="bibr" rid="B5313939">Sanjad et al. 2012</xref>). MPEG was founded in 1866 and presently possesses several biological collections harbouring extensive taxonomic, geographic and ecological representation, which has accumulated biological and cultural information since the 19th century. Currently, MPEG is a federal research institution within the Brazilian Ministry of Science, Technology and Communication (MCTIC) that holds more than 4 million biological and cultural items, distributed in four administrative branches: Coordination of Human Sciences (COCH), Coordination of Earth Sciences and Ecology (COCTE), Coordination of Botany (COBOT) and Coordination of Zoology (COZOO). The COZOO is responsible for maintaining large collections, such as Ichthyology (<xref ref-type="bibr" rid="B5313959">Silva et al. 2017</xref>), Herpetology (<xref ref-type="bibr" rid="B5313924">da Costa Prudente et al. 2019</xref>), Ornithology, Mastozoology, Carcinology, Entomology and Arachnology, as well as other collections of non-arthropod invertebrates.</p>
+      <p>One of the largest collections of invertebrates of MPEG is the collection of Arachnology and its subcollections, amongst which are the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Opiliones</tp:taxon-name-part></tp:taxon-name> collection, which receive and preserve material evidence on the taxonomic, biogeographic and ecological diversity of these organisms, including specimens and associated data and metadata collected in the field, for research and educational purposes.</p>
+      <p>Harvestmen or <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Opiliones</tp:taxon-name-part></tp:taxon-name> constitute the third largest arachnid order (<xref ref-type="bibr" rid="B5313126">Kury and Pinto-da-Rocha 2002</xref>), with approximately 6,500 described species (<xref ref-type="bibr" rid="B5312966">Kury 2019</xref>), Brazil being the holder of the greatest diversity in the world, with more than 1,000 described species, 95% (960 species) of which are endemic to the country, a situation that, according to <xref ref-type="bibr" rid="B5312966">Kury (2019)</xref>, can be explained by the combination of natural diversity and concentration of studies.</p>
+      <p>Despite the fact that the MPEG invertebrate collections are nearly as old as the institution itself, the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Opiliones</tp:taxon-name-part></tp:taxon-name> collection (Fig. <xref ref-type="fig" rid="F5315499">1</xref>) is fairly recent and started to be organised and received special attention only after the establishment of an active line of research in arachnology, back in 2000. However, the first specimens were collected in the 1960s, representing incidental sampling efforts. Currently, the Arachnological collection comprises a large collection from the Amazon Region with nearly 40,000 vials of arachnids. The collection is supported by two permanent researchers, also by a team of associated researchers and a variable number of undergraduate students from several universities and graduate students from two Postgraduate Programmes held by the Museum: Postgraduate in Zoology - PPGZOO (Federal University of Pará/MPEG) and Biodiversity and Evolution - PPGBE (MPEG).</p>
+      <p>The North, Northwest and central areas of Brazil are not as well sampled regarding harvestmen as the South and Southwest portions of the country (<xref ref-type="bibr" rid="B5313875">Pinto-da-Rocha 1999</xref>). Although some efforts have been made in the last 20 years, the sampling of this taxonomic group in these regions is still insufficient (<xref ref-type="bibr" rid="B5313991">Tourinho et al. 2019</xref>). The data, shared through GBIF and presented in this paper represent a contribution to the knowledge, especially from 2000 to 2009, mainly of amazon harvestmen and also a divulgation of the potential of research in this area. In those data, there are information of the most complete inventory for <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Opiliones</tp:taxon-name-part></tp:taxon-name> in Amazon lands made in the national forest of Caxiuanã, in Melgaço, Pará (<xref ref-type="bibr" rid="B5313790">Lança 2011</xref>), where a structured protocol was utilised to inventory arachnids in this area (<xref ref-type="bibr" rid="B5312858">Bonaldo et al. 2009</xref>).</p>
+      <p>Coari, in the state of Amazonas, where the largest number of specimens of the collection were collected, is an important city for the investigation of development in Amazon, anthropic impacts and energy producing and where a large number of studies have been made in diverse areas of knowledge (<xref ref-type="bibr" rid="B5450935">Soler 2009</xref>, <xref ref-type="bibr" rid="B5451256">Feitosa et al. 2017</xref>). That municipality harbours the largest proven terrestrial oil and natural gas reserve (<xref ref-type="bibr" rid="B5313857">Petrobras 2016</xref>), that has oil explorations and a gas pipeline through middle Amazon. As a consequence, the deforestation in Coari has triplicated between 1985 and 2003 and the transformation of soil in that same period by anthropisation and deforestation, represents 500 km² (<xref ref-type="bibr" rid="B5312842">Almeida and Souza 2008</xref>). Sampling and describing occurrence and natural history <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Opiliones</tp:taxon-name-part></tp:taxon-name> are important as tools to measure loss of biodiversity over time, especially because they have the potential as biological controllers and also bio-indicators of environmental quality, given their sensitivity to environmental changes, dependency on microclimatic conditions and low vagility (<xref ref-type="bibr" rid="B5312885">Bragagnolo et al. 2007</xref>, <xref ref-type="bibr" rid="B5313838">Merino and Prieto 2015</xref>). <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Opiliones</tp:taxon-name-part></tp:taxon-name>, in general, present high levels of endemism and, consequently, high risk of extinction when major areas are devastated (<xref ref-type="bibr" rid="B5313814">Machado et al. 2008</xref>)</p>
+      <p>The objective of this datapaper is to characterise the MPEG Harvestmen collection data, synthesising data to serve as reference and a font of accessible information from part of the Brazilian biodiversity. Data is published through SiBBr: <ext-link ext-link-type="uri" xlink:href="https://ipt.sibbr.gov.br/goeldi/resource?r=museuparaenseemiliogoeldi-collection-aracnologiaopiliones">https://ipt.sibbr.gov.br/goeldi/resource?r=museuparaenseemiliogoeldi-collection-aracnologiaopiliones</ext-link>.</p>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>The specimens are preserved in fluid (alcohol 80%). The <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Opiliones</tp:taxon-name-part></tp:taxon-name> collection of MPEG has received collections from many scientists who used various sampling methods. Sampling methods included pitfall traps, entomological beating trail, Malaise trap, Winkler apparatus, Swiping net, fogging, sieve, manual collection, as well as incidental encounters (see <xref ref-type="bibr" rid="B5313889">Pinto-da-Rocha and Bonaldo 2006</xref>, <xref ref-type="bibr" rid="B5312858">Bonaldo et al. 2009</xref>).</p>
+      </sec>
+      <sec sec-type="Quality control">
+        <title>Quality control</title>
+        <p>The taxonomic organisation of the collection followed the Classification of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Opiliones</tp:taxon-name-part></tp:taxon-name> provided by <xref ref-type="bibr" rid="B5312966">Kury (2019)</xref>. The material was identified by comparison with the bibliography and material present in the collections, which were previously identified by specialists. Determination of specimens of collections was mostly made by three specialists: Lo-Man-Hung, N.F., Pinto-da-Rocha, R. and Tourinho, A.L. with 1,394, 361 and 40 specimens identified, respectively.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The collection includes specimens only from Brazil. Most samples come from the Amazon Region, from the following states: Pará (n = 1,378 vials), Amazonas (n = 1,338 vials), Rondônia (n = 13 vials) and Amapá (n = 4 vials). Other Brazilian States represented in the collection include: Piauí (n = 10 vials), Mato Grosso (n = 3 vials), Ceará (n = 2 vials) and Pernambuco (n = 1 vial). Most specimens were captured in Base de Operações Geólogo Pedro de Moura, Porto Urucu, Coari, Amazonas and in the Floresta Nacional de Caxiuanã, Melgaço and Portel, Pará (Fig. <xref ref-type="fig" rid="F5315503">2</xref>).</p>
+        <p>In relation to the richness of species for each state, Pará has the highest number of species (n = 20) recorded in the collection, while Amazonas has 13 species, Amapá, Rondônia, Piauí and Mato Grosso each have one species. The species <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Saramacia">Saramacia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="lucasae">lucasae</tp:taxon-name-part></tp:taxon-name></italic> Jim &amp; Soares, 1991 (<xref ref-type="bibr" rid="B5316067">Jim and Soares 1991</xref>) presents the greatest geographical representation in the collection, being registered in the collection in the states Amapá, Amazonas and Pará.</p>
+      </sec>
+      <sec sec-type="Coordinates">
+        <title>Coordinates</title>
+        <p> and  Latitude;  and  Longitude.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The MPEG <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Opiliones</tp:taxon-name-part></tp:taxon-name> collection includes approximately 6,400 specimens, distributed in 2,789 vials, represented by two suborders (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Eupnoi</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Laniatores</tp:taxon-name-part></tp:taxon-name>), 13 families, 30 genera and 32 species. However, the number of species may be increased by adding the taxonomic information of material currently identified only at supraspecific levels (approximately 3,400 specimens). The most common suborder is <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Laniatores</tp:taxon-name-part></tp:taxon-name> with 2,369 vials. Amongst these, there are 39 type specimens, of which four are holotypes and 35 are paratypes. All type specimens, included in the collection, are detailed below.</p>
+        <p><bold>List of species with holotype and paratype in the collection</bold>:</p>
+        <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Imeri">Imeri</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="ajuba">ajuba</tp:taxon-name-part></tp:taxon-name></italic> Coronato-Ribeiro, Pinto-da-Rocha &amp; Rheims, 2013 (<xref ref-type="bibr" rid="B5316377">Coronato-Ribeiro et al. 2013</xref>), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phareicranaus">Phareicranaus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="patauateua">patauateua</tp:taxon-name-part></tp:taxon-name></italic> Pinto-da-Rocha &amp; Bonaldo, 2011 (<xref ref-type="bibr" rid="B5315521">Pinto-da-Rocha and Bonaldo 2011</xref>, see Fig. <xref ref-type="fig" rid="F5315507">3</xref>), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Protimesius">Protimesius</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="trocaraincol">trocaraincol</tp:taxon-name-part></tp:taxon-name></italic>a Pinto-da-Rocha, 1997 (<xref ref-type="bibr" rid="B5316387">Pinto-da-Rocha 1997</xref>) and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sickesia">Sickesia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="tremembe">tremembe</tp:taxon-name-part></tp:taxon-name></italic> Pinto-da-Rocha &amp; Carvalho, 2009 (<xref ref-type="bibr" rid="B5316397">Pinto-da-Rocha and Carvalho 2009</xref>).</p>
+        <p><bold>List of species with only paratype in the collection</bold>:</p>
+        <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Stygnus">Stygnus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="kuryi">kuryi</tp:taxon-name-part></tp:taxon-name></italic> Pinto-da-Rocha &amp; Tourinho, 2012, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Stygnus">Stygnus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="nogueirai">nogueirai</tp:taxon-name-part></tp:taxon-name></italic> Pinto-da-Rocha &amp; Tourinho, 2012 and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Stygnoplus">Stygnoplus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="tapirapeco">tapirapeco</tp:taxon-name-part></tp:taxon-name></italic> Pinto-da-Rocha &amp; Tourinho, 2012 (<xref ref-type="bibr" rid="B5316407">Pinto-da-Rocha and Tourinho 2012</xref>).</p>
+        <p><bold>Taxonomic ranks</bold>:</p>
+        <p>Kingdom: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="kingdom">Animalia</tp:taxon-name-part></tp:taxon-name></p>
+        <p>Phylum: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Arthropoda</tp:taxon-name-part></tp:taxon-name></p>
+        <p>Class: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Arachnida</tp:taxon-name-part></tp:taxon-name></p>
+        <p>Order: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Opiliones</tp:taxon-name-part></tp:taxon-name></p>
+        <p>Family: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Agoristenidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Biantidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Cosmetidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Cranaidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Fissiphalliidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Gonyleptidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Kimulidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Manaosbiidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Samoidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Sclerosomatidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Stygnidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Stygnommatidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Zalmoxidae</tp:taxon-name-part></tp:taxon-name> Fig. <xref ref-type="fig" rid="F5315511">4</xref></p>
+        
+      </sec>
+      <sec sec-type="Taxa included">
+        <title>Taxa included</title>
+        <table-wrap id="taxonomic_coverage" position="anchor" orientation="portrait">
+          <table rules="all">
+            <thead>
+              <tr>
+                <th rowspan="1" colspan="1">Rank</th>
+                <th rowspan="1" colspan="1">Scientific Name</th>
+                <th rowspan="1" colspan="1"/>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">kingdom</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="kingdom">Animalia</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">phylum</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="phylum">Arthropoda</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">class</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="class">Arachnida</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">order</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="order">Opiliones</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Agoristenidae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Biantidae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Cosmetidae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Cranaidae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Fissiphalliidae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Gonyleptidae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Kimulidae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Manaosbiidae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Samoidae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Sclerosomatidae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Stygnidae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Stygnommatidae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Zalmoxidae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <p><bold>Formation period:</bold> 1965-2009.</p>
+      <sec sec-type="Notes">
+        <title>Notes</title>
+        <p>Specimens in the collection date from 1965 to 2009 (Fig. <xref ref-type="fig" rid="F5315515">5</xref>). The data show the quantity of curated vials by year, depicting three significant increments, one during 1984, later in 2002–2003, with more than 700 vials and the most recent period in collection is observed in 2006–2007, with more than 1,300 vials. These increments coincide with the implementation of major institutional projects at MPEG, which represented field trip opportunities to Carajás National Forest, Pará, Urucu River, Amazonas and Juruti, Pará. Amongst the vials listed, there are 205 (7%) without the date information.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Collection data">
+      <title>Collection data</title>
+      <sec sec-type="Collection name">
+        <title>Collection name</title>
+        <p>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="order">Opiliones</tp:taxon-name-part>
+          </tp:taxon-name>
+        </p>
+      </sec>
+      <sec sec-type="Collection identifier">
+        <title>Collection identifier</title>
+        <p>MPEG.OPI</p>
+      </sec>
+      <sec sec-type="Parent collection identifier">
+        <title>Parent collection identifier</title>
+        <p>Museu Paraense Emílio Goeldi</p>
+      </sec>
+      <sec sec-type="Specimen preservation method">
+        <title>Specimen preservation method</title>
+        <p>Ethanol 80%</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Other</p>
+      </sec>
+      <sec sec-type="IP rights notes">
+        <title>IP rights notes</title>
+        <p>Creative Commons Attribution Non-Commercial (CC-BY-NC) 4.0 License</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>Museu Paraense Emílio Goeldi – <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Opiliones</tp:taxon-name-part></tp:taxon-name> Collection</p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="https://www.gbif.org/dataset/4140cabb-6d7d-4155-8a00-9dfb0bfde61d">https://www.gbif.org/dataset/4140cabb-6d7d-4155-8a00-9dfb0bfde61d</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Alternative identifiers">
+        <title>Alternative identifiers</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="https://ipt.sibbr.gov.br/goeldi/resource?r=museuparaenseemiliogoeldi-collection-aracnologiaopiliones&amp;v=6.2">https://ipt.sibbr.gov.br/goeldi/resource?r=museuparaenseemiliogoeldi-collection-aracnologiaopiliones&amp;v=6.2</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>1</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Museu Paraense Emílio Goeldi - <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Opiliones</tp:taxon-name-part></tp:taxon-name> Collection</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Darwin Core Archive (DwC-A)</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>28</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="https://ipt.sibbr.gov.br/goeldi/resource?r=museuparaenseemiliogoeldi-collection-aracnologiaopiliones">https://ip t.sibbr.gov.br/goeldi/resource?r=museuparaenseemiliogoeldi-collection-aracnologiaopiliones</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Data format version">
+          <title>Data format version</title>
+          <p>11.2</p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>This collection currently has 6,400 specimens distributed in 13 families, 30 genera and 32 species. The full database is available via the Integrated Publishing Toolkit (IPT) of Museu Paraense Emílio Goeldi (version 6.1 published in 2018-07-26)</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceID</td>
+                  <td rowspan="1" colspan="1">An identifier for the Occurrence</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">dcterms:modified</td>
+                  <td rowspan="1" colspan="1">The most recent date-time on which the resource was changed</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">dcterms:licence</td>
+                  <td rowspan="1" colspan="1">A legal document giving official permission to do something with the resource</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">dcterms:rightsHolder</td>
+                  <td rowspan="1" colspan="1">A person or organisation owning or managing rights over the resource</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">institutionCode</td>
+                  <td rowspan="1" colspan="1">The name (or acronym) in use by the institution having custody of the object(s) or information referred to in the record</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">datasetName</td>
+                  <td rowspan="1" colspan="1">The name identifying the dataset from which the record was derived</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">basisOfRecord</td>
+                  <td rowspan="1" colspan="1">The specific nature of the data record - a subtype of the dcterms:type</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">catalogNumber</td>
+                  <td rowspan="1" colspan="1">An identifier for the record within the dataset or collection</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">recordedBy</td>
+                  <td rowspan="1" colspan="1">A list of names of people, groups or organisations responsible for recording the original Occurrence</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">preparations</td>
+                  <td rowspan="1" colspan="1">A list of preparations and preservation methods for a specimen</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">otherCatalogNumbers</td>
+                  <td rowspan="1" colspan="1">A list of previous or alternate fully qualified catalogue numbers or other human-used identifiers for the same Occurrence</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">EventDate</td>
+                  <td rowspan="1" colspan="1">The date-time or interval during which an Event occurred</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">higherGeography</td>
+                  <td rowspan="1" colspan="1">A list of geographic names less specific than the information captured in the locality term</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">continent</td>
+                  <td rowspan="1" colspan="1">The name of the continent in which the Location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">country</td>
+                  <td rowspan="1" colspan="1">The name of the country or major administrative unit in which the Location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">stateProvince</td>
+                  <td rowspan="1" colspan="1">The name of the next smaller administrative region than country</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">county</td>
+                  <td rowspan="1" colspan="1">The full, unabbreviated name of the next smaller administrative region than stateProvince</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">typeStatus</td>
+                  <td rowspan="1" colspan="1">A list of nomenclatural types</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificName</td>
+                  <td rowspan="1" colspan="1">The full scientific name</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">kingdom</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the kingdom in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">phylum</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the phylum or division in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">class</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the class in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">order</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the order in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">family</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the family in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">genus</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the genus in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">specificEpithet</td>
+                  <td rowspan="1" colspan="1">The name of the first or species epithet of the scientificName</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">infraspecificEpithet</td>
+                  <td rowspan="1" colspan="1">The name of the lowest or terminal infraspecific epithet of the scientificName, excluding any rank designation</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">collectionCode</td>
+                  <td rowspan="1" colspan="1">The name, acronym, coden or initialism identifying the collection or dataset from which the record was derived</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+    <sec sec-type="Additional information">
+      <title>Additional information</title>
+      <p>
+        <bold>Data publication protocol</bold>
+      </p>
+      <p>To the publication of the data of the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Opiliones</tp:taxon-name-part></tp:taxon-name> collection, we used a consolidated protocol of data publication of the Goeldi Museum, previously adopted in collections of Ichthyology (<xref ref-type="bibr" rid="B5313959">Silva et al. 2017</xref>) and of snakes (<xref ref-type="bibr" rid="B5313924">da Costa Prudente et al. 2019</xref>).</p>
+      <p><list list-type="bullet">
+        <list-item>
+          <p><italic><bold>Pre-digitisation phase</bold></italic>: The preservation status of harvestmen specimens was reviewed prior to digitisation. An effort was also made to identify specimens and review previous identifications.</p>
+        </list-item>
+        <list-item>
+          <p><italic><bold>Digitalisation phase</bold></italic>: All biodiversity data available on the specimens’ labels (i.e. voucher specimens, taxa identification and name of determiner, sex, number of specimens in the vial, locality, date, habitat, collector, collection method, research project and observations etc.) were digitised in a Microsoft Excel spreadsheet adopting the Specify format (<xref ref-type="bibr" rid="B5313971">Specify 2019</xref>). The spreadsheet data were then imported into the Specify database, but the Workbench tool performs a data check for duplicity, consistency and standardisation errors (i.e. geographic coordinates, date etc.). The data were imported only after this check.</p>
+        </list-item>
+        <list-item>
+          <p><italic><bold>Creation of the dataset</bold></italic>: The dataset was exported from Specify software to the DarwinCore Archive format v1.4 (<xref ref-type="bibr" rid="B5314002">Wieczorek et al. 2012</xref>), with metadata to ensure rapid discovery of this biodiversity resource and future publishing as a citable paper (<xref ref-type="bibr" rid="B5312895">Chavan and Penev 2011</xref>). The collection dataset was uploaded to the Integrated Publishing Toolkit (IPT), which was then submitted and published at Sistema de Informação sobre a Biodiversidade Brasileira (SiBBr - <ext-link ext-link-type="uri" xlink:href="https://www.sibbr.gov.br">https://www.sibbr.gov.br</ext-link>). A second kind of data exportation is to upload data into the MPEG biodiversity portal (<ext-link ext-link-type="uri" xlink:href="http://colecoesbio.museu-goeldi.br/opiliones.html">http://colecoesbio.museu-goeldi.br/opiliones.html</ext-link>). Information of records, images – when available - and maps could be consulted according to the need (Fig. <xref ref-type="fig" rid="F5315519">6</xref>). This structure is based in SPECIFY web portal architecture.</p>
+        </list-item>
+      </list></p>
+      <p>
+        <bold>Curatorship and storage</bold>
+      </p>
+      <p>The curatorial protocol involves receiving material that is identified and labelled, while data and metadata are digitised. The materials are deposited in the collection and air-conditioned to 22°C. The specimens are immersed in 80% alcohol solution for permanent storage.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>The authors would like to thank MPEG Biogeo-Informatics Department who helped processing the data. We thank the Programa de Capacitação Institucional (MPEG/MCTIC) and Conselho Nacional de Desenvolvimento Cientifíco e Tecnológico, CNPq (grant number 300124/2018-0 to VJS; 300836/2018-0 to DJST; PQ grant 304965/2012-0 to ABB) and CRMS thanks Sistema de Informação sobre a Biodiversidade Brasileira (SiBBr) for the financial support (CNPq project numbers 401901/2014-9; 442021/2016-0) and to Financiadora de Estudos e Projetos (FINEP. Project number 1343/13).</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B5312842">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Almeida</surname>
+              <given-names>Wagner Santos de</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Souza</surname>
+              <given-names>Newton Moreira de</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Coari: Petróleo e Sustentabilidade – um exemplo amazônico</article-title>
+          <source>Desenvolvimento e Meio Ambiente</source>
+          <volume>17</volume>
+          <fpage>69</fpage>
+          <lpage>92</lpage>
+          <pub-id pub-id-type="doi">10.5380/dma.v17i0.13413</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5312858">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Bonaldo</surname>
+              <given-names>Alexandre Bragio</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Carvalho</surname>
+              <given-names>L. S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pinto-da-Rocha</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tourinho</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Miglio</surname>
+              <given-names>L. T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Candiani</surname>
+              <given-names>D. F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lo-Man-Hung</surname>
+              <given-names>N. F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Abrahim</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rodrigues</surname>
+              <given-names>B. V.B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brescovit</surname>
+              <given-names>A. D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Saturnino</surname>
+              <given-names>R. F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bastos</surname>
+              <given-names>N. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dias</surname>
+              <given-names>S. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Silva</surname>
+              <given-names>B. J.F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pereira-Filho</surname>
+              <given-names>J. M.B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rheims</surname>
+              <given-names>C. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lucas</surname>
+              <given-names>S. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Polotow</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ruiz</surname>
+              <given-names>G. R.S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Indicatti</surname>
+              <given-names>R. P.</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>Inventário e história natural dos aracnídeos</article-title>
+          <source>Belém: Museu Paraense Emílio Goeldi</source>
+          <fpage>577</fpage>
+          <lpage>621</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5312885">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Bragagnolo</surname>
+              <given-names>Cibele</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nogueira</surname>
+              <given-names>André A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pinto-da-Rocha</surname>
+              <given-names>Ricardo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pardini</surname>
+              <given-names>Renata</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <article-title>Harvestmen in an Atlantic forest fragmented landscape: Evaluating assemblage response to habitat quality and quantity</article-title>
+          <source>Biological Conservation</source>
+          <volume>139</volume>
+          <fpage>389</fpage>
+          <lpage>400</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.biocon.2007.07.008</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5312895">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Chavan</surname>
+              <given-names>Vishwas</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Penev</surname>
+              <given-names>Lyubomir</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>The data paper: a mechanism to incentivize data publishing in biodiversity science</article-title>
+          <source>BMC Bioinformatics</source>
+          <volume>12</volume>
+          <pub-id pub-id-type="doi">10.1186/1471-2105-12-s15-s2</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5316377">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Coronato-Ribeiro</surname>
+              <given-names>Amanda</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pinto-da-Rocha</surname>
+              <given-names>Ricardo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rheims</surname>
+              <given-names>Cristina Anne</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>A new species of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Imeri">Imeri</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Opiliones</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Stygnidae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Heterostygninae</tp:taxon-name-part></tp:taxon-name>) from the Brazilian Amazon</article-title>
+          <source>Zoologia (Curitiba)</source>
+          <volume>30</volume>
+          <issue>3</issue>
+          <fpage>329</fpage>
+          <lpage>332</lpage>
+          <pub-id pub-id-type="doi">10.1590/s1984-46702013000300011</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5313924">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>da Costa Prudente</surname>
+              <given-names>Ana Lúcia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ramos</surname>
+              <given-names>Lorran</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Silva</surname>
+              <given-names>Timóteo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sarmento</surname>
+              <given-names>João</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dourado</surname>
+              <given-names>Angelo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Silva</surname>
+              <given-names>Fernanda</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Almeida</surname>
+              <given-names>Paula</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Santos</surname>
+              <given-names>Cleverson</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sousa</surname>
+              <given-names>Marcos</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Dataset from the Snakes (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Serpentes</tp:taxon-name-part></tp:taxon-name>, Reptiles) collection of the Museu Paraense Emílio Goeldi, Pará, Brazil</article-title>
+          <source>Biodiversity Data Journal</source>
+          <volume>7</volume>
+          <pub-id pub-id-type="doi">10.3897/bdj.7.e34013</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5450242">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Dias</surname>
+              <given-names>David</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Baringo Fonseca</surname>
+              <given-names>Clara</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Correa</surname>
+              <given-names>Luiza</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Soto</surname>
+              <given-names>Nayara</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Portela</surname>
+              <given-names>Andrea</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Juarez</surname>
+              <given-names>Keila</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tumolo Neto</surname>
+              <given-names>Roque João</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ferro</surname>
+              <given-names>Murilo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gonçalves</surname>
+              <given-names>João</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Junior</surname>
+              <given-names>Jurandir</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Repatriation Data: More than two million species occurrence records added to the Brazilian Biodiversity Information Facility Repository (SiBBr)</article-title>
+          <source>Biodiversity Data Journal</source>
+          <volume>5</volume>
+          <pub-id pub-id-type="doi">10.3897/bdj.5.e12012</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5451256">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Feitosa</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Moss</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ruiz</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bonaldo</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Twenty-seven new species of the goblin spider genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Neoxyphinus">Neoxyphinus</tp:taxon-name-part></tp:taxon-name></italic> Birabén, 1953 (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Oonopidae</tp:taxon-name-part></tp:taxon-name>) from Brazil</article-title>
+          <source>Zootaxa</source>
+          <volume>4259</volume>
+          <issue>1</issue>
+          <fpage>1</fpage>
+          <lpage>107</lpage>
+          <pub-id pub-id-type="doi">10.11646/zootaxa.4259.1.1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5316067">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Jim</surname>
+              <given-names>R. L.S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Soares</surname>
+              <given-names>H . E.M.</given-names>
+            </name>
+          </person-group>
+          <year>1991</year>
+          <article-title>Novo gênero e espécie de <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Prostygninae</tp:taxon-name-part></tp:taxon-name> do Brasil (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Opiliones</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Gonyleptidae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Revista Brasileira de Entomologia</source>
+          <volume>35</volume>
+          <issue>4</issue>
+          <fpage>799</fpage>
+          <lpage>802</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5313126">
+        <element-citation publication-type="chapter">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kury</surname>
+              <given-names>A. B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pinto-da-Rocha</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <year>2002</year>
+          <chapter-title>
+            <tp:taxon-name>
+              <tp:taxon-name-part taxon-name-part-type="order">Opiliones</tp:taxon-name-part>
+            </tp:taxon-name>
+          </chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Adis</surname>
+              <given-names>J. A.</given-names>
+            </name>
+          </person-group>
+          <source>Amazonian <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Arachnida</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Diplopoda</tp:taxon-name-part></tp:taxon-name> – Keys for the identification to classes, orders, families, some genera, and lists of known species</source>
+          <publisher-name>Pensoft Publishers</publisher-name>
+          <publisher-loc>Sofia-Moscow</publisher-loc>
+          <size units="page">345–362</size>
+        </element-citation>
+      </ref>
+      <ref id="B5312966">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kury</surname>
+              <given-names>A. B.</given-names>
+            </name>
+          </person-group>
+          <article-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Opiliones</tp:taxon-name-part></tp:taxon-name> in Catálogo Taxonômico da Fauna do Brasil. PNUD.</article-title>
+          <uri>http://fauna.jbrj.gov.br/fauna/faunadobrasil/98744</uri>
+          <date-in-citation content-type="access-date">2019-11-23T00:00:00+02:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5313790">
+        <element-citation publication-type="thesis">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lança</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <source>Padrões de distribuição espacial de Opiliões (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Arachnida</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Opiliones</tp:taxon-name-part></tp:taxon-name>) em uma área de floresta de terra firme na Amazônia Central</source>
+          <publisher-name>Universidade Federal do Amazonas</publisher-name>
+          <publisher-loc>Manaus</publisher-loc>
+          <uri>http://tede.ufam.edu.br/handle/tede/5450</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5313814">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Machado</surname>
+              <given-names>ABM</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brescovit</surname>
+              <given-names>AD</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mielke</surname>
+              <given-names>OH</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Casagrande</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Silveira</surname>
+              <given-names>FA</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ohlweiler</surname>
+              <given-names>FP</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zeppelini</surname>
+              <given-names>D</given-names>
+            </name>
+            <name name-style="western">
+              <surname>de Maria</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wieloch</surname>
+              <given-names>AH</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <source>Panorama Geral dos Invertebrados Terrestres Ameaçados de Extinção. Invertebrados Terrestres- Livro Vermelho da Fauna Brasileira Ameaçada de Extinção</source>
+          <publisher-name>Ministério do Meio Ambiente</publisher-name>
+          <publisher-loc>Brasília</publisher-loc>
+          <uri>http://www.mma.gov.br/estruturas/179/_arquivos/vol_i_invertebrados_terrestres.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5313838">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Merino</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Prieto</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Orden <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Opiliones</tp:taxon-name-part></tp:taxon-name></article-title>
+          <source>Revista IDE@ - SEA</source>
+          <issue>17</issue>
+          <fpage>1</fpage>
+          <lpage>12</lpage>
+          <uri>http://sea-entomologia.org/IDE@/revista_17.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5313857">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Petrobras</surname>
+            </name>
+          </person-group>
+          <article-title>Fatos e Dados. Urucu: completamos 30 anos na Amazônia com gestão responsável</article-title>
+          <uri>http://www.petrobras.com.br/fatos-e-dados/urucu-completamos-30-anos-na-amazonia-com-gestao-responsavel.htm</uri>
+          <date-in-citation content-type="access-date">2019-05-21T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5316387">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Pinto-da-Rocha</surname>
+              <given-names>Ricardo</given-names>
+            </name>
+          </person-group>
+          <year>1997</year>
+          <article-title>Systematic review of the neotropical family <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Stygnidae</tp:taxon-name-part></tp:taxon-name>: (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Opiliones</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Laniatores</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="superfamily">Gonyleptoidea</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Arquivos de Zoologia</source>
+          <volume>33</volume>
+          <issue>4</issue>
+          <pub-id pub-id-type="doi">10.11606/issn.2176-7793.v33i4p163-342</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5313875">
+        <element-citation publication-type="chapter">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Pinto-da-Rocha</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <year>1999</year>
+          <chapter-title>
+            <tp:taxon-name>
+              <tp:taxon-name-part taxon-name-part-type="order">Opiliones</tp:taxon-name-part>
+            </tp:taxon-name>
+          </chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Brandão</surname>
+              <given-names>C. R.F</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cancello</surname>
+              <given-names>E. M</given-names>
+            </name>
+          </person-group>
+          <source>Invertebrados terrestres. Biodiversidade do Estado de São Paulo. Síntese do conhecimento ao final do século XX</source>
+          <volume>5. 35-44</volume>
+          <publisher-name>FAPESP</publisher-name>
+          <publisher-loc>São Paulo</publisher-loc>
+        </element-citation>
+      </ref>
+      <ref id="B5313889">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Pinto-da-Rocha</surname>
+              <given-names>Ricardo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bonaldo</surname>
+              <given-names>Alexandre B</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <article-title>A structured inventory of harvestmen (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Arachnida</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Opiliones</tp:taxon-name-part></tp:taxon-name>) at Juruti river plateau, State of Pará, Brazil</article-title>
+          <source>Revista Ibérica de Aracnología</source>
+          <volume>13</volume>
+          <fpage>155</fpage>
+          <lpage>162</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5316397">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Pinto-da-Rocha</surname>
+              <given-names>Ricardo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Carvalho</surname>
+              <given-names>Leonardo S.</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>A new species of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sickesia">Sickesia</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Laniatores</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Stygnidae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Opiliones</tp:taxon-name-part></tp:taxon-name>) and new records for the State of Piauí, Brazil</article-title>
+          <source>Zoologia (Curitiba)</source>
+          <volume>26</volume>
+          <issue>2</issue>
+          <fpage>337</fpage>
+          <lpage>342</lpage>
+          <pub-id pub-id-type="doi">10.1590/s1984-46702009005000001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5315521">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Pinto-da-Rocha</surname>
+              <given-names>Ricardo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bonaldo</surname>
+              <given-names>ALEXANDRE</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>Species relationships in the Neotropical genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phareicranaus">Phareicranaus</tp:taxon-name-part></tp:taxon-name></italic> Roewer 1913 (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Opiliones</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Cranaidae</tp:taxon-name-part></tp:taxon-name>): two new species and new data from Penial morphology</article-title>
+          <source>Zootaxa</source>
+          <volume>3135</volume>
+          <issue>1</issue>
+          <pub-id pub-id-type="doi">10.11646/zootaxa.3135.1.1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5316407">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Pinto-da-Rocha</surname>
+              <given-names>Ricardo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tourinho</surname>
+              <given-names>Ana Lúcia</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Two new genera, ten new species and new records of Amazonian <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Stygnidae</tp:taxon-name-part></tp:taxon-name> Simon, 1879 (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Opiliones</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Laniatores</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Zootaxa</source>
+          <volume>3340</volume>
+          <issue>1</issue>
+          <pub-id pub-id-type="doi">10.11646/zootaxa.3340.1.1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5313939">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Sanjad</surname>
+              <given-names>Nelson</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Oren</surname>
+              <given-names>David Conway</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Silva Junior</surname>
+              <given-names>José de Sousa e</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hoogmoed</surname>
+              <given-names>Marinus Steven</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Higuchi</surname>
+              <given-names>Horácio</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Documentos para a história do mais antigo jardim zoológico do Brasil: o parque zoobotânico do Museu Goeldi</article-title>
+          <source>Boletim do Museu Paraense Emílio Goeldi. Ciências Humanas</source>
+          <volume>7</volume>
+          <issue>1</issue>
+          <fpage>197</fpage>
+          <lpage>258</lpage>
+          <pub-id pub-id-type="doi">10.1590/s1981-81222012000100013</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5313959">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Silva</surname>
+              <given-names>Timóteo Monteiro da</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Santos</surname>
+              <given-names>Juliana Corrêa dos</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ferreira</surname>
+              <given-names>Victor Amazonas Viegas</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cruz Ramos</surname>
+              <given-names>Lorran Alves da</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wosiacki</surname>
+              <given-names>Wolmar Benjamin</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sousa</surname>
+              <given-names>Marcos Paulo Alves de</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Data from the ichthyological collection of the Museu Paraense Emílio Goeldi</article-title>
+          <source>ZooKeys</source>
+          <volume>687</volume>
+          <fpage>89</fpage>
+          <lpage>99</lpage>
+          <pub-id pub-id-type="doi">10.3897/zookeys.687.11233</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5450935">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Soler</surname>
+              <given-names>Claudia</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>A cidade de Coari/AM e os reflexos da exploração de petróleo e gás natural pela Petrobras</article-title>
+          <source>Papers do NAEA</source>
+          <volume>253</volume>
+          <fpage>3</fpage>
+          <lpage>25</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5313971">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Specify</surname>
+            </name>
+          </person-group>
+          <article-title>Specify Software Project. Biodiversity Institute, University of Kansas, 1345 Jayhawk Blvd. Lawrence, KS USA 66045</article-title>
+          <uri>http://www.specifysoftware.org</uri>
+          <date-in-citation content-type="access-date">2019-08-24T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5313991">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Tourinho</surname>
+              <given-names>Ana Lúcia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Benchimol</surname>
+              <given-names>Maíra</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Porto</surname>
+              <given-names>Willians</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Peres</surname>
+              <given-names>Carlos A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Storck-Tonon</surname>
+              <given-names>Danielle</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Marked compositional changes in harvestmen assemblages in Amazonian forest islands induced by a mega dam</article-title>
+          <source>bioRxiv</source>
+          <pub-id pub-id-type="doi">10.1101/542969</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5314002">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Wieczorek</surname>
+              <given-names>John</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bloom</surname>
+              <given-names>David</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Guralnick</surname>
+              <given-names>Robert</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Blum</surname>
+              <given-names>Stan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Döring</surname>
+              <given-names>Markus</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Giovanni</surname>
+              <given-names>Renato</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Robertson</surname>
+              <given-names>Tim</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vieglais</surname>
+              <given-names>David</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Darwin Core: An evolving community-developed biodiversity data standard</article-title>
+          <source>PLoS ONE</source>
+          <volume>7</volume>
+          <issue>1</issue>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0029715</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F5315499" position="float" orientation="portrait">
+      <object-id content-type="arpha">2D2CD930-BD2E-521B-9754-FA380BBEFDB2</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e47456.figure1</object-id>
+      <object-id content-type="zenodo_dep_id">3600666</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p><bold>A, B</bold> General view of the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Opiliones</tp:taxon-name-part></tp:taxon-name> collection of the Museu Paraense Emílio Goeldi, Belém, Pará, Brazil.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e47456-g001.png" position="float" id="oo_328477.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/328477</uri>
+      </graphic>
+    </fig>
+    <fig id="F5315503" position="float" orientation="portrait">
+      <object-id content-type="arpha">99F1F076-83AA-504E-9AAB-371F79E08388</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e47456.figure2</object-id>
+      <object-id content-type="zenodo_dep_id">3600668</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>Map of occurrence records, MPEG <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Opiliones</tp:taxon-name-part></tp:taxon-name> collection (each point may represent more than one sampling event).</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e47456-g002.png" position="float" id="oo_328479.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/328479</uri>
+      </graphic>
+    </fig>
+    <fig id="F5315507" position="float" orientation="portrait">
+      <object-id content-type="arpha">E6D8E87F-9A56-57BB-9B2A-7D8886996F30</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e47456.figure3</object-id>
+      <object-id content-type="zenodo_dep_id">3600670</object-id>
+      <label>Figure 3.</label>
+      <caption>
+        <p>Male holotype holotype of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phareicranaus">Phareicranaus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="patauateua">patauateua.</tp:taxon-name-part></tp:taxon-name></italic> Scale bars = 2 mm.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e47456-g003.png" position="float" id="oo_328480.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/328480</uri>
+      </graphic>
+    </fig>
+    <fig id="F5315511" position="float" orientation="portrait">
+      <object-id content-type="arpha">BFE5A2FA-76D6-547A-8F3C-7A571AE846B7</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e47456.figure4</object-id>
+      <object-id content-type="zenodo_dep_id">3600672</object-id>
+      <label>Figure 4.</label>
+      <caption>
+        <p>Distribution of families in the Collection of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Opiliones</tp:taxon-name-part></tp:taxon-name>, MPEG. Number of vials and frequencies are represented for each family.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e47456-g004.png" position="float" id="oo_360095.PNG" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/360095</uri>
+      </graphic>
+    </fig>
+    <fig id="F5315515" position="float" orientation="portrait">
+      <object-id content-type="arpha">9EAB434D-145F-5157-BB07-60B05F3BC186</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e47456.figure5</object-id>
+      <object-id content-type="zenodo_dep_id">3600674</object-id>
+      <label>Figure 5.</label>
+      <caption>
+        <p>Distribution of number of curated vials by collection year.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e47456-g005.png" position="float" id="oo_328482.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/328482</uri>
+      </graphic>
+    </fig>
+    <fig id="F5315519" position="float" orientation="portrait">
+      <object-id content-type="arpha">284DA916-3399-5501-AF2F-153E3EB7137B</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e47456.figure6</object-id>
+      <object-id content-type="zenodo_dep_id">3600676</object-id>
+      <label>Figure 6.</label>
+      <caption>
+        <p>Museu Paraense Emílio Goeldi web portal of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Opiliones</tp:taxon-name-part></tp:taxon-name> Collection.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e47456-g006.png" position="float" id="oo_328483.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/328483</uri>
+      </graphic>
+    </fig>
+  </floats-group>
+</article>

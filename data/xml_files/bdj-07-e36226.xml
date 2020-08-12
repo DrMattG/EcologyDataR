@@ -1,0 +1,3203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="3.0" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.7.e36226</article-id>
+      <article-id pub-id-type="publisher-id">36226</article-id>
+      <article-id pub-id-type="manuscript">11288</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Aves</subject>
+          <subject>Reptilia</subject>
+          <subject>Mammalia</subject>
+          <subject>Amphibia</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Biodiversity &amp; Conservation</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>Uruguay</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Biodiversidata: An Open-Access Biodiversity Database for Uruguay</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes" xlink:type="simple">
+          <name name-style="western">
+            <surname>Grattarola</surname>
+            <given-names>Florencia</given-names>
+          </name>
+          <email xlink:type="simple">fgrattarola@lincoln.ac.uk</email>
+          <uri content-type="orcid" xlink:type="simple">https://orcid.org/0000-0001-8282-5732</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Botto</surname>
+            <given-names>Germán</given-names>
+          </name>
+          <uri content-type="orcid" xlink:type="simple">https://orcid.org/0000-0002-4055-9277</uri>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A3">3</xref>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>da Rosa</surname>
+            <given-names>Inés</given-names>
+          </name>
+          <xref ref-type="aff" rid="A5">5</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Gobel</surname>
+            <given-names>Noelia</given-names>
+          </name>
+          <xref ref-type="aff" rid="A6">6</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>González</surname>
+            <given-names>Enrique M.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A7">7</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>González</surname>
+            <given-names>Javier</given-names>
+          </name>
+          <xref ref-type="aff" rid="A7">7</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Hernández</surname>
+            <given-names>Daniel</given-names>
+          </name>
+          <xref ref-type="aff" rid="A8">8</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Laufer</surname>
+            <given-names>Gabriel</given-names>
+          </name>
+          <xref ref-type="aff" rid="A6">6</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Maneyro</surname>
+            <given-names>Raúl</given-names>
+          </name>
+          <uri content-type="orcid" xlink:type="simple">https://orcid.org/0000-0003-3440-8701</uri>
+          <xref ref-type="aff" rid="A5">5</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Martínez-Lanfranco</surname>
+            <given-names>Juan A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A7">7</xref>
+          <xref ref-type="aff" rid="A9">9</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Naya</surname>
+            <given-names>Daniel E.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A10">10</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Rodales</surname>
+            <given-names>Ana L.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Ziegler</surname>
+            <given-names>Lucía</given-names>
+          </name>
+          <xref ref-type="aff" rid="A11">11</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Pincheira-Donoso</surname>
+            <given-names>Daniel</given-names>
+          </name>
+          <xref ref-type="aff" rid="A12">12</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">School of Life Sciences, University of Lincoln, Brayford Campus, Lincoln, United Kingdom</addr-line>
+        <institution xlink:type="simple">School of Life Sciences, University of Lincoln, Brayford Campus</institution>
+        <addr-line content-type="city">Lincoln</addr-line>
+        <country>United Kingdom</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">Department of Micriobiology and Immunology, Montana State Universitiy, Bozeman, United States of America</addr-line>
+        <institution xlink:type="simple">Department of Micriobiology and Immunology, Montana State Universitiy</institution>
+        <addr-line content-type="city">Bozeman</addr-line>
+        <country>United States of America</country>
+      </aff>
+      <aff id="A3">
+        <label>3</label>
+        <addr-line content-type="verbatim">Departamento de Métodos Cuantitativos, Facultad de Medicina, Universidad de la República, Montevideo, Uruguay</addr-line>
+        <institution xlink:type="simple">Departamento de Métodos Cuantitativos, Facultad de Medicina, Universidad de la República</institution>
+        <addr-line content-type="city">Montevideo</addr-line>
+        <country>Uruguay</country>
+      </aff>
+      <aff id="A4">
+        <label>4</label>
+        <addr-line content-type="verbatim">Programa para la Conservación de los Murciélagos de Uruguay, Museo Nacional de Historia Natural, Montevideo, Uruguay</addr-line>
+        <institution xlink:type="simple">Programa para la Conservación de los Murciélagos de Uruguay, Museo Nacional de Historia Natural</institution>
+        <addr-line content-type="city">Montevideo</addr-line>
+        <country>Uruguay</country>
+      </aff>
+      <aff id="A5">
+        <label>5</label>
+        <addr-line content-type="verbatim">Laboratorio de Sistemática e Historia Natural de Vertebrados, Facultad de Ciencias, Universidad de la República, Montevideo, Uruguay</addr-line>
+        <institution xlink:type="simple">Laboratorio de Sistemática e Historia Natural de Vertebrados, Facultad de Ciencias, Universidad de la República</institution>
+        <addr-line content-type="city">Montevideo</addr-line>
+        <country>Uruguay</country>
+      </aff>
+      <aff id="A6">
+        <label>6</label>
+        <addr-line content-type="verbatim">Área Biodiversidad y Conservación, Museo Nacional de Historia Natural, Montevideo, Uruguay</addr-line>
+        <institution xlink:type="simple">Área Biodiversidad y Conservación, Museo Nacional de Historia Natural</institution>
+        <addr-line content-type="city">Montevideo</addr-line>
+        <country>Uruguay</country>
+      </aff>
+      <aff id="A7">
+        <label>7</label>
+        <addr-line content-type="verbatim">Museo Nacional de Historia Natural, Montevideo, Uruguay</addr-line>
+        <institution xlink:type="simple">Museo Nacional de Historia Natural</institution>
+        <addr-line content-type="city">Montevideo</addr-line>
+        <country>Uruguay</country>
+      </aff>
+      <aff id="A8">
+        <label>8</label>
+        <addr-line content-type="verbatim">NGO JULANA (Jugando en la Naturaleza), Montevideo, Uruguay</addr-line>
+        <institution xlink:type="simple">NGO JULANA (Jugando en la Naturaleza)</institution>
+        <addr-line content-type="city">Montevideo</addr-line>
+        <country>Uruguay</country>
+      </aff>
+      <aff id="A9">
+        <label>9</label>
+        <addr-line content-type="verbatim">Department of Wildlife, Fisheries and Aquaculture, Mississippi State University, Mississippi, United States of America</addr-line>
+        <institution xlink:type="simple">Department of Wildlife, Fisheries and Aquaculture, Mississippi State University</institution>
+        <addr-line content-type="city">Mississippi</addr-line>
+        <country>United States of America</country>
+      </aff>
+      <aff id="A10">
+        <label>10</label>
+        <addr-line content-type="verbatim">Departamento de Ecología y Evolución, Facultad de Ciencias, Universidad de la República, Montevideo, Uruguay</addr-line>
+        <institution xlink:type="simple">Departamento de Ecología y Evolución, Facultad de Ciencias, Universidad de la República</institution>
+        <addr-line content-type="city">Montevideo</addr-line>
+        <country>Uruguay</country>
+      </aff>
+      <aff id="A11">
+        <label>11</label>
+        <addr-line content-type="verbatim">Centro Universitario Regional del Este (CURE), Universidad de la República, Maldonado, Uruguay</addr-line>
+        <institution xlink:type="simple">Centro Universitario Regional del Este (CURE), Universidad de la República</institution>
+        <addr-line content-type="city">Maldonado</addr-line>
+        <country>Uruguay</country>
+      </aff>
+      <aff id="A12">
+        <label>12</label>
+        <addr-line content-type="verbatim">MacroBiodiversity Lab, School of Science and Technology, Department of Biosciences, Trent University, Nottingham, United Kingdom</addr-line>
+        <institution xlink:type="simple">MacroBiodiversity Lab, School of Science and Technology, Department of Biosciences, Trent University</institution>
+        <addr-line content-type="city">Nottingham</addr-line>
+        <country>United Kingdom</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Florencia Grattarola (<email xlink:type="simple">fgrattarola@lincoln.ac.uk</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Ross Mounce</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>20</day>
+        <month>06</month>
+        <year>2019</year>
+      </pub-date>
+      <volume>7</volume>
+      <elocation-id>e36226</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/77763685-2DF4-586C-96C2-D2AE49D10D25">77763685-2DF4-586C-96C2-D2AE49D10D25</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/3258951">3258951</uri>
+      <history>
+        <date date-type="received">
+          <day>15</day>
+          <month>05</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>14</day>
+          <month>06</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Florencia Grattarola, Germán Botto, Inés da Rosa, Noelia Gobel, Enrique M. González, Javier González, Daniel Hernández, Gabriel Laufer, Raúl Maneyro, Juan A. Martínez-Lanfranco, Daniel E. Naya, Ana L. Rodales, Lucía Ziegler, Daniel Pincheira-Donoso</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>The continental and marine territories of Uruguay are characterised by a rich convergence of multiple biogeographic ecoregions of the Neotropics, making this country a peculiar biodiversity spot. However, despite the biological significance of Uruguay for the South American subcontinent, the distribution of biodiversity patterns in this country remain poorly understood, given the severe gaps in available records of geographic species distributions. Currently, national biodiversity datasets are not openly available and, thus, a dominant proportion of the primary biodiversity data produced by researchers and institutions across Uruguay remains highly dispersed and difficult to access for the wider scientific and environmental community. In this paper, we aim to fill this gap by developing the first comprehensive, open-access database of biodiversity records for Uruguay (Biodiversidata), which is the result of a large-scale collaboration involving experts working across the entire range of taxonomic diversity found in the country.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>As part of the first phase of Biodiversidata, we here present a comprehensive database of tetrapod occurrence records native from Uruguay, with the latest taxonomic updates. The database provides primary biodiversity data on extant <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Amphibia</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part></tp:taxon-name> species recorded within the country. The total number of records collated is 69,380, spanning 673 species and it is available at the Zenodo repository: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5281/zenodo.2650169" xlink:type="simple">https://doi.org/10.5281/zenodo.2650169</ext-link>. This is the largest and most geographically and taxonomically comprehensive database of Uruguayan tetrapod species available to date and it represents the first open repository for the country.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>Uruguay</kwd>
+        <kwd>Biodiversity</kwd>
+        <kwd>Species Occurrence Records</kwd>
+        <kwd>Tetrapods</kwd>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="class">Amphibia</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group xlink:type="simple">
+          <funding-source xlink:type="simple">
+            <named-content content-type="funder_name" xlink:type="simple">Agencia Nacional de Investigación e Innovación</named-content>
+            <named-content content-type="funder_identifier" xlink:type="simple">100008725</named-content>
+            <named-content content-type="funder_doi" xlink:type="simple">http://doi.org/10.13039/100008725</named-content>
+          </funding-source>
+        </award-group>
+      </funding-group>
+      <counts>
+        <fig-count count="4"/>
+        <table-count count="2"/>
+        <ref-count count="60"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>Uruguay encompasses a peculiar area of South America located within the Pampa Province of the Neotropical Region (<xref ref-type="bibr" rid="B5200332">Morrone 2014</xref>). Both the continental and marine territories currently covered by Uruguay are known to represent rich areas of convergence of diverse environments as heterogeneous as the Amazon, the Pampa, Patagonia and Subantarctic subregions (<xref ref-type="bibr" rid="B5249027">Morrone 2006</xref>, <xref ref-type="bibr" rid="B5255163">Calliari et al. 2003</xref>). For example, <xref ref-type="bibr" rid="B5250318">Grela (2004)</xref> suggests the existence of a phytogeographic longitudinal division of the country’s territory, with a western area characterised by the occurrence of Paranaense and Chaco species and an eastern area marked by different Paranaense species and relicts of flora from the Brazilian Cerrado (<xref ref-type="bibr" rid="B5248997">Grela and Brussa 2003</xref>). Additionally, <xref ref-type="bibr" rid="B5249087">Arballo and Cravino (1999)</xref> and <xref ref-type="bibr" rid="B5249052">Gonzalez and Martínez-Lanfranco (2010)</xref> describe the similarities between the bird and mammal assemblages of Uruguay and the species from adjacent subregions, indicating the spatial convergence of lineages from Brazilian and Andino-Patagonian origins. The reptiles and amphibians, on the other hand, are the result of lineage radiations that come from subregions as contrasting as Patagonia and the Amazon (<xref ref-type="bibr" rid="B5248978">Pincheira-Donoso 2010</xref>). Given these unique biodiversity features, the geographic region, encompassed by the territory of Uruguay, has been proposed to represent a differentiated unit of Pampa, defined by the unique composition of its flora and fauna (<xref ref-type="bibr" rid="B5249017">Chebataroff 1942</xref>, <xref ref-type="bibr" rid="B5250298">Dos Santos et al. 2016</xref>). Therefore, it is surprising that these biogeographic features, combined with the country’s small territorial area (176,220 km2) and its relatively uniform elevational topography (513 m maximum altitude), remain one of the poorest-known across the Americas as a whole. These limitations apply fundamentally to any measure of biodiversity, such as the patterns of distribution of species-richness, endemism and threatened species (<xref ref-type="bibr" rid="B5248966">Canavero et al. 2010</xref>, <xref ref-type="bibr" rid="B5248988">Soutullo et al. 2013</xref>). Collectively, such lack of information hampers any attempts to assess, strategically study and manage the biodiversity and the natural resources of the country.</p>
+      <p>Currently, national biodiversity databases are unavailable and, thus, the dominant proportion of the primary biodiversity data produced in the country is highly dispersed and difficult to access for the wider scientific community and for policy-makers. Likewise, the Global Biodiversity Information Facility (GBIF) reveals that Uruguay ranks amongst the countries of America with the lowest levels of available data on their biodiversity (Fig. <xref ref-type="fig" rid="F5248963">1</xref>). In the GBIF platform (as of 7 June 2019), 73.5% of the records belong to the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part></tp:taxon-name> Class, all of which proceed from the eBird initiative. As shown in Fig. <xref ref-type="fig" rid="F5248963">1</xref> , the overwhelming contribution of records provided by eBird to GBIF highlights the enormous role that data, provided by citizens, play in the development of global biodiversity datasets, while at the same time, points out the critical taxonomical biases encountered in GBIF for the region.</p>
+      <sec sec-type="First open biodiversity database of Uruguay">
+        <title>First open biodiversity database of Uruguay</title>
+        <p>Here, we introduce Biodiversidata, the first database derived from the Uruguayan Consortium of Biodiversity Data (<ext-link ext-link-type="uri" xlink:href="http://biodiversidata.org" xlink:type="simple">biodiversidata.org</ext-link>), a collaborative initiative aimed at hosting and distributing via an open-access platform a comprehensive database on the biodiversity of Uruguay. The total number of records collated is 69,380, from across 673 species (Table <xref ref-type="table" rid="T5184678">1</xref>). Biodiversidata contains primary biodiversity data (i.e. data records that document the occurrence of a species in space and time) from all the native amphibian, reptile, bird and mammal species recorded in Uruguay to date. Therefore, this paper is the first contribution in a series of phases aimed at improving the knowledge of the biodiversity of Uruguay and, importantly, establishing a fully open-access resource for the wider community from this point on. The data are currently being used to (i) identify spatial patterns of species richness, local endemism and endangerment within tetrapod species of Uruguay, to then assess the spatial congruence amongst these patterns, (ii) quantify the spatial and temporal incompleteness of the inventory and (iii) identify high priority areas of historically poor sampling (‘hotspots of ignorance’), with the ultimate aim of facilitating the development of future sampling strategies and efforts to complete these gaps. This database, therefore, has been generated, based on the principle that collaboration amongst experts can strongly push forward the development of fields and, in this particular case, improve our knowledge on the biodiversity of Uruguay by overcoming data-scarcity and enriching the understanding of regional and larger-scale biodiversity patterns. Collectively, Biodiversidata offers the first open biodiversity repository for the country and the most comprehensive geographically and taxonomically resource for biodiversity and environmental studies in Uruguay to date.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>The database was developed, based on the collection of data from a range of different sources. A significant proportion of the data was collected by expert members of Biodiversidata. These records can be found with the value ‘Unpublished data’ under the term ‘associatedReference’. A proportion of them has been deposited in national specimen collections such as the Mammalogy collection of the Museo Nacional de Historia Natural of Uruguay and the Vertebrate collection of the Facultad de Ciencias, Universidad de la República (Uruguay). In addition to the large volume of original data, we have also incorporated all readily available records from multiple sources, including online databases (i.e. GBIF) as well as data currently published but not available in the format of other sources of compiled information. These include data from primarily field guides and books and primary literature such as monographs, systematic accounts, species descriptions, reviews and reports of range extensions, in journals such as “Check List” and the local “Boletín de la Sociedad Zoológica del Uruguay”, amongst others. A complete list of sources for the occurrence records is shown in Table <xref ref-type="table" rid="T5199711">2</xref>. Most of the sources used are freely available online, while numerous other literature resources that document the primary biodiversity data of Uruguay still remain inaccessible.</p>
+        <p>The GBIF dataset was obtained by searching for Uruguay in the ‘country or area’ field (as for 15 January 2018), retrieving 185,519 occurrences from 573 datasets, including 8,925 species of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="kingdom">Animalia</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="kingdom">Plantae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="kingdom">Fungi</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="division">Bacteria</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="kingdom">Chromista</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="kingdom">Protozoa</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="kingdom">Archaea</tp:taxon-name-part></tp:taxon-name>. These data on species occurrences are available on the GBIF portal at <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15468/dl.dmul8x" xlink:type="simple">https://doi.org/10.15468/dl.dmul8x</ext-link>. Most of these records were submitted by the eBird project (56.1% of the total amount) and the rest derive from diverse specimen collections around the world, such as the National Museum of Natural History Smithsonian Institution (4.2%), the Instituto de Botánica Darwinion in Argentina (3.9%), the Missouri Botanical Garden’s Herbarium (3%), the Museo Argentino de Ciencias Naturales "Bernardino Rivadavia" (2.1%), the Swedish Museum of Natural History (1.6%), the Museum of Comparative Zoology at Harvard University (0.72%), the American Museum of Natural History of New York (0.68%) and the Natural History Museum of London (0.57%). None of the records was submitted by Uruguayan institutions, most likely because of the major public sources of specimen biodiversity information (government and academia) are not open nor publicly available.</p>
+      </sec>
+      <sec sec-type="Quality control">
+        <title>Quality control</title>
+        <p>Different methods were applied to treat the data derived from each of the above-mentioned sources. For the GBIF data, only records of amphibians, reptiles, birds and mammals were included in this first version. Exotic species and records without complete date of collection/observation or geographic location information were excluded. The data from literature were manually extracted and added to the data collected by members of Biodiversidata. These records were controlled by collection and catalogue number to check their complete independence from the GBIF data. To avoid pseudo-replication in posterior analyses, records were filtered by considering only one record per locality/year. If more than one organism of the same species was collected in a locality in the same year (i.e. same geographic coordinates), we kept the first and most complete record (i.e. the most informative record for the year).</p>
+        <p>In line with FAIR data Principles (<xref ref-type="bibr" rid="B5247803">Wilkinson et al. 2016</xref>), the database was prepared to improve the findability, accessibility, interoperability and reuse of the data collated. We manually adapted the data following the Darwin Core Biodiversity Data Standard (DwC) (<xref ref-type="bibr" rid="B5200144">Wieczorek et al. 2012</xref>), incorporating 32 descriptive terms (see Data resources section for a full description of each column heading). Likewise, we created a persistent and global identifier for each record, included well-described metadata and applied the most accessible usage licence to the data.</p>
+        <p>A significant number of the data lacked crucial information in terms of taxon, time and place of collection/observation, a common issue with observational and specimen data (<xref ref-type="bibr" rid="B5248949">Peterson et al. 2018</xref>). Thus, the treating of the vastly heterogeneous records included updating scientific names inconsistencies and the georeferencing of sampling locations when sufficient information was provided. For standardisation of species names and complete taxonomic categories retrieval, we used the R package 'taxize' (<xref ref-type="bibr" rid="B5200918">Chamberlain et al. 2018</xref>). We followed the Integrated Taxonomic Information System database (<underline><ext-link ext-link-type="uri" xlink:href="https://www.itis.gov" xlink:type="simple">itis.gov</ext-link></underline>) and the specific reference according to the taxonomic group: Amphibian Species of the World of the American Museum of Natural History, BirdLife International, The Mammal Species of The World and The Reptile Database. For conservation status retrieval according to the IUCN Red List, we used the R package 'rredlist' (<xref ref-type="bibr" rid="B5200936">Chamberlain 2018</xref>). The R scripts used can be found at <xref ref-type="bibr" rid="B5211075">Grattarola (2019)</xref>. Georeferenced point data resulted from either GPS measurements, direct estimates of the latitude and longitude of an observation when route and kilometre number data were available or by defining the latitude and longitude of the event locality through the GeoNames Gazetteer database (<ext-link ext-link-type="uri" xlink:href="http://geonames.org/" xlink:type="simple">geonames.org</ext-link>). The details of how geographic latitude and longitude were obtained can be found under the term ‘georeferenceSources’.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The database includes all native and extant species of tetrapods reported in any area within the borders of Uruguay. The occurrence records are not evenly distributed through space as a result of oversampling in some areas and of limited (or no) sampling in other areas (Fig. <xref ref-type="fig" rid="F5177827">2</xref>a). When we consider the records of the last 30 years, the geographic coverage amongst groups reduces enormously and becomes dominated by birds (Fig. <xref ref-type="fig" rid="F5177827">2</xref>b).</p>
+        <p>Higher numbers of records are seen in the coast area, whilst the centre of the country holds low sampling densities. The most sampled area of Uruguay is in Montevideo (the capital of the country), followed by the surroundings of Maldonado and Rocha cities, all Atlantic coast areas. We observed this pattern particularly in <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part></tp:taxon-name> which, despite being the most sampled group, with 87.4% of the database records, they are strongly spatially biased. Reptiles, on the other hand, with the least number of records in the database, cover the Uruguayan territory better than any other tetrapod group.</p>
+        <p>After our data collation, we can observe some areas of the country that remain systematically ignored. This disparity in sampling is mostly due to the lack of systematisation in the efforts of zoological exploration of the national territory and responds to the realisation of research projects, faunistic inventories or intensive occasional sampling in a few locations, generally near the main population centres or close to easily accessible areas (<xref ref-type="bibr" rid="B5199836">Carreira et al. 2005</xref>, <xref ref-type="bibr" rid="B5248988">Soutullo et al. 2013</xref>). As can be seen in Fig. <xref ref-type="fig" rid="F5177827">2</xref>, areas with more sampling effort tend to be located adjacent to national routes. Nevertheless, this is the first country-wide effort aimed at tackling biodiversity data being lost. In the future, there is substantial work to be done on digitisation and tactical direction of new sampling efforts to enhance the territorial coverage to develop a more accurate picture of the distribution of biodiversity in the country. Therefore, a critical first contribution of the Uruguayan Consortium of Biodiversity Data will involve establishing areas where efforts are urgently needed at the expense of areas that have been historically oversampled.</p>
+      </sec>
+      <sec sec-type="Coordinates">
+        <title>Coordinates</title>
+        <p>-34.973188 and -30.10818 Latitude; -58.43882 and -53.266525 Longitude.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The database incudes 69,380, representing 129 families, 446 genera and 673 species: 51 amphibians, 68 reptiles, 437 birds and 117 mammals. The taxonomic coverage is uneven (Fig. <xref ref-type="fig" rid="F5248947">3</xref>). For instance, ten bird species make up to 14% of the database records, while 10% of the tetrapod species have only been observed/collected once. Likewise, occurrence records within groups are dominated by their most sampled species, such as <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Boana">Boana</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pulchella">pulchella</tp:taxon-name-part></tp:taxon-name></italic> (N = 248) and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pseudis">Pseudis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="minuta">minuta</tp:taxon-name-part></tp:taxon-name></italic> (N = 195) in <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Amphibia</tp:taxon-name-part></tp:taxon-name>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Philodryas">Philodryas</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="patagoniensis">patagoniensis</tp:taxon-name-part></tp:taxon-name></italic> (N = 176) and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Erythrolamprus">Erythrolamprus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="poecilogyrus">poecilogyrus</tp:taxon-name-part></tp:taxon-name></italic> (N = 139) in <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part></tp:taxon-name>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pitangus">Pitangus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="sulphuratus">sulphuratus</tp:taxon-name-part></tp:taxon-name></italic> (N = 1191) and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Furnarius">Furnarius</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="rufus">rufus</tp:taxon-name-part></tp:taxon-name></italic> (N = 1180) in <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part></tp:taxon-name> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Akodon">Akodon</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="azarae">azarae</tp:taxon-name-part></tp:taxon-name></italic> (N = 207) and Scapteromys tumidus (N = 187) in <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part></tp:taxon-name>.</p>
+      </sec>
+      <sec sec-type="Taxa included">
+        <title>Taxa included</title>
+        <table-wrap id="taxonomic_coverage" position="anchor" orientation="portrait">
+          <table rules="all">
+            <thead>
+              <tr>
+                <th rowspan="1" colspan="1">Rank</th>
+                <th rowspan="1" colspan="1">Scientific Name</th>
+                <th rowspan="1" colspan="1">Common Name</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">kingdom</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="kingdom">Animalia</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1">Animals</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">subkingdom</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="subkingdom">Eumetazoa</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">phylum</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="phylum">Chordata</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">subphylum</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="subphylum">Vertebrata</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">superclass</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="superclass">Tetrapoda</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">class</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="class">Amphibia</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1">Amphibians</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">class</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1">Reptiles</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">class</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1">Birds</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">class</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1">Mammals</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <sec sec-type="Notes">
+        <title>Notes</title>
+        <p>The records included in Biodiversidata cover samples reported in Uruguay during the period of 1806–2018 (Fig. <xref ref-type="fig" rid="F5177823">4</xref>). We observed that occurrence records have been collected mostly intermittently within groups, with a continuously increasing tendency since the beginning of the 20th Century. The steady increase towards the latter half of the century is in part a result of the creation of the School of Science (1945) and several field work expeditions during the next decades that resulted in an increase in the production of research articles (<xref ref-type="bibr" rid="B5248988">Soutullo et al. 2013</xref>). In the case of the records collected from literature, there was a high number lacking date of collection or observation. For instance, a large number of the records collated from <xref ref-type="bibr" rid="B5199836">Carreira et al. (2005)</xref>, a detailed scientific monograph on the reptiles of Uruguay, provides location but no date associated to the records. We aim to promote the need to associate spatial records to dates of collection of the datapoints, as this approach is expected to facilitate the development of scientific-based decisions when implementing environmental policies (<xref ref-type="bibr" rid="B5248949">Peterson et al. 2018</xref>). Overall, as was mentioned above, numerous other literature sources and specimens recorded in the country yet need to become digitally accessible, hence, Uruguay will face a great challenge in "rescuing" these data in the future to prevent them being lost.</p>
+        <p>In particular, bird occurrence records are disproportionally superior in the database (i.e. 87.4% of total number of records), presenting an intense period of sampling effort between 2000 and 2016, mostly derived from citizen science efforts from eBird users (collected from GBIF). Regardless of the spatial bias of these records, it is valuable to note the significant contribution of local ornithologists and birdwatchers (i.e. <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part></tp:taxon-name> Uruguay) to the international initiative, which probably stands as the richest and oldest practice of data-sharing known in Uruguay.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Creative Commons Public Domain Waiver (CC-Zero)</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>Biodiversidata</p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>1</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Biodiversidata: An Open-Access Database for the Biodiversity of Uruguay: 1806-2018</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Darwin Core Archive</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>32</p>
+        </sec>
+        <sec sec-type="Character set">
+          <title>Character set</title>
+          <p>UTF-8</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.5281/zenodo.2650169" xlink:type="simple">doi.org/10.5281/zenodo.2650169 </ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Data format version">
+          <title>Data format version</title>
+          <p>1.0</p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>The dataset provides primary biodiversity data on extant <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Amphibia</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part></tp:taxon-name> species recorded within the country area between 1806-2018. The total number of records collated is 69,380, including 673 species. Suppl. material <xref ref-type="supplementary-material" rid="S5232488">1</xref></p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceID</td>
+                  <td rowspan="1" colspan="1">An identifier for the Occurrence (as opposed to a particular digital record of the occurrence), constructed from a combination of identifiers in the record that will most closely make the occurrenceID globally unique.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificName</td>
+                  <td rowspan="1" colspan="1">The full scientific name, with authorship and date information</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificNameAuthorship</td>
+                  <td rowspan="1" colspan="1">The authorship information for the scientificName</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">vernacularName</td>
+                  <td rowspan="1" colspan="1">Common or vernacular name in Uruguay (in Spanish)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">kingdom</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the kingdom in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">phylum</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the phylum or division in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">class</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the class in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">order</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the order in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">family</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the family in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">genus</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the genus in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">specificEpithet</td>
+                  <td rowspan="1" colspan="1">The name of the first or species epithet of the scientificName</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">infraspecificEpithet</td>
+                  <td rowspan="1" colspan="1">The name of the lowest or terminal infraspecific epithet of the scientificName, excluding any rank designation</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">countryCode</td>
+                  <td rowspan="1" colspan="1">The standard code for the country in which the Location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">stateProvince</td>
+                  <td rowspan="1" colspan="1">The name of the next smaller administrative region than country (department) in which the Location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">verbatimLocality</td>
+                  <td rowspan="1" colspan="1">The original textual description of the place</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLatitude</td>
+                  <td rowspan="1" colspan="1">The geographic latitude (in decimal degrees)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLongitude</td>
+                  <td rowspan="1" colspan="1">The geographic longitude (in decimal degrees)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">georeferenceSources</td>
+                  <td rowspan="1" colspan="1">A list of maps, gazetteers or other resources used to georeference the Location</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">georeferencedBy</td>
+                  <td rowspan="1" colspan="1">A person, group or organisation who determined the georeference (spatial representation) for the Location.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventDate</td>
+                  <td rowspan="1" colspan="1">The date when the event was recorded. Format: dd-mm-yyyy</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">year</td>
+                  <td rowspan="1" colspan="1">The four-digit year in which the Event occurred. Format: yyyy</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">month</td>
+                  <td rowspan="1" colspan="1">The ordinal month in which the Event occurred. Format: mm</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">day</td>
+                  <td rowspan="1" colspan="1">The integer day of the month on which the Event occurred. Format: dd</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">basisOfRecord</td>
+                  <td rowspan="1" colspan="1">The specific nature of the data record</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">institutionCode</td>
+                  <td rowspan="1" colspan="1">The name (or acronym) in use by the institution having custody of the object(s) or information referred to in the record</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">collectionCode</td>
+                  <td rowspan="1" colspan="1">The name or acronym identifying the collection or dataset from which the record was derived</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">catalogNumber</td>
+                  <td rowspan="1" colspan="1">An identifier (preferably unique) for the record within the dataset or collection</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">recordedBy</td>
+                  <td rowspan="1" colspan="1">A list (concatenated and separated) of names of people, groups or organisations responsible for recording the original Occurrence</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">recordNumber</td>
+                  <td rowspan="1" colspan="1">An identifier given to the Occurrence at the time it was recorded. Often serves as a link between field notes and an Occurrence record, such as a specimen collector's number.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">identifiedBy</td>
+                  <td rowspan="1" colspan="1">A list (concatenated and separated) of names of people, groups or organisations who assigned the Taxon to the subject</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">dynamicProperties</td>
+                  <td rowspan="1" colspan="1">Structured content about the record key:value encoding IUCN red list category of the taxon at the Global level</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">associatedReferences</td>
+                  <td rowspan="1" colspan="1">A list (concatenated and separated) of identifiers (publication, bibliographic reference, global unique identifier, URI) of literature associated with the Occurrence</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+    <sec sec-type="Additional information">
+      <title>Additional information</title>
+      <p>The Uruguayan Consortium of Biodiversity Data, is a collaborative association of experts whose aim is to improve Uruguay’s biodiversity knowledge. It was created in 2018 by Florencia Grattarola as part of her PhD project. Its open-access platform (<ext-link ext-link-type="uri" xlink:href="http://biodiversidata.org" xlink:type="simple">biodiversidata.org)</ext-link> aims to make available the biodiversity data of Uruguay by integrating a broad range of resources including databases, publications, maps, reports and infographics, derived from the work of the team members. The database presented in this study and the original research that is currently emerging from it are the first products of the initiative and will be available in the platform. The database may continue to be updated with new records periodically; check the Zenodo repository for the latest version: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5281/zenodo.2650169" xlink:type="simple">https://doi.org/10.5281/zenodo.2650169</ext-link>.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>The research leading to these results has received funding from Agencia Nacional de Investigación e Innovación (ANII POS_EXT_2016_1_136663). Laufer G., Maneyro R., Naya D. E. and Ziegler L. wish to thank the National System of Researchers (Sistema Nacional de Investigadores, SNI-ANII, Uruguay).</p>
+    </ack>
+    <sec sec-type="Author contributions">
+      <title>Author contributions</title>
+      <p>F.G. was responsible for data compilation, standardisation, quality control and management. F.G. and D.P.D. have drafted the first manuscript. G.B., I.D.R., N.G., E.M.G., J.G., F.G., D.H., G.L., R.M., J.A.M.L., D.E.N., A.L.R. and L.Z. contributed with acquisition of data. All authors collaboratively contributed to analysis and interpretation of the data and finalised the manuscript.</p>
+      <p>We declare that the joint co-authorship of this article, or the affiliation to the Biodiversidata initiative, does not imply responsibility of any individual, directly or indirectly, for the principles and values of other members or co-authors.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="B5199712">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Abreu</surname>
+              <given-names>Martin</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Primer registro de la gaviota de Franklin <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leucophaeus">Leucophaeus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pipixcan">pipixcan</tp:taxon-name-part></tp:taxon-name></italic> (Wagler, 1831) (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Laridae</tp:taxon-name-part></tp:taxon-name>) en Uruguay</article-title>
+          <source>Boletín de la Sociedad Zoológica del Uruguay</source>
+          <volume>24</volume>
+          <fpage>22</fpage>
+          <lpage>27</lpage>
+          <uri xlink:type="simple">http://szu.org.uy/boletin/vol24_1/22_27_vol24_1.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5199722">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Andrade-Núñez</surname>
+              <given-names>M. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Aide</surname>
+              <given-names>T Mitchell</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>Effects of habitat and landscape characteristics on medium and large mammal species richness and composition in northern Uruguay</article-title>
+          <source>Zoologia</source>
+          <volume>27</volume>
+          <issue>6</issue>
+          <pub-id pub-id-type="doi">10.1590/S1984-46702010000600012</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5249087">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Arballo</surname>
+              <given-names>Eduardo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cravino</surname>
+              <given-names>Jorge L.</given-names>
+            </name>
+          </person-group>
+          <year>1999</year>
+          <source><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part></tp:taxon-name> del Uruguay: Manual Ornitologico</source>
+          <volume>1</volume>
+          <publisher-name>Editorial Hemisferio Sur</publisher-name>
+          <size units="page">466</size>
+          <isbn>9974-645-08-5</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B5199732">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Azpiroz</surname>
+              <given-names>Adrián B</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Menéndez</surname>
+              <given-names>José L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jaramillo</surname>
+              <given-names>Alvaro</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Presa</surname>
+              <given-names>Dardo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Calimares</surname>
+              <given-names>Carlos</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Saralegui</surname>
+              <given-names>Alvaro</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Abente</surname>
+              <given-names>José S</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>New information on the distribution and status of birds in Uruguay</article-title>
+          <source>Bulletin of the British Ornithologists’ Club</source>
+          <volume>132</volume>
+          <issue>1</issue>
+          <fpage>46</fpage>
+          <lpage>54</lpage>
+          <uri xlink:type="simple">http://biostor.org/reference/246835</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5199745">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Bardier</surname>
+              <given-names>Cecilia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maneyro</surname>
+              <given-names>Raúl</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Inventory and conservation priorities for amphibian species from Cerro Verde (Rocha, Uruguay) and surroundings</article-title>
+          <source>Check List</source>
+          <volume>11</volume>
+          <issue>2</issue>
+          <fpage>1</fpage>
+          <lpage>8</lpage>
+          <pub-id pub-id-type="doi">10.15560/11.2.1581</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5199785">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Borteiro</surname>
+              <given-names>Claudio</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Prigioni</surname>
+              <given-names>Carlos</given-names>
+            </name>
+            <name name-style="western">
+              <surname>García</surname>
+              <given-names>José Eduardo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tedros</surname>
+              <given-names>Marcelo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gutiérrez</surname>
+              <given-names>Francisco</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kolenc</surname>
+              <given-names>Francisco</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <article-title>Geographic distribution and conservation status of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Caiman">Caiman</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="latirostris">latirostris</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Crocodylia</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Alligatoridae</tp:taxon-name-part></tp:taxon-name>) in Uruguay</article-title>
+          <source>Journal of Herpetology</source>
+          <volume>5</volume>
+          <issue>2</issue>
+          <fpage>97</fpage>
+          <lpage>108</lpage>
+          <pub-id pub-id-type="doi">10.11606/issn.2316-9079.v5i2p97-108</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5199755">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Borteiro</surname>
+              <given-names>C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gutiérrez</surname>
+              <given-names>F</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tedros</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kolenc</surname>
+              <given-names>F</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>Food habits of the broad‐snouted caiman (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Caiman">Caiman</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="latirostris">latirostris</tp:taxon-name-part></tp:taxon-name></italic>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Crocodylia</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Alligatoridae</tp:taxon-name-part></tp:taxon-name>) in northwestern Uruguay</article-title>
+          <source>Studies on Neotropical Fauna and Environment</source>
+          <volume>44</volume>
+          <issue>1</issue>
+          <fpage>31</fpage>
+          <lpage>36</lpage>
+          <pub-id pub-id-type="doi">10.1080/01650520802507572</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5199775">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Borteiro</surname>
+              <given-names>Claudio</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kolenc</surname>
+              <given-names>Francisco</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Verdes</surname>
+              <given-names>José Manuel</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Aggregative behaviour in the fossorial lizard <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Amphisbaena">Amphisbaena</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="darwinii">darwinii</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Squamata</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Amphisbaenidae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Cuadernos de herpetología</source>
+          <volume>27</volume>
+          <issue>1</issue>
+          <fpage>57</fpage>
+          <lpage>58</lpage>
+          <uri xlink:type="simple">http://sedici.unlp.edu.ar/handle/10915/26859</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5199765">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Borteiro</surname>
+              <given-names>Claudio</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kolenc</surname>
+              <given-names>Francisco</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Prigioni</surname>
+              <given-names>Carlos</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>A new noteworthy record of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phrynops">Phrynops</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="williamsi">williamsi</tp:taxon-name-part></tp:taxon-name></italic> Rhodin &amp; Mittermeier (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Testudines</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Chelidae</tp:taxon-name-part></tp:taxon-name>) in Uruguay</article-title>
+          <source>Cuadernos de herpetología</source>
+          <volume>29</volume>
+          <issue>1</issue>
+          <fpage>95</fpage>
+          <lpage>96</lpage>
+          <uri xlink:type="simple">http://sedici.unlp.edu.ar/handle/10915/56007</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5199797">
+        <element-citation publication-type="thesis" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Bou</surname>
+              <given-names>Nadia</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <source>Distribución potencial de tres especies de <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leopardus">Leopardus</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Carnivora</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Felidae</tp:taxon-name-part></tp:taxon-name>) para Uruguay</source>
+          <publisher-name>Universidad de la República (Uruguay)</publisher-name>
+          <uri xlink:type="simple">https://www.colibri.udelar.edu.uy/jspui/bitstream/20.500.12008/6419/1/uy24-16158.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5255163">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Calliari</surname>
+              <given-names>Danilo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Defeo</surname>
+              <given-names>Omar</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cervetto</surname>
+              <given-names>Guillermo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gómez</surname>
+              <given-names>Mónica</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Giménez</surname>
+              <given-names>Luis</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Scarabino</surname>
+              <given-names>Fabrizio</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brazeiro</surname>
+              <given-names>Alejandro</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Norbis</surname>
+              <given-names>Walter</given-names>
+            </name>
+          </person-group>
+          <year>2003</year>
+          <article-title>Marine Life of Uruguay: Critical Update and Priorities for Future Research</article-title>
+          <source>Gayana (Concepción)</source>
+          <volume>67</volume>
+          <fpage>341</fpage>
+          <lpage>370</lpage>
+          <uri xlink:type="simple">https://scielo.conicyt.cl/scielo.php?script=sci_arttext&amp;pid=S0717-65382003000200015&amp;nrm=iso</uri>
+          <pub-id pub-id-type="doi">10.4067/S0717-65382003000200015</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5248966">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Canavero</surname>
+              <given-names>Andrés</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brazeiro</surname>
+              <given-names>Alejandro</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Camargo</surname>
+              <given-names>Arley</given-names>
+            </name>
+            <name name-style="western">
+              <surname>da Rosa</surname>
+              <given-names>Inés</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maneyro</surname>
+              <given-names>Raúl</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Núñez</surname>
+              <given-names>Diego</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>Amphibian diversity of Uruguay: Background knowledge, inventory completeness and sampling coverage</article-title>
+          <source>Boletín de la Sociedad Zoológica de Uruguay</source>
+          <volume>19</volume>
+          <fpage>2</fpage>
+          <lpage>19</lpage>
+          <uri xlink:type="simple">http://www.szu.org.uy/boletin/vol19/1_19_vol19.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5199836">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Carreira</surname>
+              <given-names>Santiago</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Meneghel</surname>
+              <given-names>Melitta</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Achaval</surname>
+              <given-names>Federico</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <source>Reptiles de Uruguay</source>
+          <publisher-name>Sección Zoología Vertebrados, Departamento de Biología Animal, Facultad de Ciencias</publisher-name>
+          <isbn>9974002842</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B5199816">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Carreira</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lombardo</surname>
+              <given-names>I</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <article-title><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Tomodon">Tomodon</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="dorsatus">dorsatus</tp:taxon-name-part></tp:taxon-name></italic> (NCN). Uruguay</article-title>
+          <source>Herpetological Review</source>
+          <volume>37</volume>
+          <issue>1</issue>
+          <fpage>110</fpage>
+          <uri xlink:type="simple">https://ssarherps.org/herpetological-review-pdfs</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5199806">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Carreira</surname>
+              <given-names>Santiago</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Achaval</surname>
+              <given-names>Federico</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <article-title>Sobre la presencia de <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Waglerophis">Waglerophis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="merremi">merremi</tp:taxon-name-part></tp:taxon-name></italic> (Wagner, 1824) en Uruguay (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Squamata</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Boletín de la Sociedad Zoológica de Uruguay</source>
+          <volume>16</volume>
+          <fpage>32</fpage>
+          <lpage>35</lpage>
+          <uri xlink:type="simple">http://www.szu.org.uy/boletin/vol16/32_35_vol16.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5199826">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Carreira</surname>
+              <given-names>Santiago</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lombardo</surname>
+              <given-names>Ignacio</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Achaval-Coppes</surname>
+              <given-names>Federico</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Nuevos registros de ofidios poco conocidos en Uruguay (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Squamata</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Serpentes</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Boletín de la Sociedad Zoológica del Uruguay (2ª época)</source>
+          <volume>21</volume>
+          <fpage>70</fpage>
+          <lpage>74</lpage>
+          <uri xlink:type="simple">http://www.szu.org.uy/boletin/vol21/70_74_vol21.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5200936">
+        <element-citation publication-type="software" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Chamberlain</surname>
+              <given-names>Scott</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>rredlist: 'IUCN' Red List Client. R package</article-title>
+          <uri xlink:type="simple">https://CRAN.R-project.org/package=rredlist</uri>
+          <comment content-type="Version">0.5.0.</comment>
+        </element-citation>
+      </ref>
+      <ref id="B5200918">
+        <element-citation publication-type="software" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Chamberlain</surname>
+              <given-names>Scott</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Szoecs</surname>
+              <given-names>Eduard</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Foster</surname>
+              <given-names>Zachary</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Arendsee</surname>
+              <given-names>Zebulun</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Boettiger</surname>
+              <given-names>Carl</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ram</surname>
+              <given-names>Karthik</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bartomeus</surname>
+              <given-names>Ignasi</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Baumgartner</surname>
+              <given-names>John</given-names>
+            </name>
+            <name name-style="western">
+              <surname>O'Donnell</surname>
+              <given-names>James</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Oksanen</surname>
+              <given-names>Jari</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Greshake Tzovaras</surname>
+              <given-names>Bastian</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Marchand</surname>
+              <given-names>Philippe</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tran</surname>
+              <given-names>Vinh</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>taxize: Taxonomic information from around the web. R package</article-title>
+          <uri xlink:type="simple">https://github.com/ropensci/taxize</uri>
+          <comment content-type="Version">0.9.3</comment>
+        </element-citation>
+      </ref>
+      <ref id="B5249017">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Chebataroff</surname>
+              <given-names>Jorge</given-names>
+            </name>
+          </person-group>
+          <year>1942</year>
+          <article-title>La vegetación del Uruguay y sus relaciones fitogeográficas con la del resto de la América del Sur</article-title>
+          <source>Revista Geográfica</source>
+          <volume>2</volume>
+          <issue>4/5/6</issue>
+          <fpage>49</fpage>
+          <lpage>90</lpage>
+          <uri xlink:type="simple">https://www.jstor.org/stable/41888194</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5199845">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Colina</surname>
+              <given-names>Marcelo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Arrieta</surname>
+              <given-names>Diego</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Carreira</surname>
+              <given-names>Santiago</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ophiodes">Ophiodes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="intermedius">intermedius</tp:taxon-name-part></tp:taxon-name></italic> Boulenger, 1894 (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Squamata</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Anguidae</tp:taxon-name-part></tp:taxon-name>): Uruguay distribution extension with conservation comments</article-title>
+          <source>Check List</source>
+          <volume>8</volume>
+          <issue>5</issue>
+          <fpage>896</fpage>
+          <lpage>897</lpage>
+          <pub-id pub-id-type="doi">10.15560/8.5.896</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5199855">
+        <element-citation publication-type="thesis" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>de Giorgi Peirano</surname>
+              <given-names>Alejandra</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <source>Diversidad de <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">aves</tp:taxon-name-part></tp:taxon-name> y mamíferos presentes en tres campos de soja en el departamento de Colonia y su relación con el daño a dicho cultivo</source>
+          <publisher-name>Universidad de la República</publisher-name>
+          <uri xlink:type="simple">https://www.colibri.udelar.edu.uy/jspui/bitstream/20.500.12008/8872/1/uy24-18205.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5250298">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Dos Santos</surname>
+              <given-names>Daniel A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Emmerich</surname>
+              <given-names>Daniel</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Molineri</surname>
+              <given-names>Carlos</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nieto</surname>
+              <given-names>Carolina</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Domínguez</surname>
+              <given-names>Eduardo</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>On the position of Uruguay in the South American biogeographical puzzle: insights from <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Ephemeroptera</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Insecta</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Journal of Biogeography</source>
+          <volume>43</volume>
+          <issue>2</issue>
+          <fpage>361</fpage>
+          <lpage>371</lpage>
+          <pub-id pub-id-type="doi">10.1111/jbi.12623</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5199864">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Elgue</surname>
+              <given-names>Ernesto</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maneyro</surname>
+              <given-names>Raúl</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Reproductive biology in a Uruguayan population of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Elachistocleis">Elachistocleis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="bicolor">bicolor</tp:taxon-name-part></tp:taxon-name></italic> (Guérin-Meneville, 1838)(<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Anura</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Microhylidae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Cuadernos de herpetología</source>
+          <volume>31</volume>
+          <issue>1</issue>
+          <fpage>5</fpage>
+          <lpage>10</lpage>
+          <uri xlink:type="simple">http://sedici.unlp.edu.ar/handle/10915/60099</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5249052">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Gonzalez</surname>
+              <given-names>E. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Martínez-Lanfranco</surname>
+              <given-names>J. A.</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <chapter-title>Zoogeografía de los mamíferos de Uruguay</chapter-title>
+          <source>Mamíferos de Uruguay. Guía de campo e introducción a su estudio y conservación</source>
+          <publisher-name>Banda Oriental, MNHN y Vida Silvestre Uruguay</publisher-name>
+          <size units="page">6</size>
+          <isbn>978 9974-1-0674-1</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B5199874">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>González-Paredes</surname>
+              <given-names>Daniel</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vélez-Rubio</surname>
+              <given-names>Gabriela</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hahn</surname>
+              <given-names>Anelise Torres</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Caraccio</surname>
+              <given-names>María Noel</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Estrades</surname>
+              <given-names>Andrés</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>New records of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Lepidochelys">Lepidochelys</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="olivacea">olivacea</tp:taxon-name-part></tp:taxon-name></italic> (Eschscholtz, 1829) (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Testudines</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Cheloniidae</tp:taxon-name-part></tp:taxon-name>) provide evidence that Uruguayan waters are the southernmost limit of distribution for the species in the western Atlantic Ocean</article-title>
+          <source>Check List</source>
+          <volume>13</volume>
+          <issue>6</issue>
+          <fpage>863</fpage>
+          <lpage>869</lpage>
+          <pub-id pub-id-type="doi">10.15560/13.6.863</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5199885">
+        <element-citation publication-type="thesis" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Grattarola</surname>
+              <given-names>Florencia</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <source>Aportes de la ecología molecular al estudio de mamíferos en Uruguay</source>
+          <publisher-name>Universidad de la República</publisher-name>
+          <publisher-loc>Montevideo, Uruguay</publisher-loc>
+          <uri xlink:type="simple">https://www.colibri.udelar.edu.uy/jspui/bitstream/20.500.12008/17162/1/uy24-17527.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5211075">
+        <element-citation publication-type="software" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Grattarola</surname>
+              <given-names>Florencia</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>rBiodiversidata: R scripts</article-title>
+          <publisher-name>Zenodo</publisher-name>
+          <date-in-citation content-type="released">2019-04-16T00:00:00+03:00</date-in-citation>
+          <pub-id pub-id-type="doi">10.5281/zenodo.2642135</pub-id>
+          <comment content-type="Version">1.0.0</comment>
+        </element-citation>
+      </ref>
+      <ref id="B5248997">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Grela</surname>
+              <given-names>Iván</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brussa</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <year>2003</year>
+          <article-title>Relevamiento florístico y análisis comparativo de comunidades arbóreas de Sierra de Ríos (Cerro Largo-Uruguay)</article-title>
+          <source>Agrociencia</source>
+          <volume>7</volume>
+          <issue>2</issue>
+          <fpage>11</fpage>
+          <lpage>26</lpage>
+          <uri xlink:type="simple">http://www.fagro.edu.uy/~agrociencia/index.php/directorio/article/view/364</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5250318">
+        <element-citation publication-type="thesis" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Grela</surname>
+              <given-names>Iván</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <source>Geografía florística de las especies arbóreas de Uruguay: propuesta para la delimitación de dendrofloras</source>
+          <publisher-name>PEDECIBA - Universidad de la República</publisher-name>
+          <publisher-loc>Montevideo</publisher-loc>
+        </element-citation>
+      </ref>
+      <ref id="B5199894">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kolenc</surname>
+              <given-names>Francisco</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Borteiro</surname>
+              <given-names>Claudio</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Baldo</surname>
+              <given-names>Diego</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ferraro</surname>
+              <given-names>Daiana</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Prigioni</surname>
+              <given-names>Carlos</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>The tadpoles and advertisement calls of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pleurodema">Pleurodema</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="bibroni">bibroni</tp:taxon-name-part></tp:taxon-name></italic> Tschudi and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pleurodema">Pleurodema</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="kriegi">kriegi</tp:taxon-name-part></tp:taxon-name></italic> (Müller), with notes on their geographic distribution and conservation status (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Amphibia</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Anura</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Leiuperidae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Zootaxa</source>
+          <volume>1969</volume>
+          <fpage>1</fpage>
+          <lpage>35</lpage>
+          <pub-id pub-id-type="doi">10.5281/zenodo.185006</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5199905">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kolenc</surname>
+              <given-names>Francisco</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Borteiro</surname>
+              <given-names>Claudio</given-names>
+            </name>
+            <name name-style="western">
+              <surname>González</surname>
+              <given-names>Enrique M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barrasso</surname>
+              <given-names>Diego A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Prigioni</surname>
+              <given-names>Carlos</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Recent findings of the declining frog <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pleurodema">Pleurodema</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="bibroni">bibroni</tp:taxon-name-part></tp:taxon-name></italic> Tschudi, 1838 (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Anura</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Leiuperidae</tp:taxon-name-part></tp:taxon-name>) in Uruguay</article-title>
+          <source>Herpetology Notes</source>
+          <volume>5</volume>
+          <fpage>181</fpage>
+          <lpage>183</lpage>
+          <uri xlink:type="simple">http://www.herpetologynotes.seh-herpetology.org/Volume5_PDFs/Kolenc_Herpetology_Notes_Volume5_pages181-183.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5199916">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kwet</surname>
+              <given-names>Axel</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Solé</surname>
+              <given-names>Mirco</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Miranda</surname>
+              <given-names>Tatiana</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Melchiors</surname>
+              <given-names>Janaíne</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Naya</surname>
+              <given-names>Daniel E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maneyro</surname>
+              <given-names>Raul</given-names>
+            </name>
+          </person-group>
+          <year>2002</year>
+          <article-title>First record of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hyla">Hyla</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="albopunctata">albopunctata</tp:taxon-name-part></tp:taxon-name></italic> Spix, 1824 (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Anura</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Hylidae</tp:taxon-name-part></tp:taxon-name>) in Uruguay, with comments on the advertisement call</article-title>
+          <source>Boletín de la Asociación Herpetológica Española</source>
+          <volume>13</volume>
+          <fpage>15</fpage>
+          <lpage>19</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5199928">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lareschi</surname>
+              <given-names>Marcela</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Venzal</surname>
+              <given-names>José Manuel</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Arzua</surname>
+              <given-names>Márcia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>González</surname>
+              <given-names>Enrique</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <article-title>Fleas of small mammals in Uruguay, with new host and distribution records</article-title>
+          <source>Comparative Parasitology</source>
+          <volume>73</volume>
+          <issue>2</issue>
+          <fpage>263</fpage>
+          <lpage>269</lpage>
+          <pub-id pub-id-type="doi">10.1654/4193.1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5199938">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Laufer</surname>
+              <given-names>Gabriel</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Piñeiro-Guerra</surname>
+              <given-names>Juan Manuel</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pereira-Garbero</surname>
+              <given-names>Ramiro</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barreneche</surname>
+              <given-names>Juan Manuel</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ferrero</surname>
+              <given-names>Rosana</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>Distribution extension of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Scinax">Scinax</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="aromothyella">aromothyella</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Anura</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Hylidae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Biota Neotropica</source>
+          <volume>9</volume>
+          <issue>2</issue>
+          <fpage>275</fpage>
+          <lpage>277</lpage>
+          <pub-id pub-id-type="doi">10.1590/S1676-06032009000200028</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5199949">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Maneyro</surname>
+              <given-names>Raúl</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Naya</surname>
+              <given-names>Daniel E</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Baldo</surname>
+              <given-names>Diego</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>A new species of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Melanophryniscus">Melanophryniscus</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Anura</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Bufonidae</tp:taxon-name-part></tp:taxon-name>) from Uruguay</article-title>
+          <source>Iheringia. Série Zoologia</source>
+          <volume>98</volume>
+          <issue>2</issue>
+          <fpage>189</fpage>
+          <lpage>192</lpage>
+          <pub-id pub-id-type="doi">10.1590/S0073-47212008000200003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5199959">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Martínez-Lanfranco</surname>
+              <given-names>Juan A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rudolf</surname>
+              <given-names>Juan C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Queirolo</surname>
+              <given-names>Diego</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Puma">Puma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="concolor">concolor</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Carnivora</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Felidae</tp:taxon-name-part></tp:taxon-name>) en Uruguay: situación local y contexto regional</article-title>
+          <source>Mastozoología Neotropical</source>
+          <volume>17</volume>
+          <issue>1</issue>
+          <fpage>153</fpage>
+          <lpage>159</lpage>
+          <uri xlink:type="simple">http://www.redalyc.org/articulo.oa?id=45713277018</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5199969">
+        <element-citation publication-type="conference-preoceeding" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Masciadri</surname>
+              <given-names>Silvana</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Da Rosa</surname>
+              <given-names>Inés</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Alfaro</surname>
+              <given-names>Matilde</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <source>Diversidad biológica del Bosque Costero en la localidad Perla de Rocha</source>
+          <conf-name>IV Congreso Nacional de Áreas Naturales Protegidas</conf-name>
+          <conf-loc>Trinidad, Florida</conf-loc>
+        </element-citation>
+      </ref>
+      <ref id="B5199979">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Montero</surname>
+              <given-names>Ricardo</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>On the validity of several Argentinian species of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Amphisbaena">Amphisbaena</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Squamata</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Amphisbaenidae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Journal of Herpetology</source>
+          <volume>50</volume>
+          <issue>4</issue>
+          <fpage>642</fpage>
+          <lpage>653</lpage>
+          <pub-id pub-id-type="doi">10.1670/15-048</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5249027">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Morrone</surname>
+              <given-names>Juan J</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <article-title>Biogeographic areas and transition zones of Latin America and the Caribbean islands based on panbiogeographic and cladistic analyses of the entomofauna</article-title>
+          <source>Annu. Rev. Entomol.</source>
+          <volume>51</volume>
+          <fpage>467</fpage>
+          <lpage>494</lpage>
+          <pub-id pub-id-type="doi">10.1146/annurev.ento.50.071803.130447</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5200332">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Morrone</surname>
+              <given-names>Juan J</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>Biogeographical regionalisation of the Neotropical region</article-title>
+          <source>Zootaxa</source>
+          <volume>3782</volume>
+          <issue>1</issue>
+          <fpage>1</fpage>
+          <lpage>110</lpage>
+          <pub-id pub-id-type="doi">10.11646/zootaxa.3782.1.1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5199989">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Naya</surname>
+              <given-names>Daniel E</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Achaval</surname>
+              <given-names>Federico</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <article-title>Nuevos registros de especies poco comunes de <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Pinnipedia</tp:taxon-name-part></tp:taxon-name> y primer registro de <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Arctocephalus">Arctocephalus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="gazella">gazella</tp:taxon-name-part></tp:taxon-name></italic> (Peters, 1875) (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Pinnipedia</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Otariidae</tp:taxon-name-part></tp:taxon-name>) para el Uruguay</article-title>
+          <source>Boletín de la Sociedad Zoológica de Uruguay</source>
+          <volume>15</volume>
+          <fpage>23</fpage>
+          <lpage>27</lpage>
+          <uri xlink:type="simple">http://www.szu.org.uy/boletin/vol15/23_27_vol15.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5199999">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Núñez</surname>
+              <given-names>Diego</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maneyro</surname>
+              <given-names>Raul</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Langone</surname>
+              <given-names>Jose</given-names>
+            </name>
+            <name name-style="western">
+              <surname>de Sa</surname>
+              <given-names>Rafael Omar</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <article-title>Distribución geográfica de la fauna de anfibios del Uruguay</article-title>
+          <source>Smithsonian Herpetological Information Service</source>
+          <fpage>1</fpage>
+          <lpage>34</lpage>
+          <pub-id pub-id-type="doi">10.5479/si.23317515.134.1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5248949">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Peterson</surname>
+              <given-names>A. Townsend</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Asase</surname>
+              <given-names>Alex</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Canhos</surname>
+              <given-names>Dora Ann Lange</given-names>
+            </name>
+            <name name-style="western">
+              <surname>de Souza</surname>
+              <given-names>Sidnei</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wieczorek</surname>
+              <given-names>John</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Data Leakage and Loss in Biodiversity Informatics</article-title>
+          <source>Biodiversity Data Journal</source>
+          <volume>6</volume>
+          <pub-id pub-id-type="doi">10.3897/BDJ.6.e26826</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5248978">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Pincheira-Donoso</surname>
+              <given-names>Daniel</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>The untold story on the ecological and phylogenetic complexity of the Uruguayan reptile fauna</article-title>
+          <source>Zootaxa</source>
+          <volume>2354</volume>
+          <issue>1</issue>
+          <fpage>67</fpage>
+          <lpage>68</lpage>
+          <pub-id pub-id-type="doi">10.11646/zootaxa.2354.1.6</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5200009">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Prigioni</surname>
+              <given-names>Carlos</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Borteiro</surname>
+              <given-names>Claudio</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kolenc</surname>
+              <given-names>Francisco</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Amphibia</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part></tp:taxon-name>, Quebrada de los Cuervos, Departamento de Treinta y Tres, Uruguay</article-title>
+          <source>Check List</source>
+          <volume>7</volume>
+          <issue>6</issue>
+          <fpage>763</fpage>
+          <lpage>767</lpage>
+          <pub-id pub-id-type="doi">10.15560/11021</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5200019">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Prigioni</surname>
+              <given-names>Carlos</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Borteiro</surname>
+              <given-names>Claudio</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kolenc</surname>
+              <given-names>Francisco</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Colina</surname>
+              <given-names>Marcelo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>González</surname>
+              <given-names>Enrique M</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Geographic distribution and apparent decline of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Crotalus">Crotalus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="durissus">durissus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="terrificus">terrificus</tp:taxon-name-part></tp:taxon-name></italic> (Laurenti, 1768; <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Serpentes</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Viperidae</tp:taxon-name-part></tp:taxon-name>) in Uruguay</article-title>
+          <source>Cuadernos de Herpetología</source>
+          <volume>27</volume>
+          <issue>2</issue>
+          <fpage>163</fpage>
+          <lpage>1625</lpage>
+          <uri xlink:type="simple">http://sedici.unlp.edu.ar/handle/10915/38558</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5200030">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Prigioni</surname>
+              <given-names>Carlos M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Villalba</surname>
+              <given-names>Juan S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sappa</surname>
+              <given-names>Alvaro</given-names>
+            </name>
+            <name name-style="western">
+              <surname>González</surname>
+              <given-names>Julio C.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Confirmación de la presencia del mono aullador negro (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Alouatta">Alouatta</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="caraya">caraya</tp:taxon-name-part></tp:taxon-name></italic>) (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Primates</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Atelidae</tp:taxon-name-part></tp:taxon-name>) en el Uruguay</article-title>
+          <source>Acta Zoológica Platense</source>
+          <volume>1</volume>
+          <issue>10</issue>
+          <fpage>1</fpage>
+          <lpage>11</lpage>
+          <uri xlink:type="simple">http://actazoologicaplatense.blogspot.com/2018/09/acta-zoologica-platense-alouatta_17.html</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5200040">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Queirolo</surname>
+              <given-names>Diego</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Diversidade e padrões de distribuição de mamíferos dos campos do Uruguai e sul do Brasil.</article-title>
+          <source>Boletín de la Sociedad Zoológica del Uruguay</source>
+          <volume>25</volume>
+          <issue>2</issue>
+          <fpage>92</fpage>
+          <lpage>247</lpage>
+          <uri xlink:type="simple">http://szu.org.uy/journal/index.php/Bol_SZU/article/view/11</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5200050">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Rodríguez-Cajarville</surname>
+              <given-names>M J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Arballo</surname>
+              <given-names>E</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gambarotta</surname>
+              <given-names>J C</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>First documented records of Eastern Kingbird, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Tyrannus">Tyrannus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="tyrannus">tyrannus</tp:taxon-name-part></tp:taxon-name></italic> Linnaeus, 1758 (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Tyrannidae</tp:taxon-name-part></tp:taxon-name>) Uruguay</article-title>
+          <source>Check List</source>
+          <volume>13</volume>
+          <issue>4</issue>
+          <fpage>169</fpage>
+          <lpage>172</lpage>
+          <pub-id pub-id-type="doi">10.15560/13.4.169</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5233826">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Rodríguez-Mazzini</surname>
+              <given-names>R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Azpiroz</surname>
+              <given-names>A. B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Báez</surname>
+              <given-names>F</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bonifacino</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Molina</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Prigioni</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <year>2001</year>
+          <article-title>Evaluaciones ecológicas rápidas aplicadas a la Reserva de Biosfera Bañados del Este. Technical Report</article-title>
+          <source>PROBIDES: Documento de Trabajo N36</source>
+          <uri xlink:type="simple">http://www.probides.org.uy/publica/dt/DT36.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5200060">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Santana</surname>
+              <given-names>Diego José</given-names>
+            </name>
+            <name name-style="western">
+              <surname>de Souza Queiroz</surname>
+              <given-names>Suelique</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wanderley</surname>
+              <given-names>Patrícia Souza</given-names>
+            </name>
+            <name name-style="western">
+              <surname>de Avelar São-Pedro</surname>
+              <given-names>Vinícius</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Leite</surname>
+              <given-names>Felipe Sá Fortes</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Garda</surname>
+              <given-names>Adrian Antonio</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Calls and tadpoles of the species of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Lysapsus">Lysapsus</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Anura</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Hylidae</tp:taxon-name-part></tp:taxon-name>, Pseudae)</article-title>
+          <source><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Amphibia</tp:taxon-name-part></tp:taxon-name>-<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part></tp:taxon-name></source>
+          <volume>34</volume>
+          <issue>2</issue>
+          <fpage>201</fpage>
+          <lpage>215</lpage>
+          <pub-id pub-id-type="doi">10.1163/15685381-00002885</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5233838">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Sarroca</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rodríguez-Gallego</surname>
+              <given-names>L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Conde</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>La Laguna de las Nutrias: un ecosistema único en la costa de Uruguay. Technical Report</article-title>
+          <source>Informe técnico de la Sección Limnología, Facultad de Ciencias</source>
+        </element-citation>
+      </ref>
+      <ref id="B5248988">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Soutullo</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Clavijo</surname>
+              <given-names>C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Martínez-Lanfranco</surname>
+              <given-names>JA</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <source>Especies prioritarias para la conservación en Uruguay. Vertebrados, moluscos continentales y plantas vasculares</source>
+          <publisher-name>SNAP/DINAMA/MVOTMA &amp; DICYT/MEC</publisher-name>
+          <publisher-loc>Montevideo</publisher-loc>
+          <size units="page">222</size>
+          <isbn>978-9974-8259-7-0</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B5200072">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Vaz-Canosa</surname>
+              <given-names>Pablo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rodríguez-Cajarville</surname>
+              <given-names>María José</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Primer registro de <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Buteo">Buteo</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="brachyurus">brachyurus</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Accipitriformes</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Accipitridae</tp:taxon-name-part></tp:taxon-name>) para Uruguay</article-title>
+          <source>Boletín de la Sociedad Zoológica del Uruguay</source>
+          <volume>24</volume>
+          <issue>1</issue>
+          <fpage>28</fpage>
+          <lpage>32</lpage>
+          <uri xlink:type="simple">http://szu.org.uy/boletin/vol24_1/28_32_vol24_1.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5200082">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Velasco-Charpentier</surname>
+              <given-names>Catalina</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pizarro-Mora</surname>
+              <given-names>Felipe</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Estrades</surname>
+              <given-names>Andrés</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Veléz-Rubio</surname>
+              <given-names>Gabriela M</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Epibiontes en juveniles de tortugas carey <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eretmochelys">Eretmochelys</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="imbricata">imbricata</tp:taxon-name-part></tp:taxon-name></italic> varadas en la costa del Departamento de Rocha, Uruguay</article-title>
+          <source>Revista de biología marina y oceanografía</source>
+          <volume>51</volume>
+          <issue>2</issue>
+          <fpage>449</fpage>
+          <lpage>453</lpage>
+          <pub-id pub-id-type="doi">10.4067/S0718-19572016000200022</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5200102">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Verrastro</surname>
+              <given-names>L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schossler</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Silva</surname>
+              <given-names>CM</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <article-title>
+            <italic>
+              <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Liolaemus">Liolaemus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="occipitalis">occipitalis</tp:taxon-name-part></tp:taxon-name>
+            </italic>
+          </article-title>
+          <source>Herpetological Review</source>
+          <volume>37</volume>
+          <issue>4</issue>
+          <uri xlink:type="simple">https://ssarherps.org/herpetological-review-pdfs/</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5200092">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Verrastro</surname>
+              <given-names>Laura</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maneyro</surname>
+              <given-names>Raul</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Da Silva</surname>
+              <given-names>Caroline M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Farias</surname>
+              <given-names>IRAIA</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>A new species of lizard of the <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Liolaemus">L.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="wiegmannii">wiegmannii</tp:taxon-name-part></tp:taxon-name></italic> group (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Iguania</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Liolaemidae</tp:taxon-name-part></tp:taxon-name>) from the Uruguayan Savanna</article-title>
+          <source>Zootaxa</source>
+          <volume>4294</volume>
+          <issue>4</issue>
+          <fpage>443</fpage>
+          <lpage>461</lpage>
+          <pub-id pub-id-type="doi">10.11646/zootaxa.4294.4.4</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5200112">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Villamil</surname>
+              <given-names>Joaquín</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>Lista sistemática de la fauna de reptiles de La Colorada Montevideo, Uruguay</article-title>
+          <source>Boletín de la Sociedad Zoológica de Uruguay (2ª época)</source>
+          <volume>23</volume>
+          <issue>2</issue>
+          <fpage>85</fpage>
+          <lpage>95</lpage>
+          <uri xlink:type="simple">http://szu.org.uy/boletin/vol23_2/85_95_vol23_2.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5200144">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Wieczorek</surname>
+              <given-names>John</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bloom</surname>
+              <given-names>David</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Guralnick</surname>
+              <given-names>Robert</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Blum</surname>
+              <given-names>Stan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Döring</surname>
+              <given-names>Markus</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Giovanni</surname>
+              <given-names>Renato</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Robertson</surname>
+              <given-names>Tim</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vieglais</surname>
+              <given-names>David</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Darwin Core: An evolving community-developed biodiversity data standard</article-title>
+          <source>PLoS One</source>
+          <volume>7</volume>
+          <issue>1</issue>
+          <fpage>e29715</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0029715</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5247803">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Wilkinson</surname>
+              <given-names>Mark D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dumontier</surname>
+              <given-names>Michel</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Aalbersberg</surname>
+              <given-names>IJsbrand Jan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Appleton</surname>
+              <given-names>Gabrielle</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Axton</surname>
+              <given-names>Myles</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Baak</surname>
+              <given-names>Arie</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Blomberg</surname>
+              <given-names>Niklas</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Boiten</surname>
+              <given-names>Jan-Willem</given-names>
+            </name>
+            <name name-style="western">
+              <surname>da Silva Santos</surname>
+              <given-names>Luiz Bonino</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bourne</surname>
+              <given-names>Philip E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bouwman</surname>
+              <given-names>Jildau</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brookes</surname>
+              <given-names>Anthony J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Clark</surname>
+              <given-names>Tim</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Crosas</surname>
+              <given-names>Mercè</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dillo</surname>
+              <given-names>Ingrid</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dumon</surname>
+              <given-names>Olivier</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Edmunds</surname>
+              <given-names>Scott</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Evelo</surname>
+              <given-names>Chris T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Finkers</surname>
+              <given-names>Richard</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gonzalez-Beltran</surname>
+              <given-names>Alejandra</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gray</surname>
+              <given-names>Alasdair J. G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Groth</surname>
+              <given-names>Paul</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Goble</surname>
+              <given-names>Carole</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Grethe</surname>
+              <given-names>Jeffrey S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Heringa</surname>
+              <given-names>Jaap</given-names>
+            </name>
+            <name name-style="western">
+              <surname>’t Hoen</surname>
+              <given-names>Peter A. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hooft</surname>
+              <given-names>Rob</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kuhn</surname>
+              <given-names>Tobias</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kok</surname>
+              <given-names>Ruben</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kok</surname>
+              <given-names>Joost</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lusher</surname>
+              <given-names>Scott J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Martone</surname>
+              <given-names>Maryann E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mons</surname>
+              <given-names>Albert</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Packer</surname>
+              <given-names>Abel L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Persson</surname>
+              <given-names>Bengt</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rocca-Serra</surname>
+              <given-names>Philippe</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Roos</surname>
+              <given-names>Marco</given-names>
+            </name>
+            <name name-style="western">
+              <surname>van Schaik</surname>
+              <given-names>Rene</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sansone</surname>
+              <given-names>Susanna-Assunta</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schultes</surname>
+              <given-names>Erik</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sengstag</surname>
+              <given-names>Thierry</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Slater</surname>
+              <given-names>Ted</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Strawn</surname>
+              <given-names>George</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Swertz</surname>
+              <given-names>Morris A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Thompson</surname>
+              <given-names>Mark</given-names>
+            </name>
+            <name name-style="western">
+              <surname>van der Lei</surname>
+              <given-names>Johan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>van Mulligen</surname>
+              <given-names>Erik</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Velterop</surname>
+              <given-names>Jan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Waagmeester</surname>
+              <given-names>Andra</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wittenburg</surname>
+              <given-names>Peter</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wolstencroft</surname>
+              <given-names>Katherine</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zhao</surname>
+              <given-names>Jun</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mons</surname>
+              <given-names>Barend</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>The FAIR Guiding Principles for scientific data management and stewardship</article-title>
+          <source>Scientific Data</source>
+          <volume>3</volume>
+          <pub-id pub-id-type="doi">10.1038/sdata.2016.18</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F5248963" position="float" orientation="portrait">
+      <object-id content-type="arpha">F16896C6-457C-595C-A6D5-213C0E1830BD</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e36226.figure1</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Distribution of the number of occurrence records available in the Global Biodiversity Information Facility (GBIF) (as of 7 June 2019) for each country of Latin America, relative to the number of records that have been submitted by eBird users. The respective proportion is shown in the green scale.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e36226-g001.png" position="float" id="oo_308961.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/308961</uri>
+      </graphic>
+    </fig>
+    <fig id="F5177827" position="float" orientation="portrait">
+      <object-id content-type="arpha">7705D1CC-7BF5-5E63-8416-75292B31068F</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e36226.figure2</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>Distribution of the (a) total number of occurrence records (N = 69,380) from species of amphibians, reptiles, birds and mammals from Uruguay and (b) occurrence records from the last 30 years. National routes are shown in black. Projection WGS1984 UTM zone 21S.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e36226-g002.png" position="float" id="oo_309103.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/309103</uri>
+      </graphic>
+    </fig>
+    <fig id="F5248947" position="float" orientation="portrait">
+      <object-id content-type="arpha">2876A4F5-117F-5943-A2A0-BF7D8528AC21</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e36226.figure3</object-id>
+      <label>Figure 3.</label>
+      <caption>
+        <p>Distribution of the number of occurrence records and number of species collated for each class of the tetrapod group.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e36226-g003.png" position="float" id="oo_308948.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/308948</uri>
+      </graphic>
+    </fig>
+    <fig id="F5177823" position="float" orientation="portrait">
+      <object-id content-type="arpha">F43F8872-EB6A-5C06-BE9C-9513864DE0F5</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e36226.figure4</object-id>
+      <label>Figure 4.</label>
+      <caption>
+        <p>Occurrence records of tetrapod orders reported in Uruguay over time, divided by amphibians, reptiles, birds and mammals.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e36226-g004.png" position="float" id="oo_295092.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/295092</uri>
+      </graphic>
+    </fig>
+    <table-wrap id="T5184678" position="float" orientation="portrait">
+      <label>Table 1.</label>
+      <caption>
+        <p>Records collected per tetrapod class showing: number of occurrence records (non-duplicated records/location/year), total number of species, records without information of the date of collection and records collected in the last 30 years, with percentage in parentheses.</p>
+      </caption>
+      <table rules="all" border="0">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">
+              <bold>Number of Occurrence Records</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Number of Species</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Records without Date (%)</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Records from the last 30 years (%)</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Amphibia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">2,530</td>
+            <td rowspan="1" colspan="1">51</td>
+            <td rowspan="1" colspan="1">1,780 (70.4)</td>
+            <td rowspan="1" colspan="1">683 (27.0)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">2,308</td>
+            <td rowspan="1" colspan="1">68</td>
+            <td rowspan="1" colspan="1">1,999 (86.6)</td>
+            <td rowspan="1" colspan="1">224 (9.7)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">60,627</td>
+            <td rowspan="1" colspan="1">437</td>
+            <td rowspan="1" colspan="1">131 (0.2)</td>
+            <td rowspan="1" colspan="1">60,308 (99.5)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">3,915</td>
+            <td rowspan="1" colspan="1">117</td>
+            <td rowspan="1" colspan="1">1,687 (43.1)</td>
+            <td rowspan="1" colspan="1">1,122 (28.7)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Total</td>
+            <td rowspan="1" colspan="1">69,380</td>
+            <td rowspan="1" colspan="1">673</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T5199711" position="float" orientation="portrait">
+      <label>Table 2.</label>
+      <caption>
+        <p>List of sources used to build the dataset, including the source type and the number of records extracted from each of the sources.</p>
+      </caption>
+      <table rules="all" border="0" style="height:1188px; width:690px">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <bold>Source</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">
+              <bold>Source type</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 128px;">
+              <bold>Number of records</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <bold>Groups</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5199712">Abreu (2015)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Journal Article</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">8</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5199722">Andrade-Núñez and Aide (2010)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Journal Article</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">13</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5199732">Azpiroz et al. (2012)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Journal Article</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">54</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5199745">Bardier and Maneyro (2015)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Journal Article</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">20</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Amphibia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5199785">Borteiro et al. (2006)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Journal Article</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">70</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5199755">Borteiro et al. (2009)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Journal Article</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">1</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5199775">Borteiro et al. (2013)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Journal Article</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">4</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5199765">Borteiro et al. (2015)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Journal Article</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">13</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5199797">Bou (2013)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Thesis</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">86</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5199806">Carreira and Achaval (2007)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Journal Article</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">2</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5199816">Carreira and Lombardo (2006)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Journal Article</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">1</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5199836">Carreira et al. (2005)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Book</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">1880</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5199826">Carreira et al. (2012)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Journal Article</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">2</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5199845">Colina et al. (2012)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Journal Article</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">1</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">da Rosa</td>
+            <td rowspan="1" colspan="1" style="width: 129px;">This study</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">13</td>
+            <td rowspan="1" colspan="1" style="width: 191px;"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Amphibia</tp:taxon-name-part></tp:taxon-name> + <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part></tp:taxon-name></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5199855">de Giorgi Peirano (2016)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Thesis</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">67</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5199864">Elgue and Maneyro (2017)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Journal Article</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">1</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Amphibia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15468/dl.dmul8x" xlink:type="simple">GBIF.org</ext-link>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Online Database</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">58355</td>
+            <td rowspan="1" colspan="1" style="width: 191px;"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Amphibia</tp:taxon-name-part></tp:taxon-name> + <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part></tp:taxon-name> + <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part></tp:taxon-name> + <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part></tp:taxon-name></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">Gobel &amp; Laufer</td>
+            <td rowspan="1" colspan="1" style="width: 129px;">This study</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">285</td>
+            <td rowspan="1" colspan="1" style="width: 191px;"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Amphibia</tp:taxon-name-part></tp:taxon-name> + <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part></tp:taxon-name></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5199874">González-Paredes et al. (2017)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Journal Article</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">3</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">González &amp; González</td>
+            <td rowspan="1" colspan="1" style="width: 129px;">This study</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">1848</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">Grattarola</td>
+            <td rowspan="1" colspan="1" style="width: 129px;">This study</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">53</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5199885">Grattarola (2015)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Thesis</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">36</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">Hernández</td>
+            <td rowspan="1" colspan="1" style="width: 129px;">This study</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">944</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5199894">Kolenc et al. (2009)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Journal Article</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">2</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Amphibia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5199905">Kolenc et al. (2012)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Journal Article</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">2</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Amphibia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5199916">Kwet et al. (2002)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Journal Article</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">1</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Amphibia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5199928">Lareschi et al. (2006)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Journal Article</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">11</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5199938">Laufer et al. (2009)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Journal Article</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">2</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Amphibia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5199949">Maneyro et al. (2008)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Journal Article</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">2</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Amphibia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">Maneyro</td>
+            <td rowspan="1" colspan="1" style="width: 129px;">This study</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">165</td>
+            <td rowspan="1" colspan="1" style="width: 191px;"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Amphibia</tp:taxon-name-part></tp:taxon-name> + <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part></tp:taxon-name></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5199959">Martínez-Lanfranco et al. (2010)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Journal Article</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">6</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">Martínez-Lanfranco</td>
+            <td rowspan="1" colspan="1" style="width: 129px;">This study</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">1712</td>
+            <td rowspan="1" colspan="1" style="width: 191px;"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part></tp:taxon-name> + <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part></tp:taxon-name></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5199969">Masciadri et al. (2007)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Conference Paper</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">48</td>
+            <td rowspan="1" colspan="1" style="width: 191px;"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Amphibia</tp:taxon-name-part></tp:taxon-name> + <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part></tp:taxon-name> + <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part></tp:taxon-name></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5199979">Montero (2016)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Journal Article</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">85</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5199989">Naya and Achaval (2006)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Journal Article</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">5</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">Naya</td>
+            <td rowspan="1" colspan="1" style="width: 129px;">This study</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">220</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5199999">Núñez et al. (2004)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Book</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">1764</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Amphibia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5200009">Prigioni et al. (2011)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Journal Article</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">43</td>
+            <td rowspan="1" colspan="1" style="width: 191px;"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Amphibia</tp:taxon-name-part></tp:taxon-name> + <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part></tp:taxon-name></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5200019">Prigioni et al. (2013)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Journal Article</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">18</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5200030">Prigioni et al. (2018)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Journal Article</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">3</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5200040">Queirolo (2016)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Journal Article</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">1041</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">Rodales, Botto &amp; González</td>
+            <td rowspan="1" colspan="1" style="width: 129px;">This study</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">91</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5200050">Rodríguez-Cajarville et al. (2017)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Journal Article</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">4</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5233826">Rodríguez-Mazzini et al. 2001</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Report</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">151</td>
+            <td rowspan="1" colspan="1" style="width: 191px;"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Amphibia</tp:taxon-name-part></tp:taxon-name> + <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part></tp:taxon-name> + <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part></tp:taxon-name></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5200060">Santana et al. (2013)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Journal Article</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">1</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Amphibia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5233838">Sarroca et al. 2009</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Report</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">189</td>
+            <td rowspan="1" colspan="1" style="width: 191px;"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Amphibia</tp:taxon-name-part></tp:taxon-name> + <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part></tp:taxon-name> + <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part></tp:taxon-name> + <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Mammalia</tp:taxon-name-part></tp:taxon-name></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5200072">Vaz-Canosa and Rodríguez-Cajarville (2015)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Journal Article</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">1</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5200082">Velasco-Charpentier et al. (2016)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Journal Article</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">4</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5200102">Verrastro et al. (2006)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Journal Article</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">3</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5200092">Verrastro et al. (2017)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Journal Article</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">1</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">
+              <xref ref-type="bibr" rid="B5200112">Villamil (2014)</xref>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 129px;">Journal Article</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">15</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Reptilia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 275px;">Ziegler</td>
+            <td rowspan="1" colspan="1" style="width: 129px;">This study</td>
+            <td rowspan="1" colspan="1" style="width: 128px;">31</td>
+            <td rowspan="1" colspan="1" style="width: 191px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Amphibia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <supplementary-material id="S5232488" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">EE6F1E0C-52B9-575C-85EE-EAD8FD219687</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e36226.suppl1</object-id>
+      <label>Supplementary material 1</label>
+      <caption>
+        <p>Data for tetrapods occurrence records of Uruguay<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3897/BDJ.7.e36226.suppl1" xlink:type="simple"/></p>
+      </caption>
+      <p>Data type: Primary biodiversity data</p>
+      <p>Brief description: Tab-delimited csv data file and xml metadata file corresponding to the 69,380 species occurrence records held in the database</p>
+      <p>File: oo_311640.zip</p>
+      <media xlink:href="bdj-07-e36226-s001.zip" mimetype="Archive file" mime-subtype="zip" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/311274</uri>
+      </media>
+      <attrib specific-use="authors">Florencia Grattarola</attrib>
+    </supplementary-material>
+  </floats-group>
+</article>

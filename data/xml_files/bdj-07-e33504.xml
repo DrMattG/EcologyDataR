@@ -1,0 +1,1543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="3.0" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.7.e33504</article-id>
+      <article-id pub-id-type="publisher-id">33504</article-id>
+      <article-id pub-id-type="manuscript">10740</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Plantae</subject>
+          <subject>Animalia</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Bioinformatics</subject>
+        </subj-group>
+        <subj-group subj-group-type="Chronological classification">
+          <subject>Cenozoic</subject>
+          <subject>Mesozoic</subject>
+          <subject>Paleozoic</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>Africa</subject>
+          <subject>Oceans</subject>
+          <subject>Europe</subject>
+          <subject>Australasia</subject>
+          <subject>Americas</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>The Lyell Collection at the Earth Sciences Department, Natural History Museum, London (UK)</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes" xlink:type="simple">
+          <name name-style="western">
+            <surname>Sendino</surname>
+            <given-names>Consuelo</given-names>
+          </name>
+          <email xlink:type="simple">c.sendino-lara@nhm.ac.uk</email>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Natural History Museum, London, United Kingdom</addr-line>
+        <institution xlink:type="simple">Natural History Museum</institution>
+        <addr-line content-type="city">London</addr-line>
+        <country>United Kingdom</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Consuelo Sendino (<email xlink:type="simple">c.sendino-lara@nhm.ac.uk</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Ross Mounce</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>19</day>
+        <month>02</month>
+        <year>2019</year>
+      </pub-date>
+      <volume>7</volume>
+      <elocation-id>e33504</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/2C9F3103-7F2B-54A0-B7EC-22FD93DA8B8C">2C9F3103-7F2B-54A0-B7EC-22FD93DA8B8C</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/2578487">2578487</uri>
+      <history>
+        <date date-type="received">
+          <day>30</day>
+          <month>01</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>13</day>
+          <month>02</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Consuelo Sendino</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>This paper provides a quantitative and general description of the Lyell Collection kept in the Department of Earth Sciences at the Natural History Museum of London. This collection started to be built by the eminent British geologist Sir Charles Lyell (1797-1875) in 1846 when the first specimen reached the Museum. The last one entered in 1980 donated by one of Lyell’s heirs. There are more than 1700 specimens, mainly hand specimens with 93% of the fauna and flora from the Cenozoic of the Macaronesian archipelagos of the Canaries and Madeira. Those specimens that belong to the Lyell Collection with certainty have been databased and imaged. Currently they are being geo-referred automatically with the rest of the site geo-references at the NHM. This collection could be increased by a couple of dozen more specimens with those specimens located in the same drawers, but they do not have collector details. The work of data collection of these specimens was implemented over a year from 2016 to 2017, including annelids; brachiopods; bryozoans; echinoderms; scyphozoans; bivalves; gastropods; scaphopods; trilobites; plants; reptiles; fishes; and mammals.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>Access to the specimen-level data is available through the NHM data portal with the images associated. This is the first time that a description of the Fossil Lyell Collection dataset is available in the literature.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>Sir Charles Lyell</kwd>
+        <kwd>Macaronesia</kwd>
+        <kwd>Canaries</kwd>
+        <kwd>Madeira</kwd>
+        <kwd>Cenozoic</kwd>
+        <kwd>digitisation</kwd>
+        <kwd>collection.</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="6"/>
+        <table-count count="1"/>
+        <ref-count count="17"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>Sir Charles Lyell, 1<sup>st</sup> Baronet, (14 November 1797 – 22 February 1875) was a lawyer and geologist whose work influenced both Darwin and Wallace and has been accepted as one of the greatest geological thinkers of the 19<sup>th</sup> century. His work will be remembered among many other achievements for devising theories for earthquakes, volcanoes and stratigraphy and coining the terms for the Paleozoic, Mesozoic and Cenozoic geological eras. His main work is displayed in his Principles of Geology (1830-1833) (<xref ref-type="bibr" rid="B4998544">Lyell 1830</xref>, <xref ref-type="bibr" rid="B4998563">Lyell 1832</xref>, <xref ref-type="bibr" rid="B4998582">Lyell 1833</xref> and made him regarded as the pioneer of modern geology.</p>
+      <p>The Fossil Lyell Collection started to be assembled in June 1846 when C. Lyell Esq., as it is recorded in the NHM catalogue books, presented <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cephalaspis">Cephalaspis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="lyelli">lyelli</tp:taxon-name-part></tp:taxon-name></italic> from the Old Red Sandstone of Glammis, Forfarshire (Scotland), figured by Agassiz in 1835 [NHMUK PV OR 20087] (<xref ref-type="bibr" rid="B4998601">Agassiz 1835</xref>). From then until the last specimen that entered the NHM in 1980, presented by Lady Sophie Mary Lyell (1916 - 2012), a shark tooth, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Carcharocles">Carcharocles</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="angustidens">angustidens</tp:taxon-name-part></tp:taxon-name></italic> (Agassiz, 1843), 1,735 specimens have been recorded. There are 13 additional specimens that were probably collected by Charles Lyell, although these ones do not have any label with them; some have numbers glued with similar handwriting of that of Charles Lyell.</p>
+      <p>This collection is mainly composed of fossil specimens, but there are also 51 recent brachiopods, including the 9 collected by Charles Darwin (1809-1882) from Tierra del Fuego or Galapagos during his trip on board the Beagle and later given to Charles Lyell. They are mostly isolated hand specimens with the exception of 7 bryozoan cavity slides and 73 mounted bryozoans (with Lyell’s original handwriting) and 49 mounted brachiopods. There are in total 51 type and figured specimens distributed among molluscs (25), bryozoans (24), fish (1) and reptiles (1), in decreasing number (see Table <xref ref-type="table" rid="T4998804">1</xref>). Finally, there 35 cited specimens: 33 brachiopods and one coelenterate cited in one of the Lyell’s publications (<xref ref-type="bibr" rid="B4998668">Lyell 1845</xref>) and the other cited specimen is a bivalve mentioned by Murchison (<xref ref-type="bibr" rid="B4998687">Murchison 1829</xref>).</p>
+      <p>The importance of this collection is not only historical, but also scientifically significant as being the main reason of the stratigraphic and volcanic studies that Lyell carried out in the Canaries, Madeira and Sicily. These specimens are fundamental to understand Lyell’s theory on volcano formation and the 19th century theory on uniformitarianism. Most of them come from sites that currently are resorts, sites where collecting is not possible. Therefore they enrich Natural History Museum collections and are important for Science and British National Heritage.</p>
+      <p>The size of this Collection makes it ideal to test a pilot project on digitisation of specimens scattered in the collections. A pre-study of the catalogue books made us think that there were about 700 specimens, but after the search there were more than 1,700 specimens.</p>
+    </sec>
+    <sec sec-type="General description">
+      <title>General description</title>
+      <sec sec-type="Purpose">
+        <title>Purpose</title>
+        <p>To digitise this collection, as part of the Museum Strategy, a pilot project was created with the different steps to achieve the whole digitization of the collection (Fig. <xref ref-type="fig" rid="F4998807">1</xref>). This included photographs of the specimens that currently are available through the <ext-link ext-link-type="uri" xlink:href="http://data.nhm.ac.uk/" xlink:type="simple">NHM Data Portal</ext-link>.</p>
+      </sec>
+      <sec sec-type="Additional information">
+        <title>Additional information</title>
+        <p>
+          <bold>Collection digitisation history</bold>
+        </p>
+        <p>To digitise this collection, as part of the Museum Strategy, a pilot project was created with the different steps to achieve the whole digitization of the collection. This included photographs of the specimens that currently are available through the <ext-link ext-link-type="uri" xlink:href="http://data.nhm.ac.uk/" xlink:type="simple">NHM Data Portal</ext-link>.</p>
+        <p>The beginning of the project (Fig. <xref ref-type="fig" rid="F4998807">1</xref>) involved assembling all the written information recorded in the NHM during those dates compatible with Lyell’s life and those of his direct heirs (from 1840 to 1915). The reason for the latter date (1915), after Lyell’s death, is because Charles Lyell’s nephew, Sir Leonard Lyell, donated some of Charles Lyell’s specimens in 1913, as recorded in the <italic>World Palaeontological Collections</italic> by Cleevely (<xref ref-type="bibr" rid="B4998620">Cleevely 1983</xref>); then a few later years were added to the search just in case there was another donation not documented by Cleevely. We avoided searching up to the last donation in 1980 to narrow the search time. At this stage most of the work was done in the Library, mainly searching in the old catalogue books and archives where original letters from Charles Lyell are preserved. We also studied other publications from during Lyell’s lifetime where his collection specimens were described and/or cited (see bibliographical references).</p>
+        <p>The next step was the search of the specimens. According to the register books, we were able to restrict the search to specific group collections. At this stage the use of the index cards and the collaboration of colleagues were really valuable. The data collected from the specimens’ labels and letters associated to the specimens (Fig. <xref ref-type="fig" rid="F4998811">2</xref>) including verbatim data: species name; geographical details; stratigraphy; and collection details (collector, collection and date if available), was digitised, following a transcription protocol. At the same time that the data was recorded, the specimens were identified with help of an NHM scientific associate (retired researcher). After this, the specimens were mostly photographed by the Museum photographers and an NHM visitor researcher. The 1030 images were stored on TIFF (998) and JPEG (32) files respectively on the server waiting for the remaining data to be imported into Emu, an estimated total of 78 GB from 15 batches. Some of these images were rotated to show the conventional position for those which did not have the right orientation and cropped with Adobe Photoshop CC 2014. The image names given by the photographers were adopted. They are based on the registration name and the shot number. The Museum photographers used the focus stacking technique as most of the specimens are preserved in three dimensions and it is needed for keeping the finest detail.</p>
+        <p>Once all the specimen data -of the Library and specimen labels- was recorded on an Excel spreadsheet, an appropriate template for the information collected, it was processed (ingestion, normalisation with the coinciding data in Emu -master records- and quality data) and uploaded into EMu (<xref ref-type="bibr" rid="B4998707">Sendino 2009</xref>), the NHM’s collection management system. Data normalisation is basic to avoid data duplication, conflict with pre-existing data and to remove and avoid erroneous records. New taxonomic, stratigraphic and geographic Emu records were only recorded if not already present. The reason to use Excel instead of Emu directly is because Excel allows rapid data entry with copying tools that facilitate this process. The quality control and assurance procedures are implemented at all stages as errors can occur at any stage of the digitisation, but quality control is precisely required on the workflow modules 3 and 6. Currently, this data is available through the <ext-link ext-link-type="uri" xlink:href="http://data.nhm.ac.uk/" xlink:type="simple">NHM Data Portal</ext-link>. Finally, all the specimens have been re-boxed and re-labelled and mostly (molluscs and annelids) re-housed to a new location to facilitate their easy access for research and future tours behind the scenes; also new identifications have been suggested in determination comments. These are not definitive as the specimens are in need of further research.</p>
+        <p>The first two stages of this project, collecting all the information about the specimens and locating them in the collections, were carried out over a six week period thanks to cooperation with the University of Valencia (Spain) which funded an MSc student (<xref ref-type="bibr" rid="B4998697">Sáez Máñez 2017</xref>). These modules of the workflow are independent and were performed sequentially. The rest of the project was carried out over approximately 24 months part time (or 12 months full time) and whose modules (from 3 to 8) were executed in parallel (Fig. <xref ref-type="fig" rid="F4998807">1</xref>). For instance, part of the transcription was done at the same time as the specimens were prepared for being imaged and re-boxed and re-labelled. The re-boxing was done with the help of a single volunteer who re-boxed more than 1,500 specimens. The new labels were done with special paper and pens for archival purposes according to the NHM conservation standards, including secol to cover the new labels and those pieces of papers with Lyell’s original handwriting and former identifications. They also include DataMatrix barcodes for easier access to the specimens data through the NHM collection management system.</p>
+        <p>The last stage of the project was the update of the taxonomic identifications where possible, giving the suggested identifications in the determination comments. Lyell’s identifications –assuming those recorded in the catalogue books–, researcher’s identifications – as those given by the Spanish researcher Joaquin Meco in 1973; M. B. Sedda in 1992 and Noel Morris in 2017 &amp; 2018- and suggested taxonomic names are displayed through the NHM Data Portal with the dates (approximate dates for Lyell’s) for these specimens.</p>
+        <p>The digitisation workflow has been an important way of recording decisions, above all the first stages that addressed the following steps. The most consuming time modules were the data label transcriptions, data normalisation and suggested taxonomic identifications.</p>
+        <p>
+          <bold>Historical Collection</bold>
+        </p>
+        <p>The origin of the different collections integrated into the Lyell collection had different sources, such as Lyell’s specimens from the Geological Society that entered in the Museum in 1911 (almost 5%, 1 is from Miss Busk, George Busk’s daughter) or those that came from Museum of Practical Geology in 1880 (almost 2%) and directly from Miss Busk in 1899 (almost 23%) and James Sowerby (0.4%) in 1861. Lyell was also the receiver of other people’s specimens [Charles Darwin’s brachiopods -0,5%-; Charles James Fox Bunbury’s gastropods -0.6%-; Giuseppe Seguenza’s molluscs from Sicily –almost 3%-; Dr Beck’s brachiopods -0.1% -; H. Cumming’s brachiopods -0.1%-; Dr Fleming’s brachiopods -0.1%-; William Mantell’s -0.2%- brachiopods; Lords of Admiralty’s and W. Stimpson’s brachiopods from the Gulf Stream Expedition -0.2%-; and William Willoughby Cole Enniskillen’s (3rd Earl) fish –only one specimen-]. But the main part of the collection came from 1846 to 1875, the latter is the year of his death, with more than 52% of the specimens. As already noted above, there have been fossils that were presented by Lyell’s successors: Leonard Lyell donated three fishes in 1913 and Lady Lyell one fish in 1980). 13% of them do not have the date when Lyell presented them to the NHM (Fig. <xref ref-type="fig" rid="F4998815">3</xref>).</p>
+        <p>This collection is not only key on research of volcano formation and palaeontology of Macaronesia (93% of the palaeoflora and palaeofauna are from the North Atlantic Ocean), but it is also reference for scientific and taxonomic studies (1.5% contains types).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>At this stage of the NHM digitisation development, most of the specimens have been assigned geographic coordinates (Fig. <xref ref-type="fig" rid="F4998819">4</xref>) automatically with the rest of the site geo-references at the NHM. The georeferencing tool used allows a user to acquire point and extent data from Google Maps, following the NHM Georeferencing standards based on best practice and is freely available at the NHM. Most of the Lyell Collection, 93%, comes from Macaronesia (Fig. <xref ref-type="fig" rid="F4998823">5</xref>).</p>
+      </sec>
+      <sec sec-type="Coordinates">
+        <title>Coordinates</title>
+        <p> and  Latitude;  and  Longitude.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>This collection covers two kingdoms, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="kingdom">Plantae</tp:taxon-name-part></tp:taxon-name> (2.26% of the sample) and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="kingdom">Animalia</tp:taxon-name-part></tp:taxon-name> (97.74%).</p>
+        <p><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="kingdom">Plantae</tp:taxon-name-part></tp:taxon-name> includes the groups <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Chlorophyta</tp:taxon-name-part></tp:taxon-name> (0.11% of the sample and 5% of plants); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Pteridophyta</tp:taxon-name-part></tp:taxon-name> (0.5% of the sample and 23 % of plants); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subkingdom">Embryophyta</tp:taxon-name-part></tp:taxon-name> (0.58 % of the sample and 25 % of plants); and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Magnoliophyta</tp:taxon-name-part></tp:taxon-name> (1% of the sample and 46 % of plants). See Figs <xref ref-type="fig" rid="F4998823">5</xref>, <xref ref-type="fig" rid="F4998827">6</xref> for stratigraphic and taxonomic coverage of plants.</p>
+        <p><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="kingdom">Animalia</tp:taxon-name-part></tp:taxon-name> includes 8 phyla: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Annelida</tp:taxon-name-part></tp:taxon-name> (0.3% of the sample and 0.3% of animals); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Bryozoa</tp:taxon-name-part></tp:taxon-name> (24% of the sample and 24.5% of animals); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Mollusca</tp:taxon-name-part></tp:taxon-name> (64.21% of the sample and 66% of animals); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Brachiopoda</tp:taxon-name-part></tp:taxon-name> (4.9% of the sample and 5% of animals); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Coelenterata</tp:taxon-name-part></tp:taxon-name> (0.05% of the sample and 0.05% of animals); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Echinodermata</tp:taxon-name-part></tp:taxon-name> (0.46% of the sample and 0.47% of animals); <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Trilobita</tp:taxon-name-part></tp:taxon-name> (0.11% of the sample and 0.11% of animals); and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Chordata</tp:taxon-name-part></tp:taxon-name> (2.49% of the sample and 2.55% of animals). See Figs <xref ref-type="fig" rid="F4998823">5</xref>, <xref ref-type="fig" rid="F4998827">6</xref> for stratigraphic and taxonomic coverage of animals.</p>
+        <p>Most of the molluscs had no identification and the others had obsolete taxonomic names. All the specimens have been identified as much as their preservation allowed and through the knowledge of the NHM research associates. The obsolete names have been suggested to be changed to the updated ones on the NHM Data Portal.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <sec sec-type="Notes">
+        <title>Notes</title>
+        <p>As a palaeontological collection, its stratigraphical distribution is important. They are mainly Cenozoic specimens, largely from the Tertiary (more than 61%) and Quaternary (more than 35%) of Macaronesia. The rest of the specimens are from the Silurian to Cretaceous and are in very low numbers (Fig. <xref ref-type="fig" rid="F4998827">6</xref>). This collection was mostly made to help in understanding volcano formation.</p>
+        <p>Lyell visited the Canaries and the Madeira islands from December 1853 to April 1854. He was guided around Gran Canaria by the Spanish engineer Pedro Maffiotte (1816-1870) and around Madeira by the Portuguese military engineer Major Antonio Azevedo and the German Georg Hartung (1821–1891), who had an interest in geology. All of them contributed to Lyell’s collection. Maffiotte posted to Lyell further material from the localities that they had visited together and exchanged letters with him for twelve years between 1854 and 1866. Lyell spent several years studying the specimens collected from these islands, and exchanged letters with other researchers in an attempt to determine the identities of the species present.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Collection data">
+      <title>Collection data</title>
+      <sec sec-type="Collection name">
+        <title>Collection name</title>
+        <p>Lyell Collection</p>
+      </sec>
+      <sec sec-type="Specimen preservation method">
+        <title>Specimen preservation method</title>
+        <p>Isolated and mounted dried specimens</p>
+      </sec>
+      <sec sec-type="Curatorial unit">
+        <title>Curatorial unit</title>
+        <p>Palaeobiological collections</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Open Data Commons Attribution License</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>The Charles Lyell fossil collection at the Natural History Museum</p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="http://data.nhm.ac.uk/dataset/the-charles-lyell-fossil-collection-at-the-natural-history-museum" xlink:type="simple">http://data.nhm.ac.uk/dataset/the-charles-lyell-fossil-collection-at-the-natural-history-museum</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>3</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>The Charles Lyell fossil collection at the Natural History Museum</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>TIFF</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>1</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="http://data.nhm.ac.uk/dataset/the-charles-lyell-fossil-collection-at-the-natural-history-museum" xlink:type="simple">http://data.nhm.ac.uk/dataset/the-charles-lyell-fossil-collection-at-the-natural-history-museum</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>Photographs of the specimens and an article on the planification of the Lyell Project</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">Project</td>
+                  <td rowspan="1" colspan="1">Narrative</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+      <sec sec-type="Data set 2">
+        <title>Data set 2.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Lyell Collection-Types and figured and cited specimens</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Word</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>5</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="http://data.nhm.ac.uk/dataset/lyell-collection-types" xlink:type="simple">http://data.nhm.ac.uk/dataset/lyell-collection-types</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>Types and cited specimens included in the Fossil Lyell Collection (group; type status; identification; and reference).</p>
+          <table-wrap id="DS2" orientation="portrait" position="anchor">
+            <label>Data set 2.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">Phyllum</td>
+                  <td rowspan="1" colspan="1">Phylum names</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Type/Cited</td>
+                  <td rowspan="1" colspan="1">Types and figured and cited specimens' names</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Specimen number</td>
+                  <td rowspan="1" colspan="1">Registration number</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Taxon</td>
+                  <td rowspan="1" colspan="1">Published taxon</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Reference</td>
+                  <td rowspan="1" colspan="1">Publication</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+      <sec sec-type="Data set 3">
+        <title>Data set 3.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Lyell Collection-List of specimens</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>CSV</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>4</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="http://data.nhm.ac.uk/dataset/list-specimnes-lyell-collection" xlink:type="simple">http://data.nhm.ac.uk/dataset/list-specimnes-lyell-collection</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>Lyell Collection with identifications and specimen numbers</p>
+          <table-wrap id="DS3" orientation="portrait" position="anchor">
+            <label>Data set 3.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">Registration-No.:(Registration)</td>
+                  <td rowspan="1" colspan="1">Specimen number</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Description:(Catalogue)</td>
+                  <td rowspan="1" colspan="1">Group</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Taxon:(Determination-Details)/Taxonomy:(Object-Details)</td>
+                  <td rowspan="1" colspan="1">Identfication</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Number:(Type-And-Number-Of-Objects)</td>
+                  <td rowspan="1" colspan="1">Number of specimens</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+    <sec sec-type="Additional information">
+      <title>Additional information</title>
+      <p>
+        <bold>Reduced project cost</bold>
+      </p>
+      <p>This pilot project has been carried out with few resources. Regarding staff working on this, there was a curator involved in the whole project; an MSc student working only 6 weeks on the project; a volunteer working a day per week over a year; an NHM photographer working for 3 months full time; a research associate working a day per week over two months giving broad IDs; and less than one day for each curator with Lyell specimens in their collections. Other additional costs comprise consumables such as plastazote, acid free trays, archival pens, and archival paper for new labels. The success of this was due to advanced planning and resource tracking.</p>
+      <p>Each stage accomplishes a particular objective and creates inputs to the next stage (Fig. <xref ref-type="fig" rid="F4998807">1</xref>). The framework may be implemented in the form of a decision support system, and a prototype system is described which supports many of the related decision making activities.</p>
+      <p>This is a good example of reduced cost for digitisation infrastructure creation maintaining a high public profile for digitisation.</p>
+      <p>
+        <bold>Collection results</bold>
+      </p>
+      <p>A scattered and unrecorded collection has been assembled, recorded, photographed and displayed through the NHM Data Portal that currently is under the Beta version. The taxonomic names given by Lyell, where these have been preserved, are respected, but also suggested taxonomic names are displayed in comments through the NHM Data Portal. The importance of this project lies in the Collection being ready for research, not only on taxonomy, but also for stratigraphic and volcanic formation studies, as 93% of the specimens come from the Macaronesia islands.</p>
+      <p>The specimens have been re-housed in plastazote, acid free trays in a new location with all the molluscs in the same cabinet, with easier access for research and for salvage purposes.</p>
+      <p>The display of this data virtually eliminates the need for specimen handling by researchers and will greatly speed up response time to collection enquires.</p>
+      <p>This pilot project procedure and its workflow are advantageous for new digitisation projects regarding collections containing a variety of specimens of different taxonomic groups.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>This project could not be possible without the help of an MSc student, Teresa Máñez from University of Valencia (Spain). I am also grateful to my colleagues Noel Morris for his help with mollusc identifications, Jon Todd for advice and finding the Lyell specimens published by James Sowerby in his encyclopaedic work <italic>The Mineral Conchology of Great Britain</italic>, Jane Barnbrook for re-boxing the molluscs and annelids and the NHM science photographer Kevin Webb and the researcher Carlos Góis-Marques from the University of Lisbon (Portugal) for the fossil animal and plant photographs respectively. I do not want to miss this opportunity to acknowledge the work carried out previously by the former NHM mollusc curator John Cooper and the collaboration of all my curation colleagues in this project, by alphabetical surname order: Emma Bernard; Pip Brewer; Sandra Chapman; Jill Darrell; Tim Ewin; Peta Hayes; Zoe Hughes; Claire Mellish; Roula Pappa; and Martha Richter.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B4998601">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Agassiz</surname>
+              <given-names>J. L..R.</given-names>
+            </name>
+          </person-group>
+          <year>1835</year>
+          <source>Recherches sur les Poissons Fossiles</source>
+          <volume>2. Contenant l'his1oire de l'ordre des Ganoides</volume>
+          <publisher-name>Agassiz</publisher-name>
+          <publisher-loc>Neuchâtel et Salerne</publisher-loc>
+          <size units="page">85-200</size>
+        </element-citation>
+      </ref>
+      <ref id="B4998620">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Cleevely</surname>
+              <given-names>R. J.</given-names>
+            </name>
+          </person-group>
+          <year>1983</year>
+          <source>World palaeontological collections</source>
+          <publisher-name>British Museum (Natural History)</publisher-name>
+          <publisher-loc>London</publisher-loc>
+          <size units="page">365</size>
+        </element-citation>
+      </ref>
+      <ref id="B4998629">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Dawson</surname>
+              <given-names>J. W.</given-names>
+            </name>
+          </person-group>
+          <year>1860</year>
+          <article-title>On a terrestrial mollusk, a chilognathous myriapod, and some new species of reptiles, from the coal-Formation of Nova Scotia</article-title>
+          <source>Quarterly Journal of the Geological Society of London</source>
+          <volume>16</volume>
+          <fpage>268</fpage>
+          <lpage>277</lpage>
+          <pub-id pub-id-type="doi">10.1144/GSL.JGS.1860.016.01-02.37</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4999681">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lonsdale</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <year>1845</year>
+          <article-title>Account of twenty-six species of Polyparia obtained from the Eocene tertiary formations of North America</article-title>
+          <source>Quarterly Journal of the Geological Society of London</source>
+          <fpage>509</fpage>
+          <lpage>533</lpage>
+          <pub-id pub-id-type="doi">10.1144/GSL.JGS.1845.001.01.98</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4998649">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lonsdale</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <year>1845</year>
+          <article-title>Corals from the tertiary formations of North America</article-title>
+          <source>Quarterly Journal of the Geological Society of London</source>
+          <fpage>495</fpage>
+          <lpage>509</lpage>
+          <pub-id pub-id-type="doi">10.1144/GSL.JGS.1845.001.01.97</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4998544">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lyell</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <year>1830</year>
+          <source>Principles of Geology</source>
+          <edition>1</edition>
+          <volume>1</volume>
+          <publisher-name>Lyell</publisher-name>
+          <size units="page">511</size>
+        </element-citation>
+      </ref>
+      <ref id="B4998563">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lyell</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <year>1832</year>
+          <source>Principles of Geology</source>
+          <edition>1</edition>
+          <volume>2</volume>
+          <publisher-name>Lyell</publisher-name>
+          <size units="page">330</size>
+        </element-citation>
+      </ref>
+      <ref id="B4998582">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lyell</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <year>1833</year>
+          <source>Principles of Geology</source>
+          <edition>1</edition>
+          <volume>3</volume>
+          <publisher-name>Lyell</publisher-name>
+          <size units="page">160</size>
+        </element-citation>
+      </ref>
+      <ref id="B4998668">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lyell</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <year>1845</year>
+          <source>Travels in North America, in the years 1841-2; with geological observations on the United States, Canada, and Nova Scotia</source>
+          <volume>2</volume>
+          <publisher-name>Wiley and Putnam</publisher-name>
+          <publisher-loc>New York</publisher-loc>
+          <size units="page">221</size>
+          <pub-id pub-id-type="doi">10.5962/bhl.title.150023</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4998687">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Murchison</surname>
+              <given-names>R. I.</given-names>
+            </name>
+          </person-group>
+          <year>1829</year>
+          <article-title>On the relations of the tertiary and secondary rocks forming the southern flanks of the Tyrolese Alps near Bassano</article-title>
+          <source>Philosophical Magazine and Annals</source>
+          <volume>5</volume>
+          <fpage>401</fpage>
+          <lpage>410</lpage>
+          <pub-id pub-id-type="doi">10.1080/14786442908675034</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4998697">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Sáez Máñez</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Discovering the museum with Charles Lyell in just six weeks</article-title>
+          <source>Waterhouse Times</source>
+          <volume>83</volume>
+          <fpage>22</fpage>
+          <lpage>23</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B4998717">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Sendino</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Taylor</surname>
+              <given-names>P. D.</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Pliocene bryozoans from Gran Canaria.</article-title>
+          <source>Studi Trentini di Scienze Naturali</source>
+          <volume>94</volume>
+          <fpage>229</fpage>
+          <lpage>240</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B4998707">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Sendino</surname>
+              <given-names>M. C.</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>KE EMu and the Future for Natural History Collections</article-title>
+          <source>Collections</source>
+          <volume>5</volume>
+          <issue>2</issue>
+          <fpage>149</fpage>
+          <lpage>158</lpage>
+          <pub-id pub-id-type="doi">10.1177/155019060900500204</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4998759">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Sowerby</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <year>1821</year>
+          <source>The mineral conchology of Great Britain; on coloured figures and descriptions of those remains of testaceous animals or shells, which have been preserved at various times and depths in the earth</source>
+          <volume>3</volume>
+          <publisher-name>Sowerby</publisher-name>
+          <publisher-loc>London</publisher-loc>
+          <size units="page">194</size>
+        </element-citation>
+      </ref>
+      <ref id="B4998777">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Sowerby</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <year>1823</year>
+          <source>The mineral conchology of Great Britain; on coloured figures and descriptions of those remains of testaceous animals or shells, which have been preserved at various times and depths in the earth</source>
+          <publisher-name>Sowerby</publisher-name>
+          <publisher-loc>London</publisher-loc>
+          <size units="page">160</size>
+        </element-citation>
+      </ref>
+      <ref id="B4998795">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Sowerby</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sowerby</surname>
+              <given-names>J. D.C.</given-names>
+            </name>
+          </person-group>
+          <year>1829</year>
+          <source>The mineral conchology of Great Britain; on coloured figures and descriptions of those remains of testaceous animals or shells, which have been preserved at various times and depths in the earth</source>
+          <volume>6</volume>
+          <publisher-name>Sowerby</publisher-name>
+          <publisher-loc>London</publisher-loc>
+          <size units="page">230</size>
+        </element-citation>
+      </ref>
+      <ref id="B5004581">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>White</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <year>1958</year>
+          <article-title>On <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cephalaspis">Cephalaspis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="lyelli">lyelli</tp:taxon-name-part></tp:taxon-name> Agassiz</article-title>
+          <source>Palaeontology,</source>
+          <volume>1</volume>
+          <fpage>99</fpage>
+          <lpage>105</lpage>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F4998807" position="float" orientation="portrait">
+      <object-id content-type="arpha">5706AAF1-1278-5582-AB51-E13A4094F6D5</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e33504.figure1</object-id>
+      <object-id content-type="zenodo_dep_id">2578517</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Project workflow.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e33504-g001.jpg" position="float" id="oo_260422.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/260422</uri>
+      </graphic>
+    </fig>
+    <fig id="F4998811" position="float" orientation="portrait">
+      <object-id content-type="arpha">7259731F-09F4-5753-B6A0-CF193AC0C6B5</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e33504.figure2</object-id>
+      <object-id content-type="zenodo_dep_id">2578519</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>Letter sent by Lyell to Busk on 22 January 1856 on identification of the bryozoans from the Canaries with a transcription below.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e33504-g002.jpg" position="float" id="oo_262950.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/262950</uri>
+      </graphic>
+    </fig>
+    <fig id="F4998815" position="float" orientation="portrait">
+      <object-id content-type="arpha">D86EB3DA-300D-5994-AD9A-DEDF2B4524FA</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e33504.figure3</object-id>
+      <object-id content-type="zenodo_dep_id">2578521</object-id>
+      <label>Figure 3.</label>
+      <caption>
+        <p>Origin of the Lyell Collection. The scale of those specimens which are fewer than 100 has been increased 10 times to enhance their visibility. Please see Suppl. material <xref ref-type="supplementary-material" rid="S4998829">1</xref> for further information.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e33504-g003.jpg" position="float" id="oo_262966.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/262966</uri>
+      </graphic>
+    </fig>
+    <fig id="F4998819" position="float" orientation="portrait">
+      <object-id content-type="arpha">E41678A8-6F0E-53A5-9FB6-EC6D04DA5825</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e33504.figure4</object-id>
+      <object-id content-type="zenodo_dep_id">2578523</object-id>
+      <label>Figure 4.</label>
+      <caption>
+        <p>Bubble map with the sites from where the Earth Sciences’ Lyell Collection specimens originate.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e33504-g004.jpg" position="float" id="oo_264080.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/264080</uri>
+      </graphic>
+    </fig>
+    <fig id="F4998823" position="float" orientation="portrait">
+      <object-id content-type="arpha">25CF63C0-C616-5B5F-A803-9BF0C6477C2C</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e33504.figure5</object-id>
+      <object-id content-type="zenodo_dep_id">2578525</object-id>
+      <label>Figure 5.</label>
+      <caption>
+        <p>Number of specimens per region and group; note the two different scales.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e33504-g005.jpg" position="float" id="oo_264097.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/264097</uri>
+      </graphic>
+    </fig>
+    <fig id="F4998827" position="float" orientation="portrait">
+      <object-id content-type="arpha">3D69CFD5-84D1-5BCA-BEE4-CCF7A43CD12A</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e33504.figure6</object-id>
+      <object-id content-type="zenodo_dep_id">2578527</object-id>
+      <label>Figure 6.</label>
+      <caption>
+        <p>6A. Number of specimens per stratigraphic period and group. 6B. For further clarification for Silurian, Devonian, Permian and Triassic.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e33504-g006.jpg" position="float" id="oo_264117.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/264117</uri>
+      </graphic>
+    </fig>
+    <table-wrap id="T4998804" position="float" orientation="portrait">
+      <label>Table 1.</label>
+      <caption>
+        <p>Types and cited specimens included in the Fossil Lyell Collection (group; type status; identification; and reference).</p>
+      </caption>
+      <table rules="all" border="1">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 60px;">
+              <bold>Phylum</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 94px;">
+              <bold>Type / Cited</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 176px;">
+              <bold>Specimen number</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <bold>Taxon</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Reference</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="22" colspan="1" style="width: 60px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="phylum">Bryozoa</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="8" colspan="1" style="width: 94px;">Holotype</td>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI D 53190</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Hippothoa">Hippothoa</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="tuberculum">tuberculum</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4999681">Lonsdale 1845a</xref>: p.527.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI D 53191</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Eschara">Eschara</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="viminea">viminea</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4999681">Lonsdale 1845a</xref>: p. 531.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI D 53194</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Eschara">Eschara</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="linea">linea</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4999681">Lonsdale 1845a</xref>: p. 530.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI D 53195</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Cellepora">Cellepora</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="umbilicata">umbilicata</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4999681">Lonsdale 1845a</xref>: p. 507.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI D 53198</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Cellepora">Cellepora</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="similis">similis</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998649">Lonsdale 1845b</xref>: p. 509.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI D 53204</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Eschara">Eschara</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="tubulata">tubulata</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4999681">Lonsdale 1845a</xref>: p. 528.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI D 53205</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Eschara">Eschara</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="petiolus">petiolus</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4999681">Lonsdale 1845a</xref>: p. 529.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI D 53206</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Eschara">Eschara</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="incumbes">incumbes</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4999681">Lonsdale 1845a</xref>: p. 529.</td>
+          </tr>
+          <tr>
+            <td rowspan="10" colspan="1" style="width: 94px;">Syntype</td>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI D 53201 [3 specimens]</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Escharina">Escharina</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="tumidula">tumidula</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">p. 502.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI D 53192</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Cellepora">Cellepora</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="quadrangularis">quadrangularis</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998649">Lonsdale 1845b</xref>: p. 508.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI D 53193</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Cellepora">Cellepora</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="quadrangularis">quadrangularis</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998649">Lonsdale 1845b</xref>: p. 508.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI D 53196</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Cellepora">Cellepora</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="informata">informata</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998649">Lonsdale 1845b</xref>: p. 506.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI D 53197</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Cellepora">Cellepora</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="informata">informata</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998649">Lonsdale 1845b</xref>: p. 505.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI D 53200</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Cellepora">Cellepora</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="quadrangularis">quadrangularis</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998649">Lonsdale 1845b</xref>: p. 508.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI D 53207</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Lunulites">Lunulites</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="contigua">contigua</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4999681">Lonsdale 1845a</xref>: p. 533, Fig. C.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI D 53208</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Lunulites">Lunulites</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="contigua">contigua</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4999681">Lonsdale 1845a</xref>: p. 533, Fig. a+b.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI D 53209</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Lunulites">Lunulites</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="distans">distans</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4999681">Lonsdale 1845a</xref>: p. 531. Figs b+d.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI D 53210</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Lunulites">Lunulites</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="distans">distans</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4999681">Lonsdale 1845a</xref>: p. 531.</td>
+          </tr>
+          <tr>
+            <td rowspan="4" colspan="1" style="width: 94px;">Figured</td>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI D 6523</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Labioporella">Labioporella</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998717">Sendino and Taylor 2013</xref>: p. 234, Fig. 3G</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI D 6527(a)</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Cryptosula">Cryptosula</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998717">Sendino and Taylor 2013</xref>: p. 234, Fig. 3F</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI D 6527(b)</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Onychocella">Onychocella</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998717">Sendino and Taylor 2013</xref>: p. 234, Fig. 3G</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI D 6535</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Trypostega">Trypostega</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998717">Sendino and Taylor 2013</xref>: pp 236-7, Fig. 4C</td>
+          </tr>
+          <tr>
+            <td rowspan="25" colspan="1" style="width: 60px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="phylum">Mollusca</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="2" colspan="1" style="width: 94px;">Holotype</td>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI OR 43119</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Venericardia">Venericardia</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="deltoidea">deltoidea</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998759">Sowerby 1821</xref>: p. 106, pl. 259: Fig. 1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI OR 43540</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Lymnaea">Lymnaea</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="columellaris">columellaris</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998795">Sowerby and Sowerby 1829</xref>: p. 53, Pl. 528: Fig. 2</td>
+          </tr>
+          <tr>
+            <td rowspan="11" colspan="1" style="width: 94px;">Syntype</td>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI LL 17678</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Unio">Unio</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="solandri">solandri</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998795">Sowerby and Sowerby 1829</xref>: p. 30. Pl. 517: Upper figure</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI LL 17679</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Unio">Unio</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="solandri">solandri</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998795">Sowerby and Sowerby 1829</xref>: p. 30. Pl. 517: Probably bottom left figure</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI OR 43039(1)</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Crassatella">Crassatella</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="plicata">plicata</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998777">Sowerby 1823</xref>: p. 62, pl. 545: Fig. 2 left</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI OR 43039(2)</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Crassatella">Crassatella</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="plicata">plicata</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998777">Sowerby 1823</xref>: p. 62, pl. 545: Fig. 2 centre</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI OR 43039(3)</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Crassatella">Crassatella</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="plicata">plicata</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998777">Sowerby 1823</xref>: p. 62</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI OR 43039(4)</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Crassatella">Crassatella</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="plicata">plicata</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998777">Sowerby 1823</xref>: p. 62</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI OR 43548 (1)</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Melanopsis">Melanopsis</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="carinata">carinata</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998795">Sowerby and Sowerby 1829</xref>: p. 41, Pl. 523: Fig. 1, left</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI OR 43776</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Cancellaria">Cancellaria</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="laeviuscula">laeviuscula</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998777">Sowerby 1823</xref>: p. 84, pl. 361: Fig. 1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI OR 43798 (1)</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Voluta">Voluta</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="geminata">geminata</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998777">Sowerby 1823</xref>: p. 136, pl. 398: Fig. 1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI OR 43798 (2)</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Voluta">Voluta</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="geminata">geminata</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998777">Sowerby 1823</xref>: p. 136</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI OR 43798 (3)</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Voluta">Voluta</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="geminata">geminata</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998777">Sowerby 1823</xref>: p. 136</td>
+          </tr>
+          <tr>
+            <td rowspan="5" colspan="1" style="width: 94px;">Figured</td>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI OR 44122(1)</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Ostrea">Ostrea</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="flabellula">flabellula</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998759">Sowerby 1821</xref>: p. 97; Pl. 253: figs 2&amp;3;</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI OR 44122(2)</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Ostrea">Ostrea</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="flabellula">flabellula</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998759">Sowerby 1821</xref>: p. 97; Pl. 253: figs 4&amp;6;</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI OR 44122(3)</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Ostrea">Ostrea</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="flabellula">flabellula</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998759">Sowerby 1821</xref>: p. 97; Pl. 253: figs 5</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI OR 44122(4)</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Ostrea">Ostrea</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="flabellula">flabellula</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998759">Sowerby 1821</xref>: p. 97; Pl. 253: figs 7&amp;9</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI OR 43816</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Ancilla">Ancilla</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="subulata">subulata</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998777">Sowerby 1823</xref>: p. 38, pl. 333: Fig. 4</td>
+          </tr>
+          <tr>
+            <td rowspan="6" colspan="1" style="width: 94px;">Syntype</td>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI OR 43249(1)</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>Mytilus Brardii</italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998795">Sowerby and Sowerby 1829</xref>: p. 61, pl. 532: Fig. 2 (centre of 3).</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI OR 43249(2)</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>Mytilus Brardii</italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998795">Sowerby and Sowerby 1829</xref>: p. 61, pl. 532: Fig. 2 (right of 3).</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI OR 43249(3)</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>Mytilus Brardii</italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998795">Sowerby and Sowerby 1829</xref>: p. 61, pl. 532: Fig. 2 (left of 3).</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI OR 43249(4)</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>Mytilus Brardii</italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998795">Sowerby and Sowerby 1829</xref>: p. 61</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI OR 43249(5)</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>Mytilus Brardii</italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998795">Sowerby and Sowerby 1829</xref>: p. 61</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI OR 43535</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Ancylus">Ancylus</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="elegans">elegans</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998795">Sowerby and Sowerby 1829</xref>: p. 64; Pl. 533; probably the lower specimen</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;">Cited</td>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI TB 14570</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Pecten">Pecten</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="gemellari">gemellari</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998687">Murchison 1829</xref>: p. 403</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 60px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="phylum">Coelenterata</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 94px;">Cited</td>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI PG 4320<break/>(=NHMUK PI CL 800)</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Conularia">Conularia</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998668">Lyell 1845</xref>: p. 191</td>
+          </tr>
+          <tr>
+            <td rowspan="14" colspan="1" style="width: 60px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="phylum">Brachiopoda</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 94px;">Cited</td>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI B 16591</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Spirifer">Spirifer</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="glaber">glaber</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998668">Lyell 1845</xref>: p. 221, n.36</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;">Cited</td>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI B 16594</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>Producta Martini</italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998668">Lyell 1845</xref>: p. 221, n. 40</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;">Cited</td>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI B 16595</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>Producta Martini</italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998668">Lyell 1845</xref>: p. 221, n. 40</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;">Cited</td>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI B 16601</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>Producta Martini</italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998668">Lyell 1845</xref>: p. 221, n. 40</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;">Cited</td>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI B 16602</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>Producta Scotica</italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998668">Lyell 1845</xref>: p. 222, n. 43</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;">Cited</td>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI B 16603</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>Producta Martini</italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998668">Lyell 1845</xref>: p. 221, n. 40</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;">Cited</td>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI B 16605</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>Producta Scotica</italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998668">Lyell 1845</xref>: p. 222, n. 43</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;">Cited</td>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI B 16606 [20 specimens]</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>Producta Martini</italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998668">Lyell 1845</xref>: p. 221, n. 40</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;">Cited</td>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI B 16611</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>Producta Martini</italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998668">Lyell 1845</xref>: p. 221, n. 40</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;">Cited</td>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI B 16613</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Spirifer">Spirifer</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="glaber">glaber</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998668">Lyell 1845</xref>: p. 221, n. 36</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;">Cited</td>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI B 16619</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>ProductaSscotica</italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998668">Lyell 1845</xref>: p. 222, n. 43</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;">Cited</td>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI B 16626</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>Producta Scotica</italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998668">Lyell 1845</xref>: p. 222, n. 43</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;">Cited</td>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI B 16629</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>Producta Scotica</italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998668">Lyell 1845</xref>: p. 222, n. 43</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;">Cited</td>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PI B 16633</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>Producta Martini</italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998668">Lyell 1845</xref>: p. 221, n. 40</td>
+          </tr>
+          <tr>
+            <td rowspan="2" colspan="1" style="width: 60px;">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="phylum">Chordata</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 94px;">Syntype / Lectotype</td>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PV OR 20087</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Cephalaspis">Cephalaspis</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="lyelli">lyelli</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998601">Agassiz 1835</xref>: pl. 1a, fig. 2.<break/>/ <xref ref-type="bibr" rid="B5004581">White 1958</xref>: pl. 18, figs 1-2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 94px;">Holotype</td>
+            <td rowspan="1" colspan="1" style="width: 176px;">NHMUK PV R 4168</td>
+            <td rowspan="1" colspan="1" style="width: 190px;">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Hylonomus">Hylonomus</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="lyelli">lyelli</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B4998629">Dawson 1860</xref>: pp 274-5, figs 14-18.</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <supplementary-material id="S4998829" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">68300047-93B2-587E-A852-30B709F5B4DB</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e33504.suppl1</object-id>
+      <object-id content-type="zenodo_dep_id">2578661</object-id>
+      <label>Supplementary material 1</label>
+      <caption>
+        <p>Appendix</p>
+      </caption>
+      <p>Data type: Origin of the Lyell Collection</p>
+      <p>Brief description: The origin of the different collections integrated into the Lyell collection by different sources</p>
+      <p>File: oo_262968.csv</p>
+      <media xlink:href="bdj-07-e33504-s001.csv" mimetype="Comma Separated Values File" mime-subtype="csv" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/262968</uri>
+      </media>
+      <attrib specific-use="authors">Consuelo Sendino</attrib>
+    </supplementary-material>
+  </floats-group>
+</article>

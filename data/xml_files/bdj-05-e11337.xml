@@ -1,0 +1,1087 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="3.0" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.5.e11337</article-id>
+      <article-id pub-id-type="publisher-id">11337</article-id>
+      <article-id pub-id-type="manuscript">6680</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Ichneumonidae</subject>
+          <subject>Hymenoptera</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Biodiversity &amp; Conservation</subject>
+          <subject>Ecology &amp; Environmental sciences</subject>
+        </subj-group>
+        <subj-group subj-group-type="Chronological classification">
+          <subject>Neogene</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>Brazil</subject>
+          <subject>South America</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Long-term seasonal dominance of the wasp <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Trihapsis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part></tp:taxon-name></italic> Townes (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hymenoptera</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Ichneumonidae</tp:taxon-name-part></tp:taxon-name>) in the Brazilian Atlantic Forest</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes" xlink:type="simple">
+          <name name-style="western">
+            <surname>Santos</surname>
+            <given-names>Bernardo F</given-names>
+          </name>
+          <email xlink:type="simple">bernardofsantos@gmail.com</email>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Aguiar</surname>
+            <given-names>Alexandre P</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Tedesco</surname>
+            <given-names>Anazélia M</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Fontenelle</surname>
+            <given-names>Julio C R</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Division of Invertebrate Zoology, American Museum of Natural History, New York, United States of America</addr-line>
+        <institution xlink:type="simple">Division of Invertebrate Zoology, American Museum of Natural History</institution>
+        <addr-line content-type="city">New York</addr-line>
+        <country>United States of America</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">Departamento de Ciências Biológicas, Universidade Federal do Espírito Santo, Vitória, Brazil</addr-line>
+        <institution xlink:type="simple">Departamento de Ciências Biológicas, Universidade Federal do Espírito Santo</institution>
+        <addr-line content-type="city">Vitória</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <aff id="A3">
+        <label>3</label>
+        <addr-line content-type="verbatim">Secretaria de Estado de Meio Ambiente e Recursos Hídricos, Cariacica, Brazil</addr-line>
+        <institution xlink:type="simple">Secretaria de Estado de Meio Ambiente e Recursos Hídricos</institution>
+        <addr-line content-type="city">Cariacica</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <aff id="A4">
+        <label>4</label>
+        <addr-line content-type="verbatim">Instituto Federal de Minas Gerais, Campus Ouro Preto, Ouro Preto, Brazil</addr-line>
+        <institution xlink:type="simple">Instituto Federal de Minas Gerais, Campus Ouro Preto</institution>
+        <addr-line content-type="city">Ouro Preto</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Bernardo F Santos (<email xlink:type="simple">bernardofsantos@gmail.com</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Jose Fernandez-Triana</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2017</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>04</day>
+        <month>01</month>
+        <year>2017</year>
+      </pub-date>
+      <volume>5</volume>
+      <elocation-id>e11337</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/C047FF86-D31C-FF5C-FF8E-FFF9FFDFFFF8">C047FF86-D31C-FF5C-FF8E-FFF9FFDFFFF8</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/229900">229900</uri>
+      <history>
+        <date date-type="received">
+          <day>25</day>
+          <month>11</month>
+          <year>2016</year>
+        </date>
+        <date date-type="accepted">
+          <day>28</day>
+          <month>12</month>
+          <year>2016</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Bernardo F Santos, Alexandre P Aguiar, Anazélia M Tedesco, Julio C R Fontenelle</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License 4.0 (CC-BY), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>The temporal dynamics of insect populations in tropical environments is highly complex and poorly known. Long-term seasonality studies are scarce, and particularly so for ichneumonid wasps (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hymenoptera</tp:taxon-name-part></tp:taxon-name><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Ichneumonidae</tp:taxon-name-part></tp:taxon-name>). This study represents an effort to elucidate aspects of seasonality and forest succession in the Brazilian Atlantic Forest.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>We report on the seasonal and successional dominance of the ichneumonid wasp <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Trihapsis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Cryptinae</tp:taxon-name-part></tp:taxon-name>). A long-term survey of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Cryptinae</tp:taxon-name-part></tp:taxon-name> was carried out in a protected area of Brazilian Atlantic Forest, in primary, tall secondary and low secondary forest areas. Specimens were collected during rainy season (RS) and dry season (DS) between 2000 and 2008, with total sampling effort of 4,095 trap-days. A total of 8,385 specimens of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Cryptinae</tp:taxon-name-part></tp:taxon-name> were collected, of which 6,655 (79.4%) belonged to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">T.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part></tp:taxon-name></italic>. The occurrence of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">T.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part></tp:taxon-name></italic> species was heavily concentrated in the RS, with abundance 148× higher than during the DS. Seasonal fluctuation was also detected for <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Cryptinae</tp:taxon-name-part></tp:taxon-name> as a whole, but was two orders of magnitude lower. Sampling efficiency also varied widely among areas, with the peak of abundance at the tall secondary forest. The dominance of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">T.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part></tp:taxon-name></italic> in secondary vegetation might be of general interest, as this type of forest is currently on the rise, due to unprecedented levels of human pressure.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>Malaise trap</kwd>
+        <kwd>parasitoid</kwd>
+        <kwd>phenology</kwd>
+        <kwd>outbreak</kwd>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="genus">Trihapsis</tp:taxon-name-part>
+            <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>secondary forest</kwd>
+      </kwd-group>
+      <funding-group>
+        <funding-statement>Conselho Nacional de Pesquisa e Desenvolvimento/CNPq (Processes 520031/98-9 and 926.656.810), Brazil.</funding-statement>
+      </funding-group>
+      <counts>
+        <fig-count count="4"/>
+        <table-count count="3"/>
+        <ref-count count="14"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>The temporal dynamics of insect populations in rainforests is highly complex and poorly studied (<xref ref-type="bibr" rid="B3478085">Hamer et al. 2005</xref>;<xref ref-type="bibr" rid="B3478132">Wolda 1988</xref>). Long-term studies of insect seasonality in the tropics are scarce, largely due the difficulty in maintaining long-term sampling and sorting (<xref ref-type="bibr" rid="B3478065">Grimbacher and Stork 2009</xref>). For <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Ichneumonidae</tp:taxon-name-part></tp:taxon-name>, one of the largest insect families and a dominant component of tropical faunas, data are particularly scarce, deriving mostly from species that are easy to collect and identify (<xref ref-type="bibr" rid="B3478220">Gauld 2006</xref>). For <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Cryptinae</tp:taxon-name-part></tp:taxon-name>, its largest and least studied subfamily, with 408 genera and over 4,500 species, there are no detailed studies of seasonality for any Neotropical taxon. Cryptines occur in all terrestrial environments and are mostly ectoparasitoids of pupae and prepupae of a wide variety of hosts, including moths, butterflies, beetles, social and solitary wasps.</p>
+      <p>Herein we report the seasonal distribution of a dominant cryptine species, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Trihapsis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part></tp:taxon-name></italic> Townes (Fig. <xref ref-type="fig" rid="F3478232">1</xref>). <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Trihapsis</tp:taxon-name-part></tp:taxon-name></italic> Townes is known from two Brazilian species, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">T.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">punctata</tp:taxon-name-part></tp:taxon-name></italic> Townes, and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">T.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part></tp:taxon-name></italic> Townes, both described from a few specimens (<xref ref-type="bibr" rid="B3478142">Townes 1970</xref>). The genus seems to be restricted to the Brazilian Atlantic Forest, but is not frequently collected: a single specimen was obtained after an extensive collecting program in that region (<xref ref-type="bibr" rid="B3478055">Aguiar and Santos 2010</xref>). The hosts and other biological aspects of the genus are still unknown.</p>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>Fieldwork was conducted over the course of eight years (2000–2008). In each year, one field excursion was conducted during the dry season (DS, July-August), and one during the rainy season (RS, October-November). Three Malaise traps (<xref ref-type="bibr" rid="B3478162">Townes 1972</xref>) were set in each site, aligned and 25 meters apart from each other. The traps were left operating for 4–5 weeks; the content of each trap was collected every 7 days and treated as a sample. Samples from the dry season of 2006 could not be accessed and were not considered.</p>
+        <p>Total sampling effort was 4,095 trap-days, 1,827 in the DS and 2,268 in the RS. Sampling efficiency is expressed as the ratio between number of specimens and number of trap-days. The number of collected specimens and sampling efficiency for <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">T.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part></tp:taxon-name></italic> were compared to that of all other <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Cryptinae</tp:taxon-name-part></tp:taxon-name> combined in order to contextualize its relative abundance and to compare the temporal dynamics of this particular species to the “background” of closely related species in the area. All specimens are deposited in the entomological collection of <italic>Universidade Federal do Espírito Santo</italic> (Brazil). The full dataset is available as supplementary material (Suppl. material <xref ref-type="supplementary-material" rid="S3480273">1</xref>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The study was conducted at <italic>Parque Estadual do Rio Doce</italic>, a 36,000 ha protected area in the Brazilian Atlantic Forest, state of Minas Gerais. Three sites within the park were sampled (Fig. <xref ref-type="fig" rid="F3478234">2</xref>): (1) an area of primary forest (PF) with well-developed canopy, overspread high trees, abundant bamboo trees and well developed understory; (2) tall secondary forest (TSF), an elevated, steep area; (3) an area of low secondary forest (LSF), dominated by bamboos.</p>
+      </sec>
+      <sec sec-type="Coordinates">
+        <title>Coordinates</title>
+        <p>19˚48’18” and 19˚29’24” Latitude; 42˚38’’30” and 42˚28’’8” Longitude.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Creative Commons Public Domain Waiver (CC-Zero)</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>Raw_data</p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="http://www.systaxon.ufes.br/pubs/Tpolita/" xlink:type="simple">http://www.systaxon.ufes.br/pubs/Tpolita/</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>1</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Raw_data</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Excel</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>9</p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>Original raw data: number of female and male specimens of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Trihapsis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part></tp:taxon-name></italic> and other <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Cryptinae</tp:taxon-name-part></tp:taxon-name> in each collected sample.</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">Area</td>
+                  <td rowspan="1" colspan="1">Sampled area by successional state. LSF, low secondary forest; HSF, high secondary forest; PF, primary forest.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Dates-Start</td>
+                  <td rowspan="1" colspan="1">Starting day for that sample, corresponding to the day when the Malaise trap sample corresponding was initially set.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Dates-End</td>
+                  <td rowspan="1" colspan="1">Ending day for that sample, corresponding to the day when the Malaise trap sample was collected.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Season</td>
+                  <td rowspan="1" colspan="1">Categorical variable indicating whether sample was collected during the dry season (DR) or rainy season (RS).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">
+                    <tp:taxon-name>
+                      <tp:taxon-name-part taxon-name-part-type="subfamily">Cryptinae</tp:taxon-name-part>
+                    </tp:taxon-name>
+                  </td>
+                  <td rowspan="1" colspan="1">Number of specimens of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Cryptinae</tp:taxon-name-part></tp:taxon-name> (except <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">T.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part></tp:taxon-name>) collected in that sample.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Trihapsis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part></tp:taxon-name>-Males</td>
+                  <td rowspan="1" colspan="1">Number of male specimens of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">T.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part></tp:taxon-name> collected in that sample</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Trihapsis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part></tp:taxon-name>-Females</td>
+                  <td rowspan="1" colspan="1">Number of female specimens of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">T.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part></tp:taxon-name> collected in that sample</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Total</td>
+                  <td rowspan="1" colspan="1">Total number of specimens of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">T.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part></tp:taxon-name> collected in that sample</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Pluviosity (mm)</td>
+                  <td rowspan="1" colspan="1">Ammount of precipitation recorded during the week at which the sampling took place.</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+    <sec sec-type="Additional information">
+      <title>Additional information</title>
+      <sec sec-type="Results and Discussion">
+        <title>Results and Discussion</title>
+        <p>A total of 8,384 specimens of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Cryptinae</tp:taxon-name-part></tp:taxon-name> were collected, of which 6,657 (79.4%) belonged to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">T.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part></tp:taxon-name></italic>, and 1,727 (20.6%) to all other <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Cryptinae</tp:taxon-name-part></tp:taxon-name> combined (Table <xref ref-type="table" rid="T3478240">1</xref>). The overall sampling efficiency was 2.04. For <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">T.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part></tp:taxon-name></italic> alone, sampling efficiency was 1.62, and for all the other <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Cryptinae</tp:taxon-name-part></tp:taxon-name> combined, 0.42. This quantitative superiority, however, was not uniform (Fig. <xref ref-type="fig" rid="F3478236">3</xref>). During the dry season (DS), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">T.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part></tp:taxon-name></italic> represented only about 7% of the total <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Cryptinae</tp:taxon-name-part></tp:taxon-name> collected. This situation was then drastically reversed in the rainy season (RS), when this ratio jumped to nearly 85%. The differences between dry and rainy seasons remain evident if the weekly totals are independently compared and are again clear if each week (Fig. <xref ref-type="fig" rid="F3478238">4</xref>) is compared separately, year by year.</p>
+        <p>For <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Cryptinae</tp:taxon-name-part></tp:taxon-name> as a whole, sampling efficiency during the RS was 0.56, versus 0.25 in the DS, that is, 2.25× higher in the rainy season. The increase matches the observations of <xref ref-type="bibr" rid="B3478243">Kumagai (2002)</xref> for the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Ichneumonidae</tp:taxon-name-part></tp:taxon-name> in a preserved area in the Atlantic Forest, which tripled in number in the traps in the RS. This indicates that a two to threefold increase during the rainy season could be “normal” for <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Ichneumonidae</tp:taxon-name-part></tp:taxon-name> as a whole. For <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">T.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part></tp:taxon-name></italic>, however, seasonal influence was higher by two orders of magnitude, with sampling efficiency rising from 0.02 in the DS to 2.92 in the RS – a 146× increase (Table <xref ref-type="table" rid="T3478241">2</xref>).</p>
+        <p>The seasonal dominance of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">T.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part></tp:taxon-name></italic> in the park was not a happenstance: it occurred repeatedly through the years (Fig. 4), as evidenced by its nearly uninterrupted numerical superiority in the samples (Table <xref ref-type="table" rid="T3478242">3</xref>), and by its presence in 47.8% of the individual trap samples from the RS, against only 9.2% for the DS.</p>
+        <p>There was a distinctive quantitative difference among the three successional areas for the occurrence of both <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">T.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part></tp:taxon-name></italic> and other <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Cryptinae</tp:taxon-name-part></tp:taxon-name> (Table <xref ref-type="table" rid="T3478240">1</xref>). All differences discussed next are statistically significant (see confidence interval bars in Fig. <xref ref-type="fig" rid="F3478236">3</xref>). For other <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Cryptinae</tp:taxon-name-part></tp:taxon-name>, the primary forest (PF) area had the highest abundance (871 specimens, 50.4% of the total), closely followed by the tall secondary forest (TSF) (710; 41.1%) and low secondary forest (LSF) (146; 8.5%). For <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">T.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part></tp:taxon-name></italic>, however, the TSF supported a much higher number of specimens (4,691; 70.5%), followed by the PF (1,956; 29.4%). The LSF was clearly avoided by this species, with only 10 specimens collected there throughout the study (0.15%).</p>
+        <p>Parasitoid wasps in general are most abundant in the rainy season, as compared to dry periods (<xref ref-type="bibr" rid="B3478191">Gauld 1991</xref>). However, this relationship remains insufficiently discussed and documented in the literature. The high level of dominance documented for <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">T.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part></tp:taxon-name></italic> has never been reported for any species of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Ichneumonidae</tp:taxon-name-part></tp:taxon-name> in natural areas, representing a noteworthy fact by itself. Previous faunistic studies of ichneumonid wasps in the Neotropics (e.g. <xref ref-type="bibr" rid="B3478055">Aguiar and Santos 2010</xref>; <xref ref-type="bibr" rid="B3478172">Guerra and Penteado-Dias 2002</xref>; <xref ref-type="bibr" rid="B3478098">Kumagai and Graf 2000</xref>; <xref ref-type="bibr" rid="B3478098">Kumagai and Graf 2000</xref>; <xref ref-type="bibr" rid="B3478108">Saaksjarvi et al. 2004</xref>) have never report any species as particularly dominating the collected samples. Considering that studies at the species level are scant for <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Ichneumonidae</tp:taxon-name-part></tp:taxon-name>, the case for <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">T.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part></tp:taxon-name></italic> becomes of further interest, both because it is a rare study and because it signals that there is much still to be gained from studies on ichneumonid ecology.</p>
+        <p>The notorious success of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">T.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part></tp:taxon-name></italic> in the tall secondary forest, as well as its distinct population dynamics in relation to other <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Cryptinae</tp:taxon-name-part></tp:taxon-name>, suggest it may naturally act as a large-scale parasitoid in intermediate successional stages. This might also reveal to be of more general interest, now or in the future: this type of forest is predicted to increase in the 21st century due to industrialization and urbanization (<xref ref-type="bibr" rid="B3478121">Thomlinson et al. 1996</xref>), and yet, "<italic>there is still a tremendous need to understand and further refine our knowledge of ecological processes involved in secondary succession</italic>" (<xref ref-type="bibr" rid="B3478075">Guariguata and Ostertag 2001</xref>).</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>Rogério P. Martins (UFMG, Belo Horizonte) received BFS and AMT in a scientific visit and donated the material used in this study. Maria Célia L. Carreiro kindly helped to count the specimens. This project benefited from funding by the <italic>Conselho Nacional de Pesquisa e Desenvolvimento</italic>/CNPq (Processes 520031/98-9 and 926.656.810), Brazil.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B3478055">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Aguiar</surname>
+              <given-names>Alexandre P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Santos</surname>
+              <given-names>Bernardo F.</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>Discovery of potent, unsuspected sampling disparities for Malaise and Möricke traps, as shown for Neotropical <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="tribe">Cryptini</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hymenoptera</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Ichneumonidae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Journal of Insect Conservation</source>
+          <volume>14</volume>
+          <issue>2</issue>
+          <fpage>199</fpage>
+          <lpage>206</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1007/s10841-009-9246-x</uri>
+          <pub-id pub-id-type="doi">10.1007/s10841-009-9246-x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3478191">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Gauld</surname>
+              <given-names>Ian D.</given-names>
+            </name>
+          </person-group>
+          <year>1991</year>
+          <article-title>The <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Ichneumonidae</tp:taxon-name-part></tp:taxon-name> of Costa Rica, 1</article-title>
+          <source>Memoirs of the American Entomological Institute</source>
+          <volume>47</volume>
+          <fpage>1</fpage>
+          <lpage>589</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3478220">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Gauld</surname>
+              <given-names>Ian D.</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <article-title>Familia <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Ichneumonidae</tp:taxon-name-part></tp:taxon-name>. in: Hanson, P.E, Gauld, I.D (Eds.). <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hymenoptera</tp:taxon-name-part></tp:taxon-name> de la Región Neotropical</article-title>
+          <source>Memoirs of the American Entomological Institute</source>
+          <volume>77</volume>
+          <fpage>446</fpage>
+          <lpage>486</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3478065">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Grimbacher</surname>
+              <given-names>Peter S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stork</surname>
+              <given-names>Nigel E.</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>Seasonality of a Diverse Beetle Assemblage Inhabiting Lowland Tropical Rain Forest in Australia</article-title>
+          <source>Biotropica</source>
+          <volume>41</volume>
+          <issue>3</issue>
+          <fpage>328</fpage>
+          <lpage>337</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1111/j.1744-7429.2008.00477.x</uri>
+          <pub-id pub-id-type="doi">10.1111/j.1744-7429.2008.00477.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3478075">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Guariguata</surname>
+              <given-names>Manuel R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ostertag</surname>
+              <given-names>Rebecca</given-names>
+            </name>
+          </person-group>
+          <year>2001</year>
+          <article-title>Neotropical secondary forest succession: changes in structural and functional characteristics</article-title>
+          <source>Forest Ecology and Management</source>
+          <volume>148</volume>
+          <fpage>185</fpage>
+          <lpage>206</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1016/s0378-1127(00)00535-1</uri>
+          <pub-id pub-id-type="doi">10.1016/s0378-1127(00)00535-1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3478172">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Guerra</surname>
+              <given-names>Tania Mara</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Penteado-Dias</surname>
+              <given-names>Angélica M.</given-names>
+            </name>
+          </person-group>
+          <year>2002</year>
+          <article-title>Abundância de <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Ichneumonidae</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hymenoptera</tp:taxon-name-part></tp:taxon-name>) em área de mata em São Carlos, Estado de São Paulo, Brasil</article-title>
+          <source>Acta Scientiarum</source>
+          <volume>24</volume>
+          <fpage>363</fpage>
+          <lpage>368</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3478085">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Hamer</surname>
+              <given-names>K. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hill</surname>
+              <given-names>J. K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mustaffa</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Benedick</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sherratt</surname>
+              <given-names>T. N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chey</surname>
+              <given-names>V. K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maryati</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <article-title>Temporal variation in abundance and diversity of butterflies in Bornean rain forests: opposite impacts of logging recorded in different seasons</article-title>
+          <source>Journal of Tropical Ecology</source>
+          <volume>21</volume>
+          <issue>4</issue>
+          <fpage>417</fpage>
+          <lpage>425</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1017/s0266467405002361</uri>
+          <pub-id pub-id-type="doi">10.1017/s0266467405002361</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3478243">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kumagai</surname>
+              <given-names>Alice Fumi</given-names>
+            </name>
+          </person-group>
+          <year>2002</year>
+          <article-title>Os <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Ichneumonidae</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hymenoptera</tp:taxon-name-part></tp:taxon-name>) da Estação Ecológica da Universidade Federal de Minas Gerais, Belo Horizonte, com ênfase nas espécies de <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Pimplinae</tp:taxon-name-part></tp:taxon-name></article-title>
+          <source>Revista Brasileira de Entomologia</source>
+          <volume>46</volume>
+          <issue>2</issue>
+          <fpage>189</fpage>
+          <lpage>194</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1590/s0085-56262002000200011</uri>
+          <pub-id pub-id-type="doi">10.1590/s0085-56262002000200011</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3478098">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kumagai</surname>
+              <given-names>Alice Fumi</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Graf</surname>
+              <given-names>Vinalto</given-names>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <article-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Ichneumonidae</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hymenoptera</tp:taxon-name-part></tp:taxon-name>) de áreas urbana e rural de Curitiba, Paraná, Brasil</article-title>
+          <source>Acta Biológica Paranaense</source>
+          <volume>29</volume>
+          <uri xlink:type="simple">http://dx.doi.org/10.5380/abpr.v29i0.588</uri>
+          <pub-id pub-id-type="doi">10.5380/abpr.v29i0.588</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3478108">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Saaksjarvi</surname>
+              <given-names>Ilari E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Haataja</surname>
+              <given-names>Samuli</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Neuvonen</surname>
+              <given-names>Seppo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gauld</surname>
+              <given-names>Ian D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jussila</surname>
+              <given-names>Reijo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Salo</surname>
+              <given-names>Jukka</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Burgos</surname>
+              <given-names>Andres Marmol</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <article-title>High local species richness of parasitic wasps (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hymenoptera</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Ichneumonidae</tp:taxon-name-part></tp:taxon-name>; <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Pimplinae</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Rhyssinae</tp:taxon-name-part></tp:taxon-name>) from the lowland rainforests of Peruvian Amazonia</article-title>
+          <source>Ecological Entomology</source>
+          <volume>29</volume>
+          <issue>6</issue>
+          <fpage>735</fpage>
+          <lpage>743</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1111/j.0307-6946.2004.00656.x</uri>
+          <pub-id pub-id-type="doi">10.1111/j.0307-6946.2004.00656.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3478121">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Thomlinson</surname>
+              <given-names>John R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Serrano</surname>
+              <given-names>Mayra I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>M. Lopez</surname>
+              <given-names>Tania del</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Aide</surname>
+              <given-names>T. Mitchell</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zimmerman</surname>
+              <given-names>Jess K.</given-names>
+            </name>
+          </person-group>
+          <year>1996</year>
+          <article-title>Land-Use Dynamics in a Post-Agricultural Puerto Rican Landscape (1936-1988)</article-title>
+          <source>Biotropica</source>
+          <volume>28</volume>
+          <issue>4</issue>
+          <fpage>525</fpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.2307/2389094</uri>
+          <pub-id pub-id-type="doi">10.2307/2389094</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3478142">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Townes</surname>
+              <given-names>Henry K.</given-names>
+            </name>
+          </person-group>
+          <year>1970</year>
+          <article-title>The Genera of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Ichneumonidae</tp:taxon-name-part></tp:taxon-name>, Part 2</article-title>
+          <source>Memoirs of the American Entomological Institute</source>
+          <volume>12</volume>
+          <fpage>1</fpage>
+          <lpage>537</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3478162">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Townes</surname>
+              <given-names>Henry K.</given-names>
+            </name>
+          </person-group>
+          <year>1972</year>
+          <article-title>A light-weight Malaise trap</article-title>
+          <source>Entomological News</source>
+          <volume>83</volume>
+          <fpage>239</fpage>
+          <lpage>247</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3478132">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Wolda</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <year>1988</year>
+          <article-title>Insect Seasonality: Why?</article-title>
+          <source>Annual Review of Ecology and Systematics</source>
+          <volume>19</volume>
+          <issue>1</issue>
+          <fpage>1</fpage>
+          <lpage>18</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1146/annurev.es.19.110188.000245</uri>
+          <pub-id pub-id-type="doi">10.1146/annurev.es.19.110188.000245</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F3478232" position="float" orientation="portrait">
+      <object-id content-type="arpha">D76EB8A3-361E-5502-8BB6-4548029C95FA</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Female <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Trihapsis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part></tp:taxon-name></italic> Townes, habitus.</p>
+      </caption>
+      <graphic xlink:href="bdj-05-e11337-g001.jpg" position="float" id="oo_111756.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/111756</uri>
+      </graphic>
+    </fig>
+    <fig id="F3478234" position="float" orientation="portrait">
+      <object-id content-type="arpha">CFEEFE51-CA5B-5FA8-B230-975C9BE59543</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>Map showing the study area. A, Brazilian Atlantic Forest (green) with the location of <italic>Parque Estadual do Rio Doce</italic> highlighted (white triangle). B, Map of the study area, with the three sampled sites highlighted. <italic>PF</italic>, primary forest; <italic>TSF</italic>, tall secondary forest; <italic>LSF</italic>, low secondary forest.</p>
+      </caption>
+      <graphic xlink:href="bdj-05-e11337-g002.jpg" position="float" id="oo_111757.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/111757</uri>
+      </graphic>
+    </fig>
+    <fig id="F3478236" position="float" orientation="portrait">
+      <object-id content-type="arpha">C686A893-805B-5681-9302-B242C6D727C6</object-id>
+      <label>Figure 3.</label>
+      <caption>
+        <p>Mean number of specimens per sample (total of 3 traps; 195 samples/8 years), with standard error bars, comparing <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">T.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part></tp:taxon-name></italic> (Tp) with other <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Cryptinae</tp:taxon-name-part></tp:taxon-name> (Cr) in three successional areas, primary forest (PF), tall secondary forest (TSF), and low secondary forest (LSF) (left chart), and in the dry season (DS) vs. rainy season (RS) (right chart). PERD.</p>
+      </caption>
+      <graphic xlink:href="bdj-05-e11337-g003.jpg" position="float" id="oo_111758.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/111758</uri>
+      </graphic>
+    </fig>
+    <fig id="F3478238" position="float" orientation="portrait">
+      <object-id content-type="arpha">92EF061D-A8EE-5C86-9AB1-426A9ECF80A3</object-id>
+      <label>Figure 4.</label>
+      <caption>
+        <p>Total number of specimens collected in each sampling week (=each black &amp; white bar pair, equivalent to 3 areas x 3 traps) for <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">T.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part></tp:taxon-name></italic> (white, first plane) vs. other <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Cryptinae</tp:taxon-name-part></tp:taxon-name> (black, behind), along the sampled seasons (Day number of year, where DS=183–215, RS=286–322), discriminated for each year (0–1 = 2000–2008). Left wall (YZ axes) shows daily records of precipitation (cumulative values within each month), for all years (2893 records total); right wall (YX axes) shows average of precipitation for each Day number of year (each day = average of all years). Scale for number of specimens and precipitation (Y-axis) are identical.</p>
+      </caption>
+      <graphic xlink:href="bdj-05-e11337-g004.jpg" position="float" id="oo_111759.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/111759</uri>
+      </graphic>
+    </fig>
+    <table-wrap id="T3478240" position="float" orientation="portrait">
+      <label>Table 1.</label>
+      <caption>
+        <p>Total number of specimens collected for <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">T.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part></tp:taxon-name></italic> vs. other <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Cryptinae</tp:taxon-name-part></tp:taxon-name> in all areas (<italic>PF</italic>, primary forest; <italic>TSF</italic>, tall secondary forest; <italic>LSF</italic>, low secondary forest) and seasons (<italic>DS</italic>, dry season; <italic>RS</italic>, rainy season). Sampling effort was identical for all sampling areas, adding to 4,113 trap-days total, but different between seasons (DS=1,836, RS=2,277).</p>
+      </caption>
+      <table rules="all" border="1">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="6">
+              <bold>Specimens</bold>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="4">%</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">
+              <bold>PF</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>TSF</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>LSF</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Total</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>DS</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>RS</bold>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">
+              <bold>PF</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>TSF</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>LSF</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Total</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus">Trihapsis</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">1956</td>
+            <td rowspan="1" colspan="1">4691</td>
+            <td rowspan="1" colspan="1">10</td>
+            <td rowspan="1" colspan="1">6657</td>
+            <td rowspan="1" colspan="1">36</td>
+            <td rowspan="1" colspan="1">6621</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">69.2</td>
+            <td rowspan="1" colspan="1">86.9</td>
+            <td rowspan="1" colspan="1">6.4</td>
+            <td rowspan="1" colspan="1">79.4</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">other <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Cryptinae</tp:taxon-name-part></tp:taxon-name></td>
+            <td rowspan="1" colspan="1">871</td>
+            <td rowspan="1" colspan="1">710</td>
+            <td rowspan="1" colspan="1">146</td>
+            <td rowspan="1" colspan="1">1727</td>
+            <td rowspan="1" colspan="1">416</td>
+            <td rowspan="1" colspan="1">1275</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">30.8</td>
+            <td rowspan="1" colspan="1">13.1</td>
+            <td rowspan="1" colspan="1">93.6</td>
+            <td rowspan="1" colspan="1">20.6</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Total</bold>
+            </td>
+            <td rowspan="1" colspan="1">2827</td>
+            <td rowspan="1" colspan="1">5401</td>
+            <td rowspan="1" colspan="1">156</td>
+            <td rowspan="1" colspan="1">8384</td>
+            <td rowspan="1" colspan="1">452</td>
+            <td rowspan="1" colspan="1">7896</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">33.7</td>
+            <td rowspan="1" colspan="1">64.4</td>
+            <td rowspan="1" colspan="1">1.9</td>
+            <td rowspan="1" colspan="1">100.0</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T3478241" position="float" orientation="portrait">
+      <label>Table 2.</label>
+      <caption>
+        <p>Comparison of sampling efficiency during the dry season (DS) vs. rainy season (RS) in the three sampled successional areas. <italic>RS/DS</italic>, how many times larger was the sampling efficiency in the rainy season in relation to the dry season. Sampling effort was identical for all areas, adding to 4,113 trap-days total, but different between seasons (DS=1,836, RS=2,277). %, percentage of specimens.</p>
+      </caption>
+      <table rules="all" border="1">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="4">
+              <bold>
+                <italic>
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="genus">T.</tp:taxon-name-part>
+                    <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="4">
+              <bold>other <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Cryptinae</tp:taxon-name-part></tp:taxon-name></bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Area</bold>
+            </td>
+            <td rowspan="1" colspan="1">%</td>
+            <td rowspan="1" colspan="1">
+              <bold>DS</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>RS</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>RS/DS</bold>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">%</td>
+            <td rowspan="1" colspan="1">
+              <bold>DS</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>RS</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>RS/DS</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Primary forest (PF)</td>
+            <td rowspan="1" colspan="1">29.4</td>
+            <td rowspan="1" colspan="1">0.03</td>
+            <td rowspan="1" colspan="1">2.55</td>
+            <td rowspan="1" colspan="1">82.2</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">50.5</td>
+            <td rowspan="1" colspan="1">0.37</td>
+            <td rowspan="1" colspan="1">0.85</td>
+            <td rowspan="1" colspan="1">2.3</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Tall secondary forest (TSF)</td>
+            <td rowspan="1" colspan="1">70.5</td>
+            <td rowspan="1" colspan="1">0.02</td>
+            <td rowspan="1" colspan="1">6.16</td>
+            <td rowspan="1" colspan="1">251.4</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">41.1</td>
+            <td rowspan="1" colspan="1">0.26</td>
+            <td rowspan="1" colspan="1">0.72</td>
+            <td rowspan="1" colspan="1">2.8</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Low secondary forest (LSF)</td>
+            <td rowspan="1" colspan="1">0.2</td>
+            <td rowspan="1" colspan="1">0.00</td>
+            <td rowspan="1" colspan="1">0.01</td>
+            <td rowspan="1" colspan="1">3.2</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">8.4</td>
+            <td rowspan="1" colspan="1">0.10</td>
+            <td rowspan="1" colspan="1">0.11</td>
+            <td rowspan="1" colspan="1">1.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">PERD Total</td>
+            <td rowspan="1" colspan="1">79.4</td>
+            <td rowspan="1" colspan="1">0.02</td>
+            <td rowspan="1" colspan="1">2.91</td>
+            <td rowspan="1" colspan="1">148.3</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">20.6</td>
+            <td rowspan="1" colspan="1">0.25</td>
+            <td rowspan="1" colspan="1">0.56</td>
+            <td rowspan="1" colspan="1">2.3</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T3478242" position="float" orientation="portrait">
+      <label>Table 3.</label>
+      <caption>
+        <p>Number of females and males of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">T.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part></tp:taxon-name></italic> collected, as opposed to all other <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Cryptinae</tp:taxon-name-part></tp:taxon-name> combined. % ♀, the percentage of specimens of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">T.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part></tp:taxon-name></italic> that are females; % <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">T.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part></tp:taxon-name></italic>, the percentage of the total specimens that correspond to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">T.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part></tp:taxon-name></italic></p>
+      </caption>
+      <table rules="all" border="1">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Season, Year</bold>
+            </td>
+            <td rowspan="1" colspan="1"><bold><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">T.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part></tp:taxon-name></italic></bold> ♀</td>
+            <td rowspan="1" colspan="1"><bold><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">T.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part></tp:taxon-name></italic></bold> ♂</td>
+            <td rowspan="1" colspan="1">
+              <bold>other <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Cryptinae</tp:taxon-name-part></tp:taxon-name></bold>
+            </td>
+            <td rowspan="1" colspan="1">% ♀</td>
+            <td rowspan="1" colspan="1">% <bold><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">T.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">polita</tp:taxon-name-part></tp:taxon-name></italic></bold></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">RS, 2000</td>
+            <td rowspan="1" colspan="1">695</td>
+            <td rowspan="1" colspan="1">648</td>
+            <td rowspan="1" colspan="1">173</td>
+            <td rowspan="1" colspan="1">51.75%</td>
+            <td rowspan="1" colspan="1">88.59</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">DS, 2001</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">64</td>
+            <td rowspan="1" colspan="1">0.0%</td>
+            <td rowspan="1" colspan="1">4.48%</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">RS, 2001</td>
+            <td rowspan="1" colspan="1">370</td>
+            <td rowspan="1" colspan="1">280</td>
+            <td rowspan="1" colspan="1">135</td>
+            <td rowspan="1" colspan="1">56.92%</td>
+            <td rowspan="1" colspan="1">82.80%</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">DS, 2002</td>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1">129</td>
+            <td rowspan="1" colspan="1">50.00%</td>
+            <td rowspan="1" colspan="1">8.51%</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">RS, 2002</td>
+            <td rowspan="1" colspan="1">639</td>
+            <td rowspan="1" colspan="1">758</td>
+            <td rowspan="1" colspan="1">382</td>
+            <td rowspan="1" colspan="1">45.74%</td>
+            <td rowspan="1" colspan="1">78.53%</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">DS, 2003</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1">82</td>
+            <td rowspan="1" colspan="1">33.33%</td>
+            <td rowspan="1" colspan="1">9.89%</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">RS, 2003</td>
+            <td rowspan="1" colspan="1">137</td>
+            <td rowspan="1" colspan="1">637</td>
+            <td rowspan="1" colspan="1">110</td>
+            <td rowspan="1" colspan="1">17.70%</td>
+            <td rowspan="1" colspan="1">87.56%</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">DS, 2004</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">34</td>
+            <td rowspan="1" colspan="1">40.00%</td>
+            <td rowspan="1" colspan="1">12.82%</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">RS, 2004</td>
+            <td rowspan="1" colspan="1">1084</td>
+            <td rowspan="1" colspan="1">606</td>
+            <td rowspan="1" colspan="1">150</td>
+            <td rowspan="1" colspan="1">64.14%</td>
+            <td rowspan="1" colspan="1">91.85%</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">DS, 2005</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">27</td>
+            <td rowspan="1" colspan="1">50.00%</td>
+            <td rowspan="1" colspan="1">6.90%</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">RS, 2005</td>
+            <td rowspan="1" colspan="1">131</td>
+            <td rowspan="1" colspan="1">49</td>
+            <td rowspan="1" colspan="1">142</td>
+            <td rowspan="1" colspan="1">72.78%</td>
+            <td rowspan="1" colspan="1">55.90%</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">RS, 2006</td>
+            <td rowspan="1" colspan="1">23</td>
+            <td rowspan="1" colspan="1">45</td>
+            <td rowspan="1" colspan="1">62</td>
+            <td rowspan="1" colspan="1">33.82%</td>
+            <td rowspan="1" colspan="1">52.31%</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">DS, 2007</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">60</td>
+            <td rowspan="1" colspan="1">50.00%</td>
+            <td rowspan="1" colspan="1">3.23%</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">RS, 2007</td>
+            <td rowspan="1" colspan="1">364</td>
+            <td rowspan="1" colspan="1">155</td>
+            <td rowspan="1" colspan="1">121</td>
+            <td rowspan="1" colspan="1">70.13%</td>
+            <td rowspan="1" colspan="1">81.09%</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">DS, 2008</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">59</td>
+            <td rowspan="1" colspan="1">100%</td>
+            <td rowspan="1" colspan="1">1.67%</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Overall DS</td>
+            <td rowspan="1" colspan="1">14</td>
+            <td rowspan="1" colspan="1">20</td>
+            <td rowspan="1" colspan="1">455</td>
+            <td rowspan="1" colspan="1">41.18%</td>
+            <td rowspan="1" colspan="1">6.95%</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Overall RS</td>
+            <td rowspan="1" colspan="1">3443</td>
+            <td rowspan="1" colspan="1">3178</td>
+            <td rowspan="1" colspan="1">1275</td>
+            <td rowspan="1" colspan="1">52.00%</td>
+            <td rowspan="1" colspan="1">83.85%</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Total</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>3457</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>3198</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>1730</bold>
+            </td>
+            <td rowspan="1" colspan="1"><bold>51.95</bold>%</td>
+            <td rowspan="1" colspan="1"><bold>79.37</bold>%</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <supplementary-material id="S3480273" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">DF5BA4A0-6E54-530E-A0EB-8B64C8576593</object-id>
+      <object-id content-type="doi">10.3897/BDJ.5.e11337.suppl1</object-id>
+      <object-id content-type="zenodo_dep_id">904242</object-id>
+      <label>Supplementary material 1</label>
+      <caption>
+        <p>Raw data</p>
+      </caption>
+      <p>Data type: collecting records</p>
+      <p>Brief description: Original data, discriminated by individual trap-samples (585 records), presented as Python lists (compatible with R, and most other computer languages). All variables contain 585 items, with data corresponding according to position (index).</p>
+      <p>File: oo_111841.txt</p>
+      <media xlink:href="bdj-05-e11337-s001.txt" mimetype="txt file" mime-subtype="txt" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/111841</uri>
+      </media>
+      <attrib specific-use="authors">B.F.Santos, A.P.Aguiar &amp; A.M.Tedesco</attrib>
+    </supplementary-material>
+  </floats-group>
+</article>

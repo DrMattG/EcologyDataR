@@ -1,0 +1,1643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="3.0" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.5.e11764</article-id>
+      <article-id pub-id-type="publisher-id">11764</article-id>
+      <article-id pub-id-type="manuscript">6802</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Plantae</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Aquatic biology</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>World</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>A global map of saltmarshes</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes" xlink:type="simple">
+          <name name-style="western">
+            <surname>Mcowen</surname>
+            <given-names>Chris J</given-names>
+          </name>
+          <email xlink:type="simple">chris.mcowen@unep-wcmc.org</email>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Weatherdon</surname>
+            <given-names>Lauren V</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Bochove</surname>
+            <given-names>Jan-Willem Van</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Sullivan</surname>
+            <given-names>Emma</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Blyth</surname>
+            <given-names>Simon</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Zockler</surname>
+            <given-names>Christoph</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Stanwell-Smith</surname>
+            <given-names>Damon</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Kingston</surname>
+            <given-names>Naomi</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Martin</surname>
+            <given-names>Corinne S</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Spalding</surname>
+            <given-names>Mark</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Fletcher</surname>
+            <given-names>Steven</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A5">5</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">UN Environment World Conservation Monitoring Centre (UNEP-WCMC), Cambridge, United Kingdom</addr-line>
+        <institution xlink:type="simple">UN Environment World Conservation Monitoring Centre (UNEP-WCMC)</institution>
+        <addr-line content-type="city">Cambridge</addr-line>
+        <country>United Kingdom</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">The Biodiversity Consultancy, Cambridge, United Kingdom</addr-line>
+        <institution xlink:type="simple">The Biodiversity Consultancy</institution>
+        <addr-line content-type="city">Cambridge</addr-line>
+        <country>United Kingdom</country>
+      </aff>
+      <aff id="A3">
+        <label>3</label>
+        <addr-line content-type="verbatim">NIRAS, Cambridge, United Kingdom</addr-line>
+        <institution xlink:type="simple">NIRAS</institution>
+        <addr-line content-type="city">Cambridge</addr-line>
+        <country>United Kingdom</country>
+      </aff>
+      <aff id="A4">
+        <label>4</label>
+        <addr-line content-type="verbatim">The Nature Conservancy, Cambridge, United Kingdom</addr-line>
+        <institution xlink:type="simple">The Nature Conservancy</institution>
+        <addr-line content-type="city">Cambridge</addr-line>
+        <country>United Kingdom</country>
+      </aff>
+      <aff id="A5">
+        <label>5</label>
+        <addr-line content-type="verbatim">Marine Institute, Plymouth University, Plymouth, United Kingdom</addr-line>
+        <institution xlink:type="simple">Marine Institute, Plymouth University</institution>
+        <addr-line content-type="city">Plymouth</addr-line>
+        <country>United Kingdom</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Chris J Mcowen (<email xlink:type="simple">chris.mcowen@unep-wcmc.org</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Pavel Stoev</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2017</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>21</day>
+        <month>03</month>
+        <year>2017</year>
+      </pub-date>
+      <volume>5</volume>
+      <elocation-id>e11764</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/A341CB15-FF84-FFAA-7743-8613FFEEFF81">A341CB15-FF84-FFAA-7743-8613FFEEFF81</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/434793">434793</uri>
+      <history>
+        <date date-type="received">
+          <day>10</day>
+          <month>01</month>
+          <year>2017</year>
+        </date>
+        <date date-type="accepted">
+          <day>09</day>
+          <month>03</month>
+          <year>2017</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Chris J Mcowen, Lauren V Weatherdon, Jan-Willem Van Bochove, Emma Sullivan, Simon Blyth, Christoph Zockler, Damon Stanwell-Smith, Naomi Kingston, Corinne S Martin, Mark Spalding, Steven Fletcher</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License 4.0 (CC-BY), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>Saltmarshes are extremely valuable but often overlooked ecosystems, contributing to livelihoods locally and globally through the associated ecosystem services they provide, including fish production, carbon storage and coastal protection. Despite their importance, knowledge of the current spatial distribution (occurrence and extent) of saltmarshes is incomplete. In light of increasing anthropogenic and environmental pressures on coastal ecosystems, global data on the occurrence and extent of saltmarshes are needed to draw attention to these critical ecosystems and to the benefits they generate for people. Such data can support resource management, strengthen decision-making and facilitate tracking of progress towards global conservation targets set by multilateral environmental agreements, such as the Aichi Biodiversity Targets of the United Nations' (UN's) Strategic Plan for Biodiversity 2011-2020, the Sustainable Development Goals of the UN's 2030 Agenda for Sustainable Development and the Ramsar Convention.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>Here, we present the most complete dataset on saltmarsh occurrence and extent at the global scale. This dataset collates 350,985 individual occurrences of saltmarshes and presents the first global estimate of their known extent.</p>
+          <p>The dataset captures locational and contextual data for saltmarsh in 99 countries worldwide. A total of 5,495,089 hectares of mapped saltmarsh across 43 countries and territories are represented in a Geographic Information Systems polygon shapefile. This estimate is at the relatively low end of previous estimates (2.2-40 Mha), however, we took the conservative approach in the mapping exercise and there are notable areas in Canada, Northern Russia, South America and Africa where saltmarshes are known to occur that require additional spatial data. Nevertheless, the most extensive saltmarsh worldwide are found outside the tropics, notably including the low-lying, ice-free coasts, bays and estuaries of the North Atlantic which are well represented in our global polygon dataset. Therefore, despite the gaps, we believe that, while incomplete, our global polygon data cover many of the important areas in Europe, the USA and Australia.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>saltmarsh</kwd>
+        <kwd>global</kwd>
+        <kwd>habitat</kwd>
+        <kwd>coastal</kwd>
+        <kwd>blue carbon</kwd>
+        <kwd>geospatial</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group xlink:type="simple">
+          <funding-source xlink:type="simple">
+            <named-content content-type="project_title" xlink:type="simple">EU BON: Building the European Biodiversity Observation Network</named-content>
+            <named-content content-type="project_identifier" xlink:type="simple">308454</named-content>
+            <named-content content-type="project_funder_id" xlink:type="simple">501100000780</named-content>
+            <named-content content-type="project_funder_name" xlink:type="simple">European Commission</named-content>
+            <named-content content-type="project_funder_doi" xlink:type="simple">http://doi.org/10.13039/501100000780</named-content>
+          </funding-source>
+        </award-group>
+      </funding-group>
+      <counts>
+        <fig-count count="0"/>
+        <table-count count="2"/>
+        <ref-count count="20"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>Saltmarshes are highly productive ecosystems rich in biodiversity, consisting of a variety of plant species that provide important habitats for a wealth of fauna. In addition, they contribute to livelihoods locally and globally through the associated ecosystem services they provide. In particular, they are recognised as important carbon sinks that protect coastal areas from natural disasters, such as erosion and storm surges. Tidal saltmarsh communities (hereafter saltmarshes) comprise the upper, vegetated portion of intertidal mudflats, lying approximately between mean high water neap tides and mean high water spring tides. Saltmarshes occur worldwide, particularly in middle to high latitudes, and are usually restricted to comparatively sheltered locations. The vegetation of a saltmarsh consists of halophytic (salt-tolerant) herbs, grasses and low shrubs adapted to regular or occasional immersion by the tides. Within the saltmarsh community, there are often clear patterns of zonation, typically linked to inundation and salinity. Saltmarshes can be highly dynamic - prone to erosion, but also rapidly colonizing new sediments. Their distribution is not only influenced by, but also influences local physical processes and geomorphology including topography and creek patterns (<xref ref-type="bibr" rid="B3528471">Adam 1990</xref>). The species composition and type of saltmarsh varies from site to site and regionally (<xref ref-type="bibr" rid="B3528573">Fischer et al. 2000</xref>).</p>
+      <p>Saltmarshes are unique ecosystems, situated at the interface between terrestrial and marine ecosystems, and often further connecting saline and freshwater ecosystems. They provide critical habitat for numerous aquatic and terrestrial organisms, which use them as a refuge from predators and as a location to feed, shelter and spawn (<xref ref-type="bibr" rid="B3528535">Deegan et al. 2000</xref>). Furthermore, they act as high tide refuges for birds feeding on adjacent mudflats, as breeding sites for waders, gulls and terns and as a source of food for passerine and migratory birds (<xref ref-type="bibr" rid="B3528658">Greenberg et al. 2014</xref>). In addition, these wetlands provide valuable ecosystem services (<xref ref-type="bibr" rid="B3528600">Gedan et al. 2009</xref>) that are of significant commercial and recreational value. For example, saltmarshes increase the abundance of fish invertebrate stocks of importance ofr both commercial and recreational fishing; high diversity of birds found within marshes make them a popular location for tourists and bird watchers; they protect shorelines from erosion by buffering wave action and they protect water quality by filtering runoff and metabolising excess nutrients (<xref ref-type="bibr" rid="B3528485">Barbier et al. 2011</xref>).</p>
+      <p>Despite their importance, saltmarsh areas are declining around the world, having lost between 25% and 50% of their global historical coverage (<xref ref-type="bibr" rid="B3528519">Crooks et al. 2011</xref>, <xref ref-type="bibr" rid="B3528563">Duarte et al. 2008</xref>). Vast areas have been lost through conversion to agriculture, urban and industrial land, while remaining saltmarshes face many other current and potential threats (<xref ref-type="bibr" rid="B3528600">Gedan et al. 2009</xref>): land claim for industry, port facilities, transport infrastructure and waste disposal is still comparatively common; invasive species such as Spartina which threatens mudflat fauna and birds but also saltmarsh vegetation itself; many saltmarshes are being 'squeezed' between an eroding seaward edge and fixed flood defence walls and grazing has a marked effect on the structure and composition of saltmarsh vegetation by reducing the height of the vegetation and the diversity of plant and invertebrate species A range of other human activities can be locally damaging, including waste tipping, pollution and turf cutting (<xref ref-type="bibr" rid="B3528755">Neubauer 2009</xref>).</p>
+      <p>Due to the continued pressures placed upon saltmarshes, it is essential to establish a mapped baseline in order to assess change and enhance management efforts. Recent best estimates of the global area of saltmarsh range from 2.2 to 40 Mha <xref ref-type="bibr" rid="B3528725">Pendleton et al. 2012</xref>). One reason for the relatively large range in estimated area is that whist saltmarshes have been mapped locally, and even nationally in many places, there has never been a systematic attempt to map the distribution and extent of saltmarshes globally. This has prevented any accurate accounting of overall declines in this critical habitat, or indeed of geographic patterns in such declines. This is in stark contrast to other coastal systems such as coral reefs (<xref ref-type="bibr" rid="B3528793">Spalding et al. 2001</xref>), seagrasses (<xref ref-type="bibr" rid="B3528685">Green and Short 2003</xref>), and mangrove forests <xref ref-type="bibr" rid="B3528644">Giri et al. 2010</xref>, <xref ref-type="bibr" rid="B3528765">Spalding et al. 2010</xref>, <xref ref-type="bibr" rid="B3528774">Spalding et al. 1997</xref>).</p>
+      <p>Synthesis of existing saltmarsh distribution data into a global map began in 2007, but was never formally published. Using the groundwork established previously, the same general approach of constructing a mosaic map from multiple sources was resumed in 2013, and is presented here as the first detailed global map of saltmarshes.</p>
+    </sec>
+    <sec sec-type="General description">
+      <title>General description</title>
+      <sec sec-type="Purpose">
+        <title>Purpose</title>
+        <p>This composite dataset was developed to provide a baseline inventory of the extent of our knowledge regarding the global distribution of saltmarshes.</p>
+      </sec>
+      <sec sec-type="Additional information">
+        <title>Additional information</title>
+        <p>This dataset represents a first step toward tracking the status and trends of saltmarshes globally, outlining our current state of knowledge and revealing locations where monitoring should be established or strengthened. Ongoing monitoring is essential to support progress toward the targets set by multilateral environmental agreements, such as the Aichi Biodiversity Targets of the United Nations' (UN's) Strategic Plan for Biodiversity 2011-2020, the Sustainable Development Goals of the UN's 2030 Agenda for Sustainable Development and the Ramsar Convention, with wetlands contributing substantially to achieving associated targets (see <xref ref-type="bibr" rid="B3528746">Ramsar Convention Secretariat (2016)</xref>). Datasets such as these can also help to inform global monitoring initiatives such as the Group on Earth Observations Wetlands (GEO-Wetlands) Initiative and the associated Global Wetlands Observing System (GWOS), which will draw from ongoing projects such as the Satellite-based Wetland Observation Service (SWOS) and GlobWetland-Africa. The dataset has direct application to indicator development through use in the Wetland Extent Trends (WET) Index (<xref ref-type="bibr" rid="B3528551">Dixon et al. 2016</xref>), for instance.</p>
+        <p>Knowledge of the extent of saltmarshes is important for calculating potential carbon storage in a manner akin to that done for mangroves (<xref ref-type="bibr" rid="B3528694">Hutchison et al. 2013</xref>) and seagrasses (<xref ref-type="bibr" rid="B3528583">Fourqurean et al. 2012</xref>), which can support decision-makers in implementing climate change mitigation measures and spatial planners in conducting area-based planning. This dataset and other similar datatsets outlining habitat distribution have also been used to support high-level screening by industry (<xref ref-type="bibr" rid="B3528705">Martin et al. 2015</xref>), offering a preliminary overview of areas of importance to biodiversity that can then be verified through <italic>in situ</italic> surveys.</p>
+        <p>This dataset will be updated as new data become available. We invite those with knowledge of saltmarsh occurrence and extent, or geospatial data that would improve the quality or extent of our knowledge - particularly with regards to change over time - to contact us.</p>
+        <p>The data are available as a compressed folder containing the following resources:</p>
+        <list list-type="order">
+          <list-item>
+            <p>Polygon shapefile containing known distribution of saltmarshes, with contextual information (for spatial analysis; Table <xref ref-type="table" rid="T3528163">1</xref>);</p>
+          </list-item>
+          <list-item>
+            <p>Point shapefile containing locations of saltmarsh, linked to an Access database with information on species present at each location (for reference purposes Table <xref ref-type="table" rid="T3600436">2</xref>);</p>
+          </list-item>
+          <list-item>
+            <p>Table of data providers;</p>
+          </list-item>
+          <list-item>
+            <p>Detailed metadata sheet; and</p>
+          </list-item>
+          <list-item>
+            <p>Excel spreadsheet outlining definitions of saltmarshes by country and language.</p>
+          </list-item>
+        </list>
+      </sec>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>This dataset is composed of data derived from peer-reviewed articles and grey literature, including reports and databases created by governmental and non-governmental organisations, universities, institutes and researchers globally.</p>
+        <p>Data in the original source materials were collected using remote sensing and field-based survey methods, with data quality ranging from high-resolution maps to low-resolution representations. Inital work in compiling this dataset was led and funded by The Nature Conservancy with support from United Nations Environment World Conservation Monitoring Centre (UNEP-WCMC), with the second phase led and funded by UNEP-WCMC with contributions from Conservation International. As part of this process, detailed descriptions of the datasets were obtained and recorded within the associated metadata. Where available, these included the time frame of data collection, source(s), resolution and methods of processing.</p>
+      </sec>
+      <sec sec-type="Quality control">
+        <title>Quality control</title>
+        <p>Data contributors were asked to submit metadata with each dataset to provide the contextual information important for informing analyses. Saltmarshes were identified in accordance with definitions provided by data sources, where available, or were determined using expert opinion (available in the supplementary material).</p>
+        <p>The precautionary principle was applied to ensure consistency across designations e.g if we were uncertain about the classification of the habitatit was not included. Please refer to the supplementary material and associated metadata for more information regarding each data source presented. Where overlaps occurred, newer or ground-truthed data were prioritised. If equivalent in quality, overlapping and adjacent datasets were incorporated into the layer and dissolved to calculate total area.</p>
+        <p>Although data outlining mangrove extent are not included in the dataset, these habitats overlap with saltmarshes in some subtropical and tropical regions, with mangrove trees growing amongst saltmarsh, or with clear zones across the intertidal belt dominated by marsh plants or by mangroves. We therefore expect there to be some overlap between maps of these two habitats, although we have not yet "cleaned" these or assessed the level of overlap. The dataset contains a broad range of saltmarsh habitats, for example, the grass-dominated systems which are prevelant in the Eastern United states; the more shrub dominated systems of northern Europe and tundra based systems in Russia.</p>
+        <p>This map is not intended to reflect a comprehensive assessment of saltmarsh presence and absence, but rather an overview of the extent of our knowledge and data availability with regards to the locations of these habitats globally. While some datasets within the compilation document the time frame of data collection, the dataset as a whole cannot be used for temporal analyses of change due to an incomplete systematic survey of saltmarsh extent globally over time. Other challenges encountered when collating spatial habitat data globally include differing spatial resolutions (1:10,000 to 1:4,000,000); data collection methodologies (e.g. field surveys, remote sensing); licenses and use restrictions; spatial formats and data quality. Not all data records were validated through <italic>in situ</italic> surveys (denoted within the dataset), and some records were only available as points rather than polygons. While lacking estimates of area, these points provide important information on the location of these saltmarshes and the halophytic species known to occur in the region (through the accompanying Access database).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The dataset captures locational and contextual data for saltmarsh in 99 countries worldwide. The scale of the data varies from 1:10,000 to 1:4,000,000, with most falling within the 1:10,000 to 1:100,000 range.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>Saltmarshes were identified in accordance with definitions provided by data sources, where available, or were determined using expert opinion (available in the supplementary material).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <p><bold>Data range:</bold> 1973-1-01 – 2015-1-01.</p>
+      <sec sec-type="Notes">
+        <title>Notes</title>
+        <p>The time frames for data collection range from 1973 to 2015, with most occuring after 2005</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Other</p>
+      </sec>
+      <sec sec-type="IP rights notes">
+        <title>IP rights notes</title>
+        <p>The dataset is curated and distributed (<ext-link ext-link-type="uri" xlink:href="http://data.unep-wcmc.org/datasets/43" xlink:type="simple">http://data.unep-wcmc.org/datasets/43</ext-link>) by the UN Environment World Conservation Monitoring Centre. The dataset is to be used in accordance with the terms and conditions of Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0) (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/" xlink:type="simple">https://creativecommons.org/licenses/by-nc/3.0/</ext-link>)</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>A global map of saltmarshes​</p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>1</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Global saltmarsh distribution</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>1</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="http://data.unep-wcmc.org" xlink:type="simple">http://data.unep-wcmc.org</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="">
+          <title/>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">A global map of saltmarshes</td>
+                  <td rowspan="1" colspan="1">A global map of saltmarshes</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>The authors gratefully acknowledge financial support from the GEF Blue Forest project (CM, LVW), UNEP-WCMC's Proteus Partnership (CSM, LVW), and the “Building the European Biodiversity Observation Network” (EU BON) project (<ext-link ext-link-type="uri" xlink:href="http://www.eubon.eu/" xlink:type="simple">www.eubon.eu</ext-link>), a 7th Framework Programme funded by the European Union under grant agreement No. 308454 (CSM, LVW). The authors would also like to acknowledge Kamila Jarnia for her assistance with compiling the data layer.</p>
+      <p>The authors would also like to extend their gratitude to the many data providers who kindly contributed their data to this effort; without their support, this dataset would not exist:</p>
+      <p>The European Environment Agency, Denmark; The Ramsar Convention Secretariat; UK Environment Agency; Rijkswaterstaat Dienst Zeeland, Netherlands; National Parks and Wildlife Service, Ireland; Humedale Conservation and Inventory Service, Subdirectorate General of Natural Environment, General Directorate of Quality and Environmental Assessment and Natural Environment, Ministry of Agriculture, Food and Environment (Servicio de Conservación e Inventariación de Humedale. Subdirección General de Medio Natural, Dirección General de Calidad y Evaluación Ambiental y Medio Natural, Ministerio de Agricultura, Alimentación y Medio Ambiente), Spain; Department of Commerce, National Oceanic and Atmospheric Administration, National Ocean Service, and the Coastal Services Center, USA; Waterway and Shipping Office Bremerhaven (Wasser- und Schifffahrtsamt Bremerhaven), Germany; Federal Institute of Hydrology, Germany; Land Office for Agriculture, Environment, and Rural Areas (Landesamt für Landwirtschaft, Umwelt und ländliche Räume), Schleswig-Holstein, Germany; Florida Fish and Wildlife Conservation Commission - Fish and Wildlife Research Institute, Center for Spatial Analysis, USA; Cawthron Institute (and various regional and city councils), New Zealand; National Office of the Environment, Madagascar; Swedish Environmental Protection Agency (Naturvårdsverket), Sweden; Abu Dhabi Environment Agency, United Arab Emirates; US Fish and Wildlife Service, USA; Geoscience Australia; Prince Edward Island Department Of Agriculture and Forestry, Canada; Nova Scotia Department of Natural Resources, Wildlife Division, Canada; New Brunswick Department of Natural Resources, Fish and Wildlife Branch, Canada; Ministry of Agriculture (Ministerio de Agricultura), Lima, Peru; Consorzio Venezia Nuova, Venice, Italy; Division of Water Resources, Hydraulic and Maritime Engineering, Athens, Greece; European Topic Centre on Biological Diversity; National Museum of Natural History (Museum National d'Histoire Naturelle), France; Estonian Environmental Information Centre; National Commission of Natural Protected Areas (Comisión Nacional de Áreas Naturales Protegidas), Mexico; The Nature Conservancy; Johannes Burmeister (Manfred-Hermsen-Stiftung); Elier Tabilo Valdivieso (Centro Neotropical de Entrenamiento en Humedales); BirdLife International, UK; Institute of Nature Conservation, Polish Academy of Sciences, Poland; Komarov Botanical Institute Russian Academy of Sciences; Gerasimov YN (2003; Pacific Institute of Geography, Russian Academy of Sciences); Institute of Remote Sensing and Digital Earth, China; Environmental Hydraulic Institute (IH Cantabria), University of Cantabria, Spain; Otars Opermanis, Latvia; Institute of Marine and Coastal Research, National University of Mar del Plata (Instituto de Investigaciones Marinas y Costeras, Universidad Nacional de Mar del Plata), Argentina; Ping Zuo (Nanjing University); Tomkovich PS et al. (2002); Spilling et al. (1995); Miniev (1991); Syroechkovski (1995); Tolvanen et al. (1996); Syroechkovski et al. (1998); Sandring et al. (2001); João M. Neto (IMAR-Univ. Coimbra); Isabel Caçador (CO-FFCUL); Pilar García (INDUROT); Botany Department, Nelson Mandela Metropolitan University, South Africa; Neil Saintilan (NSW Department of Energy, Climate Change and Water, Australia); Olga A. Mochalova (Institute of the Biological Problems of the North); The British Columbia Marine Conservation Analysis, Canada.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B3528471">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Adam</surname>
+              <given-names>Paul</given-names>
+            </name>
+          </person-group>
+          <year>1990</year>
+          <chapter-title>The saltmarsh biota</chapter-title>
+          <source>Saltmarsh ecology</source>
+          <uri xlink:type="simple">http://dx.doi.org/10.1017/cbo9780511565328.003</uri>
+          <pub-id pub-id-type="doi">10.1017/cbo9780511565328.003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3528485">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Barbier</surname>
+              <given-names>Edward B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hacker</surname>
+              <given-names>Sally D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kennedy</surname>
+              <given-names>Chris</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Koch</surname>
+              <given-names>Evamaria W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stier</surname>
+              <given-names>Adrian C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Silliman</surname>
+              <given-names>Brian R.</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>The value of estuarine and coastal ecosystem services</article-title>
+          <source>Ecological Monographs</source>
+          <volume>81</volume>
+          <issue>2</issue>
+          <fpage>169</fpage>
+          <lpage>193</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1890/10-1510.1</uri>
+          <pub-id pub-id-type="doi">10.1890/10-1510.1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3528519">
+        <element-citation publication-type="conference-paper" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Crooks</surname>
+              <given-names>Stephen</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Herr</surname>
+              <given-names>Dorothee</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tamelander</surname>
+              <given-names>Jerker</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Laffoley</surname>
+              <given-names>Dan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vandever</surname>
+              <given-names>Justin</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>Mitigating climate change through restoration and management of coastal wetlands and near-shore marine ecosystems : challenges and opportunities.</article-title>
+          <source>Environment department papers ; no. 121. Marine ecosystem series.</source>
+          <publisher-name>World Bank</publisher-name>
+          <publisher-loc>Washington, DC</publisher-loc>
+        </element-citation>
+      </ref>
+      <ref id="B3528535">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Deegan</surname>
+              <given-names>Linda A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hughes</surname>
+              <given-names>Jeffrey E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rountree</surname>
+              <given-names>Rodney A.</given-names>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <chapter-title>Salt Marsh Ecosystem Support of Marine Transient Species</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Weinstein</surname>
+              <given-names>MP</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kreeger</surname>
+              <given-names>DA</given-names>
+            </name>
+          </person-group>
+          <source>Concepts and Controversies in Tidal Marsh Ecology</source>
+          <publisher-name>Springer</publisher-name>
+          <publisher-loc>Netherlands</publisher-loc>
+          <uri xlink:type="simple">http://dx.doi.org/10.1007/0-306-47534-0_16</uri>
+          <isbn>978-0-306-47534-4]</isbn>
+          <pub-id pub-id-type="doi">10.1007/0-306-47534-0_16</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3528551">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Dixon</surname>
+              <given-names>M. J.R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Loh</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Davidson</surname>
+              <given-names>N. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Beltrame</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Freeman</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Walpole</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Tracking global change in ecosystem area: The Wetland Extent Trends index</article-title>
+          <source>Biological Conservation</source>
+          <volume>193</volume>
+          <fpage>27</fpage>
+          <lpage>35</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1016/j.biocon.2015.10.023</uri>
+          <pub-id pub-id-type="doi">10.1016/j.biocon.2015.10.023</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3528563">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Duarte</surname>
+              <given-names>Carlos M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dennison</surname>
+              <given-names>William C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Orth</surname>
+              <given-names>Robert J. W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Carruthers</surname>
+              <given-names>Tim J. B.</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>The Charisma of Coastal Ecosystems: Addressing the Imbalance</article-title>
+          <source>Estuaries and Coasts</source>
+          <volume>31</volume>
+          <issue>2</issue>
+          <fpage>233</fpage>
+          <lpage>238</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1007/s12237-008-9038-7</uri>
+          <pub-id pub-id-type="doi">10.1007/s12237-008-9038-7</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3528573">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Fischer</surname>
+              <given-names>Janet M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Reed-Andersen</surname>
+              <given-names>Tara</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Klug</surname>
+              <given-names>Jennifer L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chalmers</surname>
+              <given-names>Alice G.</given-names>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <article-title>Spatial Pattern of Localized Disturbance along a Southeastern Salt Marsh Tidal Creek</article-title>
+          <source>Estuaries</source>
+          <volume>23</volume>
+          <issue>4</issue>
+          <fpage>565</fpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.2307/1353146</uri>
+          <pub-id pub-id-type="doi">10.2307/1353146</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3528583">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Fourqurean</surname>
+              <given-names>James W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Duarte</surname>
+              <given-names>Carlos M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kennedy</surname>
+              <given-names>Hilary</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Marbà</surname>
+              <given-names>Núria</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Holmer</surname>
+              <given-names>Marianne</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mateo</surname>
+              <given-names>Miguel Angel</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Apostolaki</surname>
+              <given-names>Eugenia T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kendrick</surname>
+              <given-names>Gary A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Krause-Jensen</surname>
+              <given-names>Dorte</given-names>
+            </name>
+            <name name-style="western">
+              <surname>McGlathery</surname>
+              <given-names>Karen J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Serrano</surname>
+              <given-names>Oscar</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Seagrass ecosystems as a globally significant carbon stock</article-title>
+          <source>Nature Geoscience</source>
+          <volume>5</volume>
+          <issue>7</issue>
+          <fpage>505</fpage>
+          <lpage>509</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1038/ngeo1477</uri>
+          <pub-id pub-id-type="doi">10.1038/ngeo1477</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3528600">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Gedan</surname>
+              <given-names>K. Bromberg</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Silliman</surname>
+              <given-names>B. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bertness</surname>
+              <given-names>M. D.</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>Centuries of Human-Driven Change in Salt Marsh Ecosystems</article-title>
+          <source>Annual Review of Marine Science</source>
+          <volume>1</volume>
+          <issue>1</issue>
+          <fpage>117</fpage>
+          <lpage>141</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1146/annurev.marine.010908.163930</uri>
+          <pub-id pub-id-type="doi">10.1146/annurev.marine.010908.163930</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3528644">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Giri</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ochieng</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tieszen</surname>
+              <given-names>L. L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zhu</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Singh</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Loveland</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Masek</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Duke</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>Status and distribution of mangrove forests of the world using earth observation satellite data</article-title>
+          <source>Global Ecology and Biogeography</source>
+          <volume>20</volume>
+          <issue>1</issue>
+          <fpage>154</fpage>
+          <lpage>159</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1111/j.1466-8238.2010.00584.x</uri>
+          <pub-id pub-id-type="doi">10.1111/j.1466-8238.2010.00584.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3528658">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Greenberg</surname>
+              <given-names>Russell</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cardoni</surname>
+              <given-names>Augusto</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ens</surname>
+              <given-names>Bruno J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gan</surname>
+              <given-names>Xiaojing</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Isacch</surname>
+              <given-names>Juan Pablo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Koffijberg</surname>
+              <given-names>Kees</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Loyn</surname>
+              <given-names>Richard</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <chapter-title>The distribution and conservation of birds of coastal salt marshes</chapter-title>
+          <source>Coastal Conservation</source>
+          <uri xlink:type="simple">http://dx.doi.org/10.1017/cbo9781139137089.008</uri>
+          <pub-id pub-id-type="doi">10.1017/cbo9781139137089.008</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3528685">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Green</surname>
+              <given-names>EP</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Short</surname>
+              <given-names>FT</given-names>
+            </name>
+          </person-group>
+          <year>2003</year>
+          <source>World Atlas of Seagrasses</source>
+          <publisher-name>University of California Press</publisher-name>
+          <publisher-loc>Berkeley</publisher-loc>
+          <size units="page">310</size>
+          <uri xlink:type="simple">https://www.unep-wcmc.org/resources-and-data/world-atlas-of-seagrasses</uri>
+          <isbn>978-0520240476</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B3528694">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Hutchison</surname>
+              <given-names>James</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Manica</surname>
+              <given-names>Andrea</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Swetnam</surname>
+              <given-names>Ruth</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Balmford</surname>
+              <given-names>Andrew</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Spalding</surname>
+              <given-names>Mark</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Predicting Global Patterns in Mangrove Forest Biomass</article-title>
+          <source>Conservation Letters</source>
+          <volume>7</volume>
+          <issue>3</issue>
+          <fpage>233</fpage>
+          <lpage>240</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1111/conl.12060</uri>
+          <pub-id pub-id-type="doi">10.1111/conl.12060</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3528705">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Martin</surname>
+              <given-names>C. S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tolley</surname>
+              <given-names>M. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Farmer</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mcowen</surname>
+              <given-names>C. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Geffert</surname>
+              <given-names>J. L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Scharlemann</surname>
+              <given-names>J. P.W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Thomas</surname>
+              <given-names>H. L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bochove</surname>
+              <given-names>J. H. van</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stanwell-Smith</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hutton</surname>
+              <given-names>J. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lascelles</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pilgrim</surname>
+              <given-names>J. D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ekstrom</surname>
+              <given-names>J. M.M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tittensor</surname>
+              <given-names>D. P.</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>A global map to aid the identification and screening of critical habitat for marine industries</article-title>
+          <source>Marine Policy</source>
+          <volume>53</volume>
+          <fpage>45</fpage>
+          <lpage>53</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1016/j.marpol.2014.11.007</uri>
+          <pub-id pub-id-type="doi">10.1016/j.marpol.2014.11.007</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3528755">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Neubauer</surname>
+              <given-names>Scott C.</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>Silliman, B. R., E. D. Grosholz, and M. D. Bertness (ed.) Human Impacts on Salt Marshes: A Global Perspective</article-title>
+          <source>Wetlands</source>
+          <volume>30</volume>
+          <issue>1</issue>
+          <fpage>173</fpage>
+          <lpage>175</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1007/s13157-009-0013-2</uri>
+          <pub-id pub-id-type="doi">10.1007/s13157-009-0013-2</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3528725">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Pendleton</surname>
+              <given-names>Linwood</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Donato</surname>
+              <given-names>Daniel C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Murray</surname>
+              <given-names>Brian C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Crooks</surname>
+              <given-names>Stephen</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jenkins</surname>
+              <given-names>W. Aaron</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sifleet</surname>
+              <given-names>Samantha</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Craft</surname>
+              <given-names>Christopher</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fourqurean</surname>
+              <given-names>James W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kauffman</surname>
+              <given-names>J. Boone</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Marbà</surname>
+              <given-names>Núria</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Megonigal</surname>
+              <given-names>Patrick</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pidgeon</surname>
+              <given-names>Emily</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Herr</surname>
+              <given-names>Dorothee</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gordon</surname>
+              <given-names>David</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Baldera</surname>
+              <given-names>Alexis</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Estimating Global “Blue Carbon” Emissions from Conversion and Degradation of Vegetated Coastal Ecosystems</article-title>
+          <source>PLoS ONE</source>
+          <volume>7</volume>
+          <issue>9</issue>
+          <fpage>e43542</fpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1371/journal.pone.0043542</uri>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0043542</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3528746">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Secretariat</surname>
+              <given-names>Ramsar Convention</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <source>The Fourth Ramsar Strategic Plan 2016-2024. Ramsar handbooks for the wise use of wetlands.</source>
+          <publisher-name>Ramsar Convention Secretariat</publisher-name>
+          <publisher-loc>Gland</publisher-loc>
+          <size units="page">54</size>
+          <uri xlink:type="simple">http://www.ramsar.org/sites/default/files/documents/library/hb2_5ed_strategic_plan_2016_24_e.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B3528774">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Spalding</surname>
+              <given-names>MD</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Blasco</surname>
+              <given-names>F</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Field</surname>
+              <given-names>CD</given-names>
+            </name>
+          </person-group>
+          <year>1997</year>
+          <source>World Mangrove Atlas</source>
+          <publisher-name>International Society for Mangrove Ecosystems</publisher-name>
+          <publisher-loc>Okinawa</publisher-loc>
+          <size units="page">178</size>
+        </element-citation>
+      </ref>
+      <ref id="B3528765">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Spalding</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kainuma</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Collins</surname>
+              <given-names>L</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <source>World Atlas of Mangroves</source>
+          <publisher-name>Earthscan</publisher-name>
+          <publisher-loc>London</publisher-loc>
+          <size units="page">319</size>
+          <uri xlink:type="simple">https://www.routledge.com/World-Atlas-of-Mangroves/Spalding-Kainuma-Collins/p/book/9781844076574</uri>
+          <pub-id pub-id-type="doi">10.4324/9781849776608</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3528793">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Spalding</surname>
+              <given-names>MD</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rabillious</surname>
+              <given-names>C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Green</surname>
+              <given-names>EP</given-names>
+            </name>
+          </person-group>
+          <year>2001</year>
+          <source>World Atlas of Coral Reefs</source>
+          <publisher-name>University of California Press</publisher-name>
+          <publisher-loc>Berkeley</publisher-loc>
+          <size units="page">436</size>
+          <uri xlink:type="simple">https://archive.org/details/worldatlasofcora01spal</uri>
+          <isbn>0-520-23255-0</isbn>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <table-wrap id="T3528163" position="float" orientation="portrait">
+      <label>Table 1.</label>
+      <caption>
+        <p>Recorded salt marsh extent by region (in hectares), number of polygons, and time frame and high-level methodology of data collection, as derived from the “Global Distribution of Saltmarsh” polygon dataset.</p>
+      </caption>
+      <table rules="all" border="1">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1" style="width: 126px;">
+              <bold>Region</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 91px;"><bold>Area (Ha)</bold>*</td>
+            <td rowspan="1" colspan="1" style="width: 86px;">
+              <bold>Number</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 110px;">
+              <bold>Start Date</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 71px;">
+              <bold>End Date</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 130px;">
+              <bold>Methodology</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="4" colspan="1">
+              <bold>North and Central America</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 126px;">USA (Mainland, Hawa'ii)</td>
+            <td rowspan="1" colspan="1" style="width: 91px;">1,723,410</td>
+            <td rowspan="1" colspan="1" style="width: 86px;">123,697</td>
+            <td rowspan="1" colspan="1" style="width: 110px;">01/01/1977</td>
+            <td rowspan="1" colspan="1" style="width: 71px;">31/12/2012</td>
+            <td rowspan="1" colspan="1" style="width: 130px;">Remote sensing, field survey</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 126px;">Mexico</td>
+            <td rowspan="1" colspan="1" style="width: 91px;">272,527</td>
+            <td rowspan="1" colspan="1" style="width: 86px;">437</td>
+            <td rowspan="1" colspan="1" style="width: 110px;">N/A</td>
+            <td rowspan="1" colspan="1" style="width: 71px;">N/A</td>
+            <td rowspan="1" colspan="1" style="width: 130px;">Remote sensing</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 126px;">USA (Alaska)</td>
+            <td rowspan="1" colspan="1" style="width: 91px;">161,483</td>
+            <td rowspan="1" colspan="1" style="width: 86px;">8,949</td>
+            <td rowspan="1" colspan="1" style="width: 110px;">01/01/1977</td>
+            <td rowspan="1" colspan="1" style="width: 71px;">31/12/2012</td>
+            <td rowspan="1" colspan="1" style="width: 130px;">Remote sensing, field survey</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 126px;">Canada</td>
+            <td rowspan="1" colspan="1" style="width: 91px;">111,274</td>
+            <td rowspan="1" colspan="1" style="width: 86px;">10,502</td>
+            <td rowspan="1" colspan="1" style="width: 110px;">01/01/1995</td>
+            <td rowspan="1" colspan="1" style="width: 71px;">31/12/2002</td>
+            <td rowspan="1" colspan="1" style="width: 130px;">Field survey</td>
+          </tr>
+          <tr>
+            <td rowspan="2" colspan="1">
+              <bold>South America</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 126px;">Argentina</td>
+            <td rowspan="1" colspan="1" style="width: 91px;">118,870</td>
+            <td rowspan="1" colspan="1" style="width: 86px;">3,086</td>
+            <td rowspan="1" colspan="1" style="width: 110px;">01/03/2000</td>
+            <td rowspan="1" colspan="1" style="width: 71px;">28/02/2003</td>
+            <td rowspan="1" colspan="1" style="width: 130px;">Remote sensing, field survey</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 126px;">Brazil, Uruguay, Chile, Peru</td>
+            <td rowspan="1" colspan="1" style="width: 91px;">37,858</td>
+            <td rowspan="1" colspan="1" style="width: 86px;">385</td>
+            <td rowspan="1" colspan="1" style="width: 110px;">01/03/2000</td>
+            <td rowspan="1" colspan="1" style="width: 71px;">31/12/2011</td>
+            <td rowspan="1" colspan="1" style="width: 130px;">Remote sensing, field survey</td>
+          </tr>
+          <tr>
+            <td rowspan="3" colspan="1">
+              <bold>Africa and the Middle East</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 126px;">South Africa</td>
+            <td rowspan="1" colspan="1" style="width: 91px;">6,147</td>
+            <td rowspan="1" colspan="1" style="width: 86px;">1,561</td>
+            <td rowspan="1" colspan="1" style="width: 110px;">01/01/2008</td>
+            <td rowspan="1" colspan="1" style="width: 71px;">31/12/2008</td>
+            <td rowspan="1" colspan="1" style="width: 130px;">Remote sensing</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 126px;">Madagascar</td>
+            <td rowspan="1" colspan="1" style="width: 91px;">5,810</td>
+            <td rowspan="1" colspan="1" style="width: 86px;">4</td>
+            <td rowspan="1" colspan="1" style="width: 110px;">01/01/2011</td>
+            <td rowspan="1" colspan="1" style="width: 71px;">31/12/2011</td>
+            <td rowspan="1" colspan="1" style="width: 130px;">Remote sensing, field survey</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 126px;">United Arab Emirates</td>
+            <td rowspan="1" colspan="1" style="width: 91px;">4,797</td>
+            <td rowspan="1" colspan="1" style="width: 86px;">174</td>
+            <td rowspan="1" colspan="1" style="width: 110px;">07/10/2011</td>
+            <td rowspan="1" colspan="1" style="width: 71px;">20/05/2014</td>
+            <td rowspan="1" colspan="1" style="width: 130px;">Remote sensing</td>
+          </tr>
+          <tr>
+            <td rowspan="4" colspan="1">
+              <bold>Europe</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 126px;">Mainland Europe**</td>
+            <td rowspan="1" colspan="1" style="width: 91px;">356,947</td>
+            <td rowspan="1" colspan="1" style="width: 86px;">31,830</td>
+            <td rowspan="1" colspan="1" style="width: 110px;">01/01/1999</td>
+            <td rowspan="1" colspan="1" style="width: 71px;">13/02/2015</td>
+            <td rowspan="1" colspan="1" style="width: 130px;">Remote sensing, field survey, ground-truthed</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 126px;">Great Britain</td>
+            <td rowspan="1" colspan="1" style="width: 91px;">81,842</td>
+            <td rowspan="1" colspan="1" style="width: 86px;">117,052</td>
+            <td rowspan="1" colspan="1" style="width: 110px;">01/01/2006</td>
+            <td rowspan="1" colspan="1" style="width: 71px;">31/12/2009</td>
+            <td rowspan="1" colspan="1" style="width: 130px;">Remote sensing, ground-truthed</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 126px;">Ireland (Republic of)</td>
+            <td rowspan="1" colspan="1" style="width: 91px;">9,889</td>
+            <td rowspan="1" colspan="1" style="width: 86px;">13,127</td>
+            <td rowspan="1" colspan="1" style="width: 110px;">01/01/2006</td>
+            <td rowspan="1" colspan="1" style="width: 71px;">31/12/2008</td>
+            <td rowspan="1" colspan="1" style="width: 130px;">Remote sensing, field survey</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 126px;">Iceland</td>
+            <td rowspan="1" colspan="1" style="width: 91px;">2,617</td>
+            <td rowspan="1" colspan="1" style="width: 86px;">32</td>
+            <td rowspan="1" colspan="1" style="width: 110px;">01/01/2006</td>
+            <td rowspan="1" colspan="1" style="width: 71px;">31/12/2006</td>
+            <td rowspan="1" colspan="1" style="width: 130px;">Remote sensing</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="2" style="width: 238px;">
+              <bold>Russian Federation</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 91px;">700,719</td>
+            <td rowspan="1" colspan="1" style="width: 86px;">50</td>
+            <td rowspan="1" colspan="1" style="width: 110px;">01/07/1973</td>
+            <td rowspan="1" colspan="1" style="width: 71px;">31/07/2011</td>
+            <td rowspan="1" colspan="1" style="width: 130px;">Field survey</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="2" style="width: 238px;">
+              <bold>China</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 91px;">549,506</td>
+            <td rowspan="1" colspan="1" style="width: 86px;">21,958</td>
+            <td rowspan="1" colspan="1" style="width: 110px;">01/01/1999</td>
+            <td rowspan="1" colspan="1" style="width: 71px;">31/12/2008</td>
+            <td rowspan="1" colspan="1" style="width: 130px;">Remote sensing</td>
+          </tr>
+          <tr>
+            <td rowspan="2" colspan="1">
+              <bold>Oceania</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 126px;">Australia</td>
+            <td rowspan="1" colspan="1" style="width: 91px;">1,325,854</td>
+            <td rowspan="1" colspan="1" style="width: 86px;">14,145</td>
+            <td rowspan="1" colspan="1" style="width: 110px;">01/01/2001</td>
+            <td rowspan="1" colspan="1" style="width: 71px;">31/12/2001</td>
+            <td rowspan="1" colspan="1" style="width: 130px;">Remote sensing, ground-truthed</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 126px;">New Zealand</td>
+            <td rowspan="1" colspan="1" style="width: 91px;">19,650</td>
+            <td rowspan="1" colspan="1" style="width: 86px;">2,482</td>
+            <td rowspan="1" colspan="1" style="width: 110px;">01/01/2007</td>
+            <td rowspan="1" colspan="1" style="width: 71px;">31/12/2008</td>
+            <td rowspan="1" colspan="1" style="width: 130px;">Remote sensing</td>
+          </tr>
+          <tr>
+            <td rowspan="3" colspan="1">
+              <bold>Small Island Developing States</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 126px;">Puerto Rico and the U.S. Virgin Islands</td>
+            <td rowspan="1" colspan="1" style="width: 91px;">5,879</td>
+            <td rowspan="1" colspan="1" style="width: 86px;">1,498</td>
+            <td rowspan="1" colspan="1" style="width: 110px;">01/01/1977</td>
+            <td rowspan="1" colspan="1" style="width: 71px;">31/12/2012</td>
+            <td rowspan="1" colspan="1" style="width: 130px;">Remote sensing, field survey</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 126px;">Guam and the Commonwealth of Northern Marianas</td>
+            <td rowspan="1" colspan="1" style="width: 91px;">8.2</td>
+            <td rowspan="1" colspan="1" style="width: 86px;">13</td>
+            <td rowspan="1" colspan="1" style="width: 110px;">01/01/1977</td>
+            <td rowspan="1" colspan="1" style="width: 71px;">31/12/2012</td>
+            <td rowspan="1" colspan="1" style="width: 130px;">Remote sensing, field survey</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 126px;">American Samoa</td>
+            <td rowspan="1" colspan="1" style="width: 91px;">0.1</td>
+            <td rowspan="1" colspan="1" style="width: 86px;">3</td>
+            <td rowspan="1" colspan="1" style="width: 110px;">15/12/2003</td>
+            <td rowspan="1" colspan="1" style="width: 71px;">15/12/2003</td>
+            <td rowspan="1" colspan="1" style="width: 130px;">Remote sensing, field survey</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1" style="width: 126px;">
+              <bold>TOTAL</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 91px;">
+              <bold>5,495,089</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 86px;">
+              <bold>350,985</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 110px;"/>
+            <td rowspan="1" colspan="1" style="width: 71px;"/>
+            <td rowspan="1" colspan="1" style="width: 130px;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="7">* Area calculated after dissolving to remove overlapping polygons.<break/>** Coverage in mainland Europe includes 20 countries: Albania, Belgium, Bulgaria, Croatia, Cyprus, Denmark, Estonia, Finland, France, Germany, Italy, Latvia, Montenegro, Netherlands, Portugal, Romania, Slovenia, Spain, Sweden and Turkey.</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T3600436" position="float" orientation="portrait">
+      <label>Table 2.</label>
+      <caption>
+        <p>The number of saltmarsh point locations per country in the “Global Distribution of Saltmarsh” point dataset.</p>
+      </caption>
+      <table rules="all" border="0">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">
+              <bold>Country</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Number of point records</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="9" colspan="1">
+              <bold>North and Central America</bold>
+            </td>
+            <td rowspan="1" colspan="1">Antigua and Barbuda</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Canada</td>
+            <td rowspan="1" colspan="1">25</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Costa Rica</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Cuba</td>
+            <td rowspan="1" colspan="1">3</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Greenland</td>
+            <td rowspan="1" colspan="1">5</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Mexico</td>
+            <td rowspan="1" colspan="1">15</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Nicaragua</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Panama</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">United States</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="7" colspan="1">
+              <bold>South America</bold>
+            </td>
+            <td rowspan="1" colspan="1">Argentina</td>
+            <td rowspan="1" colspan="1">20</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Brazil</td>
+            <td rowspan="1" colspan="1">6</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Chile</td>
+            <td rowspan="1" colspan="1">11</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Ecuador</td>
+            <td rowspan="1" colspan="1">4</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Peru</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Uruguay</td>
+            <td rowspan="1" colspan="1">7</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Venezuela</td>
+            <td rowspan="1" colspan="1">4</td>
+          </tr>
+          <tr>
+            <td rowspan="24" colspan="1">
+              <bold>Africa and the Middle East</bold>
+            </td>
+            <td rowspan="1" colspan="1">Algeria</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Angola</td>
+            <td rowspan="1" colspan="1">5</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Djibouti</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Egypt</td>
+            <td rowspan="1" colspan="1">8</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Gambia</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Ghana</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Iran (Islamic Republic of)</td>
+            <td rowspan="1" colspan="1">5</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Iraq</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Kenya</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Kuwait</td>
+            <td rowspan="1" colspan="1">5</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Mauritania</td>
+            <td rowspan="1" colspan="1">3</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Morocco</td>
+            <td rowspan="1" colspan="1">3</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Namibia</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Oman</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Pakistan</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Qatar</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Saudi Arabia</td>
+            <td rowspan="1" colspan="1">14</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Somalia</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">South Africa</td>
+            <td rowspan="1" colspan="1">12</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Sudan</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Tanzania, United Republic of</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Tunisia</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">United Arab Emirates</td>
+            <td rowspan="1" colspan="1">8</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Western Sahara</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="16" colspan="1">
+              <bold>Europe</bold>
+            </td>
+            <td rowspan="1" colspan="1">Albania</td>
+            <td rowspan="1" colspan="1">8</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Azerbaijan</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Bulgaria</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Croatia</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Estonia</td>
+            <td rowspan="1" colspan="1">47</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Georgia</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Greece</td>
+            <td rowspan="1" colspan="1">83</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Iceland</td>
+            <td rowspan="1" colspan="1">3</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Latvia</td>
+            <td rowspan="1" colspan="1">8</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Lithuania</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Norway</td>
+            <td rowspan="1" colspan="1">7</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Poland</td>
+            <td rowspan="1" colspan="1">9</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Slovenia</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Spain</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Sweden</td>
+            <td rowspan="1" colspan="1">5</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Ukraine</td>
+            <td rowspan="1" colspan="1">4</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Russian Federation</bold>
+            </td>
+            <td rowspan="1" colspan="1">Russia</td>
+            <td rowspan="1" colspan="1">29</td>
+          </tr>
+          <tr>
+            <td rowspan="6" colspan="1">
+              <bold>Oceania</bold>
+            </td>
+            <td rowspan="1" colspan="1">American Samoa</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Cook Islands</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Fiji</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">New Caledonia</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Tonga</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Vanuatu</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="10" colspan="1">
+              <bold>Asia</bold>
+            </td>
+            <td rowspan="1" colspan="1">Bahrain</td>
+            <td rowspan="1" colspan="1">4</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Cambodia</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">India</td>
+            <td rowspan="1" colspan="1">6</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Japan</td>
+            <td rowspan="1" colspan="1">9</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Korea, DPR</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Korea, Republic of</td>
+            <td rowspan="1" colspan="1">3</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Philippines</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Sri Lanka</td>
+            <td rowspan="1" colspan="1">10</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Taiwan</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Viet Nam</td>
+            <td rowspan="1" colspan="1">10</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+  </floats-group>
+</article>

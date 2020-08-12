@@ -1,0 +1,2377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="3.0" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.5.e20044</article-id>
+      <article-id pub-id-type="publisher-id">20044</article-id>
+      <article-id pub-id-type="manuscript">6457</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Plantae</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Biodiversity &amp; Conservation</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>Americas</subject>
+          <subject>South America</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Structure and tree species composition in different habitats of savanna used by indigenous people in the Northern Brazilian Amazon</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes" xlink:type="simple">
+          <name name-style="western">
+            <surname>Oliveira</surname>
+            <given-names>Rodrigo Leonardo Costa de</given-names>
+          </name>
+          <email xlink:type="simple">rodrigo@uerr.edu.br</email>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Farias</surname>
+            <given-names>Hugo Leonardo Sousa</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Perdiz</surname>
+            <given-names>Ricardo de Oliveira</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Scudeller</surname>
+            <given-names>Veridiana Vizoni</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Imbrozio Barbosa</surname>
+            <given-names>Reinaldo</given-names>
+          </name>
+          <uri content-type="orcid" xlink:type="simple">https://orcid.org/0000-0002-7482-346X</uri>
+          <xref ref-type="aff" rid="A5">5</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">State University of Roraima, Boa Vista, Brazil</addr-line>
+        <institution xlink:type="simple">State University of Roraima</institution>
+        <addr-line content-type="city">Boa Vista</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">Federal University of Roraima, Boa Vista, Brazil</addr-line>
+        <institution xlink:type="simple">Federal University of Roraima</institution>
+        <addr-line content-type="city">Boa Vista</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <aff id="A3">
+        <label>3</label>
+        <addr-line content-type="verbatim">National Institute for Research in Amazonia, Manaus, Brazil</addr-line>
+        <institution xlink:type="simple">National Institute for Research in Amazonia</institution>
+        <addr-line content-type="city">Manaus</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <aff id="A4">
+        <label>4</label>
+        <addr-line content-type="verbatim">Federal University of Amazonas, Biological Sciences Institute, Manaus, Brazil</addr-line>
+        <institution xlink:type="simple">Federal University of Amazonas, Biological Sciences Institute</institution>
+        <addr-line content-type="city">Manaus</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <aff id="A5">
+        <label>5</label>
+        <addr-line content-type="verbatim">National Institute for Research in Amazonia, Boa Vista, Brazil</addr-line>
+        <institution xlink:type="simple">National Institute for Research in Amazonia</institution>
+        <addr-line content-type="city">Boa Vista</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Rodrigo Leonardo Costa de Oliveira (<email xlink:type="simple">rodrigo@uerr.edu.br</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Quentin Groom</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2017</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>28</day>
+        <month>09</month>
+        <year>2017</year>
+      </pub-date>
+      <volume>5</volume>
+      <elocation-id>e20044</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/FFFCFFC1-4E24-2670-C650-AC485604FFD6">FFFCFFC1-4E24-2670-C650-AC485604FFD6</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/1115689">1115689</uri>
+      <history>
+        <date date-type="received">
+          <day>04</day>
+          <month>08</month>
+          <year>2017</year>
+        </date>
+        <date date-type="accepted">
+          <day>24</day>
+          <month>09</month>
+          <year>2017</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Rodrigo Leonardo Costa de Oliveira, Hugo Leonardo Sousa Farias, Ricardo de Oliveira Perdiz, Veridiana Vizoni Scudeller, Reinaldo Imbrozio Barbosa</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License 4.0 (CC-BY), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>Woody plant diversity from the Amazonian savannas has been poorly quantified. In order to improve the knowledge on wood plants of these regional ecosystems, a tree inventory was carried out in four different habitats used by indigenous people living in the savanna areas of the Northern Brazilian Amazon. The habitats were divided into two types (or groups) of vegetation formations: forest (riparian forest, forest island, and <italic>buritizal</italic> = <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Mauritia">Mauritia</tp:taxon-name-part></tp:taxon-name></italic> palm formation) and non-forest (typical savanna). The inventory was carried out in two hectares established in the Darora Indigenous Community region, north of the state of Roraima.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>The typical savanna is the most densely populated area (709 stems ha<sup>-1</sup>); however, it has the lowest tree species richness (nine species, seven families) in relation to typical forest habitats: riparian forest (22 species, 13 families and 202 stems ha<sup>-1</sup>), forest islands (13 species, 10 families and 264 stems ha<sup>-1</sup>), and <italic>buritizal</italic> (19 species, 15 families and 600 stems ha<sup>-1</sup>). The tree structure (density and dominance) of the forest habitats located in the savanna areas studied in this work is smaller in relation to forest habitats derived from continuous areas of other parts of the Amazon. These environments are derived from Paleoclimatic fragmentation, and are currently affected by the impact of intensive use of natural resources as timberselective logging and some land conversion for agriculture.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>Floristic survey</kwd>
+        <kwd>species richness</kwd>
+        <kwd>
+          <italic>lavrado</italic>
+        </kwd>
+        <kwd>forest environment</kwd>
+        <kwd>non-forest environment.</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="2"/>
+        <table-count count="3"/>
+        <ref-count count="31"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>The Amazon is recognized as one of the world's region with the greatest biological diversity, with estimates of up to 16,000 tree species (<xref ref-type="bibr" rid="B3622998">Steege 2013</xref>). The entire region consists of a mosaic of different climates, topographical reliefs, hydrological cycles and soils, which drives the formation of a wide range of vegetation types associated with landscapes, which are home to many different species; many still unknown (<xref ref-type="bibr" rid="B3622813">Hopkins 2007</xref>).</p>
+      <p>Within this large and complex Amazonian landscape, woody resources are widely used by both indigenous people and riverine communities, especially as timber (<xref ref-type="bibr" rid="B3622860">Miller et al. 1989</xref>, <xref ref-type="bibr" rid="B3622870">Milliken et al. 1992</xref>, <xref ref-type="bibr" rid="B3622733">Demarchi 2014</xref>). Human communities living in forest environments have greater biological diversity and availability of woody-based resources when compared with those inhabiting living in areas with open vegetation, such as the extensive areas of savanna in northern Amazon. This distinction is based on the fact that continuous forest areas are richer in tree species, and have greater biological diversity than those found in forest fragments within savanna ecosystems.</p>
+      <p>The savanna region of the state of Roraima is the largest savanna area of the Brazilian Amazon, occurring in the northern state of Roraima (<xref ref-type="bibr" rid="B3622713">Barbosa et al. 2007</xref>; <xref ref-type="bibr" rid="B3787540">Araújo et al. 2017</xref>). The savanna area of Roraima is locally referred as <italic>lavrado</italic>, “<italic>campos do rio Branco</italic>" or "<italic>campos de Roraima</italic>", and covers an area of over 40,000 km<sup>2</sup> within the large Rio Branco-Rupununi landscape complex, which extends into the Republic of Guyana and Venezuela (<xref ref-type="bibr" rid="B3622703">Barbosa and Fearnside 2005</xref>, <xref ref-type="bibr" rid="B3622693">Barbosa and Campos 2011</xref>). Several indigenous lands are found within this large area of savanna. Among them, Raposa/Serra do Sol and São Marcos Indigenous Lands are prominent due to their large size.</p>
+      <p>The São Marcos Indigenous Land (TISM) comprises 654,110 ha and has 42 indigenous communities (Makuxi, Taurepang and Wapixana ethnicities). Most indigenous practices make use of the available woody plant resources in different habitats of the savanna matrix where these communities live. Since the savanna of the state of Roraima is formed by two large vegetation groups – forest and non-forest (<xref ref-type="bibr" rid="B3622783">Eden 1970</xref>, <xref ref-type="bibr" rid="B3622979">Santos et al. 2013</xref>, <xref ref-type="bibr" rid="B3622713">Barbosa et al. 2007</xref>), the tree species composition and the number of stems available to indigenous communities varies depending on the habitat. Recognizing and valuing these natural resources used by indigenous people in the Amazonian savannas improve the capacity to plan and understand the most appropriate forms of management of woody plant diversity in these areas, which are so poorly studied.</p>
+      <p>The aim of this study is to make available data of woody plants (trees and shrubs) from forest and non-forest formations used by indigenous communities of the Savanna Area of Roraima, Northern Brazilian Amazon, in order to increase the knowledge on species composition and structure of such environments. The Shannon diversity index and Pielou eveness were calculated and the results compared to other studies in Amazonian savanna areas.</p>
+    </sec>
+    <sec sec-type="Project description">
+      <title>Project description</title>
+      <sec sec-type="Title">
+        <title>Title</title>
+        <p>Use and conservation of plant resources in indigenous communities in the north of the state of Roraima, Northern Amazon.</p>
+      </sec>
+      <sec sec-type="Study area description">
+        <title>Study area description</title>
+        <p>The study area is located in the Darora Community, a Makuxi ethnicity group living within the São Marcos Indigenous Land (<named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">3°10'42"N and 60°23'34"W</named-content>; lat/long - DATUM WGS84), which is at approximately 90 km from the state capital, Boa Vista, northbound on the BR -174 and RR-319 highways, by the Uraricoera river ferry crossing. Based on data from the Boa Vista weather station, the climate in Darora can be defined as tropical (Aw) according Köppen classification (<xref ref-type="bibr" rid="B3787094">Alvares et al. 2014</xref>), with average annual temperature of 27.8 °C, and average annual rainfall of ~1,650 mm, with the driest period concentrated between December and March (± 9% annual precipitation), and the wettest period concentrated between May and August (± 70% annual precipitation) (<xref ref-type="bibr" rid="B3622679">Barbosa 1997</xref>, <xref ref-type="bibr" rid="B3622713">Barbosa et al. 2007</xref>). The study included four habitats occurring in the <italic>lavrado</italic> area, which are used by indigenous people from the Darora community: typical savanna (non-forest formation) and three forest environments (riparian forest, forest island and <italic>buritizal</italic> = <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Mauritia">Mauritia</tp:taxon-name-part></tp:taxon-name></italic> palm formation).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>Eight plots were installed (each 0.25 ha) at different distances from the Community: four in typical savanna area (non-forest), and another four in several forested habitats (two in riparian vegetation of the Tacutu river, one in a <italic>buritizal</italic> along the Maracajá <italic>igarapé</italic> (stream), and one in an isolated natural forest island) (Fig. <xref ref-type="fig" rid="F3622367">1</xref>). Each plot was divided into 10 25m x 10m sub-plots. In the non-forest plots, all trees with diameter greater than or equal to 2 cm, at 2 cm from the soil (DSH <sub>2 cm</sub> ≥ 2 cm) were measured as suggested by <xref ref-type="bibr" rid="B3622879">Miranda and Absy (2000)</xref> and <xref ref-type="bibr" rid="B3622723">Barbosa et al. (2005)</xref>. In the forest plots, all individuals with DBH (diameter at the breast high – 1.3 m) ≥ 10 cm were measured. Additionally, the maximum height of each individual was visually estimated (Suppl. material <xref ref-type="supplementary-material" rid="S3624396">1</xref>). The Shannon diversity index (H') and Pielou eveness (J') were calculated (<xref ref-type="bibr" rid="B3787067">Kent and Coker 1995</xref>) and the results compared to other studies in Amazonian savanna areas.</p>
+        <p>Samples of the species were collected, and taxonomic identification was made by expert botanical, parabotanists and local floras (<xref ref-type="bibr" rid="B3622927">Ribeiro et al. 1999</xref>, <xref ref-type="bibr" rid="B3622851">Melo and Barbosa 2007</xref>,<xref ref-type="bibr" rid="B3622803">Flores and Rodrigues 2010</xref>, <xref ref-type="bibr" rid="B3623018">Wittmann et al. 2010</xref>). The nomenclatures were searched in the website of The Plant List (<xref ref-type="bibr" rid="B3788465">The Plant List 2013</xref>). Samples were placed in the herbarium collection of the Universidade Federal de Roraima (UFRR), Boa Vista. Botanical classification followed the APG IV (2016) system. All required federal permissions were obtained (FUNAI: Process 08620.002869 / 2014-15; IPHAN: Process 01450.001678 / 2014-88; CEP-INPA / CONEP: 814370).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The study area is located in the Darora Community in the São Marcos Indigenous Land, and comprises <italic>ca.</italic> 170 km<sup>2</sup> (Suppl. material <xref ref-type="supplementary-material" rid="S3788133">2</xref>). Coordinates: <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">3°10'42"N and 60°23'34"W</named-content>.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The study recorded 52 species belonging to 28 botanical families (Table <xref ref-type="table" rid="T3622371">1</xref>). Only 13 species were identified at the genus level. The families with the greatest richness in species (S) were <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Fabaceae</tp:taxon-name-part></tp:taxon-name> (12 spp.) and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Malpighiaceae</tp:taxon-name-part></tp:taxon-name> (5 spp.). Non-forest areas (typical savanna) are the most densely populated by tree individuals (709 stems ha<sup>-1</sup>); however, they presented lower richness (nine species) when compared with typical forest habitats: riparian forest (22 species, 13 families and 202 ind ha<sup>-1</sup>), forest island. (13 species, 10 families and 264 stems ha<sup>-1</sup>) and <italic>buritizal</italic> (19 species, 15 families and 600 stems ha<sup>-1</sup>).</p>
+        <p>In non - forest habitat, the most abundant species were <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Byrsonima">Byrsonima</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="crassifolia">crassifolia</tp:taxon-name-part></tp:taxon-name></italic> (268 stems) and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Byrsonima">B.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="coccolobifolia">coccolobifolia</tp:taxon-name-part></tp:taxon-name></italic> (163), while in the forest habitat <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Mauritia">Mauritia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="flexuosa">flexuosa</tp:taxon-name-part></tp:taxon-name></italic> (27), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Etabalia">Etabalia</tp:taxon-name-part></tp:taxon-name></italic> sp. (20) and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Curatella">Curatella</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="americana">americana</tp:taxon-name-part></tp:taxon-name></italic> (18) were found in greater numbers. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Mauritia">M.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="flexuosa">flexuosa</tp:taxon-name-part></tp:taxon-name></italic> dominates <italic>buritizal</italic> areas; however, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Curatella">C.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="americana">americana</tp:taxon-name-part></tp:taxon-name></italic> is a typical species of the non-forest habitat that was densely registered in all the forest environments, especially in the forest island. This is a reflection of the intense extractivism in these environments, enabling several small forest clearings to provide favorable conditions for the recruitment of non-forest species.</p>
+        <p>
+          <italic>Vertical and horizontal structure</italic>
+        </p>
+        <p>In non-forest environments, density and basal area were 709 stems ha<sup>-1</sup> and 2.174 m<sup>2</sup> ha<sup>-1</sup>, respectively. The diameter was characterized by the predominance of initial classes (DSH <sub>2 cm</sub> &lt; 5 cm) with a tendency of decrease of individuals in the major classes, in an inverted-J pattern, where the most individuals are distributed in the minor diameter classes while few individuals are found in the major diameter classes (Fig. <xref ref-type="fig" rid="F3622367">1</xref>).For vertical structure, most individuals (604) measured up to 2 m in height (Fig. <xref ref-type="fig" rid="F3622367">1</xref>), including all individuals of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Byrsonima">Byrsonima</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="verbascifolia">verbascifolia</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Palicourea">Palicourea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="rigida">rigida</tp:taxon-name-part></tp:taxon-name></italic> (both dwarf shrub).</p>
+        <p>In forest habitats, the total density was 317 stems ha<sup>-1</sup>, and basal area was 12.41 m<sup>2</sup> ha<sup>-1</sup>. In <italic>buritizal</italic> habitat, basal area was 4.37 m<sup>2</sup> ha<sup>-1</sup>, 5.42 m<sup>2</sup> ha<sup>-1</sup> in riparian forest and 2.62 m<sup>2</sup> ha<sup>-1</sup> in forest island. The distribution of individuals by diameter classes in riparian forest showed that 55 individuals (54%) presented DBH &lt; 20 cm, and 36 (35%) had DBH between 20 and 40 cm, following by a decrease in the major classes, in an inverted-J form (Fig. <xref ref-type="fig" rid="F3622369">2</xref>). For vertical structure, the greatest number of individuals (96) occurred between 5 and 15 m in height (Fig. <xref ref-type="fig" rid="F3622369">2</xref>). In the forest island, 47 individuals presented DBH between 10 and 30 cm, and 54 individuals (82%) had DBH between 5 and 15 m. In <italic>buritizal</italic> habitat, 97 individuals (64%) presented DBH&gt; 20 cm following a decrease in the major classes. In relation to the vertical structure, 107 individuals (71%) presented height lower than 15 m.</p>
+        <p>In spite of the differences in the sampling methods and in the criteria for the inclusion of woody individuals, the present results indicated structural and phytosociological similarities with other studies carried out in non-forest (Table <xref ref-type="table" rid="T3622372">2</xref>) and forest (Table <xref ref-type="table" rid="T3622373">3</xref>) formations in savanna areas in the Amazon located in the states of Roraima and Rondônia. The availability of woody resources and the structure of individuals in the sampled areas near the Darora Indigenous Community highlight the need to perform a greater number of floristic inventories in the savanna areas of Roraima. In addition to the impacts represented by the intensive use of woody resources, this large savanna area of northern Amazon has been threatened by the impact of the intense use of natural resources and the rapid expansion of agribusiness and corporate forestry (<xref ref-type="bibr" rid="B3622491">Aguiar et al. 2014</xref>). This threat indicates greater magnitude and a real chance of irreversibility. Therefore, the broad knowledge on plant diversity of the Roraima savanna (<italic>lavrado</italic>) is paramount, and requires a necessary extension of the discussion of public conservation policies for the greatest savanna area of the Amazon biome, as pointed out by <xref ref-type="bibr" rid="B3622909">Pinto et al. (2014)</xref>.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Creative Commons Public Domain Waiver (CC-Zero)</p>
+      </sec>
+      <sec sec-type="IP rights notes">
+        <title>IP rights notes</title>
+        <p>These data can be freely used, provade resources is cited.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>Tree species composition in different habitats of savanna used by indigenous in the Northern Brazilian Amazonia</p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="http://www.gbif.org/dataset/80fdc69b-fb8f-48ef-9066-ade0f60ef5a0" xlink:type="simple">http://www.gbif.org/dataset/80fdc69b-fb8f-48ef-9066-ade0f60ef5a0</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Alternative identifiers">
+        <title>Alternative identifiers</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="https://ipt.sibbr.gov.br/sibbr/resource?r=darora_floristic_rr&amp;v=1.12" xlink:type="simple">https://ipt.sibbr.gov.br/sibbr/resource?r=darora_floristic_rr&amp;v=1.12</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>1</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Tree species composition in different habitats of savanna used by indigenous in the Northern Brazilian Amazonia</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Darwin Core Archive DwC-A</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>25</p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>Ocurrences of plants in four habitats in Amazonian Savanna in an indigenous community, State of Roraima. Data set consists of the eml.xml, meta_xml and ocurrence.txt containing the DwC-Attributes.</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">eventid</td>
+                  <td rowspan="1" colspan="1">A identifier for the record (record code)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">institutionCode</td>
+                  <td rowspan="1" colspan="1">Institution that has custody of the object or information about its registration</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceID</td>
+                  <td rowspan="1" colspan="1">A identifier for the occurrence</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">basisOfRecord</td>
+                  <td rowspan="1" colspan="1">The specific nature of the data record</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">collectionCode</td>
+                  <td rowspan="1" colspan="1">The name or acronym of the collection or dataset from which the record is derived</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">catalogNumbe</td>
+                  <td rowspan="1" colspan="1">An identifier (preferably unique) for the record within the dataset or collection</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">recordedBy</td>
+                  <td rowspan="1" colspan="1">List of names of persons or organizations responsible for the registration of the original occurrence</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventDate</td>
+                  <td rowspan="1" colspan="1">The date or period during which an event occurred</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">habitat</td>
+                  <td rowspan="1" colspan="1">Description of the habitat in which the event occurred</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">continent</td>
+                  <td rowspan="1" colspan="1">The Continent of the occurrence</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">country</td>
+                  <td rowspan="1" colspan="1">The Country of the occurrence</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">stateProvince</td>
+                  <td rowspan="1" colspan="1">The State or Province of the occurrence</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">county</td>
+                  <td rowspan="1" colspan="1">The County of the occurrence</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">locality</td>
+                  <td rowspan="1" colspan="1">The location-specific description</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLatitude</td>
+                  <td rowspan="1" colspan="1">The geographical latitude in decimal degrees of the geographical center of a location</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLongitude</td>
+                  <td rowspan="1" colspan="1">The geographical longitude in decimal degrees of the geographical center of a location</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">geodeticDatum</td>
+                  <td rowspan="1" colspan="1">The ellipsoid, geodetic datum, or spatial reference system (SRS) in which the geographical coordinates given in decimalLatitude and decimalLongitude are based</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">kingdom</td>
+                  <td rowspan="1" colspan="1">Full scientific name of the kingdom in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">family</td>
+                  <td rowspan="1" colspan="1">Full scientific name of the family in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">genus</td>
+                  <td rowspan="1" colspan="1">Full scientific name of the genus in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">specificEpithet</td>
+                  <td rowspan="1" colspan="1">Name of the species epithet of the scientificName</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificName</td>
+                  <td rowspan="1" colspan="1">The full scientific name. It must be the name of lowest level taxonomic rank that was determined.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">identificationQualifier</td>
+                  <td rowspan="1" colspan="1">A brief phrase or standard term ("cf.", "aff.") to express the determiner's doubts about identification.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">taxonRemarks</td>
+                  <td rowspan="1" colspan="1">Comments or notes about the taxon or name.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">language</td>
+                  <td rowspan="1" colspan="1">Language of the resource.</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>RLCO and ROP were supported by postgraduate fellowships provided by the <italic>Coordenação de Aperfeiçoamento de Pessoal de Nível Superior</italic> (CAPES) obtained through <italic>Programa de Pós-graduação em Botânica</italic> (INPA/PPG-Bot). RIB was supported by a fellowship granted by the National Council for Scientific and Technological Development of Brazil (CNPq 303081/2011-2). All the authors thank Darora indigenous community for permission to study in its traditional land. Mr. Sebastião Salvino de Souza, the students (UERR) Nelcimar Stoffel, Daisy Oliva, Jayane Mendes, Wisdeyvi Souza, the biologist MSc. Patricia Alfaia (INPA), and the Dr. Sandra Kariny Saldanha de Oliveira (UERR), for collaborations in the field work.</p>
+    </ack>
+    <notes>
+      <sec sec-type="Author contributions">
+        <title>Author contributions</title>
+        <p>RLC Oliveira (researcher), HLS Farias (statistic and data analiser), RO Perdiz (plant taxonomist), VV Scudeller (Adviser), RI Barbosa (Co-adviser).</p>
+      </sec>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B3622491">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Aguiar</surname>
+              <given-names>Agnaldo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barbosa</surname>
+              <given-names>Reinaldo Imbrozio</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barbosa</surname>
+              <given-names>J. B. F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mourão</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>Invasion of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Acacia">Acacia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mangium">mangium</tp:taxon-name-part></tp:taxon-name></italic> in Amazonian savannas following planting for forestry</article-title>
+          <source>Plant Ecology &amp; Diversity</source>
+          <volume>7</volume>
+          <issue>1-2</issue>
+          <fpage>359</fpage>
+          <lpage>369</lpage>
+          <pub-id pub-id-type="doi">10.1080/17550874.2013.771714</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3787094">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Alvares</surname>
+              <given-names>Clayton Alcarde</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stape</surname>
+              <given-names>José Luiz</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sentelhas</surname>
+              <given-names>Paulo Cesar</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gonçalves</surname>
+              <given-names>José Leonardo Moraes</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sparovek</surname>
+              <given-names>Gerd</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>Köppen’s climate classification map for Brazil</article-title>
+          <source>Meteorologische Zeitschrift</source>
+          <volume>22</volume>
+          <issue>6</issue>
+          <fpage>711</fpage>
+          <lpage>728</lpage>
+          <pub-id pub-id-type="doi">10.1127/0941-2948/2013/0507</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3622659">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Araújo</surname>
+              <given-names>A C O</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barbosa</surname>
+              <given-names>R I</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <article-title>Riqueza e diversidade do estrato arbóreo-arbustivo de duas áreas de savanas em Roraima. Amazônia brasileira</article-title>
+          <source>Mens Agitat</source>
+          <volume>2</volume>
+          <issue>1</issue>
+          <fpage>11</fpage>
+          <lpage>18</lpage>
+          <comment content-type="language">Portuguese</comment>
+        </element-citation>
+      </ref>
+      <ref id="B3787540">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Araújo</surname>
+              <given-names>M. A.M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rocha</surname>
+              <given-names>A. E.S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Miranda</surname>
+              <given-names>I. S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barbosa</surname>
+              <given-names>R. I.</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Hydro-edaphic conditions defining richness and species composition in savanna areas of the northern Brazilian Amazonia</article-title>
+          <source>Biodiversity Data Journal</source>
+          <volume>5</volume>
+          <fpage>13829</fpage>
+          <uri xlink:type="simple">https://doi.org/10.3897/BDJ.5.e13829</uri>
+          <pub-id pub-id-type="doi">10.3897/BDJ.5.e13829</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3622679">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Barbosa</surname>
+              <given-names>R I</given-names>
+            </name>
+          </person-group>
+          <year>1997</year>
+          <chapter-title>Distribuição das chuvas em Roraima</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Barbosa</surname>
+              <given-names>R I</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ferreira</surname>
+              <given-names>E J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Castellon</surname>
+              <given-names>E G</given-names>
+            </name>
+          </person-group>
+          <source>Homem, Ambiente e Ecologia no Estado de Roraima</source>
+          <edition>1</edition>
+          <volume>1</volume>
+          <publisher-name>INPA</publisher-name>
+          <publisher-loc>Manaus</publisher-loc>
+          <size units="page">325-335</size>
+          <comment content-type="language">Portuguese</comment>
+          <isbn>85-211-0008-6</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B3622693">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Barbosa</surname>
+              <given-names>R I</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Campos</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>Detection and geographical distribution of clearing areas in the savannas (‘lavrado’) of Roraima using Google Earth web tool</article-title>
+          <source>Journal of Geography and Regional Planning</source>
+          <volume>4</volume>
+          <issue>3</issue>
+          <fpage>122</fpage>
+          <lpage>136</lpage>
+          <uri xlink:type="simple">http://www.academicjournals.org/JGRP/PDF/pdf2011/Mar/Barbosa%20and%20Campos.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B3622703">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Barbosa</surname>
+              <given-names>R I</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fearnside</surname>
+              <given-names>P M</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <article-title>Fire frequency and area burned in the Roraima savanas of Brazilian Amazonia</article-title>
+          <source>Forest Ecology and Management</source>
+          <volume>204</volume>
+          <fpage>371</fpage>
+          <lpage>384</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.foreco.2004.09.011</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3622713">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Barbosa</surname>
+              <given-names>R I</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Campos</surname>
+              <given-names>C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pinto</surname>
+              <given-names>F</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fearnside</surname>
+              <given-names>P M</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <article-title>The “Lavrados” of Roraima: biodiversity and conservation of Brazil’s Amazonian Savannas</article-title>
+          <source>Functional Ecosystems and Communities</source>
+          <volume>1</volume>
+          <issue>1</issue>
+          <fpage>29</fpage>
+          <lpage>41</lpage>
+          <uri xlink:type="simple">http://www.globalsciencebooks.info/Online/GSBOnline/images/0706/FEC_1(1)/FEC_1(1)29-41o.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B3622723">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Barbosa</surname>
+              <given-names>R I</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nascimento</surname>
+              <given-names>S P</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Amorim</surname>
+              <given-names>P A F</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Silva</surname>
+              <given-names>R F</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <article-title>Notas sobre a composição arbóreo-arbustiva de uma fisionomia das savanas de Roraima, Amazônia Brasileira</article-title>
+          <source>Acta Botanica Brasilica</source>
+          <volume>19</volume>
+          <issue>2</issue>
+          <fpage>323</fpage>
+          <lpage>329</lpage>
+          <comment content-type="language">Portuguese</comment>
+          <pub-id pub-id-type="doi">10.1590/s0102-33062005000200015</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3622733">
+        <element-citation publication-type="thesis" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Demarchi</surname>
+              <given-names>L O</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <source>Composição, conhecimento e uso de plantas de campinarana por moradores da Reserva de Desenvolvimento Sustentável do Tupé – Amazônia Central</source>
+          <trans-title>Mestrado em Ciências Biológicas - Ecologia</trans-title>
+          <publisher-name>Instituto Nacional de Pesquisas da Amazônia</publisher-name>
+          <publisher-loc>Manaus</publisher-loc>
+          <size units="page">82</size>
+          <comment content-type="language">Portuguese</comment>
+        </element-citation>
+      </ref>
+      <ref id="B3622783">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Eden</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <year>1970</year>
+          <article-title>Savanna vegetation in the northern Rupununi, Guyana</article-title>
+          <source>Journal of Tropical Geography</source>
+          <volume>30</volume>
+          <fpage>17</fpage>
+          <lpage>28</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3622793">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Farias</surname>
+              <given-names>H L S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barth-Filho</surname>
+              <given-names>N</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Oliveira</surname>
+              <given-names>R L C</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Florística e fitossociologia de um trecho de mata de galeria do igarapé Traíra. Mucajaí-RR</article-title>
+          <source>Ambiente: Gestão e Desenvolvimento</source>
+          <volume>5</volume>
+          <fpage>11</fpage>
+          <lpage>28</lpage>
+          <comment content-type="language">Portuguese</comment>
+        </element-citation>
+      </ref>
+      <ref id="B3622803">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Flores</surname>
+              <given-names>A S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rodrigues</surname>
+              <given-names>R S</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>Diversidade de <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Leguminosae</tp:taxon-name-part></tp:taxon-name> em uma área de savana do estado de Roraima, Brasil</article-title>
+          <source>Acta Botanica Brasilica</source>
+          <volume>24</volume>
+          <issue>1</issue>
+          <fpage>175</fpage>
+          <lpage>183</lpage>
+          <comment content-type="language">Portuguese</comment>
+          <pub-id pub-id-type="doi">10.1590/S0102-33062010000100017</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3622813">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Hopkins</surname>
+              <given-names>M J G</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <article-title>Modelling the known and unknown plant biodiversity of the Amazon Basin</article-title>
+          <source>Journa of Biogeography</source>
+          <volume>34</volume>
+          <issue>8</issue>
+          <fpage>1400</fpage>
+          <lpage>1411</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2699.2007.01737.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3622833">
+        <element-citation publication-type="thesis" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Jaramillo</surname>
+              <given-names>M M A</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <source>Estrutura, biomassa arbórea e composição florística de ilhas de mata da savana de Roraima, norte da Amazônia Brasileira</source>
+          <trans-title>Dissertação de Mestrado em Recursos Naturais</trans-title>
+          <publisher-name>Universidade Federal de Roraima</publisher-name>
+          <publisher-loc>Boa Vista</publisher-loc>
+          <size units="page">65</size>
+          <comment content-type="language">Portuguese</comment>
+        </element-citation>
+      </ref>
+      <ref id="B3787067">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kent</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Coker</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <year>1995</year>
+          <source>Vegetation description analyses: a pratical approach</source>
+          <publisher-name>John Wiley &amp; Sons</publisher-name>
+          <publisher-loc>Chichester</publisher-loc>
+          <isbn>0471948101</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B3622851">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Melo</surname>
+              <given-names>M C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barbosa</surname>
+              <given-names>R I</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <source>Árvores e arbustos das savanas de Roraima – Guia de Campo Ilustrado</source>
+          <edition>1</edition>
+          <publisher-name>PMBV/CONSEMMA</publisher-name>
+          <publisher-loc>Boa Vista</publisher-loc>
+          <size units="page">36</size>
+          <comment content-type="language">Portuguese</comment>
+          <isbn>978-85-60860-00-5</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B3622860">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Miller</surname>
+              <given-names>R P</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wandelli</surname>
+              <given-names>E V</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Grenand</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <year>1989</year>
+          <article-title>Conhecimento e utilização da floresta pelos índios Waimiri-Atroari do rio Camanaú-Amazonas (1)</article-title>
+          <source>Acta Botanica Brasilica</source>
+          <volume>3</volume>
+          <issue>2</issue>
+          <fpage>47</fpage>
+          <lpage>56</lpage>
+          <comment content-type="language">Portuguese</comment>
+          <pub-id pub-id-type="doi">10.1590/S0102-33061989000300005</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3622870">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Milliken</surname>
+              <given-names>W</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Miller</surname>
+              <given-names>R P</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pollard</surname>
+              <given-names>S R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wandelli</surname>
+              <given-names>E V</given-names>
+            </name>
+          </person-group>
+          <year>1992</year>
+          <source>Ethnobotany of the Waimiri Atroari Indians of Brazil</source>
+          <publisher-name>Kew: Royal Botanic Gardens</publisher-name>
+          <publisher-loc>London</publisher-loc>
+          <size units="page">146</size>
+        </element-citation>
+      </ref>
+      <ref id="B3622879">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Miranda</surname>
+              <given-names>I S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Absy</surname>
+              <given-names>M L</given-names>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <article-title>Fisionomia das Savanas de Roraima. Brasil</article-title>
+          <source>Acta Amazonica</source>
+          <volume>31</volume>
+          <issue>1</issue>
+          <fpage>423</fpage>
+          <lpage>441</lpage>
+          <comment content-type="language">Portuguese</comment>
+          <pub-id pub-id-type="doi">10.1590/1809-43922000303440</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3622889">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Miranda</surname>
+              <given-names>I S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Absy</surname>
+              <given-names>M L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rebêlo</surname>
+              <given-names>G H</given-names>
+            </name>
+          </person-group>
+          <year>2003</year>
+          <article-title>Community structure of woody Plants of Roraima Savannahs. Brazil</article-title>
+          <source>Plant Ecology</source>
+          <volume>164</volume>
+          <fpage>109</fpage>
+          <lpage>123</lpage>
+          <pub-id pub-id-type="doi">10.1023/A:1021298328048</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3622899">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Miranda</surname>
+              <given-names>I S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Almeida</surname>
+              <given-names>S S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dantas</surname>
+              <given-names>P J</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <article-title>Florística e estrutura de comunidades arbóreas em cerrados de Rondônia. Brasil</article-title>
+          <source>Acta Amazonica</source>
+          <volume>36</volume>
+          <issue>4</issue>
+          <fpage>419</fpage>
+          <lpage>430</lpage>
+          <comment content-type="language">Portuguese</comment>
+          <pub-id pub-id-type="doi">10.1590/S0044-59672006000400004</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3622909">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Pinto</surname>
+              <given-names>F</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barbosa</surname>
+              <given-names>R I</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Keizer</surname>
+              <given-names>E H</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Campos</surname>
+              <given-names>C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lamberts</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Briglia-Ferreira</surname>
+              <given-names>S R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Souza</surname>
+              <given-names>B C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Azevedo</surname>
+              <given-names>R B</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Borges</surname>
+              <given-names>O B</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brasil</surname>
+              <given-names>S B M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cardoso</surname>
+              <given-names>G C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Macedo</surname>
+              <given-names>L</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>Análise multicritério para a seleção de uma área de conservação na maior savana da Amazônia</article-title>
+          <source>Acta Geográfica</source>
+          <volume>8</volume>
+          <fpage>50</fpage>
+          <lpage>70</lpage>
+          <comment content-type="language">Portuguese</comment>
+          <uri xlink:type="simple">http://revista.ufrr.br/index.php/actageo/article/view/1735</uri>
+        </element-citation>
+      </ref>
+      <ref id="B3622927">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ribeiro</surname>
+              <given-names>J E L S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hopkins</surname>
+              <given-names>M J G</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vicentini</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sothers</surname>
+              <given-names>C A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Costa</surname>
+              <given-names>M A S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brito</surname>
+              <given-names>J M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Souza</surname>
+              <given-names>M A D</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Martins</surname>
+              <given-names>L H P</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lohmann</surname>
+              <given-names>L G</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Assunção</surname>
+              <given-names>P A C L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pereira</surname>
+              <given-names>E C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Silva</surname>
+              <given-names>C F</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mesquita</surname>
+              <given-names>M R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Procópio</surname>
+              <given-names>L C</given-names>
+            </name>
+          </person-group>
+          <year>1999</year>
+          <source>Flora da Reserva Ducke: guia de identificação das plantas vasculares de uma floresta de terra-firme na Amazônia Central</source>
+          <publisher-name>INPA/DFID</publisher-name>
+          <publisher-loc>Manaus</publisher-loc>
+          <size units="page">799</size>
+          <comment content-type="language">Portuguese</comment>
+        </element-citation>
+      </ref>
+      <ref id="B3622946">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Sanaiotti</surname>
+              <given-names>T M</given-names>
+            </name>
+          </person-group>
+          <year>1997</year>
+          <chapter-title>Comparação fitossociológica de quatro savanas de Roraima</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Barbosa</surname>
+              <given-names>R I</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ferreira</surname>
+              <given-names>E</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Castellón</surname>
+              <given-names>E</given-names>
+            </name>
+          </person-group>
+          <source>Homem, Ambiente e Ecologia no Estado de Roraima</source>
+          <publisher-name>INPA/Manaus</publisher-name>
+          <publisher-loc>Manaus</publisher-loc>
+          <size units="page">481-488</size>
+          <comment content-type="language">Portuguese</comment>
+          <isbn>85-211-0008-6</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B3622979">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Santos</surname>
+              <given-names>N M C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vale-Jr.</surname>
+              <given-names>J F</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barbosa</surname>
+              <given-names>R I</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Florística e estrutura arbórea de ilhas de mata em áreas de savana no norte da Amazônia brasileira</article-title>
+          <source>Boletim do Museu Paraense Emílio Goeldi (Ciências Naturais)</source>
+          <volume>8</volume>
+          <issue>2</issue>
+          <fpage>205</fpage>
+          <lpage>221</lpage>
+          <comment content-type="language">Portuguese</comment>
+          <uri xlink:type="simple">http://www.museu-goeldi.br/editora/bn/artigos/cnv8n2_2013/floristica(santos).pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B3622970">
+        <element-citation publication-type="thesis" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Sette-Silva</surname>
+              <given-names>E L</given-names>
+            </name>
+          </person-group>
+          <year>1993</year>
+          <source>Inventário preliminar das espécies arbóreas das florestas dos arredores de Boa Vista (Roraima) - Uma Abordagem Fitossociológica</source>
+          <trans-title>Dissertação de Mestrado em Botânica</trans-title>
+          <publisher-name>Instituto Nacional de Pesquisas da Amazônia</publisher-name>
+          <publisher-loc>Manaus</publisher-loc>
+          <size units="page">194</size>
+          <comment content-type="language">Portuguese</comment>
+        </element-citation>
+      </ref>
+      <ref id="B3622989">
+        <element-citation publication-type="thesis" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Silva</surname>
+              <given-names>U S C</given-names>
+            </name>
+          </person-group>
+          <year>2003</year>
+          <source>Fitossociologia do Componente Arbóreo e Não Arbóreo de uma Floresta Tropical em Cantá – RR. Brazil</source>
+          <trans-title>Dissertação de Mestrado</trans-title>
+          <publisher-name>Universidade Federal Rural da Amazônia</publisher-name>
+          <publisher-loc>Belém</publisher-loc>
+          <size units="page">63</size>
+          <comment content-type="language">Portuguese</comment>
+        </element-citation>
+      </ref>
+      <ref id="B3622998">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Steege</surname>
+              <given-names>H ter</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Hyperdominance in the Amazonian Tree Flora</article-title>
+          <source>Science</source>
+          <volume>342</volume>
+          <fpage>325</fpage>
+          <lpage>336</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3788465">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>List</surname>
+              <given-names>The Plant</given-names>
+            </name>
+          </person-group>
+          <article-title>Version 1.1. Published on the Internet</article-title>
+          <uri xlink:type="simple">http://www.theplantlist.org/</uri>
+          <date-in-citation content-type="access-date">2017-09-20T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B3623018">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Wittmann</surname>
+              <given-names>F</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schongart</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brito</surname>
+              <given-names>J M De</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wittmann</surname>
+              <given-names>A O</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Piedade</surname>
+              <given-names>M T F</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Parolin</surname>
+              <given-names>P</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Junk</surname>
+              <given-names>W J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Guillaumet</surname>
+              <given-names>J L</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <source>Manual of trees from Central Amazonian varzea floodplains: taxonomy. ecology and use</source>
+          <edition>1</edition>
+          <publisher-name>Editora INPA</publisher-name>
+          <publisher-loc>Manaus</publisher-loc>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F3622367" position="float" orientation="portrait">
+      <object-id content-type="arpha">347B4383-D3DA-59D9-8591-4A777F10F43B</object-id>
+      <object-id content-type="doi">10.3897/BDJ.5.e20044.figure1</object-id>
+      <object-id content-type="zenodo_dep_id">1137062</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Number of individuals sampled in non-forest habitats in the north of the state of Roraima expressed by diameter classes (DSH ≥ 2 cm); and estimated height of individuals.</p>
+      </caption>
+      <graphic xlink:href="bdj-05-e20044-g001.jpg" position="float" id="oo_131216.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/131216</uri>
+      </graphic>
+    </fig>
+    <fig id="F3622369" position="float" orientation="portrait">
+      <object-id content-type="arpha">DD836EED-447A-5FE1-A0CC-05C0C4809D0A</object-id>
+      <object-id content-type="doi">10.3897/BDJ.5.e20044.figure2</object-id>
+      <object-id content-type="zenodo_dep_id">1137064</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>Number of individuals sampled in forest habitats (riparian forest, forest island and <italic>Buritizal</italic>) in the north of the state of Roraima, expressed by diameter classes (DBH ≥ 10cm), and estimated height of individuals.</p>
+      </caption>
+      <graphic xlink:href="bdj-05-e20044-g002.jpg" position="float" id="oo_131217.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/131217</uri>
+      </graphic>
+    </fig>
+    <table-wrap id="T3622371" position="float" orientation="portrait">
+      <label>Table 1.</label>
+      <caption>
+        <p>Occurrence of families and species in non-forest (typical savanna) and forest habitats (riparian forest, forest island and <italic>buritizal</italic>). UFRR = number of record in the Herbarium of the Universidade Federal de Roraima.</p>
+      </caption>
+      <table rules="all" border="0">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Families/Species</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Typical Savanna</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Riparian forest</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Forest island</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>Buritizal</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>UFRR</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">ANACARDIACEAE</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Tapirira">Tapirira</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="guianensis">guianensis</tp:taxon-name-part></tp:taxon-name></italic> Aubl.</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">16</td>
+            <td rowspan="1" colspan="1">8431</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Spondias">Spondias</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mombin">mombin</tp:taxon-name-part></tp:taxon-name></italic> L.</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">-</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">ANNONACEAE</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Guatteria">Guatteria</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">10</td>
+            <td rowspan="1" colspan="1">8442</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Xylopia">Xylopia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="aromatica">aromatica</tp:taxon-name-part></tp:taxon-name></italic> (Lam.) Mart.</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">8449</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">APOCYNACEAE</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Himatanthus">Himatanthus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="drasticus">drasticus</tp:taxon-name-part></tp:taxon-name></italic> (Mart.) Plumel</td>
+            <td rowspan="1" colspan="1">17</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">8487</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Malouetia">Malouetia</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">8444</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">ARECACEAE</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Mauritia">Mauritia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="flexuosa">flexuosa</tp:taxon-name-part></tp:taxon-name></italic> L. f.</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">27</td>
+            <td rowspan="1" colspan="1">-</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Euterpe">Euterpe</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="precatoria">precatoria</tp:taxon-name-part></tp:taxon-name></italic> Mart.</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">17</td>
+            <td rowspan="1" colspan="1">-</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">BIGNONIACEAE</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Godmania">Godmania</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="aesculifolia">aesculifolia</tp:taxon-name-part></tp:taxon-name></italic> (Kunth) Standl.</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">8472</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">BIXACEAE</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Bixa">Bixa</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="arborea">arborea</tp:taxon-name-part></tp:taxon-name></italic> Huber</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">8467</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">BURSERACEAE</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Trattinickia">Trattinickia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="rhoifolia">rhoifolia</tp:taxon-name-part></tp:taxon-name></italic> Willd.</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">7</td>
+            <td rowspan="1" colspan="1">8440</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">CARYOCARACEAE</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Caryocar">Caryocar</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="microcarpum">microcarpum</tp:taxon-name-part></tp:taxon-name></italic> Ducke</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">8447</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">CHRYSOBALANACEAE</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Couepia">Couepia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="multiflora">multiflora</tp:taxon-name-part></tp:taxon-name></italic> Benth.</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">8450</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hirtella">Hirtella</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="paniculata">paniculata</tp:taxon-name-part></tp:taxon-name></italic> Sw.</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">8435</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">COMBRETACEAE</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Buchenavia">Buchenavia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="capitata">capitata</tp:taxon-name-part></tp:taxon-name></italic> (Vahl) Eichler</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">8445</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">DILLENIACEAE</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Curatella">Curatella</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="americana">americana</tp:taxon-name-part></tp:taxon-name></italic> L.</td>
+            <td rowspan="1" colspan="1">18</td>
+            <td rowspan="1" colspan="1">7</td>
+            <td rowspan="1" colspan="1">18</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">8446</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">ERYTHROXYLACEAE</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Erythroxylum">Erythroxylum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="suberosum">suberosum</tp:taxon-name-part></tp:taxon-name></italic> A. St.-Hil.</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">9</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">8457</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">EUPHORBIACEAE</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Alchornea">Alchornea</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1">8433</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">FABACEAE</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Anadenanthera">Anadenanthera</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="peregrina">peregrina</tp:taxon-name-part></tp:taxon-name></italic> (L.) Speg.</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">8475</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Andira">Andira</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">8465</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Bowdichia">Bowdichia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="virgilioide">virgilioide</tp:taxon-name-part></tp:taxon-name></italic>s Kunth</td>
+            <td rowspan="1" colspan="1">19</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">8471</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cassia">Cassia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="moschata">moschata</tp:taxon-name-part></tp:taxon-name></italic> Kunth</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">8452</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cassia">Cassia</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">16</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">8456</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Copaifera">Copaifera</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pubiflora">pubiflora</tp:taxon-name-part></tp:taxon-name></italic> Benth.</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">8454</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cynometra">Cynometra</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="bauhiniifolia">bauhiniifolia</tp:taxon-name-part></tp:taxon-name></italic> Benth.</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">8</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">8460</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Etabalia">Etabalia</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">20</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">8459</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hydrochorea">Hydrochorea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="corymbosa">corymbosa</tp:taxon-name-part></tp:taxon-name></italic> (Rich.) Barneby &amp; J.W.Grimes</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">8468</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Machaerium">Machaerium</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="aculeatum">aculeatum</tp:taxon-name-part></tp:taxon-name></italic> Raddi</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">8473</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ormosia">Ormosia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="smithii">smithii</tp:taxon-name-part></tp:taxon-name></italic> Rudd.</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">14</td>
+            <td rowspan="1" colspan="1">8437</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Swartzia">Swartzia</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">8478</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">HUMIRIACEAE</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Humiria">Humiria</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="balsamifera">balsamifera</tp:taxon-name-part></tp:taxon-name></italic> Aubl.</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1">8429</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">LAURACEAE</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Endlicheria">Endlicheria</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">14</td>
+            <td rowspan="1" colspan="1">8432</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">LECYTHIDACEAE</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eschweilera">Eschweilera</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">8463</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">LOGANIACEAE</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Antonia">Antonia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="ovata">ovata</tp:taxon-name-part></tp:taxon-name></italic> Pohl.</td>
+            <td rowspan="1" colspan="1">107</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">8485</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">MALPIGHIACEAE</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Bunchosia">Bunchosia</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">8462</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Byrsonima">Byrsonima</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="coccolobifolia">coccolobifolia</tp:taxon-name-part></tp:taxon-name></italic> Kunth</td>
+            <td rowspan="1" colspan="1">163</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">8483</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Byrsonima">Byrsonima</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="crassifolia">crassifolia</tp:taxon-name-part></tp:taxon-name></italic> (L.) Kunth</td>
+            <td rowspan="1" colspan="1">268</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">8482</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Byrsonima">Byrsonima</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">8443</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Byrsonima">Byrsonima</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="verbascifolia">verbascifolia</tp:taxon-name-part></tp:taxon-name></italic> (L.) DC.</td>
+            <td rowspan="1" colspan="1">19</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">8480</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">MALVACEAE</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ceiba">Ceiba</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">-</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">MORACEAE</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sorocea">Sorocea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="duckei">duckei</tp:taxon-name-part></tp:taxon-name></italic> W.C. Burger</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">8455</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">MYRISTICACEAE</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Virola">Virola</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mollissima">mollissima</tp:taxon-name-part></tp:taxon-name></italic> (Poepp. ex. A. DC.) Warb.</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">11</td>
+            <td rowspan="1" colspan="1">8430</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Virola">Virola</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="surinamensis">surinamensis</tp:taxon-name-part></tp:taxon-name></italic> (Rol. ex Rottb.) Warb.</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">5</td>
+            <td rowspan="1" colspan="1">8441</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">MYRTACEAE</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eugenia">Eugenia</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">8464</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Myrcia">Myrcia</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">8453</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">PHYLLANTHACEAE</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Amanoa">Amanoa</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="guianensis">guianensis</tp:taxon-name-part></tp:taxon-name></italic> Aubl.</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">8448</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">PROTEACEAE</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Roupala">Roupala</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="montana">montana</tp:taxon-name-part></tp:taxon-name></italic> Aubl.</td>
+            <td rowspan="1" colspan="1">81</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">8484</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">RUBIACEAE</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Genipa">Genipa</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="americana">americana</tp:taxon-name-part></tp:taxon-name></italic> L.</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">10</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">8488</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Palicourea">Palicourea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="rigida">rigida</tp:taxon-name-part></tp:taxon-name></italic> Kunth.</td>
+            <td rowspan="1" colspan="1">17</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">8489</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">SALICACEAE</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Xylosma">Xylosma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="benthamii">benthamii</tp:taxon-name-part></tp:taxon-name></italic> (Tul.) Triana &amp; Planch.</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">8474</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">VERBENACEAE</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Vitex">Vitex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="cymosa">cymosa</tp:taxon-name-part></tp:taxon-name></italic> Betero ex Spreng.</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">8</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">8461</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Vitex">Vitex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="schomburgkiana">schomburgkiana</tp:taxon-name-part></tp:taxon-name></italic> Schauer</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">10</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">8470</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T3622372" position="float" orientation="portrait">
+      <label>Table 2.</label>
+      <caption>
+        <p>Comparison of richness, diversity and evenness in studies carried out in non-forest habitats occurring in savannas areas of Roraima and state of Rondônia (RO), where: D = diameter used in the research, DBH = diameter at breast height, DSH = diameter at soil height, S = species richness, H' = Shannon diversity index, and J' = Pielou evenness. * Data correspond to a single study that was separately presented here in its different physiognomies to better compare the data.</p>
+      </caption>
+      <table rules="all" border="1">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Municipality</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Phytophysiognomy</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Samplingmethods</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>D</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>S</bold>
+            </td>
+            <td rowspan="1" colspan="1"><bold>H</bold>'</td>
+            <td rowspan="1" colspan="1"><bold>J</bold>'</td>
+            <td rowspan="1" colspan="1">
+              <bold>References</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Boa Vista and Amajari</td>
+            <td rowspan="1" colspan="1">Savanna tree and Savannah park</td>
+            <td rowspan="1" colspan="1">Quadrants (80 points) 4 transects</td>
+            <td rowspan="1" colspan="1">DBH ≥ 5 cm</td>
+            <td rowspan="1" colspan="1">8</td>
+            <td rowspan="1" colspan="1">0.8-1.28</td>
+            <td rowspan="1" colspan="1">0.68-0.80</td>
+            <td rowspan="1" colspan="1">
+              <xref ref-type="bibr" rid="B3622946">Sanaiotti 1997</xref>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Boa Vista</td>
+            <td rowspan="1" colspan="1">Savanna grassy-woody and Savanna park</td>
+            <td rowspan="1" colspan="1">Plots (45 points) 6.75 ha</td>
+            <td rowspan="1" colspan="1">DSH ≥ 2 cm</td>
+            <td rowspan="1" colspan="1">71</td>
+            <td rowspan="1" colspan="1">1.12</td>
+            <td rowspan="1" colspan="1">0.26</td>
+            <td rowspan="1" colspan="1">
+              <xref ref-type="bibr" rid="B3622889">Miranda et al. 2003</xref>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Alto Alegre and Boa Vista</td>
+            <td rowspan="1" colspan="1">Savanna grassy-woody and Savanna park</td>
+            <td rowspan="1" colspan="1">Plots (3 points) 0.9 ha</td>
+            <td rowspan="1" colspan="1">DSH ≥ 2 cm</td>
+            <td rowspan="1" colspan="1">29</td>
+            <td rowspan="1" colspan="1">0.87</td>
+            <td rowspan="1" colspan="1">0.26</td>
+            <td rowspan="1" colspan="1">
+              <xref ref-type="bibr" rid="B3622723">Barbosa et al. 2005</xref>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Vilhena, RO</td>
+            <td rowspan="1" colspan="1">Cerradão</td>
+            <td rowspan="1" colspan="1">Plots 1 ha</td>
+            <td rowspan="1" colspan="1">DBH ≥ 10 cm</td>
+            <td rowspan="1" colspan="1">60</td>
+            <td rowspan="1" colspan="1">3.45</td>
+            <td rowspan="1" colspan="1">0.84</td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B3622899">Miranda et al. 2006</xref>*</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Vilhena, RO</td>
+            <td rowspan="1" colspan="1">Campo sujo</td>
+            <td rowspan="1" colspan="1">Plots 1 ha</td>
+            <td rowspan="1" colspan="1">DBH ≥ 10 cm</td>
+            <td rowspan="1" colspan="1">26</td>
+            <td rowspan="1" colspan="1">2.34</td>
+            <td rowspan="1" colspan="1">0.72</td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B3622899">Miranda et al. 2006</xref>*</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Vilhena, RO</td>
+            <td rowspan="1" colspan="1">Cerrado <italic>sensu stricto</italic></td>
+            <td rowspan="1" colspan="1">Plots 1 ha</td>
+            <td rowspan="1" colspan="1">DBH ≥ 10 cm</td>
+            <td rowspan="1" colspan="1">39</td>
+            <td rowspan="1" colspan="1">2.63</td>
+            <td rowspan="1" colspan="1">0.72</td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B3622899">Miranda et al. 2006</xref>*</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Vilhena, RO</td>
+            <td rowspan="1" colspan="1">Cerrado <italic>sensu stricto</italic></td>
+            <td rowspan="1" colspan="1">Plots 1 ha</td>
+            <td rowspan="1" colspan="1">DBH ≥ 10 cm</td>
+            <td rowspan="1" colspan="1">45</td>
+            <td rowspan="1" colspan="1">2.9</td>
+            <td rowspan="1" colspan="1">0.76</td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B3622899">Miranda et al. 2006</xref>*</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Boa Vista</td>
+            <td rowspan="1" colspan="1">Savanna grassy-woody</td>
+            <td rowspan="1" colspan="1">Plots (2 points) 1.1 ha</td>
+            <td rowspan="1" colspan="1">DSH ≥ 6.5 cm</td>
+            <td rowspan="1" colspan="1">19</td>
+            <td rowspan="1" colspan="1">0.59-1.2</td>
+            <td rowspan="1" colspan="1">0.20-0.46</td>
+            <td rowspan="1" colspan="1">
+              <xref ref-type="bibr" rid="B3622659">Araújo and Barbosa 2007</xref>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Boa Vista</td>
+            <td rowspan="1" colspan="1">Savanna grassy-woody and Savanna park</td>
+            <td rowspan="1" colspan="1">Plots (4 points) 1 ha</td>
+            <td rowspan="1" colspan="1">DSH ≥ 2 cm</td>
+            <td rowspan="1" colspan="1">9</td>
+            <td rowspan="1" colspan="1">1.7</td>
+            <td rowspan="1" colspan="1">0.77</td>
+            <td rowspan="1" colspan="1">Present study</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T3622373" position="float" orientation="portrait">
+      <label>Table 3.</label>
+      <caption>
+        <p>Comparison of richness, diversity and evenness in studies carried out in forest habitats occurring in savannas areas of Roraima, where: D = diameter used in the research, DBH = diameter at breast height, DSH = diameter at soil height, S = species richness, H' = Shannon diversity index and J' = Pielou evenness. * Data correspond to a single study that was separately presented here in its different physiognomies to better compare the data.</p>
+      </caption>
+      <table rules="all" border="1">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Municipality</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Phytophysiognomy</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Sampling methods</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>DBH (cm)</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>S</bold>
+            </td>
+            <td rowspan="1" colspan="1"><bold>H</bold>'</td>
+            <td rowspan="1" colspan="1"><bold>J</bold>'</td>
+            <td rowspan="1" colspan="1">
+              <bold>References</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Cantá</td>
+            <td rowspan="1" colspan="1">Riparian Forest</td>
+            <td rowspan="1" colspan="1">Plots / 0.4 ha</td>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1">104</td>
+            <td rowspan="1" colspan="1">6.16</td>
+            <td rowspan="1" colspan="1">0.92</td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B3622970">Sette-Silva 1993</xref>*</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Cantá</td>
+            <td rowspan="1" colspan="1">Forest Island</td>
+            <td rowspan="1" colspan="1">Plots / 0.08 ha</td>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1">47</td>
+            <td rowspan="1" colspan="1">4.86</td>
+            <td rowspan="1" colspan="1">0.87</td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B3622970">Sette-Silva 1993</xref>*</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Boa Vista</td>
+            <td rowspan="1" colspan="1">Riparian Forest</td>
+            <td rowspan="1" colspan="1">Plots / 0.2 ha</td>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1">59</td>
+            <td rowspan="1" colspan="1">5.41</td>
+            <td rowspan="1" colspan="1">0.92</td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B3622970">Sette-Silva 1993</xref>*</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Boa Vista</td>
+            <td rowspan="1" colspan="1">Forest Island</td>
+            <td rowspan="1" colspan="1">Plots / 0.28 ha</td>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1">56</td>
+            <td rowspan="1" colspan="1">4.94</td>
+            <td rowspan="1" colspan="1">0.85</td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B3622970">Sette-Silva 1993</xref>*</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Cantá</td>
+            <td rowspan="1" colspan="1">Wooded savanna</td>
+            <td rowspan="1" colspan="1">Plots 0.35 ha</td>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1">72</td>
+            <td rowspan="1" colspan="1">4.48</td>
+            <td rowspan="1" colspan="1">0.73</td>
+            <td rowspan="1" colspan="1"><xref ref-type="bibr" rid="B3622970">Sette-Silva 1993</xref>*</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Cantá</td>
+            <td rowspan="1" colspan="1">Savanna - SeasonalForest Submontane</td>
+            <td rowspan="1" colspan="1">Transects (2 points) 3.6 ha</td>
+            <td rowspan="1" colspan="1">30</td>
+            <td rowspan="1" colspan="1">61</td>
+            <td rowspan="1" colspan="1">3.39</td>
+            <td rowspan="1" colspan="1">0.82</td>
+            <td rowspan="1" colspan="1">
+              <xref ref-type="bibr" rid="B3622989">Silva 2003</xref>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Mucajaí</td>
+            <td rowspan="1" colspan="1">Riparian Forest</td>
+            <td rowspan="1" colspan="1">Plots / 0.4 ha</td>
+            <td rowspan="1" colspan="1">9.55</td>
+            <td rowspan="1" colspan="1">33</td>
+            <td rowspan="1" colspan="1">2.28</td>
+            <td rowspan="1" colspan="1">0.65</td>
+            <td rowspan="1" colspan="1">
+              <xref ref-type="bibr" rid="B3622793">Farias et al. 2012</xref>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Boa Vista</td>
+            <td rowspan="1" colspan="1">Forest Island</td>
+            <td rowspan="1" colspan="1">Plots (4 points) 0.64 ha</td>
+            <td rowspan="1" colspan="1">5</td>
+            <td rowspan="1" colspan="1">52</td>
+            <td rowspan="1" colspan="1">1.89-3.16</td>
+            <td rowspan="1" colspan="1">0.67-0.87</td>
+            <td rowspan="1" colspan="1">
+              <xref ref-type="bibr" rid="B3622979">Santos et al. 2013</xref>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Boa Vista</td>
+            <td rowspan="1" colspan="1">Forest Island</td>
+            <td rowspan="1" colspan="1">Plots (12 points) 2.48 ha</td>
+            <td rowspan="1" colspan="1">10</td>
+            <td rowspan="1" colspan="1">112</td>
+            <td rowspan="1" colspan="1">3.86</td>
+            <td rowspan="1" colspan="1">0.82</td>
+            <td rowspan="1" colspan="1">
+              <xref ref-type="bibr" rid="B3622833">Jaramillo 2015</xref>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Boa Vista</td>
+            <td rowspan="1" colspan="1">Riparian Forest</td>
+            <td rowspan="1" colspan="1">Plots / 0.5 ha</td>
+            <td rowspan="1" colspan="1">10</td>
+            <td rowspan="1" colspan="1">22</td>
+            <td rowspan="1" colspan="1">2.63</td>
+            <td rowspan="1" colspan="1">0.57</td>
+            <td rowspan="1" colspan="1">Present study</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Boa Vista</td>
+            <td rowspan="1" colspan="1">Buritizal</td>
+            <td rowspan="1" colspan="1">Plots / 0.25 ha</td>
+            <td rowspan="1" colspan="1">10</td>
+            <td rowspan="1" colspan="1">19</td>
+            <td rowspan="1" colspan="1">2.59</td>
+            <td rowspan="1" colspan="1">0.88</td>
+            <td rowspan="1" colspan="1">Present study</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Boa Vista</td>
+            <td rowspan="1" colspan="1">Forest Island</td>
+            <td rowspan="1" colspan="1">Plots / 0.25 ha</td>
+            <td rowspan="1" colspan="1">10</td>
+            <td rowspan="1" colspan="1">13</td>
+            <td rowspan="1" colspan="1">2.21</td>
+            <td rowspan="1" colspan="1">0.86</td>
+            <td rowspan="1" colspan="1">Present study</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <supplementary-material id="S3624396" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">D9C021F9-BDA5-5943-9844-9E3C9052098F</object-id>
+      <object-id content-type="doi">10.3897/BDJ.5.e20044.suppl1</object-id>
+      <object-id content-type="zenodo_dep_id">1137066</object-id>
+      <label>Supplementary material 1</label>
+      <caption>
+        <p>DBS and Heights of individuals in non-forest (typical savanna) and forest habitats (riparian forest, forest island and <italic>buritizal</italic>)</p>
+      </caption>
+      <p>Data type: ocurrences</p>
+      <p>File: oo_132089.xlsx</p>
+      <media xlink:href="bdj-05-e20044-s001.xlsx" mimetype="Microsoft Excel Document" mime-subtype="xlsx" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/132089</uri>
+      </media>
+      <attrib specific-use="authors">Rodrigo Leonardo Costa de Oliveira</attrib>
+    </supplementary-material>
+    <supplementary-material id="S3788133" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">D43037C4-6FFF-5A1F-8F07-0E0F07EE7E47</object-id>
+      <object-id content-type="doi">10.3897/BDJ.5.e20044.suppl2</object-id>
+      <object-id content-type="zenodo_dep_id">1137068</object-id>
+      <label>Supplementary material 2</label>
+      <caption>
+        <p>Ethnomap of Darora Community, Boa Vista, Roraima.</p>
+      </caption>
+      <p>Data type: image</p>
+      <p>Brief description: This ethnomapa was developemented with the participation of the inhabitants of different ages. In legend: Farm area, "roças" (cultivated areas), road, rivers, lakes, residences, frontiers, community center (malocão).</p>
+      <p>File: oo_157453.jpg</p>
+      <media xlink:href="bdj-05-e20044-s002.jpg" mimetype="jpg file" mime-subtype="jpg" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/157453</uri>
+      </media>
+      <attrib specific-use="authors">Rodrigo Leonardo Costa de Oliveira</attrib>
+    </supplementary-material>
+  </floats-group>
+</article>

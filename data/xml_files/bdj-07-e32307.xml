@@ -1,0 +1,2347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="3.0" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.7.e32307</article-id>
+      <article-id pub-id-type="publisher-id">32307</article-id>
+      <article-id pub-id-type="manuscript">10606</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Moss occurrences in Yugyd Va National Park, Subpolar and Northern Urals, European North-East Russia</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Zheleznova</surname>
+            <given-names>Galina</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes" xlink:type="simple">
+          <name name-style="western">
+            <surname>Shubina</surname>
+            <given-names>Tatyana</given-names>
+          </name>
+          <email xlink:type="simple">tshubina@ib.komisc.ru</email>
+          <uri content-type="orcid" xlink:type="simple">https://orcid.org/0000-0001-6166-7325</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Degteva</surname>
+            <given-names>Svetlana</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Chadin</surname>
+            <given-names>Ivan</given-names>
+          </name>
+          <uri content-type="orcid" xlink:type="simple">https://orcid.org/0000-0001-6299-2285</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Rubtsov</surname>
+            <given-names>Mikhail</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Institute of Biology of Komi Scientific Centre of the Ural Branch of the Russian Academy of Sciences, Syktyvkar, Russia</addr-line>
+        <institution xlink:type="simple">Institute of Biology of Komi Scientific Centre of the Ural Branch of the Russian Academy of Sciences</institution>
+        <addr-line content-type="city">Syktyvkar</addr-line>
+        <country>Russia</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Tatyana Shubina (<email xlink:type="simple">tshubina@ib.komisc.ru</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Yasen Mutafchiev</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>01</day>
+        <month>04</month>
+        <year>2019</year>
+      </pub-date>
+      <volume>7</volume>
+      <elocation-id>e32307</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/FE3FD336-4879-5C86-9301-9214D9C5BBA7">FE3FD336-4879-5C86-9301-9214D9C5BBA7</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/2633437">2633437</uri>
+      <history>
+        <date date-type="received">
+          <day>11</day>
+          <month>12</month>
+          <year>2018</year>
+        </date>
+        <date date-type="accepted">
+          <day>25</day>
+          <month>03</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Galina Zheleznova, Tatyana Shubina, Svetlana Degteva, Ivan Chadin, Mikhail Rubtsov</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>This study produced a dataset containing information on moss occurrences in the territory of Yugyd Va National Park, located in the Subpolar and Northern Urals, European North-East Russia. The dataset summarises occurrences noted by long-term bryological explorations in remote areas of the Subpolar and Northern Urals from 1943 to 2015 and from studies published since 1915.</p>
+          <p>The dataset consists of 4,120 occurrence records. The occurrence data were extracted from herbarium specimen labels (3,833 records) and data from published literature (287 records). Most of the records (4,104) are georeferenced.</p>
+          <p>A total of 302 moss taxa belonging to 112 genera and 36 families are reported herein to occur in Yugyd Va National Park. The diversity of bryophytes in this National Park has not yet been fully explored and further exploration will lead to more taxa.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>A total of 4,120 moss occurrences records in the territory of Yugyd Va National Park were published.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>dataset</kwd>
+        <kwd>moss occurrences</kwd>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="phylum">Bryophyta</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>field study</kwd>
+        <kwd>herbarium data</kwd>
+        <kwd>literature reports</kwd>
+        <kwd>data paper</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="3"/>
+        <table-count count="2"/>
+        <ref-count count="34"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>Yugyd Va National Park is the largest protected area in the Komi Republic. The area of Yugyd Va is 18,941 km<sup>2</sup> or 35% of the total area of all the Komi Republic’s protected areas. Yugyd Va National Park and Pechora-Ilych Nature Reserve (the latter being adjacent to the southern part of the National Park) were recognised by UNESCO as a World Heritage Site, the Virgin Komi Forests, in 1995. This territory is a remnant of the largest intact forest area in Europe. This area is a refugium for many animal and plant species that are endangered or have disappeared in other places and functions as a source of genetic diversity for many boreal species’ populations (<xref ref-type="bibr" rid="B4906652">Degteva and Ponomarev 2014</xref>).</p>
+      <p>The earliest data on the mosses of Yugyd Va National Park were published by the famous Russian botanist R.R. Pole (<xref ref-type="bibr" rid="B4906808">Pole 1915</xref>). His investigations were carried out in 1905 and 1907 in the Shchugor River basin in the Northern Urals. Later, Y. Tsinserling in 1926 and P.L. Gorchakovskii in 1954 collected mosses in the vicinity of Mount Sablya in the Subpolar Urals (<xref ref-type="bibr" rid="B4906862">Tsinzerling 1935</xref>, <xref ref-type="bibr" rid="B4906684">Gorchakovskiy 1958</xref>). V.B. Kuvaev collected mosses on the mountain slopes in the basins of the Shchugor River in the Northern Urals and the Kozhim River in the Subpolar Urals in 1948-1949 (<xref ref-type="bibr" rid="B4906784">Kuvaev 1970</xref>). A.P. Dyachenko conducted botanical research in 1984 on Mount Narodnaya in the Kosyu River basin in the Subpolar Urals (<xref ref-type="bibr" rid="B4906661">Dyachenko 1997</xref>, <xref ref-type="bibr" rid="B4906670">Dyachenko and Fomicheva 1986</xref>). I.D. Kildyushevskiy explored the vegetation cover of the Subpolar Urals in the Kozhym River basin in 1948-1951. Collections made in the course of these studies created the background for further accounts devoted to the moss flora of the Subpolar Urals (<xref ref-type="bibr" rid="B4906767">Kildyushevskiy 1956</xref>).</p>
+      <p>Specialists from the Institute of Biology of Komi Scientific Centre of the Ural Branch of the Russian Academy of Sciences began botanical exploration of Yugyd Va National Park in 1943. As a result, 3,829 moss occurrences were recorded from its territory by 2015 (or 93% of the known moss occurrences in the park). More than 99% of the moss samples from this protected area, stored in the SYKO Herbarium, were collected by specialists of this Institute. About 27% of the occurrences documented in the SYKO Herbarium were made by the authors of this article (Degteva S., Zheleznova G.). The following botanists took part in the identification of the mosses of Yugyd Va National Park stored in the SYKO Herbarium: Abramova A.L., Afonina O.M., Efimova S.F., Fedosov V.E., Ignatova E.A., Ignatov M.S., Kildyushevskiy I.D., Savich L., Shennikova M., Shlyakov R.N., Shubina T.P. and Zheleznova G.V. Authors of this paper (Zheleznova G.V., Shubina T.P.) had identified about 80% of the collection. The moss flora analyses of the Yugyd Va National Park were published in a series of works by <xref ref-type="bibr" rid="B5159210">Shubina 2007</xref>, <xref ref-type="bibr" rid="B5159224">Zheleznova 2010</xref>, <xref ref-type="bibr" rid="B4906900">Zheleznova and Shubina 2012</xref>, <xref ref-type="bibr" rid="B5159248">Zheleznova et al. 2015b</xref>, <xref ref-type="bibr" rid="B5159306">Zheleznova et al. 2015a</xref>, <xref ref-type="bibr" rid="B5159321">Zheleznova et al. 2016</xref>, <xref ref-type="bibr" rid="B5159344">Degteva 2016</xref>, <xref ref-type="bibr" rid="B5159353">Zheleznova and Shubina 2018</xref>, <xref ref-type="bibr" rid="B5159284">Zheleznova et al. 2013</xref>. Published datasets on moss occurrences in Russia, i.e. Database of Moss Flora of Russia (<xref ref-type="bibr" rid="B4906740">Ivanov et al. 2017</xref>), Cryptogamic Russian Information System (CRIS) (<xref ref-type="bibr" rid="B4906798">Melechin et al. 2013</xref>) and GBIF (<xref ref-type="bibr" rid="B4906928">GBIF.org 2018</xref>), do not contain information about moss records in the territory of Yugyd Va National Park.</p>
+      <p>Prepared according the concept of "data paper" (<xref ref-type="bibr" rid="B5162516">Chavan and Penev 2011</xref>, <xref ref-type="bibr" rid="B5162526">Penev et al. 2017</xref>), this paper aims to describe a dataset on moss occurrences in Yugyd Va National Park (Subpolar and Northern Urals) recently published by us in GBIF as a Darwin Core Archive (<xref ref-type="bibr" rid="B5162545">Zheleznova et al. 2018</xref>; see also Suppl. material <xref ref-type="supplementary-material" rid="S5162467">1</xref>).</p>
+    </sec>
+    <sec sec-type="Project description">
+      <title>Project description</title>
+      <sec sec-type="Title">
+        <title>Title</title>
+        <p>Moss occurrences in Yugyd Va National Park, Subpolar and Northern Urals, European North-East Russia</p>
+      </sec>
+      <sec sec-type="Personnel">
+        <title>Personnel</title>
+        <p>Svetlana Degteva, Tatyana Shubina</p>
+      </sec>
+      <sec sec-type="Study area description">
+        <title>Study area description</title>
+        <p>Yugyd Va National Park is the largest National Park in Europe and contains an array of primary boreal (Northern) forests preserved in an almost undisturbed state. The park is located on the western slopes of the Subpolar and the Northern Urals, on the border between Europe and Asia. The Urals are a mountain range that runs almost continuously along the 60°E meridian from the Arctic Ocean coast to the Ural River and north-western Kazakhstan. The Urals are a large and important biogeographic boundary that separates the flora and fauna of the continents of Europe and Asia (<xref ref-type="bibr" rid="B4906919">Chibilev 2011</xref>).</p>
+        <p>Most landscapes within these areas are free from anthropogenic impacts, so plant communities and their dynamics exist there in their natural state. Natural succession in these forests is initiated by such disturbances as windfalls and fires. Recreational uses of the park include rafting, boating and hiking in the summer and Nordic skiing in the winter. Due to the remote location of the park, the amount of tourism there is still quite low.</p>
+      </sec>
+      <sec sec-type="Design description">
+        <title>Design description</title>
+        <p>The study of the flora and vegetation diversity of terrestrial ecosystems in the park was performed with an integrated approach at both community and species levels. The standard methods of plant systematics, geobotany and phytogeography were used. Important “Plant Areas” were studied by describing plant communities along altitudinal gradients from watercourses to their watersheds. The results of this study were documented in the Herbarium (SYKO) of the Institute of Biology of Komi Scientific Centre of the Ural Branch of the Russian Academy of Sciences.</p>
+        <p>A dataset was prepared from data published in scientific literature and acquired from the moss collection of the Herbarium (SYKO). The earliest collections examined came from 1943 and the most recent from 2015. For each species, information is given on the catalogue number, including herbarium label data from the moss collection of the Herbarium (SYKO), associated references, basis of record, geographic locality, verbatim locality, geographic coordinates, collection date, collector and person who identified the specimen (“identified by”).</p>
+      </sec>
+      <sec sec-type="Funding">
+        <title>Funding</title>
+        <p>The Ministry of Education and Science of the Russian Federation. Project N 18-4-4-14 (АААА-А17-117112270073-0) of the Ural Branch of the Russian Academy of Sciences Complex Programme "Diversity of the main components of ecosystems along the latitudinal and altitudinal gradients of the Northern and the Subpolar Urals’ western macroslopes" and Project N АААА-А19-119011790022-1 "The diversity of flora and vegetation of the Subpolar Urals’ Western macroslope".</p>
+      </sec>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Study extent">
+        <title>Study extent</title>
+        <p>This study was carried out in the foothills and mountain landscapes of the Subpolar Urals, in the basins of four first-order tributaries of the Pechora River: the Kozhim River (in the Rosomakha, Maldynyrd, Zapadnye Saledy, Yuasnyrd, Maldyiz and Obeiz mountain ranges), the Kosyu River (in the Vostochnye Saledy and Kolokolenny mountain ranges), the Bolshaya Synya River (on Sablinskiy ridge) and the upper stream of the Shchugor River. The major tributaries of the Kozhim River studied were the Balbanyu River, Limbekoyu River and Syvyu River. In the Kosyu River basin, the territories near its major tributary (the Vangyr River) and near the lakes Mezhgornye and Okunevye were studied. In the basin of the upper stream of the Bolshaya Synya River, the areas adjacent to its tributaries, including the Voyvozh-Synya River and the Lunvozh-Synya River, were studied.</p>
+        <p>Mosses of the Northern Urals were collected in the basin of the Shchugor River (in the Telpos and Sumk-Ner mountain ranges and on the mountains Telpos-iz, Yank-Kart-Tump, Vay-Khury-Tump and Khodymalya-Tump) and two of its tributaries: the Podcherem River (Pelener Mountain) and the Telpos River.</p>
+      </sec>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>The authors contributing to the dataset used standard methods of mosses collection. The collecting localities were arbitrarily chosen in an attempt to include the largest number of different floristic associations and landscape forms in the samples. To achieve this purpose, a net of radial routes around each field base camp was planned. Short descriptions of plant communities were made in the localities of mosses collection. Moss samples were collected once and on each type of substrate.</p>
+        <p>In addition to the authors’ collections, the dataset includes information on moss occurrences obtained from literature (<xref ref-type="bibr" rid="B4906661">Dyachenko 1997</xref>, <xref ref-type="bibr" rid="B4906670">Dyachenko and Fomicheva 1986</xref>, <xref ref-type="bibr" rid="B4906684">Gorchakovskiy 1958</xref>, <xref ref-type="bibr" rid="B4906767">Kildyushevskiy 1956</xref>, <xref ref-type="bibr" rid="B4906784">Kuvaev 1970</xref>, <xref ref-type="bibr" rid="B4906808">Pole 1915</xref>, <xref ref-type="bibr" rid="B4906862">Tsinzerling 1935</xref>). More than 92% of the occurrence records were based on preserved samples from the Herbarium (SYKO) (Table <xref ref-type="table" rid="T4927735">1</xref>). Some records (412) from locations adjacent to the border of the National Park were also included in the dataset.</p>
+      </sec>
+      <sec sec-type="Quality control">
+        <title>Quality control</title>
+        <p>The data were collected and identified by bryologists from the Institute of Biology of Komi Scientific Centre of the Ural Branch of the Russian Academy of Sciences. Some moss specimens were identified by taxonomic specialists from the Komarov Botanical Institute of the Russian Academy of Sciences, the Faculty of Biology of Lomonosov Moscow State University and the Tsitsin Main Botanical Garden of the Russian Academy of Sciences.</p>
+      </sec>
+      <sec sec-type="Step description">
+        <title>Step description</title>
+        <p>On each herbarium label, the following fields were filled out: “Scientific name”, “Locality” (with geographic coordinates), “Habitat”, “Substrate”, “Collector name”, “Determined by” (identification), “Collection date” and “Catalogue Number”. For the data obtained from literature, the descriptions given by the author(s) were converted into these herbarium label fields when possible. The dataset fields’ names were chosen according to Darwin Core (<xref ref-type="bibr" rid="B4906886">Wieczorek et al. 2012</xref>) and include the following: «occurrenceID», «institutionID», «collectionCode», «catalogNumber», «associatedReferences», «basisOfRecord», «kingdom», «phylum», «class», «family», «genus», «scientificName», «specificEpithet», «scientificNameAuthorship», «infraspecificEpithet», «taxonRank», «country», «countryCode», «recordedBy», «day», «month», «year», «locality», «identifiedBy», «decimalLatitude», «decimalLongitude», «coordinatePrecision», «coordinateUncertaintyInMeters», «georeferencedBy», «geodeticDatum».</p>
+        <p>References to the published literature, from which data were obtained for the checklist compilation, are presented in the “citations” section of the metadata. The herbarium label data were taken from the moss collection of the Herbarium (SYKO). All occurrence records were merged into one Microsoft Excel worksheet. The species names given were determined according to the Check-list of mosses of East Europe and North Asia (<xref ref-type="bibr" rid="B4906698">Ignatov et al. 2006</xref>). The unique values from the “Species” field were used as a preliminary Yugyd Va National Park mosses checklist. The preliminary checklist was verified on the “taxonomic name resolution service” (<xref ref-type="bibr" rid="B4906632">Boyle et al. 2013</xref>) with the help of the “taxize” package in the R environment (<xref ref-type="bibr" rid="B4906910">Chamberlain and Szocs 2013</xref>).</p>
+        <p>In most cases, georeferencing was performed using paper maps of different scales. The maps were in the Kavrayskiy projection and SK-42 reference system. Maps with a 1:500000 scale were used for obtaining coordinates with 1-minute precision (3,903 occurrences). Maps with a scale of 1:100000 were used for obtaining 1-second-precision coordinates (269 occurrences). The remaining 22 occurrences were left ungeoreferenced because of the ambiguity of the locality description. All coordinates were transformed in the WGS 84 reference system with QGIS software. The coordinate uncertainty in metres for each occurrence was calculated with the Georeferencing Calculator (<xref ref-type="bibr" rid="B4906877">Wieczorek and Wieczorek 2015</xref>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The length of Yugyd Va National Park is 280 km from North to South and 120 km from West to East. It is located on the western macroslopes of the Subpolar and Northern Urals (Fig. <xref ref-type="fig" rid="F4906249">1</xref>).</p>
+        <p>The Subpolar Urals are part of the Ural Mountains and run from the headwaters of the Lyapin (Khulga) River in the north (65°40'N) to Telposiz Mountain in the south (64°0'N). The mountainous area covers about 32,000 km<sup>2</sup>. There are two main watersheds of the Subpolar Urals: Narodo-Itinsky in the east, with a length of more than 100 km and Issledovatelsky in the west, with a length of more than 150 km. The northern continuation of the Issledovatelsky Range is the Rossomakha Ridge. Traces of glaciation are manifested in the large irregularities of these ridges. The slopes of the mountains are composed of stone placers. The Subpolar Urals are characterised by ridges with high altitudes and alpine landforms. The average height of the peaks is 1300-1400 m. The highest point of the Urals is located at Narodnaya Mountain (1,896 m). The Subpolar Urals have a pronounced asymmetry in their slopes: the eastern slopes of the Subpolar Urals gradually pass into the lowland wetlands of the West Siberian Lowland region, whereas the ridges of the western slopes end abruptly at the Pechora Plain (<xref ref-type="bibr" rid="B4906919">Chibilev 2011</xref>, <xref ref-type="bibr" rid="B4906835">Taskaev 2006</xref>).</p>
+        <p>The Northern Urals begin at the northern foothills of Telposiz Mountain (1,617 m, 63°55'N) and stretch in a southward direction to Lyalinsky Kamen Mountain (851 m, 59°15'N). The Northern Urals are characterised by having a smooth topography with a maximum elevation of not more than 1,619 m above sea level (Telposiz Mountain). Along the western side of the Northern Urals, there is a long strip of foothills, most of which only rise 200-300 m above sea level (<xref ref-type="bibr" rid="B4906919">Chibilev 2011</xref>, <xref ref-type="bibr" rid="B4906835">Taskaev 2006</xref>).</p>
+        <p>The rivers in these regions mainly flow through a narrow valley in which floodplains are often poorly expressed. The bottoms of the rivers are covered by pebbles and rocks.</p>
+        <p>The vertical zonation of the Subpolar and Northern Urals consists of four belts: dark coniferous taiga, light forest belt, mountain tundra and a cold goltsy desert belt. The vegetation of the mountainous dark coniferous taiga is formed mainly by <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Picea">Picea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="obovata">obovata</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Betula">Betula</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pubescens">pubescens</tp:taxon-name-part></tp:taxon-name></italic> mixed with <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Abies">Abies</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="sibirica">sibirica</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pinus">Pinus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="sibirica">sibirica</tp:taxon-name-part></tp:taxon-name></italic>. These forests differ from the plain dark coniferous taiga by there being less waterlogging, with a predominance of green moss and herb vegetation types. The vegetation cover of the light forest belt has a high level of diversity. Here, the complex of light forests, bushes and meadows is presented. The upper boundary of forests is formed by <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Picea">Picea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="obovata">obovata</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Abies">Abies</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="sibirica">sibirica</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pinus">Pinus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="sibirica">sibirica</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Betula">Betula</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pubescens">pubescens</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Larix">Larix</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="sibirica">sibirica</tp:taxon-name-part></tp:taxon-name></italic>. The timber line in the Southern part of the park passes at an altitude of about 700 m and, in the Northern part, it falls to 400–200 m. Bushes are represented by communities from <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Salix">Salix</tp:taxon-name-part></tp:taxon-name></italic> species, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Betula">Betula</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="nana">nana</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Juniperus">Juniperus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="sibirica">sibirica</tp:taxon-name-part></tp:taxon-name></italic> (in the Southern part of the reserve) and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Duschekia">Duschekia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="fruticosa">fruticosa</tp:taxon-name-part></tp:taxon-name></italic> (in the Northern part). Mountain meadows do not cover large areas and establish mainly ecotopes with rich and humid soils at stream runoffs, valleys and the borders of the stony fields. Mountain tundra communities are located at flat plates and mountain terraces of the upper part of slopes. The cold goltsy desert belt in the Subpolar Urals begins at 300–700 m, in the Northern Urals – at 1000–1100 m (<xref ref-type="bibr" rid="B4906919">Chibilev 2011</xref>, <xref ref-type="bibr" rid="B4906835">Taskaev 2006</xref>).</p>
+        <p>The climate in this part of the Urals is strongly continental. The meridional location of the ridges has a significant effect on the climate by preventing the movement of moist air masses from west to east. The Subpolar and Northern Urals are distinguished from other parts of the Urals by the relatively abundant precipitation they receive (up to 1,500 mm per year). Most of the precipitation falls in the summer months, from June to August (40-50%). In winter, about 30-40% of the annual precipitation falls. The average monthly temperature of the coldest month (January) in these mountains ranges from -18°C to -20°C, while that of the warmest month (July) is +10°C. The duration of the summer period is 60-75 days (<xref ref-type="bibr" rid="B4906817">Ponomarev and Pystina 2009</xref>)</p>
+      </sec>
+      <sec sec-type="Coordinates">
+        <title>Coordinates</title>
+        <p>63.178 and 65.815 Latitude; 58.712 and 61.479 Longitude.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>All mosses were identified to species.</p>
+        <p>The coverage of the checklist spans the phylum <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Bryophyta</tp:taxon-name-part></tp:taxon-name>. The highest number of records are from the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Bryopsida</tp:taxon-name-part></tp:taxon-name> (84.5%), followed by the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Sphagnopsida</tp:taxon-name-part></tp:taxon-name> (8.9%), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Polytrichopsida</tp:taxon-name-part></tp:taxon-name> (5.3%), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Andreaeopsida</tp:taxon-name-part></tp:taxon-name> (1%) and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Tetraphidopsida</tp:taxon-name-part></tp:taxon-name> (0.3%). The top ten families, in terms of the number of species included, comprise about 62% of the species. The top ten families, in terms of the number of occurrences recorded, comprise 77% of the occurrences (Table <xref ref-type="table" rid="T5162136">2</xref>). Of these two groups of top ten families, 60% were included in both groups (Figs <xref ref-type="fig" rid="F4927738">2</xref>, <xref ref-type="fig" rid="F4927742">3</xref>).</p>
+        <p>The moss flora of Yugyd Va National Park contains a high number of species, especially taking into account the fact that surveys of the whole territory have not yet been concluded because of the inaccessibility of the region. Although the present survey cannot be considered as complete, the high number of recorded taxa, 302 species belonging to 112 genera and 36 families, already points towards richness of the moss flora of the area. Most of the species are typical members of the Boreal and Holarctic bryoflora and endemic taxa were not recorded. According to available data, the known moss flora of Yugyd Va National Park comprises 60% of the entire known moss flora of the Komi Republic (<xref ref-type="bibr" rid="B4906900">Zheleznova and Shubina 2012</xref>), 25.6% of that of Russia (<xref ref-type="bibr" rid="B4906740">Ivanov et al. 2017</xref>), 16.3% of that of Europe and 1.5% of that of the world (<xref ref-type="bibr" rid="B4906928">GBIF.org 2018</xref>). In the investigated territory, 17 rare species of mosses that are included in the Red Data Book of the Komi Republic (<xref ref-type="bibr" rid="B4906844">Taskaev 2009</xref>) have been revealed and three of these species (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Stereodon">Stereodon</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="plicatulus">plicatulus</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Bryum">Bryum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="rutilans">rutilans</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pseudocalliergon">Pseudocalliergon</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="lycopodioides">lycopodioides</tp:taxon-name-part></tp:taxon-name></italic>) are included in the Red Data Book of European Bryophytes (<xref ref-type="bibr" rid="B4906826">European Committee for the Conservation of Bryophytes (ECCB) 1995</xref>).</p>
+      </sec>
+      <sec sec-type="Taxa included">
+        <title>Taxa included</title>
+        <table-wrap id="taxonomic_coverage" position="anchor" orientation="portrait">
+          <table rules="all">
+            <thead>
+              <tr>
+                <th rowspan="1" colspan="1">Rank</th>
+                <th rowspan="1" colspan="1">Scientific Name</th>
+                <th rowspan="1" colspan="1"/>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">phylum</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="phylum">Bryophyta</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">class</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="class">Bryopsida</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">class</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="class">Sphagnopsida</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">class</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="class">Polytrichopsida</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">class</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="class">Tetraphidopsida</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">class</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="class">Andreaeopsida</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Amblystegiaceae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Andreaeaceae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Aulacomniaceae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Bartramiaceae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Brachytheciaceae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Bryaceae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Buxbaumiaceae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Calliergonaceae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Climaciaceae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Dicranaceae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Ditrichaceae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Encalyptaceae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Fissidentaceae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Fontinalaceae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Funariaceae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Grimmiaceae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Hedwigiaceae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Hylocomiaceae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Hypnaceae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Meesiaceae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Mniaceae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>Mielichhoferiaceae</tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Plagiotheciaceae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Polytrichaceae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Pottiaceae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>Pseudoleskeaceae</tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>Pylaisiaceae</tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>Pseudoleskeellaceae</tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Rhabdoweisiaceae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Rhytidiaceae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>Scorpidiaceae</tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Sphagnaceae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Splachnaceae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Tetraphidaceae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Thuidiaceae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Timmiaceae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+    </sec>
+    <sec sec-type="Traits coverage">
+      <title>Traits coverage</title>
+      <sec sec-type="Data coverage of traits">
+        <title>Data coverage of traits</title>
+        <p>PLEASE FILL IN TRAIT INFORMATION HERE</p>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <sec sec-type="Notes">
+        <title>Notes</title>
+        <p>1905-07-01 through 2015-07-30</p>
+      </sec>
+    </sec>
+    <sec sec-type="Collection data">
+      <title>Collection data</title>
+      <sec sec-type="Collection name">
+        <title>Collection name</title>
+        <p>Научный гербарий Института биологии Коми НЦ УрО РАН (SYKO). Коллекция мохообразных/Scientific Herbarium of the Institute of Biology Komi Science Centre</p>
+      </sec>
+      <sec sec-type="Parent collection identifier">
+        <title>Parent collection identifier</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="http://ckp-rf.ru/usu/507466/?sphrase_id=7852290" xlink:type="simple">http://ckp-rf.ru/usu/507466/?sphrase_id=7852290</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Specimen preservation method">
+        <title>Specimen preservation method</title>
+        <p>dried аnd pressed</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Other</p>
+      </sec>
+      <sec sec-type="IP rights notes">
+        <title>IP rights notes</title>
+        <p>This work is licensed under a Creative Commons Attribution (CC-BY) 4.0 License.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>Moss occurrences in Yugyd Va National Park, Subpolar and Northern Urals, European North-East Russia</p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="http://ib.komisc.ru:8088/ipt/resource?r=mosses_occurrence_yugyd_va" xlink:type="simple">http://ib.komisc.ru:8088/ipt/resource?r=mosses_occurrence_yugyd_va</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Alternative identifiers">
+        <title>Alternative identifiers</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15468/kfeugm" xlink:type="simple">doi.org/10.15468/kfeugm</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>1</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Moss occurrences in Yugyd Va National Park, Subpolar and Northern Urals, European North-East Russia</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Darwin Core</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>30</p>
+        </sec>
+        <sec sec-type="Character set">
+          <title>Character set</title>
+          <p>utf8</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="http://ib.komisc.ru:8088/ipt/resource?r=mosses_occurrence_yugyd_va&amp;v=1.4" xlink:type="simple">http://ib.komisc.ru:8088/ipt/resource?r=mosses_occurrence_yugyd_va&amp;v=1.4</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>This study produced a dataset containing information on moss occurrences in the territory of Yugyd Va National Park, located in the Subpolar and Northern Urals, European North-East Russia. The dataset summarises occurrences noted by long-term bryological explorations in remote areas of the Subpolar and Northern Urals from 1943 to 2015 and from studies published since 1915. The dataset consists of 4,120 occurrence records. The occurrence data were extracted from herbarium specimen labels (3,833 records) and data from published literature (287 records). Most of the records (4,104) are georeferenced.</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceID</td>
+                  <td rowspan="1" colspan="1">An identifier for the Occurrence (as opposed to a particular digital record of the occurrence).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">institutionID</td>
+                  <td rowspan="1" colspan="1">An identifier for the institution having custody of the object(s) or information referred to in the record. The identifier was taken from the Global Registry of Biodiversity Repositories (<ext-link ext-link-type="uri" xlink:href="http://grbio.org/" xlink:type="simple">http://grbio.org</ext-link>).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">collectionCode</td>
+                  <td rowspan="1" colspan="1">The name, acronym, coden or initialism identifying the collection or dataset from which the record was derived. The identifier was taken from registry such as the Global Registry of Biodiversity Repositories</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">cаtаlogNumber</td>
+                  <td rowspan="1" colspan="1">An identifier (preferably unique) for the record within the dataset or collection.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">associatedReferences</td>
+                  <td rowspan="1" colspan="1">A list (concatenated and separated) of identifiers (publication, bibliographic reference, global unique identifier, URI) of literature associated with the Occurrence.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">basisOfRecord</td>
+                  <td rowspan="1" colspan="1">Recommended best practice is to use the standard label of one of the Darwin Core classes.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">kingdom</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the kingdom in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">phylum</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the phylum or division in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">class</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the class in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">family</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the family in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">genus</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the genus in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificName</td>
+                  <td rowspan="1" colspan="1">The full scientific name, with authorship and date information, if known. When forming part of an Identification, this should be the name in the lowest level taxonomic rank that can be determined. This term should not contain identification qualifications, which should instead be supplied in the IdentificationQualifier term.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">specificEpithet</td>
+                  <td rowspan="1" colspan="1">The name of the first or species epithet of the scientificName.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificNameAuthorship</td>
+                  <td rowspan="1" colspan="1">The authorship information for the scientificName formatted according to the conventions of the applicable nomenclaturalCode.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">infraspecificEpithet</td>
+                  <td rowspan="1" colspan="1">The name of the lowest or terminal infraspecific epithet of the scientificName, excluding any rank designation.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">taxonRank</td>
+                  <td rowspan="1" colspan="1">The taxonomic rank of the most specific name in the scientificName.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">country</td>
+                  <td rowspan="1" colspan="1">The name of the country or major administrative unit in which the Location occurs.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">countryCode</td>
+                  <td rowspan="1" colspan="1">The standard code for the country in which the Location occurs.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">recordedBy</td>
+                  <td rowspan="1" colspan="1">A person, group or organisation responsible for recording the original Occurrence.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">day</td>
+                  <td rowspan="1" colspan="1">The integer day of the month on which the Event occurred.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">month</td>
+                  <td rowspan="1" colspan="1">The ordinal month in which the Event occurred.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">year</td>
+                  <td rowspan="1" colspan="1">The four-digit year in which the Event occurred, according to the Common Era Calendar.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">locality</td>
+                  <td rowspan="1" colspan="1">The specific description of the place. Less specific geographic information can be provided in other geographic terms (higherGeography, continent, country, stateProvince, county, municipality, waterBody, island, islandGroup). This term may contain information modified from the original to correct perceived errors or standardise the description.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">identifiedBy</td>
+                  <td rowspan="1" colspan="1">A list (concatenated and separated) of names of people, groups or organisations who assigned the Taxon to the subject.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLatitude</td>
+                  <td rowspan="1" colspan="1">The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic centre of a Location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLongitude</td>
+                  <td rowspan="1" colspan="1">The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic centre of a Location. Positive values are east of the Greenwich Meridian, negative values are west of it. Legal values lie between -180 and 180, inclusive.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">coordinatePrecision</td>
+                  <td rowspan="1" colspan="1">A decimal representation of the precision of the coordinates given in the decimalLatitude and decimalLongitude.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">coordinateUncertaintyInMetres</td>
+                  <td rowspan="1" colspan="1">The horizontal distance (in metres) from the given decimalLatitude and decimalLongitude describing the smallest circle containing the whole of the Location. Leave the value empty if the uncertainty is unknown, cannot be estimated or is not applicable (because there are no coordinates). Zero is not a valid value for this term.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">georeferencedBy</td>
+                  <td rowspan="1" colspan="1">A list (concatenated and separated) of names of people, groups or organisations who determined the georeference (spatial representation) for the Location.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">geodeticDatum</td>
+                  <td rowspan="1" colspan="1">The ellipsoid, geodetic datum or spatial reference system (SRS) upon which the geographic coordinates given in decimalLatitude and decimalLongitude is based.</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+    <sec sec-type="Additional information">
+      <title>Additional information</title>
+      <p>Zheleznova G, Shubina T, Degteva S, Rubtsov M, Chadin I (2018) Moss occurrences in Yugyd Va National Park, Subpolar and Northern Urals, European North-East Russia. v1.3. Institute of Biology of Komi Scientific Centre of the Ural Branch of the Russian Academy of Sciences. Dataset/Occurrence. <ext-link ext-link-type="uri" xlink:href="http://ib.komisc.ru:8088/ipt/resource?r=mosses_occurrence_yugyd_va&amp;v=1.3" xlink:type="simple">http://ib.komisc.ru:8088/ipt/resource?r=mosses_occurrence_yugyd_va&amp;v=1.3</ext-link></p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>The publication was prepared with support of project no. 18-4-4-14 (АААА-А17-117112270073-0) of the Ural Branch of the Russian Academy of Sciences Complex Programme "Diversity of the main components of ecosystems along the latitudinal and altitudinal gradients of the Northern and the Subpolar Urals’ western macroslopes".</p>
+    </ack>
+    <sec sec-type="Author contributions">
+      <title>Author contributions</title>
+      <p>G. Zheleznova - moss sample collection, species identification, data preparation, manuscript editing</p>
+      <p>T. Shubina - species identification, data preparation, manuscript editing</p>
+      <p>S. Degteva - moss sample collection, manuscript editing</p>
+      <p>I. Chadin - data preparation, georeferencing, manuscript editing</p>
+      <p>M. Rubtsov - data preparation, georeferencing</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="B4906632">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Boyle</surname>
+              <given-names>Brad</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hopkins</surname>
+              <given-names>Nicole</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lu</surname>
+              <given-names>Zhenyuan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Raygoza Garay</surname>
+              <given-names>Juan Antonio</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mozzherin</surname>
+              <given-names>Dmitry</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rees</surname>
+              <given-names>Tony</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Matasci</surname>
+              <given-names>Naim</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Narro</surname>
+              <given-names>Martha L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Piel</surname>
+              <given-names>William H</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mckay</surname>
+              <given-names>Sheldon J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lowry</surname>
+              <given-names>Sonya</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Freeland</surname>
+              <given-names>Chris</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Peet</surname>
+              <given-names>Robert K</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Enquist</surname>
+              <given-names>Brian J</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>The taxonomic name resolution service: an online tool for automated standardization of plant names</article-title>
+          <source>BMC Bioinformatics</source>
+          <volume>14</volume>
+          <issue>1</issue>
+          <fpage>16</fpage>
+          <pub-id pub-id-type="doi">10.1186/1471-2105-14-16</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4906910">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Chamberlain</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Szocs</surname>
+              <given-names>E</given-names>
+            </name>
+          </person-group>
+          <article-title>taxize: Taxonomic search and retrieval in R. F1000Research</article-title>
+          <uri xlink:type="simple">http://f1000research.com/articles/2-191/v2</uri>
+          <date-in-citation content-type="access-date">2018-11-11T00:00:00+02:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5162516">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Chavan</surname>
+              <given-names>Vishwas</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Penev</surname>
+              <given-names>Lyubomir</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>The data paper: a mechanism to incentivize data publishing in biodiversity science</article-title>
+          <source>BMC Bioinformatics</source>
+          <volume>12</volume>
+          <pub-id pub-id-type="doi">10.1186/1471-2105-12-s15-s2</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4906919">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Chibilev</surname>
+              <given-names>AA</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <source>The Ural: Natural diversity and the Euroasian border</source>
+          <publisher-name>UB RAS</publisher-name>
+          <publisher-loc>Yekaterinburg</publisher-loc>
+          <size units="page">1-132</size>
+          <comment content-type="language">Russian</comment>
+          <isbn>978-5-7691-2215-6</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B5159344">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Degteva</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <source>Flora, lichenobiota and mycobiota of protected landscapes of Kosju and Bolshaya Synya river basins (the Subpolar Urals Yugyd Va National Park)</source>
+          <publisher-name>KMK Scientific Press Ltd</publisher-name>
+          <publisher-loc>Moscow</publisher-loc>
+          <size units="page">483</size>
+          <comment content-type="language">Russian</comment>
+          <isbn>978-5-9908165-3-4</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B4906652">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Degteva</surname>
+              <given-names>S V</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ponomarev</surname>
+              <given-names>V I</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <source>Cadastre of especially protected natural territories of the Komi Republic</source>
+          <publisher-name>Komi Scientific Centre of Ural Branch of Russian Academy of Sciences</publisher-name>
+          <publisher-loc>Syktyvkar</publisher-loc>
+          <size units="page">1-428</size>
+          <comment content-type="language">Russian</comment>
+          <isbn>978-5-89606-523-4</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B4906670">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Dyachenko</surname>
+              <given-names>A. P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fomicheva</surname>
+              <given-names>L. N.</given-names>
+            </name>
+          </person-group>
+          <year>1986</year>
+          <chapter-title>Flora of mosses of the most visited areas of the Sablya range mountain</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Gorchakovskiy</surname>
+              <given-names>P. L.</given-names>
+            </name>
+          </person-group>
+          <source>Mountain ecosystems of the Urals and problems of environmental management</source>
+          <publisher-name>Ural Branch of Academy of Sciences of the USSR</publisher-name>
+          <publisher-loc>Sverdlovsk</publisher-loc>
+          <size units="page">18</size>
+          <comment content-type="language">Russian</comment>
+        </element-citation>
+      </ref>
+      <ref id="B4906661">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Dyachenko</surname>
+              <given-names>A. P.</given-names>
+            </name>
+          </person-group>
+          <year>1997</year>
+          <source>Moss Flora of the Urals. Part 1: History of study. Abstract. Taxonomic analysis.</source>
+          <publisher-name>Urals State Pedagogical University</publisher-name>
+          <publisher-loc>Ekaterinburg</publisher-loc>
+          <size units="page">1-264</size>
+          <comment content-type="language">Russian</comment>
+        </element-citation>
+      </ref>
+      <ref id="B4906826">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>(ECCB)</surname>
+              <given-names>European Committee for the Conservation of Bryophytes</given-names>
+            </name>
+          </person-group>
+          <year>1995</year>
+          <source>Red Data Book of European bryophytes</source>
+          <publisher-name>European Committee for the Conservation of Bryophytes (ECCB)</publisher-name>
+          <publisher-loc>Trondheim</publisher-loc>
+          <size units="page">1-291</size>
+          <isbn>82-993645-0-7</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B4906928">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>GBIF.org</surname>
+            </name>
+          </person-group>
+          <article-title>GBIF Home Page</article-title>
+          <uri xlink:type="simple">https://www.gbif.org</uri>
+          <date-in-citation content-type="access-date">2018-11-11T00:00:00+02:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B4906684">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Gorchakovskiy</surname>
+              <given-names>P. L.</given-names>
+            </name>
+          </person-group>
+          <year>1958</year>
+          <chapter-title>Vegetation of the Sablya range mountain at the Subarctic Urals</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Tikhomirov</surname>
+              <given-names>B. A.</given-names>
+            </name>
+          </person-group>
+          <source>Vegetation of the Far North and its development</source>
+          <volume>3</volume>
+          <publisher-name>Academy of Sciences of the USSR</publisher-name>
+          <publisher-loc>Moscow-Leningrad</publisher-loc>
+          <size units="page">95-127</size>
+          <comment content-type="language">Russia</comment>
+        </element-citation>
+      </ref>
+      <ref id="B4906698">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ignatov</surname>
+              <given-names>Michael S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Afonina</surname>
+              <given-names>Olga M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ignatova</surname>
+              <given-names>Elena A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Abolina</surname>
+              <given-names>A. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Akatova</surname>
+              <given-names>Tatyana V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Baisheva</surname>
+              <given-names>Elvira Z.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bardunov</surname>
+              <given-names>Leonid V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Baryakina</surname>
+              <given-names>E. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Belkina</surname>
+              <given-names>Olga A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bezgodov</surname>
+              <given-names>Andrej G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Boychuk</surname>
+              <given-names>Margarita A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cherdantseva</surname>
+              <given-names>Valentina Ya.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Czernyadjeva</surname>
+              <given-names>Irina V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Doroshina</surname>
+              <given-names>Galina Ya.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dyachenko</surname>
+              <given-names>Alexander P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fedosov</surname>
+              <given-names>Vladimir E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Goldberg</surname>
+              <given-names>I. L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ivanova</surname>
+              <given-names>E. I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jukoniene</surname>
+              <given-names>I. I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kannukene</surname>
+              <given-names>L. I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kazanovsky</surname>
+              <given-names>Sergey G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kharzinov</surname>
+              <given-names>Z. Kh.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kurbatova</surname>
+              <given-names>L. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maksimov</surname>
+              <given-names>Anatolij I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mamatkulov</surname>
+              <given-names>U. K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Manakyan</surname>
+              <given-names>Vrege A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maslovsky</surname>
+              <given-names>O. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Napreenko</surname>
+              <given-names>M. G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Otnyukova</surname>
+              <given-names>Tatyana N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Partyka</surname>
+              <given-names>L. Ya.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pisarenko</surname>
+              <given-names>Olga Yu.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Popova</surname>
+              <given-names>Natalia N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rykovsky</surname>
+              <given-names>G. F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tubanova</surname>
+              <given-names>Dolgor Ya.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zheleznova</surname>
+              <given-names>Galinna V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zolotov</surname>
+              <given-names>Valerij I.</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <article-title>Checklist of mosses of East Europe and North Asia</article-title>
+          <source>Arctoa</source>
+          <volume>15</volume>
+          <issue>1</issue>
+          <fpage>1</fpage>
+          <lpage>130</lpage>
+          <pub-id pub-id-type="doi">10.15298/arctoa.15.01</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4906740">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ivanov</surname>
+              <given-names>O. V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kolesnikova</surname>
+              <given-names>M. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Afonina</surname>
+              <given-names>O. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Akatova</surname>
+              <given-names>T. V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Baisheva</surname>
+              <given-names>E. Z.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Belkina</surname>
+              <given-names>O. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bezgodov</surname>
+              <given-names>A. G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Czernyadjeva</surname>
+              <given-names>I. V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dudov</surname>
+              <given-names>S. V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fedosov</surname>
+              <given-names>V. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ignatova</surname>
+              <given-names>E. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ivanova</surname>
+              <given-names>E. I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kozhin</surname>
+              <given-names>M. N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lapshina</surname>
+              <given-names>E. D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Notov</surname>
+              <given-names>A. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pisarenko</surname>
+              <given-names>O. Y.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Popova</surname>
+              <given-names>N. N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Savchenko</surname>
+              <given-names>A. N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Teleganova</surname>
+              <given-names>V. V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ukrainskaya</surname>
+              <given-names>G. Y.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ignatov</surname>
+              <given-names>M. S.</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>The database of the moss flora of Russia</article-title>
+          <source>Arctoa</source>
+          <volume>26</volume>
+          <issue>1</issue>
+          <fpage>1</fpage>
+          <lpage>10</lpage>
+          <pub-id pub-id-type="doi">10.15298/arctoa.26.01</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4906767">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kildyushevskiy</surname>
+              <given-names>I. D.</given-names>
+            </name>
+          </person-group>
+          <year>1956</year>
+          <chapter-title>To the moss flora of the Subpolar Urals</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Savich</surname>
+              <given-names>VP</given-names>
+            </name>
+          </person-group>
+          <source>Proceedings of Komarov Botanical Institute of the Russian Academy of Sciences</source>
+          <volume>11</volume>
+          <publisher-name>Academy of Sciences of the USSR</publisher-name>
+          <publisher-loc>Leningrad</publisher-loc>
+          <size units="page">313-332</size>
+          <comment content-type="language">Russian</comment>
+        </element-citation>
+      </ref>
+      <ref id="B4906784">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kuvaev</surname>
+              <given-names>V B</given-names>
+            </name>
+          </person-group>
+          <year>1970</year>
+          <chapter-title>Lichens and mosses of the Polar Urals and adjacent plains</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Gorchakovskiy</surname>
+              <given-names>P L</given-names>
+            </name>
+          </person-group>
+          <source>Cryptogamic plants of the Urals. Proceedings of Institute of Plant and Animal ecology Ural Branch of Academy of Sciences of the USSR</source>
+          <volume>70</volume>
+          <publisher-name>Ural Branch of Academy of Sciences of the USSR</publisher-name>
+          <publisher-loc>Sverdlovsk</publisher-loc>
+          <size units="page">61-92</size>
+          <comment content-type="language">Russian</comment>
+        </element-citation>
+      </ref>
+      <ref id="B4906798">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Melechin</surname>
+              <given-names>A V</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Davydov</surname>
+              <given-names>D A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Shalygin</surname>
+              <given-names>S S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Borovichev</surname>
+              <given-names>E A</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Open information system on biodiversity cyanoprokaryotes and lichens CRIS (Cryptogamic Russian Information System)</article-title>
+          <source>Bulletin of Moscow Society of Naturalists</source>
+          <volume>118</volume>
+          <issue>6</issue>
+          <fpage>51</fpage>
+          <lpage>56</lpage>
+          <comment content-type="language">Russian</comment>
+          <uri xlink:type="simple">http://herba.msu.ru/russian/journals/bmsn/archive/moip_2013_118_6.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5162526">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Penev</surname>
+              <given-names>Lyubomir</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mietchen</surname>
+              <given-names>Daniel</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chavan</surname>
+              <given-names>Vishwas</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hagedorn</surname>
+              <given-names>Gregor</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Smith</surname>
+              <given-names>Vincent</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Shotton</surname>
+              <given-names>David</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tuama</surname>
+              <given-names>Éamonn Ó</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Senderov</surname>
+              <given-names>Viktor</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Georgiev</surname>
+              <given-names>Teodor</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stoev</surname>
+              <given-names>Pavel</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Groom</surname>
+              <given-names>Quentin</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Remsen</surname>
+              <given-names>David</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Edmunds</surname>
+              <given-names>Scott</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Strategies and guidelines for scholarly publishing of biodiversity data</article-title>
+          <source>Research Ideas and Outcomes</source>
+          <volume>3</volume>
+          <fpage>e12431</fpage>
+          <pub-id pub-id-type="doi">10.3897/rio.3.e12431</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4906808">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Pole</surname>
+              <given-names>R R</given-names>
+            </name>
+          </person-group>
+          <year>1915</year>
+          <source>Materials for knowledge of the vegetation of Northern Russia. To the flora of mosses of the North of Russia</source>
+          <publisher-name>Proceedings of the Imperial Botanic garden of Peter the Great</publisher-name>
+          <publisher-loc>Petrograd</publisher-loc>
+          <size units="page">1-148</size>
+          <comment content-type="language">Russian</comment>
+        </element-citation>
+      </ref>
+      <ref id="B4906817">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ponomarev</surname>
+              <given-names>V I</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pystina</surname>
+              <given-names>T N</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <source>Biological diversity of the Ural Pechora Basin Region</source>
+          <publisher-name>Institute of Biology of Komi Scientific Centre of the Ural Branch of the Russian Academy of Sciences</publisher-name>
+          <publisher-loc>Syktyvkar</publisher-loc>
+          <size units="page">1-264</size>
+          <comment content-type="language">Russian</comment>
+          <isbn>978-5-89-606-395-7</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B5159210">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Shubina</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <chapter-title>Mosses</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Ponomarev</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <source>Wildlife of Malyi Patok river basin</source>
+          <publisher-name>Institute of Biology Komi Sci. Centre Ur. Br. RAS</publisher-name>
+          <publisher-loc>Syktyvkar</publisher-loc>
+          <size units="page">85-96</size>
+          <comment content-type="language">Russian</comment>
+          <isbn>978-5-89606-346-9</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B4906844">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Taskaev</surname>
+              <given-names>AI</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <source>Red Data Book of the Komi Republic</source>
+          <publisher-name>Publishing Centre Design. Information. Cartography</publisher-name>
+          <publisher-loc>Moscow-Syktyvkar</publisher-loc>
+          <size units="page">1-791</size>
+          <comment content-type="language">Russian</comment>
+          <uri xlink:type="simple">https://ib.komisc.ru/add/rb/</uri>
+          <isbn>978-5-7934-0306-1</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B4906835">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Taskaev</surname>
+              <given-names>A I</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <source>Virgin forests of Komi. The UNESCO world cultural and natural heritage site</source>
+          <publisher-name>Publishing Centre Design. Information. Cartography</publisher-name>
+          <publisher-loc>Moscow</publisher-loc>
+          <size units="page">1-288</size>
+          <isbn>5-287-00378-1</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B4906853">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Tennekes</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>treemap: Treemap Visualization. R package version 2.4-2.</article-title>
+          <uri xlink:type="simple">https://CRAN.R-project.org/package=treemap</uri>
+          <date-in-citation content-type="access-date">2018-11-11T00:00:00+02:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B4906862">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Tsinzerling</surname>
+              <given-names>Y. D.</given-names>
+            </name>
+          </person-group>
+          <year>1935</year>
+          <chapter-title>The vegetation of the array of the Sablya range mountain</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Kolesnik</surname>
+              <given-names>S V</given-names>
+            </name>
+          </person-group>
+          <source>Ural. Polar regions. Proceedings of glacial expeditions</source>
+          <volume>4</volume>
+          <publisher-name>Central Administration of the Hydrometeorological Service</publisher-name>
+          <publisher-loc>Leningrad</publisher-loc>
+          <size units="page">75-86</size>
+          <comment content-type="language">Russian</comment>
+        </element-citation>
+      </ref>
+      <ref id="B4906877">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Wieczorek</surname>
+              <given-names>C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wieczorek</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Georeferencing Calculator (version 20160929)</article-title>
+          <uri xlink:type="simple">http://manisnet.org/gci2.html</uri>
+          <date-in-citation content-type="access-date">2018-10-26T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B4906886">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Wieczorek</surname>
+              <given-names>John</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bloom</surname>
+              <given-names>David</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Guralnick</surname>
+              <given-names>Robert</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Blum</surname>
+              <given-names>Stan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Döring</surname>
+              <given-names>Markus</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Giovanni</surname>
+              <given-names>Renato</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Robertson</surname>
+              <given-names>Tim</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vieglais</surname>
+              <given-names>David</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Darwin Core: An evolving community-developed biodiversity data standard</article-title>
+          <source>PLoS One</source>
+          <volume>7</volume>
+          <issue>1</issue>
+          <fpage>e29715</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0029715</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5159224">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Zheleznova</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <chapter-title>Mosses of Northern part of the National Park «Yugyd Va»</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Patova</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <source>Biodiversity of water and land ecosystems of the Kozhym river basin (Northern part of the National Park «Yugyd Va»)</source>
+          <publisher-name>Institute of Biology Komi Sci. Centre Ur. Br. RAS</publisher-name>
+          <publisher-loc>Syktyvkar</publisher-loc>
+          <size units="page">94-104</size>
+          <comment content-type="language">Russian</comment>
+          <isbn>978-5-7934-0317-7</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B4906900">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Zheleznova</surname>
+              <given-names>G</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Shubina</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Mosses of the Komi Republic (Russia)</article-title>
+          <source>Black Sea Botanical Journal</source>
+          <volume>8</volume>
+          <issue>2</issue>
+          <fpage>164</fpage>
+          <lpage>170</lpage>
+          <comment content-type="language">Russian</comment>
+        </element-citation>
+      </ref>
+      <ref id="B5159284">
+        <element-citation publication-type="conference-paper" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Zheleznova</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Shubina</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Panova</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Degteva</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Patova</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kulyugina</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mosses of the Yugyd Va National Park</article-title>
+          <source>Biodiversity of the Far North ecosystems: inventory, monitoring, protection. Reports of the II Russian scientific conference</source>
+          <conf-name>II Russian scientific conference Biodiversity of the Far North ecosystems: inventory, monitoring, protection</conf-name>
+          <conf-loc>Syktyvkar</conf-loc>
+          <conf-date>June 3-7, 2013</conf-date>
+          <publisher-name>Institute of Biology Komi Sci. Centre Ur. Br. RAS</publisher-name>
+          <publisher-loc>Syktyvkar</publisher-loc>
+          <size units="page">92-95</size>
+          <comment content-type="language">Russian</comment>
+          <uri xlink:type="simple">http://ib.komisc.ru/add/conf/tundra/</uri>
+          <isbn>978-5-89606-505-0</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B5159306">
+        <element-citation publication-type="conference-paper" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Zheleznova</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Shubina</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Degteva</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Degteva</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ogrodovaya</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sterlyagova</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Protected mosses of Pechora-Ilych state biosphere reserve and Yugyd Va National Park</article-title>
+          <source>Current state and prospects of development of the network of specially protected natural areas of the European North and the Urals. Proceedings of the Russian scientific conference</source>
+          <conf-name>Current state and prospects of development of the network of specially protected natural areas of the European North and the Urals</conf-name>
+          <conf-loc>Syktyvkar</conf-loc>
+          <conf-date>November 23-27, 2015</conf-date>
+          <publisher-name>Institute of Biology Komi Sci. Centre Ur. Br. RAS</publisher-name>
+          <publisher-loc>Syktyvkar</publisher-loc>
+          <comment content-type="language">Russian</comment>
+          <uri xlink:type="simple">https://ib.komisc.ru/phocadownload/conference/oopt-2015-proceedings.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5159248">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Zheleznova</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Shubina</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Degteva</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dubrovsky</surname>
+              <given-names>Yu.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pystina</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>On the moss flora of the Yugyd Va national park (Malyi Patok river basin, Subpolar Urals)</article-title>
+          <source>Proceedings of the Komi Science Centre of the Ural Division of the Russian Academy of Sciences</source>
+          <issue>4(24)</issue>
+          <fpage>28</fpage>
+          <lpage>37</lpage>
+          <uri xlink:type="simple">http://www.izvestia.komisc.ru/archive/i24_ann.files/zheleznova.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5159321">
+        <element-citation publication-type="conference-paper" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Zheleznova</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Shubina</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Degteva</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Degteva</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ashihmina</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Domracheva</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kondakova</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Shirokih</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dabah</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Domnina</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kantor</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ol'kova</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pestov</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Skugoreva</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Timonov</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>On the bryoflora of the Shchugor river basin (South of the Yugyd Va National Park)</article-title>
+          <source>Biodiagnostics of the state of natural and technogenically disturbed systems</source>
+          <conf-name>Proceedings of the Russian scientific conference</conf-name>
+          <publisher-name>Institute of Biology Komi Sci. Centre Ur. Br. RAS</publisher-name>
+          <publisher-loc>Kirov</publisher-loc>
+          <size units="page">152–154</size>
+          <comment content-type="language">Russian</comment>
+          <uri xlink:type="simple">http://proborshevik.ru/wp-content/uploads/2017/12/Dalke_IV_e_a_Kirov_2016.pdf</uri>
+          <isbn>978-5-9908874-7-3</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B5159353">
+        <element-citation publication-type="conference-paper" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Zheleznova</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Shubina</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Muhin</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Saksonov</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Baranova</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tretyakova</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mosses of the basins of the Shugor and Podcherem river basins (the Subpolar and Northern Ural mountains)</article-title>
+          <source>Ecology and geography of plants and plant communities. Proceedings of the IV International scientific conference</source>
+          <conf-loc>Ecology and geography of plants and plant communities</conf-loc>
+          <publisher-name>Liberal Arts University</publisher-name>
+          <publisher-loc>Yekaterinburg</publisher-loc>
+          <comment content-type="language">Russian</comment>
+          <uri xlink:type="simple">https://elibrary.ru/item.asp?id=35346418</uri>
+          <isbn>978-5-7741-0341-6</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B5162545">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Zheleznova</surname>
+              <given-names>Galina</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Shubina</surname>
+              <given-names>Tatyana</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Degteva</surname>
+              <given-names>Svetlana</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rubtsov</surname>
+              <given-names>Mikhail</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chadin</surname>
+              <given-names>Ivan</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Moss occurrences in Yugyd Va National Park, Subpolar and Northern Urals, European North-East Russia</article-title>
+          <source>Institute of Biology of Komi Scientific Centre of the Ural Branch of the Russian Academy of Sciences</source>
+          <pub-id pub-id-type="doi">10.15468/KFEUGM</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F4906249" position="float" orientation="portrait">
+      <object-id content-type="arpha">B39F8877-5A6D-52AB-B00F-5F5F65202274</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e32307.figure1</object-id>
+      <object-id content-type="zenodo_dep_id">2633495</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>The location of Yugyd Va National Park and moss sampling localities within the park. The collection locations of the preserved samples from the Herbarium (SYKO) examined are shown as red dots, while the localities of data obtained from literature are shown as other symbol types. The base map was made with Natural Earth (naturalearthdata.com). The contour relief and river data for Yugyd Va National Park region were obtained from the Institute of Biology of Komi Scientific Centre of the Ural Branch of the Russian Academy of Sciences (ib.komisc.ru). The map was prepared for publication by the authors of the article.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e32307-g001.png" position="float" id="oo_275575.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/275575</uri>
+      </graphic>
+    </fig>
+    <fig id="F4927738" position="float" orientation="portrait">
+      <object-id content-type="arpha">4CC68856-2FB1-577F-ADB1-45ACDE470535</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e32307.figure2</object-id>
+      <object-id content-type="zenodo_dep_id">2633497</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>Taxonomic distribution of species amongst moss families in the dataset. The figure was prepared with the “treemap” package in R (<xref ref-type="bibr" rid="B4906853">Tennekes 2017</xref>)</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e32307-g002.png" position="float" id="oo_247389.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/247389</uri>
+      </graphic>
+    </fig>
+    <fig id="F4927742" position="float" orientation="portrait">
+      <object-id content-type="arpha">185B31B7-E514-59F4-A3BB-0145347E4AA8</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e32307.figure3</object-id>
+      <object-id content-type="zenodo_dep_id">2633499</object-id>
+      <label>Figure 3.</label>
+      <caption>
+        <p>Taxonomic distribution of occurrences amongst moss families in the dataset. The figure was prepared with the “treemap” package in R (<xref ref-type="bibr" rid="B4906853">Tennekes 2017</xref>).</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e32307-g003.png" position="float" id="oo_247390.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/247390</uri>
+      </graphic>
+    </fig>
+    <table-wrap id="T4927735" position="float" orientation="portrait">
+      <label>Table 1.</label>
+      <caption>
+        <p>Data sources for the dataset of moss occurrences in Yugyd Va National Park.</p>
+      </caption>
+      <table rules="all" border="0">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Data source</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Number of records</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Number of species</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <xref ref-type="bibr" rid="B4906661">Dyachenko 1997</xref>
+            </td>
+            <td rowspan="1" colspan="1">8</td>
+            <td rowspan="1" colspan="1">5</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <xref ref-type="bibr" rid="B4906670">Dyachenko and Fomicheva 1986</xref>
+            </td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <xref ref-type="bibr" rid="B4906684">Gorchakovskiy 1958</xref>
+            </td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <xref ref-type="bibr" rid="B4906767">Kildyushevskiy 1956</xref>
+            </td>
+            <td rowspan="1" colspan="1">37</td>
+            <td rowspan="1" colspan="1">36</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <xref ref-type="bibr" rid="B4906784">Kuvaev 1970</xref>
+            </td>
+            <td rowspan="1" colspan="1">65</td>
+            <td rowspan="1" colspan="1">48</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <xref ref-type="bibr" rid="B4906808">Pole 1915</xref>
+            </td>
+            <td rowspan="1" colspan="1">171</td>
+            <td rowspan="1" colspan="1">98</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <xref ref-type="bibr" rid="B4906862">Tsinzerling 1935</xref>
+            </td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">3</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Number of species not present in the Herbarium (SYKO) collection</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">37</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Subtotal</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>287</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>146</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Herbarium collection</td>
+            <td rowspan="1" colspan="1">3833</td>
+            <td rowspan="1" colspan="1">265</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Total</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>4120</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>302</bold>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T5162136" position="float" orientation="portrait">
+      <label>Table 2.</label>
+      <caption>
+        <p>Taxonomic distribution of species and species occurrences amongst families in the dataset. Families are listed in order of the total number of their species included in the dataset. Taxonomy follows Ignatov et al. 2006.</p>
+      </caption>
+      <table rules="all">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Family</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Number of species</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Records</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Sphagnaceae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">27</td>
+            <td rowspan="1" colspan="1">560</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Dicranaceae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">26</td>
+            <td rowspan="1" colspan="1">512</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Mniaceae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">22</td>
+            <td rowspan="1" colspan="1">190</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Amblystegiaceae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">21</td>
+            <td rowspan="1" colspan="1">126</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Brachytheciaceae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">19</td>
+            <td rowspan="1" colspan="1">149</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Grimmiaceae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">16</td>
+            <td rowspan="1" colspan="1">162</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Polytrichaceae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">16</td>
+            <td rowspan="1" colspan="1">475</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Bryaceae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">13</td>
+            <td rowspan="1" colspan="1">88</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>Mielichhoferiaceae</tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">13</td>
+            <td rowspan="1" colspan="1">107</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Plagiotheciaceae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">13</td>
+            <td rowspan="1" colspan="1">40</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Calliergonaceae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">10</td>
+            <td rowspan="1" colspan="1">248</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Hylocomiaceae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">7</td>
+            <td rowspan="1" colspan="1">502</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>Scorpidiaceae</tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">7</td>
+            <td rowspan="1" colspan="1">175</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Aulacomniaceae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">207</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Subtotal</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>212</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>3541</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Total (including other 22 families)</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>302</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>4120</bold>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <supplementary-material id="S5162467" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">F7293B12-0481-5852-AD91-7488C0A3D251</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e32307.suppl1</object-id>
+      <object-id content-type="zenodo_dep_id">2633597</object-id>
+      <label>Supplementary material 1</label>
+      <caption>
+        <p>Mosses checklist of Yugyd Va National Park, Subpolar and Northern Urals, European North-East Russia</p>
+      </caption>
+      <p>Data type: species checklist</p>
+      <p>Brief description: This file contain checklist of moss flora of Yugyd Va National Park, located in the Subpolar and Northern Urals, European North-East Russia (Russian Federation, Komi Republic). It summarises data noted by long-term bryological explorations in remote areas of the Subpolar and Northern Urals from 1943 to 2015 and from studies published since 1915.</p>
+      <p>File: oo_275862.xls</p>
+      <media xlink:href="bdj-07-e32307-s001.xls" mimetype="Microsoft Excel Document" mime-subtype="xls" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/275862</uri>
+      </media>
+      <attrib specific-use="authors">Zheleznova G, Shubina T, Chadin I</attrib>
+    </supplementary-material>
+  </floats-group>
+</article>

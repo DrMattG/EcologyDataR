@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.8.e53724</article-id>
+      <article-id pub-id-type="publisher-id">53724</article-id>
+      <article-id pub-id-type="manuscript">13456</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Apidae</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Zoology &amp; Animal Biology</subject>
+          <subject>Identification key</subject>
+          <subject>Phylogeny</subject>
+          <subject>Taxonomy</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>Europe</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Dataset of wing venation measurements for <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apis">Apis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mellifera">mellifera</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="caucasica">caucasica</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apis">A.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mellifera">mellifera</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="carnica">carnica</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apis">A.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mellifera">mellifera</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="mellifera">mellifera</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hymenoptera</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Apidae</tp:taxon-name-part></tp:taxon-name>), their hybrids and backcrosses</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Węgrzynowicz</surname>
+            <given-names>Paweł</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <name name-style="western">
+            <surname>Łoś</surname>
+            <given-names>Aleksandra</given-names>
+          </name>
+          <email xlink:type="simple">los-aleksandra@o2.pl</email>
+          <uri content-type="orcid">https://orcid.org/0000-0002-3262-6185</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Research Institute of Horticulture, Skierniewice, Poland</addr-line>
+        <institution>Research Institute of Horticulture</institution>
+        <addr-line content-type="city">Skierniewice</addr-line>
+        <country>Poland</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">Institute of Nature Conservation, Polish Academy of Sciences, Kraków, Poland</addr-line>
+        <institution>Institute of Nature Conservation, Polish Academy of Sciences</institution>
+        <addr-line content-type="city">Kraków</addr-line>
+        <country>Poland</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Aleksandra Łoś (<email xlink:type="simple">los-aleksandra@o2.pl</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Laurence Packer</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2020</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>05</day>
+        <month>08</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>8</volume>
+      <elocation-id>e53724</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/527F1BBD-B86C-5A1B-BE02-8D25101D6746">527F1BBD-B86C-5A1B-BE02-8D25101D6746</uri>
+      <history>
+        <date date-type="received">
+          <day>28</day>
+          <month>04</month>
+          <year>2020</year>
+        </date>
+        <date date-type="accepted">
+          <day>24</day>
+          <month>07</month>
+          <year>2020</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Paweł Węgrzynowicz, Aleksandra Łoś</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>Wing venation is used as a tool in honeybee (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apis">Apis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mellifera">mellifera</tp:taxon-name-part></tp:taxon-name></italic> L., 1758) subspecies identification. The presented dataset concerns nineteen landmarks located at honeybee worker's forewing vein junctions. Landmarks of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apis">Apis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mellifera">mellifera</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="caucasica">caucasica</tp:taxon-name-part></tp:taxon-name></italic> Pollmann, 1889, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apis">A.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mellifera">mellifera</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="carnica">carnica</tp:taxon-name-part></tp:taxon-name></italic> Pollmann, 1879 and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apis">A.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mellifera">mellifera</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="mellifera">mellifera</tp:taxon-name-part></tp:taxon-name></italic> Linnaeus, 1758, their hybrids and backcrosses were measured. In total, data from 9590 wings were collected. The dataset could be used in geometric morphometric analysis, studies of degree of inheritance of morphological features and, after further development and supplementation with other local subspecies and hybrids, can contribute to in-depth evolutionary research on honeybees.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>Baseline dataset for wing venation of hybrids and backcrosses of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apis">A.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mellifera">mellifera</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="carnica">carnica</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apis">A.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mellifera">mellifera</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="caucasica">caucasica</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apis">A.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mellifera">mellifera</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="mellifera">mellifera</tp:taxon-name-part></tp:taxon-name></italic>.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>morphometric analysis</kwd>
+        <kwd>geometric morphometry</kwd>
+        <kwd>honeybee</kwd>
+        <kwd>subspecies</kwd>
+      </kwd-group>
+      <funding-group>
+        <funding-statement>The data was collected as part of the Research Institute of Horticulture's statutory studies.</funding-statement>
+      </funding-group>
+      <counts>
+        <fig-count count="0"/>
+        <table-count count="0"/>
+        <ref-count count="16"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>Wing venation is commonly analysed as an important characteristic of insect species (e.g. <xref ref-type="bibr" rid="B5889398">Owen 2012</xref>, <xref ref-type="bibr" rid="B5554775">Perrard et al. 2014</xref>, <xref ref-type="bibr" rid="B5554807">Rossa et al. 2016</xref>, <xref ref-type="bibr" rid="B5554754">Breitkreuz et al. 2017</xref>, <xref ref-type="bibr" rid="B5554764">Loh et al. 2017</xref>, <xref ref-type="bibr" rid="B5554741">Jacquelin et al. 2018</xref>). In honeybees (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apis">Apis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mellifera">mellifera</tp:taxon-name-part></tp:taxon-name></italic>), the measurement of wing venation is used for subspecies determination (<xref ref-type="bibr" rid="B5554797">Tofilski 2008</xref>, <xref ref-type="bibr" rid="B5553914">Gerula et al. 2009</xref>, <xref ref-type="bibr" rid="B5554817">Tofilski 2010</xref>, <xref ref-type="bibr" rid="B5889388">Francoy et al. 2012</xref>, <xref ref-type="bibr" rid="B5889361">Santana et al. 2014</xref>, <xref ref-type="bibr" rid="B5889351">da Silva et al. 2015</xref>, <xref ref-type="bibr" rid="B5553892">Węgrzynowicz et al. 2019</xref><xref ref-type="bibr" rid="B5553914">Gerula et al. 2009</xref>, <xref ref-type="bibr" rid="B5889361">Santana et al. 2014</xref>, <xref ref-type="bibr" rid="B5554797">Tofilski 2008</xref>, <xref ref-type="bibr" rid="B5553892">Węgrzynowicz et al. 2019</xref>). Due to a significant correlation between morphometric and molecular methods, the measurements and analysis of wing veins are a cost-effective and reliable identification measure (<xref ref-type="bibr" rid="B5554785">Miguel et al. 2011</xref>, <xref ref-type="bibr" rid="B5744242">Oleksa and Tofilski 2015</xref>, <xref ref-type="bibr" rid="B5889338">Henriques et al. 2020</xref><xref ref-type="bibr" rid="B5744242">Oleksa and Tofilski 2015</xref>). Geometric morphometrics, based upon nineteen landmarks located at honeybee worker's forewing vein junctions, has been used in Poland since 2008 as a tool for assessing subspecies identity (<xref ref-type="bibr" rid="B5554797">Tofilski 2008</xref>, <xref ref-type="bibr" rid="B5553914">Gerula et al. 2009</xref>). Creating databases that not only include representatives of various subspecies, but also data from hybrids and backcrosses, seems to be particularly valuable. This Data Paper provides raw metadata freely available for further exploration, which can be correlated, for example, with the reference samples for the subspecies from the Morphometric Bee Data Bank in Oberursel, Germany. It may also be used to assess inheritance of morphological features.</p>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>The original colonies of subspecies came from long-term breeding. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apis">Apis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mellifera">mellifera</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="carnica">carnica</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apis">A.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mellifera">mellifera</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="caucasica">caucasica</tp:taxon-name-part></tp:taxon-name></italic> come from colonies maintained within a selection carried out by the Research Institute of Horticulture. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apis">A.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mellifera">mellifera</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="mellifera">mellifera</tp:taxon-name-part></tp:taxon-name></italic> was supplied from a conservation breeding programme supervised by the National Animal Husbandry Center (<ext-link ext-link-type="uri" xlink:href="https://www.kchz.agro.pl/wykaz-ksiegi-1_03_2019_1/">https://www.kchz.agro.pl/wykaz-ksiegi-1_03_2019_1/</ext-link>). These subspecies are commonly maintained in Poland. Methodology described by <xref ref-type="bibr" rid="B5553892">Węgrzynowicz et al. (2019)</xref> was used in order to obtain the parental generation of bees from <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apis">A.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mellifera">mellifera</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="carnica">carnica</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apis">A.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mellifera">mellifera</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="caucasica">caucasica</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apis">A.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mellifera">mellifera</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="mellifera">mellifera</tp:taxon-name-part></tp:taxon-name></italic> subspecies, their hybrids and backcrosses. Two hundred queens with 24 different genotypes have been obtained, representing all possible hybrid and backcrosses combinations of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apis">Apis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mellifera">mellifera</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="carnica">carnica</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apis">A.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mellifera">mellifera</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="caucasica">caucasica</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apis">A.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mellifera">mellifera</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="mellifera">mellifera</tp:taxon-name-part></tp:taxon-name></italic> subspecies. To conduct morphometric analyses, worker bee samples were taken shortly after emergence directly from incubated combs. Bees were stored in plastic containers filled with 96% ethyl alcohol at room temperature for 4 to 5 months. After this period, each worker bee had its right wing removed. The wings were mounted in a glass photographic frame and scanned with a Nicon Coolscan 500 ED scanner (image resolution 2400 dpi, greyscale). Wing images were analysed with DrawWing software (freely available at: <ext-link ext-link-type="uri" xlink:href="http://drawwing.org/node/2">http://drawwing.org/node/2</ext-link>) to determine the coordinates of nineteen landmark features (Suppl. material <xref ref-type="supplementary-material" rid="S5744202">1</xref>). The dataset (Suppl. material <xref ref-type="supplementary-material" rid="S5761268">2</xref>, Suppl. material <xref ref-type="supplementary-material" rid="S5744203">3</xref>) contains parameter measurements for individually analysed honeybee wings.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The Institute of Horticulture, Apiculture Division in Puławy, Poland. Altitude above sea level: 137 m.</p>
+      </sec>
+      <sec sec-type="Coordinates">
+        <title>Coordinates</title>
+        <p> and 51.246 Latitude Latitude;  and 21.581 Longitude Longitude.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>Wing venation is a suite of characteristics that allows the identification of subspecies. Locally-sustained bees of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apis">A.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mellifera">m.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="caucasica">caucasica</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apis">A.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mellifera">m.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="carnica">carnica</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apis">A.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mellifera">m.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="mellifera">mellifera</tp:taxon-name-part></tp:taxon-name></italic> with stabilised wing parameters were used to create hybrid and backcrossed workers and all were included in our baseline dataset.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <p><bold>Data range:</bold> 2013-5-20 – 2015-9-15.</p>
+      <sec sec-type="Notes">
+        <title>Notes</title>
+        <p>Beekeeping seasons in Poland.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Creative Commons Public Domain Waiver (CC-Zero)</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>Dataset of wing venation measurements</p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>2</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Wing_venation_dataset</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>7</p>
+        </sec>
+        <sec sec-type="">
+          <title/>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">No.</td>
+                  <td rowspan="1" colspan="1">serial number</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Queen/Colony ID</td>
+                  <td rowspan="1" colspan="1">Queen/Colony ID</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Maternal origin ID</td>
+                  <td rowspan="1" colspan="1">Maternal origin ID</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Fatherly origin ID</td>
+                  <td rowspan="1" colspan="1">Paternalorigin ID</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">GENOTYPE</td>
+                  <td rowspan="1" colspan="1">GENOTYPE - short name which is described in the "Genotype_description" set</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">WINGS ID</td>
+                  <td rowspan="1" colspan="1">WINGS ID - individual ID given to each sample from a combination of: "No.", "Queen/Colony ID", "Maternal origin ID", "Fatherly origin ID", "GENOTYPE"</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">x0, y0 - x18, y18</td>
+                  <td rowspan="1" colspan="1">Parameter coordinates (in separate columns)</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+      <sec sec-type="Data set 2">
+        <title>Data set 2.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Genotype_description</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>4</p>
+        </sec>
+        <sec sec-type="">
+          <title/>
+          <table-wrap id="DS2" orientation="portrait" position="anchor">
+            <label>Data set 2.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">GENOTYPE</td>
+                  <td rowspan="1" colspan="1">GENOTYPE</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Number of measured wings</td>
+                  <td rowspan="1" colspan="1">Number of measured wings</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Colonies amount</td>
+                  <td rowspan="1" colspan="1">Colonies amount</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Abbreviation description</td>
+                  <td rowspan="1" colspan="1">Abbreviation description [P0, P1 - parental generations, F1 - hybrid generation, BC - backcrosses generation; lowercase letters represent the subspecies: first letter: parental-queen, second letter: paternal-drone (m - <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apis">A.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mellifera">m.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="mellifera">mellifera</tp:taxon-name-part></tp:taxon-name></italic>, k - <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apis">A.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mellifera">m.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="carnica">carnica</tp:taxon-name-part></tp:taxon-name></italic>, c - <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apis">A.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mellifera">m.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="caucasica">caucasica</tp:taxon-name-part></tp:taxon-name></italic>)]</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>We would like to thank the entire scientific and technical team of the Apiculture Division (Research Institute of Horticulture, Skierniewice, Poland) for help in breeding works, as well as for all directions and support. The reviewers and editors have given us extremely valuable guidance and significantly improved the quality of our paper for which we are extremely grateful.</p>
+    </ack>
+    <sec sec-type="Author contributions">
+      <title>Author contributions</title>
+      <p>PW designed and implemented a research project that enabled data collection, conducted measurements, prepared the dataset and supervised writing of the manuscript. AŁ conceived the research, prepared the dataset for publication and helped write the manuscript. Both authors agree with the final version of the manuscript and declare no conflict of interest.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="B5554754">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Breitkreuz</surname>
+              <given-names>Laura C. V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Winterton</surname>
+              <given-names>Shaun L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Engel</surname>
+              <given-names>Michael S.</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Wing tracheation in <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Chrysopidae</tp:taxon-name-part></tp:taxon-name> and other <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="superorder">Neuropterida</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Insecta</tp:taxon-name-part></tp:taxon-name>): A resolution of the confusion about vein fusion</article-title>
+          <source>American Museum Novitates</source>
+          <volume>3890</volume>
+          <issue>3890</issue>
+          <fpage>1</fpage>
+          <lpage>44</lpage>
+          <pub-id pub-id-type="doi">10.1206/3890.1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5889351">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>da Silva</surname>
+              <given-names>Felipe Leno</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Grassi Sella</surname>
+              <given-names>Marina Lopes</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Francoy</surname>
+              <given-names>Tiago Mauricio</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Costa</surname>
+              <given-names>Anna Helena Reali</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Evaluating classification and feature selection techniques for honeybee subspecies identification using wing images</article-title>
+          <source>Computers and Electronics in Agriculture</source>
+          <volume>114</volume>
+          <fpage>68</fpage>
+          <lpage>77</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.compag.2015.03.012</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5889388">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Francoy</surname>
+              <given-names>T. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gonçalves</surname>
+              <given-names>L. S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>De Jong</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Rapid morphological changes in populations of hybrids between Africanized and European honey bees</article-title>
+          <source>Genetics and Molecular Research</source>
+          <volume>11</volume>
+          <issue>3</issue>
+          <fpage>3349</fpage>
+          <lpage>3356</lpage>
+          <pub-id pub-id-type="doi">10.4238/2012.september.17.5</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5553914">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Gerula</surname>
+              <given-names>Dariusz</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tofilski</surname>
+              <given-names>Adam</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Węgrzynowicz</surname>
+              <given-names>Paweł</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Skowronek</surname>
+              <given-names>Wojciech</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>Computer-assisted discrimination of honeybee subspecies used for breeding in Poland</article-title>
+          <source>Journal of Apicultural Science</source>
+          <volume>52</volume>
+          <issue>2</issue>
+          <fpage>105</fpage>
+          <lpage>114</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5889338">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Henriques</surname>
+              <given-names>Dora</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chávez-Galarza</surname>
+              <given-names>Julio</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Teixeira</surname>
+              <given-names>Juliana Stephanie Galaschi</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ferreira</surname>
+              <given-names>Helena</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Neves</surname>
+              <given-names>Cátia J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Francoy</surname>
+              <given-names>Tiago M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pinto</surname>
+              <given-names>M. Alice</given-names>
+            </name>
+          </person-group>
+          <year>2020</year>
+          <article-title>Wing geometric morphometrics of workers and drones and ingle nucleotide polymorphisms provide similar genetic structure in the Iberian honey bee (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apis">Apis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mellifera">mellifera</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="iberiensis">iberiensis</tp:taxon-name-part></tp:taxon-name></italic>)</article-title>
+          <source>Insects</source>
+          <volume>11</volume>
+          <issue>2</issue>
+          <pub-id pub-id-type="doi">10.3390/insects11020089</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5554741">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Jacquelin</surname>
+              <given-names>Lauriane</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Desutter-Grandcolas</surname>
+              <given-names>Laure</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chintauan-Marquier</surname>
+              <given-names>Ioana</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Boistel</surname>
+              <given-names>Renaud</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zheng</surname>
+              <given-names>Daran</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Prokop</surname>
+              <given-names>Jakub</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nel</surname>
+              <given-names>André</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>New insights on basivenal sclerites using 3D tools and homology of wing veins in <tp:taxon-name>Odonatoptera</tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Insecta</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Scientific Reports</source>
+          <volume>8</volume>
+          <issue>1</issue>
+          <pub-id pub-id-type="doi">10.1038/s41598-017-18615-0</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5554764">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Loh</surname>
+              <given-names>Sheng Yang Michael</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ogawa</surname>
+              <given-names>Yoshitaka</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kawana</surname>
+              <given-names>Sara</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tamura</surname>
+              <given-names>Koichiro</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lee</surname>
+              <given-names>Hwee Kuan</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Semi-automated quantitative <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Drosophila">Drosophila</tp:taxon-name-part></tp:taxon-name></italic> wings measurements</article-title>
+          <source>BMC Bioinformatics</source>
+          <volume>18</volume>
+          <issue>1</issue>
+          <pub-id pub-id-type="doi">10.1186/s12859-017-1720-y</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5554785">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Miguel</surname>
+              <given-names>Irati</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Baylac</surname>
+              <given-names>Michel</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Iriondo</surname>
+              <given-names>Mikel</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Manzano</surname>
+              <given-names>Carmen</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Garnery</surname>
+              <given-names>Lionel</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Estonba</surname>
+              <given-names>Andone</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>Both geometric morphometric and microsatellite data consistently support the differentiation of the <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apis">Apis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mellifera">mellifera</tp:taxon-name-part></tp:taxon-name></italic> M evolutionary branch</article-title>
+          <source>Apidologie</source>
+          <volume>42</volume>
+          <issue>2</issue>
+          <fpage>150</fpage>
+          <lpage>161</lpage>
+          <pub-id pub-id-type="doi">10.1051/apido/2010048</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5744242">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Oleksa</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tofilski</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Wing geometric morphometrics and microsatellite analysis provide similar discrimination of honey bee subspecies</article-title>
+          <source>Apidiologie</source>
+          <volume>46</volume>
+          <issue>1</issue>
+          <fpage>49</fpage>
+          <lpage>60</lpage>
+          <pub-id pub-id-type="doi">10.1007/s13592-014-0300-7</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5889398">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Owen</surname>
+              <given-names>E. Robin</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Applications of morphometrics to the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hymenoptera</tp:taxon-name-part></tp:taxon-name>, particularly bumble bees (Bombus, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Apidae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Morphometrics</source>
+          <pub-id pub-id-type="doi">10.5772/34745</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5554775">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Perrard</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Baylac</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Carpenter</surname>
+              <given-names>J. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Villemant</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>Evolution of wing shape in hornets: why is the wing venation efficient for species identification?</article-title>
+          <source>Journal of Evolutionary Biology</source>
+          <volume>27</volume>
+          <issue>12</issue>
+          <fpage>2665</fpage>
+          <lpage>2675</lpage>
+          <pub-id pub-id-type="doi">10.1111/jeb.12523</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5554807">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Rossa</surname>
+              <given-names>Robert</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Goczał</surname>
+              <given-names>Jakub</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tofilski</surname>
+              <given-names>Adam</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Within- and between-species variation of wing venation in genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Monochamus">Monochamus</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Coleoptera</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Cerambycidae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Journal of Insect Science</source>
+          <volume>16</volume>
+          <issue>1</issue>
+          <pub-id pub-id-type="doi">10.1093/jisesa/iev153</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5889361">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Santana</surname>
+              <given-names>Fabiana S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Costa</surname>
+              <given-names>Anna H. Reali</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Truzzi</surname>
+              <given-names>Flavio S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Silva</surname>
+              <given-names>Felipe L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Santos</surname>
+              <given-names>Sheila L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Francoy</surname>
+              <given-names>Tiago M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Saraiva</surname>
+              <given-names>Antonio M.</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>A reference process for automating bee species identification based on wing images and digital image processing</article-title>
+          <source>Ecological Informatics</source>
+          <volume>24</volume>
+          <fpage>248</fpage>
+          <lpage>260</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecoinf.2013.12.001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5554797">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Tofilski</surname>
+              <given-names>Adam</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Using geometric morphometrics and standard morphometry to discriminate three honeybee subspecies</article-title>
+          <source>Apidologie</source>
+          <volume>39</volume>
+          <issue>5</issue>
+          <fpage>558</fpage>
+          <lpage>563</lpage>
+          <pub-id pub-id-type="doi">10.1051/apido:2008037</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5554817">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Tofilski</surname>
+              <given-names>Adam</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>Automatic measurement of honeybee wings</article-title>
+          <source>Systematics Association Special Volumes</source>
+          <fpage>277</fpage>
+          <lpage>288</lpage>
+          <pub-id pub-id-type="doi">10.1201/9781420008074.ch17</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5553892">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Węgrzynowicz</surname>
+              <given-names>Paweł</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gerula</surname>
+              <given-names>Dariusz</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tofilski</surname>
+              <given-names>Adam</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Panasiuk</surname>
+              <given-names>Beata</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bieńkowska</surname>
+              <given-names>Małgorzata</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Maternal inheritance in hybrids of three honey bee subspecies</article-title>
+          <source>Journal of Apicultural Science</source>
+          <volume>63</volume>
+          <issue>1</issue>
+          <fpage>131</fpage>
+          <lpage>138</lpage>
+          <pub-id pub-id-type="doi">10.2478/jas-2019-0010</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <supplementary-material id="S5744202" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">8FCEC327-C973-5C17-A18D-C1DDE1AE98F1</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e53724.suppl1</object-id>
+      <label>Supplementary material 1</label>
+      <caption>
+        <p>Image of the x and y coordinates obtained with the DrawWing sofware for 19 vein connections on the right wing of worker honey bee</p>
+      </caption>
+      <statement content-type="dataType">
+        <label>Data type</label>
+        <p>Image</p>
+      </statement>
+      <p>File: oo_422984.tif</p>
+      <media xlink:href="bdj-08-e53724-s001.tif" mimetype="Tagged Image File" mime-subtype="tif" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/422984</uri>
+      </media>
+      <attrib specific-use="authors">Paweł Węgrzynowicz</attrib>
+    </supplementary-material>
+    <supplementary-material id="S5761268" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">CF5B3D52-DC57-5BC0-A3C3-C39E2FEEA43F</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e53724.suppl2</object-id>
+      <label>Supplementary material 2</label>
+      <caption>
+        <p>Dataset of wing venation measurements - abbreviations descriptions</p>
+      </caption>
+      <statement content-type="dataType">
+        <label>Data type</label>
+        <p>txt</p>
+      </statement>
+      <statement content-type="notes">
+        <label>Brief description</label>
+        <p>Descriptions of the abbreviated names of the genotypes used in the dataset of wing venation measurements.</p>
+      </statement>
+      <p>File: oo_404831.txt</p>
+      <media xlink:href="bdj-08-e53724-s002.txt" mimetype="txt file" mime-subtype="txt" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/404831</uri>
+      </media>
+      <attrib specific-use="authors">Paweł Węgrzynowicz</attrib>
+    </supplementary-material>
+    <supplementary-material id="S5744203" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">B37C5416-12E6-5689-85CA-92D459BBA7A1</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e53724.suppl3</object-id>
+      <label>Supplementary material 3</label>
+      <caption>
+        <p>Dataset of wing venation measurements</p>
+      </caption>
+      <statement content-type="dataType">
+        <label>Data type</label>
+        <p>txt</p>
+      </statement>
+      <statement content-type="notes">
+        <label>Brief description</label>
+        <p>The database contains the x and y coordinates obtained with DrawWing sofware for 19 vein junctions on the right wing of worker honeybees (38 coordinates for each wing). The analysed wings originate from offspring of 200 queens with 24 different genotypes representing all possible hybrid and backcrosses combinations of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apis">Apis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mellifera">mellifera</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="carnica">carnica</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apis">A.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mellifera">mellifera</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="caucasica">caucasica</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Apis">A.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mellifera">mellifera</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="mellifera">mellifera</tp:taxon-name-part></tp:taxon-name></italic> subspecies. Results from a total of 9590 wings are presented in the dataset.</p>
+      </statement>
+      <p>File: oo_404830.txt</p>
+      <media xlink:href="bdj-08-e53724-s003.txt" mimetype="txt file" mime-subtype="txt" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/404830</uri>
+      </media>
+      <attrib specific-use="authors">Paweł Węgrzynowicz</attrib>
+    </supplementary-material>
+  </floats-group>
+</article>

@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="3.0" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.7.e32910</article-id>
+      <article-id pub-id-type="publisher-id">32910</article-id>
+      <article-id pub-id-type="manuscript">10647</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Bacteria</subject>
+          <subject>Plantae</subject>
+          <subject>Animalia</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Microbiology &amp; Virology</subject>
+          <subject>Diseases &amp; Pests</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>World</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>An online global database of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hemiptera</tp:taxon-name-part></tp:taxon-name>-Phytoplasma-Plant biological interactions</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes" xlink:type="simple">
+          <name name-style="western">
+            <surname>Trivellone</surname>
+            <given-names>Valeria</given-names>
+          </name>
+          <email xlink:type="simple">valeria.trivellone@gmail.com</email>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Illinois Natural History Survey, University of Illinois, Champaign, Illinois, United States of America</addr-line>
+        <institution xlink:type="simple">Illinois Natural History Survey, University of Illinois</institution>
+        <addr-line content-type="city">Champaign, Illinois</addr-line>
+        <country>United States of America</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Valeria Trivellone (<email xlink:type="simple">valeria.trivellone@gmail.com</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Quentin Groom</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>26</day>
+        <month>02</month>
+        <year>2019</year>
+      </pub-date>
+      <volume>7</volume>
+      <elocation-id>e32910</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/F0712BF0-FAAC-58B4-8DDD-D245AABC7C71">F0712BF0-FAAC-58B4-8DDD-D245AABC7C71</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/2585307">2585307</uri>
+      <history>
+        <date date-type="received">
+          <day>07</day>
+          <month>01</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>10</day>
+          <month>02</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Valeria Trivellone</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>Phytoplasmas are phloem-limited plant pathogenic <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="division">bacteria</tp:taxon-name-part></tp:taxon-name> in the class <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Mollicutes</tp:taxon-name-part></tp:taxon-name> transmitted by sap-feeding insect vectors of the Order <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hemiptera</tp:taxon-name-part></tp:taxon-name>. Vectors still have not yet been identified for about half of the 33 known phytoplasma groups and this has greatly hindered efforts to control the spread of diseases affecting important crops. Extensive gaps of knowledge on actual phytoplasma vectors and on the plant disease epidemiology prevent our understanding of the basic underlying biological mechanisms that facilitate interactions between insects, phytoplasmas and their host plants.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>This paper presents a complete online database of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hemiptera</tp:taxon-name-part></tp:taxon-name>-Phytoplasma-Plant (HPP) biological interactions worldwide, searchable via an online interface. The raw data are available through Zenodo at <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.5281/zenodo.2532738" xlink:type="simple">https://doi.org/10.5281/zenodo.2532738</ext-link>. The online database search interface was created using the 3I software (<xref ref-type="bibr" rid="B4974877">Dmitriev 2006</xref>) which enhances data usability by providing a customised web interface (<ext-link ext-link-type="uri" xlink:href="http://trivellone.speciesfile.org/" xlink:type="simple">http://trivellone.speciesfile.org/</ext-link>) that provides an overview of the recorded biological interactions and ability to discover particular interactions by searching for one or more phytoplasma, insect or plant taxa. The database will facilitate synthesis of all available and relevant data on the observed associations between phytoplasmas and their insect and plant hosts and will provide useful data to generate and test ecological and evolutionary hypotheses.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>biological relationships dataset</kwd>
+        <kwd>host plants</kwd>
+        <kwd>leafhoppers</kwd>
+        <kwd>planthoppers</kwd>
+        <kwd>plant pathogens</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group xlink:type="simple">
+          <funding-source xlink:type="simple">
+            <named-content content-type="funder_name" xlink:type="simple">National Science Foundation</named-content>
+            <named-content content-type="funder_identifier" xlink:type="simple">100000001</named-content>
+            <named-content content-type="funder_doi" xlink:type="simple">http://doi.org/10.13039/100000001</named-content>
+          </funding-source>
+        </award-group>
+      </funding-group>
+      <counts>
+        <fig-count count="1"/>
+        <table-count count="0"/>
+        <ref-count count="18"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>Phytoplasmas are a group of cell wall-less <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="division">bacteria</tp:taxon-name-part></tp:taxon-name> with small genome sizes (530-2220 kb) belonging to the class <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Mollicutes</tp:taxon-name-part></tp:taxon-name>. They are obligate parasites of plant phloem tissue and are transmitted from plant to plant by sap-feeding insect vectors of the order <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hemiptera</tp:taxon-name-part></tp:taxon-name> (<xref ref-type="bibr" rid="B4974768">Weintraub and Beanland 2006</xref>). They are responsible for hundreds of plant diseases worldwide, causing serious damage to a variety of cultivated and wild plants (<xref ref-type="bibr" rid="B4974778">Bertaccini et al. 2014</xref>). Phytoplasmas were observed for the first time in 1967 (<xref ref-type="bibr" rid="B4974788">Doi et al. 1967</xref>) and only recently classified based on phylogenetic analysis of 16S rRNA and ribosomal protein (rp) gene sequences, revealing their diversity and phylogenetic position (<xref ref-type="bibr" rid="B4974798">Lee et al. 2000</xref>; <xref ref-type="bibr" rid="B4974808">IRPCM, Phytoplasma/Spiroplasma Working Team - Phytoplasma Taxonomy Group 2004</xref>). To date, 33 groups and more than 120 subgroups have been recognised based on 16Sr genetic data and 44 taxa have been given the provisional taxonomic status of ‘<italic>Candidatus</italic>’ (<xref ref-type="bibr" rid="B4974818">Harrison et al. 2018</xref>), denoting not-yet cultured <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="division">bacteria</tp:taxon-name-part></tp:taxon-name>. As phytoplasmas do not satisfy the four Koch postulates (i.e. four criteria used to determine if an organism is the causal agent of a disease), indirect biological evidence, such as electron microscopy observation, phytoplasma and symptom elimination after tetracycline treatments (<xref ref-type="bibr" rid="B4974833">Ishiie et al. 1967</xref>), insect and dodder transmission, has confirmed association of phytoplasmas with numerous plant diseases worldwide (<xref ref-type="bibr" rid="B4974843">Bertaccini 2007</xref>; <xref ref-type="bibr" rid="B4974865">Hogenhout et al. 2008</xref>).</p>
+      <p>The only known phytoplasma vectors are hemipteran insects belonging to the suborder <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Auchenorrhyncha</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="infraorder">Fulgoromorpha</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="infraorder">Cicadomorpha</tp:taxon-name-part></tp:taxon-name>) and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Sternorrhyncha</tp:taxon-name-part></tp:taxon-name> (family <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Psyllidae</tp:taxon-name-part></tp:taxon-name>). An insect acquires the phytoplasma from an infected plant, then the phytoplasma must overcome two major barriers (insect gut and salivary glands cells) in order to reach the saliva for subsequent introduction into another plants' phloem (<xref ref-type="bibr" rid="B4975331">Ammar and Hogenhout 2006</xref>). An insect species is qualified to be a vector if it is competent to transmit the pathogens (vector competence) and this condition is related to the possibility of the phytoplasma to overcome the above-mentioned barriers. The screening of hemipteran species to confirm their vector competence is usually performed using traditional laboratory methods that are extremely time-consuming and expensive and, in general, have only been performed in cases where the pathogen causes severe economic losses to agriculturally important plants. As a consequence, basic knowledge of insect vector ecology and epidemiology of the plant diseases caused by phytoplasmas remains highly incomplete and vectors of many phytoplasmas still have not been identified. In order to integrate and organise data available from disparate sources, improve knowledge of global patterns of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hemiptera</tp:taxon-name-part></tp:taxon-name>, phytoplasma and plant relationships and facilitate research, an open source database platform was created. This paper presents a complete searchable online database of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hemiptera</tp:taxon-name-part></tp:taxon-name>-Phytoplasma-Plant (HPP) biological interactions worldwide. The database has large potential impacts on a variety of research disciplines ranging from systematics to invasive species ecology and vector biology. It will facilitate synthesis of all available and relevant data on <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hemiptera</tp:taxon-name-part></tp:taxon-name>-Phytoplasma-Plant associations and testing of ecological and evolutionary hypotheses.</p>
+    </sec>
+    <sec sec-type="General description">
+      <title>General description</title>
+      <sec sec-type="Purpose">
+        <title>Purpose</title>
+        <p>The main aim of the HPP database is to facilitate storage, retrieval and dissemination of data on <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hemiptera</tp:taxon-name-part></tp:taxon-name>-Phytoplasma-Plant interactions published in literature. It provides an up-to-date record of all pairwise associations recorded.</p>
+      </sec>
+      <sec sec-type="Additional information">
+        <title>Additional information</title>
+        <p>The entire database of HPP biological interactions (raw-HPP) is available for download as tab-delimited text at Zenodo at <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.5281/zenodo.2532738" xlink:type="simple">https://doi.org/10.5281/zenodo.2532738</ext-link>. The same data are accessible via an online search interface created using 3I (<xref ref-type="bibr" rid="B4974877">Dmitriev 2006</xref>), a cyberinfrastructure originally designed to serve as a workbench to create taxonomic databases and identification keys. 3I software was customised here to incorporate tools which organise and summarise data on <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hemiptera</tp:taxon-name-part></tp:taxon-name>- and Plant-Phytoplasma biological relationships reported worldwide. It also incorporates a rigorous nomenclature and classification for all taxa included. The raw-HPP dataset represents the database back end, also accessible via the customised 3I web interface providing user-friendly online access to the data (3I-HPP). The 3I-HPP searchable interface enhances data usability by providing an overview of the reshaped biological interactions data and it can be accessed at <ext-link ext-link-type="uri" xlink:href="http://trivellone.speciesfile.org/" xlink:type="simple">http://trivellone.speciesfile.org/</ext-link>.</p>
+        <p>At present, the database contains 1860 records of plant-phytoplasma pairwise associations and 968 records of insect-phytoplasma pairwise associations. Priority is given to the first record of association between a 16Sr phytoplasma group or subgroup and a host (plant or insect vector) reported for each country. The 3I-HPP search page includes three navigation links, one for <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hemiptera</tp:taxon-name-part></tp:taxon-name>, one for phytoplasmas and one for plants, to enable exploration of the taxonomic hierarchy and classification of all three major organismal groups included. A search may also be performed by entering a taxon name or other search term into the box provided. Each taxon name is displayed as a hyperlink to its own dynamically generated taxon webpage. Each taxon webpage provides an overview of the recorded interactions. An interaction record is defined as a taxon (subject of the taxon webpage) that interacts with another taxon (object cited in the overview of the investigated associations). The interactions are also displayed on a map as red dots on the geographic centroid of each country, state or province where that interaction has been documented. The place names are hyperlinked to literature references for each interaction record.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>Data were compiled based on an extensive literature review and are categorised according to the type of relationship (see Traits coverage section) and literature records were included only if they were considered reliable. Data from published literature were considered not suitable for inclusion in the database if no molecular analysis or inoculation tests were applied to confirm the relationship between the phytoplasma and plant or insect. Papers reporting suspected vectors (without experimental evidence) or papers which inferred a phytoplasma as causing infection on plants, based only on observations of symptoms without any clear association with a phytoplasma group or subgroup, were also excluded. The papers were retrieved mainly using Web of Science and the Funk Agricultural, Consumer and Environmental Sciences Library at the University of Urbana-Champaign (Illinois, USA). The first bibliographic search gathered more than one thousand relevant studies which were individually screened and those considered to provide sufficient evidence (molecular detection of phytoplasmas in the tissues and/or transmission trials) to support or reject a species-specific plant-phytoplasma or insect-phytoplasma relationship were retained. According to the above-mentioned criteria, 829 studies were considered reliable and included in the database, while reports based only on anecdotal evidence were discarded. All papers considered have been deposited as PDF files in a shared data storage service provided by the Illinois Natural History Survey (University of Illinois).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The database provides global coverage of data on documented interactions between <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hemiptera</tp:taxon-name-part></tp:taxon-name>, phytoplasmas and plants. In Fig. <xref ref-type="fig" rid="F5000171">1</xref>, the overall distribution of recorded pairwise interactions is reported.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>In the database, 324 taxa of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hemiptera</tp:taxon-name-part></tp:taxon-name>, 44 '<italic>Candidatus</italic> Phytoplasma' species, 129 Phytoplasma strains and 649 plant species have been recorded.</p>
+        <p>The hemipteran species are all included in the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Auchenorrhyncha</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Sternorrhyncha</tp:taxon-name-part></tp:taxon-name> suborders. For the first suborder, the classification follows the 3I World <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Auchenorrhyncha</tp:taxon-name-part></tp:taxon-name> Database (<xref ref-type="bibr" rid="B4975506">Dmitriev 2003</xref>) published online; for the latter, it follows the Psyl'list database (<xref ref-type="bibr" rid="B4975129">Ouvrard 2018</xref>). Full nomenclatural information (e.g. synonymy, combinations, authorship and so on) is provided through a direct link from each 3I-HPP taxon page to 3I World <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Auchenorrhyncha</tp:taxon-name-part></tp:taxon-name> or to the Psyl'list database.</p>
+        <p>For phytoplasmas, the classification follows the rules established by the International Code of Nomenclature of Prokaryotes (<xref ref-type="bibr" rid="B4975138">Parker et al. 2015</xref>) and additional criteria established by the Phytoplasma/Spiroplasma Working Team (<xref ref-type="bibr" rid="B4974808">IRPCM, Phytoplasma/Spiroplasma Working Team - Phytoplasma Taxonomy Group 2004</xref>, <xref ref-type="bibr" rid="B4974818">Harrison et al. 2018</xref>). All phytoplasma strains in the database are listed as <italic>Incertae sedis</italic> and they are classified into groups and subgroups defined based on restriction fragment length polymorphism (RFLP) analysis of Polymerase Chain Reaction (PCR)-ampliﬁed 16S rRNA gene fragments (<xref ref-type="bibr" rid="B4975204">Zhao et al. 2010</xref>).</p>
+        <p>For species recorded in the phylum of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Tracheophyta</tp:taxon-name-part></tp:taxon-name> (vascular plants), the classification follows the Catalogue of Life (<xref ref-type="bibr" rid="B4975112">Roskov et al. 2018</xref>).</p>
+      </sec>
+      <sec sec-type="Taxa included">
+        <title>Taxa included</title>
+        <table-wrap id="taxonomic_coverage" position="anchor" orientation="portrait">
+          <table rules="all">
+            <thead>
+              <tr>
+                <th rowspan="1" colspan="1">Rank</th>
+                <th rowspan="1" colspan="1">Scientific Name</th>
+                <th rowspan="1" colspan="1"/>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">order</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="order">Hemiptera</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">phylum</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="phylum">Tracheophyta</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1">Vascular plant</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">class</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="class">Mollicutes</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1">Phytoplasma</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+    </sec>
+    <sec sec-type="Traits coverage">
+      <title>Traits coverage</title>
+      <p>Individual records in the raw-HPP database consist of specific pairwise interactions detected in specific countries with their literature citations. In the database, the type of relationship with phytoplasma was defined by a positive detection in an insect body or plant tissues with a consequent assignment to the phytoplasma group or subgroup (e.g. 16SrI or 16SrI A) or to a not yet characterised phytoplasma. Investigated relationships that resulted in negative detection of a phytoplasma are reported as “not detected”. The record was included if the positive or negative detection was proven using microscopic and serology-based techniques, PCR targeting the 16S–23S rRNA genes, observed or virtual RFLP fingerprinting or DNA sequencing methods (<xref ref-type="bibr" rid="B4975481">Smart et al. 1996</xref>; <xref ref-type="bibr" rid="B4975496">Namba 2011</xref>).</p>
+      <p>The 3I-HPP web interface summarises the history of the investigation for each insect and plant species. Therefore, the web interface includes 5 different categories for each taxon level, 3 for insects and 2 for plants. The category assigned to each taxon may change quickly as new investigations are carried out and new data are added to the database.</p>
+      <p>For each insect species (taxon page), one or more of the three possible categories were assigned, according to the available evidence about the capability to transmit the phytoplasma, as follows:</p>
+      <p>
+        <list list-type="order"><list-item><p>Vectorial Competence. A hemipteran species is considered a COMPETENT VECTOR for a certain phytoplasma if the capability of the latter to overcome the barriers of gut and salivary glands of the insect has been proven using classical acquisition/inoculation experiments in the laboratory or inoculation trials with caged infected specimens collected from the field. Moreover, the successful transmission of the phytoplasma to the plant has been detected on tested insects and plants using standard molecular methods, in addition to detection of clear symptoms due to phytoplasma presence in the plant. A less strict evaluation may be applied for papers published before the PCR molecular era (before 1980s), especially if the same insect species were later demonstrated to be competent vectors in the same region.</p></list-item><list-item><p>Positive Detection in insect. A hemipteran is considered a POTENTIAL VECTOR if the phytoplasma has been detected in its body using standard molecular methods. Status as a potential vector does not imply the ability to transmit the phytoplasma from plant to plant. Such insects may represent dead-end hosts for the phytoplasma if it is later shown that they are not competent as vectors.</p></list-item><list-item><p>Negative Detection in insect. A hemipteran is considered a POTENTIAL NON-VECTOR if it tested negative for the presence of phytoplasma. The more times specimens of a species have tested negative, the more likely the species is a non-vector.For each plant species, two categories were defined according to the available evidence on detection of phytoplasma in the plant phloem, as follows:</p></list-item><list-item><p>Positive Detection in plant. A plant is considered INFECTED BY phytoplasma if the pathogen has been successfully detected in its tissues using standard molecular methods.</p></list-item><list-item><p>Negative Detection in plant. A plant is considered a POTENTIAL UNSUITABLE HOST if it tested negative for the presence of phytoplasma. The more times samples of a species have tested negative, the more likely that species is an unsuitable host for the phytoplasma.</p></list-item></list>
+      </p>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <sec sec-type="Notes">
+        <title>Notes</title>
+        <p>The relevant literature included in the database covers a time span of more than 120 years (from 1895 to date).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Оpen Data Commons Open Database License (ODbL)</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hemiptera</tp:taxon-name-part></tp:taxon-name>-Phytoplasma-Plant dataset</p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.5281/zenodo.2532738" xlink:type="simple">https://doi.org/10.5281/zenodo.2532738</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Alternative identifiers">
+        <title>Alternative identifiers</title>
+        <p>10.5281/zenodo.2532738</p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>1</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hemiptera</tp:taxon-name-part></tp:taxon-name>-Phytoplasma-Plant dataset</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>TSV file</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>8</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5281/zenodo.2532738" xlink:type="simple">https://doi.org/10.5281/zenodo.2532738</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Data format version">
+          <title>Data format version</title>
+          <p>v1.2.0</p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>This is a database of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hemiptera</tp:taxon-name-part></tp:taxon-name>-Phytoplasma-Plant (HPP) biological interactions worldwide. The database contains 1860 records of plant-phytoplasma pairwise associations and 968 records of insect-phytoplasma pairwise associations. Only the earliest reported record of each specific association between a 16Sr phytoplasma subgroup and a host (plant or insect vector) is reported for each country in the database. Duplicate records confirming the same association may be added in the future.</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">record_id</td>
+                  <td rowspan="1" colspan="1">record identifier</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">phytoplasma</td>
+                  <td rowspan="1" colspan="1">Phytoplasma 16Sr groups and subgroups detected in the insect or plant host. The "not detected" entry means that phytoplasma was not detected in the host analysed and the "not characterised" entry means that it was not defined the 16Sr group for the detected phytoplasma as reported in the reference source</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">host_group</td>
+                  <td rowspan="1" colspan="1">The group (insect or plant) to which the host belongs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">host_family</td>
+                  <td rowspan="1" colspan="1">Family name of the insect or plant host</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">host_species</td>
+                  <td rowspan="1" colspan="1">Species name of the insect or plant host</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">country</td>
+                  <td rowspan="1" colspan="1">Country where the biological association was detected or searched as reported in the reference source</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">reference_id</td>
+                  <td rowspan="1" colspan="1">Short reference identifier for the biological interaction</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">full_reference</td>
+                  <td rowspan="1" colspan="1">Full reference source for the biological interaction</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>I would like to thank Christopher H. Dietrich and Dmitry A. Dmitriev for their valuable support and constant feedback on the dataset and data paper. I also thank Richard Flood for his kind help and technical support. This study was funded by U.S. National Science Foundation grant (DEB – 16-39601).</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B4975331">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ammar</surname>
+              <given-names>El-Desouky</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hogenhout</surname>
+              <given-names>Saskia</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <chapter-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Mollicutes</tp:taxon-name-part></tp:taxon-name> associated with arthropods and plants</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Kostas</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Miller</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <source>Insect Symbiosis</source>
+          <edition>CRC Press, Taylor &amp; Francis Group</edition>
+          <volume>II</volume>
+          <publisher-loc>Boca Raton, FL, U.S.A.</publisher-loc>
+          <size units="page">97-118</size>
+        </element-citation>
+      </ref>
+      <ref id="B4974843">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Bertaccini</surname>
+              <given-names>Assunta</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <article-title>Phytoplasmas: diversity, taxonomy, and epidemiology</article-title>
+          <source>Frontiers Bioscience</source>
+          <volume>12</volume>
+          <issue>2</issue>
+          <fpage>673</fpage>
+          <lpage>689</lpage>
+          <pub-id pub-id-type="doi">10.2741/2092</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4974778">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Bertaccini</surname>
+              <given-names>Assunta</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Duduk</surname>
+              <given-names>Bojan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Paltrinieri</surname>
+              <given-names>Samanta</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Contaldo</surname>
+              <given-names>Nicoletta</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>Phytoplasmas and Phytoplasma diseases: A severe threat to agriculture</article-title>
+          <source>American Journal of Plant Sciences</source>
+          <volume>05</volume>
+          <issue>12</issue>
+          <fpage>1763</fpage>
+          <lpage>1788</lpage>
+          <pub-id pub-id-type="doi">10.4236/ajps.2014.512191</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4975506">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Dmitriev</surname>
+              <given-names>D. A.</given-names>
+            </name>
+          </person-group>
+          <article-title>3I World <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Auchenorrhyncha</tp:taxon-name-part></tp:taxon-name> database</article-title>
+          <uri xlink:type="simple">http://dmitriev.speciesfile.org</uri>
+          <date-in-citation content-type="access-date">2018-12-20T00:00:00+02:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B4974877">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Dmitriev</surname>
+              <given-names>D. A.</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <article-title>3I, a new program for creating Internet-accessible interactive keys and taxonomic databases and its application for taxonomy of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="infraorder">Cicadina</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="suborder">Homoptera</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Russian Entomological Journal</source>
+          <volume>15</volume>
+          <issue>3</issue>
+          <fpage>263</fpage>
+          <lpage>268</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B4974788">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Doi</surname>
+              <given-names>Yoji</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Teranaka</surname>
+              <given-names>Michiaki</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Yora</surname>
+              <given-names>Kiyoshi</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Asuyama</surname>
+              <given-names>Hidefumi</given-names>
+            </name>
+          </person-group>
+          <year>1967</year>
+          <article-title>Mycoplasma-or PLT group-like microorganisms found in the phloem elements of plants infected with mulberry dwarf, potato witches' broom, aster yellows, or paulownia witches' broom</article-title>
+          <source>Japanese Journal of Phytopathology</source>
+          <volume>33</volume>
+          <issue>4</issue>
+          <fpage>259</fpage>
+          <lpage>266</lpage>
+          <pub-id pub-id-type="doi">10.3186/jjphytopath.33.259</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4974818">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Harrison</surname>
+              <given-names>N. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gundersen-Rindal</surname>
+              <given-names>Dawn</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Davis</surname>
+              <given-names>R. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>May</surname>
+              <given-names>Meghan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brown</surname>
+              <given-names>D. R.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <chapter-title>Candidatus Phytoplasma</chapter-title>
+          <source>Bergey's Manual of Systematics of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="kingdom">Archaea</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="division">Bacteria</tp:taxon-name-part></tp:taxon-name></source>
+          <pub-id pub-id-type="doi">10.1002/9781118960608.gbm01259.pub2</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4974865">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Hogenhout</surname>
+              <given-names>Saskia A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Oshima</surname>
+              <given-names>Kenro</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ammar</surname>
+              <given-names>El-Desouky</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kakizawa</surname>
+              <given-names>Shigeyuki</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kingdom</surname>
+              <given-names>Heather N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Namba</surname>
+              <given-names>Shigetou</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Phytoplasmas: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="division">bacteria</tp:taxon-name-part></tp:taxon-name> that manipulate plants and insects</article-title>
+          <source>Molecular Plant Pathology</source>
+          <volume>9</volume>
+          <issue>4</issue>
+          <fpage>403</fpage>
+          <lpage>423</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1364-3703.2008.00472.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4974808">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>IRPCM</surname>
+              <given-names>Phytoplasma/Spiroplasma Working Team - Phytoplasma Taxonomy Group</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <article-title>'Candidatus Phytoplasma', a taxon for the wall-less, non-helical prokaryotes that colonize plant phloem and insects</article-title>
+          <source>International Journal of Systematic and Evolutionary Microbiology</source>
+          <volume>54</volume>
+          <issue>4</issue>
+          <fpage>1243</fpage>
+          <lpage>1255</lpage>
+          <pub-id pub-id-type="doi">10.1099/ijs.0.02854-0</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4974833">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ishiie</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Doi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Yora</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Asuyama</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <year>1967</year>
+          <article-title>Suppressive effects of antibiotics of tetracycline group on symptom development of mulberry dwarf disease</article-title>
+          <source>Japanese Journal of Phytopathology</source>
+          <volume>33</volume>
+          <issue>4</issue>
+          <fpage>267</fpage>
+          <lpage>275</lpage>
+          <pub-id pub-id-type="doi">10.3186/jjphytopath.33.267</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4974798">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lee</surname>
+              <given-names>I - M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Davis</surname>
+              <given-names>R. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gundersen-Rindal</surname>
+              <given-names>D. E.</given-names>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <article-title>Phytoplasma: Phytopathogenic <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Mollicutes</tp:taxon-name-part></tp:taxon-name></article-title>
+          <source>Annual Review of Microbiology</source>
+          <volume>54</volume>
+          <issue>1</issue>
+          <fpage>221</fpage>
+          <lpage>255</lpage>
+          <pub-id pub-id-type="doi">10.1146/annurev.micro.54.1.221</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4975496">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Namba</surname>
+              <given-names>Shigetou</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>Phytoplasmas: A century of pioneering research</article-title>
+          <source>Journal of General Plant Pathology</source>
+          <volume>77</volume>
+          <issue>6</issue>
+          <fpage>345</fpage>
+          <lpage>349</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10327-011-0341-y</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4975129">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ouvrard</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Psyl'list - The World <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="superfamily">Psylloidea</tp:taxon-name-part></tp:taxon-name> Database.</article-title>
+          <uri xlink:type="simple">http://www.hemiptera-databases.com/psyllist</uri>
+          <date-in-citation content-type="access-date">2018-12-19T00:00:00+02:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B4975138">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Parker</surname>
+              <given-names>C. T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tindall</surname>
+              <given-names>B. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Garrity</surname>
+              <given-names>G. M.</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>International Code of Nomenclature of Prokaryotes</article-title>
+          <source>International Journal of Systematic and Evolutionary Microbiology</source>
+          <pub-id pub-id-type="doi">10.1099/ijsem.0.000778</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4975112">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Roskov</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ower</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Orrell</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nicolson</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bailly</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kirk</surname>
+              <given-names>P. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bourgoin</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>DeWalt</surname>
+              <given-names>R. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Decock</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nieukerken</surname>
+              <given-names>E. van</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zarucchi</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Penev</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Species 2000 &amp; ITIS Catalogue of Life</article-title>
+          <uri xlink:type="simple">www.catalogueoflife.org/col</uri>
+          <date-in-citation content-type="access-date">2018-11-29T00:00:00+02:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B4975481">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Smart</surname>
+              <given-names>C. D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schneider</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Blomquist</surname>
+              <given-names>C. L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Guerra</surname>
+              <given-names>L. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Harrison</surname>
+              <given-names>N. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ahrens</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lorenz</surname>
+              <given-names>K. H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Seemüller</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kirkpatrick</surname>
+              <given-names>B. C</given-names>
+            </name>
+          </person-group>
+          <year>1996</year>
+          <article-title>Phytoplasma-specific PCR primers based on sequences of the 16S-23S rRNA spacer region.</article-title>
+          <source>Applied and Environmental Microbiology</source>
+          <volume>62</volume>
+          <issue>8</issue>
+          <fpage>2988</fpage>
+          <lpage>2993</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B4974768">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Weintraub</surname>
+              <given-names>Phyllis G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Beanland</surname>
+              <given-names>LeAnn</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <article-title>Insect vectors of phytoplasmas</article-title>
+          <source>Annual Review of Entomology</source>
+          <volume>51</volume>
+          <issue>1</issue>
+          <fpage>91</fpage>
+          <lpage>111</lpage>
+          <pub-id pub-id-type="doi">10.1146/annurev.ento.51.110104.151039</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4975204">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Zhao</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wei</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Davis</surname>
+              <given-names>R. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lee</surname>
+              <given-names>I. M.</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <chapter-title>Recent advances in 16S rRNA gene-based phytoplasma differentiation, classification and taxonomy.</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Weintraub</surname>
+              <given-names>P. G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jones</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <source>Phytoplasmas: genomes, plant hosts and vectors</source>
+          <pub-id pub-id-type="doi">10.1079/9781845935306.0064</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F5000171" position="float" orientation="portrait">
+      <object-id content-type="arpha">A10C0FE1-FD1D-512D-94D7-8A735058FCD5</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e32910.figure1</object-id>
+      <object-id content-type="zenodo_dep_id">2585317</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Distribution of the recorded <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Hemiptera</tp:taxon-name-part></tp:taxon-name>- and Plant-Phytoplasma pairwise interactions (generated by <ext-link ext-link-type="uri" xlink:href="http://trivellone.speciesfile.org/" xlink:type="simple">http://trivellone.speciesfile.org/ </ext-link>web interface).</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e32910-g001.png" position="float" id="oo_261168.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/261168</uri>
+      </graphic>
+    </fig>
+  </floats-group>
+</article>

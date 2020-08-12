@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="3.0" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.6.e25280</article-id>
+      <article-id pub-id-type="publisher-id">25280</article-id>
+      <article-id pub-id-type="manuscript">8937</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Vertebrata</subject>
+          <subject>Aves</subject>
+          <subject>Psittaciformes</subject>
+          <subject>Psittacidae</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Biodiversity &amp; Conservation</subject>
+          <subject>Zoology &amp; Animal Biology</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>Central USA and Central Canada</subject>
+          <subject>Eastern USA and Eastern Canada</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Georeferenced sighting and specimen occurrence data of the extinct Carolina Parakeet (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Conuropsis">Conuropsis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="carolinensis">carolinensis</tp:taxon-name-part></tp:taxon-name></italic>) from 1564 - 1944</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes" xlink:type="simple">
+          <name name-style="western">
+            <surname>Burgio</surname>
+            <given-names>Kevin R.</given-names>
+          </name>
+          <email xlink:type="simple">kevin.burgio@uconn.edu</email>
+          <uri content-type="orcid" xlink:type="simple">https://orcid.org/0000-0002-8375-2501</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Carlson</surname>
+            <given-names>Colin J.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Bond</surname>
+            <given-names>Alexander L.</given-names>
+          </name>
+          <uri content-type="orcid" xlink:type="simple">https://orcid.org/0000-0003-2125-7238</uri>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">University of Connecticut, Storrs, United States of America</addr-line>
+        <institution xlink:type="simple">University of Connecticut</institution>
+        <addr-line content-type="city">Storrs</addr-line>
+        <country>United States of America</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">University of Maryland, Annapolis, MD, United States of America</addr-line>
+        <institution xlink:type="simple">University of Maryland</institution>
+        <addr-line content-type="city">Annapolis, MD</addr-line>
+        <country>United States of America</country>
+      </aff>
+      <aff id="A3">
+        <label>3</label>
+        <addr-line content-type="verbatim">Georgetown University, Washington, D.C., United States of America</addr-line>
+        <institution xlink:type="simple">Georgetown University</institution>
+        <addr-line content-type="city">Washington, D.C.</addr-line>
+        <country>United States of America</country>
+      </aff>
+      <aff id="A4">
+        <label>4</label>
+        <addr-line content-type="verbatim">Bird Group, The Natural History Museum, Tring, United Kingdom</addr-line>
+        <institution xlink:type="simple">Bird Group, The Natural History Museum</institution>
+        <addr-line content-type="city">Tring</addr-line>
+        <country>United Kingdom</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Kevin R. Burgio (<email xlink:type="simple">kevin.burgio@uconn.edu</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Ross Mounce</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>19</day>
+        <month>06</month>
+        <year>2018</year>
+      </pub-date>
+      <volume>6</volume>
+      <elocation-id>e25280</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/FFB5FFA8-FF83-FF99-2728-5432DB6DEA50">FFB5FFA8-FF83-FF99-2728-5432DB6DEA50</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/1298770">1298770</uri>
+      <history>
+        <date date-type="received">
+          <day>26</day>
+          <month>03</month>
+          <year>2018</year>
+        </date>
+        <date date-type="accepted">
+          <day>12</day>
+          <month>06</month>
+          <year>2018</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Kevin R. Burgio, Colin J. Carlson, Alexander L. Bond</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>Despite much present-day attention on recently extinct North American birds species, little contemporary research has focused on the Carolina parakeet (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Conuropsis">Conuropsis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="carolinesis">carolinesis</tp:taxon-name-part></tp:taxon-name></italic>). While the last captive Carolina parakeet died 100 years ago this year, the Carolina parakeet was officially declared extinct in 1920, but they likely persisted in small, isolated populations until at least the 1930s, and perhaps longer. How this once wide-ranging and plentiful species went extinct remains a mystery. Here, we present a georeferenced dataset of Carolina parakeet sightings spanning nearly 400 years by combining both written observations and specimen data.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>Because we include both observations and specimen data, the Carolina parakeet occurrence dataset presented here is the most comprehensive and rigorous datsetset on this species available. The dataset includes 861 sightings from 1564 to 1944. Each datapoint includes geographic coordinates, a measurement of uncertainty, detailed information about each sighting, and an assessment of the sighting's validity. Given that this species is so poorly understood, we make these data freely available to facilitate more research on this colorful and charismatic species.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>Carolina parakeet</kwd>
+        <kwd>
+          <italic>
+            <tp:taxon-name>
+              <tp:taxon-name-part taxon-name-part-type="genus">Conuropsis</tp:taxon-name-part>
+              <tp:taxon-name-part taxon-name-part-type="species">carolinensis</tp:taxon-name-part>
+            </tp:taxon-name>
+          </italic>
+        </kwd>
+        <kwd>distribution</kwd>
+        <kwd>extinction</kwd>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="order">Psittaciformes</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>North America</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group xlink:type="simple">
+          <funding-source xlink:type="simple">
+            <named-content content-type="funder_name" xlink:type="simple">National Science Foundation</named-content>
+            <named-content content-type="funder_identifier" xlink:type="simple">100000001</named-content>
+            <named-content content-type="funder_doi" xlink:type="simple">http://doi.org/10.13039/100000001</named-content>
+          </funding-source>
+        </award-group>
+      </funding-group>
+      <counts>
+        <fig-count count="1"/>
+        <table-count count="0"/>
+        <ref-count count="19"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>The Carolina parakeet (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Conuropsis">Conuropsis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="carolinesis">carolinesis</tp:taxon-name-part></tp:taxon-name></italic>) was the only endemic North American parrot species north of the Rio Grande. The species likely went extinct in the first half of the 20th century (<xref ref-type="bibr" rid="B4190728">Snyder and Russell 2002</xref>, <xref ref-type="bibr" rid="B4190747">Elphick et al. 2010</xref>), though the proximate and ultimate causes of their extinction remain unknown. Despite being a charismatic and colorful bird, the Carolina parakeet has not received as much attention as other recently extinct North American birds, such as the passenger pigeon (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ectopistes">Ectopistes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="migratorius">migratorius</tp:taxon-name-part></tp:taxon-name></italic>, e.g. <xref ref-type="bibr" rid="B4285630">Stanton 2014</xref>), the ivory-billed woodpecker (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Campephilus">Campephilus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="principalis">principalis</tp:taxon-name-part></tp:taxon-name></italic>, e.g. <italic><xref ref-type="bibr" rid="B4285619">Gotelli et al. 2011</xref></italic>), or Bachman's warbler (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Vermivora">Vermivora</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="bachmanii">bachmanii</tp:taxon-name-part></tp:taxon-name></italic>, e.g. <xref ref-type="bibr" rid="B4285609">Carlson et al. 2018</xref>). Aside from the efforts of two individual researchers, Daniel McKinley (e.g. <xref ref-type="bibr" rid="B4190700">McKinley 1965</xref>, <xref ref-type="bibr" rid="B4190710">McKinley and Hardy 1985</xref>) and Noel Snyder (<xref ref-type="bibr" rid="B4190728">Snyder and Russell 2002</xref>, <xref ref-type="bibr" rid="B4190719">Snyder 2004</xref>), there has been relatively little research on the Carolina parakeet since the last captive individual died in the Cincinnati Zoo in 1918. However, with the progression of increasingly sophisticated analytical approaches, such as genetic sequencing and species distribution modeling, researchers are starting to provide new insights into Carolina parakeets' evolutionary relationships within the parrot phylogeny (<xref ref-type="bibr" rid="B4190757">Kirchman et al. 2012</xref>) and the range size and migratory behavior (<xref ref-type="bibr" rid="B4162241">Burgio et al. 2017</xref>). To facilitate more research on this understudied, extinct species, we present the most detailed dataset yet compiled of georeferenced observations and specimens of the Carolina parakeet, ranging from 1564 to 1944.</p>
+      <p>It was only through Daniel McKinley's efforts were we able to compile this dataset. A vast majority of observations were detailed, with primary sources, in McKinley's numerous publications from 1959 to 1985 (e.g. <xref ref-type="bibr" rid="B4190700">McKinley 1965</xref>, <xref ref-type="bibr" rid="B4190710">McKinley and Hardy 1985</xref>). Within our dataset, we include observations gleaned from a wide variety of sources, including hunters' logs, the correspondence of well-known historical figures including Thomas Jefferson (<xref ref-type="bibr" rid="B4285506">Jefferson 1894</xref>) and the explorers Lewis and Clark (<xref ref-type="bibr" rid="B4285515">Lewis and Clark 1904</xref>), and even letters to the editor of local newspapers. However, some sightings may be fraudulent, as collectors from the early 20th century would often pay high prices for the eggs of a nearly extinct bird. As an example, included in the dataset is the date and location of one such potentially fradulant clutch of eggs, collected by a prolific egg collector and dealer, Charles Doe, who was notorious for passing off eggs of one species for those of other, less rare species (<xref ref-type="bibr" rid="B4190719">Snyder 2004</xref>, <xref ref-type="bibr" rid="B4190728">Snyder and Russell 2002</xref>). Fraud surrounding the Carolina parakeet was not uncommon, as evidenced by a video of living parrots painted to look like Carolina parakeets mixed in with taxidermied specimens that began circulating in the 1950s (<xref ref-type="bibr" rid="B4285496">Snyder et al. 2010</xref>). While we include these "sightings" in our dataset, they are flagged as likely invalid.</p>
+      <p>Adding to the lore surrounding Carolina parakeet observations, as late as the 1940s, ornithologist Oscar Bayard claimed that he knew of a remnant population of Carolina parakeets in rural Florida, but he refused to tell anyone where the birds were for fear that people would trap or kill the birds (<xref ref-type="bibr" rid="B4190719">Snyder 2004</xref>). In an effort to try to find information of this long lost population of Carolina parakeets, Snyder even visited his family to see if any journals were left in his affects after he died, yet he found nothing (<xref ref-type="bibr" rid="B4190719">Snyder 2004</xref>).</p>
+      <p>While data about Bayard's "lost population" has disappeared, some data may still be buried in obscure texts, waiting to be found. For instance, McKinley, who spent over 25 years writing about Carolina parakeets focusing primarily on the sightings recorded in each state, referenced two manuscripts in his writing that were never published, including a detailed account of sightings of Louisiana. We contacted his former university department to see if any of his writing or materials remained after his passing but his former collleagues could not find anything. We included as many observations as we could find from Louisiana, but it remains one of the most poorly represented states in our dataset. If other researchers find new citations or localities for the Carolina parakeet not found here, we encourage them to share them with us so we can update this dataset.</p>
+      <p>These data can be used in many avenues in research for this poorly understood species. In conjuction with modeling approaches, they may be able to help shed new light on the likely cause of the species' extinction, which remains a mystery. Accurate and precise georeferenced specimen data can be used in combination with genetic and stable isotope sampling, for example, to learn more about the relationship between the two subspecies and their dietary composition or foraging behaviour. Of the known extinct parrots, the Carolina parakeet had the largest range, by far (<xref ref-type="bibr" rid="B4285465">Olah et al. 2016</xref>). Learning how and why they went extinct may yield lessons that can inform modern conservation efforts for other parrot species, which is of pressing need, since parrots are the most-threatened major order of birds (<xref ref-type="bibr" rid="B4285465">Olah et al. 2016</xref>) with many obstacles related to conservation prioritization, especially when considering the future effects of climate change.</p>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>We collected and georeferenced locality data from Carolina parakeet specimens found in natural history collections around the world (n = 460) using online data repositories, and by contacting museums directly. We also compiled observations of Carolina parakeets from scientific literature, travel diaries, and other resources from 1564 to 1944 (n = 401). Specimens and observations were georeferenced using guidelines established by <xref ref-type="bibr" rid="B4190738">Chapman and Wieczorek (2006)</xref>, and the georeferencing software GEOLocate (<xref ref-type="bibr" rid="B4190786">Rios and Bart 2010</xref>). Given that place names and geographical extents of towns and water bodies have changed a great deal in the past few hundred years in North America, we paid special attention to historically-relevant maps and field journals of specimen collectors when selecting coordinates and measuring uncertainty. We include all metadata, links to historic maps used, and relevant citations associated with each sighting.</p>
+        <p>Rather than using most existing coordinates associated with museum specimens found in online data repositories (e.g., VertNet), we re-estimated the geographical coordinates of almost every specimen based on collection locality names in order to ensure consistency throughout the dataset and remove the possibility of previous errors. Perhaps most importantly, re-estimating the coordinates allowed us to measure the geographic uncertainty for each sighting. However, we did not re-estimate coordinates and uncertainty for specimens that were already measured using the same guidelines we used, though these comprise a very small percentage of the dataset (n = 4). While more Carolina parakeet specimens exist in natural history museums and collections, many are either missing locality information or the locality information was not sufficient to georeference with confidence. Because the Carolina parakeet was unique among the North American avifauna, being the only parrot species (in addition to their bold yellow and red head, and raucous calls), we were confident that misidentification was unlikely in the published accounts of the observations.</p>
+        <p>In the dataset, we include reported sightings that experts consider dubious or questionable. We also include sightings of what are likely vagrant birds (from Colorado, Maryland, Michigan, New Jersey, New York, North Dakota, Pennsylvania, and South Dakota; see <xref ref-type="bibr" rid="B4162241">Burgio et al. 2017</xref> for more information). Additionally, we kept all georeferenced points in the dataset, regardless of the size of the estimated uncertainty associated with the coordinates. As such, these data should not be used uncritically.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The Carolina parakeet has two named subspecies differentiated by geographic range: <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Conuropsis">C.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="carolinensis">c.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="carolinesis">carolinensis</tp:taxon-name-part></tp:taxon-name></italic> which occurred along coastal southeastern United States, and the more westerly <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Conuropsis">C.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="carolinensis">c.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="subspecies" reg="ludovicianus">ludovicianus</tp:taxon-name-part></tp:taxon-name></italic> (colloqiually known as the Louisiana parakeet), which had a range from central Texas to Nebraska, west to Ohio, and south to Louisiana, with little overlap with the eastern subspecies (<xref ref-type="bibr" rid="B4162241">Burgio et al. 2017</xref>). The two subspecies were largely divided by the Appalachian mountains, only coming into contact in the area around Mississippi and Alabama (<xref ref-type="bibr" rid="B4190767">Ridgway 1916</xref>, <xref ref-type="bibr" rid="B4190776">Swenk 1934</xref>). This division is consistent with the labels of all 261 existing museum specimens that have been assigned to subspecies. Our dataset has controversial and vagrant sightings well outside of their range, with the most distant observations in Colorado, on the border of Montana and North Dakota, to Wisconsin, and northern New York (Fig. <xref ref-type="fig" rid="F4285827">1</xref>).</p>
+      </sec>
+      <sec sec-type="Coordinates">
+        <title>Coordinates</title>
+        <p>25.211111 and 47.99917 Latitude; -105.222778 and -74.20528 Longitude.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Taxa included">
+        <title>Taxa included</title>
+        <table-wrap id="taxonomic_coverage" position="anchor" orientation="portrait">
+          <table rules="all">
+            <thead>
+              <tr>
+                <th rowspan="1" colspan="1">Rank</th>
+                <th rowspan="1" colspan="1">Scientific Name</th>
+                <th rowspan="1" colspan="1"/>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">kingdom</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="kingdom">Animalia</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">phylum</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="phylum">Chordata</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">class</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="class">Aves</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1">Birds</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">order</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="order">Psittaciformes</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1">Parrots</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">family</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="family">Psittacidae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1">African &amp; New World parrots</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">tribe</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="tribe">Arini</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1">Macaws and parakeets</td>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1">
+                  <italic>
+                    <tp:taxon-name>
+                      <tp:taxon-name-part taxon-name-part-type="genus" reg="Conuropsis">Conuropsis</tp:taxon-name-part>
+                      <tp:taxon-name-part taxon-name-part-type="species" reg="carolinensis">carolinensis</tp:taxon-name-part>
+                    </tp:taxon-name>
+                  </italic>
+                </td>
+                <td rowspan="1" colspan="1">Carolina parakeet</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <p><bold>Data range:</bold> 1564-1-01 – 1944-12-31.</p>
+      <sec sec-type="Notes">
+        <title>Notes</title>
+        <p>Some dates lack daily and/or monthly precision. Some sightings have no date data.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Creative Commons Public Domain Waiver (CC-Zero)</p>
+      </sec>
+      <sec sec-type="IP rights notes">
+        <title>IP rights notes</title>
+        <p>All data CC-Zero except when noted in the dataset.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>Georeferenced sighting and specimen occurrence data of the extinct Carolina Parakeet (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Conuropsis">Conuropsis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="carolinensis">carolinensis</tp:taxon-name-part></tp:taxon-name>) from 1564-1944</p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="https://figshare.com/s/2418adbd9d87cef842d3" xlink:type="simple">https://figshare.com/s/2418adbd9d87cef842d3</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Alternative identifiers">
+        <title>Alternative identifiers</title>
+        <p>DOI: https://doi.org/10.6084/m9.figshare.5967028</p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>1</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Burgio_et_al_2018_Carolina_Parakeet_Occurence_Data</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Darwin Core Archive</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>30</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="https://figshare.com/s/2418adbd9d87cef842d3" xlink:type="simple">https://figshare.com/s/2418adbd9d87cef842d3</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>To facilitate broad use of these data, we formatted the dataset in accordance with Darwin Core standards (<xref ref-type="bibr" rid="B4378861">Wieczorek et al. 2012</xref>). See <ext-link ext-link-type="uri" xlink:href="http://rs.tdwg.org/dwc/terms/" xlink:type="simple">http://rs.tdwg.org/dwc/terms/</ext-link>. We used Darwin Core standard column descriptions below with additional notes specific to these data. We also provide citations for all references in the "associatedReferences" column, in the dataset in a separate .txt document. We also provide an index of the abbreviations found in the "institutionCode" field, with the full name of the collection / natural history museum in which the specimen is location as a .txt document.</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceID</td>
+                  <td rowspan="1" colspan="1">An identifier for the Occurrence (as opposed to a particular digital record of the occurrence). In the absence of a persistent global unique identifier, construct one from a combination of identifiers in the record that will most closely make the occurrenceID globally unique. In this dataset, specimens use the ID number from its holding facilty; observations have their own unique observation ID.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventDate</td>
+                  <td rowspan="1" colspan="1">The date-time or interval during which an Event occurred. We present eventDate in ISO 8601 format. In some cases, day, month, or year data is missing.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">year</td>
+                  <td rowspan="1" colspan="1">The four-digit year in which the Event occurred, according to the Common Era Calendar.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">locality</td>
+                  <td rowspan="1" colspan="1">The specific description of the place. Less specific geographic information can be provided in other geographic terms (stateProvince, county). This term may contain information modified from the original to correct perceived errors or standardize the description.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">stateProvince</td>
+                  <td rowspan="1" colspan="1">The name of the next smaller administrative region than country (state, province, canton, department, region, etc.) in which the locality occurs.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">county</td>
+                  <td rowspan="1" colspan="1">The full, unabbreviated name of the next smaller administrative region than stateProvince (county) in which the locality occurs.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLatitude</td>
+                  <td rowspan="1" colspan="1">The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location. Note the coordinates are very pricise, as they describe the very center of a polygon that encompasses all uncertainty associated with the locality (see coordinateUncertaintyInMeters).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLongitude</td>
+                  <td rowspan="1" colspan="1">The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location. Note the coordinates are very pricise, as they describe the very center of a polygon that encompasses all uncertainty associated with the locality (see coordinateUncertaintyInMeters).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">coordinateUncertaintyInMeters</td>
+                  <td rowspan="1" colspan="1">The horizontal distance (in meters) from the given decimalLatitude and decimalLongitude describing the smallest circle containing the whole of the Location.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">geodeticDatum</td>
+                  <td rowspan="1" colspan="1">The ellipsoid, geodetic datum, or spatial reference system (SRS) upon which the geographic coordinates given in decimalLatitude and decimalLongitude as based. Data presented here in WGS84.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">coordinatePrecision</td>
+                  <td rowspan="1" colspan="1">A decimal representation of the precision of the coordinates given in the decimalLatitude and decimalLongitude.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">georeferencedBy</td>
+                  <td rowspan="1" colspan="1">A list (concatenated and separated) of names of people, groups, or organizations who determined the georeference (spatial representation) for the Location. In this case, K.R. Burgio, georeferenced all sightings but 4.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">georeferencedDate</td>
+                  <td rowspan="1" colspan="1">The date on which the Location was georeferenced in ISO 8601 format.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">georeferenceSources</td>
+                  <td rowspan="1" colspan="1">A list (concatenated and separated) of maps, gazetteers, or other resources used to georeference the Location, described specifically enough to allow anyone in the future to use the same resources.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">georeferenceProtocol</td>
+                  <td rowspan="1" colspan="1">A description or reference to the methods used to determine the spatial footprint, coordinates, and uncertainties. We used the GBIF best practices guidelines established by Chapman &amp; Wieczorek (2006).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">georeferenceRemarks</td>
+                  <td rowspan="1" colspan="1">Notes or comments about the spatial description determination, explaining assumptions made in addition or opposition to the those formalized in the method referred to in georeferenceProtocol.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">institutionCode</td>
+                  <td rowspan="1" colspan="1">The name (or acronym) in use by the institution having custody of the object(s) or information referred to in the record. We include a list of abbreviation codes with the full name of the instutition in a separate .txt file with the dataset.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">basisOfRecord</td>
+                  <td rowspan="1" colspan="1">The specific nature of the data record.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">recordedBy</td>
+                  <td rowspan="1" colspan="1">A list (concatenated and separated) of names of people, groups, or organizations responsible for recording the original Occurrence. The primary collector or observer, especially one who applies a personal identifier (recordNumber), should be listed first.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">associatedReferences</td>
+                  <td rowspan="1" colspan="1">A list (concatenated and separated) of identifiers (publication, bibliographic reference, global unique identifier, URI) of literature associated with the Occurrence.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">infraspecificEpithet</td>
+                  <td rowspan="1" colspan="1">The name of the lowest or terminal infraspecific epithet. Here, we we relate subspecies identification as recorded on the specimen tag, if known.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventRemarks</td>
+                  <td rowspan="1" colspan="1">Comments or notes about the Event.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">dynamicProperties</td>
+                  <td rowspan="1" colspan="1">Assessment of quality of the sighting, based on expert opinion (see associated referenced for discussion of each sighting). The categories are: 1) "validity=Specimen" which indicates that a specimen exists, or did exist at one time. 2) "validity=Confirmed observation” which indicates that the observation is largely considered valid by either McKinley and/or Snyder. 3) “validity=Unconfirmed” is an observation that for one reason or another is considered controversial. 4) “vality=Likely invalid” is an observation or specimen that may be a result of fraud or mislabeling, pending independent verification.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">collectionCode</td>
+                  <td rowspan="1" colspan="1">The name, acronym, coden, or initialism identifying the collection or data set from which the record was derived.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">catalogNumber</td>
+                  <td rowspan="1" colspan="1">An identifier (preferably unique) for the record within the data set or collection.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">license</td>
+                  <td rowspan="1" colspan="1">A legal document giving official permission to do something with the resource.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">rightsHolder</td>
+                  <td rowspan="1" colspan="1">A person or organization owning or managing rights over the resource.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">accessRights</td>
+                  <td rowspan="1" colspan="1">Information about who can access the resource or an indication of its security status. Access Rights may include information regarding access or restrictions based on privacy, security, or other policies.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">bibliographicCitation</td>
+                  <td rowspan="1" colspan="1">A bibliographic reference for the resource as a statement indicating how this record should be cited (attributed) when used. Recommended practice is to include sufficient bibliographic detail to identify the resource as unambiguously as possible.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">references</td>
+                  <td rowspan="1" colspan="1">A related resource that is referenced, cited, or otherwise pointed to by the described resource.</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>The authors would like to thank K. Block and G. Nuttall for help with data collection, M. MacFerrin for help with data formatting, the University of Connecticut Inter-Library Loan department for handling hundreds of interlibrary loan requests, and The Natural History Museum for funding. We'd also like to thank W.P. Corgan for making this all possible. Thanks to J. Wieczorek, R. Mounce, J. Stanton, and C. Hermes for their helpful feedback that greatly improved this manuscript. KRB was funded by NSF grant # DGE-0753455.</p>
+    </ack>
+    <sec sec-type="Author contributions">
+      <title>Author contributions</title>
+      <p>KRB designed data collection protocol &amp; collected data. All authors verified data and wrote the manuscript.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="B4162241">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Burgio</surname>
+              <given-names>K. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Carlson</surname>
+              <given-names>C. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tingley</surname>
+              <given-names>M. W.</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Lazarus ecology: Recovering the distribution and migratory patterns of the extinct Carolina parakeet</article-title>
+          <source>Ecology and Evolution</source>
+          <volume>7</volume>
+          <issue>14</issue>
+          <fpage>5467</fpage>
+          <lpage>5475</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1002/ece3.3135</uri>
+          <pub-id pub-id-type="doi">10.1002/ece3.3135</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4285609">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Carlson</surname>
+              <given-names>C J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Burgio</surname>
+              <given-names>K R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dallas</surname>
+              <given-names>T A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bond</surname>
+              <given-names>A L</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Spatial extinction date estimation: a novel method for reconstructing spatiotemporal patterns of extinction and identifying potential zones of rediscovery</article-title>
+          <source>bioRxiv</source>
+          <uri xlink:type="simple">http://dx.doi.org/10.1101/279679</uri>
+          <pub-id pub-id-type="doi">10.1101/279679</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4190738">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Chapman</surname>
+              <given-names>A. D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wieczorek</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <source>Guide to best practices for georeferencing</source>
+          <publisher-name>Global Biodiversity Information Facility</publisher-name>
+          <publisher-loc>Copenhagen</publisher-loc>
+        </element-citation>
+      </ref>
+      <ref id="B4190747">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Elphick</surname>
+              <given-names>C S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Roberts</surname>
+              <given-names>D. L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Reed</surname>
+              <given-names>J. M.</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>Estimated dates of recent extinctions for North American and Hawaiian birds</article-title>
+          <source>Biological Conservation</source>
+          <volume>143</volume>
+          <issue>3</issue>
+          <fpage>617</fpage>
+          <lpage>624</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1016/j.biocon.2009.11.026</uri>
+          <pub-id pub-id-type="doi">10.1016/j.biocon.2009.11.026</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4285619">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Gotelli</surname>
+              <given-names>Nicholas J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chao</surname>
+              <given-names>Anne</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Colwell</surname>
+              <given-names>R. K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hwang</surname>
+              <given-names>Wen-Han</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Graves</surname>
+              <given-names>G. R.</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>Specimen-based modeling, stopping rules, and the extinction of the ivory-billed woodpecker</article-title>
+          <source>Conservation Biology</source>
+          <volume>26</volume>
+          <issue>1</issue>
+          <fpage>47</fpage>
+          <lpage>56</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1111/j.1523-1739.2011.01715.x</uri>
+          <pub-id pub-id-type="doi">10.1111/j.1523-1739.2011.01715.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4285506">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Jefferson</surname>
+              <given-names>Thomas</given-names>
+            </name>
+          </person-group>
+          <year>1894</year>
+          <source>The Writings of Thomas Jefferson</source>
+          <volume>3</volume>
+          <publisher-name>G.P. Putnam's Sons</publisher-name>
+          <publisher-loc>New York</publisher-loc>
+        </element-citation>
+      </ref>
+      <ref id="B4190757">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kirchman</surname>
+              <given-names>Jeremy J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schirtzinger</surname>
+              <given-names>Erin E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wright</surname>
+              <given-names>Timothy F.</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Phylogenetic relationships of the extinct Carolina Parakeet (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Conuropsis">Conuropsis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="carolinensis">carolinensis</tp:taxon-name-part></tp:taxon-name></italic>) inferred from DNA sequence data</article-title>
+          <source>The Auk</source>
+          <volume>129</volume>
+          <issue>2</issue>
+          <fpage>197</fpage>
+          <lpage>204</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1525/auk.2012.11259</uri>
+          <pub-id pub-id-type="doi">10.1525/auk.2012.11259</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4285515">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lewis</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Clark</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <year>1904</year>
+          <source>Original journals of the Lewis and Clark expedition, 1804-1806</source>
+          <publisher-name>Dodd, Mead &amp; Company</publisher-name>
+          <publisher-loc>New York</publisher-loc>
+        </element-citation>
+      </ref>
+      <ref id="B4190700">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>McKinley</surname>
+              <given-names>Daniel</given-names>
+            </name>
+          </person-group>
+          <year>1965</year>
+          <article-title>The Carolina Parakeet in the Upper Missouri and Mississippi River Valleys</article-title>
+          <source>The Auk</source>
+          <volume>82</volume>
+          <issue>2</issue>
+          <fpage>215</fpage>
+          <lpage>226</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.2307/4082934</uri>
+          <pub-id pub-id-type="doi">10.2307/4082934</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4190710">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>McKinley</surname>
+              <given-names>Daniel</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hardy</surname>
+              <given-names>J. W.</given-names>
+            </name>
+          </person-group>
+          <year>1985</year>
+          <source>The Carolina Parakeet in Florida</source>
+          <publisher-name>Florida Ornithological Society</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B4285465">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Olah</surname>
+              <given-names>George</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Butchart</surname>
+              <given-names>S. H. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Symes</surname>
+              <given-names>Andy</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Guzmán</surname>
+              <given-names>I. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cunningham</surname>
+              <given-names>Ross</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brightsmith</surname>
+              <given-names>D. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Heinsohn</surname>
+              <given-names>Robert</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Ecological and socio-economic factors affecting extinction risk in parrots</article-title>
+          <source>Biodiversity and Conservation</source>
+          <volume>25</volume>
+          <issue>2</issue>
+          <fpage>205</fpage>
+          <lpage>223</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1007/s10531-015-1036-z</uri>
+          <pub-id pub-id-type="doi">10.1007/s10531-015-1036-z</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4190767">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ridgway</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <year>1916</year>
+          <source>The birds of North and Middle America</source>
+          <volume>50</volume>
+          <publisher-name>US Government Printing Office</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B4190786">
+        <element-citation publication-type="software" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Rios</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bart</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>GEOLocate</article-title>
+          <publisher-name>Tulane University Museum of Natural History</publisher-name>
+          <uri xlink:type="simple">http://www.museum.tulane.edu/geolocate/</uri>
+          <comment content-type="Version">3.22</comment>
+        </element-citation>
+      </ref>
+      <ref id="B4190719">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Snyder</surname>
+              <given-names>N. F.</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <source>The Carolina Parakeet: Glimpses of a vanished bird</source>
+          <publisher-name>Princeton University Press</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B4190728">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Snyder</surname>
+              <given-names>N. F. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Russell</surname>
+              <given-names>Keith</given-names>
+            </name>
+          </person-group>
+          <year>2002</year>
+          <article-title>Carolina Parakeet (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Conuropsis">Conuropsis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="carolinensis">carolinensis</tp:taxon-name-part></tp:taxon-name></italic>)</article-title>
+          <source>The Birds of North America Online</source>
+          <uri xlink:type="simple">http://dx.doi.org/10.2173/bna.667</uri>
+          <pub-id pub-id-type="doi">10.2173/bna.667</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4285496">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Snyder</surname>
+              <given-names>N. F. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Budney</surname>
+              <given-names>G. F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Iñigo-Elias</surname>
+              <given-names>E. E.</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>Evaluation of the Nelson Carolina Parakeet Film</article-title>
+          <source>The Auk</source>
+          <volume>127</volume>
+          <issue>4</issue>
+          <fpage>948</fpage>
+          <lpage>951</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1525/auk.2010.10084</uri>
+          <pub-id pub-id-type="doi">10.1525/auk.2010.10084</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4285630">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Stanton</surname>
+              <given-names>J. C.</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>Present-day risk assessment would have predicted the extinction of the passenger pigeon (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ectopistes">Ectopistes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="migratorius">migratorius</tp:taxon-name-part></tp:taxon-name></italic>)</article-title>
+          <source>Biological Conservation</source>
+          <volume>180</volume>
+          <fpage>11</fpage>
+          <lpage>20</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1016/j.biocon.2014.09.023</uri>
+          <pub-id pub-id-type="doi">10.1016/j.biocon.2014.09.023</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4190776">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Swenk</surname>
+              <given-names>M. H.</given-names>
+            </name>
+          </person-group>
+          <year>1934</year>
+          <article-title>The interior Carolina paroquet as a Nebraska bird</article-title>
+          <source>Nebraska Bird Review</source>
+          <volume>2</volume>
+          <fpage>55</fpage>
+          <lpage>59</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B4378861">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Wieczorek</surname>
+              <given-names>John</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bloom</surname>
+              <given-names>David</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Guralnick</surname>
+              <given-names>Robert</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Blum</surname>
+              <given-names>Stan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Döring</surname>
+              <given-names>Markus</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Giovanni</surname>
+              <given-names>Renato</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Robertson</surname>
+              <given-names>Tim</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vieglais</surname>
+              <given-names>David</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Darwin Core: An Evolving Community-Developed Biodiversity Data Standard</article-title>
+          <source>PLoS ONE</source>
+          <volume>7</volume>
+          <issue>1</issue>
+          <fpage>e29715</fpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1371/journal.pone.0029715</uri>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0029715</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F4285827" position="float" orientation="portrait">
+      <object-id content-type="arpha">E91BFE07-8848-561D-910B-0DA9255FD0BD</object-id>
+      <object-id content-type="doi">10.3897/BDJ.6.e25280.figure1</object-id>
+      <object-id content-type="zenodo_dep_id">1298784</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Historic sightings of the Carolina parakeet (1564-1944). Blue dots represent the location of observations recorded in the literature and black crosses represent the location specimens were collected. Circles with diagnoal lines show estimates of uncertainty associated with each point.</p>
+      </caption>
+      <graphic xlink:href="bdj-06-e25280-g001.jpg" position="float" id="oo_192104.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/192104</uri>
+      </graphic>
+    </fig>
+  </floats-group>
+</article>

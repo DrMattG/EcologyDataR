@@ -1,0 +1,2312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="3.0" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.6.e28406</article-id>
+      <article-id pub-id-type="publisher-id">28406</article-id>
+      <article-id pub-id-type="manuscript">9992</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Plantae</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Ecology &amp; Environmental sciences</subject>
+          <subject>Biodiversity &amp; Conservation</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>Pacific Ocean</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>OpenNahele: the open Hawaiian forest plot database</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes" xlink:type="simple">
+          <name name-style="western">
+            <surname>Craven</surname>
+            <given-names>Dylan</given-names>
+          </name>
+          <email xlink:type="simple">dylan.craven@aya.yale.edu</email>
+          <uri content-type="orcid" xlink:type="simple">https://orcid.org/0000-0003-3940-833X</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Knight</surname>
+            <given-names>Tiffany M</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Barton</surname>
+            <given-names>Kasey E</given-names>
+          </name>
+          <xref ref-type="aff" rid="A5">5</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Bialic-Murphy</surname>
+            <given-names>Lalasia</given-names>
+          </name>
+          <xref ref-type="aff" rid="A5">5</xref>
+          <xref ref-type="aff" rid="A6">6</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Cordell</surname>
+            <given-names>Susan</given-names>
+          </name>
+          <xref ref-type="aff" rid="A7">7</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Giardina</surname>
+            <given-names>Christian P</given-names>
+          </name>
+          <xref ref-type="aff" rid="A7">7</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Gillespie</surname>
+            <given-names>Thomas W</given-names>
+          </name>
+          <xref ref-type="aff" rid="A8">8</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Ostertag</surname>
+            <given-names>Rebecca</given-names>
+          </name>
+          <xref ref-type="aff" rid="A9">9</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Sack</surname>
+            <given-names>Lawren</given-names>
+          </name>
+          <xref ref-type="aff" rid="A10">10</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Chase</surname>
+            <given-names>Jonathan M</given-names>
+          </name>
+          <uri content-type="orcid" xlink:type="simple">https://orcid.org/0000-0001-5580-4303</uri>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A11">11</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Department of Community Ecology, Helmholtz Centre for Environmental Research - UFZ, Halle (Saale), Germany</addr-line>
+        <institution xlink:type="simple">Department of Community Ecology, Helmholtz Centre for Environmental Research - UFZ</institution>
+        <addr-line content-type="city">Halle (Saale)</addr-line>
+        <country>Germany</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">German Centre for Integrative Biodiversity Research (iDiv) Halle-Jena-Leipzig, Leipzig, Germany</addr-line>
+        <institution xlink:type="simple">German Centre for Integrative Biodiversity Research (iDiv) Halle-Jena-Leipzig</institution>
+        <addr-line content-type="city">Leipzig</addr-line>
+        <country>Germany</country>
+      </aff>
+      <aff id="A3">
+        <label>3</label>
+        <addr-line content-type="verbatim">University of Göttingen, Göttingen, Germany</addr-line>
+        <institution xlink:type="simple">University of Göttingen</institution>
+        <addr-line content-type="city">Göttingen</addr-line>
+        <country>Germany</country>
+      </aff>
+      <aff id="A4">
+        <label>4</label>
+        <addr-line content-type="verbatim">Institute of Biology, Martin Luther University Halle-Wittenberg, Halle (Saale), Germany</addr-line>
+        <institution xlink:type="simple">Institute of Biology, Martin Luther University Halle-Wittenberg</institution>
+        <addr-line content-type="city">Halle (Saale)</addr-line>
+        <country>Germany</country>
+      </aff>
+      <aff id="A5">
+        <label>5</label>
+        <addr-line content-type="verbatim">Department of Botany, University of Hawai'i at Mānoa, Honolulu, United States of America</addr-line>
+        <institution xlink:type="simple">Department of Botany, University of Hawai'i at Mānoa</institution>
+        <addr-line content-type="city">Honolulu</addr-line>
+        <country>United States of America</country>
+      </aff>
+      <aff id="A6">
+        <label>6</label>
+        <addr-line content-type="verbatim">Department of Ecology and Evolutionary Biology, University of Tennessee Knoxville, Knoxville, United States of America</addr-line>
+        <institution xlink:type="simple">Department of Ecology and Evolutionary Biology, University of Tennessee Knoxville</institution>
+        <addr-line content-type="city">Knoxville</addr-line>
+        <country>United States of America</country>
+      </aff>
+      <aff id="A7">
+        <label>7</label>
+        <addr-line content-type="verbatim">Institute of Pacific Islands Forestry, USDA Forest Service, Hilo, United States of America</addr-line>
+        <institution xlink:type="simple">Institute of Pacific Islands Forestry, USDA Forest Service</institution>
+        <addr-line content-type="city">Hilo</addr-line>
+        <country>United States of America</country>
+      </aff>
+      <aff id="A8">
+        <label>8</label>
+        <addr-line content-type="verbatim">University of California Los Angeles, Los Angeles, United States of America</addr-line>
+        <institution xlink:type="simple">University of California Los Angeles</institution>
+        <addr-line content-type="city">Los Angeles</addr-line>
+        <country>United States of America</country>
+      </aff>
+      <aff id="A9">
+        <label>9</label>
+        <addr-line content-type="verbatim">Department of Biology, University of Hawai‘i at Hilo, Hilo, United States of America</addr-line>
+        <institution xlink:type="simple">Department of Biology, University of Hawai‘i at Hilo</institution>
+        <addr-line content-type="city">Hilo</addr-line>
+        <country>United States of America</country>
+      </aff>
+      <aff id="A10">
+        <label>10</label>
+        <addr-line content-type="verbatim">Department of Ecology and Evolutionary Biology, University of California Los Angeles, Los Angeles, United States of America</addr-line>
+        <institution xlink:type="simple">Department of Ecology and Evolutionary Biology, University of California Los Angeles</institution>
+        <addr-line content-type="city">Los Angeles</addr-line>
+        <country>United States of America</country>
+      </aff>
+      <aff id="A11">
+        <label>11</label>
+        <addr-line content-type="verbatim">Department of Computer Science, Martin Luther University, Halle, Germany</addr-line>
+        <institution xlink:type="simple">Department of Computer Science, Martin Luther University</institution>
+        <addr-line content-type="city">Halle</addr-line>
+        <country>Germany</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Dylan Craven (<email xlink:type="simple">dylan.craven@aya.yale.edu</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Luis Cayuela</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>27</day>
+        <month>09</month>
+        <year>2018</year>
+      </pub-date>
+      <volume>6</volume>
+      <elocation-id>e28406</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/1711B96C-E612-543E-B49F-22749AD4DB6C">1711B96C-E612-543E-B49F-22749AD4DB6C</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/1445843">1445843</uri>
+      <uri content-type="zoobank" xlink:href="http://zoobank.org/B15F68AC-13D3-459C-91DB-59D26D02E37A">B15F68AC-13D3-459C-91DB-59D26D02E37A</uri>
+      <history>
+        <date date-type="received">
+          <day>16</day>
+          <month>07</month>
+          <year>2018</year>
+        </date>
+        <date date-type="accepted">
+          <day>11</day>
+          <month>09</month>
+          <year>2018</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement/>
+        <license license-type="creative-commons-attribution" xlink:href="https://creativecommons.org/share-your-work/public-domain/cc0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the CC0 Public Domain Dedication.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>This data paper provides a description of OpenNahele, the open Hawaiian forest plot database. OpenNahele includes 530 forest plots across the Hawaiian archipelago containing 43,590 individuals of 185 native and alien tree, shrub and tree fern species across six islands. We include estimates of maximum plant size (D95<sub>0.1</sub> and D<sub>max3</sub>) for 58 woody plant species, a key functional trait associated with dispersal distance and competition for light. OpenNahele can serve as a platform to test key ecological, evolutionary and conservation questions in a hotspot archipelago.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>OpenNahele is the first database that compiles data from a large number of forest plots across the Hawaiian archipelago to allow broad and high resolution studies of biodiversity patterns.</p>
+          <p><bold>Keywords</bold>: Hawaii, forests, islands, biodiversity, community ecology, evolutionary ecology</p>
+        </sec>
+      </abstract>
+      <funding-group>
+        <award-group xlink:type="simple">
+          <funding-source xlink:type="simple">
+            <named-content content-type="funder_name" xlink:type="simple">Deutsche Forschungsgemeinschaft</named-content>
+            <named-content content-type="funder_identifier" xlink:type="simple">501100001659</named-content>
+            <named-content content-type="funder_doi" xlink:type="simple">http://doi.org/10.13039/501100001659</named-content>
+          </funding-source>
+        </award-group>
+      </funding-group>
+      <counts>
+        <fig-count count="3"/>
+        <table-count count="4"/>
+        <ref-count count="30"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>Oceanic islands are hotspots of species endemism and biodiversity that contain an estimated 17% of the world’s plant diversity on just 5% of its area (<xref ref-type="bibr" rid="B4410690">Kier et al. 2009</xref>, <xref ref-type="bibr" rid="B4410796">Tershy et al. 2015</xref>). Biodiversity on islands is increasingly threatened by alien species (<xref ref-type="bibr" rid="B4410786">Sax and Gaines 2008</xref>, <xref ref-type="bibr" rid="B4410592">Dawson et al. 2017</xref>), which also may affect the ability of island ecosystems to provide vital ecosystem services. Amongst island systems, Hawai’i is amongst the most intensively studied and has been used as a model system to test fundamental ecological and evolutionary questions (e.g. <xref ref-type="bibr" rid="B4410862">Vitousek et al. 1987</xref>, <xref ref-type="bibr" rid="B4410621">Gillespie 2004</xref>, <xref ref-type="bibr" rid="B4410736">Price 2004</xref>, <xref ref-type="bibr" rid="B4410644">Gruner 2007</xref>, <xref ref-type="bibr" rid="B4410909">Givnish et al. 2009</xref>, <xref ref-type="bibr" rid="B4410746">Rominger et al. 2016</xref>). However, our understanding of biodiversity patterns across the Hawaiian archipelago remains limited (even for well-studied taxa such as plants) because open access data are available at coarse scales (e.g. species checklists for islands) but not at the community-level scales that are relevant to many ecological and evolutionary questions.</p>
+      <p>While coarse-scale data are used in macroecological studies that examine biodiversity patterns across islands globally (e.g. <xref ref-type="bibr" rid="B4410714">Kreft et al. 2008</xref>), finer-scale data are necessary to understand patterns of community structure, i.e. which species are dominant or rare and species responses to natural and anthropogenic drivers. Community data, comprised of abundances of individual species in a discrete area, address many of the shortcomings of coarse-scale data. Unfortunately, fine-scale community data from individual studies are collected across small spatial extents with low sampling intensities (usually for logistical reasons), which has prevented the analysis of within-island biodiversity patterns across multiple islands in the Hawaiian archipelago (but see <xref ref-type="bibr" rid="B4410746">Rominger et al. 2016</xref> for a study on arthropods). There have been recent calls for open access forest plot monitoring data (<xref ref-type="bibr" rid="B4410961">Borges et al. 2018</xref>) and, to our knowledge, this database will be the first community-level database for the Hawaiian archipelago.</p>
+    </sec>
+    <sec sec-type="General description">
+      <title>General description</title>
+      <sec sec-type="Purpose">
+        <title>Purpose</title>
+        <p>To facilitate the analysis of biodiversity patterns within and across islands in Hawaiian forests, we present the OpenNahele database ('nahele' means forest in Hawaiian). This database compiles forest plot data from all six major islands of the Hawaiian archipelago and contains 530 plots, 185 tree, shrub and tree fern species and 43,590 individuals (Tables <xref ref-type="table" rid="T4410329">1</xref>, <xref ref-type="table" rid="T4410330">2</xref>). The size of each individual (diameter at 1.3 cm; DBH) is included in the database. For each species, we also include information about whether the species is native or alien to the Hawaiian archipelago and whether the species is cultivated or not. We harmonised taxonomic names, species abundance and individual size from multiple studies to facilitate the calculation of diversity metrics that are comparable. Additionally, we used individual size data to estimate maximum Maximum plant size for 58 woody plant species. Adult plant size is a key plant functional trait that is strongly related to dispersal distance (<xref ref-type="bibr" rid="B4410816">Thomson et al. 2011</xref>) and competition for light (<xref ref-type="bibr" rid="B4410704">King et al. 2006</xref>).</p>
+        <p>The OpenNahele database can be used to examine cross-scale biodiversity patterns and drivers of and threats to biodiversity across the Hawaiian archipelago. This database provides unprecedented geographic coverage across Hawaiian forests (Fig. <xref ref-type="fig" rid="F4410319">1</xref>). While this database captures only a fraction of the entire Hawaiian flora, it provides a realistic snapshot of the current state of Hawaiian forests. For example, this database shows that only a few native and alien species are dominant in Hawaiian forests, such as <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Metrosideros">Metrosideros</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="polymorpha">polymorpha</tp:taxon-name-part></tp:taxon-name></italic>, a native tree in the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Myrtaceae</tp:taxon-name-part></tp:taxon-name> family (Fig. <xref ref-type="fig" rid="F4410323">2</xref>; Table <xref ref-type="table" rid="T4410331">3</xref>). The database also reveals that alien invasions are widespread across Hawaiian forests, having occurred on all major islands and in 45% of plots (Table <xref ref-type="table" rid="T4410332">4</xref>). While alien species represent 11.7 % of individuals in the database, some species are highly abundant in the plots where they occur. The median abundance of stems of alien species in invaded plots is 44.5%, but varies markedly across islands from 5% on Lana’i to 87% on O’ahu (Table <xref ref-type="table" rid="T4410332">4</xref>). As sampling effort and plot size varies within the database, we provide relative measures of abundance that are standardised to a common area (see Sampling methods) to examine community structure and caution against using raw measures of abundance, as they may introduce bias to diversity indices that are sensitive to the number of individuals.</p>
+        <p>The OpenNahele database also can be used to explore ecological differences amongst species. For example, adult plant size can be used to assess the extent to which species’ geographic ranges are related to dispersal or if they are limited by habitat availability (Fig. <xref ref-type="fig" rid="F4410327">3</xref>; <xref ref-type="bibr" rid="B4410611">Gaston and Fuller 2009</xref>).</p>
+        <p>The OpenNahele database will be maintained and curated as data from future censuses and new studies become available to capture temporal dynamics of populations and communities across Hawaiian forests.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Study extent">
+        <title>Study extent</title>
+        <p>To compile a database of plots in Hawaiian forests (Suppl. material <xref ref-type="supplementary-material" rid="S4411027">1</xref>), we consulted local experts with extensive experience in forestry, community ecology and botany, as well as experts with knowledge of former and ongoing research projects in Hawai’i, USA. From an initial list of publicly available sources and published studies, we examined each to determine if they met our inclusion criteria. Our inclusion criteria were that each study reports for each plot: i) geographical location, ii) species identity and iii) abundance as the number of individuals of trees, shrubs, and tree ferns. We downloaded raw data or obtained it directly from data owners, which also included individual size either as diameter at 1.3 m (diameter at breast height; DBH) or in size classes. In total, we identified 6 unique studies meeting our inclusion criteria that together comprise 43,590 individuals of 185 species within 530 plots across six islands (Table <xref ref-type="table" rid="T4410329">1</xref>; <xref ref-type="bibr" rid="B4410873">Zimmerman et al. (2007)</xref>, <xref ref-type="bibr" rid="B4410631">Gillespie et al. (2013)</xref>, <xref ref-type="bibr" rid="B4410725">Ostertag et al. (2014)</xref>, Knight &amp; Barton (unpublished), National Park Service’s (NPS) Pacific Island Network (PACN; <xref ref-type="bibr" rid="B4410567">Ainsworth et al. 2011</xref>) and the publicly available data from the U.S. Forest Service (USFS) Forest Inventory &amp; Analysis (FIA) program in Hawaii (<xref ref-type="bibr" rid="B4410826">US Forest Service 2016</xref>). Data were collected between 2003 and 2015.</p>
+      </sec>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>Studies in the OpenNahele database used different plot sizes and minimum size thresholds (Table <xref ref-type="table" rid="T4410329">1</xref>). Plot sizes ranged from 12.97 m<sup>2</sup> to 40,000 m<sup>2</sup> and the median plot size across the database is 1,000 m<sup>2</sup>. Half of the studies used one minimum size threshold and included all individuals above that in their inventory. The other half of the studies used a nested sampling approach, whereby smaller subplots were placed within each plot to assess individuals below the size threshold of the full plot. The minimum size threshold varied across studies from 1 to 2.54 cm DBH. Currently, all studies have only conducted one inventory. Geographic coordinates of all forest plots were converted to the WGS84 coordinate system, a standard coordinate system with a spheroidal reference surface, to facilitate the retrieval of climate, topographical and geological data. Locations of plots in the USFS FIA were fuzzed up to 1.6 km of their exact locations (<xref ref-type="bibr" rid="B4410826">US Forest Service 2016</xref>), but those of other studies were not altered. Geographic coordinates were checked visually.</p>
+        <p>Most studies inventoried trees, shrubs and tree ferns. While tree ferns do not have true wood, they play an important ecological role in Hawaiian forests (<xref ref-type="bibr" rid="B4410886">Zimmerman et al. 2008</xref>). One study, Knight &amp; Barton, did not record the presence of tree ferns (e.g. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cibotium">Cibotium</tp:taxon-name-part></tp:taxon-name></italic> spp., <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sadleria">Sadleria</tp:taxon-name-part></tp:taxon-name></italic> spp.). However, only two plots in that study were located in areas where tree ferns occur and there are many other nearby plots in the database that included tree ferns. As not all studies included lianas, i.e. woody vines, we removed species classified as such by USDA Plants (<xref ref-type="bibr" rid="B4410853">USDA NRCS 2018</xref>).</p>
+        <p>Data from one study within the OpenNahele database, HIPPNET (<xref ref-type="bibr" rid="B4410725">Ostertag et al. (2014)</xref>), are curated on an ongoing basis and expanded with data from subsequent censuses; interested data users should contact HIPPNET via the <ext-link ext-link-type="uri" xlink:href="https://www.forestgeo.si.edu/" xlink:type="simple">CTFS-ForestGEO website</ext-link>.</p>
+        <p>
+          <italic><tp:taxon-name>
+              <tp:taxon-name-part taxon-name-part-type="genus" reg="Abundance">Abundance</tp:taxon-name-part>
+            </tp:taxon-name></italic>
+        </p>
+        <p>To facilitate aggregation of abundance data across studies that differ in plot size, we calculated abundance of individuals per species on a per-hectare basis:</p>
+        <p><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Abundance">Abundance</tp:taxon-name-part></tp:taxon-name> per ha = <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Abundance">Abundance</tp:taxon-name-part></tp:taxon-name> / Area <italic>x</italic> 10,000</p>
+        <p>where abundance is the number of individuals per species and Area is the plot (or sub-plot) area in square metres.</p>
+        <p>Individual size was converted to centimetres if measured as DBH or classified as greater than or less than 5 cm DBH if individual size was not measured. As data sources used different minimum DBH thresholds, which may influence the number of individuals in a plot in a systematic way, i.e. plots with larger DBH thresholds will have fewer individuals than those with smaller DBH thresholds and, therefore, species diversity estimates, we removed individuals smaller than 5 cm DBH. To further account for variation in the number of individuals due to differences in plot area across the database, we recommend estimating species diversity based on rarefaction curves (e.g. <xref ref-type="bibr" rid="B4696711">Chao et al. 2014</xref>, <xref ref-type="bibr" rid="B4696743">Chase et al. 2018</xref>).</p>
+        <p>
+          <italic>Maximum plant size</italic>
+        </p>
+        <p>We estimated maximum plant size for individual species in two ways: as the 95th percentile of stem diameter of all diameters &gt; 0.1 x maximum observed diameter (D95<sub>0.1</sub>) and as the mean diameter of the three largest individuals across the database (D<sub>max3</sub>; <xref ref-type="bibr" rid="B4410704">King et al. 2006</xref>). In total, we estimated both measures of maximum plant size for 58 woody plant species that had at least 20 individuals = 5 cm DBH (Suppl. material <xref ref-type="supplementary-material" rid="S4411035">2</xref>). We compared both measures using Spearman’s correlation coefficient and found that while strongly and positively correlated (<italic>rho</italic> = 0.89, <italic>p</italic>-value&lt; 0.001), D<sub>max3</sub> was on average 49% larger than D95<sub>0.1</sub>. As D95<sub>0.1</sub> is not sensitive to sample size (<xref ref-type="bibr" rid="B4410704">King et al. 2006</xref>), we recommend using this measure over D<sub>max3</sub>, particularly for studies using it as a functional trait in combination with species abundance data.</p>
+      </sec>
+      <sec sec-type="Quality control">
+        <title>Quality control</title>
+        <p>Taxonomic names were resolved and harmonised with The Plant List v. 1.1 (<xref ref-type="bibr" rid="B4410807">The Plant List 2013</xref>) using the ‘Taxonstand’ package (<xref ref-type="bibr" rid="B4410926">Cayuela et al. 2017</xref>). Family names and orders were also retrieved and used to identify angiosperms and monocots following the Angiosperm Phylogeny Group III (<xref ref-type="bibr" rid="B4410582">Angiosperm Phylogeny Group 2009</xref>). Native status was obtained by consulting the electronic <ext-link ext-link-type="uri" xlink:href="https://botany.si.edu/pacificislandbiodiversity/hawaiianflora/index.htm" xlink:type="simple">Flora of Hawaii</ext-link> (<xref ref-type="bibr" rid="B4410900">Wagner et al. 2005</xref>). Individuals not identified to the species level were classified as ‘uncertain’, unless the genus was endemic to Hawai’i. As not all introduced species have been naturalised, i.e. they are cultivated in forestry plantations or as ornamentals but have yet to establish self-sustaining populations, we also obtained the cultivation status for introduced species using the Pacific Island Ecosystems at Risk database (<xref ref-type="bibr" rid="B4410835">US Forest Service 2017</xref>). For each individual, accepted species name, family, angiosperm and monocot classification, native status and cultivated status are provided (Suppl. material <xref ref-type="supplementary-material" rid="S4411027">1</xref>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The 530 plots in the OpenNahele database are located on all six major islands of the Hawaiian archipelago (Fig. 1). Forested areas are well covered by plots on most islands and include a wide range of habitat types, from tropical dry forests to subalpine shrublands. However, not all islands were sampled with the same intensity (Table <xref ref-type="table" rid="T4410330">2</xref>); 380 plots are located on the largest island, Hawai’i, and the other, smaller islands have between 5 and 59 plots. One potential limitation with this database is that most studies, with the exception of those collected by the USFS FIA, did not locate plots randomly, a fact which may introduce a bias towards forests with relatively low amounts of alien species.</p>
+      </sec>
+      <sec sec-type="Coordinates">
+        <title>Coordinates</title>
+        <p>18.90986 and 22.23583 Latitude; -154.8058 and -160.5458 Longitude.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>In total, the OpenNahele database contains 185 tree, shrub and tree fern species, of which 61% and 39% are native and alien, respectively, and which represent 16% of the 1,155 woody species that occur across the Hawaiian archipelago (<xref ref-type="bibr" rid="B4410900">Wagner et al. 2005</xref>). The database captures a relatively small proportion of woody species in Hawai’i, possibly because many species may not reach the minimum size limit (5 cm DBH) and that plots were only located in forests and not in ecosystems where woody species occur but are small in stature or are not dominant, e.g. shrublands and grasslands. However, the database has a similar proportion of alien woody species (39%) as found across the entire Hawaiian archipelago (41%; <xref ref-type="bibr" rid="B4410900">Wagner et al. 2005</xref>).</p>
+        <p>
+          <italic>Dominant species</italic>
+        </p>
+        <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Metrosideros">Metrosideros</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="polymorpha">polymorpha</tp:taxon-name-part></tp:taxon-name></italic> is hyperdominant in Hawaiian forests and represents 33% of all individuals greater than 5 cm DBH (Fig. <xref ref-type="fig" rid="F4410323">2</xref>; Table <xref ref-type="table" rid="T4410331">3</xref>). Two species of native tree ferns, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cibotium">Cibotium</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="glaucum">glaucum</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cibotium">C.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="menziesii">menziesii</tp:taxon-name-part></tp:taxon-name></italic>, are amongst the five most abundant species in the database. Alien species have heavily invaded Hawaiian forests; fifteen of the 25 most abundant species in the database are alien (Table <xref ref-type="table" rid="T4410331">3</xref>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Creative Commons Public Domain Waiver (CC-Zero)</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>OpenNahele: the open Hawaiian forest plot database</p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5061/dryad.1kk02qr" xlink:type="simple">https://doi.org/10.5061/dryad.1kk02qr</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>2</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>OpenNahele forest plot data</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>18</p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>Diameter at breast height (or occurrence) of individual trees, shrubs and tree ferns across 530 plots across the Hawaiian archipelago and includes native status and cultivated status of the 185 species. Available as (Suppl. material <xref ref-type="supplementary-material" rid="S4411027">1</xref>)</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">Island</td>
+                  <td rowspan="1" colspan="1">Island name</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">PlotID</td>
+                  <td rowspan="1" colspan="1">Unique numeric identifier for each plot</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Study</td>
+                  <td rowspan="1" colspan="1">Brief name of study</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Plot_area</td>
+                  <td rowspan="1" colspan="1">Plot area in m<sup>2</sup></td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Longitude</td>
+                  <td rowspan="1" colspan="1">Longitude of plot in decimal degrees; WGS84 coordinate system</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Latitude</td>
+                  <td rowspan="1" colspan="1">Latitude of plot in decimal degrees; WGS84 coordinate system</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Year</td>
+                  <td rowspan="1" colspan="1">Year in which plot data was collected</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Census</td>
+                  <td rowspan="1" colspan="1">Numeric identifier for each census</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Tree_ID</td>
+                  <td rowspan="1" colspan="1">Unique numeric identifier for each individual</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Scientific_name</td>
+                  <td rowspan="1" colspan="1">Genus and species of each individual following TPL v. 1.1</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Family</td>
+                  <td rowspan="1" colspan="1">Family of each individual following TPL v. 1.1</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Angiosperm</td>
+                  <td rowspan="1" colspan="1">Binary variable (1 = yes, 0 = no) indicating whether an individual is classified as an angiosperm following APG III</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Monocot</td>
+                  <td rowspan="1" colspan="1">Binary variable (1 = yes, 0 = no) indicating whether an individual is classified as a monocot following APG III</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Native_Status</td>
+                  <td rowspan="1" colspan="1">Categorical variable (‘native’, ‘alien’, ‘uncertain’) indicating alien status of each individual following Wagner et al. (2005)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Cultivated_Status</td>
+                  <td rowspan="1" colspan="1">Binary variable (1 = yes, 0 = no, NA = not applicable) indicating if species is cultivated following PIER</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">
+                    <tp:taxon-name>
+                      <tp:taxon-name-part taxon-name-part-type="genus" reg="Abundance">Abundance</tp:taxon-name-part>
+                    </tp:taxon-name>
+                  </td>
+                  <td rowspan="1" colspan="1">Number of individuals (all = 1)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Abundance_ha</td>
+                  <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Abundance">Abundance</tp:taxon-name-part></tp:taxon-name> of each individual on a per hectare basis</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">DBH_cm</td>
+                  <td rowspan="1" colspan="1">Diameter at 1.3 m (DBH) for each individual; NA indicates that size was not measured, but was classified by size class</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+      <sec sec-type="Data set 2">
+        <title>Data set 2.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>OpenNahele Maximum Plant Size</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>6</p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>Maximum plant size of 58 tree, shrub and tree fern species that occur in 530 forest plots across the Hawaiian archipelago. Maximum plant size was estimated as D95<sub>0.1</sub>and D<sub>max3</sub> following <xref ref-type="bibr" rid="B4410704">King et al. (2006)</xref>. Available as Suppl. material <xref ref-type="supplementary-material" rid="S4411035">2</xref>.</p>
+          <table-wrap id="DS2" orientation="portrait" position="anchor">
+            <label>Data set 2.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">Scientific_name</td>
+                  <td rowspan="1" colspan="1">Genus and epithet of each individual following The Plant List v. 1.1 (2013)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Family</td>
+                  <td rowspan="1" colspan="1">Family of each individual following The Plant List v. 1.1 (2013)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Native_Status</td>
+                  <td rowspan="1" colspan="1">Categorical variable (‘native’, ‘alien’, ‘uncertain’) indicating alien status of each individual following Wagner et al. (2005)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">N</td>
+                  <td rowspan="1" colspan="1">Number of individuals used to estimate maximum plant size</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">D95</td>
+                  <td rowspan="1" colspan="1">Maximum plant size, estimated as D950.1 (King et al. 2006)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Dmax_3</td>
+                  <td rowspan="1" colspan="1">Maximum plant size, estimated as Dmax3 (King et al. 2006)</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>DC, TMK and JC acknowledge funding by the German Centre for Integrative Biodiversity Research (iDiv) Halle-Jena-Leipzig funded by the German Research Foundation (FZT 118). DC and TMK were additionally funded by the Helmoltz Association and by the Alexander von Humboldt Foundation. Data collected by TMK and KB was achieved with support from the National Geographic Society and the Pacific Island Climate Science Center. All authors thank data providers for collecting the data.</p>
+    </ack>
+    <sec sec-type="Author contributions">
+      <title>Author contributions</title>
+      <p>TMK and JC conceived the project, DC and LMB compiled the database, DC wrote the first draft of the manuscript and all co-authors contributed significantly to revisions.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="B4410567">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ainsworth</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Berkowitz</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jacobi</surname>
+              <given-names>J. D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Loh</surname>
+              <given-names>R. K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kozar</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <chapter-title>Focal Terrestrial Plant Communities Monitoring Protocol</chapter-title>
+          <source>Focal Terrestrial Plant Communities Monitoring Pacific Island Network NPS/PACN/NRR–2011/410 National Park Service</source>
+          <publisher-loc>Fort Collins, Colorado</publisher-loc>
+        </element-citation>
+      </ref>
+      <ref id="B4410582">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Group</surname>
+              <given-names>Angiosperm Phylogeny</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>An update of the Angiosperm Phylogeny Group classification for the orders and families of flowering plants: APG III</article-title>
+          <source>Botanical Journal of the Linnean Society</source>
+          <volume>161</volume>
+          <fpage>105</fpage>
+          <lpage>121</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1095-8339.2009.00996.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4410961">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Borges</surname>
+              <given-names>P. A. V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cardoso</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kreft</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Whittaker</surname>
+              <given-names>R. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fattorini</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Emerson</surname>
+              <given-names>B. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gil</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gillespie</surname>
+              <given-names>R. G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Matthews</surname>
+              <given-names>T. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Santos</surname>
+              <given-names>A. M. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Steinbauer</surname>
+              <given-names>M. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Thébaud</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ah-Peng</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Amorim</surname>
+              <given-names>I. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Aranda</surname>
+              <given-names>S. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Arroz</surname>
+              <given-names>A. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Azevedo</surname>
+              <given-names>J. M. N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Boieiro</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Borda-de-Água</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Carvalho</surname>
+              <given-names>J. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Elias</surname>
+              <given-names>R. B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fernández-Palacios</surname>
+              <given-names>J. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Florencio</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>González-Mancebo</surname>
+              <given-names>J. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Heaney</surname>
+              <given-names>L. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hortal</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kueffer</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lequette</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Martín-Esquivel</surname>
+              <given-names>J. L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>López</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lamelas-López</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Marcelino</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nunes</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Oromí</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Patiño</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pérez</surname>
+              <given-names>A. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rego</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ribeiro</surname>
+              <given-names>S. P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rigal</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rodrigues</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rominger</surname>
+              <given-names>A. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Santos-Reis</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schaefer</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sérgio</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Serrano</surname>
+              <given-names>A. R. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sim-Sim</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stephenson</surname>
+              <given-names>P. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Soares</surname>
+              <given-names>A. O.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Strasberg</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vanderporten</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vieira</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gabriel</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Global Island Monitoring Scheme (GIMS): a proposal for the long-term coordinated survey and monitoring of native island forest biota</article-title>
+          <source>Biodiversity and Conservation</source>
+          <volume>27</volume>
+          <issue>1</issue>
+          <fpage>1</fpage>
+          <lpage>20</lpage>
+          <uri xlink:type="simple">https://link.springer.com/article/10.1007/s10531-018-1553-7</uri>
+          <pub-id pub-id-type="doi">10.1007/s10531-018-1553-7</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4410926">
+        <element-citation publication-type="software" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Cayuela</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stein</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Oksanen</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Taxonstand: Taxonomic Standardization of Plant Species Names</article-title>
+          <uri xlink:type="simple">https://CRAN.R-project.org/package=Taxonstand</uri>
+        </element-citation>
+      </ref>
+      <ref id="B4696711">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Chao</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gotelli</surname>
+              <given-names>N. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hsieh</surname>
+              <given-names>T. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sander</surname>
+              <given-names>E. L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ma</surname>
+              <given-names>K. H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Colwell</surname>
+              <given-names>R. K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ellison</surname>
+              <given-names>A. M.</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>Rarefaction and extrapolation with Hill numbers: a framework for sampling and estimation in species diversity studies</article-title>
+          <source>Ecological Monographs</source>
+          <volume>84</volume>
+          <issue>1</issue>
+          <fpage>45</fpage>
+          <lpage>67</lpage>
+          <pub-id pub-id-type="doi">10.1890/13-0133.1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4696743">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Chase</surname>
+              <given-names>J. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>McGill</surname>
+              <given-names>B. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>McGlinn</surname>
+              <given-names>D. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>May</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Blowes</surname>
+              <given-names>S. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Xiao</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Knight</surname>
+              <given-names>T. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Purschke</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gotelli</surname>
+              <given-names>N. J.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Embracing scale-dependence to achieve a deeper understanding of biodiversity and its change across communities</article-title>
+          <source>Ecology Letters</source>
+          <volume>0</volume>
+          <issue>0</issue>
+          <pub-id pub-id-type="doi">10.1111/ele.13151</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4410592">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Dawson</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Moser</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kleunen</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kreft</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pergl</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pyšek</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Weigelt</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Winter</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lenzner</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Blackburn</surname>
+              <given-names>T. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dyer</surname>
+              <given-names>E. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cassey</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Scrivens</surname>
+              <given-names>S. L.</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Global hotspots and correlates of alien species richness across taxonomic groups</article-title>
+          <source>Nature Ecology &amp; Evolution</source>
+          <volume>1</volume>
+          <fpage>0186</fpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1038/s41559-017-0186</uri>
+        </element-citation>
+      </ref>
+      <ref id="B4410611">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Gaston</surname>
+              <given-names>K. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fuller</surname>
+              <given-names>R. A.</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>The sizes of species’ geographic ranges</article-title>
+          <source>Journal of Applied Ecology</source>
+          <volume>46</volume>
+          <fpage>1</fpage>
+          <lpage>9</lpage>
+          <uri xlink:type="simple">http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2664.2008.01596.x/abstract</uri>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2664.2008.01596.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4410621">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Gillespie</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <article-title>Community assembly through adaptive radiation in Hawaiian spiders</article-title>
+          <source>Science</source>
+          <volume>303</volume>
+          <fpage>356</fpage>
+          <lpage>359</lpage>
+          <uri xlink:type="simple">http://science.sciencemag.org/content/303/5656/356</uri>
+          <pub-id pub-id-type="doi">10.1126/science.1091875</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4410631">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Gillespie</surname>
+              <given-names>T. W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Keppel</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pau</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Price</surname>
+              <given-names>J. P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jaffré</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>O'Neill</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Scaling species richness and endemism of tropical dry forests on oceanic islands</article-title>
+          <source>Diversity and Distributions</source>
+          <volume>19</volume>
+          <fpage>896</fpage>
+          <lpage>906</lpage>
+          <uri xlink:type="simple">https://onlinelibrary.wiley.com/doi/full/10.1111/ddi.12036</uri>
+          <pub-id pub-id-type="doi">10.1111/ddi.12036</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4410909">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Givnish</surname>
+              <given-names>T. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Millam</surname>
+              <given-names>K. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mast</surname>
+              <given-names>A. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Paterson</surname>
+              <given-names>T. B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Theim</surname>
+              <given-names>T. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hipp</surname>
+              <given-names>A. L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Henss</surname>
+              <given-names>J. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Smith</surname>
+              <given-names>J. F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wood</surname>
+              <given-names>K. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sytsma</surname>
+              <given-names>K. J.</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>Origin, adaptive radiation and diversification of the Hawaiian lobeliads (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Asterales</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Campanulaceae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Proceedings of the Royal Society of London B: Biological Sciences</source>
+          <volume>276</volume>
+          <fpage>407</fpage>
+          <lpage>416</lpage>
+          <pub-id pub-id-type="doi">10.1098/rspb.2008.1204</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4410644">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Gruner</surname>
+              <given-names>D. S.</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <article-title>Geological age, ecosystem development, and local resource constraints on arthropod community structure in the Hawaiian Islands</article-title>
+          <source>Biological Journal of the Linnean Society</source>
+          <volume>90</volume>
+          <fpage>551</fpage>
+          <lpage>570</lpage>
+          <uri xlink:type="simple">https://academic.oup.com/biolinnean/article/90/3/551/2701301</uri>
+          <pub-id pub-id-type="doi">10.1111/j.1095-8312.2007.00748.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4410546">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Hansen</surname>
+              <given-names>M. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Potapov</surname>
+              <given-names>P. V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Moore</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hancher</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Turubanova</surname>
+              <given-names>S. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tyukavina</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Thau</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stehman</surname>
+              <given-names>S. V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Goetz</surname>
+              <given-names>S. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Loveland</surname>
+              <given-names>T. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kommareddy</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Egorov</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chini</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Justice</surname>
+              <given-names>C. O.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Townshend</surname>
+              <given-names>J. R.G.</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>High-resolution global maps of 21st-century forest cover change</article-title>
+          <source>Science</source>
+          <volume>342</volume>
+          <fpage>850</fpage>
+          <uri xlink:type="simple">http://science.sciencemag.org/content/342/6160/850.abstract</uri>
+          <pub-id pub-id-type="doi">10.1126/science.1244693</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4410690">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kier</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kreft</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lee</surname>
+              <given-names>T. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jetz</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ibisch</surname>
+              <given-names>P. L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nowicki</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mutke</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barthlott</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>A global assessment of endemism and species richness across island and mainland regions</article-title>
+          <source>Proceedings of the National Academy of Sciences</source>
+          <volume>106</volume>
+          <fpage>9322</fpage>
+          <lpage>9327</lpage>
+          <uri xlink:type="simple">http://www.pnas.org/content/106/23/9322.abstract</uri>
+          <pub-id pub-id-type="doi">10.1073/pnas.0810306106</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4410704">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>King</surname>
+              <given-names>D. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Davies</surname>
+              <given-names>S. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Noor</surname>
+              <given-names>N. S.M.</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <article-title>Growth and mortality are related to adult tree size in a Malaysian mixed dipterocarp forest</article-title>
+          <source>Forest Ecology and Management</source>
+          <volume>223</volume>
+          <fpage>152</fpage>
+          <lpage>158</lpage>
+          <uri xlink:type="simple">http://www.sciencedirect.com/science/article/pii/S0378112705006924</uri>
+          <pub-id pub-id-type="doi">10.1016/j.foreco.2005.10.066</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4410714">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kreft</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jetz</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mutke</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kier</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barthlott</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Global diversity of island floras from a macroecological perspective</article-title>
+          <source>Ecology Letters</source>
+          <volume>11</volume>
+          <fpage>116</fpage>
+          <lpage>127</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1111/j.1461-0248.2007.01129.x</uri>
+          <pub-id pub-id-type="doi">10.1111/j.1461-0248.2007.01129.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4410725">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ostertag</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Inman-Narahari</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cordell</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Giardina</surname>
+              <given-names>C. P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sack</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>Forest structure in low-diversity tropical forests: a study of Hawaiian wet and dry forests</article-title>
+          <source>PLOS ONE</source>
+          <volume>9</volume>
+          <fpage>1</fpage>
+          <lpage>18</lpage>
+          <uri xlink:type="simple">https://doi.org/10.1371/journal.pone.0103268</uri>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0103268</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4410736">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Price</surname>
+              <given-names>J. P.</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <article-title>Floristic biogeography of the Hawaiian Islands: influences of area, environment and paleogeography</article-title>
+          <source>Journal of Biogeography</source>
+          <volume>31</volume>
+          <fpage>487</fpage>
+          <lpage>500</lpage>
+          <uri xlink:type="simple">https://dx.doi.org/10.1046/j.0305-0270.2003.00990.x</uri>
+          <pub-id pub-id-type="doi">10.1046/j.0305-0270.2003.00990.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4410746">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Rominger</surname>
+              <given-names>A. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Goodman</surname>
+              <given-names>K. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lim</surname>
+              <given-names>J. Y.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Armstrong</surname>
+              <given-names>E. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Becking</surname>
+              <given-names>L. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bennett</surname>
+              <given-names>G. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brewer</surname>
+              <given-names>M. S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cotoras</surname>
+              <given-names>D. D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ewing</surname>
+              <given-names>C. P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Harte</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Martinez</surname>
+              <given-names>N. D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>O’Grady</surname>
+              <given-names>P. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Percy</surname>
+              <given-names>D. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Price</surname>
+              <given-names>D. K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Roderick</surname>
+              <given-names>G. K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Shaw</surname>
+              <given-names>K. L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Valdovinos</surname>
+              <given-names>F. S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gruner</surname>
+              <given-names>D. S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gillespie</surname>
+              <given-names>R. G.</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Community assembly on isolated islands: macroecology meets evolution</article-title>
+          <source>Global Ecology and Biogeography</source>
+          <volume>25</volume>
+          <fpage>769</fpage>
+          <lpage>780</lpage>
+          <uri xlink:type="simple">https://doi.org/10.1111/geb.12341</uri>
+          <pub-id pub-id-type="doi">10.1111/geb.12341</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4410786">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Sax</surname>
+              <given-names>D. F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gaines</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Species invasions and extinction: the future of native biodiversity on islands</article-title>
+          <source>Proceedings of the National Academy of Sciences</source>
+          <volume>105</volume>
+          <fpage>11490</fpage>
+          <lpage>11497</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.0802290105</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4410796">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Tershy</surname>
+              <given-names>B. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Shen</surname>
+              <given-names>K. -W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Newton</surname>
+              <given-names>K. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Holmes</surname>
+              <given-names>N. D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Croll</surname>
+              <given-names>D. A.</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>The importance of islands for the protection of biological and linguistic diversity</article-title>
+          <source>BioScience</source>
+          <volume>65</volume>
+          <fpage>592</fpage>
+          <lpage>597</lpage>
+          <uri xlink:type="simple">https://academic.oup.com/bioscience/article/65/6/592/301848</uri>
+          <pub-id pub-id-type="doi">10.1093/biosci/biv031</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4410807">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>List</surname>
+              <given-names>The Plant</given-names>
+            </name>
+          </person-group>
+          <article-title>Version 1.1</article-title>
+          <uri xlink:type="simple">http://www.theplantlist.org/</uri>
+          <date-in-citation content-type="access-date">2017-12-01T00:00:00+02:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B4410816">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Thomson</surname>
+              <given-names>F. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Moles</surname>
+              <given-names>A. T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Auld</surname>
+              <given-names>T. D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kingsford</surname>
+              <given-names>R. T.</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>Seed dispersal distance is more strongly correlated with plant height than with seed mass</article-title>
+          <source>Journal of Ecology</source>
+          <volume>99</volume>
+          <fpage>1299</fpage>
+          <lpage>1307</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2745.2011.01867.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4410853">
+        <element-citation publication-type="software" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>NRCS</surname>
+              <given-names>USDA</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>The PLANTS Database</article-title>
+          <uri xlink:type="simple">http://plants.usda.gov</uri>
+        </element-citation>
+      </ref>
+      <ref id="B4410826">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Service</surname>
+              <given-names>US Forest</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <source>Forest inventory and analysis national core field guide, Volume 1. Field data collection procedures for Phase 2 Plots, version 7.1</source>
+          <publisher-name>U.S. Department of Agriculture, Forest Service, Washington Office</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B4410835">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Service</surname>
+              <given-names>US Forest</given-names>
+            </name>
+          </person-group>
+          <article-title>Pacific Island Ecosystems at Risk (PIER)</article-title>
+          <uri xlink:type="simple">http://www.hear.org/pier/</uri>
+          <date-in-citation content-type="access-date">2017-12-01T00:00:00+02:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B4410862">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Vitousek</surname>
+              <given-names>P. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Walker</surname>
+              <given-names>L. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Whiteaker</surname>
+              <given-names>L. D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mueller-Dombois</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Matson</surname>
+              <given-names>P. A.</given-names>
+            </name>
+          </person-group>
+          <year>1987</year>
+          <article-title>Biological invasion by <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Myrica">Myrica</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="faya">faya</tp:taxon-name-part></tp:taxon-name></italic> alters ecosystem development in Hawaii</article-title>
+          <source>Science</source>
+          <volume>238</volume>
+          <fpage>802</fpage>
+          <lpage>804</lpage>
+          <uri xlink:type="simple">http://science.sciencemag.org/content/238/4828/802</uri>
+          <pub-id pub-id-type="doi">10.1126/science.238.4828.802</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4410900">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Wagner</surname>
+              <given-names>W. L.,</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Herbst</surname>
+              <given-names>D. L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lorence</surname>
+              <given-names>D. H</given-names>
+            </name>
+          </person-group>
+          <article-title>Flora of the Hawaiian Islands</article-title>
+          <uri xlink:type="simple">http://botany.si.edu/pacificislandbiodiversity/hawaiianflora</uri>
+          <date-in-citation content-type="access-date">2017-05-01T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B4410873">
+        <element-citation publication-type="software" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Zimmerman</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Flint Hughes</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cordell</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hart</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chang</surname>
+              <given-names>H. K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Perez</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Like</surname>
+              <given-names>R. K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ostertag</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <article-title>Data from: Patterns of primary succession of native and introduced plants in lowland wet forests in eastern Hawai‘i</article-title>
+          <publisher-name>Dryad Digital Repository</publisher-name>
+          <uri xlink:type="simple">https://doi.org/10.5061/dryad.vp86v3r0</uri>
+        </element-citation>
+      </ref>
+      <ref id="B4410886">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Zimmerman</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Flint Hughes</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cordell</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hart</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chang</surname>
+              <given-names>H. K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Perez</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Like</surname>
+              <given-names>R. K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ostertag</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Patterns of primary succession of native and introduced plants in lowland wet forests in eastern Hawai‘i</article-title>
+          <source>Biotropica</source>
+          <volume>40</volume>
+          <fpage>277</fpage>
+          <lpage>284</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1744-7429.2007.00371.x</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F4410319" position="float" orientation="portrait">
+      <object-id content-type="arpha">2E928C4C-9146-5E2F-9595-E8D21A37F711</object-id>
+      <object-id content-type="doi">10.3897/BDJ.6.e28406.figure1</object-id>
+      <object-id content-type="zenodo_dep_id">1445849</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Distribution of forest plots (n = 530) across the Hawaiian archipelago. Dots represent the location of each plot in the OpenNahele database. Forest cover data from <xref ref-type="bibr" rid="B4410546">Hansen et al. (2013)</xref>.</p>
+      </caption>
+      <graphic xlink:href="bdj-06-e28406-g001.png" position="float" id="oo_212002.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/212002</uri>
+      </graphic>
+    </fig>
+    <fig id="F4410323" position="float" orientation="portrait">
+      <object-id content-type="arpha">FB16EE3E-44C0-5D9C-97C3-C24EB9D67BBE</object-id>
+      <object-id content-type="doi">10.3897/BDJ.6.e28406.figure2</object-id>
+      <object-id content-type="zenodo_dep_id">1445851</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>Relative abundance (proportion of individuals) of the 25 most abundant tree, shrub and tree fern species across the Hawaiian archipelago in the OpenNahele database.</p>
+      </caption>
+      <graphic xlink:href="bdj-06-e28406-g002.png" position="float" id="oo_212343.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/212343</uri>
+      </graphic>
+    </fig>
+    <fig id="F4410327" position="float" orientation="portrait">
+      <object-id content-type="arpha">68C5ED4D-00AD-56F9-B048-EB2CF0270698</object-id>
+      <object-id content-type="doi">10.3897/BDJ.6.e28406.figure3</object-id>
+      <object-id content-type="zenodo_dep_id">1445853</object-id>
+      <label>Figure 3.</label>
+      <caption>
+        <p>Maximum plant size of 58 plant species across the Hawaiian archipelago. Maximum plant size was estimated from individuals = 5 cm diameter using two methods: i) as D95<sub>0.1</sub> (shown in colour), which is the 95th percentile of stem diameter of all diameters = 0.1 x maximum observed diameter and ii) D<sub>max3</sub> (shown in light grey), which is the average diameter of the three largest individuals across the OpenNahele database.</p>
+      </caption>
+      <graphic xlink:href="bdj-06-e28406-g003.png" position="float" id="oo_212004.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/212004</uri>
+      </graphic>
+    </fig>
+    <table-wrap id="T4410329" position="float" orientation="portrait">
+      <label>Table 1.</label>
+      <caption>
+        <p>Basic description of forest plot data for each data source in OpenNahele.</p>
+      </caption>
+      <table rules="all" border="1" style="width:100%">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Data Source</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Islands (#)</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Plots (#)</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Plot size (m<sup>2</sup>)</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Min. DBH (cm)</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Individuals (#)</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Species (#)</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Gillespie et al. 2013</td>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1">15</td>
+            <td rowspan="1" colspan="1">1000</td>
+            <td rowspan="1" colspan="1">2.5</td>
+            <td rowspan="1" colspan="1">1836</td>
+            <td rowspan="1" colspan="1">56</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Ostertag et al. 2014</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">40000</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">14365</td>
+            <td rowspan="1" colspan="1">30</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Knight &amp; Barton</td>
+            <td rowspan="1" colspan="1">5</td>
+            <td rowspan="1" colspan="1">35</td>
+            <td rowspan="1" colspan="1">1000</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">2631</td>
+            <td rowspan="1" colspan="1">74</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">NPS PACN</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">150</td>
+            <td rowspan="1" colspan="1">1000</td>
+            <td rowspan="1" colspan="1">1/10</td>
+            <td rowspan="1" colspan="1">13055</td>
+            <td rowspan="1" colspan="1">41</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">FIA Hawaii</td>
+            <td rowspan="1" colspan="1">5</td>
+            <td rowspan="1" colspan="1">234</td>
+            <td rowspan="1" colspan="1">13-672.5</td>
+            <td rowspan="1" colspan="1">2.54/12.7</td>
+            <td rowspan="1" colspan="1">6898</td>
+            <td rowspan="1" colspan="1">102</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Zimmerman et al. 2007</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">94</td>
+            <td rowspan="1" colspan="1">100-1017.9</td>
+            <td rowspan="1" colspan="1">2/30</td>
+            <td rowspan="1" colspan="1">4805</td>
+            <td rowspan="1" colspan="1">28</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T4410330" position="float" orientation="portrait">
+      <label>Table 2.</label>
+      <caption>
+        <p>Sampled area, number of plots and number of individuals and species per island in OpenNahele.</p>
+      </caption>
+      <table rules="all" style="width:100%">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Island</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Sampled area (m<sup>2</sup>)</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Plots (#)</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Individuals (#)</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Species(#)</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Hawai’i Island</td>
+            <td rowspan="1" colspan="1">359380</td>
+            <td rowspan="1" colspan="1">380</td>
+            <td rowspan="1" colspan="1">31509</td>
+            <td rowspan="1" colspan="1">114</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Kaua’i Island</td>
+            <td rowspan="1" colspan="1">15388</td>
+            <td rowspan="1" colspan="1">22</td>
+            <td rowspan="1" colspan="1">1425</td>
+            <td rowspan="1" colspan="1">67</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Lana’i Island</td>
+            <td rowspan="1" colspan="1">3841</td>
+            <td rowspan="1" colspan="1">5</td>
+            <td rowspan="1" colspan="1">426</td>
+            <td rowspan="1" colspan="1">11</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Maui Island</td>
+            <td rowspan="1" colspan="1">47945</td>
+            <td rowspan="1" colspan="1">59</td>
+            <td rowspan="1" colspan="1">3980</td>
+            <td rowspan="1" colspan="1">82</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Moloka’i Island</td>
+            <td rowspan="1" colspan="1">32000</td>
+            <td rowspan="1" colspan="1">32</td>
+            <td rowspan="1" colspan="1">4985</td>
+            <td rowspan="1" colspan="1">31</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">O’ahu Island</td>
+            <td rowspan="1" colspan="1">19940</td>
+            <td rowspan="1" colspan="1">32</td>
+            <td rowspan="1" colspan="1">1265</td>
+            <td rowspan="1" colspan="1">59</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T4410331" position="float" orientation="portrait">
+      <label>Table 3.</label>
+      <caption>
+        <p>Relative abundance (proportion of individuals) of the 25 most abundant tree, shrub and tree fern species across the Hawaiian archipelago in OpenNahele.</p>
+      </caption>
+      <table rules="all">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Species</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Native status</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Relative abundance</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Metrosideros">Metrosideros</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="polymorpha">polymorpha</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">native</td>
+            <td rowspan="1" colspan="1">0.33</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Psidium">Psidium</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="cattleianum">cattleianum</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">alien</td>
+            <td rowspan="1" colspan="1">0.20</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Cibotium">Cibotium</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="glaucum">glaucum</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">native</td>
+            <td rowspan="1" colspan="1">0.09</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Cibotium">Cibotium</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="menziesii">menziesii</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">native</td>
+            <td rowspan="1" colspan="1">0.05</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Cheirodendron">Cheirodendron</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="trigynum">trigynum</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">native</td>
+            <td rowspan="1" colspan="1">0.03</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Schinus">Schinus</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="terebinthifolia">terebinthifolia</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">alien</td>
+            <td rowspan="1" colspan="1">0.03</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Leucaena">Leucaena</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="leucocephala">leucocephala</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">alien</td>
+            <td rowspan="1" colspan="1">0.02</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Acacia">Acacia</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="koa">koa</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">native</td>
+            <td rowspan="1" colspan="1">0.02</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Psidium">Psidium</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="guajava">guajava</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">alien</td>
+            <td rowspan="1" colspan="1">0.01</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Ardisia">Ardisia</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="elliptica">elliptica</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">alien</td>
+            <td rowspan="1" colspan="1">0.01</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Psychotria">Psychotria</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="hawaiiensis">hawaiiensis</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">native</td>
+            <td rowspan="1" colspan="1">0.01</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Pandanus">Pandanus</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="tectorius">tectorius</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">native</td>
+            <td rowspan="1" colspan="1">0.01</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Eucalyptus">Eucalyptus</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="grandis">grandis</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">alien</td>
+            <td rowspan="1" colspan="1">0.01</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Ilex">Ilex</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="anomala">anomala</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">native</td>
+            <td rowspan="1" colspan="1">0.01</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Melastoma">Melastoma</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="malabathricum">malabathricum</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">alien</td>
+            <td rowspan="1" colspan="1">0.01</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Cecropia">Cecropia</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="obtusifolia">obtusifolia</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">alien</td>
+            <td rowspan="1" colspan="1">0.01</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Acacia">Acacia</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="confusa">confusa</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">alien</td>
+            <td rowspan="1" colspan="1">0.01</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Diospyros">Diospyros</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="sandwicensis">sandwicensis</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">native</td>
+            <td rowspan="1" colspan="1">0.01</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Casuarina">Casuarina</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="equisetifolia">equisetifolia</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">alien</td>
+            <td rowspan="1" colspan="1">0.01</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Eucalyptus">Eucalyptus</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="robusta">robusta</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">alien</td>
+            <td rowspan="1" colspan="1">0.01</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Bambusa">Bambusa</tp:taxon-name-part></tp:taxon-name></italic>spp.</td>
+            <td rowspan="1" colspan="1">alien</td>
+            <td rowspan="1" colspan="1">0.01</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Syzygium">Syzygium</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="cumini">cumini</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">alien</td>
+            <td rowspan="1" colspan="1">0.01</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Syzygium">Syzygium</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="malaccense">malaccense</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">alien</td>
+            <td rowspan="1" colspan="1">0.01</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Syzygium">Syzygium</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="jambos">jambos</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">alien</td>
+            <td rowspan="1" colspan="1">0.00</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus" reg="Hibiscus">Hibiscus</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species" reg="tilliaceus">tilliaceus</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">native</td>
+            <td rowspan="1" colspan="1">0.00</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T4410332" position="float" orientation="portrait">
+      <label>Table 4.</label>
+      <caption>
+        <p>Proportion of invaded plots and median relative abundance (% of individuals) of alien plant species in invaded plots per island across the Hawaiian archipelago in OpenNahele.</p>
+      </caption>
+      <table rules="all">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Island</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Proportion of Invaded plots</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Median relative abundance of alien species</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Hawai’i Island</td>
+            <td rowspan="1" colspan="1">0.40</td>
+            <td rowspan="1" colspan="1">0.39</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Kaua’i Island</td>
+            <td rowspan="1" colspan="1">0.82</td>
+            <td rowspan="1" colspan="1">0.76</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Lana’i Island</td>
+            <td rowspan="1" colspan="1">1.00</td>
+            <td rowspan="1" colspan="1">0.19</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Maui Island</td>
+            <td rowspan="1" colspan="1">0.49</td>
+            <td rowspan="1" colspan="1">0.66</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Moloka’i Island</td>
+            <td rowspan="1" colspan="1">0.06</td>
+            <td rowspan="1" colspan="1">0.05</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">O’ahu Island</td>
+            <td rowspan="1" colspan="1">0.94</td>
+            <td rowspan="1" colspan="1">0.87</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <supplementary-material id="S4411027" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">26F096B7-3541-5136-8541-B8A25A601F27</object-id>
+      <object-id content-type="doi">10.3897/BDJ.6.e28406.suppl1</object-id>
+      <object-id content-type="zenodo_dep_id">1445859</object-id>
+      <label>Supplementary material 1</label>
+      <caption>
+        <p>OpenNahele forest plot data</p>
+      </caption>
+      <p>Data type: Size and occurrences of individual trees, shrubs and tree ferns</p>
+      <p>Brief description: Diameter at breast height (or occurrence) of individual trees, shrubs and tree ferns across 530 plots across the Hawaiian archipelago and includes native status and cultivated status of the 185 species.</p>
+      <p>File: oo_217337.csv</p>
+      <media xlink:href="bdj-06-e28406-s001.csv" mimetype="Comma Separated Values File" mime-subtype="csv" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/217337</uri>
+      </media>
+      <attrib specific-use="authors">Dylan Craven, Tiffany M. Knight, Kasey E. Barton, Lalasia Bialic-Murphy, Susan Cordell, Christian P. Giardina, Thomas W. Gillespie, Rebecca Ostertag, Lawren Sack, Jonathan Chase</attrib>
+    </supplementary-material>
+    <supplementary-material id="S4411035" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">3274B654-48F3-5094-80AC-2F377895DA81</object-id>
+      <object-id content-type="doi">10.3897/BDJ.6.e28406.suppl2</object-id>
+      <object-id content-type="zenodo_dep_id">1445861</object-id>
+      <label>Supplementary material 2</label>
+      <caption>
+        <p>OpenNahele Maximum Plant Size</p>
+      </caption>
+      <p>Data type: Maximum size</p>
+      <p>Brief description: Maximum plant size of 58 tree, shrub and tree fern species that occur in 530 forest plots across the Hawaiian archipelago. Maximum plant size was estimated as D950.1 and Dmax3 following King et al. (2006).</p>
+      <p>File: oo_217338.csv</p>
+      <media xlink:href="bdj-06-e28406-s002.csv" mimetype="Comma Separated Values File" mime-subtype="csv" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/217338</uri>
+      </media>
+      <attrib specific-use="authors">Dylan Craven, Tiffany M. Knight, Kasey E. Barton, Lalasia Bialic-Murphy, Susan Cordell, Christian P. Giardina, Thomas W. Gillespie, Rebecca Ostertag, Lawren Sack, Jonathan Chase</attrib>
+    </supplementary-material>
+  </floats-group>
+</article>

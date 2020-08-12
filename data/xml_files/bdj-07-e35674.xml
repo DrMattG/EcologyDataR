@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.7.e35674</article-id>
+      <article-id pub-id-type="publisher-id">35674</article-id>
+      <article-id pub-id-type="manuscript">11776</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Sampling event dataset on five-year observations of macrofungi fruit bodies in raised bogs, Western Siberia, Russia</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes">
+          <name name-style="western">
+            <surname>Filippova</surname>
+            <given-names>Nina</given-names>
+          </name>
+          <email xlink:type="simple">filippova.courlee.nina@gmail.com</email>
+          <uri content-type="orcid">https://orcid.org/0000-0002-9506-0991</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Lapshina</surname>
+            <given-names>Elena</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Yugra State University, Khanty-Mansiysk, Russia</addr-line>
+        <institution>Yugra State University</institution>
+        <addr-line content-type="city">Khanty-Mansiysk</addr-line>
+        <country>Russia</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Nina Filippova (<email xlink:type="simple">filippova.courlee.nina@gmail.com</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Dmitry Schigel</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>30</day>
+        <month>07</month>
+        <year>2019</year>
+      </pub-date>
+      <volume>7</volume>
+      <elocation-id>e35674</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/2D6033CC-F80A-53CF-80CF-65B329D48794">2D6033CC-F80A-53CF-80CF-65B329D48794</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/3361877">3361877</uri>
+      <history>
+        <date date-type="received">
+          <day>28</day>
+          <month>04</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>23</day>
+          <month>07</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Nina Filippova, Elena Lapshina</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>The data paper includes the results of a long-term monitoring programme for macrofungi fruiting using permanent plots located in the raised bog ecosystem in central part of Western Siberia (nearby Khanty-Mansiysk), Russia. The goal of the project was to describe the quantitative and qualitative structure and spatial variation of the community of macromycetes, to follow its dynamics seasonally and inter-annually and also elucidate the relationship between the fruiting and climate variables. A total of 263 circular 5 m<sup>2</sup> subplots (for a total area of 1,315 m<sup>2</sup>) were inspected weekly during vegetation seasons 2014-2018 and carpophores of different fungal taxa were counted. The resulting sampling-event dataset includes 16,569 of plot-based observations (= sampling events) with corresponding 6,011 occurrence records of macromycetes identified to species or genus level. In total, 69 species were revealed during the study. About 80% of plot-based observations contain zero records and mark absence of visible fruiting bodies in a certain plot and time.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>This is the first sampling-event dataset on plot-based observations of macrofungi published in GBIF and the first long-term series of macrofungi monitoring in a raised bog ecosystem accomplished in Western Siberia. The aim of the data paper publication was to provide the description and the link to the published data in the format of a peer-reviewed journal paper and to provide recognition for the effort by means of a scholarly article (based on Data paper definition published at <ext-link ext-link-type="uri" xlink:href="https://www.gbif.org/en/data-papers">https://www.gbif.org/en/data-papers</ext-link>).</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>Macrofungi</kwd>
+        <kwd>plot-based protocol</kwd>
+        <kwd>peatlands</kwd>
+        <kwd>phenology</kwd>
+        <kwd>permanent monitoring</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="2"/>
+        <table-count count="0"/>
+        <ref-count count="8"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>Ombrotrophic raised peatlands (bogs) are unique ecosystem types with special flora and microbial composition and which store large amounts of terrestrial carbon, yet these ecosystems are vulnerable and lost in many countries due to peat excavation and drainage (<xref ref-type="bibr" rid="B5252852">Vitt and Wieder 2006</xref>). The peatland mycobiota is relatively poor by species number, but rich in habitat-specific species playing sufficient role in decomposition of the upper aerated peat layer. Macrofungi are important components of the peatland mycobiota, playing a key role of saprotrophs and forming mycorrhizal relationships with plants (<xref ref-type="bibr" rid="B5252842">Thormann 2006</xref>). The classical methods of direct observation of fruiting structures using permanent plots is essential to comprehend the spatial and temporal scales of the community of macrofungi. The results of long-term observations could reveal several important community characteristics, like species composition and quantitative and qualitative structure, spatial heterogeneity, phenology, inter- and intra-annual community dynamics and ecology of different species.</p>
+      <p>The protocols for sampling macrofungi using fixed-sized plots have begun to converge in recent years (<xref ref-type="bibr" rid="B5202829">O'Dell et al. 2004</xref>), thus making possible the comparison of different project results and allowing extrapolation of data. On the other hand, development of integrated biodiversity information facilities has opened the possibility of standardised data storage and open access to the accumulated quantitative data, together with the habitat characteristcs where they were collected. The sampling-event dataset type of GBIF allows publication of data on quantitative community assessments, like vegetation transects, bird censuses and freshwater or marine sampling. The assessments of macrofungi community are still absent or rare in GBIF, despite the importance of such data for ecological monitoring and rare species assessment.</p>
+      <p>Following the standard plot-based protocol (<xref ref-type="bibr" rid="B5252917">Mueller et al. 2004</xref> - original publication, <xref ref-type="bibr" rid="B5204412">Mueller et al. 2019</xref>- publication of the same protocols at protocols.io) for sampling macrofungi, we considered the sampling event being a single subplot observation on a particular date where all epigeous carpophores (fruit bodies) of each species inside the subplot were indentified and counted. The subplots had the unique numbers (parentEventID) making possible the enumeration of the accumulated number of sporocarps on each subplot after a number of visits, as well as the study of spatial heterogeneity in relation to habitats. Every subsequent visit of a subplot was uniquely identified by the eventID number (and a date), thus allowing the study of inter- and intra-annual dynamics. The resulting dataset includes two tables: the event table with a description of events (micro-plots and dates of observations) and the occurrence table with lists of counted carpophores on each event.</p>
+      <p>Thereby, the sampling-event dataset of macrofungi observations represents data on fungal community quantitative and spatial structure and its dynamics. These data could be important for studying the whole mycobiota or ecology of particular species, making decisions on specificity of habitats of raised bogs, ecological niches modelling and influence of climatic parameters on macrofungi fruiting.</p>
+    </sec>
+    <sec sec-type="Project description">
+      <title>Project description</title>
+      <sec sec-type="Title">
+        <title>Title</title>
+        <p>Plot-based observations of macrofungi in major ecosystem types of taiga zone, Western Siberia</p>
+      </sec>
+      <sec sec-type="Personnel">
+        <title>Personnel</title>
+        <p>Nina Filippova, Elena Lapshina</p>
+      </sec>
+      <sec sec-type="Study area description">
+        <title>Study area description</title>
+        <p>The area of study is located in the middle taiga zone of Western Siberia. For the purpose of permanent monitoring of fungal communities of local ecosystems, two sites were chosen at about 20 km SW and E from the Khanty-Mansiysk town nearby two field stations of Yugra State University.</p>
+      </sec>
+      <sec sec-type="Design description">
+        <title>Design description</title>
+        <p>The recommended protocols for sampling macrofungi were followed during the project (<xref ref-type="bibr" rid="B5202829">O'Dell et al. 2004</xref>, <xref ref-type="bibr" rid="B5204412">Mueller et al. 2019</xref>). A series of subplots was established in a raised bog (totally 263) (corresponding to two "virtual plots" with two different vegetation types). Another ten plots were established in different forest types following after-logging and paludification successions (in total, 300 subplots). These plot-based observations were also supplemented by opportunistic routs to record rare species and habitats. Due to variations in fruiting in relation to weather conditions and internal fruiting dynamics, the plot-based monitoring should be continued for at least 10 years and this project will try to follow these goals; the datasets will be updated after new data have been collected.</p>
+      </sec>
+      <sec sec-type="Funding">
+        <title>Funding</title>
+        <p>The project is partially funded by the Yugra State University grant #13-01-20/39. Permanent monitoring at the Mukhrino Field Station is also supported by INTERACT – International Network for Terrestrial Research and Monitoring in the Arctic (<ext-link ext-link-type="uri" xlink:href="https://eu-interact.org">https://eu-interact.org</ext-link>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Study extent">
+        <title>Study extent</title>
+        <p>The long-term monitoring plots were located along a walking board of the research polygon of Mukhrino Field Station (Fig. <xref ref-type="fig" rid="F5202673">1</xref>), thereby eliminating any future impacts to the bog as a result of ongoing research programmes. A total of 263 circular x 5 m<sup>2</sup> (for a total area of 1,315 m<sup>2</sup>) long-term monitoring subplots were established in May 2014. This total area is nearly evenly divided between the two major plant communities (two "virtual plots"): Pine-dwarfshrubs-<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sphagnum">Sphagnum</tp:taxon-name-part></tp:taxon-name> dominated bogs (dominated by <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pinus">Pinus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="sylvestris">sylvestris</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Chamaedaphne">Chamaedaphne</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="calyculata">calyculata</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ledum">Ledum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="palustre">palustre</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Rubus">Rubus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="chamaemorus">chamaemorus</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sphagnum">Sphagnum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="fuscum">fuscum</tp:taxon-name-part></tp:taxon-name></italic>) and Graminoid-<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sphagnum">Sphagnum</tp:taxon-name-part></tp:taxon-name> lawns (dominated by <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Scheuchzeria">Scheuchzeria</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="palustris">palustris</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Carex">Carex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="limosa">limosa</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Eriophorum">Eriophorum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="russeolum">russeolum</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oxycoccus">Oxycoccus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="palustris">palustris</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sphagnum">Sphagnum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="balticum">balticum</tp:taxon-name-part></tp:taxon-name></italic>) and incorporates plant community variation. An area of about 700 m<sup>2</sup> is sufficiently large to reveal the fungal community diversity in raised bogs, based on species accumulation curves constructed from these data.</p>
+      </sec>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>The recommended protocols for sampling macrofungi were followed in general terms (<xref ref-type="bibr" rid="B5202829">O'Dell et al. 2004</xref>). Four steps of the protocol: selection of observation site, transects and subplots installation, carpophore counting and collecting specimens are described in detail in a published protocol by <xref ref-type="bibr" rid="B5204412">Mueller et al. (2019)</xref>.</p>
+      </sec>
+      <sec sec-type="Quality control">
+        <title>Quality control</title>
+        <p>About 1,000 dry specimens were collected in line with the project. The collection database is available at: (<ext-link ext-link-type="uri" xlink:href="https://fungariumysu.org/fungarium-ysu-database">https://fungariumysu.org/fungarium-ysu-database</ext-link>; <ext-link ext-link-type="uri" xlink:href="https://www.gbif.org/dataset/d922b606-6c94-4d51-9277-36c9b03872a7">https://www.gbif.org/dataset/d922b606-6c94-4d51-9277-36c9b03872a7</ext-link>). All identifications were made by the first author and some collections were sent to experts in a particular taxonomic group for proper naming. Future thorough taxonomic work is also necessary for some taxonomically difficult genera like <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cortinarius">Cortinarius</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Russula">Russula</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Galerina">Galerina</tp:taxon-name-part></tp:taxon-name></italic>.</p>
+      </sec>
+      <sec sec-type="Step description">
+        <title>Step description</title>
+        <p>In order to preserve the peatland surface, the long-term monitoring subplots were located 5 m apart in a straight line along the walking boards throughout their length. The plots were chosen by ensuring that they fell only into a single plant community. Centres of each subplot were marked with a metal label on the walking board side and a bent bow was used to draw the outlines of a subplot during its examination (Fig. <xref ref-type="fig" rid="F5202677">2</xref>).</p>
+        <p>A total of 263 circular 5 m<sup>2</sup> (for a total area of 1,315 m<sup>2</sup>) long-term monitoring subplots were established in May 2014. The subplots were inspected weekly from May to September in 2014-2018 (except for August 2017 when observations were interrupted and some occasional gaps in observations which were interpolated during the following quantitative analyses). All carpophores of each species were counted and collected for subsequent examination. Enumerated carpophores were carefully removed from the subplots, with the exception of Red Listed taxa (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ascocoryne">Ascocoryne</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="turficola">turficola</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Entoloma">Entoloma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="fuscomarginatum">fuscomarginatum</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Geoglossum">Geoglossum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="sphagnophilum">sphagnophilum</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hygrocybe">Hygrocybe</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="cinerella">cinerella</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Mycena">Mycena</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="concolor">concolor</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Omphaliaster">Omphaliaster</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="borealis">borealis</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Psilocybe">Psilocybe</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="turficola">turficola</tp:taxon-name-part></tp:taxon-name></italic>), whose carpophores remained untouched.</p>
+        <p>Climatic data (precipitation, air temperature, soil profile temperature) were collected from a micro-climate monitoring station established nearby the plots (<ext-link ext-link-type="uri" xlink:href="https://mukhrinostation.com/research/weather-station/">https://mukhrinostation.com/research/weather-station/</ext-link>). The description of vegetation was made in each subplot using the general <italic>relevé</italic> approach.</p>
+        <p>The common and easily recognisable species were identified in the field. The detailed identification of doubtful species was done in the laboratory. Most of the specimens were identified using Funga Nordica keys (<xref ref-type="bibr" rid="B5202744">Knudsen and Vesterholt 2008</xref>) and some additional monographs on particular taxa were used when necessary. The old fruiting bodies which were difficult to assign to a particular species were left with the genus level identification (about 100 of this kind of records in the database).</p>
+        <p>The collections were processed as described in <xref ref-type="bibr" rid="B5202765">Lodge et al. (2004)</xref>. Fresh fruiting bodies were wrapped in aluminium foil and carried to the laboratory to be processed on the day of collection. The processing of specimens included:</p>
+        <p>
+          <list list-type="order"><list-item><p>photographing on a photo-studio table;</p></list-item><list-item><p>description of vital characters;</p></list-item><list-item><p>preliminary microscopy and identification;</p></list-item><list-item><p>filling the data in the database;</p></list-item><list-item><p>labelling;</p></list-item><list-item><p>drying at 50°C to store in the Fungarium of Yugra State University;</p></list-item></list>
+        </p>
+        <p>The detailed identification was done during the winter following the collection season. Dry specimens were rehydrated in tap water or KOH (10%); dyes and other chemicals (Congo Red, Melzer's reagent, ammonia) were applied when necessary. A Zeiss Axiostar microscope with Achromat 5/0.12, 10/0.25, 40/0.65 (dry) and 100/1.25 (oil immersion) objectives was used for microscopical examination.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The studied area is located in the middle taiga zone of Western Siberia. Mukhrino Field Station of Yugra State University was established 30 km SW from Khanty-Mansiysk, nearby the Mukhrina River (left inflow of the Irtysh River). The research polygon of the station, located in a bog, has the infrastructure of walking boards along which the monitoring programme was established. The subplots for long-term monitoring of macrofungi were located along the boardwalk line within the radius of about 500 m from the central coordinate of the infrastructure (60.89188N, 68.68233E).</p>
+      </sec>
+      <sec sec-type="Coordinates">
+        <title>Coordinates</title>
+        <p>60.889 and 60.896 Latitude; 68.670 and 68.692 Longitude.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>Terrestrial macrofungi (larger fungi) were studied during the survey. The group was defined as the macrofungi which are confined to terrestrial habitat as opposed to wood-inhabiting species representing another prominent community in boreal forests. However, these groups partially overlap and we recorded species growing on mossy old trunks or buried wood within the plots. Our study included the following groups in the analysis: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Discomycetes</tp:taxon-name-part></tp:taxon-name>, Agaricoid, Boletoid, Aphyllophoroid fungi (we omitted brackets, crusts and jellies but included clubs and coral fungi) and some other groups in minority. The taxonomic coverage includes representatives of two divisions (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Ascomycota</tp:taxon-name-part></tp:taxon-name> - 4 species, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Basidiomycota</tp:taxon-name-part></tp:taxon-name> - 65), three classes (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Agaricomycetes</tp:taxon-name-part></tp:taxon-name> - 65, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Leotiomycetes</tp:taxon-name-part></tp:taxon-name> - 2, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Pezizomycetes</tp:taxon-name-part></tp:taxon-name> - 2) and 22 families (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Amanitaceae</tp:taxon-name-part></tp:taxon-name> - 1, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Auriscalpiaceae</tp:taxon-name-part></tp:taxon-name> - 1, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Boletaceae</tp:taxon-name-part></tp:taxon-name> - 1, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Clavariaceae</tp:taxon-name-part></tp:taxon-name> - 1, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Cortinariaceae</tp:taxon-name-part></tp:taxon-name> - 16, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Entolomataceae</tp:taxon-name-part></tp:taxon-name> - 2, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Helotiaceae</tp:taxon-name-part></tp:taxon-name> - 1, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Hydnangiaceae</tp:taxon-name-part></tp:taxon-name> - 1, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Hygrophoraceae</tp:taxon-name-part></tp:taxon-name> - 4, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Hymenogastraceae</tp:taxon-name-part></tp:taxon-name> - 12, Inc. sed. - 1, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Inocybaceae</tp:taxon-name-part></tp:taxon-name> - 1, lyophyllaceae - 1, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Mycenaceae</tp:taxon-name-part></tp:taxon-name> - 5, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Omphalotaceae</tp:taxon-name-part></tp:taxon-name> - 3, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Physalacriaceae</tp:taxon-name-part></tp:taxon-name> - 1, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Russulaceae</tp:taxon-name-part></tp:taxon-name> - 5, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Sarcosomataceae</tp:taxon-name-part></tp:taxon-name> - 2, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Sclerotiniaceae</tp:taxon-name-part></tp:taxon-name> - 1, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Strophariaceae</tp:taxon-name-part></tp:taxon-name> - 3, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Suillaceae</tp:taxon-name-part></tp:taxon-name> - 2, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Tricholomataceae</tp:taxon-name-part></tp:taxon-name> - 4 species).</p>
+      </sec>
+      <sec sec-type="Taxa included">
+        <title>Taxa included</title>
+        <table-wrap id="taxonomic_coverage" position="anchor" orientation="portrait">
+          <table rules="all">
+            <thead>
+              <tr>
+                <th rowspan="1" colspan="1">Rank</th>
+                <th rowspan="1" colspan="1">Scientific Name</th>
+                <th rowspan="1" colspan="1">Common Name</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">kingdom</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="kingdom">Fungi</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1">Mushrooms</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+    </sec>
+    <sec sec-type="Traits coverage">
+      <title>Traits coverage</title>
+      <sec sec-type="Data coverage of traits">
+        <title>Data coverage of traits</title>
+        <p>PLEASE FILL IN TRAIT INFORMATION HERE</p>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <sec sec-type="Notes">
+        <title>Notes</title>
+        <p>From 2014 through 2018, the subplots were inspected weekly from May to September</p>
+      </sec>
+    </sec>
+    <sec sec-type="Collection data">
+      <title>Collection data</title>
+      <sec sec-type="Collection name">
+        <title>Collection name</title>
+        <p>Fungarium, part of the Yugra State University Biological Collection</p>
+      </sec>
+      <sec sec-type="Collection identifier">
+        <title>Collection identifier</title>
+        <p>YSU-F</p>
+      </sec>
+      <sec sec-type="Parent collection identifier">
+        <title>Parent collection identifier</title>
+        <p>YSU (<ext-link ext-link-type="uri" xlink:href="http://sweetgum.nybg.org/science/ih/herbarium-details/?irn=244549">http://sweetgum.nybg.org/science/ih/herbarium-details/?irn=244549</ext-link>)</p>
+      </sec>
+      <sec sec-type="Specimen preservation method">
+        <title>Specimen preservation method</title>
+        <p>dried</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Creative Commons Public Domain Waiver (CC-Zero)</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>Plot-based observations of macrofungi in raised bogs in Western Siberia</p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15468/e9g5ri">http://gbif.ru:8080/ipt/archive.do?r=bogfunplots</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Alternative identifiers">
+        <title>Alternative identifiers</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="http://gbif.ru:8080/ipt/archive.do?r=bogfunplots">https://doi.org/10.15468/e9g5ri</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>1</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Plot-based observations of macrofungi in raised bogs in Western Siberia</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Darwin Core</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>27</p>
+        </sec>
+        <sec sec-type="Character set">
+          <title>Character set</title>
+          <p>UTF-8</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="https://www.gbif.org/dataset/acd76923-54da-4799-b4b0-cfe585c2c0b8">https://www.gbif.org/dataset/acd76923-54da-4799-b4b0-cfe585c2c0b8</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>The dataset includes two related tables of Darwin Core format, the basic <italic>Event</italic> table and the related <italic>Occurrence</italic> table (<xref ref-type="bibr" rid="B5204498">Filippova 2019</xref>). The <italic>Event</italic> table includes 20 fields and 16,569 records. The fields include description of habitat, geography, date and subplot size. All subplots observations were registered including those with absence records of fungi, 163 subplots by 63 visits totalling in 16,569 records. The <italic>Occurrence</italic> table includes 7 fields and 6,011 records. The fields include the scientific name and carpophore counts within each subplot on a particular date. The two tables are related by the eventID field. The absence of occurrence records corresponding to the record in the Event table marks absence of fungi within a subplot on a particular date.</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">eventDate (Event table)</td>
+                  <td rowspan="1" colspan="1">Date of subplots examination</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">parentEventID (Event table)</td>
+                  <td rowspan="1" colspan="1">A unique number of a subplot</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventID (Event table)</td>
+                  <td rowspan="1" colspan="1">Unique identifier of a particular visit of each subplot</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">habitat (Event table)</td>
+                  <td rowspan="1" colspan="1">Vegetation cover</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLatitude (Event table)</td>
+                  <td rowspan="1" colspan="1">Geographic latitude</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLongitude (Event table)</td>
+                  <td rowspan="1" colspan="1">Geographic longitude</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">geodeticDatum (Event table)</td>
+                  <td rowspan="1" colspan="1">Geodetic datum</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">coordinateUncertaintyInMeters (Event table)</td>
+                  <td rowspan="1" colspan="1">Coordinate uncertainty in metres</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">coordinatePrecision (Event table)</td>
+                  <td rowspan="1" colspan="1">Coordinate precision</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">minimumElevationInMetres (Event table)</td>
+                  <td rowspan="1" colspan="1">Minimum elevation</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">maximumElevationInMetres (Event table)</td>
+                  <td rowspan="1" colspan="1">Maximum elevation</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">sampleSizeValue (Event table)</td>
+                  <td rowspan="1" colspan="1">The size of a subplot</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">sampleSizeUnit (Event table)</td>
+                  <td rowspan="1" colspan="1">Size unit</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">sampingProtocol (Event table)</td>
+                  <td rowspan="1" colspan="1">Sampling protocol</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">country (Event table)</td>
+                  <td rowspan="1" colspan="1">Country</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">countryCode (Event table)</td>
+                  <td rowspan="1" colspan="1">Country code</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">stateProvince (Event table)</td>
+                  <td rowspan="1" colspan="1">Province</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">municipality (Event table)</td>
+                  <td rowspan="1" colspan="1">The nearest town</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">locality (Event table)</td>
+                  <td rowspan="1" colspan="1">Locality</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">type (Event table)</td>
+                  <td rowspan="1" colspan="1">The name of the resource</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventID (Occurrence table)</td>
+                  <td rowspan="1" colspan="1">Unique identifier of a particular visit of each subplot</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceID (Occurrence table)</td>
+                  <td rowspan="1" colspan="1">Unique identifier of a particular observations of each species within a subplot</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">basisOfRecord (Occurrence table)</td>
+                  <td rowspan="1" colspan="1">Basis of record (human observation)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Kingdom (Occurrence table)</td>
+                  <td rowspan="1" colspan="1">Kingdom</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificName (Occurrence table)</td>
+                  <td rowspan="1" colspan="1">Scientific name</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">organismQuantity (Occurrence table)</td>
+                  <td rowspan="1" colspan="1">Number of carpophores</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">organismQuantityType (Occurrence table)</td>
+                  <td rowspan="1" colspan="1">Quantity type (number of fruitbodies)</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>The project is partially funded by the Yugra State University grant number 13-01-20/39. Permanent monitoring at the Mukhrino Field Station is also supported by INTERACT – International Network for Terrestrial Research and Monitoring in the Arctic (<ext-link ext-link-type="uri" xlink:href="https://eu-interact.org">https://eu-interact.org</ext-link>).</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B5204498">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Filippova</surname>
+              <given-names>N</given-names>
+            </name>
+          </person-group>
+          <article-title>Plot-based observations of macrofungi in raised bogs in Western Siberia. Version 1.16. Yugra State University Biological Collection (YSU BC). Sampling event dataset accessed via GBIF.org on</article-title>
+          <pub-id pub-id-type="doi">10.15468/e9g5ri</pub-id>
+          <date-in-citation content-type="access-date">2019-04-19T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5202744">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Knudsen</surname>
+              <given-names>Henning</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vesterholt</surname>
+              <given-names>Jan</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <source>Funga Nordica</source>
+          <publisher-name>Nordsvamp</publisher-name>
+          <publisher-loc>Copenhagen</publisher-loc>
+          <size units="page">965</size>
+          <isbn>978-87-983961-3-0 87-983961-3-7</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B5202765">
+        <element-citation publication-type="chapter">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lodge</surname>
+              <given-names>J. D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ammirati</surname>
+              <given-names>J. F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>O'Dell</surname>
+              <given-names>T. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mueller</surname>
+              <given-names>G. M.</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <chapter-title>Collecting and describing macrofungi</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Mueller</surname>
+              <given-names>G. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bills</surname>
+              <given-names>G. F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Foster</surname>
+              <given-names>M. S.</given-names>
+            </name>
+          </person-group>
+          <source>Biodiversity of fungi, Inventory and monitoring methods</source>
+          <publisher-name>Elsevier Academic Press</publisher-name>
+          <publisher-loc>Amsterdam &amp; Boston</publisher-loc>
+          <size units="page">128-163</size>
+          <isbn>0-12-509551-1 978-0-12-509551-8</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B5252917">
+        <element-citation publication-type="chapter">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Mueller</surname>
+              <given-names>G. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schmit</surname>
+              <given-names>J. P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Huhndorf</surname>
+              <given-names>S. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ryvarden</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>O'Dell</surname>
+              <given-names>T. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lodge</surname>
+              <given-names>D. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Leacock</surname>
+              <given-names>P. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mata</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Umana</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wu</surname>
+              <given-names>Q. F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Czederpilz</surname>
+              <given-names>D. L.</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <chapter-title>Recommended protocols for sampling macrofungi</chapter-title>
+          <source>Biodiversity of fungi: inventory and monitoring methods</source>
+          <publisher-name>Elsevier Academic Press</publisher-name>
+          <publisher-loc>Amsterdam &amp; Boston</publisher-loc>
+          <size units="page">168-172</size>
+          <isbn>0-12-509551-1 978-0-12-509551-8</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B5204412">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Mueller</surname>
+              <given-names>G. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schmit</surname>
+              <given-names>J. P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Huhndorf</surname>
+              <given-names>S. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ryvarden</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>O'Dell</surname>
+              <given-names>T. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lodge</surname>
+              <given-names>D. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Leacock</surname>
+              <given-names>P R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mata</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Umana</surname>
+              <given-names>L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wu</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Czederpilz</surname>
+              <given-names>D. L.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Sampling macrofungi using fixed-sized plots v1 (protocols.io.z2xf8fn)</article-title>
+          <source>protocols.io</source>
+          <pub-id pub-id-type="doi">10.17504/protocols.io.z2xf8fn</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5202829">
+        <element-citation publication-type="chapter">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>O'Dell</surname>
+              <given-names>T. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lodge</surname>
+              <given-names>D. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mueller</surname>
+              <given-names>G. M.</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <chapter-title>Approaches to sampling macrofungi</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Mueller</surname>
+              <given-names>G. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bills</surname>
+              <given-names>G. F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Foster</surname>
+              <given-names>M. S.</given-names>
+            </name>
+          </person-group>
+          <source>Biodiversity of fungi. Inventory and monitoring methods.</source>
+          <publisher-name>Elsevier Academic Press</publisher-name>
+          <publisher-loc>Amsterdam &amp; Boston</publisher-loc>
+          <size units="page">163-16</size>
+          <isbn>0-12-509551-1 978-0-12-509551-8</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B5252842">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Thormann</surname>
+              <given-names>Markus N.</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <article-title>The Role of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="kingdom">Fungi</tp:taxon-name-part></tp:taxon-name> in Boreal Peatlands</article-title>
+          <source>Ecological Studies</source>
+          <fpage>101</fpage>
+          <lpage>123</lpage>
+          <pub-id pub-id-type="doi">10.1007/978-3-540-31913-9_6</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5252852">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Vitt</surname>
+              <given-names>Dale H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wieder</surname>
+              <given-names>R. Kelman</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <article-title>Boreal Peatland Ecosystems: Our Carbon Heritage</article-title>
+          <source>Ecological Studies</source>
+          <fpage>425</fpage>
+          <lpage>429</lpage>
+          <pub-id pub-id-type="doi">10.1007/978-3-540-31913-9_18</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F5202673" position="float" orientation="portrait">
+      <object-id content-type="arpha">7CCE95CB-B5F5-50BB-8D18-407A9BC28291</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e35674.figure1</object-id>
+      <object-id content-type="zenodo_dep_id">3361915</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>General view of the Mukhrino Fields Station infrastructure and position of subplots for observation of macromycetes located along the walking board (in the insert).</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e35674-g001.jpg" position="float" id="oo_295362.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/295362</uri>
+      </graphic>
+    </fig>
+    <fig id="F5202677" position="float" orientation="portrait">
+      <object-id content-type="arpha">7ADE1C3E-6CBB-5EC3-A0F7-BF5BFF1B972D</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e35674.figure2</object-id>
+      <object-id content-type="zenodo_dep_id">3361917</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>The example of examination of a subplot located in Graminoid-<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sphagnum">Sphagnum</tp:taxon-name-part></tp:taxon-name> lawn community using a bent bow to draw the outlines (total area of a circular subplot = 5 m<sup>2</sup>)</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e35674-g002.jpg" position="float" id="oo_295363.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/295363</uri>
+      </graphic>
+    </fig>
+  </floats-group>
+</article>

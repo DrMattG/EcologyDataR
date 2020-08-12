@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.7.e38219</article-id>
+      <article-id pub-id-type="publisher-id">38219</article-id>
+      <article-id pub-id-type="manuscript">9643</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Initial sightings and derby data from the red lionfish invasion (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pterois">Pterois</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="volitans">volitans</tp:taxon-name-part></tp:taxon-name></italic>) (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Scorpaeniformes</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Scorpaenidae</tp:taxon-name-part></tp:taxon-name>) in Barbados</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes">
+          <name name-style="western">
+            <surname>Walcott</surname>
+            <given-names>Julian</given-names>
+          </name>
+          <email xlink:type="simple">walcott.julian@gmail.com</email>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Bissada</surname>
+            <given-names>Caroline</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Oxenford</surname>
+            <given-names>Hazel A</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Centre for Resource Management and Environmental Studies, University of the West Indies, Cave Hill Campus, Cave Hill, Barbados</addr-line>
+        <institution>Centre for Resource Management and Environmental Studies, University of the West Indies, Cave Hill Campus</institution>
+        <addr-line content-type="city">Cave Hill</addr-line>
+        <country>Barbados</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">East Coast Conservation Organisation (ECCO) Inc., Bathsheba, Barbados</addr-line>
+        <institution>East Coast Conservation Organisation (ECCO) Inc.</institution>
+        <addr-line content-type="city">Bathsheba</addr-line>
+        <country>Barbados</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Julian Walcott (<email xlink:type="simple">walcott.julian@gmail.com</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Felipe Ottoni</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>29</day>
+        <month>08</month>
+        <year>2019</year>
+      </pub-date>
+      <volume>7</volume>
+      <elocation-id>e38219</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/8981546D-C276-5F87-B67E-116720A8891D">8981546D-C276-5F87-B67E-116720A8891D</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/3387804">3387804</uri>
+      <history>
+        <date date-type="received">
+          <day>12</day>
+          <month>07</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>27</day>
+          <month>08</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Julian Walcott, Caroline Bissada, Hazel A Oxenford</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>Native to the Indo-Pacific region, the lionfish (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pterois">Pterois</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="volitans">volitans</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pterois">P.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="miles">miles</tp:taxon-name-part></tp:taxon-name></italic>) has been classified as an alien invasive species which has rapidly invaded the North-western Atlantic and the Caribbean. The primary concerns regarding lionfish pertain to their broad diet, general habitat use and their potential threat on fisheries resources, native fish communities and human health. Away from natural predators, lionfish populations can easily become established and pose a serious threat to local fish species and ecosystem functioning. The first confirmed sighting of the red lionfish (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pterois">Pterois</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="volitans">volitans</tp:taxon-name-part></tp:taxon-name></italic>) in Barbados was in November 2011. Throughout 2012, fishermen and recreational divers were encouraged to report sightings of lionfish via an established hotline. Where possible, sightings were confirmed by way of the fish being captured and handed over to the Barbados Fisheries Division or the East Coast Conservation Organisation (ECCO) Inc. (an environmental NGO) for confirmation. In addition to confirmation, biological data (such as length, weight, sex and maturity) were also collected. Genetic research conducted on confirmed specimens collected between 2011-2013 identified the presence of only one species, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pterois">P.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="volitans">volitans</tp:taxon-name-part></tp:taxon-name></italic>. Since the first confirmed sighting of the red lionfish in Barbados, it is believed that population numbers have steadily increased. One of the methods utilised in Barbados to control this alien invasive lionfish species is that of an annual derby. On 5 and 6 December 2015 and 13 November 2016, teams of divers (both free divers and SCUBA divers) took to the local waters to hunt for and kill lionfish. Caught lionfish were landed at scoring stations to be counted and allowed for the collection of basic biological data (such as length, weight, sex and maturity). In addition to biological data, teams (observers) also provided information on dive sites (locations) and associated geographic information (i.e. GPS coordinates), where available.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>These two datasets, initial sightings (2012) and derby data (2015 and 2016), present the first collected data for the red lionfish (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pterois">P.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="volitans">volitans</tp:taxon-name-part></tp:taxon-name>) in Barbados. The two datasets are occurrence datasets which document the identification of &gt;1500 lionfish removed from the waters of Barbados between 2011 and 2016.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>lionfish</kwd>
+        <kwd>
+          <italic>
+            <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Pterois</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">volitans</tp:taxon-name-part></tp:taxon-name>
+          </italic>
+        </kwd>
+        <kwd>Barbados</kwd>
+        <kwd>occurrence</kwd>
+        <kwd>observation</kwd>
+      </kwd-group>
+      <funding-group>
+        <funding-statement>Natural Heritage Department (NHD) of the Government of Barbados</funding-statement>
+      </funding-group>
+      <counts>
+        <fig-count count="2"/>
+        <table-count count="0"/>
+        <ref-count count="6"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>Native to the Indo-Pacific region, it is believed that the aquarium trade facilitated the introduction of lionfish (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pterois">Pterois</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="volitans">volitans</tp:taxon-name-part></tp:taxon-name></italic> [Linnaeus, 1758] and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pterois">Pterois</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="miles">miles</tp:taxon-name-part></tp:taxon-name></italic> [Bennet, 1828]) to the United States of America (USA) (<xref ref-type="bibr" rid="B5261331">Morris et al. 2009</xref>, <xref ref-type="bibr" rid="B5261369">Albins 2013</xref>). Documentation of lionfish in the wild (i.e. via escape) dates back to 1985 (<xref ref-type="bibr" rid="B5261360">Morris 2012</xref>)off Florida and marks the beginning of one of the most rapid marine finfish invasions in history throughout the North-western Atlantic and the Caribbean (<xref ref-type="bibr" rid="B5261331">Morris et al. 2009</xref>, <xref ref-type="bibr" rid="B5261369">Albins 2013</xref>). By 2002, the invasion had progressed northwards along the east coast of the USA, reaching as far as New Jersey and eastwards to Bermuda (<xref ref-type="bibr" rid="B5261331">Morris et al. 2009</xref>). By 2012, the invasion had progressed southwards from its original location with documented cases of confirmed lionfish sightings throughout the Gulf of Mexico, Central America, South America and the Caribbean (<xref ref-type="bibr" rid="B5261360">Morris 2012</xref>). Barbados was one of the last Caribbean islands to be invaded, with the first confirmed sighting in November 2011 (<xref ref-type="bibr" rid="B5261389">Oxenford and Vallès 2014</xref>). Prior to this invasion, there have been no major incidences of marine invasive species affecting Caribbean coral reefs.</p>
+      <p>The primary concerns regarding lionfish pertained to their broad diet, general habitat use and their potential threat on fisheries resources, native fish communities and human health (<xref ref-type="bibr" rid="B5261331">Morris et al. 2009</xref>, <xref ref-type="bibr" rid="B5261360">Morris 2012</xref>). Lionfish may live for decades and reach sizes exceeding 47 cm (19 in), they become sexually mature in less than a year and reproduction can occur throughout the entire year (approx. every 4 days) (<xref ref-type="bibr" rid="B5261360">Morris 2012</xref>). Lionfish inhabit all marine habitats types (e.g. seagrass beds, coral and artificial reefs) and depths (from the shoreline to over 300 m or 100 ft) (<xref ref-type="bibr" rid="B5261360">Morris 2012</xref>). Away from their natural predators and in new environments where prey initially fail to recognise them as a threat, lionfish populations could easily become established and pose a serious threat to local fish species (including commercially important species) and ecosystem functioning (<xref ref-type="bibr" rid="B5261369">Albins 2013</xref>). In addition, the possession of 18 venomous spines (<xref ref-type="bibr" rid="B5261331">Morris et al. 2009</xref>) could lead to negative socioeconomic impacts by way of envenomations of fishermen, divers and recreational beach users (<xref ref-type="bibr" rid="B5261360">Morris 2012</xref>).</p>
+      <p>In recognition of the imminent arrival of lionfish, the Biodiversity Working Group of Barbados drafted a lionfish response plan (<xref ref-type="bibr" rid="B5261379">Brathwaite et al. 2011</xref>). For the first year of the Barbados invasion, all reported sightings were recorded (i.e. Barbados lionfish sightings database) to track the invasion (<xref ref-type="bibr" rid="B5261389">Oxenford and Vallès 2014</xref>). Genetic research conducted on collected samples (2011-2013) revealed a single species lionfish invasion (i.e. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pterois">P.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="volitans">volitans</tp:taxon-name-part></tp:taxon-name></italic>) in Barbados (<xref ref-type="bibr" rid="B5301143">Sealy et al. 2014</xref>). By 2015, the lionfish had become established and numbers had increased to levels where mitigation measures, such as derbies, were deemed appropriate. Derbies, one of the conservation measures used to control populations of lionfish, represent organised events to remove as many lionfish as possible by teams or individuals, with the added benefit of their receiving prizes for performances. Derbies also act to engage stakeholders, provide education and awareness to the public and allow for the collection of important ecological data (<xref ref-type="bibr" rid="B5261360">Morris 2012</xref>). Two national lionfish derbies were held in Barbados in 2015 and 2016, providing the opportunity for the collection of basic biological data such as length, weight, sex and maturity and thus resulted in the creation of the Barbados lionfish derby database.</p>
+    </sec>
+    <sec sec-type="Project description">
+      <title>Project description</title>
+      <sec sec-type="Title">
+        <title>Title</title>
+        <p>Tracking the red lionfish invasion in Barbados</p>
+      </sec>
+      <sec sec-type="Personnel">
+        <title>Personnel</title>
+        <p>Julian Walcott, Caroline Bissada, Hazel Oxenford</p>
+      </sec>
+      <sec sec-type="Study area description">
+        <title>Study area description</title>
+        <p>Barbados (Fig. <xref ref-type="fig" rid="F5301223">1</xref>) is a small Caribbean island (166 square <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pterois"/><tp:taxon-name-part taxon-name-part-type="species" reg="miles">miles</tp:taxon-name-part></tp:taxon-name>), located to the east of the Caribbean island chain (Fig. <xref ref-type="fig" rid="F5301227">2</xref>), with a narrow insular shelf. Key marine habitats include fringing reefs (primarily along the west coast), patch reefs and a bank reef which runs parallel to shore.</p>
+      </sec>
+      <sec sec-type="Funding">
+        <title>Funding</title>
+        <p>GBIF: BID-CA2016-0013-SMA</p>
+      </sec>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>The first confirmed sighting of a lionfish in Barbados was in November 2011. Throughout 2012, persons (i.e. fishermen and recreational divers) were encouraged to report sightings of lionfish. Where possible, sightings were confirmed by way of the fish being captured and handed over to the relevant persons from the Barbados Fisheries Division (Government agency) or the East Coast Conservation Organisation (ECCO) Inc. (an environmental NGO) for confirmation. In addition to confirmation, biological data (such as length, weight, sex and maturity) were also collected. Collected data were subsequently shared with the University of the West Indies for data analysis and management.</p>
+        <p>On 5 and 6 December 2015 and 13 November 2016, teams of divers (both free divers and SCUBA divers) took to the local waters to hunt for and kill lionfish, during organised derby events. Caught lionfish were landed at a scoring station to be counted and to allow for the collection of basic biological data (such as length, weight, sex and maturity). In addition to biological data, teams (observers) also provided information on dive sites (locations) and associated geographic information (i.e. GPS coordinates), where available (unfortunately, fish collected at individual dive sites were not separated on the boat, thus making it difficult to assign locations to many of the landed fish). Collected data were subsequently shared with the University of the West Indies for data analysis and management.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>Barbados</p>
+      </sec>
+      <sec sec-type="Coordinates">
+        <title>Coordinates</title>
+        <p>12.989 and 13.384 Latitude; -59.705 and -59.365 Longitude.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Taxa included">
+        <title>Taxa included</title>
+        <table-wrap id="taxonomic_coverage" position="anchor" orientation="portrait">
+          <table rules="all">
+            <thead>
+              <tr>
+                <th rowspan="1" colspan="1">Rank</th>
+                <th rowspan="1" colspan="1">Scientific Name</th>
+                <th rowspan="1" colspan="1"/>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">species</td>
+                <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pterois">Pterois</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="volitans">volitans</tp:taxon-name-part></tp:taxon-name></italic> (Linnaeus, 1758)</td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+    </sec>
+    <sec sec-type="Traits coverage">
+      <title>Traits coverage</title>
+      <sec sec-type="Data coverage of traits">
+        <title>Data coverage of traits</title>
+        <p>PLEASE FILL IN TRAIT INFORMATION HERE</p>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <sec sec-type="Notes">
+        <title>Notes</title>
+        <p>2012-01-01 through 2012-12-31, 2015-12-05 through 2015-12-06, 2016-11-13 through 2016-11-13.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Creative Commons Public Domain Waiver (CC-Zero)</p>
+      </sec>
+      <sec sec-type="IP rights notes">
+        <title>IP rights notes</title>
+        <p>This work is licensed under a Creative Commons Attribution (CC-BY) 4.0 License .</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>CERMES Barbados Lionfish Sightings 2012, CERMES Barbados Lionfish Derby Data</p>
+      </sec>
+      <sec sec-type="Alternative identifiers">
+        <title>Alternative identifiers</title>
+        <p>8f6d3a0d-10d2-44e3-8612-be219376c860; <ext-link ext-link-type="uri" xlink:href="http://ipt.vertnet.org:8080/ipt/resource?r=cermes_sightings2012">http://ipt.vertnet.org:8080/ipt/resource?r=cermes_sightings2012</ext-link> 7904180c-36c9-40ca-aed2-463e36a04df7; <ext-link ext-link-type="uri" xlink:href="http://ipt.vertnet.org:8080/ipt/resource?r=cermes_lionfishderby">http://ipt.vertnet.org:8080/ipt/resource?r=cermes_lionfishderby</ext-link></p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>2</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>CERMES Barbados Lionfish Sightings 2012</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Darwin Core</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>56</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p><ext-link ext-link-type="uri" xlink:href="https://www.gbif.org/dataset/8f6d3a0d-10d2-44e3-8612-be219376c860">https://www.gbif.org/dataset/8f</ext-link> <ext-link ext-link-type="uri" xlink:href="https://www.gbif.org/dataset/8f6d3a0d-10d2-44e3-8612-be219376c860">6d3a0d-10d2-44e3-8612-be219376c860</ext-link></p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>This dataset provides information on the first year of the lionfish invasion in Barbados. The first confirmed sighting of a lionfish in Barbados was in November 2011. Throughout 2012, persons were encouraged to report sightings of lionfish. Where possible, sightings were confirmed by way of the fish being captured and handed over to the relevant persons for confirmation. In addition to confirmation, biological data (such as length, weight, sex and maturity) were also collected. This dataset provides basic information for the confirmed sightings, such as date, time, habitat and activity where possible.</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">type</td>
+                  <td rowspan="1" colspan="1">The nature or genre of the resource</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">modified</td>
+                  <td rowspan="1" colspan="1">The most recent date-time on which the resource was changed</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">language</td>
+                  <td rowspan="1" colspan="1">The language of the resource</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">licence</td>
+                  <td rowspan="1" colspan="1">A legal document giving official permission to do something with the resource</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">rightsHolder</td>
+                  <td rowspan="1" colspan="1">A person or organisation owning or managing rights over the resource</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">accessRights</td>
+                  <td rowspan="1" colspan="1">Information about who can access the resource or an indication of its security status</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">bibliographicCitation</td>
+                  <td rowspan="1" colspan="1">A bibliographic reference for the resource as a statement indicating how this record should be cited (attributed) when used</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">references</td>
+                  <td rowspan="1" colspan="1">A related resource that is referenced, cited or otherwise pointed to by the described resource</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">institutionCode</td>
+                  <td rowspan="1" colspan="1">The name (or acronym) in use by the institution having custody of the object(s) or information referred to in the record</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">collectionCode</td>
+                  <td rowspan="1" colspan="1">The name, acronym, coden or initialism identifying the collection or dataset from which the record was derived</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">datasetName</td>
+                  <td rowspan="1" colspan="1">The name identifying the dataset from which the record was derived</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">ownerInstitutionCode</td>
+                  <td rowspan="1" colspan="1">The name (or acronym) in use by the institution having ownership of the object(s) or information referred to in the record</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">basisOfRecord</td>
+                  <td rowspan="1" colspan="1">The specific nature of the data record</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">informationWithheld</td>
+                  <td rowspan="1" colspan="1">Additional information that exists, but that has not been shared in the given record</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceID</td>
+                  <td rowspan="1" colspan="1">An identifier for the Occurrence (as opposed to a particular digital record of the occurrence). In the absence of a persistent global unique identifier, construct one from a combination of identifiers in the record that will most closely make the occurrenceID globally unique</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">catalogNumber</td>
+                  <td rowspan="1" colspan="1">An identifier (preferably unique) for the record within the dataset or collection</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">recordedBy</td>
+                  <td rowspan="1" colspan="1">A list (concatenated and separated) of names of people, groups or organisations responsible for recording the original Occurrence</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">individualCount</td>
+                  <td rowspan="1" colspan="1">The number of individuals represented present at the time of the Occurrence</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">behaviour</td>
+                  <td rowspan="1" colspan="1">The behaviour shown by the subject at the time the Occurrence was recorded</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">establishmentMeans</td>
+                  <td rowspan="1" colspan="1">The process by which the biological individual(s) represented in the Occurrence became established at the location</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceStatus</td>
+                  <td rowspan="1" colspan="1">A statement about the presence or absence of a Taxon at a Location</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">organismID</td>
+                  <td rowspan="1" colspan="1">An identifier for the Organism instance (as opposed to a particular digital record of the Organism)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventDate</td>
+                  <td rowspan="1" colspan="1">The date-time or interval during which an Event occurred. For occurrences, this is the date-time when the event was recorded</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventTime</td>
+                  <td rowspan="1" colspan="1">The time or interval during which an Event occurred</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">startDayOfYear</td>
+                  <td rowspan="1" colspan="1">The earliest ordinal day of the year on which the Event occurred (1 for 1 January, 365 for 31 December, except in a leap year, in which case it is 366)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">endDayOfYear</td>
+                  <td rowspan="1" colspan="1">The latest ordinal day of the year on which the Event occurred (1 for 1 January, 365 for 31 December, except in a leap year, in which case it is 366)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">year</td>
+                  <td rowspan="1" colspan="1">The four-digit year in which the Event occurred, according to the Common Era Calendar</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">month</td>
+                  <td rowspan="1" colspan="1">The ordinal month in which the Event occurred</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">day</td>
+                  <td rowspan="1" colspan="1">The integer day of the month on which the Event occurred</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">verbatimEventDate</td>
+                  <td rowspan="1" colspan="1">The verbatim original representation of the date and time information for an Event</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">habitat</td>
+                  <td rowspan="1" colspan="1">A category or description of the habitat in which the Event occurred</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">higherGeography</td>
+                  <td rowspan="1" colspan="1">A list (concatenated and separated) of geographic names less specific than the information captured in the locality term</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">continent</td>
+                  <td rowspan="1" colspan="1">The name of the continent in which the Location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">islandGroup</td>
+                  <td rowspan="1" colspan="1">The name of the island group in which the Location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">island</td>
+                  <td rowspan="1" colspan="1">The name of the island on or near which the Location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">country</td>
+                  <td rowspan="1" colspan="1">The name of the country or major administrative unit in which the Location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">countryCode</td>
+                  <td rowspan="1" colspan="1">The standard code for the country in which the Location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">locality</td>
+                  <td rowspan="1" colspan="1">The specific description of the place</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">verbatimLocality</td>
+                  <td rowspan="1" colspan="1">The original textual description of the place</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">minimumDepthInMetres</td>
+                  <td rowspan="1" colspan="1">The lesser depth of a range of depth below the local surface, in metres</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">maximumDepthInMetres</td>
+                  <td rowspan="1" colspan="1">The greater depth of a range of depth below the local surface, in metres</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLatitude</td>
+                  <td rowspan="1" colspan="1">The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic centre of a Location</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLongitude</td>
+                  <td rowspan="1" colspan="1">The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic centre of a Location</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">geodeticDatum</td>
+                  <td rowspan="1" colspan="1">The ellipsoid, geodetic datum or spatial reference system (SRS) upon which the geographic coordinates given in decimalLatitude and decimalLongitude are based</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">georeferenceVerificationStatus</td>
+                  <td rowspan="1" colspan="1">A categorical description of the extent to which the georeference has been verified to represent the best possible spatial description</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificName</td>
+                  <td rowspan="1" colspan="1">The full scientific name, with authorship and date information, if known</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">higherClassification</td>
+                  <td rowspan="1" colspan="1">A list (concatenated and separated) of taxa names terminating at the rank immediately superior to the taxon referenced in the taxon record</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">kingdom</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the kingdom in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">phylum</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the phylum or division in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">class</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the class in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">order</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the order in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">family</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the family in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">genus</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the genus in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">specificEpithet</td>
+                  <td rowspan="1" colspan="1">The name of the first or species epithet of the scientificName</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">taxonRank</td>
+                  <td rowspan="1" colspan="1">The taxonomic rank of the most specific name in the scientificName</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">nomenclaturalCode</td>
+                  <td rowspan="1" colspan="1">The nomenclatural code (or codes in the case of an ambiregnal name) under which the scientificName is constructed</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+      <sec sec-type="Data set 2">
+        <title>Data set 2.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>CERMES Barbados Lionfish Derby Data</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Darwin Core</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>43</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="https://www.gbif.org/dataset/7904180c-36c9-40ca-aed2-463e36a04df7">https://www.gbif.org/dataset/7904180c-36c9-40ca-aed2-463e36a04df7</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>Since its first confirmed sighting in November 2011, it is believed that the lionfish population has steadily increased. One of the methods utilised in Barbados to control the alien invasive lionfish is that of an annual derby. On 5 and 6 December 2015 and 13 November 2016, teams of divers (both free divers and SCUBA divers) took to the local waters to hunt for and kill lionfish. Caught lionfish were landed at a scoring station to be counted and to allow for the collection of basic biological data (such as length, weight, sex and maturity). In addition to biological data, teams (observers) also provided information on dive sites (locations) and associated geographic information (i.e. GPS coordinates) where available. This event was a Reef Environmental Education Foundation (REEF) sanctioned derby event (see <ext-link ext-link-type="uri" xlink:href="http://www.reef.org/lionfish/events">http://www.reef.org/lionfish/events</ext-link>)</p>
+          <table-wrap id="DS2" orientation="portrait" position="anchor">
+            <label>Data set 2.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">type</td>
+                  <td rowspan="1" colspan="1">Identifies the species in the dataset</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">modified</td>
+                  <td rowspan="1" colspan="1">The most recent date-time on which the resource was changed</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">language</td>
+                  <td rowspan="1" colspan="1">A language of the resource</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">licence</td>
+                  <td rowspan="1" colspan="1">A legal document giving official permission to do something with the resource</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">accessRights</td>
+                  <td rowspan="1" colspan="1">Information about who can access the resource or an indication of its security status</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">references</td>
+                  <td rowspan="1" colspan="1">A related resource that is referenced, cited or otherwise pointed to by the described resource</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">institutionCode</td>
+                  <td rowspan="1" colspan="1">The name (or acronym) in use by the institution having custody of the object(s) or information referred to in the record</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">collectionCode</td>
+                  <td rowspan="1" colspan="1">The name, acronym, coden or initialism identifying the collection or dataset from which the record was derived</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">datasetName</td>
+                  <td rowspan="1" colspan="1">The name identifying the dataset from which the record was derived</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">basisOfRecord</td>
+                  <td rowspan="1" colspan="1">The specific nature of the data record</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">informationWithheld</td>
+                  <td rowspan="1" colspan="1">Additional information that exists, but that has not been shared in the given record</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceID</td>
+                  <td rowspan="1" colspan="1">An identifier for the Occurrence (as opposed to a particular digital record of the occurrence)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">catalogNumber</td>
+                  <td rowspan="1" colspan="1">An identifier (preferably unique) for the record within the dataset or collection</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">recordedBy</td>
+                  <td rowspan="1" colspan="1">recordedBy</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">individualCount</td>
+                  <td rowspan="1" colspan="1">The number of individuals represented present at the time of the Occurrence</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">establishmentMeans</td>
+                  <td rowspan="1" colspan="1">The process by which the biological individual(s) represented in the Occurrence became established at the location</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceStatus</td>
+                  <td rowspan="1" colspan="1">A statement about the presence or absence of a Taxon at a Location</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">organismID</td>
+                  <td rowspan="1" colspan="1">An identifier for the Organism instance (as opposed to a particular digital record of the Organism)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventDate</td>
+                  <td rowspan="1" colspan="1">The date-time or interval during which an Event occurred</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">startDayOfYear</td>
+                  <td rowspan="1" colspan="1">The earliest ordinal day of the year on which the Event occurred (1 for 1 January, 365 for 31 December, except in a leap year, in which case it is 366)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">endDayOfYear</td>
+                  <td rowspan="1" colspan="1">The latest ordinal day of the year on which the Event occurred (1 for 1 January, 365 for 31 December, except in a leap year, in which case it is 366)</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">year</td>
+                  <td rowspan="1" colspan="1">The four-digit year in which the Event occurred, according to the Common Era Calendar</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">month</td>
+                  <td rowspan="1" colspan="1">The ordinal month in which the Event occurred</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">day</td>
+                  <td rowspan="1" colspan="1">The integer day of the month on which the Event occurred</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">verbatimEventDate</td>
+                  <td rowspan="1" colspan="1">The verbatim original representation of the date and time information for an Event</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">higherGeography</td>
+                  <td rowspan="1" colspan="1">A list (concatenated and separated) of geographic names less specific than the information captured in the locality term</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">continent</td>
+                  <td rowspan="1" colspan="1">The name of the continent in which the Location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">islandGroup</td>
+                  <td rowspan="1" colspan="1">The name of the island group in which the Location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">island</td>
+                  <td rowspan="1" colspan="1">The name of the island on or near which the Location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">country</td>
+                  <td rowspan="1" colspan="1">The name of the country or major administrative unit in which the Location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">countryCode</td>
+                  <td rowspan="1" colspan="1">The standard code for the country in which the Location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">verbatimLocality</td>
+                  <td rowspan="1" colspan="1">The original textual description of the place</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificName</td>
+                  <td rowspan="1" colspan="1">The full scientific name, with authorship and date information, if known</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">higherClassification</td>
+                  <td rowspan="1" colspan="1">A list (concatenated and separated) of taxa names terminating at the rank immediately superior to the taxon referenced in the taxon record</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">kingdom</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the kingdom in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">phylum</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the phylum or division in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">class</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the class in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">order</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the order in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">family</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the family in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">genus</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the genus in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">specificEpithet</td>
+                  <td rowspan="1" colspan="1">The name of the first or species epithet of the scientificName</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">taxonRank</td>
+                  <td rowspan="1" colspan="1">The taxonomic rank of the most specific name in the scientificName</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">nomenclaturalCode</td>
+                  <td rowspan="1" colspan="1">The nomenclatural code (or codes in the case of an ambiregnal name) under which the scientificName is constructed</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+    <sec sec-type="Additional information">
+      <title>Additional information</title>
+      <p>CERMES. 2012. 2012 Barbados Lionfish Sightings. Centre for Resource Management and Environmental Studies, University of the West Indies, Cave Hill Campus, Cave Hill, Barbados.</p>
+      <p>ECCO Inc. 2016. 2015-16 Barbados Lionfish Derby Data. East Coast Conservation Organisation Incorporated, St. Joseph, Barbados.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>We would like to acknowledge the funding provided by the Natural Heritage Department (NHD) of the Government of Barbados, without which much of this work would not have been possible. We are sincerely grateful to the divers and fishermen who provided lionfish specimens throughout the first year of invasion and contributed to the creation of the Barbados lionfish sightings database. We also recognise the outstanding work carried out by the data collection teams during the 2015 and 2016 derbies. Finally, we would sincerely like to thank the VertNet team (namely David Bloom, John Wieczorek and Paula Zermoglio) for the tremendous assistance provided.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B5261369">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Albins</surname>
+              <given-names>Mark A.</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Effects of invasive Pacific red lionfish <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pterois">Pterois</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="volitans">volitans</tp:taxon-name-part></tp:taxon-name></italic> versus a native predator on Bahamian coral-reef fish communities</article-title>
+          <source>Biological Invasions</source>
+          <volume>15</volume>
+          <issue>1</issue>
+          <fpage>29</fpage>
+          <lpage>43</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10530-012-0266-1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5261379">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Brathwaite</surname>
+              <given-names>Angelique</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Parker</surname>
+              <given-names>Christopher</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Horrocks</surname>
+              <given-names>Julia A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fields</surname>
+              <given-names>Angela</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Oxenford</surname>
+              <given-names>Hazel A.</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <source>Lionfish invasion response plan for Barbados (Draft)</source>
+          <publisher-name>Natural Heritage Department</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B5261331">
+        <element-citation publication-type="conference-paper">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Morris</surname>
+              <given-names>J. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Akins</surname>
+              <given-names>J. L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barse</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cerino</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Freshwater</surname>
+              <given-names>D. W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Green</surname>
+              <given-names>S. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Muñoz</surname>
+              <given-names>R. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Paris</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Whitfield</surname>
+              <given-names>P. E.</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>Biology and ecology of the invasive lionfishes, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pterois">Pterois</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="miles">miles</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pterois">Pterois</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="volitans">volitans</tp:taxon-name-part></tp:taxon-name></italic></article-title>
+          <source>Proceedings of the 61st Gulf and Caribbean Fisheries Institute</source>
+          <conf-name>61st Annual Conference of the Gulf and Caribbean Fisheries Institute</conf-name>
+          <conf-loc>Gosier, Guadeloupe, French West Indies</conf-loc>
+          <conf-date>November 10-14, 2008</conf-date>
+        </element-citation>
+      </ref>
+      <ref id="B5261360">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Morris</surname>
+              <given-names>James A</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <source>Invasive Lionfish: A Guide to Control and Management</source>
+          <publisher-name>Gulf and Caribbean Fisheries Institute</publisher-name>
+          <size units="page">113</size>
+          <isbn>978-0-615-69974-5</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B5261389">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Oxenford</surname>
+              <given-names>H. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vallès</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <source>The Lionfish Project. A research project to investigate the impact of invasive lionfishes on the ecological services of parrotfishes and other key herbivores in Barbados.</source>
+          <publisher-name>University of the West Indies (Cave Hill Campus)</publisher-name>
+          <size units="page">57</size>
+        </element-citation>
+      </ref>
+      <ref id="B5301143">
+        <element-citation publication-type="conference-paper">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Sealy</surname>
+              <given-names>Shekira</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Oxenford</surname>
+              <given-names>Hazel A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Browne</surname>
+              <given-names>Darren</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>Mitochondrial DNA (mtDNA) Haplotype Diversity of the Invasive Lionfish (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pterois">Pterois</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="volitans">volitans</tp:taxon-name-part></tp:taxon-name>) in Barbados</article-title>
+          <source>Proceedings of the 66th Gulf and Caribbean Fisheries Institute</source>
+          <conf-name>66th Gulf and Caribbean Fisheries Institute</conf-name>
+          <conf-loc>Corpus Christi, Texas USA</conf-loc>
+          <conf-date>November 4 – 8, 2013</conf-date>
+          <comment content-type="language">English</comment>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F5301223" position="float" orientation="portrait">
+      <object-id content-type="arpha">0D3F5BB4-2089-5B56-8FFC-8A69DC77FA4A</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e38219.figure1</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Confirmed lionfish (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pterois">Pterois</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="volitans">volitans</tp:taxon-name-part></tp:taxon-name></italic>) sightings and derby removals in Barbados.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e38219-g001.jpg" position="float" id="oo_323719.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/323719</uri>
+      </graphic>
+    </fig>
+    <fig id="F5301227" position="float" orientation="portrait">
+      <object-id content-type="arpha">62DB703B-F0A4-5D18-82EF-8F7521D575E3</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e38219.figure2</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>Caribbean Region</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e38219-g002.jpg" position="float" id="oo_323720.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/323720</uri>
+      </graphic>
+    </fig>
+  </floats-group>
+</article>

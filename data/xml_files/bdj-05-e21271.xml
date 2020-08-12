@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="3.0" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.5.e21271</article-id>
+      <article-id pub-id-type="publisher-id">21271</article-id>
+      <article-id pub-id-type="manuscript">8321</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Plantae</subject>
+          <subject>Animalia</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Data Management</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>Asia</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>A crowdsourcing approach to collecting photo-based insect and plant observation records</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes" xlink:type="simple">
+          <name name-style="western">
+            <surname>Osawa</surname>
+            <given-names>Takeshi</given-names>
+          </name>
+          <email xlink:type="simple">arosawa@gmail.com</email>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Yamanaka</surname>
+            <given-names>Takehiko</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Nakatani</surname>
+            <given-names>Yukinobu</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Nishihiro</surname>
+            <given-names>Jun</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Takahashi</surname>
+            <given-names>Shiori</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Mahoro</surname>
+            <given-names>Suzuki</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Sasaki</surname>
+            <given-names>Hironobu</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Institute for Agro-Environmental Sciences, NARO, Tsukuba, Japan</addr-line>
+        <institution xlink:type="simple">Institute for Agro-Environmental Sciences, NARO</institution>
+        <addr-line content-type="city">Tsukuba</addr-line>
+        <country>Japan</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">Faculty of Science, Toho University, Funabashi, Japan</addr-line>
+        <institution xlink:type="simple">Faculty of Science, Toho University</institution>
+        <addr-line content-type="city">Funabashi</addr-line>
+        <country>Japan</country>
+      </aff>
+      <aff id="A3">
+        <label>3</label>
+        <addr-line content-type="verbatim">Iwate Prefetural Museum, Morioka, Japan</addr-line>
+        <institution xlink:type="simple">Iwate Prefetural Museum</institution>
+        <addr-line content-type="city">Morioka</addr-line>
+        <country>Japan</country>
+      </aff>
+      <aff id="A4">
+        <label>4</label>
+        <addr-line content-type="verbatim">Sumisaka Junior High School, Sumisaka, Japan</addr-line>
+        <institution xlink:type="simple">Sumisaka Junior High School</institution>
+        <addr-line content-type="city">Sumisaka</addr-line>
+        <country>Japan</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Takeshi Osawa (<email xlink:type="simple">arosawa@gmail.com</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Yasen Mutafchiev</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2017</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>06</day>
+        <month>11</month>
+        <year>2017</year>
+      </pub-date>
+      <volume>5</volume>
+      <elocation-id>e21271</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/2220FFB8-8225-FFEB-4C56-FF85FFDF1207">2220FFB8-8225-FFEB-4C56-FF85FFDF1207</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/1115664">1115664</uri>
+      <history>
+        <date date-type="received">
+          <day>28</day>
+          <month>09</month>
+          <year>2017</year>
+        </date>
+        <date date-type="accepted">
+          <day>01</day>
+          <month>11</month>
+          <year>2017</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Takeshi Osawa, Takehiko Yamanaka, Yukinobu Nakatani, Jun Nishihiro, Shiori Takahashi, Suzuki Mahoro, Hironobu Sasaki</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License 4.0 (CC-BY), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>Scientific field observation by members of the public is known as citizen science and has become popular all across the world. Citizen science is advantageous for collecting large amounts of scientific data and can be seen as a crowdsourcing approach to data collection. Information and communications technology is enhancing the availability of citizen science. Mobile devices, such as mobile phones, that have a digital camera with a global positioning system (GPS) are necessities for contemporary life and can be utilised as powerful observation tools in citizen science.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>A  web-based system has been developed as a data collection tool for citizen science. Participants submit an e-mail with a photo taken by their mobile phones. The photos contain location information, which can be easily and automatically embedded if the mobile phone is equipped with GPS. Collaboration has been undertaken with regional event managers, such as museum curators and held citizen science events in each region and for various target taxonomic groups. All photos were stored in the data server and the organisms were taxonomically identified by citizen scientists, regional managers and the authors. In total, 154 species and 843 data records were collected in this project conducted from 2011 to 2016.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>Citizen science</kwd>
+        <kwd>Mobile phone</kwd>
+        <kwd>Social networking system</kwd>
+        <kwd>Open data</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="1"/>
+        <table-count count="0"/>
+        <ref-count count="11"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>A citizen scientist is a volunteer who collects or processes data as part of a scientific enquiry (<xref ref-type="bibr" rid="B3788010">Silvertown 2009</xref>). Today, these volunteers are active in several scientific areas, especially the environmental sciences (<xref ref-type="bibr" rid="B3787938">Dickinson et al. 2010</xref>, <xref ref-type="bibr" rid="B3787948">Dickinson et al. 2012</xref>) and many recent studies have benefitted from this approach (<xref ref-type="bibr" rid="B3788000">Osawa 2015</xref>, <xref ref-type="bibr" rid="B3787979">Miyazaki et al. 2016</xref>, <xref ref-type="bibr" rid="B3788020">Sullivan et al. 2009</xref>, <xref ref-type="bibr" rid="B3787990">Osawa 2013</xref>). One of the important research benefits provided by citizen science is the crowdsourcing of large data sets (<xref ref-type="bibr" rid="B3788000">Osawa 2015</xref>). In addition to its scientific merits, this approach has educational advantages because it gives members of the public opportunities to observe and interact with organisms in nature (<xref ref-type="bibr" rid="B3787938">Dickinson et al. 2010</xref>, <xref ref-type="bibr" rid="B3787948">Dickinson et al. 2012</xref>, <xref ref-type="bibr" rid="B3787962">Kobori et al. 2015</xref>, <xref ref-type="bibr" rid="B3812579">Miyazaki et al. 2014</xref>). Thus, the approach can provide substantial benefits for both researchers and citizens.</p>
+      <p>Recent advances in information and communications technology have made citizen science more user-friendly and accessible (<xref ref-type="bibr" rid="B3787962">Kobori et al. 2015</xref>, <xref ref-type="bibr" rid="B3788010">Silvertown 2009</xref>). Mobile devices, in particular, have become key tools for citizen science activities in recent years (<xref ref-type="bibr" rid="B3788010">Silvertown 2009</xref>). Most mobile phones have a digital camera with a global positioning system (GPS) that allows people to record species occurrence data with high precision, because the data contain not only the location details, date and time but also the evidence (i.e. photo) of the targets (<xref ref-type="bibr" rid="B3788032">Osawa et al. 2013</xref>). As mobile phones have become a necessity for contemporary life, citizen science projects using mobile phones are expected to attract more volunteers than ever before (<xref ref-type="bibr" rid="B3788032">Osawa et al. 2013</xref>).</p>
+      <p>A web-based system has been developed as a data collection tool for citizen science. When a participant submits an e-mail with a photo that has embedded GPS information, the system automatically detects when and where the observation was made from the exchangeable image file format (EXIF) information and these data are stored in the system’s data server. Collaboration is undertaken with regional event managers such as teachers and museum curators and field observation events conducted with citizen scientists using our web-based system (<xref ref-type="bibr" rid="B3788032">Osawa et al. 2013</xref>). The purpose of the events depends largely on the collaborators and varies according to whether the event is scientifically or educationally orientated. Consequently, this project has covered several themes and has yielded data on various taxonomic groups in many regions scattered across Japan (<xref ref-type="bibr" rid="B3788032">Osawa et al. 2013</xref>). Although these records contain information on a wide range of organisms in many regions, when combined with other biodiversity records, they can help to clarify regional flora or fauna and nationwide distribution ranges.</p>
+      <p>In this data paper, the collection of both plant and insect observation records are reported based on photos taken by many citizen scientists. All records have the location and date/time, which were extracted from the EXIF information in the header of the photo files. Although observation records, collected by citizen scientists, may have quality problems, such as misidentification (<xref ref-type="bibr" rid="B3788000">Osawa 2015</xref>), photographic data can be useful for avoiding such problems. The compiliation of digital data records according to Darwin Core, which is a standard format for biodiversity data, have also been reported.</p>
+    </sec>
+    <sec sec-type="Project description">
+      <title>Project description</title>
+      <sec sec-type="Title">
+        <title>Title</title>
+        <p>NIAES mobile photo project</p>
+      </sec>
+      <sec sec-type="Study area description">
+        <title>Study area description</title>
+        <p>This project does not have specific themes, such as target species. Instead, the themes are chosen by regional project managers, who have their own targets, motivations and purposes. Thus, the project was designed to include a variety of approaches, have different goals and involve many scientific disciplines (<xref ref-type="bibr" rid="B3788042">Sasaki et al. 2016</xref>, <xref ref-type="bibr" rid="B3787962">Kobori et al. 2015</xref>). Increasing participation in citizen science projects is essential (<xref ref-type="bibr" rid="B3788010">Silvertown 2009</xref>) and devising strategies on how to attract participants and deciding which themes will enhance participation are critical challenges (<xref ref-type="bibr" rid="B3787962">Kobori et al. 2015</xref>).</p>
+      </sec>
+      <sec sec-type="Design description">
+        <title>Design description</title>
+        <p>The  platform has been provided (described in the Sampling methods section) for an internet-based photo-collection system for regional managers. Regional managers have been assisted in  arranging data collection events, but the data collection itself is handled by the regional managers. For example, the manager could be a natural history museum curator who is interested in organising nature walks that incorporate photography, or an environmental non-profit organisation that is conducting a survey of alien invasive species around a locality. Each regional manager arranges the data collection method, recruits participants and posts photos to this system via e-mail. Those e-mails are then automatically handled by the system and are stored in the system’s data server.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>A web-based system has been developed to collect photos taken by citizen scientists. The system is a customised version of the commercial mobile photo system developed by Fujitsu FIP, Co. (<ext-link ext-link-type="uri" xlink:href="http://www.fujitsu.com/jp/group/fip/solutions/business-and-technology-solutions/sustainability-solution/management/biodiversity/" xlink:type="simple">http://www.fujitsu.com/jp/group/fip/solutions/business-and-technology-solutions/sustainability-solution/management/biodiversity/</ext-link>; accessed 10 August 2017). Customised system could set a several subsystem which independent in each. Each regional manager can prepare that system according to the purpose of the collection event and manage it. In the subsystem, the regional manager can manage the photos which are collected for their event only. In the main system which is managed by the authors, all photos are collected by all subsystems. The data collection procedure is simple: a participant takes a photo of the observation target and sends an e-mail with the photo that has geographic information embedded by GPS (Fig. <xref ref-type="fig" rid="F3787936">1</xref>). The timing and location of all the photos sent to the system are automatically extracted and stored in the data server (Fig. <xref ref-type="fig" rid="F3787936">1</xref>). The records and the photos are available to be viewed by participants in these project websites from 2011 to 2016 (Note, however, that they are currently closed.) with the map of the web GIS.</p>
+        <p>The rationale for each event are discussed with the regional manager beforehand and an event-specific subsystem for projects is established. An event-specific address to which the participants send their e-mails is designated. Event-specific websites which relate to each subsystem are opened. For some observation events, citizen scientists are asked to identify the organisms that they have observed and put the names of the organisms in their e-mails. Regional managers are helped to check all records posted and re-examine the species names classified by the citizen scientists on the basis of the photos attached. Records that could not be identified to the species level from a photo are removed.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The collection sites of the data provided here are distributed across Japan, from Hokkaido to the southern islands. One foreign record is also included.</p>
+      </sec>
+      <sec sec-type="Coordinates">
+        <title>Coordinates</title>
+        <p> and  Latitude;  and  Longitude.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>With regard to taxonomy and systematics, all species were identified by the regional managers and authors according to the morphotypes of objects. If sufficient information could not be obtained for proper species identification,  i.e. the species which is difficult to identify, that record was not included in this data paper. As a result, 843 records of 154 species have been provided. Thus, these species were ordinary which can identify easily based on photo.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <sec sec-type="Notes">
+        <title>Notes</title>
+        <p>The system was launched in 2011. Data will be released  from 2011 to 2016.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Open Data Commons Attribution License</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>A crowdsourcing approach to collecting photo-based insect and plant observation records</p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="https://www.gbif.org/dataset/c671d43f-7fb9-4b5a-a964-630bfbf47dd2#geographicCoverages" xlink:type="simple">https://www.gbif.org/dataset/c671d43f-7fb9-4b5a-a964-630bfbf47dd2#geographicCoverages</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>1</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>dwca-niaes_mobile_photopj1-v1.3.zip</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Darwin Core Archive</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>16</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="http://osawa.nomaki.jp/dl/dwca-mobile_photopj-v1.2.zip" xlink:type="simple">http://www.gbif.jp/ipt/archive.do?r=niaes_mobile_photopj1</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>The data set is available  from GBIF network through Japan node of GBIF(JBIF).</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceID</td>
+                  <td rowspan="1" colspan="1">An identifier for the Occurrence (photo).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">institutionID</td>
+                  <td rowspan="1" colspan="1">An identifier for the institution having custody of the information.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">collectionCode</td>
+                  <td rowspan="1" colspan="1">Identifying the collection from which the record was derived. In this data set, project name is provided.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">basisOfRecord</td>
+                  <td rowspan="1" colspan="1">The specific nature of the data record. In this data set, all records were "Observation".</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificName</td>
+                  <td rowspan="1" colspan="1">The scientific name without authors and year.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">taxonRank</td>
+                  <td rowspan="1" colspan="1">Lowest taxonomic rank of the record. In this data set, all records were species.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">kingdom</td>
+                  <td rowspan="1" colspan="1">Kingdom name.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">phylum</td>
+                  <td rowspan="1" colspan="1">Phylum name. Some of species were not ranked.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">class</td>
+                  <td rowspan="1" colspan="1">Class name. Some of species were not ranked.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">order</td>
+                  <td rowspan="1" colspan="1">Order name.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">family</td>
+                  <td rowspan="1" colspan="1">Family name.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventDate</td>
+                  <td rowspan="1" colspan="1">The date on which a photo was taken.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLatitude</td>
+                  <td rowspan="1" colspan="1">Approximate point latitude of the field site in decimal degrees.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLongitude</td>
+                  <td rowspan="1" colspan="1">Approximate point longitude of the field site in decimal degrees.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">verbatimCoordinateSystem</td>
+                  <td rowspan="1" colspan="1">The spatial coordinate system on that data set.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">geodeticDatum</td>
+                  <td rowspan="1" colspan="1">Geodetic datum</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>This study was supported by JSPS KAKENHI grants no. 15K12154 and no. 24651040.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B3787938">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Dickinson</surname>
+              <given-names>Janis L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zuckerberg</surname>
+              <given-names>Benjamin</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bonter</surname>
+              <given-names>David N.</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>Citizen science as an ecological research tool: challenges and benefits</article-title>
+          <source>Annual Review of Ecology, Evolution, and Systematics</source>
+          <volume>41</volume>
+          <issue>1</issue>
+          <fpage>149</fpage>
+          <lpage>172</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1146/annurev-ecolsys-102209-144636</uri>
+          <pub-id pub-id-type="doi">10.1146/annurev-ecolsys-102209-144636</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3787948">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Dickinson</surname>
+              <given-names>Janis L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Shirk</surname>
+              <given-names>Jennifer</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bonter</surname>
+              <given-names>David</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bonney</surname>
+              <given-names>Rick</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Crain</surname>
+              <given-names>Rhiannon L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Martin</surname>
+              <given-names>Jason</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Phillips</surname>
+              <given-names>Tina</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Purcell</surname>
+              <given-names>Karen</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>The current state of citizen science as a tool for ecological research and public engagement</article-title>
+          <source>Frontiers in Ecology and the Environment</source>
+          <volume>10</volume>
+          <issue>6</issue>
+          <fpage>291</fpage>
+          <lpage>297</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1890/110236</uri>
+          <pub-id pub-id-type="doi">10.1890/110236</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3787962">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kobori</surname>
+              <given-names>Hiromi</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dickinson</surname>
+              <given-names>Janis L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Washitani</surname>
+              <given-names>Izumi</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sakurai</surname>
+              <given-names>Ryo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Amano</surname>
+              <given-names>Tatsuya</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Komatsu</surname>
+              <given-names>Naoya</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kitamura</surname>
+              <given-names>Wataru</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Takagawa</surname>
+              <given-names>Shinichi</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Koyama</surname>
+              <given-names>Kazuo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ogawara</surname>
+              <given-names>Takao</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Miller-Rushing</surname>
+              <given-names>A. J.</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Citizen science: a new approach to advance ecology, education, and conservation</article-title>
+          <source>Ecological Research</source>
+          <volume>31</volume>
+          <issue>1</issue>
+          <fpage>1</fpage>
+          <lpage>19</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1007/s11284-015-1314-y</uri>
+          <pub-id pub-id-type="doi">10.1007/s11284-015-1314-y</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3787979">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Miyazaki</surname>
+              <given-names>Yusuke</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Murase</surname>
+              <given-names>Atsunobu</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sahara</surname>
+              <given-names>Ryosuke</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Angulo</surname>
+              <given-names>Arturo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Senou</surname>
+              <given-names>Hiroshi</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Adding fish images taken in other countries to the biodiversity database of a Japanese public museum, with report of range extension of<italic> Labrisomus jenkinsi</italic> from the Pacific coast of Costa Rica</article-title>
+          <source>Ecological Research</source>
+          <volume>32</volume>
+          <issue>1</issue>
+          <fpage>89</fpage>
+          <lpage>93</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1007/s11284-016-1409-0</uri>
+          <pub-id pub-id-type="doi">10.1007/s11284-016-1409-0</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3812579">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Miyazaki</surname>
+              <given-names>Yusuke</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Murase</surname>
+              <given-names>Atsunobu</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Shiina</surname>
+              <given-names>Masato</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Naoe</surname>
+              <given-names>Kenichi</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nakashiro</surname>
+              <given-names>Ryosuke</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Honda</surname>
+              <given-names>Junichi</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Yamaide</surname>
+              <given-names>Junichiro</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Senou</surname>
+              <given-names>Hiroshi</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>Biological monitoring by citizens using Web-based photographic databases of fishes</article-title>
+          <source>Biodiversity and Conservation</source>
+          <volume>23</volume>
+          <issue>9</issue>
+          <fpage>2383</fpage>
+          <lpage>2391</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1007/s10531-014-0724-4</uri>
+          <pub-id pub-id-type="doi">10.1007/s10531-014-0724-4</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3787990">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Osawa</surname>
+              <given-names>Takeshi</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Monitoring records of plant species in the Hakone region of Fuji-Hakone-Izu National Park, Japan, 2001–2010</article-title>
+          <source>Ecological Research</source>
+          <volume>28</volume>
+          <issue>4</issue>
+          <fpage>541</fpage>
+          <lpage>541</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1007/s11284-013-1049-6</uri>
+          <pub-id pub-id-type="doi">10.1007/s11284-013-1049-6</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3788000">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Osawa</surname>
+              <given-names>Takeshi</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Importance of farmland in urbanized areas as a landscape component for barn swallows (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hirundo">Hirundo</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="rustica">rustica</tp:taxon-name-part></tp:taxon-name></italic>) nesting on concrete buildings</article-title>
+          <source>Environmental Management</source>
+          <volume>55</volume>
+          <issue>5</issue>
+          <fpage>1160</fpage>
+          <lpage>1167</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1007/s00267-015-0457-5</uri>
+          <pub-id pub-id-type="doi">10.1007/s00267-015-0457-5</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3788032">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Osawa</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Yamanaka</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nakatani</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Establishing a canonical procedure for collecting biodiversity information from citizen scientists using mobile phones</article-title>
+          <source>Japanese Journal of Conservation Ecology</source>
+          <volume>18</volume>
+          <fpage>157</fpage>
+          <lpage>165</lpage>
+          <comment content-type="language">Japanese</comment>
+          <uri xlink:type="simple">https://www.jstage.jst.go.jp/article/hozen/18/2/18_KJ00008993969/_article</uri>
+          <pub-id pub-id-type="doi">10.18960/hozen.18.2_157</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3788042">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Sasaki</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ohnishi</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Osawa</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Redefining ‘citizen science’ from several perspectives</article-title>
+          <source>Japanese Journal of Conservation Ecology</source>
+          <volume>21</volume>
+          <fpage>243</fpage>
+          <lpage>248</lpage>
+          <comment content-type="language">Japanese</comment>
+          <uri xlink:type="simple">https://www.jstage.jst.go.jp/article/hozen/21/2/21_243/_article</uri>
+          <pub-id pub-id-type="doi">10.18960/hozen.21.2_243</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3788010">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Silvertown</surname>
+              <given-names>Jonathan</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>A new dawn for citizen science</article-title>
+          <source>Trends in Ecology &amp; Evolution</source>
+          <volume>24</volume>
+          <issue>9</issue>
+          <fpage>467</fpage>
+          <lpage>471</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1016/j.tree.2009.03.017</uri>
+          <pub-id pub-id-type="doi">10.1016/j.tree.2009.03.017</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3788020">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Sullivan</surname>
+              <given-names>Brian L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wood</surname>
+              <given-names>Christopher L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Iliff</surname>
+              <given-names>Marshall J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bonney</surname>
+              <given-names>Rick E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fink</surname>
+              <given-names>Daniel</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kelling</surname>
+              <given-names>Steve</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>eBird: A citizen-based bird observation network in the biological sciences</article-title>
+          <source>Biological Conservation</source>
+          <volume>142</volume>
+          <issue>10</issue>
+          <fpage>2282</fpage>
+          <lpage>2292</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1016/j.biocon.2009.05.006</uri>
+          <pub-id pub-id-type="doi">10.1016/j.biocon.2009.05.006</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F3787936" position="float" orientation="portrait">
+      <object-id content-type="arpha">AC864308-E0F6-5335-ADCC-EAB44FC0ACBE</object-id>
+      <object-id content-type="doi">10.3897/BDJ.5.e21271.figure1</object-id>
+      <object-id content-type="zenodo_dep_id">1137367</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Steps in the data-collection system</p>
+      </caption>
+      <graphic xlink:href="bdj-05-e21271-g001.jpg" position="float" id="oo_157429.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/157429</uri>
+      </graphic>
+    </fig>
+  </floats-group>
+</article>

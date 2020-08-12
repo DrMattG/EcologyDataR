@@ -1,0 +1,2448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="3.0" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.7.e33091</article-id>
+      <article-id pub-id-type="publisher-id">33091</article-id>
+      <article-id pub-id-type="manuscript">10632</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Animalia</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Biodiversity &amp; Conservation</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>Americas</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>First visual occurrence data for deep-sea cnidarians in the South-western Colombian Caribbean</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes" xlink:type="simple">
+          <name name-style="western">
+            <surname>Dueñas</surname>
+            <given-names>Luisa F.</given-names>
+          </name>
+          <email xlink:type="simple">luisadue@gmail.com</email>
+          <uri content-type="orcid" xlink:type="simple">https://orcid.org/0000-0002-0756-826X</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Cedeño-Posso</surname>
+            <given-names>Cristina</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Grajales</surname>
+            <given-names>Alejandro</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Herrera</surname>
+            <given-names>Santiago</given-names>
+          </name>
+          <xref ref-type="aff" rid="A5">5</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Rodriguez</surname>
+            <given-names>Estefanía</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Sánchez</surname>
+            <given-names>Juan Armando</given-names>
+          </name>
+          <xref ref-type="aff" rid="A6">6</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Leon</surname>
+            <given-names>Jorge</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Puentes</surname>
+            <given-names>Vladimir</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Universidad Nacional de Colombia - Sede Bogotá - Facultad de Ciencias - Departamento de Biología - Carrera 30 No. 45-03 Edificio 421, Bogotá, D.C., Colombia</addr-line>
+        <institution xlink:type="simple">Universidad Nacional de Colombia - Sede Bogotá - Facultad de Ciencias - Departamento de Biología - Carrera 30 No. 45-03 Edificio 421</institution>
+        <addr-line content-type="city">Bogotá, D.C.</addr-line>
+        <country>Colombia</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">Anadarko Colombia Company, Calle 113 No. 7-80 piso 11, Bogotá, D.C., Colombia</addr-line>
+        <institution xlink:type="simple">Anadarko Colombia Company, Calle 113 No. 7-80 piso 11</institution>
+        <addr-line content-type="city">Bogotá, D.C.</addr-line>
+        <country>Colombia</country>
+      </aff>
+      <aff id="A3">
+        <label>3</label>
+        <addr-line content-type="verbatim">Instituto de Investigaciones Marinas y Costeras- INVEMAR. Calle 25 No. 2-55 Playa Salguero , Santa Marta, Colombia</addr-line>
+        <institution xlink:type="simple">Instituto de Investigaciones Marinas y Costeras- INVEMAR. Calle 25 No. 2-55 Playa Salguero </institution>
+        <addr-line content-type="city">Santa Marta</addr-line>
+        <country>Colombia</country>
+      </aff>
+      <aff id="A4">
+        <label>4</label>
+        <addr-line content-type="verbatim">Division of Invertebrate Zoology, American Museum of Natural History. Central Park West at 79th Street, New York, NY 10024, United States of America</addr-line>
+        <institution xlink:type="simple">Division of Invertebrate Zoology, American Museum of Natural History. Central Park West at 79th Street</institution>
+        <addr-line content-type="city">New York, NY 10024</addr-line>
+        <country>United States of America</country>
+      </aff>
+      <aff id="A5">
+        <label>5</label>
+        <addr-line content-type="verbatim">Department of Biological Sciences, Lehigh University. 111 Research Dr., Bethlehem, PA 18015, United States of America</addr-line>
+        <institution xlink:type="simple">Department of Biological Sciences, Lehigh University. 111 Research Dr.</institution>
+        <addr-line content-type="city">Bethlehem, PA 18015</addr-line>
+        <country>United States of America</country>
+      </aff>
+      <aff id="A6">
+        <label>6</label>
+        <addr-line content-type="verbatim">Departamento de Ciencias Biológicas, Universidad de los Andes. Carrera 1 No. 18A-12, Bogotá, D.C, Colombia</addr-line>
+        <institution xlink:type="simple">Departamento de Ciencias Biológicas, Universidad de los Andes. Carrera 1 No. 18A-12</institution>
+        <addr-line content-type="city">Bogotá, D.C</addr-line>
+        <country>Colombia</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Luisa F. Dueñas (<email xlink:type="simple">luisadue@gmail.com</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Danwei Huang</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>07</day>
+        <month>05</month>
+        <year>2019</year>
+      </pub-date>
+      <volume>7</volume>
+      <elocation-id>e33091</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/79F75D72-ACEE-5FA6-807A-0E3E0AE325DD">79F75D72-ACEE-5FA6-807A-0E3E0AE325DD</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/2835111">2835111</uri>
+      <history>
+        <date date-type="received">
+          <day>14</day>
+          <month>01</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>07</day>
+          <month>03</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Luisa F. Dueñas, Cristina Cedeño-Posso, Alejandro Grajales, Santiago Herrera, Estefanía Rodriguez, Juan Armando Sánchez, Jorge Leon, Vladimir Puentes</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>Attention to the deep-sea environment has increased dramatically in the last decade due to the rising interest in natural resource exploitation. Although Colombia holds a large submerged territory, knowledge of the seabed and its biodiversity beyond 1,000 m depth is very limited. During 2015–2017, Anadarko Colombia Company (ACC) carried out hydrocarbon exploratory activities in the South-western Colombian Caribbean, at depths between 375 m and 2,565 m.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>Capitalising on available data resources from these activities, several cnidarian species were observed in ROV and towed camera surveys. We analysed over nine hours of video and 5,066 still images from these surveys, identifying organisms to the lowest possible taxonomic level. The images and associated data presented here correspond to 108 observations of deep-sea cnidarians, including seven new records for the Colombian Caribbean. Given the paucity of research and funding to explore the deep-sea in Colombia, the present dataset comprises the largest deep-sea <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cnidaria</tp:taxon-name-part></tp:taxon-name> imagery inventory to date for the Colombian Caribbean.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>Biodiversity</kwd>
+        <kwd>Benthic</kwd>
+        <kwd>DwC-A</kwd>
+        <kwd>Marine</kwd>
+        <kwd>Remote Operated Vehicle-ROV</kwd>
+        <kwd>Tow Camera</kwd>
+        <kwd>Soft Bottom</kwd>
+      </kwd-group>
+      <funding-group>
+        <funding-statement>Funding agencies include Anadarko Colombia Company (ACC), a subsidiary of Anadarko Petroleum Company (APC), Ecopetrol, and Colciencias’ Post-Doctoral Program (Convocatoria 2017, Número 784).</funding-statement>
+      </funding-group>
+      <counts>
+        <fig-count count="5"/>
+        <table-count count="1"/>
+        <ref-count count="55"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>Interest in the deep seas has increased dramatically in the last decade, due to the potential presence of natural resources (oil, gas, precious and rare metals, fishery resources, pharmaceuticals, biodiversity etc.). Likewise, there is an increasing concern about the health of this environment, which calls for the acquisition of baseline data (<xref ref-type="bibr" rid="B4971028">Mengerink et al. 2014</xref>). Although Colombia holds a large submerged territory and there has been extensive research on cnidarians from the continental margin and upper slope (<xref ref-type="bibr" rid="B5012500">Florez and Santodomingo 2010</xref>, <xref ref-type="bibr" rid="B5012478">Santodomingo et al. 2012</xref>), knowledge of the seabed below 1,000 m depth is sparse. All previous investigations addressing the characterisation of deep-water ecosystems below 1,000 m have relied on samples taken by box corer or benthic sleds (<xref ref-type="bibr" rid="B4971047">Polanco F et al. 2017</xref>), but no <italic>in-situ</italic> visual confirmations have been provided.</p>
+      <p>Visual observation of the seabed and its inhabitants is possible using vessels and submersible equipment that can be remote (ROV), autonomous (AUV) or manned. This is a non-invasive <italic>in-situ</italic> procedure that can reach depths and environments that are normally out of human reach (<xref ref-type="bibr" rid="B4970944">Huvenne et al. 2018</xref>). Therefore, visual data (photographs and videos) provide valuable information on the geological characteristics, physical structure and biological components of a benthic habitat (<xref ref-type="bibr" rid="B4970960">Pawson et al. 2015</xref>, <xref ref-type="bibr" rid="B4970989">Zawada et al. 2007</xref>). However, this sampling method is limited only to the identification of large organisms, i.e. megafauna, with no evasive behaviour (<xref ref-type="bibr" rid="B4970989">Zawada et al. 2007</xref>). Furthermore, the quality of the images is highly dependent on the equipment and experience and qualifications of the operator (<xref ref-type="bibr" rid="B4970999">Solem 2017</xref>). In addition, in instances such as the identification some soft-bodied cnidarians like anemones and cerianthids, image data provide limited information allowing the identification at high taxonomic ranks only (i.e. family and genus in some cases). Species-level identification for these particular cases requires a detailed description of internal and microanatomical characters (e.g. <xref ref-type="bibr" rid="B5009673">Carlgren 1949</xref>, <xref ref-type="bibr" rid="B5009683">England 1987</xref>, <xref ref-type="bibr" rid="B5009713">Häussermann 2004</xref>, <xref ref-type="bibr" rid="B5009733">Rodriguez and López-González 2013</xref>), all of which requires specimen sampling and examination.</p>
+      <p>Video and still photographs are useful for documenting biological and ecological information, species identification, public outreach and scientific publications (<xref ref-type="bibr" rid="B4982491">Etnoyer et al. 2006</xref>). It provides a useful resource that can be made readily available to other scientists, as it was in this case. However, the use of images for organism identification may impose some technical limitations, in particular regarding the quality of the images. High-quality images depend on the camera used during the survey (digital quality, the angle of the setup and zoom), water transparency conditions, the lighting setup (type and angle of the lights) and the file format used to store the image data. Quality also depends on the skill of the engineer who operates the equipment and his/her expertise on the observed organisms. This will determine whether essential morphological features for accurate identification of the organisms (diagnostic characters) could be targeted for close-ups stills. Finally, for some groups of organisms (especially those relying on internal characters for identification, e.g. sea anemones), this type of data provides limited information for reliable identifications (even at high taxonomic levels) and detailed taxonomic descriptions, requiring sampling and morphological observations in order to provide species-level identifications. Nonetheless, such “first-pass” biodiversity surveys provide an invaluable source of information, especially from previously unexplored environments and constitute the foundation for further, more thorough initiatives.</p>
+      <p>Several types of surveys are essential for the deep-sea hydrocarbon exploratory activities in Colombia. Exploratory drilling activities normally include ROV video surveys before and after drilling. These surveys are critical to evaluate the seabed conditions around the well to minimise potential impacts to sensitive ecosystems (e.g. chemosynthetic communities, deep-sea coral reefs) or archaeological sites. These vehicles are also essential to carry out inspections of the subsea infrastructure to keep the integrity of the well (<xref ref-type="bibr" rid="B4971009">Gates 2016</xref>, <xref ref-type="bibr" rid="B4971018">Tena 2011</xref>). In addition to ROV, detailed characterisation of seabed features and fauna can be obtained from towed camera surveys if needed. Given the paucity of research and funding to explore the deep-sea in Colombia, the present dataset comprises the largest deep-sea <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cnidaria</tp:taxon-name-part></tp:taxon-name> imagery inventory to date for the deep sea of Colombian Caribbean.</p>
+      <p>Cnidarians (jellyfish, corals, sea anemones, amongst others) are one of the most ancient invertebrate groups that keeps a simple body structure with two cell layers and a blind gut (<xref ref-type="bibr" rid="B5011919">Cairns et al. 2009</xref>, <xref ref-type="bibr" rid="B5011901">Daly et al. 2007</xref>). They are found in all aquatic (marine and freshwater) environments, being more diverse in marine habitats. Although simple in body organisation, cnidarians have evolved as specialised carnivores, catching their prey aided by cnidocytes, which are specialised cells with stinging structures, a phylum-defining trait (<xref ref-type="bibr" rid="B5011891">Technau and Steele 2011</xref>). In oceanic waters, cnidarians can be found in nearly all ecosystems from shallow waters to abyssal depths and from polar regions to tropical latitudes. Benthic cnidarians, such as corals colonising both soft and hard substrates, are efficient suspension feeders that provide a tridimensional habitat in the deep-sea (<xref ref-type="bibr" rid="B5022183">Etnoyer and Morgan 2005</xref>), which sustains high numbers of associated invertebrates (<xref ref-type="bibr" rid="B5022145">Buhl-Mortensen and Mortensen 2005</xref>). Cnidarians, particularly anthozoans, are now recognised as major contributors of biogenic environments in the deep-sea (<xref ref-type="bibr" rid="B5022197">Hourigan et al. 2017</xref>). In addition, even the rarest types of pelagic or benthic cnidarians are also found in the deep-sea (<xref ref-type="bibr" rid="B5022230">Osborn et al. 2007</xref>, <xref ref-type="bibr" rid="B5022219">Miranda et al. 2018</xref>). Given the low density of deep-sea fauna in general, numerous surveys are usually required to recognise common vs. rare species. Hydrocarbon drilling activities have provided some of the few opportunities to perform extensive observations in the deep-sea (<xref ref-type="bibr" rid="B5022207">Gates et al. 2017</xref>).</p>
+      <p>During 2015–2017, Anadarko Colombia Company (ACC), a subsidiary of Anadarko Petroleum Corporation, carried out hydrocarbon exploratory activities in the deep sea South-western Colombian Caribbean. The activities included both ROV and towed camera surveys at depths between 375 m and 2,565 m. Capitalising on the availability of the images obtained from these activities, several organisms from different phyla were spotted and identified to the lowest possible taxonomic status. This is the first of a series of datasets reporting visual confirmations on the occurrences of deep-sea organisms, in this case, 108 cnidarians.</p>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>
+          <bold>ROV surveys</bold>
+        </p>
+        <p>ROV video surveys were performed in a cross pattern. From a central point that could be a transponder (tool for positioning the drilling vessel) or the drilling location, surveys were executed in an 80 metre-long transect with a north trajectory, then an 80 metre-long transect with a south trajectory, an 80 metre-long transect with an east trajectory and finally an 80 metre-long transect with a west trajectory (Fig. <xref ref-type="fig" rid="F4982546">1</xref>). Video-transects included soft bottom images, where only one species of a pelagic cnidarian was encountered. Videos were taken before and after drilling for all the exploratory wells, or even during drilling for two of the wells.</p>
+        <p>
+          <bold>Towed camera surveys</bold>
+        </p>
+        <p>Survey areas of interest (i.e. Chamana, Chamai, Yaduli, Cana Norte and Cawa) were assessed using 25 towed camera transects. These transects registered seafloor features, during 3-hour surveys, taking still images every 20 seconds. Benthic and pelagic megafauna specimens were recorded in the images.</p>
+      </sec>
+      <sec sec-type="Quality control">
+        <title>Quality control</title>
+        <p>Videos were analysed twice for the presence of cnidarians by two different experts. This methodology allowed us to ensure all cnidarians were registered. Still images were also analysed twice by the same expert, who did preliminary identification to phylum and class. All cnidarian images were then identified to the lowest possible taxonomic level. When in doubt about the identification, additional experts were contacted and the images were sent to them in jpg format for towed camera photographs and as a snapshot (also in jpg format) for ROV videos.</p>
+        <p>Given that the acquisition of the images used in this paper was carried out for other purposes and objectives, they do not have the best quality for species identification. Nevertheless, the images were useful, and represent the first visual confirmation of these deep-sea organisms for the Colombian Caribbean.</p>
+      </sec>
+      <sec sec-type="Step description">
+        <title>Step description</title>
+        <p>For ROV surveys, we analysed a total of 48 video transects (duration: 9 h 9 min 26 sec), looking for benthic and pelagic cnidarians. We took snapshots of each cnidarian, registered coordinates and depth and identified them to the lowest possible taxonomic level. On the other hand, for towed camera images, we analysed a total of 5,066 photographs, looking for benthic and pelagic cnidarians. For each cnidarian, coordinates and depth were registered and identified to the lowest possible taxonomic level. We cropped the photographs to include only the organism and performed image correction to reduce the bluish colour cast with the <italic>Auto Tone</italic> function in Adobe Photoshop CC 2018 (Fig. <xref ref-type="fig" rid="F4982557">2</xref>).</p>
+        <p>Using photographs and video footage, we highlighted the occurrences for <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cnidaria</tp:taxon-name-part></tp:taxon-name> here. Cnidarians were further identified to the lowest possible taxonomic level, based on comparison with literature (<xref ref-type="bibr" rid="B5009703">Fautin 2016</xref>, <xref ref-type="bibr" rid="B5011089">Molodtsova 2006</xref>, <xref ref-type="bibr" rid="B5011060">Williams 2011</xref>, <xref ref-type="bibr" rid="B5011732">Kramp 1961</xref>, <xref ref-type="bibr" rid="B5011752">Thuesen 2003</xref>, <xref ref-type="bibr" rid="B5011723">Burton and Lundsten 2008</xref>), databases (<xref ref-type="bibr" rid="B5011772">Board, WoRMS Editorial 2017</xref>, <xref ref-type="bibr" rid="B5041566">Fautin 2013</xref>) and with the help of taxonomic experts of each group. Taxonomic experts that helped in the identification of the cnidarians include Dennis Opresko (Smithsonian National Museum of Natural History), Mercer Brugler (New York City College of Technology), Tina Molodtsova (P.P. Shirshov Institute of Oceanology), Frederic Sinniger (University of the Ryukyus) and Steven Haddock (Monterey Bay Aquarium Research Institute). The taxonomy presented here is in accordance with the World Register of Marine Species – WORMS (<ext-link ext-link-type="uri" xlink:href="http://www.marinespecies.org/" xlink:type="simple">http://www.marinespecies.org/</ext-link>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>ACC’s deep sea hydrocarbon exploratory activities in the South-western Colombian Caribbean included four exploratory wells (Calasu 1, Kronos 1, Gorgon A-1 and Purple Angel C-1) and five other survey areas of interest (A-E), at depths between 375 m and 2,565 m (Fig. <xref ref-type="fig" rid="F4971090">3</xref>). Wells and areas of interest are approximately 54 to 74 km offshore from the nearest point in the Caribbean coast of Colombia.</p>
+      </sec>
+      <sec sec-type="Coordinates">
+        <title>Coordinates</title>
+        <p>9.27 and 10.369 Latitude; -76.481 and -76.932 Longitude.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The data presented here correspond to 108 occurrences of deep-sea cnidarians from the South-western Colombian Caribbean, spotted over soft bottoms at depths between 375 to 2,565 m. The dataset contains the original data of depth, geographical coordinates, date and hour of the event, for each image that registered a cnidarian. Additional information includes the methodology used to obtain the images (see Methods section), taxonomic identification to the lowest possible taxonomic level, the name of the expert who identified the organism and the number of individuals of the species per image. The dataset also contains an extension with links to the images supporting the occurrences.</p>
+        <p>Seven occurrences were obtained through the ROV surveys, all corresponding to the pelagic jellyfish <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Poralia">Poralia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="uncertainty-rank">cf.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="rufescens">rufescens</tp:taxon-name-part></tp:taxon-name> Vanhöffen, 1902. Tow camera occurrences (n = 101) registered members of the classes <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Scyphozoa</tp:taxon-name-part></tp:taxon-name> (n = 1), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Hydrozoa</tp:taxon-name-part></tp:taxon-name> (n = 13) and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Anthozoa</tp:taxon-name-part></tp:taxon-name> (n = 87). Only two orders of jellyfish, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Trachymedusae</tp:taxon-name-part></tp:taxon-name> (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Crossota">Crossota</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="millsae">millsae</tp:taxon-name-part></tp:taxon-name></italic> Thuesen, 2003 and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Voragonema">Voragonema</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pedunculata">pedunculata</tp:taxon-name-part></tp:taxon-name></italic> (Bigelow, 1913)) and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Narcomedusae</tp:taxon-name-part></tp:taxon-name> represent <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Hydrozoa</tp:taxon-name-part></tp:taxon-name>, while members of seven orders represented <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Anthozoa</tp:taxon-name-part></tp:taxon-name>. Within <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Anthozoa</tp:taxon-name-part></tp:taxon-name>, organisms from the three subclasses (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subclass">Hexacorallia</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subclass">Octocorallia</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Ceriantharia</tp:taxon-name-part></tp:taxon-name>) were spotted. <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subclass">Hexacorallia</tp:taxon-name-part></tp:taxon-name> was represented by anemones (order <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Actiniaria</tp:taxon-name-part></tp:taxon-name>), the zoanthid <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Epizoanthus">Epizoanthus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="uncertainty-rank">cf.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="stellaris">stellaris</tp:taxon-name-part></tp:taxon-name> Hertwig, 1888 (order <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Zoantharia</tp:taxon-name-part></tp:taxon-name>), the black coral <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Bathypathes">Bathypathes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="uncertainty-rank">cf.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="patula">patula</tp:taxon-name-part></tp:taxon-name> Brook, 1889 (order <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Antipatharia</tp:taxon-name-part></tp:taxon-name>) and cerianthids (order <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Ceriantharia</tp:taxon-name-part></tp:taxon-name>). Octocorals were represented by the orders <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Alcyonacea</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Pennatulacea</tp:taxon-name-part></tp:taxon-name>, the latter with seven organisms belonging to the genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Umbellula">Umbellula</tp:taxon-name-part></tp:taxon-name></italic> Gray, 1870. Finally, corallimorphs (order <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Corallimorpharia</tp:taxon-name-part></tp:taxon-name>) were represented by the genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Corallimorphus">Corallimorphus</tp:taxon-name-part></tp:taxon-name></italic> Moseley, 1877 (Table <xref ref-type="table" rid="T4971100">1</xref>).</p>
+        <p>Based on the 101 occurrences from towed camera surveys, we registered eight new reports of cnidarians for the Colombian Caribbean. The new records for the area comprised two sea anemones, one zoanthid, one corallimorpharian, one octocoral, one black coral (Fig. <xref ref-type="fig" rid="F4982519">4</xref>) and two jellyfish species (Fig. <xref ref-type="fig" rid="F4982535">5</xref>).</p>
+        <p>The genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Corallimorphus">Corallimorphus</tp:taxon-name-part></tp:taxon-name></italic> has a total of six valid species (<xref ref-type="bibr" rid="B5009703">Fautin 2016</xref>), present at all latitudes in deep waters (<xref ref-type="bibr" rid="B5009693">Fautin 2011</xref>), with the exception of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Corallimorphus">C.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="profundus">profundus</tp:taxon-name-part></tp:taxon-name></italic>, which has been identified from shallow environments in Antarctica (<xref ref-type="bibr" rid="B5009723">Riemann-Zürneck and Iken 2003</xref>). Two species of the genus, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Corallimorphus">C.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="ingens">ingens</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Corallimorphus">C.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="rigidus">rigidus</tp:taxon-name-part></tp:taxon-name></italic>, have been reported in the Atlantic Ocean (i.e. <xref ref-type="bibr" rid="B5021528">Den Hartog et al. 1993</xref>, <xref ref-type="bibr" rid="B5021612">Ocaña and Den Hartog 2002</xref>). Detailed records of members of the family <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Corallimorphidae</tp:taxon-name-part></tp:taxon-name> are available for the greater Caribbean region and the Gulf of Mexico (<xref ref-type="bibr" rid="B5021538">Fautin and Daly 2009</xref>, <xref ref-type="bibr" rid="B5021554">González-Muñoz et al. 2013</xref>, <xref ref-type="bibr" rid="B5021564">González-Muñoz et al. 2016</xref>), but are limited to shallow water species. A study of the deep-sea communities off the east coast of Florida reports a record of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Corallimorphus">Corallimorphus</tp:taxon-name-part></tp:taxon-name></italic> sp. based on still photographic data (<xref ref-type="bibr" rid="B5021621">Messing et al. 2012</xref>). With the available information, the authors were not able to classify the specimens beyond the genus level.</p>
+        <p>The genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phelliactis">Phelliactis</tp:taxon-name-part></tp:taxon-name></italic> (fam. <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Hormathiidae</tp:taxon-name-part></tp:taxon-name>) is composed of 20 valid species distributed worldwide (<xref ref-type="bibr" rid="B5009703">Fautin 2016</xref>). In the Caribbean, records for species of the genus exist from hydrothermal vent communities in the Cayman Islands (<xref ref-type="bibr" rid="B5021592">Plouviez et al. 2015</xref>) and deep-sea benthos of Venezuela (<xref ref-type="bibr" rid="B5009663">Briggs et al. 1996</xref>). This last study reports the presence of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phelliactis">P.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="michaelsarsi">michaelsarsi</tp:taxon-name-part></tp:taxon-name></italic>, effectively expanding the distribution range for the species, currently limited to the East and Mid Atlantic Ocean (<xref ref-type="bibr" rid="B5021582">Molodtsova et al. 2008</xref>). Unfortunately, this report does not provide enough information regarding the identification methodology employed by the authors in order to determine this species identity (i.e. geographical proximity, detailed morphological description), thus we cannot evaluate the validity of this record.</p>
+        <p>Anemones, belonging to the genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Adamsia">Adamsia</tp:taxon-name-part></tp:taxon-name></italic>, are known for holding symbiotic relationships with hermit crabs, most commonly with the species <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sympagurus">Sympagurus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pictus">pictus</tp:taxon-name-part></tp:taxon-name></italic> (<xref ref-type="bibr" rid="B5021508">Daly et al. 2004</xref>), but reports also exist for the species <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Parapagurus">Parapagurus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pilosimanus">pilosimanus</tp:taxon-name-part></tp:taxon-name></italic> and the gastropods of the genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oocorys">Oocorys</tp:taxon-name-part></tp:taxon-name></italic> (<xref ref-type="bibr" rid="B5021498">Ammons and Daly 2008</xref>). There are a total of 6 valid species (<xref ref-type="bibr" rid="B5009703">Fautin 2016</xref>) with <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Adamsia">A.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="obvolva">obvolva</tp:taxon-name-part></tp:taxon-name></italic> being the only species reported in the region, specifically in several localities from the Gulf of Mexico (<xref ref-type="bibr" rid="B5021508">Daly et al. 2004</xref>, <xref ref-type="bibr" rid="B5021498">Ammons and Daly 2008</xref>). The bathymetric range of the specimens reported here (Table <xref ref-type="table" rid="T4971100">1</xref>) is larger than the range reported for <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Adamsia">A.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="obvolva">obvolva</tp:taxon-name-part></tp:taxon-name></italic> (300 to 800 m). The records, presented here, would correspond to an expansion of the species’ geographic and bathymetric ranges; however, it was not possible to confirm its identity. Even the examination of diagnostic external anatomical characters, such as the presence of cinclides (small insertions occurring in the column of the anemone), requires detailed observation under the stereomicroscope.</p>
+        <p>Other hexacorallians, described as new reports for the Colombian Caribbean, include <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Bathypathes">Bathypathes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="uncertainty-rank">cf.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="patula">patula</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Epizoanthis">Epizoanthis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="uncertainty-rank">cf.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="stellaris">stellaris</tp:taxon-name-part></tp:taxon-name>. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Bathypathes">Bathypathes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="patula">patula</tp:taxon-name-part></tp:taxon-name></italic> is also a widespread, cosmopolitan species that has been described from the Pacific, the Atlantic, the Indian Ocean, the Gulf of México and Puerto Rico (<xref ref-type="bibr" rid="B5011089">Molodtsova 2006</xref>, <xref ref-type="bibr" rid="B5011079">Horowitz et al. 2018</xref>). It belongs to the Antipatharian genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Bathypathes">Bathypathes</tp:taxon-name-part></tp:taxon-name></italic> Brook, 1889 (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Anthozoa</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subclass">Hexacorallia</tp:taxon-name-part></tp:taxon-name>) which currently holds 19 species (<xref ref-type="bibr" rid="B5011070">Molodtsova and Opresko 2019</xref>). <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Bathypathes">Bathypathes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="patula">patula</tp:taxon-name-part></tp:taxon-name></italic> is characterised by a wide vertical distribution that ranges from 100 m to 5500 m in depth (<xref ref-type="bibr" rid="B5011089">Molodtsova 2006</xref>). On the other hand, the zoanthid genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Epizoanthus">Epizoanthus</tp:taxon-name-part></tp:taxon-name></italic> Gray, 1867 (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Anthozoa</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subclass">Hexacorallia</tp:taxon-name-part></tp:taxon-name>) is a rich genus with 105 species and a global distribution (<xref ref-type="bibr" rid="B5011112">Reimer and Sinniger 2019</xref>, <xref ref-type="bibr" rid="B5011121">Kise and Reimer 2016</xref>). Particularly, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Epizoanthis">Epizoanthis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="stellaris">stellaris</tp:taxon-name-part></tp:taxon-name></italic> Hertwig, 1888 has been reported to grow over the siliceous spicules of glass sponges (<xref ref-type="bibr" rid="B5011131">Beaulieu 2001</xref>), as also seen in this study.</p>
+        <p>The pennatulacean genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Umbellula">Umbellula</tp:taxon-name-part></tp:taxon-name></italic> comprises 13 species (<xref ref-type="bibr" rid="B5011041">Cordeiro et al. 2019</xref>) and belongs to the monogeneric family <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Umbellulidae</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Anthozoa</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subclass">Octocorallia</tp:taxon-name-part></tp:taxon-name>). This genus has a widespread to nearly worldwide distribution and is the deep-sea pennatulacean genus with the widest vertical distribution reaching depths of 6,000 m (<xref ref-type="bibr" rid="B5011060">Williams 2011</xref>). The most common species is <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Umbellula">U.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="lindahi">lindahi</tp:taxon-name-part></tp:taxon-name></italic> that has a cosmopolitan distribution in all of the world's oceans (<xref ref-type="bibr" rid="B5011050">Tyler et al. 1995</xref>).</p>
+        <p>Finally, the two hydromedusae from the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Rhopalonematidae</tp:taxon-name-part></tp:taxon-name> family, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Crossota">Crossota</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="millsae">millsae</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Voragonema">Voragonema</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pedunculata">pedunculata</tp:taxon-name-part></tp:taxon-name></italic> (previously know as <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Benthocodon">Benthocodon</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pedunculata">pedunculata</tp:taxon-name-part></tp:taxon-name></italic>), are bathypelagic and often found in groups drifting above the bottom; this is the reason why they are also described as benthopelagic. These two species have been reported in the Western Atlantic (the Bahamas and Dry Tortugas) (<xref ref-type="bibr" rid="B5011802">Larson et al. 1991</xref>, <xref ref-type="bibr" rid="B5011742">Larson et al. 1992</xref>) and the Gulf of Mexico (<xref ref-type="bibr" rid="B5011762">Valentine and Benfield 2013</xref>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <p><bold>Data range:</bold> 2015-2-24 – 2017-4-26.</p>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Other</p>
+      </sec>
+      <sec sec-type="IP rights notes">
+        <title>IP rights notes</title>
+        <p>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>First visual occurrence data for deep-sea cnidarians in the South-western Colombian Caribbean</p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15472/o8xonn" xlink:type="simple">https://doi.org/10.15472/o8xonn</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Alternative identifiers">
+        <title>Alternative identifiers</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="https://ipt.biodiversidad.co/sibm/resource?r=anadarko_colombia_002" xlink:type="simple">https://ipt.biodiversidad.co/sibm/resource?r=anadarko_colombia_002</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>1</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>First visual occurrence data for deep-sea cnidarians in the South-western Colombian Caribbean</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Darwin Core Archive (DwC-A)</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>60</p>
+        </sec>
+        <sec sec-type="Character set">
+          <title>Character set</title>
+          <p>UTF-8</p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>The data presented here corresponds to occurrences of deep-sea cnidarians from the South-western Colombian Caribbean, spotted over soft bottoms at depths between 375 to 2,565 m.</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceID</td>
+                  <td rowspan="1" colspan="1">An identifier for the Occurrence</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">basisOfRecord</td>
+                  <td rowspan="1" colspan="1">The specific nature of the data record</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">institutionCode</td>
+                  <td rowspan="1" colspan="1">The name in use by the institution having custody of the information referred to in the record</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">collectionCode</td>
+                  <td rowspan="1" colspan="1">The name, acronym, coden or initialism identifying the collection or dataset from which the record was derived</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">catalogNumber</td>
+                  <td rowspan="1" colspan="1">An identifier for the record within the dataset</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">type</td>
+                  <td rowspan="1" colspan="1">The nature or genre of the resource</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">language</td>
+                  <td rowspan="1" colspan="1">Thelanguage of the resource</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">rightsHolder</td>
+                  <td rowspan="1" colspan="1">The organisation owning or managing rights over the resource</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">accessRights</td>
+                  <td rowspan="1" colspan="1">Information about who can access the resource or an indication of its security status</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">institutionID</td>
+                  <td rowspan="1" colspan="1">An identifier for the institution having custody of the information referred to in the record.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">ownerInstitutionCode</td>
+                  <td rowspan="1" colspan="1">The name in use by the institution having ownership of the information referred to in the record</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">recordedBy</td>
+                  <td rowspan="1" colspan="1">People responsible for recording the original Occurrence</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">individualCount</td>
+                  <td rowspan="1" colspan="1">The number of individuals represented present at the time of the Occurrence</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">lifeStage</td>
+                  <td rowspan="1" colspan="1">The age class or life stage of the biological individual(s) at the time the Occurrence was recorded</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceStatus</td>
+                  <td rowspan="1" colspan="1">A statement about the presence or absence of a Taxon at a Location</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">preparations</td>
+                  <td rowspan="1" colspan="1">A list of preparations and preservation methods for a specimen</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">samplingProtocol</td>
+                  <td rowspan="1" colspan="1">Protocol used during an Event</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">samplingEffort</td>
+                  <td rowspan="1" colspan="1">The amount of effort expended during an Event</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventDate</td>
+                  <td rowspan="1" colspan="1">The date during which an Event occurred</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventTime</td>
+                  <td rowspan="1" colspan="1">The time during which an Event occurred</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">year</td>
+                  <td rowspan="1" colspan="1">The four-digit year in which the Event occurred</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">month</td>
+                  <td rowspan="1" colspan="1">The ordinal month in which the Event occurred</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">day</td>
+                  <td rowspan="1" colspan="1">The integer day of the month on which the Event occurred</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">verbatimEventDate</td>
+                  <td rowspan="1" colspan="1">The verbatim original representation of the date and time information for an Event</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">habitat</td>
+                  <td rowspan="1" colspan="1">A category or description of the habitat in which the Event occurred</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">higherGeography</td>
+                  <td rowspan="1" colspan="1">Geographic location less specific than the information captured in the locality term</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">continent</td>
+                  <td rowspan="1" colspan="1">The name of the continent in which the Location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">waterBody</td>
+                  <td rowspan="1" colspan="1">The name of the water body in which the Location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">locationID</td>
+                  <td rowspan="1" colspan="1">An identifier for the set of location information</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">country</td>
+                  <td rowspan="1" colspan="1">The name of the country in which the Location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">countryCode</td>
+                  <td rowspan="1" colspan="1">The standard code for the country in which the Location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">locality</td>
+                  <td rowspan="1" colspan="1">The specific description of the place</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">verbatimDepth</td>
+                  <td rowspan="1" colspan="1">The original description of the depth below the local surface</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">minimumDepthInMetres</td>
+                  <td rowspan="1" colspan="1">The lesser depth of a range of depth below the local surface, in metres</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">maximumDepthInMetres</td>
+                  <td rowspan="1" colspan="1">The greater depth of a range of depth below the local surface, in metres</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">verbatimLatitude</td>
+                  <td rowspan="1" colspan="1">The verbatim original latitude of the Location</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">verbatimLongitude</td>
+                  <td rowspan="1" colspan="1">The verbatim original longitude of the Location</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">verbatimCoordinateSystem</td>
+                  <td rowspan="1" colspan="1">The spatial coordinate system for the verbatimLatitude and verbatimLongitude or the verbatimCoordinates of the Location</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLatitude</td>
+                  <td rowspan="1" colspan="1">The geographic latitude of the geographic centre of a Location</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLongitude</td>
+                  <td rowspan="1" colspan="1">The geographic longitude of the geographic centre of a Location</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">geodeticDatum</td>
+                  <td rowspan="1" colspan="1">The ellipsoid, geodetic datum or spatial reference system (SRS) upon which the geographic coordinates given in decimalLatitude and decimalLongitude as based</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">georeferencedBy</td>
+                  <td rowspan="1" colspan="1">The organisation who determined the georeference for the Location</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">identifiedBy</td>
+                  <td rowspan="1" colspan="1">A list of names of people who assigned the Taxon to the subject</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">dateIdentified</td>
+                  <td rowspan="1" colspan="1">The date on which the subject was identified as representing the Taxon</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">identificationQualifier</td>
+                  <td rowspan="1" colspan="1">A brief phrase or a standard term to express the determiner's doubts about the Identification</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificNameID</td>
+                  <td rowspan="1" colspan="1">An identifier for the nomenclatural details of a scientific name</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">nameAccordingToID</td>
+                  <td rowspan="1" colspan="1">An identifier for the source in which the specific taxon concept circumscription is defined or implied</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">acceptedNameUsage</td>
+                  <td rowspan="1" colspan="1">The full name, with authorship and date information if known, of the currently valid (zoological) or accepted (botanical) taxon</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">nameAccordingTo</td>
+                  <td rowspan="1" colspan="1">The reference to the source in which the specific taxon concept circumscription is defined or implied - traditionally signified by the Latin "sensu" or "sec."</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificName</td>
+                  <td rowspan="1" colspan="1">The full scientific name, with authorship and date information if known</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">kingdom</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the kingdom in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">phylum</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the phylum or division in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">class</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the class in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">order</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the order in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">family</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the family in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">genus</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the genus in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">specificEpithet</td>
+                  <td rowspan="1" colspan="1">The name of the first or species epithet of the scientificName</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">taxonRank</td>
+                  <td rowspan="1" colspan="1">The taxonomic rank of the most specific name in the scientificName</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificNameAuthorship</td>
+                  <td rowspan="1" colspan="1">The authorship information for the scientificName</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">taxonomicStatus</td>
+                  <td rowspan="1" colspan="1">The status of the use of the scientificName as a label for a taxon</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>Thanks to Anadarko Colombia Company (ACC), a subsidiary of Anadarko Petroleum Company (APC) and Ecopetrol. Other companies involved in this oil &amp; gas exploratory survey were Dolphin Drilling that operated the Mobile Operating Drilling Unit (MODU)and Subsea 7 (and its division I-TECH services) operated the ROV from the MODU. We thank their technical staff for conducting the ROV surveys and their willingness, time and patience that made possible the acquisition of the images we worked with. Towed camera images were provided by SERPORT and CSA Ocean Science Inc., during additional exploration studies of areas of interest. We want to thank Colciencias’ Post-Doctoral Program (Fondo Nacional de Financiamiento para la Ciencia, la Tecnología y la Innovación "Francisco José de Caldas" - COLCIENCIAS, Convocatoria 2017, Número 784) and additional taxonomic experts who contributed to the further identification of some organisms: Dennis Opresko (Smithsonian National Museum of Natural History), Mercer Brugler (New York City College of Technology), Tina Molodtsova (P.P. Shirshov Institute of Oceanology), Frederic Sinniger (University of the Ryukyus) and Steven Haddock (Monterey Bay Aquarium Research Institute). We would also like to thank the Instituto de Investigaciones Marinas y Costeras – INVEMAR for the funding and support during the analysis of the ROV videos and images, and the taxonomic identification. Contribution No. 1216 of INVEMAR. Additional thanks go to the SiB Colombia team (Dairo Escobar, Leonardo Buitrago, Camila Plata) who helped in the data and image publication process.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B5021498">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ammons</surname>
+              <given-names>Archie W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Daly</surname>
+              <given-names>Marymegan</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Distribution, habitat use and ecology of deepwater Anemones (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Actiniaria</tp:taxon-name-part></tp:taxon-name>) in the Gulf of Mexico</article-title>
+          <source>Deep Sea Research Part II: Topical Studies in Oceanography</source>
+          <volume>55</volume>
+          <fpage>2657</fpage>
+          <lpage>2666</lpage>
+          <uri xlink:type="simple">10.1016/j.dsr2.2008.07.015</uri>
+          <pub-id pub-id-type="doi">10.1016/j.dsr2.2008.07.015</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5011131">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Beaulieu</surname>
+              <given-names>S. E.</given-names>
+            </name>
+          </person-group>
+          <year>2001</year>
+          <article-title>Life on glass houses: sponge stalk communities in the deep sea</article-title>
+          <source>Marine Biology</source>
+          <volume>138</volume>
+          <issue>4</issue>
+          <fpage>803</fpage>
+          <lpage>817</lpage>
+          <pub-id pub-id-type="doi">10.1007/s002270000500</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5011772">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Board</surname>
+              <given-names>WoRMS Editorial</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>World Register of Marine Species. Available from http://www.marinespecies.org at VLIZ. Accessed 2019-02-24.</article-title>
+          <source>VLIZ</source>
+          <pub-id pub-id-type="doi">10.14284/170</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5009663">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Briggs</surname>
+              <given-names>Kevin B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Richardson</surname>
+              <given-names>Michael D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Young</surname>
+              <given-names>David K.</given-names>
+            </name>
+          </person-group>
+          <year>1996</year>
+          <article-title>The classification and structure of megafaunal assemblages in the Venezuela Basin, Caribbean Sea</article-title>
+          <source>Journal of Marine Research</source>
+          <volume>54</volume>
+          <issue>4</issue>
+          <fpage>705</fpage>
+          <lpage>730</lpage>
+          <pub-id pub-id-type="doi">10.1357/0022240963213736</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5022145">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Buhl-Mortensen</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mortensen</surname>
+              <given-names>P. B.</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <chapter-title>Distribution and diversity of species associated with deep-sea gorgonian corals off Atlantic Canada</chapter-title>
+          <source>Cold-water corals and ecosystems</source>
+          <publisher-name>Springer</publisher-name>
+          <publisher-loc>Berlin, Heidelberg</publisher-loc>
+          <size units="page">849-879</size>
+          <pub-id pub-id-type="doi">10.1007/3-540-27673-4_44</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5011723">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Burton</surname>
+              <given-names>E. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lundsten</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <source>Davidson Seamount Taxonomic Guide</source>
+          <publisher-name>Marine Sanctuaries Conservation Series ONMS-08-08. U.S. Department of Commerce, National Oceanic and Atmospheric Administration, Office of National Marine Sanctuaries</publisher-name>
+          <publisher-loc>Silver Spring, MD</publisher-loc>
+          <size units="page">145 pp</size>
+        </element-citation>
+      </ref>
+      <ref id="B5011919">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Cairns</surname>
+              <given-names>S. D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gershwin</surname>
+              <given-names>L. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brook</surname>
+              <given-names>F. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pugh</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dawson</surname>
+              <given-names>E. W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>O.</surname>
+              <given-names>Ocaña V. ,</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vervoort</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Williams</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Watson</surname>
+              <given-names>J. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Opresko</surname>
+              <given-names>D. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schuchert</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hine</surname>
+              <given-names>P. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gordon</surname>
+              <given-names>D. P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Campbell</surname>
+              <given-names>H. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wright</surname>
+              <given-names>A. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sánchez</surname>
+              <given-names>J. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fautin</surname>
+              <given-names>D. G.</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <source>Phylum <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cnidaria</tp:taxon-name-part></tp:taxon-name>: corals, medusae, hydroids, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Myxozoa</tp:taxon-name-part></tp:taxon-name></source>
+          <publisher-name>New Zealand inventory of biodiversity</publisher-name>
+          <size units="page">43</size>
+        </element-citation>
+      </ref>
+      <ref id="B5009673">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Carlgren</surname>
+              <given-names>Oskar H.</given-names>
+            </name>
+          </person-group>
+          <year>1949</year>
+          <article-title>A survey of the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Ptychodactiaria</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Corallimorpharia</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Actiniaria</tp:taxon-name-part></tp:taxon-name></article-title>
+          <source>Kungliga Svenska Vetenskapsakademiens Handlingar</source>
+          <volume>1</volume>
+          <fpage>1</fpage>
+          <lpage>121</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5011041">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Cordeiro</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>van Ofwegen</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Williams</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>World List of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subclass">Octocorallia</tp:taxon-name-part></tp:taxon-name>. <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Umbellula">Umbellula</tp:taxon-name-part></tp:taxon-name> Gray, 1870. Accessed through: World Register of Marine Species</article-title>
+          <uri xlink:type="simple">http://www.marinespecies.org/aphia.php?p=taxdetails&amp;id=128499</uri>
+          <date-in-citation content-type="access-date">2019-02-24T00:00:00+02:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5021508">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Daly</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ardelean</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cha</surname>
+              <given-names>H-R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Campbell</surname>
+              <given-names>AC</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fautin</surname>
+              <given-names>DG</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <article-title>A new species, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Adamsia">Adamsia</tp:taxon-name-part></tp:taxon-name><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Adamsia"/><tp:taxon-name-part taxon-name-part-type="species" reg="obvolva">obvolva</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cnidaria</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Anthozoa</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Actiniaria</tp:taxon-name-part></tp:taxon-name>), from the Gulf of Mexico, and a discussion of the taxonomy of carcinoecium-forming sea anemones.</article-title>
+          <source>Bulletin of Marine Science</source>
+          <volume>74</volume>
+          <fpage>385</fpage>
+          <lpage>399</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5011901">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Daly</surname>
+              <given-names>Marymegan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brugler</surname>
+              <given-names>Mercer R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cartwright</surname>
+              <given-names>Paulyn</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Collins</surname>
+              <given-names>Allen G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dawson</surname>
+              <given-names>Michael N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fautin</surname>
+              <given-names>Daphne G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>France</surname>
+              <given-names>Scott C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mcfadden</surname>
+              <given-names>Catherine S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Opresko</surname>
+              <given-names>Dennis M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rodriguez</surname>
+              <given-names>Estefania</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Romano</surname>
+              <given-names>Sandra L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stake</surname>
+              <given-names>Joel L.</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <article-title>The Phylum <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cnidaria</tp:taxon-name-part></tp:taxon-name>: A Review Of Phylogenetic Patterns And Diversity 300 Years After Linnaeus *</article-title>
+          <source>Zenodo</source>
+          <pub-id pub-id-type="doi">10.5281/ZENODO.180149</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5021528">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Den Hartog</surname>
+              <given-names>J. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ocaña</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brito</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <year>1993</year>
+          <article-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Corallimorpharia</tp:taxon-name-part></tp:taxon-name> collected during the CANCAP expeditions (1976-1986) in the south-eastern part of the North Atlantic*</article-title>
+          <source>Zoologische Verhandelingen</source>
+          <volume>282</volume>
+          <issue>1</issue>
+          <fpage>1</fpage>
+          <lpage>76</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5009683">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>England</surname>
+              <given-names>K. W.</given-names>
+            </name>
+          </person-group>
+          <year>1987</year>
+          <article-title>Certain <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Actiniaria</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cnidaria</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Anthozoa</tp:taxon-name-part></tp:taxon-name>) from the Red Sea and tropical Indo-Pacific Ocean</article-title>
+          <source>Bulletin of the British Museum (Natural History) Zoology</source>
+          <volume>53</volume>
+          <fpage>205</fpage>
+          <lpage>205</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5022183">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Etnoyer</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Morgan</surname>
+              <given-names>L. E.</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <chapter-title>Habitat-forming deep-sea corals in the Northeast Pacific Ocean</chapter-title>
+          <source>Cold-water corals and ecosystems</source>
+          <publisher-name>Springer</publisher-name>
+          <publisher-loc>Berlin, Heidelberg</publisher-loc>
+          <size units="page">331-343</size>
+          <pub-id pub-id-type="doi">10.1007/3-540-27673-4_16</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4982491">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Etnoyer</surname>
+              <given-names>P. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cairns</surname>
+              <given-names>S. D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sanchez</surname>
+              <given-names>J. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Reed</surname>
+              <given-names>J. K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lopez</surname>
+              <given-names>J. V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schroeder</surname>
+              <given-names>W. W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brooke</surname>
+              <given-names>S. D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Watling</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Baco-Taylor</surname>
+              <given-names>A. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Williams</surname>
+              <given-names>G. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lindner</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>France</surname>
+              <given-names>S. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bruckner</surname>
+              <given-names>A. W.</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <source>Deep-Sea Coral Collection Protocols: a Synthesis of Field Experience from Deep-Sea Coral Researchers, Designed to Build Our National Capacity to Document Deep-Sea Coral Diversity</source>
+          <publisher-name>National Oceanic and Atmospheric Administration,Technical Memorandum NMFS-OPR-28</publisher-name>
+          <publisher-loc>Silver Spring</publisher-loc>
+          <size units="page">53</size>
+        </element-citation>
+      </ref>
+      <ref id="B5041566">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Fautin</surname>
+              <given-names>Daphne G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Hexacorallians of the World</article-title>
+          <uri xlink:type="simple">http://hercules.kgs.ku.edu/Hexacoral/Anemone2/</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5021538">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Fautin</surname>
+              <given-names>D. G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Daly</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <chapter-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Actiniaria</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Corallimorpharia</tp:taxon-name-part></tp:taxon-name>, and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Zoanthidea</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cnidaria</tp:taxon-name-part></tp:taxon-name>) of the Gulf of Mexico Gulf of</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Felder</surname>
+              <given-names>D. L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Camp</surname>
+              <given-names>D. K.</given-names>
+            </name>
+          </person-group>
+          <source>Gulf of Mexico–Origins, Waters, and Biota. Biodiversity</source>
+          <publisher-name>A&amp;M University Press, College</publisher-name>
+          <publisher-loc>Texas</publisher-loc>
+        </element-citation>
+      </ref>
+      <ref id="B5009693">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Fautin</surname>
+              <given-names>Daphne Gail</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Corallimorphus">Corallimorphus</tp:taxon-name-part></tp:taxon-name> Niwa New Species (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cnidaria</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Anthozoa</tp:taxon-name-part></tp:taxon-name>), New Zealand Members Of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Corallimorphus">Corallimorphus</tp:taxon-name-part></tp:taxon-name>, And Redefinition Of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Corallimorphidae</tp:taxon-name-part></tp:taxon-name> And Its Members</article-title>
+          <source>Zenodo</source>
+          <pub-id pub-id-type="doi">10.5281/ZENODO.202799</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5009703">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Fautin</surname>
+              <given-names>Daphne Gail</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Catalog to families, genera, and species of orders <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Actiniaria</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Corallimorpharia</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cnidaria</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Anthozoa</tp:taxon-name-part></tp:taxon-name>).</article-title>
+          <source>Zootaxa</source>
+          <volume>4145</volume>
+          <issue>1</issue>
+          <fpage>1</fpage>
+          <lpage>449</lpage>
+          <pub-id pub-id-type="doi">10.11646/zootaxa.4145.1.1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5012500">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Florez</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Santodomingo</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cnidaria</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name>Corales</tp:taxon-name> escleractinios, antipatarios, anémonas, zoantídeos, octocorales e hidroides. In: INVEMAR (Eds.) Biodiversidad del margen continental del Caribe colombiano</article-title>
+          <source>Serie de Publicaciones Especiales, Invemar No</source>
+          <volume>20</volume>
+          <fpage>4588</fpage>
+        </element-citation>
+      </ref>
+      <ref id="B4971009">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Gates</surname>
+              <given-names>Andrew</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <source>Deep-sea life of Tanzania</source>
+          <publisher-name>National Oceanography Centre</publisher-name>
+          <publisher-loc>Southampton</publisher-loc>
+        </element-citation>
+      </ref>
+      <ref id="B5022207">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Gates</surname>
+              <given-names>Andrew R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Benfield</surname>
+              <given-names>Mark C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Booth</surname>
+              <given-names>David J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fowler</surname>
+              <given-names>Ashley M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Skropeta</surname>
+              <given-names>Danielle</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jones</surname>
+              <given-names>Daniel O. B.</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Deep-sea observations at hydrocarbon drilling locations: Contributions from the SERPENT Project after 120 field visits</article-title>
+          <source>Deep Sea Research Part II: Topical Studies in Oceanography</source>
+          <volume>137</volume>
+          <fpage>463</fpage>
+          <lpage>479</lpage>
+          <uri xlink:type="simple">10.1016/j.dsr2.2016.07.011</uri>
+          <pub-id pub-id-type="doi">10.1016/j.dsr2.2016.07.011</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5021554">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>González-Muñoz</surname>
+              <given-names>Ricardo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Simões</surname>
+              <given-names>Nuno</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tello-Musi</surname>
+              <given-names>José Luis</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rodríguez</surname>
+              <given-names>Estefanía</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Sea anemones (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cnidaria</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Anthozoa</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Actiniaria</tp:taxon-name-part></tp:taxon-name>) from coral reefs in the southern Gulf of Mexico.</article-title>
+          <source>ZooKeys</source>
+          <volume>341</volume>
+          <fpage>77</fpage>
+          <lpage>106</lpage>
+          <pub-id pub-id-type="doi">10.3897/zookeys.341.5816</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5021564">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>González-Muñoz</surname>
+              <given-names>Ricardo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Simões</surname>
+              <given-names>Nuno</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Guerra-Castro</surname>
+              <given-names>Edlin J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hernández-Ortíz</surname>
+              <given-names>Carlos</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Carrasquel</surname>
+              <given-names>Gabriela</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mendez</surname>
+              <given-names>Enio</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lira</surname>
+              <given-names>Carlos</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rada</surname>
+              <given-names>Martin</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hernández</surname>
+              <given-names>Iván</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pauls</surname>
+              <given-names>Sheila M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Croquer</surname>
+              <given-names>Aldo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cruz-Motta</surname>
+              <given-names>Juan J.</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Sea anemones (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cnidaria</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Actiniaria</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Corallimorpharia</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Ceriantharia</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Zoanthidea</tp:taxon-name-part></tp:taxon-name>) from marine shallow-water environments in Venezuela: new records and an updated inventory</article-title>
+          <source>Marine Biodiversity Records</source>
+          <volume>9</volume>
+          <issue>1</issue>
+          <uri xlink:type="simple">10.1186/s41200-016-0016-7</uri>
+          <pub-id pub-id-type="doi">10.1186/s41200-016-0016-7</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5009713">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Häussermann</surname>
+              <given-names>Verena</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <article-title>Identification and taxonomy of soft-bodied hexacorals exemplified by Chilean sea anemones; including guidelines for sampling, preservation and examination</article-title>
+          <source>Journal of the Marine Biological Association of the UK</source>
+          <volume>84</volume>
+          <issue>5</issue>
+          <fpage>931</fpage>
+          <lpage>936</lpage>
+          <pub-id pub-id-type="doi">10.1017/s0025315404010215h</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5011079">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Horowitz</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Opresko</surname>
+              <given-names>D. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bridge</surname>
+              <given-names>T. C.L.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Black corals (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Anthozoa</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Antipatharia</tp:taxon-name-part></tp:taxon-name>) from the deep (916 m–2542 m) Coral Sea, north-eastern Australia</article-title>
+          <source>Zootaxa</source>
+          <volume>4472</volume>
+          <issue>2</issue>
+          <fpage>307</fpage>
+          <pub-id pub-id-type="doi">10.11646/zootaxa.4472.2.5</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5022197">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Hourigan</surname>
+              <given-names>T. F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Etnoyer</surname>
+              <given-names>P. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cairns</surname>
+              <given-names>S. D.</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Introduction to the State of Deep-Sea Coral and Sponge Ecosystems of the United States</article-title>
+          <source>The State of Deep-Sea Coral and Sponge Ecosystems of the United States</source>
+        </element-citation>
+      </ref>
+      <ref id="B4970944">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Huvenne</surname>
+              <given-names>V. A. I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Robert</surname>
+              <given-names>Katleen</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Marsh</surname>
+              <given-names>Leigh</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lo Iacono</surname>
+              <given-names>Claudio</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Le Bas</surname>
+              <given-names>Tim</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wynn</surname>
+              <given-names>R. B.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <chapter-title>ROVs and AUVs</chapter-title>
+          <source>Submarine Geomorphology</source>
+          <isbn>978-3-319-57852-1</isbn>
+          <pub-id pub-id-type="doi">10.1007/978-3-319-57852-1_7</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5011121">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kise</surname>
+              <given-names>Hiroki</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Reimer</surname>
+              <given-names>James</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Unexpected diversity and a new species of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Epizoanthus">Epizoanthus</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Anthozoa</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subclass">Hexacorallia</tp:taxon-name-part></tp:taxon-name>) attached to eunicid worm tubes from the Pacific Ocean</article-title>
+          <source>ZooKeys</source>
+          <volume>562</volume>
+          <fpage>49</fpage>
+          <lpage>71</lpage>
+          <pub-id pub-id-type="doi">10.3897/zookeys.562.6181</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5011732">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kramp</surname>
+              <given-names>P. L.</given-names>
+            </name>
+          </person-group>
+          <year>1961</year>
+          <article-title>Synopsis of the Medusae of the World</article-title>
+          <source>Journal of the Marine Biological Association of the United Kingdom</source>
+          <volume>40</volume>
+          <fpage>7</fpage>
+          <pub-id pub-id-type="doi">10.1017/s0025315400007347</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5011802">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Larson</surname>
+              <given-names>R. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mills</surname>
+              <given-names>C. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Harbison</surname>
+              <given-names>G. R.</given-names>
+            </name>
+          </person-group>
+          <year>1991</year>
+          <chapter-title>Western Atlantic midwater hydrozoan and scyphozoan medusae: in situ studies using manned submersibles</chapter-title>
+          <source>Coelenterate Biology: Recent Research on <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cnidaria</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Ctenophora</tp:taxon-name-part></tp:taxon-name></source>
+          <pub-id pub-id-type="doi">10.1007/978-94-011-3240-4_45</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5011742">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Larson</surname>
+              <given-names>R. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Matsumoto</surname>
+              <given-names>G. I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Madin</surname>
+              <given-names>L. P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lewis</surname>
+              <given-names>L. M.</given-names>
+            </name>
+          </person-group>
+          <year>1992</year>
+          <article-title>Deep-sea benthic and benthopelagic medusae, recent observations from submersibles and a remotely operated vehicle</article-title>
+          <source>Bulletin of Marine Science</source>
+          <volume>51</volume>
+          <fpage>277</fpage>
+          <lpage>277</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B4971028">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Mengerink</surname>
+              <given-names>Kathryn J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dover</surname>
+              <given-names>Cindy L. Van</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ardron</surname>
+              <given-names>Jeff</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Baker</surname>
+              <given-names>Maria</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Escobar-Briones</surname>
+              <given-names>Elva</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gjerde</surname>
+              <given-names>Kristina</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Koslow</surname>
+              <given-names>J. Anthony</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ramirez-Llodra</surname>
+              <given-names>Eva</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lara-Lopez</surname>
+              <given-names>Ana</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Squires</surname>
+              <given-names>Dale</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sutton</surname>
+              <given-names>Tracey</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sweetman</surname>
+              <given-names>Andrew K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Levin</surname>
+              <given-names>Lisa A.</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>A call for deep-ocean stewardship</article-title>
+          <source>Science</source>
+          <volume>344</volume>
+          <issue>6185</issue>
+          <fpage>696</fpage>
+          <lpage>698</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.1251458</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5021621">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Messing</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Walker</surname>
+              <given-names>B. K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Reed</surname>
+              <given-names>J. K.</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <source>Deep-Water Benthic Habitat Characterization and Cable Impact Assessment for the South Florida Ocean Measurement Facility (SFOMF)</source>
+          <publisher-name>Naval Surface Warfare Center, Carderock Division</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B5022219">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Miranda</surname>
+              <given-names>Lucília S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mills</surname>
+              <given-names>Claudia E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hirano</surname>
+              <given-names>Yayoi M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Collins</surname>
+              <given-names>Allen G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Marques</surname>
+              <given-names>Antonio C.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>A review of the global diversity and natural history of stalked jellyfishes (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cnidaria</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Staurozoa</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Marine Biodiversity</source>
+          <volume>48</volume>
+          <issue>4</issue>
+          <fpage>1695</fpage>
+          <lpage>1714</lpage>
+          <uri xlink:type="simple">10.1007/s12526-017-0721-4</uri>
+          <pub-id pub-id-type="doi">10.1007/s12526-017-0721-4</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5021582">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Molodtsova</surname>
+              <given-names>Tina N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sanamyan</surname>
+              <given-names>Nadezhda P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Keller</surname>
+              <given-names>Natalya B.</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Anthozoa</tp:taxon-name-part></tp:taxon-name> from the northern Mid-Atlantic Ridge and Charlie-Gibbs Fracture Zone</article-title>
+          <source>Marine Biology Research</source>
+          <volume>4</volume>
+          <fpage>112</fpage>
+          <lpage>130</lpage>
+          <uri xlink:type="simple">10.1080/17451000701821744</uri>
+          <pub-id pub-id-type="doi">10.1080/17451000701821744</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5011070">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Molodtsova</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Opresko</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>World List of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Antipatharia</tp:taxon-name-part></tp:taxon-name>. <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Bathypathes">Bathypathes</tp:taxon-name-part></tp:taxon-name> Brook, 1889. Accessed through: World Register of Marine Species</article-title>
+          <uri xlink:type="simple">http://www.marinespecies.org/aphia.php?p=taxdetails&amp;id=103304</uri>
+          <date-in-citation content-type="access-date">2019-02-24T00:00:00+02:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5011089">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Molodtsova</surname>
+              <given-names>T. N.</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <chapter-title>Black corals (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Antipatharia</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Anthozoa</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cnidaria</tp:taxon-name-part></tp:taxon-name>) of the north-eastern Atlantic Biogeography of the North Atlantic Seamounts</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Mironov</surname>
+              <given-names>A. N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gebruk</surname>
+              <given-names>A. V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Southward</surname>
+              <given-names>A. J.</given-names>
+            </name>
+          </person-group>
+          <source>Biogeography of the North Atlantic Seamounts</source>
+          <publisher-name>KMK Press, Moscow</publisher-name>
+          <size units="page">141 - 151</size>
+        </element-citation>
+      </ref>
+      <ref id="B5021612">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ocaña</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Den Hartog</surname>
+              <given-names>J. C.</given-names>
+            </name>
+          </person-group>
+          <year>2002</year>
+          <source>A catalogue of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">actiniaria</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">corallimorpharia</tp:taxon-name-part></tp:taxon-name> from the Canary Islands and from Madeira</source>
+          <publisher-name>Universidade dos Açores</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B5022230">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Osborn</surname>
+              <given-names>Dawn Alexandra</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Silver</surname>
+              <given-names>Mary W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Castro</surname>
+              <given-names>Carmen G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bros</surname>
+              <given-names>Shannon M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chavez</surname>
+              <given-names>Francisco P.</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <article-title>The habitat of mesopelagic scyphomedusae in Monterey Bay, California</article-title>
+          <source>Deep Sea Research Part I: Oceanographic Research Papers</source>
+          <volume>54</volume>
+          <issue>8</issue>
+          <fpage>1241</fpage>
+          <lpage>1255</lpage>
+          <uri xlink:type="simple">10.1016/j.dsr.2007.04.015</uri>
+          <pub-id pub-id-type="doi">10.1016/j.dsr.2007.04.015</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4970960">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Pawson</surname>
+              <given-names>D. L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nizinski</surname>
+              <given-names>M. S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ames</surname>
+              <given-names>C. L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pawson</surname>
+              <given-names>D. J.</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Deep-sea echinoids and holothurians (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Echinodermata</tp:taxon-name-part></tp:taxon-name>) near cold seeps and coral communities in the northern Gulf of Mexico</article-title>
+          <source>Bulletin of Marine Science</source>
+          <volume>91</volume>
+          <issue>2</issue>
+          <fpage>167</fpage>
+          <lpage>204</lpage>
+          <pub-id pub-id-type="doi">10.5343/bms.2014.1064</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5021592">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Plouviez</surname>
+              <given-names>Sophie</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jacobson</surname>
+              <given-names>Alixandra</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wu</surname>
+              <given-names>Mengyou</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Van Dover</surname>
+              <given-names>Cindy L.</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Characterization of vent fauna at the Mid-Cayman Spreading Center</article-title>
+          <source>Deep Sea Research Part I: Oceanographic Research Papers</source>
+          <volume>97</volume>
+          <fpage>124</fpage>
+          <lpage>133</lpage>
+          <uri xlink:type="simple">10.1016/j.dsr.2014.11.011</uri>
+          <pub-id pub-id-type="doi">10.1016/j.dsr.2014.11.011</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4971047">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Polanco F</surname>
+              <given-names>Andrea</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cedeño-Posso</surname>
+              <given-names>Cristina</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Montoya-Cadavid</surname>
+              <given-names>Erika</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Borrero-Pérez</surname>
+              <given-names>Giomar Helena</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dorado-Roncancio</surname>
+              <given-names>Edgar Fernando</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Garrido</surname>
+              <given-names>Manuel</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cárdenas-Oliva</surname>
+              <given-names>Adibe</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Yepes-Gaurisas</surname>
+              <given-names>Daniela</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Yepes-Narváez</surname>
+              <given-names>Vanesa</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Escarria</surname>
+              <given-names>Eugenia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mutis</surname>
+              <given-names>Maria</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Arteaga-Flórez</surname>
+              <given-names>Catalina</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Martínez</surname>
+              <given-names>Bibian</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ayala-Galán</surname>
+              <given-names>Karen</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Caldera</surname>
+              <given-names>Sandy</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gutierrez-Salcedo</surname>
+              <given-names>J. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Santodomingo</surname>
+              <given-names>Nadia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gracia</surname>
+              <given-names>C. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Flórez</surname>
+              <given-names>Paola</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Benavides-Serrato</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Suárez-Mozo</surname>
+              <given-names>N. Y.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Alonso Carvajar</surname>
+              <given-names>David</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Twenty years of deep sea research in the Colombian Caribbean</article-title>
+          <source>Deep Sea Life</source>
+          <issue>10</issue>
+          <fpage>16</fpage>
+          <lpage>17</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5011112">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Reimer</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sinniger</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>World List of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Zoantharia</tp:taxon-name-part></tp:taxon-name>. <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Epizoanthus">Epizoanthus</tp:taxon-name-part></tp:taxon-name> Gray, 1867. Accessed through: World Register of Marine Species</article-title>
+          <uri xlink:type="simple">http://www.marinespecies.org/aphia.php?p=taxdetails&amp;id=100790</uri>
+          <date-in-citation content-type="access-date">2019-02-24T00:00:00+02:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5009723">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Riemann-Zürneck</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Iken</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <year>2003</year>
+          <article-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Corallimorphus">Corallimorphus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="profundus">profundus</tp:taxon-name-part></tp:taxon-name> in shallow Antarctic habitats: bionomics, histology, and systematics (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cnidaria</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subclass">Hexacorallia</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Zoologische Verhandelingen</source>
+          <volume>345</volume>
+          <fpage>367</fpage>
+          <lpage>367</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5009733">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Rodriguez</surname>
+              <given-names>E</given-names>
+            </name>
+            <name name-style="western">
+              <surname>López-González</surname>
+              <given-names>PJ.</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>New records of Antarctic and Sub-Antarctic sea anemones (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cnidaria</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Anthozoa</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Actiniaria</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Corallimorpharia</tp:taxon-name-part></tp:taxon-name>) from the Weddell Sea, Antarctic Peninsula, and Scotia Arc</article-title>
+          <source>Zootaxa</source>
+          <volume>3625</volume>
+          <issue>1</issue>
+          <fpage>1</fpage>
+          <pub-id pub-id-type="doi">10.11646/zootaxa.3625.1.1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5012478">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Santodomingo</surname>
+              <given-names>Nadiezhda</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Reyes</surname>
+              <given-names>Javier</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Flórez</surname>
+              <given-names>Paola</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chacón-Gómez</surname>
+              <given-names>Isabel Cristina</given-names>
+            </name>
+            <name name-style="western">
+              <surname>van Ofwegen</surname>
+              <given-names>Leen P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hoeksema</surname>
+              <given-names>Bert W.</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Diversity and distribution of azooxanthellate corals in the Colombian Caribbean</article-title>
+          <source>Marine Biodiversity</source>
+          <volume>43</volume>
+          <issue>1</issue>
+          <fpage>7</fpage>
+          <lpage>22</lpage>
+          <pub-id pub-id-type="doi">10.1007/s12526-012-0131-6</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4970999">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Solem</surname>
+              <given-names>Anne Jieli Louise</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Analysis of current ROV Operations in the Norwegian Aquaculture - Reducing Risk in exposed Aquaculture Operations</article-title>
+          <source>Norwegian University of Science and Technology</source>
+        </element-citation>
+      </ref>
+      <ref id="B5011891">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Technau</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Steele</surname>
+              <given-names>R. E.</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>Evolutionary crossroads in developmental biology: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cnidaria</tp:taxon-name-part></tp:taxon-name></article-title>
+          <source>Development</source>
+          <volume>138</volume>
+          <issue>8</issue>
+          <fpage>1447</fpage>
+          <lpage>1458</lpage>
+          <pub-id pub-id-type="doi">10.1242/dev.048959</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4971018">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Tena</surname>
+              <given-names>Ioseba</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>Automating ROV Operations in aid of the Oil &amp; Gas Offshore Industry</article-title>
+          <source>SeeByte Whitepaper</source>
+          <fpage>1</fpage>
+          <lpage>9</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5011752">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Thuesen</surname>
+              <given-names>Erik V.</given-names>
+            </name>
+          </person-group>
+          <year>2003</year>
+          <article-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Crossota">Crossota</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="millsae">millsae</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cnidaria</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Trachymedusae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Rhopalonematidae</tp:taxon-name-part></tp:taxon-name>), a new species of viviparous hydromedusa from the deep sea off California and Hawaii</article-title>
+          <source>Zootaxa</source>
+          <volume>309</volume>
+          <issue>1</issue>
+          <fpage>1</fpage>
+          <pub-id pub-id-type="doi">10.11646/zootaxa.309.1.1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5011050">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Tyler</surname>
+              <given-names>P. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bronsdon</surname>
+              <given-names>S. K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Young</surname>
+              <given-names>C. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rice</surname>
+              <given-names>A. L.</given-names>
+            </name>
+          </person-group>
+          <year>1995</year>
+          <article-title>Ecology and Gametogenic Biology of the GenusUmbellula (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Pennatulacea</tp:taxon-name-part></tp:taxon-name>) in the North Atlantic Ocean</article-title>
+          <source>Internationale Revue der gesamten Hydrobiologie und Hydrographie</source>
+          <volume>80</volume>
+          <issue>2</issue>
+          <fpage>187</fpage>
+          <lpage>199</lpage>
+          <pub-id pub-id-type="doi">10.1002/iroh.19950800207</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5011762">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Valentine</surname>
+              <given-names>Marla M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Benfield</surname>
+              <given-names>Mark C.</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Characterization of epibenthic and demersal megafauna at Mississippi Canyon 252 shortly after the Deepwater Horizon Oil Spill</article-title>
+          <source>Marine Pollution Bulletin</source>
+          <volume>77</volume>
+          <fpage>196</fpage>
+          <lpage>209</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.marpolbul.2013.10.004</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5011060">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Williams</surname>
+              <given-names>Gary C.</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>The Global Diversity of Sea Pens (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cnidaria</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subclass">Octocorallia</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Pennatulacea</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>PLoS ONE</source>
+          <volume>6</volume>
+          <issue>7</issue>
+          <fpage>e22747</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0022747</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4970989">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Zawada</surname>
+              <given-names>D. G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Thompson</surname>
+              <given-names>P. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Butcher</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <article-title>A new towed platform for the unobtrusive surveying of benthic habitats and organisms</article-title>
+          <source>Revista de Biología Tropical</source>
+          <volume>56</volume>
+          <fpage>51</fpage>
+          <lpage>63</lpage>
+          <pub-id pub-id-type="doi">10.15517/rbt.v56i0.5577</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig-group id="F4982546" position="float" orientation="portrait">
+      <caption>
+        <p>Methodology for ROV video surveys.</p>
+      </caption>
+      <fig id="F4982551" position="float" orientation="portrait">
+        <object-id content-type="arpha">0C34CB71-8799-5158-8C73-1EC928A27512</object-id>
+        <object-id content-type="doi">10.3897/BDJ.7.e33091.figure1a</object-id>
+        <object-id content-type="zenodo_dep_id">2835171</object-id>
+        <label>Figure 1a.</label>
+        <caption>
+          <p>Schematic representation of the ROV transects is cross-fashion. Red circle denotes the location of the well or transponder.</p>
+        </caption>
+        <graphic xlink:href="bdj-07-e33091-g001_a.jpg" xlink:type="simple" position="float" orientation="portrait" id="oo_257023.jpg">
+          <uri content-type="original_file">https://binary.pensoft.net/fig/257023</uri>
+        </graphic>
+      </fig>
+      <fig id="F4982552" position="float" orientation="portrait">
+        <object-id content-type="arpha">D621781D-A10A-5F44-B66C-5B71C5EC7D57</object-id>
+        <object-id content-type="doi">10.3897/BDJ.7.e33091.figure1b</object-id>
+        <object-id content-type="zenodo_dep_id">2835173</object-id>
+        <label>Figure 1b.</label>
+        <caption>
+          <p>Example of a snapshot taken from the ROV video, depicting a specimen of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Poralia">Poralia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="rufescens">rufescens</tp:taxon-name-part></tp:taxon-name></italic>.</p>
+        </caption>
+        <graphic xlink:href="bdj-07-e33091-g001_b.jpg" xlink:type="simple" position="float" orientation="portrait" id="oo_257025.jpg">
+          <uri content-type="original_file">https://binary.pensoft.net/fig/257025</uri>
+        </graphic>
+      </fig>
+    </fig-group>
+    <fig-group id="F4982557" position="float" orientation="portrait">
+      <caption>
+        <p>Workflow of image correction in Adobe Photoshop CC 2018.</p>
+      </caption>
+      <fig id="F4982562" position="float" orientation="portrait">
+        <object-id content-type="arpha">1A461F49-8579-5766-878E-A55A719CFAC6</object-id>
+        <object-id content-type="doi">10.3897/BDJ.7.e33091.figure2a</object-id>
+        <object-id content-type="zenodo_dep_id">2835175</object-id>
+        <label>Figure 2a.</label>
+        <caption>
+          <p>Original photograph of a cerianthid (subclass <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Ceriantharia</tp:taxon-name-part></tp:taxon-name>) obtained from the tow camera.</p>
+        </caption>
+        <graphic xlink:href="bdj-07-e33091-g002_a.jpg" xlink:type="simple" position="float" orientation="portrait" id="oo_257043.JPG">
+          <uri content-type="original_file">https://binary.pensoft.net/fig/257043</uri>
+        </graphic>
+      </fig>
+      <fig id="F4982563" position="float" orientation="portrait">
+        <object-id content-type="arpha">7D78FCD8-C3E3-50BC-8CFE-CAD1ECC93D71</object-id>
+        <object-id content-type="doi">10.3897/BDJ.7.e33091.figure2b</object-id>
+        <object-id content-type="zenodo_dep_id">2835179</object-id>
+        <label>Figure 2b.</label>
+        <caption>
+          <p>Cropped photograph that includes only the organism and colour cast corrected using the <italic>Auto Tone</italic> function.</p>
+        </caption>
+        <graphic xlink:href="bdj-07-e33091-g002_b.jpg" xlink:type="simple" position="float" orientation="portrait" id="oo_257044.jpg">
+          <uri content-type="original_file">https://binary.pensoft.net/fig/257044</uri>
+        </graphic>
+      </fig>
+    </fig-group>
+    <fig id="F4971090" position="float" orientation="portrait">
+      <object-id content-type="arpha">55335A0D-E7C8-5922-BD2C-5F903D5C7049</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e33091.figure3</object-id>
+      <object-id content-type="zenodo_dep_id">2835181</object-id>
+      <label>Figure 3.</label>
+      <caption>
+        <p>Geographical location of the sites surveyed at the South-western Colombian Caribbean. Blue circles depict the wells and red circles correspond to other surveyed areas.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e33091-g003.jpg" position="float" id="oo_253261.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/253261</uri>
+      </graphic>
+    </fig>
+    <fig-group id="F4982519" position="float" orientation="portrait">
+      <caption>
+        <p>New reports of cnidarians for the Colombian Caribbean.</p>
+      </caption>
+      <fig id="F4982524" position="float" orientation="portrait">
+        <object-id content-type="arpha">91B1BD7E-4DF9-5E46-9BBC-7D0198D1E189</object-id>
+        <object-id content-type="doi">10.3897/BDJ.7.e33091.figure4a</object-id>
+        <object-id content-type="zenodo_dep_id">2835185</object-id>
+        <label>Figure 4a.</label>
+        <caption>
+          <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Corallimorphus">Corallimorphus</tp:taxon-name-part></tp:taxon-name></italic> sp.</p>
+        </caption>
+        <graphic xlink:href="bdj-07-e33091-g004_a.jpg" xlink:type="simple" position="float" orientation="portrait" id="oo_257011.jpg">
+          <uri content-type="original_file">https://binary.pensoft.net/fig/257011</uri>
+        </graphic>
+      </fig>
+      <fig id="F4982525" position="float" orientation="portrait">
+        <object-id content-type="arpha">A2C7A3ED-83F6-52A7-BD22-FEE5C3598F73</object-id>
+        <object-id content-type="doi">10.3897/BDJ.7.e33091.figure4b</object-id>
+        <object-id content-type="zenodo_dep_id">2835189</object-id>
+        <label>Figure 4b.</label>
+        <caption>
+          <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phelliactis">Phelliactis</tp:taxon-name-part></tp:taxon-name></italic> sp.</p>
+        </caption>
+        <graphic xlink:href="bdj-07-e33091-g004_b.jpg" xlink:type="simple" position="float" orientation="portrait" id="oo_257012.jpg">
+          <uri content-type="original_file">https://binary.pensoft.net/fig/257012</uri>
+        </graphic>
+      </fig>
+      <fig id="F4982526" position="float" orientation="portrait">
+        <object-id content-type="arpha">43103FAD-8D88-51FA-8D15-9DEE7B4831D8</object-id>
+        <object-id content-type="doi">10.3897/BDJ.7.e33091.figure4c</object-id>
+        <object-id content-type="zenodo_dep_id">2835191</object-id>
+        <label>Figure 4c.</label>
+        <caption>
+          <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Adamsia">Adamsia</tp:taxon-name-part></tp:taxon-name></italic> sp. on a hermit crab (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sympagurus">Sympagurus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pictus">pictus</tp:taxon-name-part></tp:taxon-name></italic>)</p>
+        </caption>
+        <graphic xlink:href="bdj-07-e33091-g004_c.jpg" xlink:type="simple" position="float" orientation="portrait" id="oo_257013.jpg">
+          <uri content-type="original_file">https://binary.pensoft.net/fig/257013</uri>
+        </graphic>
+      </fig>
+      <fig id="F4982527" position="float" orientation="portrait">
+        <object-id content-type="arpha">1648926A-2129-5B36-AC95-C712D88DCFC3</object-id>
+        <object-id content-type="doi">10.3897/BDJ.7.e33091.figure4d</object-id>
+        <object-id content-type="zenodo_dep_id">2835193</object-id>
+        <label>Figure 4d.</label>
+        <caption>
+          <p>
+            <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Bathypathes">Bathypathes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="uncertainty-rank">cf.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="patula">patula</tp:taxon-name-part></tp:taxon-name>
+          </p>
+        </caption>
+        <graphic xlink:href="bdj-07-e33091-g004_d.jpg" xlink:type="simple" position="float" orientation="portrait" id="oo_257014.jpg">
+          <uri content-type="original_file">https://binary.pensoft.net/fig/257014</uri>
+        </graphic>
+      </fig>
+      <fig id="F4982528" position="float" orientation="portrait">
+        <object-id content-type="arpha">68CF5057-5A08-5E03-9F4D-D018632ED802</object-id>
+        <object-id content-type="doi">10.3897/BDJ.7.e33091.figure4e</object-id>
+        <object-id content-type="zenodo_dep_id">2835195</object-id>
+        <label>Figure 4e.</label>
+        <caption>
+          <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Umbellula">Umbellula</tp:taxon-name-part></tp:taxon-name></italic> sp.</p>
+        </caption>
+        <graphic xlink:href="bdj-07-e33091-g004_e.jpg" xlink:type="simple" position="float" orientation="portrait" id="oo_257017.jpg">
+          <uri content-type="original_file">https://binary.pensoft.net/fig/257017</uri>
+        </graphic>
+      </fig>
+      <fig id="F4982529" position="float" orientation="portrait">
+        <object-id content-type="arpha">D3FC91AB-57AF-5CDA-B446-8B4BAA806C84</object-id>
+        <object-id content-type="doi">10.3897/BDJ.7.e33091.figure4f</object-id>
+        <object-id content-type="zenodo_dep_id">2835197</object-id>
+        <label>Figure 4f.</label>
+        <caption>
+          <p><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Epizoanthus">Epizoanthus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="uncertainty-rank">cf.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="stellaris">stellaris</tp:taxon-name-part></tp:taxon-name> growing over a glass sponge (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hyalonema">Hyalonema</tp:taxon-name-part></tp:taxon-name></italic> sp.) stalk</p>
+        </caption>
+        <graphic xlink:href="bdj-07-e33091-g004_f.jpg" xlink:type="simple" position="float" orientation="portrait" id="oo_257016.jpg">
+          <uri content-type="original_file">https://binary.pensoft.net/fig/257016</uri>
+        </graphic>
+      </fig>
+    </fig-group>
+    <fig-group id="F4982535" position="float" orientation="portrait">
+      <caption>
+        <p>New reports of cnidarian medusae for the Colombian Caribbean.</p>
+      </caption>
+      <fig id="F4982540" position="float" orientation="portrait">
+        <object-id content-type="arpha">0294AEAC-F2CF-5422-8EA3-5813DE07CFD8</object-id>
+        <object-id content-type="doi">10.3897/BDJ.7.e33091.figure5a</object-id>
+        <object-id content-type="zenodo_dep_id">2835199</object-id>
+        <label>Figure 5a.</label>
+        <caption>
+          <p>
+            <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Crossota">Crossota</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="millsae">millsae</tp:taxon-name-part></tp:taxon-name></italic>
+          </p>
+        </caption>
+        <graphic xlink:href="bdj-07-e33091-g005_a.jpg" xlink:type="simple" position="float" orientation="portrait" id="oo_257020.jpg">
+          <uri content-type="original_file">https://binary.pensoft.net/fig/257020</uri>
+        </graphic>
+      </fig>
+      <fig id="F4982541" position="float" orientation="portrait">
+        <object-id content-type="arpha">7103E2F3-7BE0-5A35-9F68-AD50AFDBA30B</object-id>
+        <object-id content-type="doi">10.3897/BDJ.7.e33091.figure5b</object-id>
+        <object-id content-type="zenodo_dep_id">2835207</object-id>
+        <label>Figure 5b.</label>
+        <caption>
+          <p>
+            <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Voragonema">Voragonema</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pedunculata">pedunculata</tp:taxon-name-part></tp:taxon-name></italic>
+          </p>
+        </caption>
+        <graphic xlink:href="bdj-07-e33091-g005_b.jpg" xlink:type="simple" position="float" orientation="portrait" id="oo_257030.jpg">
+          <uri content-type="original_file">https://binary.pensoft.net/fig/257030</uri>
+        </graphic>
+      </fig>
+    </fig-group>
+    <table-wrap id="T4971100" position="float" orientation="portrait">
+      <label>Table 1.</label>
+      <caption>
+        <p>Cnidarians found in the deep waters of the South-western Colombian Caribbean. * New reports for the Colombian Caribbean.</p>
+      </caption>
+      <table rules="all" border="1">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Species</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Sampling Protocol</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Depth range (m)</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Poralia">Poralia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="uncertainty-rank">cf.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="rufescens">rufescens</tp:taxon-name-part></tp:taxon-name> Vanhöffen, 1902</td>
+            <td rowspan="1" colspan="1">ROV</td>
+            <td rowspan="1" colspan="1">1,565–1,818</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Hydrozoa</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">Towed Camera</td>
+            <td rowspan="1" colspan="1">1,839–2,367</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="order">Semaeostomeae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">Towed Camera</td>
+            <td rowspan="1" colspan="1">2,289</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Crossota">Crossota</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="millsae">millsae</tp:taxon-name-part></tp:taxon-name></italic> Thuesen, 2003*</td>
+            <td rowspan="1" colspan="1">Towed Camera</td>
+            <td rowspan="1" colspan="1">1,165–1,189</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Voragonema">Voragonema</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pedunculata">pedunculata</tp:taxon-name-part></tp:taxon-name></italic> (Bigelow, 1913)*</td>
+            <td rowspan="1" colspan="1">Towed Camera</td>
+            <td rowspan="1" colspan="1">2,340–2,562</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="order">Narcomedusae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">Towed Camera</td>
+            <td rowspan="1" colspan="1">1,717</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="order">Actiniaria</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">Towed Camera</td>
+            <td rowspan="1" colspan="1">539–2,523</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="order">Ceriantharia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">Towed Camera</td>
+            <td rowspan="1" colspan="1">428–2,058</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Corallimorphus">Corallimorphus</tp:taxon-name-part></tp:taxon-name></italic> Moseley, 1877*</td>
+            <td rowspan="1" colspan="1">Towed Camera</td>
+            <td rowspan="1" colspan="1">2,259–2,526</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Hormathiidae</tp:taxon-name-part></tp:taxon-name> Carlgren, 1932</td>
+            <td rowspan="1" colspan="1">Towed Camera</td>
+            <td rowspan="1" colspan="1">375–2,524</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><tp:taxon-name>Kadosactinidae</tp:taxon-name> Riemann-Zürneck, 1991</td>
+            <td rowspan="1" colspan="1">Towed Camera</td>
+            <td rowspan="1" colspan="1">2,352–2,430</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Bathypathes">Bathypathes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="uncertainty-rank">cf.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="patula">patula</tp:taxon-name-part></tp:taxon-name> Brook, 1889*</td>
+            <td rowspan="1" colspan="1">Towed Camera</td>
+            <td rowspan="1" colspan="1">2,359–2,564</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Virgulariidae</tp:taxon-name-part></tp:taxon-name> Verrill, 1868</td>
+            <td rowspan="1" colspan="1">Towed Camera</td>
+            <td rowspan="1" colspan="1">654–2,565</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Trichogorgia">Trichogorgia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="lyra">lyra</tp:taxon-name-part></tp:taxon-name></italic> Bayer &amp; Muzik, 1976</td>
+            <td rowspan="1" colspan="1">Towed Camera</td>
+            <td rowspan="1" colspan="1">577–650</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Umbellula">Umbellula</tp:taxon-name-part></tp:taxon-name></italic> Gray, 1870*</td>
+            <td rowspan="1" colspan="1">Towed Camera</td>
+            <td rowspan="1" colspan="1">1,633–2,525</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Chrysogorgiidae</tp:taxon-name-part></tp:taxon-name> Verrill, 1883</td>
+            <td rowspan="1" colspan="1">Towed Camera</td>
+            <td rowspan="1" colspan="1">490</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Epizoanthus">Epizoanthus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="uncertainty-rank">cf.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="stellaris">stellaris</tp:taxon-name-part></tp:taxon-name> Hertwig, 1888*</td>
+            <td rowspan="1" colspan="1">Towed Camera</td>
+            <td rowspan="1" colspan="1">502–1,196</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Adamsia">Adamsia</tp:taxon-name-part></tp:taxon-name></italic> Forbes, 1840*</td>
+            <td rowspan="1" colspan="1">Towed Camera</td>
+            <td rowspan="1" colspan="1">486–2,563</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phelliactis">Phelliactis</tp:taxon-name-part></tp:taxon-name></italic> Simon, 1842*</td>
+            <td rowspan="1" colspan="1">Towed Camera</td>
+            <td rowspan="1" colspan="1">2,561</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+  </floats-group>
+</article>

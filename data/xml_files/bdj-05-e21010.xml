@@ -1,0 +1,2577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="3.0" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.5.e21010</article-id>
+      <article-id pub-id-type="publisher-id">21010</article-id>
+      <article-id pub-id-type="manuscript">8120</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Araneae</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Biodiversity &amp; Conservation</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>Finland</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Standardized spider (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Arachnida</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>) inventory of Hankoniemi, Finland</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes" xlink:type="simple">
+          <name name-style="western">
+            <surname>Cardoso</surname>
+            <given-names>Pedro</given-names>
+          </name>
+          <email xlink:type="simple">pedro.cardoso@helsinki.fi</email>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Heikkinen</surname>
+            <given-names>Lea</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Jalkanen</surname>
+            <given-names>Joel</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Kohonen</surname>
+            <given-names>Minna</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Leponiemi</surname>
+            <given-names>Matti</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Mattila</surname>
+            <given-names>Laura</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Ollonen</surname>
+            <given-names>Joni</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Ranki</surname>
+            <given-names>Jukka-Pekka</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Virolainen</surname>
+            <given-names>Anni</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Zhou</surname>
+            <given-names>Xuan</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Pajunen</surname>
+            <given-names>Timo</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Finnish Museum of Natural History, University of Helsinki, Helsinki, Finland</addr-line>
+        <institution xlink:type="simple">Finnish Museum of Natural History, University of Helsinki</institution>
+        <addr-line content-type="city">Helsinki</addr-line>
+        <country>Finland</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">IUCN SSC Spider &amp; Scorpion Specialist Group, Helsinki, Finland</addr-line>
+        <institution xlink:type="simple">IUCN SSC Spider &amp; Scorpion Specialist Group</institution>
+        <addr-line content-type="city">Helsinki</addr-line>
+        <country>Finland</country>
+      </aff>
+      <aff id="A3">
+        <label>3</label>
+        <addr-line content-type="verbatim">Department of Biosciences, University of Helsinki, Helsinki, Finland</addr-line>
+        <institution xlink:type="simple">Department of Biosciences, University of Helsinki</institution>
+        <addr-line content-type="city">Helsinki</addr-line>
+        <country>Finland</country>
+      </aff>
+      <aff id="A4">
+        <label>4</label>
+        <addr-line content-type="verbatim">Department of Environmental Sciences, University of Helsinki, Helsinki, Finland</addr-line>
+        <institution xlink:type="simple">Department of Environmental Sciences, University of Helsinki</institution>
+        <addr-line content-type="city">Helsinki</addr-line>
+        <country>Finland</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Pedro Cardoso (<email xlink:type="simple">pedro.cardoso@helsinki.fi</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Jeremy Miller</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2017</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>18</day>
+        <month>12</month>
+        <year>2017</year>
+      </pub-date>
+      <volume>5</volume>
+      <elocation-id>e21010</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/FFC5B456-480E-FFDD-E23C-9A2A157EFF96">FFC5B456-480E-FFDD-E23C-9A2A157EFF96</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/1137323">1137323</uri>
+      <history>
+        <date date-type="received">
+          <day>15</day>
+          <month>09</month>
+          <year>2017</year>
+        </date>
+        <date date-type="accepted">
+          <day>14</day>
+          <month>12</month>
+          <year>2017</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Pedro Cardoso, Lea Heikkinen, Joel Jalkanen, Minna Kohonen, Matti Leponiemi, Laura Mattila, Joni Ollonen, Jukka-Pekka Ranki, Anni Virolainen, Xuan Zhou, Timo Pajunen</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License 4.0 (CC-BY), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>During a field course on spider taxonomy and ecology at the University of Helsinki, the authors had the opportunity to sample four plots with a dual objective of both teaching on field methods, spider identification and behaviour and uncovering the spider diversity patterns found in the southern coastal forests of Hankoniemi, Finland. As an ultimate goal, this field course intended to contribute to a global project that intends to uncover spider diversity patterns worldwide. With that purpose, a set of standardised methods and procedures was followed that allow the comparability of obtained data with numerous other projects being conducted across all continents.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>A total of 104 species and 1997 adults was collected. Of these, 41 species (39%) were <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part></tp:taxon-name> and 13 (12%) <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Theridiidae</tp:taxon-name-part></tp:taxon-name>. All other families had 6 or less species represented. <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part></tp:taxon-name> were also dominant in terms of adult individuals captured, with 1015 (51%), followed by 428 (21%) <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Lycosidae</tp:taxon-name-part></tp:taxon-name>, 158 (8%) <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Tetragnathidae</tp:taxon-name-part></tp:taxon-name> and 145 (7%) <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Theridiidae</tp:taxon-name-part></tp:taxon-name>. All other families had less than 100 individuals. The most abundant species were <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Neriene">Neriene</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="peltata">peltata</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Alopecosa">Alopecosa</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="taeniata">taeniata</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Piratula">Piratula</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="hygrophila">hygrophila</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Dismodicus">Dismodicus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="elevatus">elevatus</tp:taxon-name-part></tp:taxon-name></italic>, all with more than 100 individuals. All sites had between 56 and 62 species and between 445 and 569 individuals.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>arthropoda</kwd>
+        <kwd>boreal forest</kwd>
+        <kwd>COBRA</kwd>
+        <kwd>sampling</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="1"/>
+        <table-count count="2"/>
+        <ref-count count="36"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>Dominated by taiga (boreal forest) in the centre and south and tundra in the north, Finland (and the neighbouring Scandinavian Peninsula) marks the transition between the temperate and subarctic zones in Europe. With approximately 45000 multicellular species known to occur in the country (<xref ref-type="bibr" rid="B3743948">Rassi et al. 2010</xref>), Finnish biota is of recent origin, as this area was completely covered by ice during the Last Glacial Maximum until as recently as 10000 years ago. Most species have therefore migrated from the south during the last thousands of years, with very few endemic species constituting exceptions. Most groups show relatively low diversity, both at a local scale (alpha diversity) and when comparing sites on their composition (beta diversity). Low diversity, mainly of endemics and a long tradition of taxonomic work for most groups, means that Finnish fauna and flora are well-known, to the point that Finland currently is the only country worldwide where a full set of organisms, from vascular plants and arthropods to birds and mammals, have already been assessed twice for their threat level according to the International Union for the Conservation of Nature (<xref ref-type="bibr" rid="B3743957">Rassi et al. 2001</xref>, <xref ref-type="bibr" rid="B3743948">Rassi et al. 2010</xref>, <xref ref-type="bibr" rid="B3743966">Juslén et al. 2013</xref>, <xref ref-type="bibr" rid="B3743933">Juslén et al. 2016</xref>).</p>
+      <p>In Finland and despite obvious knowledge gaps on the distribution of species - the Wallacean Shortfall (<xref ref-type="bibr" rid="B3744105">Lomolino 2004</xref>, <xref ref-type="bibr" rid="B3744119">Cardoso et al. 2011</xref>), spiders are particularly well-known. Seppo Koponen recently described the history of Finnish arachnology (<xref ref-type="bibr" rid="B3744009">Koponen 2010</xref>). The first list of Finnish spider species was published by A. von Nordmann in 1863 with 140 species (<xref ref-type="bibr" rid="B3744024">von Nordmann 1863</xref>). By the beginning of the twentieth century, F. W. Mäklin, K. E. Odenwall and T. H. Järvi had increased the list to 255 species (<xref ref-type="bibr" rid="B3744045">Mäklin 1874</xref>, <xref ref-type="bibr" rid="B3744085">Odenwall and Järvi 1901</xref>, <xref ref-type="bibr" rid="B3744179">Järvi 1906</xref>). Later, major taxonomic and faunistic work directed to spiders has been done mainly by P. Palmgren (e.g. <xref ref-type="bibr" rid="B3744189">Palmgren 1939</xref>, <xref ref-type="bibr" rid="B3744199">Palmgren 1943</xref>, <xref ref-type="bibr" rid="B3744209">Palmgren 1950</xref>, <xref ref-type="bibr" rid="B3744219">Palmgren 1974a</xref>, <xref ref-type="bibr" rid="B3744229">Palmgren 1974b</xref>, <xref ref-type="bibr" rid="B3744239">Palmgren 1975</xref>, <xref ref-type="bibr" rid="B3744249">Palmgren 1976</xref>, <xref ref-type="bibr" rid="B3744282">Palmgren 1977</xref>), P. Lehtinen (e.g. <xref ref-type="bibr" rid="B3744529">Lehtinen 1964</xref>, <xref ref-type="bibr" rid="B3744539">Lehtinen et al. 1979</xref>) and S. Koponen (e.g. <xref ref-type="bibr" rid="B3744549">Koponen 1977</xref>, <xref ref-type="bibr" rid="B3744559">Koponen 1999</xref>, <xref ref-type="bibr" rid="B3744619">Koponen et al. 2007</xref>), with more recent additions by T. Pajunen (e.g. <xref ref-type="bibr" rid="B3744609">Pajunen et al. 2009</xref>, <xref ref-type="bibr" rid="B3744579">Pajunen and Väisänen 2015</xref>) and N. Fritzén (e.g. <xref ref-type="bibr" rid="B3744589">Fritzén 2005</xref>, <xref ref-type="bibr" rid="B3744599">Fritzén 2012</xref>, <xref ref-type="bibr" rid="B3744630">Fritzén et al. 2015</xref>). Currently, this list consists of 647 species (<xref ref-type="bibr" rid="B3744520">Koponen et al. 2016</xref>).</p>
+      <p>The last arachnological paper by Järvi described the spider fauna around the Tvärminne Zoological Station of the University of Helsinki, in southeast Hankoniemi, listing about 150 species (<xref ref-type="bibr" rid="B3744407">Järvi 1916</xref>). Some decades later, Palmgren dedicated extensive and long-lasting research to this same area, reporting 425 species (<xref ref-type="bibr" rid="B3744509">Palmgren 1972</xref>). This region now has one of the best known spider faunas worldwide. The peninsula of Hanko (Hankoniemi) is the southernmost region of Finland, lying just south of 60 degrees north. Its bedrock is a mixture of Precambrian bedrock and a recent end-moraine complex, running as a continuous ridge from the Russian Karelia through the whole of southern Finland and even further into the northern Baltic Sea. Hankoniemi is therefore dominated by moraine or sandy soils, interspersed with strips of calciferous minerals. The area is comparatively rich, with a number of different biotopes and high species richness for the region (it harbours about 15% of the endangered species of Finland). The main habitat type is pine forest (dominated by <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pinus">Pinus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="sylvestris">sylvestris</tp:taxon-name-part></tp:taxon-name></italic>), often over consolidated dunes fields. Yet, mixed spruce (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Picea">Picea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="abies">abies</tp:taxon-name-part></tp:taxon-name></italic>) and mixed forests are also very common in smaller areas.</p>
+      <p>During a field course on spider taxonomy and ecology at the University of Helsinki, the authors had the opportunity to sample four plots with the dual objective of both teaching on field methods, spider identification and behaviour and uncovering the spider diversity patterns found in the southern coastal forests of Hankoniemi. As an ultimate goal, this field course intended to contribute to a global project that intends to uncover spider diversity patterns worldwide (see <ext-link ext-link-type="uri" xlink:href="http://biodiversityresearch.org/research/biogeography/" xlink:type="simple">http://biodiversityresearch.org/research/biogeography/</ext-link>). With that purpose, a set of standardised methods and procedures was followed (<xref ref-type="bibr" rid="B3744645">Cardoso 2009</xref>) that allow the comparability of obtained data with numerous other samples being conducted across all continents. By doing so, these data are guaranteed to be reused for multiple future projects currently being implemented.</p>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Study extent">
+        <title>Study extent</title>
+        <p>Four 50 x 50 m plots following a west to east transect were selected for sampling (Table <xref ref-type="table" rid="T3744644">1</xref>). All were in mixed coastal forests dominated by Norway spruce and Scots pine at sea level (0 - 10 m). Plots 1 and 2 were separated by about 100 m, plot 3 was 1.8 km and plot 4 was 5 km from the first (Fig. <xref ref-type="fig" rid="F3744891">1</xref>).</p>
+        <p><bold>Study dates</bold>: Samples were collected in June 2016, with all but pitfall trapping being conducted on the 13th and 14th. Pitfall traps were left in the field between the 13th and 26th of June 2016.</p>
+      </sec>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>The COBRA - Conservation Oriented Biodiversity Rapid Assessment - protocol at the four plots was followed. This protocol, first proposed for Mediterranean spiders (<xref ref-type="bibr" rid="B3744645">Cardoso 2009</xref>) and very recently adapted for and being applied both on the tropics (<xref ref-type="bibr" rid="B3744670">Malumbres-Olarte et al. 2016</xref>) and islands (<xref ref-type="bibr" rid="B3744655">Emerson et al. 2017</xref>) involves night aerial sampling (4 hours/plot), day/night sweeping (4 hours/plot), day/night beating (4 hours/plot) and pitfall traps (48 traps distributed for 12 samples). In total, it involves about 24 hours of effective work per site (see <xref ref-type="bibr" rid="B3744645">Cardoso 2009</xref> for details).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>Hankoniemi, Finland</p>
+      </sec>
+      <sec sec-type="Coordinates">
+        <title>Coordinates</title>
+        <p>59.8 and 59.9 Latitude; 23.0 and 23.3 Longitude.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Taxa included">
+        <title>Taxa included</title>
+        <table-wrap id="taxonomic_coverage" position="anchor" orientation="portrait">
+          <table rules="all">
+            <thead>
+              <tr>
+                <th rowspan="1" colspan="1">Rank</th>
+                <th rowspan="1" colspan="1">Scientific Name</th>
+                <th rowspan="1" colspan="1">Common Name</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">order</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1">Spiders</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <p><bold>Data range:</bold> 2016-6-13 – 2016-6-26.</p>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Open Data Commons Attribution License</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>COBRA_Finland_Hankoniemi</p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="http://ipt.pensoft.net/resource?r=cobra_hankoniemi_finland" xlink:type="simple">http://ipt.pensoft.net/resource?r=cobra_hankoniemi_finland</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>1</p>
+      </sec>
+    </sec>
+    <sec sec-type="Additional information">
+      <title>Additional information</title>
+      <p><bold>Results</bold>: A total of 104 species and 1997 adults was collected (Table <xref ref-type="table" rid="T3744682">2</xref>, voucher specimens are deposited at the Finnish Museum of Natural History). Of these, 41 species (39%) were <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part></tp:taxon-name> and 13 (12%) <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Theridiidae</tp:taxon-name-part></tp:taxon-name>. All other families had 6 or less species represented. <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part></tp:taxon-name> were also dominant in terms of adult individuals captured, with 1015 (51%), followed by 428 (21%) <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Lycosidae</tp:taxon-name-part></tp:taxon-name>, 158 (8%) <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Tetragnathidae</tp:taxon-name-part></tp:taxon-name> and 145 (7%) <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Theridiidae</tp:taxon-name-part></tp:taxon-name>. All other families had less than 100 individuals. The most abundant species were <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Neriene">Neriene</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="peltata">peltata</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Alopecosa">Alopecosa</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="taeniata">taeniata</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Piratula">Piratula</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="hygrophila">hygrophila</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Dismodicus">Dismodicus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="elevatus">elevatus</tp:taxon-name-part></tp:taxon-name></italic>, all with more than 100 individuals. All sites had between 56 and 62 species and between 445 and 569 individuals.</p>
+      <p><bold>Remarks</bold>: The vast majority of species are widespread in Finland and most of Europe. The most notable exception is the uloborid <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hyptiotes">Hyptiotes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="paradoxus">paradoxus</tp:taxon-name-part></tp:taxon-name></italic> (C. L. Koch, 1834), found for the first time on the Finnish mainland, although only represented here by two juveniles. The species was earlier known in Finland only from Ahvenanmaa, an archipelago on the south-western part of the country (<xref ref-type="bibr" rid="B3744686">Fritzén 2002</xref>) and should be a recent addition due to the effects of global warming that drive a northwards movement of many species until recently only recorded south of the country (<xref ref-type="bibr" rid="B3744630">Fritzén et al. 2015</xref>). Additionally, the linyphiid <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Entelecara">Entelecara</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="flavipes">flavipes</tp:taxon-name-part></tp:taxon-name></italic> was found in Finland just a few years ago in the region of Helsinki, about 100 km east from Hankoniemi (<xref ref-type="bibr" rid="B3744579">Pajunen and Väisänen 2015</xref>). Finally, the thomisid <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Diaea">Diaea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="dorsata">dorsata</tp:taxon-name-part></tp:taxon-name></italic>, which was considered threatened in the 1980s, is now numerous at Hankoniemi.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>We would like to thank Joanna Norkko and Riitta Savolainen for logistic support to the field course. Jagoba Malumbres-Olarte friendly reviewed a first draft of the paper.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B3744645">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Cardoso</surname>
+              <given-names>Pedro</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>Standardization and optimization of arthropod inventories—the case of Iberian spiders</article-title>
+          <source>Biodiversity and Conservation</source>
+          <volume>18</volume>
+          <issue>14</issue>
+          <fpage>3949</fpage>
+          <lpage>3962</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1007/s10531-009-9690-7</uri>
+          <pub-id pub-id-type="doi">10.1007/s10531-009-9690-7</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3744119">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Cardoso</surname>
+              <given-names>Pedro</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Erwin</surname>
+              <given-names>Terry L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Borges</surname>
+              <given-names>Paulo A. V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>New</surname>
+              <given-names>Tim R.</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>The seven impediments in invertebrate conservation and how to overcome them</article-title>
+          <source>Biological Conservation</source>
+          <volume>144</volume>
+          <issue>11</issue>
+          <fpage>2647</fpage>
+          <lpage>2655</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1016/j.biocon.2011.07.024</uri>
+          <pub-id pub-id-type="doi">10.1016/j.biocon.2011.07.024</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3744655">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Emerson</surname>
+              <given-names>Brent C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Casquet</surname>
+              <given-names>Juliane</given-names>
+            </name>
+            <name name-style="western">
+              <surname>López</surname>
+              <given-names>Heriberto</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cardoso</surname>
+              <given-names>Pedro</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Borges</surname>
+              <given-names>Paulo A. V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mollaret</surname>
+              <given-names>Noémy</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Oromí</surname>
+              <given-names>Pedro</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Strasberg</surname>
+              <given-names>Dominique</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Thébaud</surname>
+              <given-names>Christophe</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>A combined field survey and molecular identification protocol for comparing forest arthropod biodiversity across spatial scales</article-title>
+          <source>Molecular Ecology Resources</source>
+          <volume>17</volume>
+          <issue>4</issue>
+          <fpage>694</fpage>
+          <lpage>707</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1111/1755-0998.12617</uri>
+          <pub-id pub-id-type="doi">10.1111/1755-0998.12617</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3744686">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Fritzén</surname>
+              <given-names>N. R.</given-names>
+            </name>
+          </person-group>
+          <year>2002</year>
+          <article-title><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hyptiotes">Hyptiotes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="paradoxus">paradoxus</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Uloboridae</tp:taxon-name-part></tp:taxon-name>) found on the Åland Islands – a species new to Finland</article-title>
+          <source>Memoranda Societatis pro Fauna et Flora Fennica</source>
+          <volume>78</volume>
+          <fpage>3</fpage>
+          <lpage>7</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3744589">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Fritzén</surname>
+              <given-names>N. R.</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <article-title>Larinioides sclopetarius and Agalenatea redii (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Araneidae</tp:taxon-name-part></tp:taxon-name>) – two spider species new to Finland</article-title>
+          <source>Memoranda Societatis Fauna et Flora Fennica</source>
+          <volume>81</volume>
+          <fpage>108</fpage>
+          <lpage>110</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3744599">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Fritzén</surname>
+              <given-names>N. R.</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Micaria">Micaria</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="lenzi">lenzi</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Clubiona">Clubiona</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="juvenis">juvenis</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Gnaphosidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Clubionidae</tp:taxon-name-part></tp:taxon-name>), two spider species new to the dune fauna of Finland</article-title>
+          <source>Memoranda Societatis pro Fauna et Flora Fennica</source>
+          <volume>88</volume>
+          <fpage>5</fpage>
+          <lpage>7</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3744630">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Fritzén</surname>
+              <given-names>N. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Koponen</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pajunen</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Mangora">Mangora</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="acalypha">acalypha</tp:taxon-name-part></tp:taxon-name></italic> new to Finland, with notes on other araneid species spreading northwards (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Araneidae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Memoranda Societatis pro Fauna et Flora Fennica</source>
+          <volume>90</volume>
+          <fpage>33</fpage>
+          <lpage>36</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3744179">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Järvi</surname>
+              <given-names>T. H.</given-names>
+            </name>
+          </person-group>
+          <year>1906</year>
+          <article-title>Einige aus dem finnischen Faunengebiete bisher unbekannte Araneen</article-title>
+          <source>Meddelanden af Societas pro Fauna et Flora Fennica</source>
+          <volume>32</volume>
+          <fpage>68</fpage>
+          <lpage>69</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3744407">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Järvi</surname>
+              <given-names>T. H.</given-names>
+            </name>
+          </person-group>
+          <year>1916</year>
+          <article-title>Die araneenfauna in der Umgebung von Tvärminne (Süd-Finnland)</article-title>
+          <source>Acta Societatis pro Fauna et Flora Fennica</source>
+          <volume>44</volume>
+          <fpage>1</fpage>
+          <lpage>46</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3743966">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Juslén</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hyvärinen</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Virtanen</surname>
+              <given-names>L. K.</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Application of the Red-List Index at a National Level for Multiple Species Groups</article-title>
+          <source>Conservation Biology</source>
+          <volume>27</volume>
+          <issue>2</issue>
+          <fpage>398</fpage>
+          <lpage>406</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1111/cobi.12016</uri>
+          <pub-id pub-id-type="doi">10.1111/cobi.12016</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3743933">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Juslén</surname>
+              <given-names>Aino</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pykälä</surname>
+              <given-names>Juha</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kuusela</surname>
+              <given-names>Saija</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kaila</surname>
+              <given-names>Lauri</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kullberg</surname>
+              <given-names>Jaakko</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mattila</surname>
+              <given-names>Jaakko</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Muona</surname>
+              <given-names>Jyrki</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Saari</surname>
+              <given-names>Sanna</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cardoso</surname>
+              <given-names>Pedro</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Application of the Red List Index as an indicator of habitat change</article-title>
+          <source>Biodiversity and Conservation</source>
+          <volume>25</volume>
+          <issue>3</issue>
+          <fpage>569</fpage>
+          <lpage>585</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1007/s10531-016-1075-0</uri>
+          <pub-id pub-id-type="doi">10.1007/s10531-016-1075-0</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3744549">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Koponen</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <year>1977</year>
+          <article-title>Spider fauna (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>) of Kevo area, northernmost Finland</article-title>
+          <source>Reprints of the Kevo Subarctic Research Station</source>
+          <volume>13</volume>
+          <fpage>48</fpage>
+          <lpage>62</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3744559">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Koponen</surname>
+              <given-names>Seppo</given-names>
+            </name>
+          </person-group>
+          <year>1999</year>
+          <article-title>Three species of spiders (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>) new to the fauna of Finland from the southwestern archipelago</article-title>
+          <source>Entomologica Fennica</source>
+          <volume>10</volume>
+          <fpage>6</fpage>
+          <lpage>6</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3744009">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Koponen</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <chapter-title>Arachnology in Finland. 1. From Laxmann to Palmgren</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Nentwig</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Entling</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kropf</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <source>European Arachnology 2008</source>
+          <publisher-name>Natural History Museum</publisher-name>
+          <publisher-loc>Bern</publisher-loc>
+          <size units="page">99-103</size>
+        </element-citation>
+      </ref>
+      <ref id="B3744520">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Koponen</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fritzén</surname>
+              <given-names>N. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pajunen</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Checklist of spiders in Finland (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <uri xlink:type="simple">http://biolcoll.utu.fi/arach/checklist_of_spiders_in_Finland.htm</uri>
+          <date-in-citation content-type="access-date">2017-08-16T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B3744619">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Koponen</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fritzén</surname>
+              <given-names>N. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pajunen</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Piirainen</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <article-title>Two orb-weavers new to Finland – <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Argiope">Argiope</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="bruennichi">bruennichi</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Neoscona">Neoscona</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="adianta">adianta</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Araneidae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Memoranda Societatis pro Fauna et Flora Fennica</source>
+          <volume>83</volume>
+          <fpage>20</fpage>
+          <lpage>21</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3744529">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lehtinen</surname>
+              <given-names>Pekka T.</given-names>
+            </name>
+          </person-group>
+          <year>1964</year>
+          <article-title>Additions to the spider fauna of southern and central Finland</article-title>
+          <source>Annales Zoologici Fennici</source>
+          <volume>1</volume>
+          <fpage>303</fpage>
+          <lpage>305</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3744539">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lehtinen</surname>
+              <given-names>P. T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Koponen</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Saaristo</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <year>1979</year>
+          <article-title>Studies on the spider fauna of the southwestern archipelago of Finland II. The Aland mainland and the island of Eckerö</article-title>
+          <source>Memoranda Societatis Fauna et Flora Fennica</source>
+          <volume>55</volume>
+          <fpage>33</fpage>
+          <lpage>52</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3744105">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lomolino</surname>
+              <given-names>M. V.</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <chapter-title>Conservation biogeography</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Lomolino</surname>
+              <given-names>M. V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Heaney</surname>
+              <given-names>L. R.</given-names>
+            </name>
+          </person-group>
+          <source>Frontiers of Biogeography: New Directions in the Geography of Nature</source>
+          <publisher-name>Sinauer Associates</publisher-name>
+          <publisher-loc>Sunderland, Massachusetts</publisher-loc>
+          <size units="page">293-296</size>
+        </element-citation>
+      </ref>
+      <ref id="B3744045">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Mäklin</surname>
+              <given-names>F. W.</given-names>
+            </name>
+          </person-group>
+          <year>1874</year>
+          <article-title>För Finlands fauna nya spindelarter</article-title>
+          <source>Ofversigt af Finska Vetenskaps-Societetens Förhandlingar</source>
+          <volume>16</volume>
+          <fpage>279</fpage>
+          <lpage>282</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3744670">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Malumbres-Olarte</surname>
+              <given-names>Jagoba</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Scharff</surname>
+              <given-names>Nikolaj</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pape</surname>
+              <given-names>Thomas</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Coddington</surname>
+              <given-names>Jonathan A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cardoso</surname>
+              <given-names>Pedro</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Gauging megadiversity with optimized and standardized sampling protocols: а case for tropical forest spiders</article-title>
+          <source>Ecology and Evolution</source>
+          <volume>7</volume>
+          <issue>2</issue>
+          <fpage>494</fpage>
+          <lpage>506</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1002/ece3.2626</uri>
+          <pub-id pub-id-type="doi">10.1002/ece3.2626</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3744085">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Odenwall</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Järvi</surname>
+              <given-names>T. H.</given-names>
+            </name>
+          </person-group>
+          <year>1901</year>
+          <article-title>Verzeichnis einiger für Finland neuer oder daselbst wenig beobachteter Araneen</article-title>
+          <source>Acta Societatis pro Fauna et Flora Fennica</source>
+          <volume>20</volume>
+          <fpage>1</fpage>
+          <lpage>12</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3744579">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Pajunen</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Väisänen</surname>
+              <given-names>R. A.</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>First records of spiders (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>) Baryphyma gowerense (Locket, 1965) (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part></tp:taxon-name>), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Entelecara">Entelecara</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="flavipes">flavipes</tp:taxon-name-part></tp:taxon-name> (Blackwall, 1834) (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part></tp:taxon-name>) and Rugathodes instabilis (O. P.-Cambridge, 1871) (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Theridiidae</tp:taxon-name-part></tp:taxon-name>) in Finland</article-title>
+          <source>Memoranda Societatis Fauna et Flora Fennica</source>
+          <volume>90</volume>
+          <fpage>44</fpage>
+          <lpage>50</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3744609">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Pajunen</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Koponen</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Saaristo</surname>
+              <given-names>M. I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Väisänen</surname>
+              <given-names>R. A.</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Walckenaeria">Walckenaeria</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="furcillata">furcillata</tp:taxon-name-part></tp:taxon-name></italic> (Menge, 1869) and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Walckenaeria">Walckenaeria</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="lepida">lepida</tp:taxon-name-part></tp:taxon-name></italic> (Kulczynski, 1885) in Finland (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Memoranda Societatis pro Fauna et Flora Fennica</source>
+          <volume>85</volume>
+          <fpage>79</fpage>
+          <lpage>85</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3744189">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Palmgren</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <year>1939</year>
+          <article-title>Die spinnenfauna Finnlands I. <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Lycosidae</tp:taxon-name-part></tp:taxon-name></article-title>
+          <source>Acta Zoologica Fennica</source>
+          <volume>25</volume>
+          <fpage>1</fpage>
+          <lpage>86</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3744199">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Palmgren</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <year>1943</year>
+          <article-title>Die spinnenfauna Finnlands II. <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Pisauridae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Oxyopidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Salticidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Clubionidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Anyphaenidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Sparassidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Ctenidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Drassidae</tp:taxon-name-part></tp:taxon-name></article-title>
+          <source>Acta Zoologica Fennica</source>
+          <volume>36</volume>
+          <fpage>1</fpage>
+          <lpage>112</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3744209">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Palmgren</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <year>1950</year>
+          <article-title>Die spinnenfauna Finnlands und Ostfennoskandiens III. <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Xysticidae</tp:taxon-name-part></tp:taxon-name> und <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Philodromidae</tp:taxon-name-part></tp:taxon-name></article-title>
+          <source>Acta Zoologica Fennica</source>
+          <volume>62</volume>
+          <fpage>1</fpage>
+          <lpage>43</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3744509">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Palmgren</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <year>1972</year>
+          <article-title>Studies on the spider populations of the surroundings of the Tvärminne Zoological Station, Finland</article-title>
+          <source>Commentationes Biologicae, Societas Scientiarum Fennica</source>
+          <volume>52</volume>
+          <fpage>1</fpage>
+          <lpage>133</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3744219">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Palmgren</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <year>1974</year>
+          <article-title>Die spinnenfauna Finnlands und Ostfennoskandiens IV. <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Argiopidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Tetragnathidae</tp:taxon-name-part></tp:taxon-name> und <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Mimetidae</tp:taxon-name-part></tp:taxon-name></article-title>
+          <source>Fauna Fennica</source>
+          <volume>24</volume>
+          <fpage>1</fpage>
+          <lpage>70</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3744229">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Palmgren</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <year>1974</year>
+          <article-title>Die spinnenfauna Finnlands und Ostfennoskandiens V. <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Theridiidae</tp:taxon-name-part></tp:taxon-name> und <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Nesticidae</tp:taxon-name-part></tp:taxon-name></article-title>
+          <source>Fauna Fennica</source>
+          <volume>26</volume>
+          <fpage>1</fpage>
+          <lpage>54</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3744239">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Palmgren</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <year>1975</year>
+          <article-title>Die spinnenfauna Finnlands und Ostfennoskandiens VI. <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part></tp:taxon-name> 1</article-title>
+          <source>Fauna Fennica</source>
+          <volume>28</volume>
+          <fpage>1</fpage>
+          <lpage>102</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3744249">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Palmgren</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <year>1976</year>
+          <article-title>Die spinnenfauna Finnlands und Ostfennoskandiens VII. <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part></tp:taxon-name> 2</article-title>
+          <source>Fauna Fennica</source>
+          <volume>29</volume>
+          <fpage>1</fpage>
+          <lpage>126</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3744282">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Palmgren</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <year>1977</year>
+          <article-title>Die spinnenfauna Finnlands und Ostfennoskandiens VIII. <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Argyronetidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Agelenidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Hahniidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Dictynidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Amaurobiidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Titanoecidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Segestriidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Pholcidae</tp:taxon-name-part></tp:taxon-name> und <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Sicariidae</tp:taxon-name-part></tp:taxon-name></article-title>
+          <source>Fauna Fennica</source>
+          <volume>30</volume>
+          <fpage>1</fpage>
+          <lpage>50</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3743957">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Rassi</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Alanen</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kanerva</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mannerkoski</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <year>2001</year>
+          <source>Suomen lajien uhanalaisuus 2000.</source>
+          <publisher-name>Ympäristöministeriö &amp; Suomen ympäristökeskus</publisher-name>
+          <publisher-loc>Helsinki</publisher-loc>
+        </element-citation>
+      </ref>
+      <ref id="B3743948">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Rassi</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hyvärinen</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Juslén</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mannerkoski</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <source>Suomen lajien uhanalaisuus—Punainen kirja 2010. The 2010 red list of Finnish species.</source>
+          <publisher-name>Ympäristoministeriö ja Suomen ympäristökeskus</publisher-name>
+          <publisher-loc>Helsink</publisher-loc>
+        </element-citation>
+      </ref>
+      <ref id="B3744024">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>von Nordmann</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <year>1863</year>
+          <article-title>Erstes Verzeichniss der in Finnland und Lappland bisher gefundenen Spinnen, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name></article-title>
+          <source>Bidrag till Finlands Naturkännedom, Etnografi och Statistik</source>
+          <volume>8</volume>
+          <fpage>1</fpage>
+          <lpage>39</lpage>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F3744891" position="float" orientation="portrait">
+      <object-id content-type="arpha">CCDDB958-3AE0-5466-99CD-3885CA4DFB98</object-id>
+      <object-id content-type="doi">10.3897/BDJ.5.e21010.figure1</object-id>
+      <object-id content-type="zenodo_dep_id">1137325</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Location of sampling plots in Hankoniemi, southern Finland. TZS = Tvärminne Zoological Station.</p>
+      </caption>
+      <graphic xlink:href="bdj-05-e21010-g001.png" position="float" id="oo_150907.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/150907</uri>
+      </graphic>
+    </fig>
+    <table-wrap id="T3744644" position="float" orientation="portrait">
+      <label>Table 1.</label>
+      <caption>
+        <p>Location of sampling plots.</p>
+      </caption>
+      <table rules="all" border="1">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">
+              <bold>Latitude</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Longitude</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Plot 1</td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">59.83226</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">23.14042</named-content>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Plot 2</td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">59.83281</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">23.14137</named-content>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Plot 3</td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">59.83779</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">23.17062</named-content>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Plot 4</td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">59.84147</named-content>
+            </td>
+            <td rowspan="1" colspan="1">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">23.22869</named-content>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T3744682" position="float" orientation="portrait">
+      <label>Table 2.</label>
+      <caption>
+        <p>Richness and abundance of species per plot (adults only).</p>
+      </caption>
+      <table rules="all" border="1">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Family</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Species</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Plot 1</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Plot 2</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Plot 3</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Plot 4</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Total</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Anyphaenidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Anyphaena">Anyphaena</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="accentuata">accentuata</tp:taxon-name-part></tp:taxon-name></italic> (Walckenaer, 1802)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">3</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Araneidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Araneus">Araneus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="marmoreus">marmoreus</tp:taxon-name-part></tp:taxon-name></italic> Clerck, 1757</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Araneidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Araneus">Araneus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="sturmi">sturmi</tp:taxon-name-part></tp:taxon-name></italic> (Hahn, 1831)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">5</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">10</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Araneidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Araniella">Araniella</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="cucurbitina">cucurbitina</tp:taxon-name-part></tp:taxon-name></italic> (Clerck, 1757)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">3</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Araneidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cyclosa">Cyclosa</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="conica">conica</tp:taxon-name-part></tp:taxon-name></italic> (Pallas, 1772)</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">3</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Araneidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Gibbaranea">Gibbaranea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="omoeda">omoeda</tp:taxon-name-part></tp:taxon-name></italic> (Thorell, 1870)</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">3</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Araneidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Leviellus">Leviellus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="stroemi">stroemi</tp:taxon-name-part></tp:taxon-name></italic> (Thorell, 1870)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Clubionidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Clubiona">Clubiona</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="comta">comta</tp:taxon-name-part></tp:taxon-name></italic> C. L. Koch, 1839</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">8</td>
+            <td rowspan="1" colspan="1">5</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">19</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Clubionidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Clubiona">Clubiona</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="lutescens">lutescens</tp:taxon-name-part></tp:taxon-name></italic> Westring, 1851</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">5</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Clubionidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Clubiona">Clubiona</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="subsultans">subsultans</tp:taxon-name-part></tp:taxon-name></italic> Thorell, 1875</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">4</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Dictynidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Dictyna">Dictyna</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="arundinacea">arundinacea</tp:taxon-name-part></tp:taxon-name></italic> (Linnaeus, 1758)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">5</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Dictynidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Dictyna">Dictyna</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pusilla">pusilla</tp:taxon-name-part></tp:taxon-name></italic> Thorell, 1856</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">7</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">18</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Dictynidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Lathys">Lathys</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="nielseni">nielseni</tp:taxon-name-part></tp:taxon-name></italic> (Schenkel, 1932)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Gnaphosidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Drassyllus">Drassyllus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="praeficus">praeficus</tp:taxon-name-part></tp:taxon-name></italic> (L. Koch, 1866)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Gnaphosidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Gnaphosa">Gnaphosa</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="bicolor">bicolor</tp:taxon-name-part></tp:taxon-name></italic> (Hahn, 1833)</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">7</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Gnaphosidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Haplodrassus">Haplodrassus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="signifer">signifer</tp:taxon-name-part></tp:taxon-name></italic> (C. L. Koch, 1839)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Gnaphosidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Haplodrassus">Haplodrassus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="soerenseni">soerenseni</tp:taxon-name-part></tp:taxon-name></italic> (Strand, 1900)</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">8</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Gnaphosidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Haplodrassus">Haplodrassus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="umbratilis">umbratilis</tp:taxon-name-part></tp:taxon-name></italic> (L. Koch, 1866)</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Gnaphosidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Zelotes">Zelotes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="clivicola">clivicola</tp:taxon-name-part></tp:taxon-name></italic> (L. Koch, 1870)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Hahniidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cryphoeca">Cryphoeca</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="silvicola">silvicola</tp:taxon-name-part></tp:taxon-name></italic> (C. L. Koch, 1834)</td>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1">12</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">24</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Agyneta">Agyneta</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="cauta">cauta</tp:taxon-name-part></tp:taxon-name></italic> (O. Pickard-Cambridge, 1902)</td>
+            <td rowspan="1" colspan="1">7</td>
+            <td rowspan="1" colspan="1">12</td>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">26</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Agyneta">Agyneta</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="ramosa">ramosa</tp:taxon-name-part></tp:taxon-name></italic> Jackson, 1912</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">5</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">10</td>
+            <td rowspan="1" colspan="1">17</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Agyneta">Agyneta</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="subtilis">subtilis</tp:taxon-name-part></tp:taxon-name></italic> (O. Pickard-Cambridge, 1863)</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">3</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Anguliphantes">Anguliphantes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="angulipalpis">angulipalpis</tp:taxon-name-part></tp:taxon-name></italic> (Westring, 1851)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Bathyphantes">Bathyphantes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="nigrinus">nigrinus</tp:taxon-name-part></tp:taxon-name></italic> (Westring, 1851)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Bathyphantes">Bathyphantes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="parvulus">parvulus</tp:taxon-name-part></tp:taxon-name></italic> (Westring, 1851)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">7</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ceratinella">Ceratinella</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="brevis">brevis</tp:taxon-name-part></tp:taxon-name></italic> (Wider, 1834)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Dicymbium">Dicymbium</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="tibiale">tibiale</tp:taxon-name-part></tp:taxon-name></italic> (Blackwall, 1836)</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Diplocentria">Diplocentria</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="bidentata">bidentata</tp:taxon-name-part></tp:taxon-name></italic> (Emerton, 1882)</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">3</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Diplocephalus">Diplocephalus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="picinus">picinus</tp:taxon-name-part></tp:taxon-name></italic> (Blackwall, 1841)</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Diplostyla">Diplostyla</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="concolor">concolor</tp:taxon-name-part></tp:taxon-name></italic> (Wider, 1834)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">8</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Dismodicus">Dismodicus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="elevatus">elevatus</tp:taxon-name-part></tp:taxon-name></italic> (C. L. Koch, 1838)</td>
+            <td rowspan="1" colspan="1">14</td>
+            <td rowspan="1" colspan="1">36</td>
+            <td rowspan="1" colspan="1">38</td>
+            <td rowspan="1" colspan="1">19</td>
+            <td rowspan="1" colspan="1">107</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Entelecara">Entelecara</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="congenera">congenera</tp:taxon-name-part></tp:taxon-name></italic> (O. Pickard-Cambridge, 1879)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Entelecara">Entelecara</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="erythropus">erythropus</tp:taxon-name-part></tp:taxon-name></italic> (Westring, 1851)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">8</td>
+            <td rowspan="1" colspan="1">9</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">17</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Entelecara">Entelecara</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="flavipes">flavipes</tp:taxon-name-part></tp:taxon-name></italic> (Blackwall, 1834)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Gongylidium">Gongylidium</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="rufipes">rufipes</tp:taxon-name-part></tp:taxon-name></italic> (Linnaeus, 1758)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">19</td>
+            <td rowspan="1" colspan="1">19</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hylyphantes">Hylyphantes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="graminicola">graminicola</tp:taxon-name-part></tp:taxon-name></italic> (Sundevall, 1830)</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">7</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hypomma">Hypomma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="cornutum">cornutum</tp:taxon-name-part></tp:taxon-name></italic> (Blackwall, 1833)</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">7</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Macrargus">Macrargus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="rufus">rufus</tp:taxon-name-part></tp:taxon-name></italic> (Wider, 1834)</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Maro">Maro</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="minutus">minutus</tp:taxon-name-part></tp:taxon-name></italic> O. Pickard-Cambridge, 1906</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Maso">Maso</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="sundevalli">sundevalli</tp:taxon-name-part></tp:taxon-name></italic> (Westring, 1851)</td>
+            <td rowspan="1" colspan="1">23</td>
+            <td rowspan="1" colspan="1">9</td>
+            <td rowspan="1" colspan="1">32</td>
+            <td rowspan="1" colspan="1">11</td>
+            <td rowspan="1" colspan="1">75</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Micrargus">Micrargus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="apertus">apertus</tp:taxon-name-part></tp:taxon-name></italic> (O. Pickard-Cambridge, 1871)</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Minyriolus">Minyriolus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pusillus">pusillus</tp:taxon-name-part></tp:taxon-name></italic> (Wider, 1834)</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">4</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Moebelia">Moebelia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="penicillata">penicillata</tp:taxon-name-part></tp:taxon-name></italic> (Westring, 1851)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Neriene">Neriene</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="clathrata">clathrata</tp:taxon-name-part></tp:taxon-name></italic> (Sundevall, 1830)</td>
+            <td rowspan="1" colspan="1">5</td>
+            <td rowspan="1" colspan="1">11</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">22</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Neriene">Neriene</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="peltata">peltata</tp:taxon-name-part></tp:taxon-name></italic> (Wider, 1834)</td>
+            <td rowspan="1" colspan="1">89</td>
+            <td rowspan="1" colspan="1">169</td>
+            <td rowspan="1" colspan="1">88</td>
+            <td rowspan="1" colspan="1">159</td>
+            <td rowspan="1" colspan="1">505</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Obscuriphantes">Obscuriphantes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="obscurus">obscurus</tp:taxon-name-part></tp:taxon-name></italic> (Blackwall, 1841)</td>
+            <td rowspan="1" colspan="1">20</td>
+            <td rowspan="1" colspan="1">12</td>
+            <td rowspan="1" colspan="1">5</td>
+            <td rowspan="1" colspan="1">8</td>
+            <td rowspan="1" colspan="1">45</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oedothorax">Oedothorax</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="gibbosus">gibbosus</tp:taxon-name-part></tp:taxon-name></italic> (Blackwall, 1841)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Palliduphantes">Palliduphantes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pallidus">pallidus</tp:taxon-name-part></tp:taxon-name></italic> (O. Pickard-Cambridge, 1871)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pelecopsis">Pelecopsis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="elongata">elongata</tp:taxon-name-part></tp:taxon-name></italic> (Wider, 1834)</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">5</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pityohyphantes">Pityohyphantes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="phrygianus">phrygianus</tp:taxon-name-part></tp:taxon-name></italic> (C. L. Koch, 1836)</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">7</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pocadicnemis">Pocadicnemis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pumila">pumila</tp:taxon-name-part></tp:taxon-name></italic> (Blackwall, 1841)</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">3</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Tenuiphantes">Tenuiphantes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="alacris">alacris</tp:taxon-name-part></tp:taxon-name></italic> (Blackwall, 1853)</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">15</td>
+            <td rowspan="1" colspan="1">21</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Tenuiphantes">Tenuiphantes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="cristatus">cristatus</tp:taxon-name-part></tp:taxon-name></italic> (Menge, 1866)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Tenuiphantes">Tenuiphantes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="tenebricola">tenebricola</tp:taxon-name-part></tp:taxon-name></italic> (Wider, 1834)</td>
+            <td rowspan="1" colspan="1">21</td>
+            <td rowspan="1" colspan="1">16</td>
+            <td rowspan="1" colspan="1">10</td>
+            <td rowspan="1" colspan="1">23</td>
+            <td rowspan="1" colspan="1">70</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Walckenaeria">Walckenaeria</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="antica">antica</tp:taxon-name-part></tp:taxon-name></italic> (Wider, 1834)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Walckenaeria">Walckenaeria</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="atrotibialis">atrotibialis</tp:taxon-name-part></tp:taxon-name></italic> (O. Pickard-Cambridge, 1878)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Walckenaeria">Walckenaeria</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="cucullata">cucullata</tp:taxon-name-part></tp:taxon-name></italic> (C. L. Koch, 1836)</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">12</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Walckenaeria">Walckenaeria</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="cuspidata">cuspidata</tp:taxon-name-part></tp:taxon-name></italic> Blackwall, 1833</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Walckenaeria">Walckenaeria</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="dysderoides">dysderoides</tp:taxon-name-part></tp:taxon-name></italic> (Wider, 1834)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Linyphiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Walckenaeria">Walckenaeria</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="nudipalpis">nudipalpis</tp:taxon-name-part></tp:taxon-name></italic> (Westring, 1851)</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Liocranidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Agroeca">Agroeca</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="brunnea">brunnea</tp:taxon-name-part></tp:taxon-name></italic> (Blackwall, 1833)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Lycosidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Alopecosa">Alopecosa</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="taeniata">taeniata</tp:taxon-name-part></tp:taxon-name></italic> (C. L. Koch, 1835)</td>
+            <td rowspan="1" colspan="1">87</td>
+            <td rowspan="1" colspan="1">72</td>
+            <td rowspan="1" colspan="1">61</td>
+            <td rowspan="1" colspan="1">61</td>
+            <td rowspan="1" colspan="1">281</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Lycosidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pardosa">Pardosa</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="lugubris">lugubris</tp:taxon-name-part></tp:taxon-name></italic> (Walckenaer, 1802)</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">14</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">23</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Lycosidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Piratula">Piratula</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="hygrophila">hygrophila</tp:taxon-name-part></tp:taxon-name></italic> (Thorell, 1872)</td>
+            <td rowspan="1" colspan="1">9</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">33</td>
+            <td rowspan="1" colspan="1">78</td>
+            <td rowspan="1" colspan="1">123</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Lycosidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Trochosa">Trochosa</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="terricola">terricola</tp:taxon-name-part></tp:taxon-name></italic> Thorell, 1856</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Mimetidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ero">Ero</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="furcata">furcata</tp:taxon-name-part></tp:taxon-name></italic> (Villers, 1789)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Miturgidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Zora">Zora</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="nemoralis">nemoralis</tp:taxon-name-part></tp:taxon-name></italic> (Blackwall, 1861)</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">3</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Miturgidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Zora">Zora</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="spinimana">spinimana</tp:taxon-name-part></tp:taxon-name></italic> (Sundevall, 1833)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">6</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Philodromidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Philodromus">Philodromus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="aureolus">aureolus</tp:taxon-name-part></tp:taxon-name></italic> (Clerck, 1757)</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">5</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Philodromidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Philodromus">Philodromus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="cespitum">cespitum</tp:taxon-name-part></tp:taxon-name></italic> (Walckenaer, 1802)</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Philodromidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Philodromus">Philodromus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="collinus">collinus</tp:taxon-name-part></tp:taxon-name></italic> C. L. Koch, 1835</td>
+            <td rowspan="1" colspan="1">5</td>
+            <td rowspan="1" colspan="1">10</td>
+            <td rowspan="1" colspan="1">9</td>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1">30</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Philodromidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Philodromus">Philodromus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="fuscomarginatus">fuscomarginatus</tp:taxon-name-part></tp:taxon-name></italic> (De Geer, 1778)</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">5</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Philodromidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Philodromus">Philodromus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="margaritatus">margaritatus</tp:taxon-name-part></tp:taxon-name></italic> (Clerck, 1757)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Phrurolithidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phrurolithus">Phrurolithus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="festivus">festivus</tp:taxon-name-part></tp:taxon-name></italic> (C. L. Koch, 1835)</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Pisauridae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pisaura">Pisaura</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mirabilis">mirabilis</tp:taxon-name-part></tp:taxon-name></italic> (Clerck, 1757)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Salticidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Evarcha">Evarcha</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="falcata">falcata</tp:taxon-name-part></tp:taxon-name></italic> (Clerck, 1757)</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">12</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">16</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Salticidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Neon">Neon</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="reticulatus">reticulatus</tp:taxon-name-part></tp:taxon-name></italic> (Blackwall, 1853)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Segestriidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Segestria">Segestria</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="senoculata">senoculata</tp:taxon-name-part></tp:taxon-name></italic> (Linnaeus, 1758)</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">3</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Tetragnathidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Metellina">Metellina</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mengei">mengei</tp:taxon-name-part></tp:taxon-name></italic> (Blackwall, 1869)</td>
+            <td rowspan="1" colspan="1">30</td>
+            <td rowspan="1" colspan="1">16</td>
+            <td rowspan="1" colspan="1">7</td>
+            <td rowspan="1" colspan="1">29</td>
+            <td rowspan="1" colspan="1">82</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Tetragnathidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Metellina">Metellina</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="merianae">merianae</tp:taxon-name-part></tp:taxon-name></italic> (Scopoli, 1763)</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Tetragnathidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pachygnatha">Pachygnatha</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="listeri">listeri</tp:taxon-name-part></tp:taxon-name></italic> Sundevall, 1830</td>
+            <td rowspan="1" colspan="1">6</td>
+            <td rowspan="1" colspan="1">15</td>
+            <td rowspan="1" colspan="1">12</td>
+            <td rowspan="1" colspan="1">12</td>
+            <td rowspan="1" colspan="1">45</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Tetragnathidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Tetragnatha">Tetragnatha</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="dearmata">dearmata</tp:taxon-name-part></tp:taxon-name></italic> Thorell, 1873</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Tetragnathidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Tetragnatha">Tetragnatha</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="obtusa">obtusa</tp:taxon-name-part></tp:taxon-name></italic> C. L. Koch, 1837</td>
+            <td rowspan="1" colspan="1">7</td>
+            <td rowspan="1" colspan="1">7</td>
+            <td rowspan="1" colspan="1">5</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">22</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Tetragnathidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Tetragnatha">Tetragnatha</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pinicola">pinicola</tp:taxon-name-part></tp:taxon-name></italic> L. Koch, 1870</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">6</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Theridiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Enoplognatha">Enoplognatha</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="ovata">ovata</tp:taxon-name-part></tp:taxon-name></italic> (Clerck, 1757)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">4</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Theridiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Episinus">Episinus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="angulatus">angulatus</tp:taxon-name-part></tp:taxon-name></italic> (Blackwall, 1836)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">4</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Theridiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Euryopis">Euryopis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="flavomaculata">flavomaculata</tp:taxon-name-part></tp:taxon-name></italic> (C. L. Koch, 1836)</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">5</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Theridiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Neottiura">Neottiura</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="bimaculata">bimaculata</tp:taxon-name-part></tp:taxon-name></italic> (Linnaeus, 1767)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">7</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">7</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Theridiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Paidiscura">Paidiscura</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pallens">pallens</tp:taxon-name-part></tp:taxon-name></italic> (Blackwall, 1834)</td>
+            <td rowspan="1" colspan="1">15</td>
+            <td rowspan="1" colspan="1">5</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">15</td>
+            <td rowspan="1" colspan="1">39</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Theridiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Parasteatoda">Parasteatoda</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="lunata">lunata</tp:taxon-name-part></tp:taxon-name></italic> (Clerck, 1757)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1">4</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Theridiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phylloneta">Phylloneta</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="sisyphia">sisyphia</tp:taxon-name-part></tp:taxon-name></italic> (Clerck, 1757)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">4</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Theridiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Platnickina">Platnickina</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="tincta">tincta</tp:taxon-name-part></tp:taxon-name></italic> (Walckenaer, 1802)</td>
+            <td rowspan="1" colspan="1">9</td>
+            <td rowspan="1" colspan="1">9</td>
+            <td rowspan="1" colspan="1">11</td>
+            <td rowspan="1" colspan="1">11</td>
+            <td rowspan="1" colspan="1">40</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Theridiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Robertus">Robertus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="lividus">lividus</tp:taxon-name-part></tp:taxon-name></italic> (Blackwall, 1836)</td>
+            <td rowspan="1" colspan="1">9</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">16</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Theridiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Simitidion">Simitidion</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="simile">simile</tp:taxon-name-part></tp:taxon-name></italic> (C. L. Koch, 1836)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Theridiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Theridion">Theridion</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="mystaceum">mystaceum</tp:taxon-name-part></tp:taxon-name></italic> L. Koch, 1870</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">3</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Theridiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Theridion">Theridion</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pinastri">pinastri</tp:taxon-name-part></tp:taxon-name></italic> L. Koch, 1872</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Theridiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Theridion">Theridion</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="varians">varians</tp:taxon-name-part></tp:taxon-name></italic> Hahn, 1833</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">5</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1">15</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Thomisidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Diaea">Diaea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="dorsata">dorsata</tp:taxon-name-part></tp:taxon-name></italic> (Fabricius, 1777)</td>
+            <td rowspan="1" colspan="1">10</td>
+            <td rowspan="1" colspan="1">5</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">10</td>
+            <td rowspan="1" colspan="1">29</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Thomisidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ozyptila">Ozyptila</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="atomaria">atomaria</tp:taxon-name-part></tp:taxon-name></italic> (Panzer, 1801)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Thomisidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ozyptila">Ozyptila</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="trux">trux</tp:taxon-name-part></tp:taxon-name></italic> (Blackwall, 1846)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">8</td>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">13</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Thomisidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Xysticus">Xysticus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="audax">audax</tp:taxon-name-part></tp:taxon-name></italic> (Schrank, 1803)</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">3</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">4</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Thomisidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Xysticus">Xysticus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="luctuosus">luctuosus</tp:taxon-name-part></tp:taxon-name></italic> (Blackwall, 1836)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">4</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">5</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Thomisidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Xysticus">Xysticus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="obscurus">obscurus</tp:taxon-name-part></tp:taxon-name></italic> Collett, 1877</td>
+            <td rowspan="1" colspan="1">2</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">Species richness</td>
+            <td rowspan="1" colspan="1">56</td>
+            <td rowspan="1" colspan="1">62</td>
+            <td rowspan="1" colspan="1">62</td>
+            <td rowspan="1" colspan="1">57</td>
+            <td rowspan="1" colspan="1">104</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">Individuals</td>
+            <td rowspan="1" colspan="1">445</td>
+            <td rowspan="1" colspan="1">516</td>
+            <td rowspan="1" colspan="1">467</td>
+            <td rowspan="1" colspan="1">569</td>
+            <td rowspan="1" colspan="1">1997</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+  </floats-group>
+</article>

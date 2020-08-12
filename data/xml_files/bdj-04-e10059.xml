@@ -1,0 +1,2361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="3.0" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.4.e10059</article-id>
+      <article-id pub-id-type="publisher-id">10059</article-id>
+      <article-id pub-id-type="manuscript">6137</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Coleoptera</subject>
+          <subject>Insecta</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Biodiversity &amp; Conservation</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>Alps</subject>
+          <subject>Europe</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Dung beetle (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Coleoptera</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="superfamily">Scarabaeoidea</tp:taxon-name-part></tp:taxon-name>) assemblages in the western Italian Alps: benchmark data for land use monitoring</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes" xlink:type="simple">
+          <name name-style="western">
+            <surname>Tocco</surname>
+            <given-names>Claudia</given-names>
+          </name>
+          <email xlink:type="simple">claudia.tocco@me.com</email>
+          <xref ref-type="aff" rid="A504">504</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Villet</surname>
+            <given-names>Martin H</given-names>
+          </name>
+          <xref ref-type="aff" rid="A504">504</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A504">
+        <label>504</label>
+        <addr-line content-type="verbatim">Department of Zoology and Entomology, Rhodes University, Grahamstown, South Africa</addr-line>
+        <institution xlink:type="simple">Department of Zoology and Entomology, Rhodes University</institution>
+        <addr-line content-type="city">Grahamstown</addr-line>
+        <country>South Africa</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Claudia Tocco (<email xlink:type="simple">claudia.tocco@me.com</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Andrey Frolov</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2016</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>28</day>
+        <month>11</month>
+        <year>2016</year>
+      </pub-date>
+      <volume>4</volume>
+      <elocation-id>e10059</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/7062FFE7-993E-0622-FFCF-8436FFE93649">7062FFE7-993E-0622-FFCF-8436FFE93649</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/178685">178685</uri>
+      <history>
+        <date date-type="received">
+          <day>01</day>
+          <month>08</month>
+          <year>2016</year>
+        </date>
+        <date date-type="accepted">
+          <day>24</day>
+          <month>11</month>
+          <year>2016</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Claudia Tocco, Martin Villet</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>Traditional agro-pastoral practices are in decline over much of the Alps (<xref ref-type="bibr" rid="B3364035">MacDonald et al. 2000</xref>), leading to shrub and tree encroachment, and this represents one of the main threats for the conservation of alpine biodiversity, as many plant and animal species are dependent on the presence of semi-natural open habitats. However, quantifying this environmental change and assessing its impact on biodiversity may be difficult, especially in the context of sparse historical survey data. The accessibility of contemporary data about local biodiversity surveys in general, and indicator taxa in particular, is an essential consideration for planning future evaluations of conservation status in the Alps and for conservation plans that use ecological indicators to monitor temporal changes in biodiversity. Dung beetles are important ecosystem service providers (<xref ref-type="bibr" rid="B3364080">Nichols et al. 2008</xref>) that have been assessed as a good ecological indicator taxon in several studies (reviewed by <xref ref-type="bibr" rid="B3364106">Nichols and Gardner 2011</xref>), and although the Alps is perhaps one of the best-studied regions in respect of dung beetles, there are still only eight readily-accessible publications. We have augmented and comprehensively reviewed the data from these publications.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>We first provide data about changes on a temporal scale of seasons in a dung beetle community in the western Italian Alps, an issue that has to be addressed in the local assemblages because it would affect regional biomonitoring and conservation research. This survey of 12 099 individuals belonging to 22 species illustrates a distinct seasonal pattern at a single site. Second, we collate the results of 13 published surveys of the presence of 46 species of dung beetles in 11 valleys in the western Italian Alps in the period from 2005 to 2012, a period of accelerated change in land use that started around 1945 (<xref ref-type="bibr" rid="B3364035">MacDonald et al. 2000</xref>). Because ten of the surveys used baited pitfall traps and four more used manual collection of specimens, the abundance data were not strictly comparable and they were therefore transformed to binary data (presence-or-absence records) with measures of sampling effort. The results illustrate both spatial variation and temporal variation at the scale of years.Because of the importance of dung beetles in agro-pastoral ecosystems and the high sensitivity of montane ecosystems to climate change, these spatially and temporally explicit data sets provide important baseline information about western Italian Alpine dung beetles for investigations of the effects of land use change under ongoing climate change scenarios.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>Dung beetles</kwd>
+        <kwd>pitfall traps</kwd>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="subfamily">Scarabaeinae</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="subfamily">Aphodiinae</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="family">Geotrupidae</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>Italian Alps</kwd>
+        <kwd>seasonality.</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="2"/>
+        <table-count count="3"/>
+        <ref-count count="24"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>Traditional agro-pastoralism is declining over much of the Alps since 1945 (<xref ref-type="bibr" rid="B3364035">MacDonald et al. 2000</xref>), leading to the encroachment of woody vegetation that is a primary threat for conservation of alpine biodiversity because many species depend on the presence of semi-natural open habitats (<xref ref-type="bibr" rid="B3364015">Chamberlain et al. 2013</xref>, <xref ref-type="bibr" rid="B3364049">Marini et al. 2009</xref>, <xref ref-type="bibr" rid="B3364070">Maurer et al. 2006</xref>). Appropriate means of monitoring changes in biodiversity are important in these environments as a part of managing the ecological services provided by alpine communities.</p>
+      <p>Many of the environmental effects produced by livestock are mediated by dung beetles' activities. Dung beetles are coprophagous members of the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Scarabaeinae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Aphodiinae</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Geotrupidae</tp:taxon-name-part></tp:taxon-name> and are the dominant faunal component of vertebrate dung. Dung beetles bring many benefits to animal health and human welfare, especially in agro-environmental contexts, by manipulating livestock faeces during their feeding and nesting activities, and thus providing ecosystem functions including dung removal; relocation of nutrients into the soil; enhancement of soil porosity, aeration and water infiltration; and control of the abundance of dung-breeding flies and dung-dispersed nematodes and protozoa (<xref ref-type="bibr" rid="B3364080">Nichols et al. 2008</xref>, <xref ref-type="bibr" rid="B3364120">Spector 2006</xref>). Dung beetles also satisfy biological and logistical criteria for the selection of bioindicators (e.g <xref ref-type="bibr" rid="B3364060">McGeoch 1998</xref>) and they are assessed as a good ecological indicator group (<xref ref-type="bibr" rid="B3364106">Nichols and Gardner 2011</xref>).</p>
+      <p>Several studies have demonstrated the key role of tropical dung beetle assemblages as ecological indicators, whilst numerous others have described local dung beetle communities at temperate latitudes in Europe with particular focus on montane areas in France, but there is a paucity of studies on dung beetle communities in the Italian Alps. We synthesize data from published studies carried out in the western Italian Alps in the last decade (<xref ref-type="bibr" rid="B3364003">Chamberlain et al. 2015</xref>, <xref ref-type="bibr" rid="B3364130">Tocco et al. 2013a</xref>, <xref ref-type="bibr" rid="B3364202">Tocco et al. 2013b</xref>, <xref ref-type="bibr" rid="B3364238">Negro et al. 2011a</xref>, <xref ref-type="bibr" rid="B3364025">Macagno and Palestrini 2009</xref>, <xref ref-type="bibr" rid="B3364300">Palestrini et al. 2008a</xref>, <xref ref-type="bibr" rid="B3364314">Palestrini et al. 2008b</xref>) with new survey data from the same region. The new survey data that show that season may be an important variable in future surveys of dung beetle communities’ conservation status and their use as ecological indicators (cf. <xref ref-type="bibr" rid="B3364130">Tocco et al. 2013a</xref>). They also suggest that surveys should rely less on quantitative data about abundance, which may change with season and weather, and more on binary data about presence or absence, which are more robust to such fluctuations. For this reason, we have tabulated the published data as binary presence / absence data (Table <xref ref-type="table" rid="T3365032">3</xref>).</p>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Study extent">
+        <title>Study extent</title>
+        <p>To assess the effects of seasonality on alpine dung beetle assemblages, data were collected from a site in the Troncea valley (termed the Troncea B site) in the western Italian Alps over four occasions in 2011.</p>
+        <p>Historically, surveys specifically focused on dung beetles in the western Italian Alps have occurred a total of thirteen occasions, spread unevenly across eleven valleys (the Argentera, Chalamy, Champorcher, Ferret, Gressoney, Grande, Lourousa, Sessera, Troncea, Valletta and Veny valleys) and the years 2005 to 2012 (<xref ref-type="bibr" rid="B3364003">Chamberlain et al. 2015</xref>, <xref ref-type="bibr" rid="B3364130">Tocco et al. 2013a</xref>, <xref ref-type="bibr" rid="B3364202">Tocco et al. 2013b</xref>, <xref ref-type="bibr" rid="B3364238">Negro et al. 2011a</xref>, <xref ref-type="bibr" rid="B3364228">Negro et al. 2011b</xref>, <xref ref-type="bibr" rid="B3364025">Macagno and Palestrini 2009</xref>, <xref ref-type="bibr" rid="B3364300">Palestrini et al. 2008a</xref>, <xref ref-type="bibr" rid="B3364314">Palestrini et al. 2008b</xref>) (Fig. <xref ref-type="fig" rid="F3364358">1</xref>). The location and climatic characteristics of the valleys are summarised in (Table <xref ref-type="table" rid="T3364865">1</xref>).</p>
+      </sec>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>Seasonal sampling at Troncea B was carried out using pitfall traps with bait suspended over them using a tripod (<xref ref-type="bibr" rid="B3364130">Tocco et al. 2013a</xref>, <xref ref-type="bibr" rid="B3364202">Tocco et al. 2013b</xref>,<xref ref-type="bibr" rid="B3368638">Tocco et al. 2016</xref>). Each trap consisted of a 1.5 l clear plastic bottle, 9 cm in diameter, cut horizontally about 25 cm from its bottom: the top was cut and inverted to make a funnel that was inserted into the main 25 cm container. The bait, 200 g of fresh cow dung, was wrapped in gauze and suspended over the trap just above the funnel using a tripod made with three 50 cm-long sticks. A standard mixture of water, liquid soap (to reduce surface tension) and sodium chloride was used as a preserving fluid (<xref ref-type="bibr" rid="B3364130">Tocco et al. 2013a</xref>, <xref ref-type="bibr" rid="B3364202">Tocco et al. 2013b</xref>, <xref ref-type="bibr" rid="B3368638">Tocco et al. 2016</xref>). Trapped beetles were preserved, taken to the laboratory, dried, counted and identified to species level using dichotomous keys (<xref ref-type="bibr" rid="B3364952">Dellacasa and Dellacasa 2006</xref>, <xref ref-type="bibr" rid="B3364982">Paulian and Baraud 1982</xref>). Examination of aedeagus was necessary in the case of groups containing cryptic species (<xref ref-type="bibr" rid="B3364952">Dellacasa and Dellacasa 2006</xref>).</p>
+        <p>Four early published surveys carried out in the Chalamy, Champorcher, Ferret and Veny valleys in 2005-2006 used active manual collecting of dung beetles from dung pads (Table <xref ref-type="table" rid="T3364998">2</xref>). Ten later surveys in the Argentera, Chalamy, Ferret, Gressoney, Grande, Lourousa, Sessera, Troncea, Valletta and Veny valleys used pitfall traps baited with cow dung. The sampling effort (numbers of sampling sites, traps and events) reported in the original publications of each survey is collated in (Table <xref ref-type="table" rid="T3364998">2</xref>). The surveys were all carried out in summer (June to September), corresponding to the activity period of adult Alpine dung beetles, on 1-19 occasions within a year, over one or two years, depending on the particular survey. Because the surveys used different survey methods, their abundance data were not strictly comparable and their results were therefore transformed to binary data (presence-or-absence records) with measures of sampling effort and collated into a single dataset.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p><bold>Argentera valley (Piemonte, Italy)</bold>: larch forest (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Larix">Larix</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="decidua">decidua</tp:taxon-name-part></tp:taxon-name></italic> Miller), shrub (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Rhododendron">Rhododendron</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="ferrugineum">ferrugineum</tp:taxon-name-part></tp:taxon-name></italic> L), alpine meadow (graminaceous plant) and grassland (graminaceous plant). Elevations ranged from 2203 to 2500 m a.s.l. <bold>Chalamy valley (Valle d’Aosta, Italy)</bold>: beech forest (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Fagus">Fagus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="sylvatica">sylvatica</tp:taxon-name-part></tp:taxon-name></italic> L.), Scots pine forest (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pinus">Pinus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="sylvestris">sylvestris</tp:taxon-name-part></tp:taxon-name></italic> L.), mountain pine forest (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pinus">Pinus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="uncinata">uncinata</tp:taxon-name-part></tp:taxon-name></italic> Mill.) and pasture (graminaceous plant). Elevations ranged from 1002 to 1997 m a.s.l. <bold>Champorcher valley (Valle d’Aosta, Italy)</bold>: pasture (graminaceous plant). Elevation ranged from 1645 to 2584 m a.s.l. <bold>Ferret valley (Valle d’Aosta, Italy)</bold>: Coniferous forests (dominated by larch, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Larix">Larix</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="decidua">decidua</tp:taxon-name-part></tp:taxon-name></italic>), wet meadows, shrub (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Rhododendron">Rhododendron</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="ferrugineum">ferrugineum</tp:taxon-name-part></tp:taxon-name></italic> L. and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Vaccinium">Vaccinium</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="myrtillus">myrtillus</tp:taxon-name-part></tp:taxon-name></italic> L.), and anthropogenic woods for picnickers and pasture. Elevation ranged from 1500 to 2062 m a.s.l. <bold>Grande valley (Piemonte, Italy)</bold>: forest, shrub, alpine meadow, and grassland. Elevation ranged from 1753 to 2180 m a.s.l. <bold>Gressoney valley (Valle d’Aosta, Italy)</bold>: larch forest, shrub (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Juniperus">Juniperus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="nana">nana</tp:taxon-name-part></tp:taxon-name></italic> Willd), alpine meadow, and grassland. Elevation ranged from 1959 to 2772 m a.s.l. <bold>Lourousa and Valletta valleys (Piemonte, Italy)</bold>: pasture dominated by <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Festuca">Festuca</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="infraspecific-rank">gr.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="ovina">ovina</tp:taxon-name-part></tp:taxon-name>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Festuca">Festuca</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="scabriculmis">scabriculmis</tp:taxon-name-part></tp:taxon-name></italic>, and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Rumex">Rumex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="alpinus">alpinus</tp:taxon-name-part></tp:taxon-name></italic>. Elevation of Lourosa and Valletta sampling site was 1959 and 1743 m a.s.l., respectively. <bold>Sessera valley (Piemonte, Italy)</bold>: beech forest, pioneer forest (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Picea">Picea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="abies">abies</tp:taxon-name-part></tp:taxon-name></italic> L.), shrub (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Rhododendron">Rhododendron</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="ferrugineum">ferrugineum</tp:taxon-name-part></tp:taxon-name></italic> L) and pasture. Elevation ranged from 1000 to 1600 m a.s.l. <bold>Troncea valley (Piemonte, Italy)</bold>: shrub (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Rhododendron">Rhododendron</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="ferrugineum">ferrugineum</tp:taxon-name-part></tp:taxon-name></italic> L and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Juniperus">Juniperus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="nana">nana</tp:taxon-name-part></tp:taxon-name></italic> Willd). Elevations ranged from 1960 to 2360 m a.s.l. <bold>Veny valley (Valle d’Aosta, Italy)</bold>: pasture. Elevation ranged from 1550 to 2200 m a.s.l.</p>
+        <p>
+          <bold>Coordinates</bold>
+        </p>
+        <p><bold>Argentera valley</bold>: <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">44°54'N; 6°54'E</named-content>. <bold>Chalamy valley</bold>: <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">45°41'N; 7°38'E</named-content>. <bold>Champorcher valley</bold>: <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">45°36'N; 7°34'E</named-content>. <bold>Ferret valley</bold>: <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">45°50'N; 7°01'E</named-content>. <bold>Gressoney valley</bold>: <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">45°51'N; 7°48'E</named-content>. <bold>Grande valley</bold>: <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">45°22'N; 7°16'E</named-content>. <bold>Lourousa valley</bold>: <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">44°12'N; 7°16'E</named-content>. <bold>Sessera valley</bold>: <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">45°40'N; 8°05´E</named-content>. <bold>Troncea valley</bold>: <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">44° 57’N, 6°. 57’E</named-content>. <bold>Valletta valley</bold>: <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">44°10'N; 7°16'E</named-content>. <bold>Veny valley</bold>: <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">45°46'N; 6°52'E</named-content>.</p>
+      </sec>
+      <sec sec-type="Coordinates">
+        <title>Coordinates</title>
+        <p> and  Latitude;  and  Longitude.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The published surveys collectively report 46 species of dung beetle inhabiting eleven valleys of the western Italian Alps, surveyed irregularly over seven years Table 3. The communities in all valleys were dominated by <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Aphodiinae</tp:taxon-name-part></tp:taxon-name> Leach, 1815, both by abundance and by species richness. <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Geotrupidae</tp:taxon-name-part></tp:taxon-name> Latreille, 1802 and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Scarabaeidae</tp:taxon-name-part></tp:taxon-name> Latreille, 1802 form a smaller part of the communities, the proportion depending on the valley. Our nomenclature follows <xref ref-type="bibr" rid="B3439395">Dellacasa and Dellacasa (2016)</xref>. In the table we listed <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Onthophagus">Onthophagus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="vacca">vacca</tp:taxon-name-part></tp:taxon-name></italic> Linnaeus recorded by <xref ref-type="bibr" rid="B3364025">Macagno and Palestrini (2009)</xref> from Chalamy valley, but this record my pertain to <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Onthophagus">Onthophagus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="medius">medius</tp:taxon-name-part></tp:taxon-name></italic> (Kugelann) (see <xref ref-type="bibr" rid="B3480653">Rössner et al. 2010</xref>).</p>
+        <p>The Troncea B survey collected a total of 22 dung beetle species belonging to the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Scarabaeidae</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Aphodiinae</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Scarabaeinae</tp:taxon-name-part></tp:taxon-name>) and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Geotrupidae</tp:taxon-name-part></tp:taxon-name> (Suppl. material <xref ref-type="supplementary-material" rid="S3439564">1</xref>). Voucher material is deposited in the Department of Life Sciences and System Biology, University of Torino, Italy.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <p><bold>Data range:</bold> 2005-6-01 – 2012-9-30.</p>
+      <sec sec-type="Notes">
+        <title>Notes</title>
+        <p><bold>Argentera, Grande and Gressoney valleys</bold>: trapping was carried out during four sampling occasions in August and September 2010. <bold>Chalamy valley</bold>: trapping lasted from July to September 2007, and all traps were emptied and re-baited every week for a total of eleven sampling occasions. <bold>Champorcher valley</bold>: active manual collection was carried out in an unspecified number of sampling occasions in 2005 and 2006. <bold>Ferret valley</bold>: active manual collection occurred on 23 sampling occasions from June to September 2005, and trapping was carried out from June to October 2007 for a total of nineteen sampling occasions. <bold>Lourousa and Valletta valleys</bold>: trapping ran from June to September 2008, and traps were emptied every 3wk for a total of 5 sampling occasions. <bold>Sessera valley</bold>: trapping lasted from early June to late September 2010, all traps were emptied and re-baited every 3 weeks for a total of 5 sampling occasions. <bold>Troncea valley</bold>: trapping occurred on four occasion from July to September 2011 (Troncea B), and on six occasion from June to September 2011 and 2012. <bold>Veny valley</bold>: active manual collection occurred from June to September 2005 on 12 sampling occasions.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Creative Commons Public Domain Waiver (CC-Zero)</p>
+      </sec>
+      <sec sec-type="IP rights notes">
+        <title>IP rights notes</title>
+        <p>These data can be freely used, provided their source is cited.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>Dung beetles of Troncea B</p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>1</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Troncea B</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>33</p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>Dung beetles collected from a site in the Troncea valley (termed the Troncea B site) in the western Italian Alps over four occasions in 2011.</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">Date</td>
+                  <td rowspan="1" colspan="1">Date of the sample collection</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Valley</td>
+                  <td rowspan="1" colspan="1">Name of the sampling area</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Year</td>
+                  <td rowspan="1" colspan="1">Year of sample collection</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Month</td>
+                  <td rowspan="1" colspan="1">Month of sample collection</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Sampling occasion</td>
+                  <td rowspan="1" colspan="1">Code of sampling occasion</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Dominant plant species</td>
+                  <td rowspan="1" colspan="1">Dominat plant species of the sample site</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Altitude</td>
+                  <td rowspan="1" colspan="1">Altitude in metre of the sample site</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Site</td>
+                  <td rowspan="1" colspan="1">Code of the sample site</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Number of traps</td>
+                  <td rowspan="1" colspan="1">Number of active traps</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Abundance</td>
+                  <td rowspan="1" colspan="1">Total dung beetle abundance</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Species richness</td>
+                  <td rowspan="1" colspan="1">Number of dung beetle species</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Acrossus">Acrossus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="depressus">depressus</tp:taxon-name-part></tp:taxon-name> (Kugelann)</td>
+                  <td rowspan="1" colspan="1">Dung beetle species</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Acrossus">Acrossus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="rufipes">rufipes</tp:taxon-name-part></tp:taxon-name> (Linnaeus)</td>
+                  <td rowspan="1" colspan="1">Dung beetle species</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Agoliinus">Agoliinus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="satyrus">satyrus</tp:taxon-name-part></tp:taxon-name> (Reitter)</td>
+                  <td rowspan="1" colspan="1">Dung beetle species</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Amidorus">Amidorus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="immaturus">immaturus</tp:taxon-name-part></tp:taxon-name> (Mulsant)</td>
+                  <td rowspan="1" colspan="1">Dung beetle species</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Amidorus">Amidorus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="obscurus">obscurus</tp:taxon-name-part></tp:taxon-name> (Mulsant &amp; Rey)</td>
+                  <td rowspan="1" colspan="1">Dung beetle species</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Anoplotrupes">Anoplotrupes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="stercorosus">stercorosus</tp:taxon-name-part></tp:taxon-name> (Scriba)</td>
+                  <td rowspan="1" colspan="1">Dung beetle species</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Aphodius">Aphodius</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="fimetarius">fimetarius</tp:taxon-name-part></tp:taxon-name> (Linnaeus)</td>
+                  <td rowspan="1" colspan="1">Dung beetle species</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Bodilopsis">Bodilopsis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="rufa">rufa</tp:taxon-name-part></tp:taxon-name> (Moll)</td>
+                  <td rowspan="1" colspan="1">Dung beetle species</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Colobopterus">Colobopterus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="erraticus">erraticus</tp:taxon-name-part></tp:taxon-name> (Linnaeus)</td>
+                  <td rowspan="1" colspan="1">Dung beetle species</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Coprimorphus">Coprimorphus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="scrutator">scrutator</tp:taxon-name-part></tp:taxon-name> (Herbst)</td>
+                  <td rowspan="1" colspan="1">Dung beetle species</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Esymus">Esymus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pusillus">pusillus</tp:taxon-name-part></tp:taxon-name> (Herbst)</td>
+                  <td rowspan="1" colspan="1">Dung beetle species</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Euheptaulacus">Euheptaulacus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="carinatus">carinatus</tp:taxon-name-part></tp:taxon-name> (Germar)</td>
+                  <td rowspan="1" colspan="1">Dung beetle species</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Geotrupes">Geotrupes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="stercorarius">stercorarius</tp:taxon-name-part></tp:taxon-name> (Linnaeus)</td>
+                  <td rowspan="1" colspan="1">Dung beetle species</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Onthophagus">Onthophagus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="baraudi">baraudi</tp:taxon-name-part></tp:taxon-name> (Nicolas)</td>
+                  <td rowspan="1" colspan="1">Dung beetle species</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Onthophagus">Onthophagus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="fracticornis">fracticornis</tp:taxon-name-part></tp:taxon-name> (Preyssler)</td>
+                  <td rowspan="1" colspan="1">Dung beetle species</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oromus">Oromus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="alpinus">alpinus</tp:taxon-name-part></tp:taxon-name> (Scopoli)</td>
+                  <td rowspan="1" colspan="1">Dung beetle species</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Otophorus">Otophorus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="haemorrhoidalis">haemorrhoidalis</tp:taxon-name-part></tp:taxon-name> (Linnaeus)</td>
+                  <td rowspan="1" colspan="1">Dung beetle species</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Parammoecius">Parammoecius</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="corvinus">corvinus</tp:taxon-name-part></tp:taxon-name> (Erichson)</td>
+                  <td rowspan="1" colspan="1">Dung beetle species</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Planolinus">Planolinus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="fasciatus">fasciatus</tp:taxon-name-part></tp:taxon-name> (Olivier)</td>
+                  <td rowspan="1" colspan="1">Dung beetle species</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Rhodaphodius">Rhodaphodius</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="foetens">foetens</tp:taxon-name-part></tp:taxon-name> (Fabricius)</td>
+                  <td rowspan="1" colspan="1">Dung beetle species</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Teuchestes">Teuchestes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="fossor">fossor</tp:taxon-name-part></tp:taxon-name> (Linnaeus)</td>
+                  <td rowspan="1" colspan="1">Dung beetle species</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Trypocopris">Trypocopris</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="alpinus">alpinus</tp:taxon-name-part></tp:taxon-name> (Sturm &amp; Hagenbach)</td>
+                  <td rowspan="1" colspan="1">Dung beetle species</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+    <sec sec-type="Additional information">
+      <title>Additional information</title>
+      <p>
+        <bold>Seasonality effect</bold>
+      </p>
+      <p>Dung beetles collected during the Troncea B survey were classified according to their nesting guilds (Halffter and Edmonds 1982) to calculate the endocoprids and paracoprid abundance. Principal component analysis (PCA) was used to evaluate the dung beetle assemblage variation among sampling occasions using total abundance, species richness, endocoprid and paracoprids abundance as variables because these are the variables that are usually measured to quantify biological diversisty during biomonitoring. In the analysis, trap was used as sampling unit. Analysis were performed using the <italic>stats</italic> package (version 3.2.3) and the results were visualized using the <italic>ggfortify</italic> package (version 0.2.0.) (<xref ref-type="bibr" rid="B3365870">Horikoshi and Tang 2016</xref>), both run in R 3.2.3 (<xref ref-type="bibr" rid="B3366303">R Development Core Team 2011</xref>).</p>
+      <p>The ordination showed seasonal variation in the biomonitoring variables describing the assemblage. A plot of the first two components (Fig. <xref ref-type="fig" rid="F3365868">2</xref>) and an examination of the associated coefficients of the eigenvectors show a bbuild-up of specimens and species as the season porgressed (along the first principle component) and a change in the dominant ecological guild from paracoprids (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="tribe">Onthophagini</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Geotrupidae</tp:taxon-name-part></tp:taxon-name>) early in the sampling period to endocoprids (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Aphodiinae</tp:taxon-name-part></tp:taxon-name>) later in the sampling period. The assemblages collected during the two early visits overlapped extensively, as did the assemblages from the late visits, but the two periods were somewhat distinct. This implies that samples collected for biomonitoring must cover the entire season of activity of the dung beetle community if they are to be comparable between sites and years.</p>
+      <p>The samples collected with pit traps from Troncea valley in different years contained the same set of species, with only one unique species in each year. The results from different years from the Chalamy and Ferret vallies cannot be compared rigorously because they were obtained with different collecting techniques (Table <xref ref-type="table" rid="T3364998">2</xref>).</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>We thank the staff in the Department of Agricultural, Forest and Food Sciences, University of Torino, Grugliasco (Torino), Italy for logistical support and their assistance in the collection of samples during the Troncea B valley surveys; the staff in the Department of Life Sciences and System Biology, University of Torino, Italy, who provided assistance during the identification; and an anonymous reviewer who pointed out the information about <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Onthophagus">O.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="vacca">vacca</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Onthophagus">O.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="medius">medius</tp:taxon-name-part></tp:taxon-name></italic>.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B3480675">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>ARPA</surname>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Banca dati meteorologica</article-title>
+          <source>L’Agenzia Regionale per la Protezione Ambientale</source>
+          <uri xlink:type="simple">www.arpa.piemonte.gov.it/rischinaturali/accesso-ai-dati/annali_meteoidrologici/annali-meteo-idro/banca-dati-meteorologica.html</uri>
+        </element-citation>
+      </ref>
+      <ref id="B3364015">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Chamberlain</surname>
+              <given-names>Dan E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Negro</surname>
+              <given-names>Matteo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Caprio</surname>
+              <given-names>Enrico</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rolando</surname>
+              <given-names>Antonio</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Assessing the sensitivity of alpine birds to potential future changes in habitat and climate to inform management strategies</article-title>
+          <source>Biological Conservation</source>
+          <volume>167</volume>
+          <fpage>127</fpage>
+          <lpage>135</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1016/j.biocon.2013.07.036</uri>
+          <pub-id pub-id-type="doi">10.1016/j.biocon.2013.07.036</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3364003">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Chamberlain</surname>
+              <given-names>Dan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tocco</surname>
+              <given-names>Claudia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Longoni</surname>
+              <given-names>Alice</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mammola</surname>
+              <given-names>Stefano</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Palestrini</surname>
+              <given-names>Claudia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rolando</surname>
+              <given-names>Antonio</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Nesting strategies affect altitudinal distribution and habitat use in Alpine dung beetle communities</article-title>
+          <source>Ecological Entomology</source>
+          <volume>40</volume>
+          <issue>4</issue>
+          <fpage>372</fpage>
+          <lpage>380</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1111/een.12195</uri>
+          <pub-id pub-id-type="doi">10.1111/een.12195</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3364952">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Dellacasa</surname>
+              <given-names>Giovanni</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dellacasa</surname>
+              <given-names>Marco</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <article-title>Fauna D'Italia. <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Coleoptera</tp:taxon-name-part></tp:taxon-name>. <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Aphodiidae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Aphodiinae</tp:taxon-name-part></tp:taxon-name>.</article-title>
+          <source>Calderini, Bologna</source>
+          <volume>XLI</volume>
+          <fpage>1</fpage>
+          <lpage>484</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3439395">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Dellacasa</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dellacasa</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <source><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Scarabaeidae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Aphodiinae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="tribe">Aphodiini</tp:taxon-name-part></tp:taxon-name> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subtribe">Aphodiina</tp:taxon-name-part></tp:taxon-name>). In: Löbl, I. &amp; Löbl, Catalogue of Palaearctic <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Coleoptera</tp:taxon-name-part></tp:taxon-name>.</source>
+          <volume>3</volume>
+          <publisher-name>Brill</publisher-name>
+          <publisher-loc>Leiden</publisher-loc>
+          <size units="page">98–155</size>
+          <uri xlink:type="simple">https://figshare.com/articles/Catalogue_of_Palaearctic_Coleoptera/3187063/1</uri>
+          <pub-id pub-id-type="doi">10.6084/m9.figshare.3187063.v1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3365870">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Horikoshi</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tang</surname>
+              <given-names>Y</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>ggfortify: Data Visualization Tools for Statistical Analysis Results</article-title>
+          <source>R package version</source>
+          <volume>0.2.0</volume>
+          <uri xlink:type="simple">http://CRAN.R-project.org/package=ggfortif</uri>
+        </element-citation>
+      </ref>
+      <ref id="B3364025">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Macagno</surname>
+              <given-names>Anna Lorenza Maria</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Palestrini</surname>
+              <given-names>Claudia</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>The maintenance of extensively exploited pastures within the Alpine mountain belt: implications for dung beetle conservation (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Coleoptera</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="superfamily">Scarabaeoidea</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Biodiversity and Conservation</source>
+          <volume>18</volume>
+          <issue>12</issue>
+          <fpage>3309</fpage>
+          <lpage>3323</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1007/s10531-009-9643-1</uri>
+          <pub-id pub-id-type="doi">10.1007/s10531-009-9643-1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3364035">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>MacDonald</surname>
+              <given-names>D</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Crabtree</surname>
+              <given-names>J. R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wiesinger</surname>
+              <given-names>G</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dax</surname>
+              <given-names>T</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stamou</surname>
+              <given-names>N</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fleury</surname>
+              <given-names>P</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lazpita</surname>
+              <given-names>J Gutierrez</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gibon</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <article-title>Agricultural abandonment in mountain areas of Europe: Environmental consequences and policy response</article-title>
+          <source>Journal of Environmental Management</source>
+          <volume>59</volume>
+          <issue>1</issue>
+          <fpage>47</fpage>
+          <lpage>69</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1006/jema.1999.0335</uri>
+          <pub-id pub-id-type="doi">10.1006/jema.1999.0335</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3364049">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Marini</surname>
+              <given-names>Lorenzo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fontana</surname>
+              <given-names>Paolo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Klimek</surname>
+              <given-names>Sebastian</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Battisti</surname>
+              <given-names>Andrea</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gaston</surname>
+              <given-names>Kevin J.</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>Impact of farm size and topography on plant and insect diversity of managed grasslands in the Alps</article-title>
+          <source>Biological Conservation</source>
+          <volume>142</volume>
+          <issue>2</issue>
+          <fpage>394</fpage>
+          <lpage>403</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1016/j.biocon.2008.10.034</uri>
+          <pub-id pub-id-type="doi">10.1016/j.biocon.2008.10.034</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3364070">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Maurer</surname>
+              <given-names>Katrin</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Weyand</surname>
+              <given-names>Anne</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fischer</surname>
+              <given-names>Markus</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stöcklin</surname>
+              <given-names>Jürg</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <article-title>Old cultural traditions, in addition to land use and topography, are shaping plant diversity of grasslands in the Alps</article-title>
+          <source>Biological Conservation</source>
+          <volume>130</volume>
+          <issue>3</issue>
+          <fpage>438</fpage>
+          <lpage>446</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1016/j.biocon.2006.01.005</uri>
+          <pub-id pub-id-type="doi">10.1016/j.biocon.2006.01.005</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3364060">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>McGeoch</surname>
+              <given-names>MELODIE A</given-names>
+            </name>
+          </person-group>
+          <year>1998</year>
+          <article-title>The selection, testing and application of terrestrial insects as bioindicators</article-title>
+          <source>Biological Reviews of the Cambridge Philosophical Society</source>
+          <volume>73</volume>
+          <issue>2</issue>
+          <fpage>181</fpage>
+          <lpage>201</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1017/s000632319700515x</uri>
+          <pub-id pub-id-type="doi">10.1017/s000632319700515x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3364238">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Negro</surname>
+              <given-names>Matteo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rolando</surname>
+              <given-names>Antonio</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Palestrini</surname>
+              <given-names>Claudia</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>The impact of overgrazing on dung beetle diversity in the Italian Maritime Alps.</article-title>
+          <source>Environmental entomology</source>
+          <volume>40</volume>
+          <issue>5</issue>
+          <fpage>1081</fpage>
+          <lpage>92</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1603/EN11105</uri>
+          <pub-id pub-id-type="doi">10.1603/EN11105</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3364228">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Negro</surname>
+              <given-names>Matteo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Palestrini</surname>
+              <given-names>Claudia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Giraudo</surname>
+              <given-names>Maria Teresa</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rolando</surname>
+              <given-names>Antonio</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>The effect of local environmental heterogeneity on species diversity of alpine dung beetles (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Coleoptera</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Scarabaeidae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>European Journal of Entomology</source>
+          <volume>108</volume>
+          <issue>1</issue>
+          <fpage>91</fpage>
+          <lpage>98</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.14411/eje.2011.012</uri>
+          <pub-id pub-id-type="doi">10.14411/eje.2011.012</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3364106">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Nichols</surname>
+              <given-names>Elizabeth S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gardner</surname>
+              <given-names>Toby A.</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <chapter-title>Dung Beetles as a Candidate Study Taxon in Applied Biodiversity Conservation Research</chapter-title>
+          <source>Simmons/Ecology and Evolution of Dung Beetles</source>
+          <uri xlink:type="simple">http://dx.doi.org/10.1002/9781444342000.ch13</uri>
+          <pub-id pub-id-type="doi">10.1002/9781444342000.ch13</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3364080">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Nichols</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Spector</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Louzada</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Larsen</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Amezquita</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Favila</surname>
+              <given-names>M. E.</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Ecological functions and ecosystem services provided by <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Scarabaeinae</tp:taxon-name-part></tp:taxon-name> dung beetles</article-title>
+          <source>Biological Conservation</source>
+          <volume>141</volume>
+          <issue>6</issue>
+          <fpage>1461</fpage>
+          <lpage>1474</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1016/j.biocon.2008.04.011</uri>
+          <pub-id pub-id-type="doi">10.1016/j.biocon.2008.04.011</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3364300">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Palestrini</surname>
+              <given-names>Claudia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Roggero</surname>
+              <given-names>Angela</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gorret</surname>
+              <given-names>Roberta</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tocco</surname>
+              <given-names>Claudia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Negro</surname>
+              <given-names>Matteo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barbero</surname>
+              <given-names>Enrico</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="superfamily">Scarabaeoidea</tp:taxon-name-part></tp:taxon-name> coprofaga della Val Veni e della Val Ferret (Valle d’Aosta, Italia)</article-title>
+          <source>Revue Valdotaine D'Histoire Naturelle</source>
+          <volume>61-62</volume>
+          <fpage>241</fpage>
+          <lpage>253</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3364314">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Palestrini</surname>
+              <given-names>Claudia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Roggero</surname>
+              <given-names>Angela</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Negro</surname>
+              <given-names>Matteo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Quaglia</surname>
+              <given-names>E</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rovei</surname>
+              <given-names>R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barbero</surname>
+              <given-names>Enrico</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Studio sulla coleotterofauna coprofaga (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Coleoptera</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="superfamily">Scarabaeoidea</tp:taxon-name-part></tp:taxon-name>) nel Parco Naturale Regionale Mont Avic (Valle d'Aosta, Italia)</article-title>
+          <source>Reviu Valdotaine D'Histoir Naturelle</source>
+          <volume>61-62</volume>
+          <fpage>189</fpage>
+          <lpage>217</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3364982">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Paulian</surname>
+              <given-names>R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Baraud</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <year>1982</year>
+          <article-title>Faune des Colèoptères de France, II: Lucanoidea et <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="superfamily">Scarabaeoidea</tp:taxon-name-part></tp:taxon-name>.</article-title>
+          <source>Encyclopèdie Entomologique, Lechevalier, Paris</source>
+          <volume>43</volume>
+          <fpage>1</fpage>
+        </element-citation>
+      </ref>
+      <ref id="B3366303">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>R Development Core Team</surname>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>R: A Language and Environment for Statistical Computing.</article-title>
+          <source>The R Foundation for Statistical Computing.</source>
+          <volume>Vienna, Austria</volume>
+          <uri xlink:type="simple">http://www.R-project.org</uri>
+        </element-citation>
+      </ref>
+      <ref id="B3480653">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Rössner</surname>
+              <given-names>E</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schönfeld</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ahrens</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Onthophagus">Onthophagus</tp:taxon-name-part></tp:taxon-name></italic> (Palaeonthophagus) <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Onthophagus"/><tp:taxon-name-part taxon-name-part-type="species" reg="medius">medius</tp:taxon-name-part></tp:taxon-name></italic> (Kugelann, 1792) — a good western palaearctic species in the <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Onthophagus">Onthophagus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="vacca">vacca</tp:taxon-name-part></tp:taxon-name></italic> complex (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Coleoptera</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Scarabaeidae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Scarabaeinae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="tribe">Onthophagini</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Zootaxa</source>
+          <volume>2629</volume>
+          <fpage>1</fpage>
+          <lpage>28</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3364120">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Spector</surname>
+              <given-names>Sacha</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <article-title>Scarabaeine Dung Beetles (coleoptera: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Scarabaeidae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Scarabaeinae</tp:taxon-name-part></tp:taxon-name>): An Invertebrate Focal Taxon for Biodiversity Research and Conservation</article-title>
+          <source>The Coleopterists Bulletin</source>
+          <volume>60</volume>
+          <fpage>71</fpage>
+          <lpage>83</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1649/0010-065x(2006)60[71:sdbcss]2.0.co;2</uri>
+          <pub-id pub-id-type="doi">10.1649/0010-065x(2006)60[71:sdbcss]2.0.co;2</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3364130">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Tocco</surname>
+              <given-names>Claudia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Negro</surname>
+              <given-names>Matteo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rolando</surname>
+              <given-names>Antonio</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Palestrini</surname>
+              <given-names>Claudia</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Does natural reforestation represent a potential threat to dung beetle diversity in the Alps?</article-title>
+          <source>Journal of Insect Conservation</source>
+          <volume>17</volume>
+          <issue>1</issue>
+          <fpage>207</fpage>
+          <lpage>217</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1007/s10841-012-9498-8</uri>
+          <pub-id pub-id-type="doi">10.1007/s10841-012-9498-8</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3368638">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Tocco</surname>
+              <given-names>Claudia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Quinn</surname>
+              <given-names>D</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Midgley</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name name-style="western">
+              <surname>MH</surname>
+              <given-names>Villet</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Optimising design and effort for environmental surveys using dung beetles (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Coleoptera</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Scarabaeinae</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Aphodiinae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>The Canadian Entomologist</source>
+          <volume>In press</volume>
+        </element-citation>
+      </ref>
+      <ref id="B3364202">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Tocco</surname>
+              <given-names>Claudia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Probo</surname>
+              <given-names>Massimiliano</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lonati</surname>
+              <given-names>Michele</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lombardi</surname>
+              <given-names>Giampiero</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Negro</surname>
+              <given-names>Matteo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nervo</surname>
+              <given-names>Beatrice</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rolando</surname>
+              <given-names>Antonio</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Palestrini</surname>
+              <given-names>Claudia</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Pastoral Practices to Reverse Shrub Encroachment of Sub-Alpine Grasslands: Dung Beetles (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Coleoptera</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="superfamily">Scarabaeoidea</tp:taxon-name-part></tp:taxon-name>) Respond More Quickly Than Vegetation</article-title>
+          <source>PLoS ONE</source>
+          <volume>8</volume>
+          <issue>12</issue>
+          <fpage>e83344</fpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1371/journal.pone.0083344</uri>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0083344</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F3364358" position="float" orientation="portrait">
+      <object-id content-type="arpha">9B5AA51F-4027-595B-B8F8-1BB3321CE2A7</object-id>
+      <object-id content-type="doi">10.3897/BDJ.4.e10059.figure1</object-id>
+      <object-id content-type="zenodo_dep_id">916990</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Illustration of the eleven valleys in the western Italian Alps where dung beetle surveys were carried out.</p>
+      </caption>
+      <graphic xlink:href="bdj-04-e10059-g001.jpg" position="float" id="oo_97168.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/97168</uri>
+      </graphic>
+    </fig>
+    <fig id="F3365868" position="float" orientation="portrait">
+      <object-id content-type="arpha">3B22495C-9151-5E0F-AEEB-8A24892FC51B</object-id>
+      <object-id content-type="doi">10.3897/BDJ.4.e10059.figure2</object-id>
+      <object-id content-type="zenodo_dep_id">916992</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>Scatterplots of the first two components scores obtained from the PCA of dung beetle diversity of Troncea B (percentages of the explained variance: PC1= 64%, PC2= 25%), of first sampling occasion (red), second sampling occasion (green), third sampling occasion (light blue), and fourth sampling occasion (purple).</p>
+      </caption>
+      <graphic xlink:href="bdj-04-e10059-g002.jpeg" position="float" id="oo_97251.jpeg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/97251</uri>
+      </graphic>
+    </fig>
+    <table-wrap id="T3364865" position="float" orientation="portrait">
+      <label>Table 1.</label>
+      <caption>
+        <p>Climatic characteristics of the eleven valleys of the western Italian Alps surveyed from 2005 to 2012 (<xref ref-type="bibr" rid="B3480675">ARPA 2016</xref>).</p>
+      </caption>
+      <table rules="all" border="0">
+        <tbody>
+          <tr>
+            <td rowspan="2" colspan="1">
+              <bold>Valley</bold>
+            </td>
+            <td rowspan="2" colspan="1" style="width: 113px;">
+              <bold>GPS</bold>
+            </td>
+            <td rowspan="2" colspan="1" style="width: 120px;">
+              <bold>Mean annual air temperature (°C)</bold>
+            </td>
+            <td rowspan="1" colspan="2" style="width: 263px;">
+              <bold>Mean air temperature (°C)</bold>
+            </td>
+            <td rowspan="2" colspan="1" style="width: 123px;">
+              <bold>Mean annual precipitation (mm)</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 144px;">
+              <bold>Coldest month</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 106px;">
+              <bold>Warmest month</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Argentera</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 113px;">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">44°54'N; 6°54'E</named-content>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 120px;">4.9</td>
+            <td rowspan="1" colspan="1" style="width: 144px;">January: -2.7</td>
+            <td rowspan="1" colspan="1" style="width: 106px;">July: 13.4</td>
+            <td rowspan="1" colspan="1" style="width: 123px;">1123</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Chalamy</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 113px;">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">45°41'N; 7°38'E</named-content>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 120px;">9.3</td>
+            <td rowspan="1" colspan="1" style="width: 144px;">January: -0.3</td>
+            <td rowspan="1" colspan="1" style="width: 106px;">July: 18.9</td>
+            <td rowspan="1" colspan="1" style="width: 123px;">877</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Champorcher</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 113px;">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">45°36'N; 7°34'E</named-content>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 120px;">5.4</td>
+            <td rowspan="1" colspan="1" style="width: 144px;">January: -3.0</td>
+            <td rowspan="1" colspan="1" style="width: 106px;">July: 14.3</td>
+            <td rowspan="1" colspan="1" style="width: 123px;">1187</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Ferret</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 113px;">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">45°50'N; 7°01'E</named-content>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 120px;">6.3</td>
+            <td rowspan="1" colspan="1" style="width: 144px;">January: -2.8</td>
+            <td rowspan="1" colspan="1" style="width: 106px;">July: 15.8</td>
+            <td rowspan="1" colspan="1" style="width: 123px;">957</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Grande</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 113px;">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">45°22'N; 7°16'E</named-content>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 120px;">10.0</td>
+            <td rowspan="1" colspan="1" style="width: 144px;">January: 0.6</td>
+            <td rowspan="1" colspan="1" style="width: 106px;">July: 19.6</td>
+            <td rowspan="1" colspan="1" style="width: 123px;">1074</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Gressoney</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 113px;">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">45°51'N; 7°48'E</named-content>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 120px;">4.2</td>
+            <td rowspan="1" colspan="1" style="width: 144px;">January: -3.6</td>
+            <td rowspan="1" colspan="1" style="width: 106px;">July: 12.7</td>
+            <td rowspan="1" colspan="1" style="width: 123px;">1202</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Lourousa</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 113px;">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">44°12'N; 7°16'E</named-content>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 120px;">10.4</td>
+            <td rowspan="1" colspan="1" style="width: 144px;">January: 2.4</td>
+            <td rowspan="1" colspan="1" style="width: 106px;">July: 19.1</td>
+            <td rowspan="1" colspan="1" style="width: 123px;">820</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Sessera</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 113px;">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">45°40'N; 8°05'E</named-content>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 120px;">9.7</td>
+            <td rowspan="1" colspan="1" style="width: 144px;">January: 0.1</td>
+            <td rowspan="1" colspan="1" style="width: 106px;">July: 19.4</td>
+            <td rowspan="1" colspan="1" style="width: 123px;">1800</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Troncea</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 113px;">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">44°57'N; 6°57'E</named-content>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 120px;">0.8</td>
+            <td rowspan="1" colspan="1" style="width: 144px;">January: -8.0</td>
+            <td rowspan="1" colspan="1" style="width: 106px;">July: 9.5</td>
+            <td rowspan="1" colspan="1" style="width: 123px;">956</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Valletta</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 113px;">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">44°10'N; 7°16'E</named-content>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 120px;">10.3</td>
+            <td rowspan="1" colspan="1" style="width: 144px;">January: 2.4</td>
+            <td rowspan="1" colspan="1" style="width: 106px;">July: 19.0</td>
+            <td rowspan="1" colspan="1" style="width: 123px;">828</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Veny</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 113px;">
+              <named-content content-type="dwc:verbatimCoordinates" xlink:type="simple">45°46'N; 6°52'E</named-content>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 120px;">5.9</td>
+            <td rowspan="1" colspan="1" style="width: 144px;">January: -2.5</td>
+            <td rowspan="1" colspan="1" style="width: 106px;">July: 14.9</td>
+            <td rowspan="1" colspan="1" style="width: 123px;">906</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T3364998" position="float" orientation="portrait">
+      <label>Table 2.</label>
+      <caption>
+        <p>Sampling effort details of the fourteen surveys carried out in eleven valleys of the western Italian Alps from 2005 to 2012. T = Trapping; AC = Active manual collection; * = data unavailable .</p>
+      </caption>
+      <table rules="all" border="0">
+        <tbody>
+          <tr>
+            <td rowspan="2" colspan="1" style="text-align: center;">
+              <bold>Valley</bold>
+            </td>
+            <td rowspan="2" colspan="1" style="width: 56px; text-align: center;">
+              <bold>Year</bold>
+            </td>
+            <td rowspan="2" colspan="1" style="width: 63px; text-align: center;">
+              <bold>Sampling method</bold>
+            </td>
+            <td rowspan="1" colspan="3" style="width: 342px; text-align: center;">
+              <bold>Sampling effort</bold>
+            </td>
+            <td rowspan="2" colspan="1" style="text-align: center;">
+              <bold>Source</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="width: 105px; text-align: center;">
+              <bold>Number of sites</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 120px; text-align: center;">
+              <bold>Occasions for year</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="width: 91px; text-align: center;">
+              <bold>Traps per site</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="text-align: center;">Argentera</td>
+            <td rowspan="1" colspan="1" style="width: 56px; text-align: center;">2010</td>
+            <td rowspan="1" colspan="1" style="width: 63px; text-align: center;">T</td>
+            <td rowspan="1" colspan="1" style="width: 105px; text-align: center;">4</td>
+            <td rowspan="1" colspan="1" style="width: 120px; text-align: center;">4</td>
+            <td rowspan="1" colspan="1" style="width: 91px; text-align: center;">8</td>
+            <td rowspan="1" colspan="1" style="text-align: center;">
+              <xref ref-type="bibr" rid="B3364003">Chamberlain et al. 2015</xref>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="text-align: center;">Chalamy</td>
+            <td rowspan="1" colspan="1" style="width: 56px; text-align: center;">2005-06</td>
+            <td rowspan="1" colspan="1" style="width: 63px; text-align: center;">T and AC</td>
+            <td rowspan="1" colspan="1" style="width: 105px; text-align: center;">8</td>
+            <td rowspan="1" colspan="1" style="width: 120px; text-align: center;">*</td>
+            <td rowspan="1" colspan="1" style="width: 91px; text-align: center;">3</td>
+            <td rowspan="1" colspan="1" style="text-align: center;">
+              <xref ref-type="bibr" rid="B3364314">Palestrini et al. 2008b</xref>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="text-align: center;">Chalamy</td>
+            <td rowspan="1" colspan="1" style="width: 56px; text-align: center;">2007</td>
+            <td rowspan="1" colspan="1" style="width: 63px; text-align: center;">T</td>
+            <td rowspan="1" colspan="1" style="width: 105px; text-align: center;">4</td>
+            <td rowspan="1" colspan="1" style="width: 120px; text-align: center;">12</td>
+            <td rowspan="1" colspan="1" style="width: 91px; text-align: center;">6</td>
+            <td rowspan="1" colspan="1" style="text-align: center;">
+              <xref ref-type="bibr" rid="B3364025">Macagno and Palestrini 2009</xref>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="text-align: center;">Champorcher</td>
+            <td rowspan="1" colspan="1" style="width: 56px; text-align: center;">2005-06</td>
+            <td rowspan="1" colspan="1" style="width: 63px; text-align: center;">AC</td>
+            <td rowspan="1" colspan="1" style="width: 105px; text-align: center;">5</td>
+            <td rowspan="1" colspan="1" style="width: 120px; text-align: center;">*</td>
+            <td rowspan="1" colspan="1" style="width: 91px; text-align: center;">*</td>
+            <td rowspan="1" colspan="1" style="text-align: center;">
+              <xref ref-type="bibr" rid="B3364314">Palestrini et al. 2008b</xref>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="text-align: center;">Ferret</td>
+            <td rowspan="1" colspan="1" style="width: 56px; text-align: center;">2005-06</td>
+            <td rowspan="1" colspan="1" style="width: 63px; text-align: center;">AC</td>
+            <td rowspan="1" colspan="1" style="width: 105px; text-align: center;">17</td>
+            <td rowspan="1" colspan="1" style="width: 120px; text-align: center;">1-6</td>
+            <td rowspan="1" colspan="1" style="width: 91px; text-align: center;">*</td>
+            <td rowspan="1" colspan="1" style="text-align: center;">
+              <xref ref-type="bibr" rid="B3364300">Palestrini et al. 2008a</xref>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="text-align: center;">Ferret</td>
+            <td rowspan="1" colspan="1" style="width: 56px; text-align: center;">2007</td>
+            <td rowspan="1" colspan="1" style="width: 63px; text-align: center;">T</td>
+            <td rowspan="1" colspan="1" style="width: 105px; text-align: center;">7</td>
+            <td rowspan="1" colspan="1" style="width: 120px; text-align: center;">19</td>
+            <td rowspan="1" colspan="1" style="width: 91px; text-align: center;">3</td>
+            <td rowspan="1" colspan="1" style="text-align: center;">
+              <xref ref-type="bibr" rid="B3364228">Negro et al. 2011b</xref>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="text-align: center;">Gressoney</td>
+            <td rowspan="1" colspan="1" style="width: 56px; text-align: center;">2010</td>
+            <td rowspan="1" colspan="1" style="width: 63px; text-align: center;">T</td>
+            <td rowspan="1" colspan="1" style="width: 105px; text-align: center;">4</td>
+            <td rowspan="1" colspan="1" style="width: 120px; text-align: center;">4</td>
+            <td rowspan="1" colspan="1" style="width: 91px; text-align: center;">8</td>
+            <td rowspan="1" colspan="1" style="text-align: center;">
+              <xref ref-type="bibr" rid="B3364003">Chamberlain et al. 2015</xref>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="text-align: center;">Grande</td>
+            <td rowspan="1" colspan="1" style="width: 56px; text-align: center;">2010</td>
+            <td rowspan="1" colspan="1" style="width: 63px; text-align: center;">T</td>
+            <td rowspan="1" colspan="1" style="width: 105px; text-align: center;">4</td>
+            <td rowspan="1" colspan="1" style="width: 120px; text-align: center;">4</td>
+            <td rowspan="1" colspan="1" style="width: 91px; text-align: center;">8</td>
+            <td rowspan="1" colspan="1" style="text-align: center;">
+              <xref ref-type="bibr" rid="B3364003">Chamberlain et al. 2015</xref>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="text-align: center;">Lourousa</td>
+            <td rowspan="1" colspan="1" style="width: 56px; text-align: center;">2008</td>
+            <td rowspan="1" colspan="1" style="width: 63px; text-align: center;">T</td>
+            <td rowspan="1" colspan="1" style="width: 105px; text-align: center;">2</td>
+            <td rowspan="1" colspan="1" style="width: 120px; text-align: center;">5</td>
+            <td rowspan="1" colspan="1" style="width: 91px; text-align: center;">9</td>
+            <td rowspan="1" colspan="1" style="text-align: center;">
+              <xref ref-type="bibr" rid="B3364238">Negro et al. 2011a</xref>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="text-align: center;">Sessera</td>
+            <td rowspan="1" colspan="1" style="width: 56px; text-align: center;">2010</td>
+            <td rowspan="1" colspan="1" style="width: 63px; text-align: center;">T</td>
+            <td rowspan="1" colspan="1" style="width: 105px; text-align: center;">16</td>
+            <td rowspan="1" colspan="1" style="width: 120px; text-align: center;">5</td>
+            <td rowspan="1" colspan="1" style="width: 91px; text-align: center;">5</td>
+            <td rowspan="1" colspan="1" style="text-align: center;">
+              <xref ref-type="bibr" rid="B3364130">Tocco et al. 2013a</xref>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="text-align: center;">Troncea_B</td>
+            <td rowspan="1" colspan="1" style="width: 56px; text-align: center;">2011</td>
+            <td rowspan="1" colspan="1" style="width: 63px; text-align: center;">T</td>
+            <td rowspan="1" colspan="1" style="width: 105px; text-align: center;">16</td>
+            <td rowspan="1" colspan="1" style="width: 120px; text-align: center;">4</td>
+            <td rowspan="1" colspan="1" style="width: 91px; text-align: center;">4-6</td>
+            <td rowspan="1" colspan="1" style="text-align: center;">Unpublished data</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="text-align: center;">Troncea</td>
+            <td rowspan="1" colspan="1" style="width: 56px; text-align: center;">2011-12</td>
+            <td rowspan="1" colspan="1" style="width: 63px; text-align: center;">T</td>
+            <td rowspan="1" colspan="1" style="width: 105px; text-align: center;">16</td>
+            <td rowspan="1" colspan="1" style="width: 120px; text-align: center;">6</td>
+            <td rowspan="1" colspan="1" style="width: 91px; text-align: center;">4-6</td>
+            <td rowspan="1" colspan="1" style="text-align: center;">
+              <xref ref-type="bibr" rid="B3364202">Tocco et al. 2013b</xref>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="text-align: center;">Valletta</td>
+            <td rowspan="1" colspan="1" style="width: 56px; text-align: center;">2008</td>
+            <td rowspan="1" colspan="1" style="width: 63px; text-align: center;">T</td>
+            <td rowspan="1" colspan="1" style="width: 105px; text-align: center;">4</td>
+            <td rowspan="1" colspan="1" style="width: 120px; text-align: center;">5</td>
+            <td rowspan="1" colspan="1" style="width: 91px; text-align: center;">9</td>
+            <td rowspan="1" colspan="1" style="text-align: center;">
+              <xref ref-type="bibr" rid="B3364238">Negro et al. 2011a</xref>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="text-align: center;">Veny</td>
+            <td rowspan="1" colspan="1" style="width: 56px; text-align: center;">2005</td>
+            <td rowspan="1" colspan="1" style="width: 63px; text-align: center;">AC</td>
+            <td rowspan="1" colspan="1" style="width: 105px; text-align: center;">10</td>
+            <td rowspan="1" colspan="1" style="width: 120px; text-align: center;">1-4</td>
+            <td rowspan="1" colspan="1" style="width: 91px; text-align: center;">*</td>
+            <td rowspan="1" colspan="1" style="text-align: center;">
+              <xref ref-type="bibr" rid="B3364300">Palestrini et al. 2008a</xref>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T3365032" position="float" orientation="portrait">
+      <label>Table 3.</label>
+      <caption>
+        <p>List of the species present in eleven valleys of the western Italian Alps. The different surveys have been kept separately. 1 = Valletta valley, 2008; 2 = Lourousa valley, 2008; 3 = Troncea B valley, 2011; 4 = Troncea valley, 2011-2012; 5 = Argentera valley, 2010; 6 = Grande valley, 2010; 7 = Champorcher valley, 2005-2006; 8 = Chalamy valley, 2005-2006; 9 = Chalamy valley, 2007; 10 = Gressoney valley, 2010; 11 = Ferret valley, 2005-2006; 12 = Ferret valley, 2007; 13 = Veny valley, 2005-2006; 14 = Sessera valley, 2010.</p>
+      </caption>
+      <table rules="all" border="0" style="table-layout: fixed;">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1" style="width:300px;"/>
+            <td rowspan="1" colspan="14">
+              <bold>South-West &lt;--------------------------------------------&gt; North-East</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Survey</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>1</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>2</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>3</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>4</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>5</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>6</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>7</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>8</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>9</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>10</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>11</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>12</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>13</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>14</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Geotrupidae</tp:taxon-name-part></tp:taxon-name> Latreille</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Anoplotrupes">Anoplotrupes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="stercorosus">stercorosus</tp:taxon-name-part></tp:taxon-name></italic> (Scriba)</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Geotrupes">Geotrupes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="spiniger">spiniger</tp:taxon-name-part></tp:taxon-name></italic> (Marsham)</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Geotrupes">Geotrupes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="stercorarius">stercorarius</tp:taxon-name-part></tp:taxon-name></italic> (Linnaeus)</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Tripocopris">Tripocopris</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pyrenaeus">pyrenaeus</tp:taxon-name-part></tp:taxon-name></italic> (Charpentier)</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Tripocopris">Tripocopris</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="vernalis">vernalis</tp:taxon-name-part></tp:taxon-name></italic> (Linnaeus)</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Trypocopris">Trypocopris</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="alpinus">alpinus</tp:taxon-name-part></tp:taxon-name></italic> (Sturm &amp; Hagenbach)</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Scarabaeidae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Aphodiinae</tp:taxon-name-part></tp:taxon-name> Leach</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Acrossus">Acrossus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="depressus">depressus</tp:taxon-name-part></tp:taxon-name></italic> (Kugelann)</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Acrossus">Acrossus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="rufipes">rufipes</tp:taxon-name-part></tp:taxon-name></italic> (Linnaeus)</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Agoliinus">Agoliinus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="satyrus">satyrus</tp:taxon-name-part></tp:taxon-name></italic> (Reitter)</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Agolius">Agolius</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="abdominalis">abdominalis</tp:taxon-name-part></tp:taxon-name></italic> (Bonelli)</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Agrilinus">Agrilinus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="constans">constans</tp:taxon-name-part></tp:taxon-name></italic> (Duftschmid)</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Agrilinus">Agrilinus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="convexus">convexus</tp:taxon-name-part></tp:taxon-name></italic> (Erichson)</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Amidorus">Amidorus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="obscurus">obscurus</tp:taxon-name-part></tp:taxon-name></italic> (Mulsant &amp; Rey)</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Amidorus">Amidorus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="immaturus">immaturus</tp:taxon-name-part></tp:taxon-name></italic> (Mulsant)</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ammoecius">Ammoecius</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="brevis">brevis</tp:taxon-name-part></tp:taxon-name></italic> (Erichson)</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Aphodius">Aphodius</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="fimetarius">fimetarius</tp:taxon-name-part></tp:taxon-name></italic> s.l. (Linnaeus)</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Bodilopsis">Bodilopsis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="rufa">rufa</tp:taxon-name-part></tp:taxon-name></italic> (Moll)</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Calamosternus">Calamosternus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="granarius">granarius</tp:taxon-name-part></tp:taxon-name></italic> (Linnaeus)</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Colobopterus">Colobopterus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="erraticus">erraticus</tp:taxon-name-part></tp:taxon-name></italic> (Linnaeus)</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Coprimorphus">Coprimorphus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="scrutator">scrutator</tp:taxon-name-part></tp:taxon-name></italic> (Herbst)</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Esymus">Esymus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pusillus">pusillus</tp:taxon-name-part></tp:taxon-name></italic> (Herbst)</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Euheptaulacus">Euheptaulacus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="carinatus">carinatus</tp:taxon-name-part></tp:taxon-name></italic> (Germar)</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Euheptaulacus">Euheptaulacus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="villosus">villosus</tp:taxon-name-part></tp:taxon-name></italic> (Gyllenhal)</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Limarus">Limarus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="zenkeri">zenkeri</tp:taxon-name-part></tp:taxon-name></italic> (Germar)</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Nimbus">Nimbus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="contaminatus">contaminatus</tp:taxon-name-part></tp:taxon-name></italic> (Herbst)</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Nimbus">Nimbus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="johnsoni">johnsoni</tp:taxon-name-part></tp:taxon-name></italic> (Baraud)</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oromus">Oromus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="alpinus">alpinus</tp:taxon-name-part></tp:taxon-name></italic> (Scopoli)</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Otophorus">Otophorus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="haemorrhoidalis">haemorrhoidalis</tp:taxon-name-part></tp:taxon-name></italic> (Linnaeus)</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Oxyomus">Oxyomus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="sylvestris">sylvestris</tp:taxon-name-part></tp:taxon-name></italic> (Scopoli)</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Parammoecius">Parammoecius</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="corvinus">corvinus</tp:taxon-name-part></tp:taxon-name></italic> (Erichson)</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Parammoecius">Parammoecius</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="pyrenaeus">pyrenaeus</tp:taxon-name-part></tp:taxon-name></italic> (Jacquelin Du Val)</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Planolinoides">Planolinoides</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="borealis">borealis</tp:taxon-name-part></tp:taxon-name></italic> (Gyllenhal)</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Planolinus">Planolinus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="fasciatus">fasciatus</tp:taxon-name-part></tp:taxon-name></italic> (Olivier)</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Rhodaphodius">Rhodaphodius</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="foetens">foetens</tp:taxon-name-part></tp:taxon-name></italic> (Fabricius)</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Sigorus">Sigorus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="porcus">porcus</tp:taxon-name-part></tp:taxon-name></italic> (Fabricius)</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Teuchestes">Teuchestes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="fossor">fossor</tp:taxon-name-part></tp:taxon-name></italic> (Linnaeus)</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Volinus">Volinus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="sticticus">sticticus</tp:taxon-name-part></tp:taxon-name></italic> (Panzer)</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Scarabaeidae</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Scarabaeinae</tp:taxon-name-part></tp:taxon-name> Latreille</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Euoniticellus">Euoniticellus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="fulvus">fulvus</tp:taxon-name-part></tp:taxon-name></italic> (Goeze)</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Onthophagus">Onthophagus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="baraudi">baraudi</tp:taxon-name-part></tp:taxon-name></italic> (Nicolas)</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Onthophagus">Onthophagus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="coenobita">coenobita</tp:taxon-name-part></tp:taxon-name></italic> (Herbst)</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Onthophagus">Onthophagus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="fracticornis">fracticornis</tp:taxon-name-part></tp:taxon-name></italic> (Preyssler)</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Onthophagus">Onthophagus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="joannae">joannae</tp:taxon-name-part></tp:taxon-name></italic> (Goljan)</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Onthophagus">Onthophagus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="lemur">lemur</tp:taxon-name-part></tp:taxon-name></italic> (Fabricius)</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Onthophagus">Onthophagus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="opacicollis">opacicollis</tp:taxon-name-part></tp:taxon-name></italic> (Reitter)</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Onthophagus">Onthophagus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="taurus">taurus</tp:taxon-name-part></tp:taxon-name></italic> (Schreber)</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1" style="text-align: center;"/>
+            <td rowspan="1" colspan="1">X</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Onthophagus">Onthophagus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="vacca">vacca</tp:taxon-name-part></tp:taxon-name></italic> (Linnaeus)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1">X</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <supplementary-material id="S3439564" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">8C57F39E-65C9-5263-8F51-7C39678D1D98</object-id>
+      <object-id content-type="doi">10.3897/BDJ.4.e10059.suppl1</object-id>
+      <object-id content-type="zenodo_dep_id">903958</object-id>
+      <label>Supplementary material 1</label>
+      <caption>
+        <p>Dung beetles of Troncea B</p>
+      </caption>
+      <p>Data type: occurrences</p>
+      <p>Brief description: Sampling at Troncea valley (site B) carried out from June to September 2011.</p>
+      <p>File: oo_107088.xlsx</p>
+      <media xlink:href="bdj-04-e10059-s001.xlsx" mimetype="Microsoft Excel Document" mime-subtype="xlsx" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/107088</uri>
+      </media>
+      <attrib specific-use="authors">Tocco C. and Villet M.H.</attrib>
+    </supplementary-material>
+  </floats-group>
+</article>

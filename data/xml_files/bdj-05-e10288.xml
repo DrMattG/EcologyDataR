@@ -1,0 +1,2228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="3.0" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.5.e10288</article-id>
+      <article-id pub-id-type="publisher-id">10288</article-id>
+      <article-id pub-id-type="manuscript">5820</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Invertebrata</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Biodiversity &amp; Conservation</subject>
+          <subject>Cartography, Remote Sensing and GIS</subject>
+          <subject>Data Management</subject>
+          <subject>Marine &amp; Freshwater ecology</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>France</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Building a database for long-term monitoring of benthic macrofauna in the Pertuis-Charentais (2004-2014)</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes" xlink:type="simple">
+          <name name-style="western">
+            <surname>Philippe</surname>
+            <given-names>Anne S.</given-names>
+          </name>
+          <email xlink:type="simple">annephilippe9@gmail.com</email>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Plumejeaud-Perreau</surname>
+            <given-names>Christine</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Jourde</surname>
+            <given-names>Jérôme</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Pineau</surname>
+            <given-names>Philippe</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Lachaussée</surname>
+            <given-names>Nicolas</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Joyeux</surname>
+            <given-names>Emmanuel</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Corre</surname>
+            <given-names>Frédéric</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Delaporte</surname>
+            <given-names>Philippe</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Bocher</surname>
+            <given-names>Pierrick</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Littoral Environnement et Sociétés (LIENSs), UMR 7266, CNRS-Université de La Rochelle, La Rochelle, France</addr-line>
+        <institution xlink:type="simple">Littoral Environnement et Sociétés (LIENSs), UMR 7266, CNRS-Université de La Rochelle</institution>
+        <addr-line content-type="city">La Rochelle</addr-line>
+        <country>France</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">Ferme de la Prée Mizotière, Office National de la Chasse et de la Faune Sauvage, 85450 Sainte-Radégonde-des-Noyers, France</addr-line>
+        <institution xlink:type="simple">Ferme de la Prée Mizotière, Office National de la Chasse et de la Faune Sauvage</institution>
+        <addr-line content-type="city">85450 Sainte-Radégonde-des-Noyers</addr-line>
+        <country>France</country>
+      </aff>
+      <aff id="A3">
+        <label>3</label>
+        <addr-line content-type="verbatim">Ferme de la Prée Mizotière, Ligue pour la Protection des oiseaux,, 85450 Sainte-Radégonde-des-Noyers, France</addr-line>
+        <institution xlink:type="simple">Ferme de la Prée Mizotière, Ligue pour la Protection des oiseaux,</institution>
+        <addr-line content-type="city">85450 Sainte-Radégonde-des-Noyers</addr-line>
+        <country>France</country>
+      </aff>
+      <aff id="A4">
+        <label>4</label>
+        <addr-line content-type="verbatim">Réserve Naturelle Nationale de Moëze-Oléron, Ligue pour la Protection des Oiseaux, Ferme de Plaisance, 17780 Saint-Froult, France</addr-line>
+        <institution xlink:type="simple">Réserve Naturelle Nationale de Moëze-Oléron, Ligue pour la Protection des Oiseaux, Ferme de Plaisance</institution>
+        <addr-line content-type="city">17780 Saint-Froult</addr-line>
+        <country>France</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Anne S. Philippe (<email xlink:type="simple">annephilippe9@gmail.com</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Sarah Faulwetter</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2017</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>12</day>
+        <month>01</month>
+        <year>2017</year>
+      </pub-date>
+      <volume>5</volume>
+      <elocation-id>e10288</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/FFE11D46-FFA9-0C4A-FFDB-FFA9AF0A074A">FFE11D46-FFA9-0C4A-FFDB-FFA9AF0A074A</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/240665">240665</uri>
+      <history>
+        <date date-type="received">
+          <day>25</day>
+          <month>08</month>
+          <year>2016</year>
+        </date>
+        <date date-type="accepted">
+          <day>09</day>
+          <month>01</month>
+          <year>2017</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Anne S. Philippe, Christine Plumejeaud-Perreau, Jérôme Jourde, Philippe Pineau, Nicolas Lachaussée, Emmanuel Joyeux, Frédéric Corre, Philippe Delaporte, Pierrick Bocher</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License 4.0 (CC-BY), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>Long-term benthic monitoring is rewarding in terms of science, but labour-intensive, whether in the field, the laboratory, or behind the computer. Building and managing databases require multiple skills, including consistency over time as well as organisation via a systematic approach. Here, we introduce and share our spatially explicit benthic database, comprising 11 years of benthic data. It is the result of intensive benthic sampling that has been conducted on a regular grid (259 stations) covering the intertidal mudflats of the Pertuis-Charentais (Marennes-Oléron Bay and Aiguillon Bay). Samples were taken by foot or by boats during winter depending on tidal height, from December 2003 to February 2014. The present dataset includes abundances and biomass densities of all mollusc species of the study regions and principal polychaetes as well as their length, accessibility to shorebirds, energy content and shell mass when appropriate and available. This database has supported many studies dealing with the spatial distribution of benthic invertebrates and temporal variations in food resources for shorebird species as well as latitudinal comparisons with other databases. In this paper, we introduce our benthos monitoring, share our data, and present a "guide of good practices" for building, cleaning and using it efficiently, providing examples of results with associated R code.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>The dataset has been formatted into a geo-referenced relational database, using PostgreSQL open-source DBMS. We provide density information, measurements, energy content and accessibility of thirteen bivalve, nine gastropod and two polychaete taxa (a total of 66,620 individuals)​ for 11 consecutive winters. Figures and maps are provided to describe how the dataset was built, cleaned, and how it can be used. This dataset can again support studies concerning spatial and temporal variations in species abundance, interspecific interactions as well as evaluations of the availability of food resources for small- and medium size shorebirds and, potentially, conservation and impact assessment studies.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>Intertidal mudflats</kwd>
+        <kwd>benthic macrofauna</kwd>
+        <kwd>annelids</kwd>
+        <kwd>molluscs</kwd>
+        <kwd>monitoring</kwd>
+        <kwd>Pertuis-Charentais</kwd>
+        <kwd>shorebirds</kwd>
+        <kwd>database management</kwd>
+      </kwd-group>
+      <funding-group>
+        <funding-statement>Région Poitou-Charente</funding-statement>
+      </funding-group>
+      <counts>
+        <fig-count count="8"/>
+        <table-count count="3"/>
+        <ref-count count="18"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p><bold>Genesis</bold>: This benthos monitoring was initiated in winter 2003-2004 with the aim of describing feeding resources for overwintering shorebird species (<italic>e.g</italic>. Curlews, Grey Plovers, Bar-tailed Godwits, Black-tailed Godwits, Red knots, Dunlins, Oystercatchers, Redshanks and one duck species: Shelducks). At first, spatial studies were initiated and led to reference papers in ecosystem comparisons in the domain of molluscan studies (<xref ref-type="bibr" rid="B3228914">Bocher et al. 2007</xref>, <xref ref-type="bibr" rid="B3229009">Compton et al. 2009</xref>) or shorebird ecology <italic>e.g.</italic><xref ref-type="bibr" rid="B3229034">Quaintenne et al. (2011)</xref>, <xref ref-type="bibr" rid="B3229023">Quaintenne et al. (2010)</xref>. Following the example of a long term program at the NIOZ Institute (Netherlands Institute for Sea Research) through the SIBES program in the Dutch Wadden Sea and a sampling of the Banc d’Arguin (Mauritania) and Roebuck Bay (Australia) muflats, sampling was continued on an annual basis at 259 stations.</p>
+      <p><bold>Objectives</bold>: The initial purpose of the monitoring was to study the spatio-temporal variations of main macrobenthic species as available resources for shorebirds. Knowing individuals to the species level, their length, shell mass, accessibility (the top fraction was analysed separately) and flesh energy content, one can analyse for example:</p>
+      <list list-type="bullet">
+        <list-item>
+          <p>the spatial variability of densities of benthos prey, including comparisons with other countries (<xref ref-type="bibr" rid="B3228914">Bocher et al. 2007</xref>);</p>
+        </list-item>
+        <list-item>
+          <p>the fraction available for <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Calidris</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">canutus</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Calidris</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">alpina</tp:taxon-name-part></tp:taxon-name></italic> (sandpiper species), since the top 4 cm of the cores were analysed separately and shells were measured (<xref ref-type="bibr" rid="B3276982">Philippe et al. 2016</xref>);</p>
+        </list-item>
+        <list-item>
+          <p>based on the quality of the molluscs (flesh to shell ratio) it is possible to predict the diets of red knots <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Calidris</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">canutus</tp:taxon-name-part></tp:taxon-name></italic> using a digestive rate model derived from type II functional response curve, depending on the site and the year (<xref ref-type="bibr" rid="B3278233">van Gils et al. 2004</xref><xref ref-type="bibr" rid="B3229034">Quaintenne et al. 2011</xref>).</p>
+        </list-item>
+      </list>
+    </sec>
+    <sec sec-type="Project description">
+      <title>Project description</title>
+      <sec sec-type="Title">
+        <title>Title</title>
+        <p>Long-term molluscs and annelids monitoring in the Pertuis-Charentais, France</p>
+      </sec>
+      <sec sec-type="Personnel">
+        <title>Personnel</title>
+        <p>The monitoring was conducted every year under the responsibility of Pierrick Bocher with constant participation of Philippe Pineau and Nicolas Lachaussée and managers of the National Nature Reserves of Aiguillon Bay and Marennes-Oléron Bay. Additional help in the field was provided by multiple other colleagues and PhD candidates throughout the years.</p>
+      </sec>
+      <sec sec-type="Study area description">
+        <title>Study area description</title>
+        <p>Sampling was performed on intertidal mudflats located in national nature reserves: RNN Aiguillon Bay and RNN Moëze-Oléron.</p>
+      </sec>
+      <sec sec-type="Design description">
+        <title>Design description</title>
+        <p>Systematic sampling was performed on four regular 250 m grids, composed of 64 stations each (except for the subsite "Oléron" (OL) which contained 67 stations).</p>
+      </sec>
+      <sec sec-type="Funding">
+        <title>Funding</title>
+        <p>The monitoring was funded by the University of La Rochelle and the CNRS via laboratory donations and staff time. Financial support was received from the Région Poitou-Charentes through a thesis grant to Anne Philippe (2013-2016). LIENSs laboratory and the DYFEA team also provided help with field work costs. The Office National de la Chasse et de la Faune Sauvage (ONCFS) and the Ligue pour la Protection des Oiseaux (LPO) supported this monitoring via staff time and nautical resources dedicated to sample collections.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>Benthic macrofauna was collected over a predetermined 250 m grid following a proven sampling protocol (<xref ref-type="bibr" rid="B3228914">Bocher et al. 2007</xref>, <xref ref-type="bibr" rid="B3228928">Kraan et al. 2009</xref>, <xref ref-type="bibr" rid="B3228942">Bijleveld et al. 2012</xref>), see (Fig. <xref ref-type="fig" rid="F3230723">1</xref>). Each station was located with a handheld GPS device using WGS84 geodetic datum. Out of 259 stations sampled, only a minority (46%) was sampled by foot (during low tide), taking sediment cores covering an area of 1/56 m² down to a depth of 20 to 25 cm. The top fraction (first 4 cm of the sediment) was separated from the bottom fraction to be able to segregate the accessible benthos fraction for the two main shorebirds species: the red knot <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Calidris</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">canutus</tp:taxon-name-part></tp:taxon-name></italic> and the dunlin <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Calidris</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">alpina</tp:taxon-name-part></tp:taxon-name></italic> (Fig. <xref ref-type="fig" rid="F3266103">2</xref>). We took an additional core (70 mm diameter) covering 1/263 m² to a depth of 4 cm for sampling exclusively the very abundant mudsnail <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Hydrobia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">ulvae</tp:taxon-name-part></tp:taxon-name></italic> (Pennant) (<xref ref-type="bibr" rid="B3228914">Bocher et al. 2007</xref>). When the tide covered the mudflats with water (0.4–2.0 m) and for the very soft and inaccessible lower intertidal areas, sampling was done from boats using inflatable zodiacs or other small vessels. From the boats, two mud cores (100 mm diameter) covering a total of 1/56 m² to a depth of 20 to 25 cm were taken. Only one core was taken into account for <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">H.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">ulvae</tp:taxon-name-part></tp:taxon-name></italic>, and both were taken into account for any other macrobenthic species.</p>
+        <p>The cores were sieved through a 1 mm mesh, except for the mudsnail <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">H.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">ulvae</tp:taxon-name-part></tp:taxon-name></italic> cores, which were sieved over a 0.5 mm mesh to prevent the loss of individuals smaller than 1mm (from the apex to the aperture). All living molluscs were collected in plastic bags and frozen (-18°C) until laboratory treatment (Fig. <xref ref-type="fig" rid="F3264081">3</xref>). Polychaetes were preserved in 70% ethanol. Living specimens were determined using the identifaction key described in <xref ref-type="bibr" rid="B3229273">Hayward and Ryland (1996)</xref>.</p>
+        <p><bold>Sample processing</bold>: In the laboratory, molluscs were identified under the supervision of a benthic taxonomist. Individuals were counted, and their maximum length was measured to the nearest 0.1 mm using Vernier calipers, width was also measured for bivalves. Hydrobiid mudsnails were size-categorised from 0 mm up to 6 mm (<italic>e.g.</italic> size class 2 consisted of individuals with lengths ranging from 2 to 2.99 mm).</p>
+        <p>The flesh of every mollusc specimen except <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">H.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">ulvae</tp:taxon-name-part></tp:taxon-name></italic> was detached from the shell and placed individually in crucibles (pooled by size class when sizes were smaller than 8.0 mm, flesh and shell together). Crucibles containing molluscs were placed in a ventilated oven at 55 to 60°C for three days until constant mass and then weighed (DM ±0.01 mg). Dried specimens were then incinerated at 550°C for 4 h to determine their ash mass and then a proxy of their energy content: the ash free dry mass (AFDM). [<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">H.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">ulvae</tp:taxon-name-part></tp:taxon-name></italic> flesh biomass (AFDM<sub>flesh</sub>) was estimated for each station from the total biomass (AFDM<sub>flesh+shell</sub>) with the following linear regression: AFDM<sub>flesh</sub>= 0.6876 × AFDM<sub>flesh+shell</sub> + 7E-05 (<italic>R</italic>² = 0.99; N = 60 individuals sampled in July 2014 in Aiguillon Bay). Flesh biomass of bivalves (<tp:taxon-name>Scrobicularidae</tp:taxon-name>, as well as <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Macoma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">balthica</tp:taxon-name-part></tp:taxon-name></italic> individuals) smaller than 8.0 mm was determined from the total biomass (AFDM<sub>flesh+shell</sub>) with the following linear regression: AFDM<sub>flesh</sub>= 0.7649 × AFDM<sub>flesh+shell</sub> − 7E-05 (R² = 0,9656, N = 122 <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scrobiculalidae</tp:taxon-name-part></tp:taxon-name></italic> individuals and 51 <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">M.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">balthica</tp:taxon-name-part></tp:taxon-name></italic> ind. sampled in January 2014 in Aiguillon Bay).</p>
+        <p>For bivalves larger than 8.0 mm, shells were placed in adequate numbered stalls and dried in a ventilated oven at 55 to 60°C (DM ±0.01 mg) for three days. For <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">H.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">ulvae</tp:taxon-name-part></tp:taxon-name></italic> individuals, shell was not separated from the flesh, and shell dry mass was estimated from the total biomass using the following regression: DM<sub>shell</sub> = 5.5902 × AFDM<sub>flesh+shell</sub> – 0.0006 (<italic>R</italic>² = 0.98; N=60 ind. sampled in July 2014 in Aiguillon Bay). For the same reason, dry mass of the shell (DM<sub>shell</sub>) of small bivalves (&lt; 8.0 mm) was extrapolated using the following regression: DM<sub>shell</sub> = 8E-05 × Length 2,6523 (R² = 0,8274, N=122 <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scrobiculalidae</tp:taxon-name-part></tp:taxon-name></italic> ind. and 51 <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">M.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">balthica</tp:taxon-name-part></tp:taxon-name></italic> ind. sampled in January 2014 in Aiguillon Bay).</p>
+        <p>In the present dataset, we removed all epibenthic species (<italic>e.g.</italic> crustaceans) since they are nearly absent from the feeding regime of shorebirds in our study area (<xref ref-type="bibr" rid="B3276996">Bocher et al. (2014)</xref>. Polychaetes were also identified and counted, but their length and AFDM were not determined due to insufficient numbers of entire individuals to build regression equations. Nearly all polychaete species were removed from the database because the precision of sample sorting and determination varied widely between the years depending on the laboratory operator. Only individuals from the Genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Nephtys</tp:taxon-name-part></tp:taxon-name></italic> (more than 90% of which were <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Nepthys</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">hombergii</tp:taxon-name-part></tp:taxon-name></italic>) and individuals of the Family <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Nereididae</tp:taxon-name-part></tp:taxon-name> (more than 90% of which were either Alitta <italic>succinea or Hediste diversicolor)</italic> were kept because they represent more than 80% of polychaetes in our study sites and comprise the biggest annelids and therefore biomass and prey for shorebirds (pers. observation). They are mentioned under the abbreviations "nepsp" (for <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Nephtys</tp:taxon-name-part></tp:taxon-name> genus) and "neresp" (for <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Nereididae</tp:taxon-name-part></tp:taxon-name> family) in the database. For these two polychaete taxa, the columns "length", "width", as well as "AFDM", "Biomass_dens" and "NewTBH" are not available, only densities are available.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>In winter 2003-2004, an extensive benthos sampling (864 stations) was conducted following a grid over the whole intertidal zone of Aiguillon Bay and Marennes-Oléron Bay (<xref ref-type="bibr" rid="B3228914">Bocher et al. 2007</xref>). In the following years, the grid was reduced for practical reasons to a 259 points grid spread in four subsites covering three different types of mudflats: Aiguillon Bay on the Charente-Maritime side (AIC, bare mudflat), Aiguillon Bay on the Vendée side (AIV, bare mudflat), Moëze intertidal area (MO, bare mudflat with runnels system) and Oléron Island intertidal area (OL, sandy mudflat covered with seagrass). The grids were defined as a square shape when possible to facilitate movements and navigation on the mud and at sea (Fig. <xref ref-type="fig" rid="F3230723">1</xref>). Because this sampling effort was designed primarily for the study of shorebird ecology, grids were placed in protected areas (National Nature Reserve of Moëze-Oléron, and National Nature Reserve of Aiguillon Bay) managed by the LPO (Ligue pour la Protection des Oiseaux) and ONCFS (Office nationale de la Chasse et de la Faune Sauvage), matching wetlands international annual shorebird counting areas. Sampling stations are referenced by spatial coordinates using the WGS84 geodetic datum. The four sampled subsites present contrasted characteristics that are described in <xref ref-type="bibr" rid="B3277009">Degré et al. (2006)</xref> and <xref ref-type="bibr" rid="B3228914">Bocher et al. (2007)</xref>.</p>
+        <p>Due to field complexities or bad weather, some stations were not sampled some years. Namely in 2004, stations 2131-2133 and 2136-2140; in 2006, stations 2103 and 1953; in 2005, stations 1860, 1391 and 1395; in 2008, station 1300; in 2010, station 1958; in 2012, station 2137; and in 2014, stations 2137 and 1311. To this list, all the stations from Marennes-Oléron (site 'OL' and 'MO') in years 2010 and 2011 should be added. The value “NA” (i.e. not available) is given in the data set to avoid misinterpreting these cases for true “absence”.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The dataset includes all occurrences of individuals for the taxa listed in Table <xref ref-type="table" rid="T3244910">2</xref>. Annelids were grouped under the Genus <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Nephtys</tp:taxon-name-part></tp:taxon-name></italic> of the Family <tp:taxon-name>Nerididae</tp:taxon-name>. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Ruditapes</tp:taxon-name-part></tp:taxon-name></italic> sp. was essentially individuals of the species <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Ruditapes</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">philippinarum</tp:taxon-name-part></tp:taxon-name></italic>. Scientific names and corresponding AphiaID were derived from the World Register of Marine Species (WoRMS). The combination of both scientific name and AphiaID prevents any confusion when names change over time. Indeed, in ten years of collecting data, various operators have used a list of species that was an extract of a taxonomy (with description of <italic>phylum, subphylum, class, subclass, infraclass, superorder, order, suborder, infraorder, superfamily, family, genus, species</italic>, and <italic>authority</italic>). However, classification evolves throughout time, and our dataset needed to be backed to an official registry of species linked to the semantic Web. The World Register of Marine Species (WoRMS, <xref ref-type="bibr" rid="B3443515">World Register of Marine Species 2016b</xref>) provides unique AphiaID for identifying marine species, and maintains a historic of changes of naming or classification. Furthermore, it provides semantic export of species description in RDF compatible with <italic>Darwin Core</italic> or <italic>Dublin Core</italic> metadata standards. We used this register in order to disambiguate the identification of species found in the dataset. For that, we have written a Python program querying the Web Service (<xref ref-type="bibr" rid="B3443524">World Register of Marine Species 2016a</xref>) provided by the World Register of Marine Species (WoRMS), for searching and resolving AphiaIDs of our species list, using the WSDL interface (<xref ref-type="bibr" rid="B3443533">World Register of Marine Species 2016c</xref>). For each record in our table, the program sends the name of the species in parameter of the <italic>querymatchAphiaRecordsByNames</italic> and the service finds for us matching taxa; the program asks then for the full <italic>AphiaRecord</italic> of the taxon (<italic>getAphiaRecordByID</italic>), parses it and checks it against our own classification. When a <italic>AphiaRecord</italic> matches our own table record, we retain it, else we log the uncertain case in order to search manually in the web interface. Only few cases (around 20), identified in the logs of our program, have been searched and solved manually using the web interface of WoRMS. The result is that we provide within our dataset the actual taxonomy of our species extracted from WoRMS, and most importantly their corresponding AphiaID in WoRMS.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Traits coverage">
+      <title>Traits coverage</title>
+      <p>The attributes of the database, including the traits measured in macrofauna individuals are presented in Table <xref ref-type="table" rid="T3314601">1</xref> .</p>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <sec sec-type="Notes">
+        <title>Notes</title>
+        <p>Sampling was undertaken during winter (between December and February) each year, starting in December 2003. The fieldwork team (about five to seven people) spent a yearly average of three weeks per year sampling during spring tides in winter season. For convenience in analyses, if sampling took place in December, the year associated with sampling corresponds with the following year in the dataset. For example samples taken in December 2006 will be attached to year 2007, together with samples from January 2007 or February 2007. First samples were taken in December 2003 (sampling year 2004) and last samples in this database in February 2014 (year 2014). In the subsequent years (starting in winter 2015 until now) sampling was performed over a reduced spatial extent (only 'AIC' subsite, <italic>i.e.</italic> 64 stations). Sampling is planned to be continued in the future. The winter season was chosen because environmental conditions are stable for benthos (with a reduced growth rate and no recruitment for most species). Also, this is the period when the highest densities of overwintering migratory shorebirds can be observed and can be linked to the feeding resources thanks to the annual January counts of Wetlands international. No data is available for the subsites 'mo' and 'ol' in sampling years 2010 and 2011.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Open Data Commons Attribution License</p>
+      </sec>
+      <sec sec-type="IP rights notes">
+        <title>IP rights notes</title>
+        <p>This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. The associated dataset can be freely used for non-commercial purpose, provided it is cited. We draw your attention to the fact that you can contact the authors of the "benthos" dataset to prevent any misuse of the data. You can also consult us for reviewing articles based on our dataset.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>Benthos</p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>https://doi.org/10.14284/247</p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>1</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Benthos monitoring in the intertidal mudflats of Pertuis-Charentais (Bay of Biscay) from 2004 on</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>.csv</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>29</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>https://doi.org/10.14284/247</p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>This dataset is hosted by EurOBIS and can be downloaded using the link above (see section 'Usage rights' for more information). The column names used in the present dataset don not always match the ones in the EurOBIS dataset. The Table below indicates this correspondance between the column names in the datapaper (including the names used in the script) and the column names in the EurOBIS dataset.</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">aphiaid</td>
+                  <td rowspan="1" colspan="1">Unique number corresponding to a described species in WoRMS. In the present datapaper the column refers to the column 'AphiaID'.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">period</td>
+                  <td rowspan="1" colspan="1">Winter period corresponding to the sampling.In the present datapaper the column refers to the column 'Period'.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">sampling_date</td>
+                  <td rowspan="1" colspan="1">Date of sampling.In the present datapaper the column refers to the column 'sampling_date'.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">site</td>
+                  <td rowspan="1" colspan="1">Sampling site.In the present datapaper the column refers to the column 'site'.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">st_sit_id</td>
+                  <td rowspan="1" colspan="1">Subsite.In the present datapaper the column refers to the column 'st_sit_id'.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">station</td>
+                  <td rowspan="1" colspan="1">Station number.In the present datapaper the column refers to the column 'Poskey'.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">st_lat_dd</td>
+                  <td rowspan="1" colspan="1">Latitude.In the present datapaper the column refers to the column 'st_lat_dd'.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">st_long_dd</td>
+                  <td rowspan="1" colspan="1">Longitude.In the present datapaper the column refers to the column 'st_long_dd'.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">number</td>
+                  <td rowspan="1" colspan="1">Number of individual.In the present datapaper the column refers to the column 'number'.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">length</td>
+                  <td rowspan="1" colspan="1">Maximum length of the shell.In the present datapaper the column refers to the column 'length'.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">class_length</td>
+                  <td rowspan="1" colspan="1">Size class of the individual.In the present datapaper the column refers to the column 'class_length'.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">width</td>
+                  <td rowspan="1" colspan="1">Width of the bivalve.In the present datapaper the column refers to the column 'width'.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">afdm</td>
+                  <td rowspan="1" colspan="1">Ash-Free Dry Mass of the soft parts.In the present datapaper the column refers to the column 'AFDM'.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">shelldm</td>
+                  <td rowspan="1" colspan="1">Dry mass of the shell.In the present datapaper the column refers to the column 'ShellDM'.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">car_mod_id</td>
+                  <td rowspan="1" colspan="1">Sampling mode, either by boat or by foot.In the present datapaper the column refers to the column 'car_mod_id'.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">car_top_bottom</td>
+                  <td rowspan="1" colspan="1">Whether or not the top 4 cm were seperated from the rest of the mud core.In the present datapaper the column refers to the column 'car_top_bottom'.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">tbh</td>
+                  <td rowspan="1" colspan="1">Type of corer used.In the present datapaper the column refers to the column 'T.B.H'.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">newtbh</td>
+                  <td rowspan="1" colspan="1">Extrapolated value, from the column "T.B.H".In the present datapaper the column refers to the column 'newT.B.H'.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">area</td>
+                  <td rowspan="1" colspan="1">Sampled area, corresponding to the individual.In the present datapaper the column refers to the column 'area'.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">dens.ind​</td>
+                  <td rowspan="1" colspan="1">Abundance density.In the present datapaper the column refers to the column 'dens.ind'.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">biomass.dens</td>
+                  <td rowspan="1" colspan="1">Density of flesh Ash-Free Dry Mass.In the present datapaper the column refers to the column 'biomass_dens'.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientific_name</td>
+                  <td rowspan="1" colspan="1">Scientific name of the species.In the present datapaper the column refers to the column 'Scientific name'.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">phylum</td>
+                  <td rowspan="1" colspan="1">Phylum of the sampled individual.In the present datapaper the column refers to the column 'phylum'.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">class</td>
+                  <td rowspan="1" colspan="1">Class associated with the individual.In the present datapaper the column refers to the column class'.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">family</td>
+                  <td rowspan="1" colspan="1">Family associated with the individual.In the present datapaper the column refers to the column 'family'.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">genus</td>
+                  <td rowspan="1" colspan="1">Genus associated with the individual.In the present datapaper the column refers to the column genus'.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">English name</td>
+                  <td rowspan="1" colspan="1">English common name associated with the individual.In the present datapaper the column refers to the column 'English name'.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">authority</td>
+                  <td rowspan="1" colspan="1">The person credited to have formally named the species for the first time.In the present datapaper the column refers to the column 'authority'.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">nr</td>
+                  <td rowspan="1" colspan="1">Total individuals of this species in the database.In the present datapaper the column refers to the column 'nr'.</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+    <sec sec-type="Additional information">
+      <title>Additional information</title>
+      <sec sec-type="Steps of database building">
+        <title>Steps of database building</title>
+        <p>The dataset was built via the association of different original tables at different steps of the collection, sorting, measuring and weighing of samples. After each sampling session, we filled in a table "CORE" with columns: "year", "Poskey", "car_mod_id" and "car_top_bottom" as well as unique identifier "core_id". Subsequently, in the laboratory while determining and measuring the samples, we filled in a table "BENTHOS" with columns: "abr", "number", "length", "width", "class_length", "T.B.H", "AFDM", "Shell_DM" and "core_id". A unique idendifier "id" was associated to each row in this table "BENTHOS".</p>
+        <p>Preliminary to the tables "CORE" and "BENTHOS", a table "SPECIES" with the scientific name associated to the abbrevation "abr" was built, together with a table "STATIONS" with coordinates, site and subsite associated to the sampling station identifier "Poskey".</p>
+        <p>All these tables were associated together, in strict respect of integrity criteria specified through 'foreign keys' and 'primary keys' constraints, to form a relational database (Fig. <xref ref-type="fig" rid="F3277053">4</xref>) and later the flattened database "benthos" presented in this datapaper. Foreign key "core_id" in table "BENTHOS" had to match primary key "core_id" in table "CORE". Primary key "Poskey" of table "STATIONS" had to match foreign key "Poskey" of table "CORE". Primary key "abr" in table "SPECIES" had to match foreign key "abr" in table "BENTHOS".</p>
+      </sec>
+      <sec sec-type="Cleaning process">
+        <title>Cleaning process</title>
+        <p><bold>Step 1. Check integrity constraints, misspellings, uniqueness</bold>: The preparation of the dataset (<italic>e.g.</italic> checking for data types, misspelling, uniqueness of identifiers and integrity constraints as described in Table 2) was performed through building the relational database under PostGreSQL, following the principles described in <xref ref-type="bibr" rid="B3317323">Chapman 2005</xref>. The work was performed using SQL scripts, during and after the import of all raw CSV tables (BENTHOS, CORE, STATIONS, SPECIES), that were not linked together at the beginning, nor respecting all constraints for attributes type for instance. Some insights of the work led during this step are given in Table <xref ref-type="table" rid="T3314902">3</xref>.</p>
+        <p><bold>Step 2. Outliers and NA, using regression models on data</bold>: Once the relational database was built, and integrity criteria met, the database was cleaned in a systematic way, species by species, site by site and year by year. This step was done using R statistical software (<xref ref-type="bibr" rid="B3229283">R Development Core Team 2015</xref>). The first step aimed at unfolding the dataframe (<italic>i.e</italic>. producing one row for each sampled individual). Then the column "length" was cleaned from its outliers or potential typing errors using common methods (<xref ref-type="bibr" rid="B3317297">Hawkins 1980</xref>). Subsequently, using extrapolation curves, outliers and missing values were derived from the column "length" for "width", "DM<sub>Shell</sub>" and "AFDM" following the R code (Suppl. material <xref ref-type="supplementary-material" rid="S3277055">1</xref>), see (Fig. <xref ref-type="fig" rid="F3230721">5</xref>). This process led to substantial improvement of the dataset, see Table <xref ref-type="table" rid="T3314902">3</xref>.</p>
+        <p><bold>Assigning sampling area to each station in each year, depending on the sampling method</bold>: The columns "area" and "area_hyd" were filled in according to the sampling method (either by boat "car_mod_id"= 2 or by foot "car_mod_id"=1). By boat, two cores are taken using a corer with a radius of 0.050 m (area= 2 x (PI x 0.050²)); by foot, one core was taken with radius of 0.075 m (area= PI x 0.075²). <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Hydrobia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">ulvae</tp:taxon-name-part></tp:taxon-name></italic> were counted in one of the two cores taken by boat (area= PI x 0.050²), and if sampling was made by foot an additional smaller core was taken, with a radius of 0.035 m (area= PI x 0.035²), see Table <xref ref-type="table" rid="T3314601">1</xref>.</p>
+        <p><bold>Calculating abundance and biomass densities</bold>: The next step consisted of deriving abundance densities ("dens_ind") and biomass densities ("biomass_dens"), see Suppl. material <xref ref-type="supplementary-material" rid="S3277056">3</xref> and Table <xref ref-type="table" rid="T3314601">1</xref></p>
+        <p><bold>Extrapolating top and bottom fractions</bold>: The last step of data cleaning aimed at assigning the sampled individuals to the top or the bottom fraction of the sediment (<italic>i.e.</italic> whether or not it was accessible to a sandpiper's bill). When samples were taken by foot ("car_mod_id"=1), the top 4 cm were always separated from the bottom fraction ("car_top_bottom"=TRUE), and the sampled individuals always received a "top" or "bott" or "hyd" value in the column "T.B.H", "hyd" corresponding to the top fraction of the sediment since <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">H.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">ulvae</tp:taxon-name-part></tp:taxon-name></italic> are always accessible to sandpipers. However, when samples were taken from boats ("car_mod_id"=2), the top was not separated from the bottom fraction ("car_top_bottom"=FALSE), and the sampled individuals did not receive a "top" or "bott" value in the column "T.B.H". In that case, a script (Suppl. material <xref ref-type="supplementary-material" rid="S3278231">2</xref>) was applied to infer for each individual whether it was more likely to belong to the top or the bottom fraction of the sediment based on species-site-year-length specific probabilities (except <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Hydrobia</tp:taxon-name-part></tp:taxon-name></italic> individuals that would always be accessible and annelid species for which lengths were not available).</p>
+      </sec>
+      <sec sec-type="Discussion">
+        <title>Discussion</title>
+        <p><bold>Opportunities</bold>: There are multiple examples of the potential uses of those data for further exploitation. The multidimensional dataset can be explored for various questions and following spatial or temporal dimension. For instance, in Fig. <xref ref-type="fig" rid="F3230630">6</xref>, the plots exemplify how spatial and temporal dimensions are associated, since we have time series for each station of each site. We can also examine how the harvestable biomass for sandpipers <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">C.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">canutus</tp:taxon-name-part></tp:taxon-name></italic> or <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">C.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">alpina</tp:taxon-name-part></tp:taxon-name></italic> (which means accessible because found in the "top" and respecting certain criteria for length (Fig. <xref ref-type="fig" rid="F3266103">2</xref>) is distributed amongst the various species, on a site for a given year (Fig. <xref ref-type="fig" rid="F3240621">7</xref>). The plot on the left shows that mean total biomass of the bivalve <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">S.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">plana</tp:taxon-name-part></tp:taxon-name></italic> was 0.24 g. m<sup>-2</sup> in 2014, varying between 0.10 and 0.25 g. m<sup>-2</sup> following site stations, with a mean value lower than biomass of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">M.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">bathica</tp:taxon-name-part></tp:taxon-name></italic>, but with also a smaller dispersion. The dataset allows us to analyse also how harvestable mean biomass varies according to time on this site for <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">S.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">plana</tp:taxon-name-part></tp:taxon-name></italic> (Fig. <xref ref-type="fig" rid="F3240621">7</xref> (on the right)) and allows mapping of densities or species composition (Figs <xref ref-type="fig" rid="F3230630">6</xref>, <xref ref-type="fig" rid="F3276955">8</xref>).</p>
+        <p>All the results presented in this datapaper can be obtained running the provided R code associated, see Suppl. material <xref ref-type="supplementary-material" rid="S3277056">3</xref>.</p>
+        <p><bold>Limits of data use</bold>: The data was designed to estimate temporal changes and spatial differences in biomass and densities, as well as possible changes in quality, depth or community composition in our study sites. However, for predictions at unsampled locations, additional analyses are required, such as investigating spatial auto-correlation (<xref ref-type="bibr" rid="B3228942">Bijleveld et al. 2012</xref>, <xref ref-type="bibr" rid="B3278117">Kraan et al. 2010</xref>). Regression lines derived from the present dataset shall be valid only for the particular species, site and year and should not be used to extrapolate missing data in any other context. However, the scripts we provide in supplementary materials can be adapted to other database architectures to clean the data and produce results.</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <sec sec-type="Author contributions">
+        <title>Author contributions</title>
+        <p>Data collection, sorting and processing of samples as well as database integrity was initiated and managed by Dr. Pierrick Bocher (Senior Scientist at the LIENSs laboratory, University of La Rochelle) in 2003. One Assistant engineer (Philippe Pineau) and one technician (Nicolas Lachaussée) helped collecting the data every year. Anne Philippe helped in data collection, laboratory work, data uploading and was responsible for the design and integrity of the database. Transfer of the database into PostGreSQL format and preparation of the figures and scripts accompanying the present datapaper was performed by Dr. Christine Plumejeaud-Perreau (Research engineer at the LIENSs laboratory) with help from Anne Philippe. Jérôme Jourde was in charge of taxonomy training and helped with identification and cleaning of the database when necessary.</p>
+        <p><bold>Contact</bold>: Dr Pierrick Bocher, <ext-link ext-link-type="uri" xlink:href="mailto:Pierrick.Bocher@univ-lr.fr" xlink:type="simple">Pierrick.Bocher@univ-lr.fr</ext-link></p>
+        <p><bold>Acknowledgements</bold>: Precious support in the field was provided by the staff of the Ligue pour la Protection des Oiseaux (LPO) and the Office National de la Chasse et de la Faune Sauvage (ONCFS), working in National Nature Reserves of the Region Poitou-Charentes (L. Jomat, S. Gueneteau, S. Haye and many others). We thank the managers of the National Nature Reserve of Aiguillon Bay, E. Joyeux and F. Corre and the manager of the National Nature Reserve of Moëze-Oléron P. Delaporte for their support and help. Sorting, identifying, measuring and weighing of benthic invertebrates were also the tasks of several interns and PhD candidates. Many colleagues from the laboratory helped occasionally: V. Huet regularly helped us with weighing samples and T. Guyot with sieving of cores. We also thank F. Robin for his large contribution to this database over several years. Adrien de Pierrepont (Bsc.) produced the extrapolation curves for <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">H.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">ulvae</tp:taxon-name-part></tp:taxon-name></italic> shell dry mass and AFDM.</p>
+        <p>We would like to thank the reviewers of this datapaper, for their insightful comments and suggestions, as well as the editorial board for their reactivity throughout the reviewal process.</p>
+      </sec>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B3228942">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Bijleveld</surname>
+              <given-names>Allert I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>van Gils</surname>
+              <given-names>Jan A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>van der Meer</surname>
+              <given-names>Jaap</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dekinga</surname>
+              <given-names>Anne</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kraan</surname>
+              <given-names>Casper</given-names>
+            </name>
+            <name name-style="western">
+              <surname>van der Veer</surname>
+              <given-names>Henk W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Piersma</surname>
+              <given-names>Theunis</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Designing a benthic monitoring programme with multiple conflicting objectives</article-title>
+          <source>Methods in Ecology and Evolution</source>
+          <volume>3</volume>
+          <issue>3</issue>
+          <fpage>526</fpage>
+          <lpage>536</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1111/j.2041-210x.2012.00192.x</uri>
+          <pub-id pub-id-type="doi">10.1111/j.2041-210x.2012.00192.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3276996">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Bocher</surname>
+              <given-names>Pierrick</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Robin</surname>
+              <given-names>Frédéric</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kojadinovic</surname>
+              <given-names>Jessica</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Delaporte</surname>
+              <given-names>Philippe</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rousseau</surname>
+              <given-names>Pierre</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dupuy</surname>
+              <given-names>Christine</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bustamante</surname>
+              <given-names>Paco</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>Trophic resource partitioning within a shorebird community feeding on intertidal mudflat habitats</article-title>
+          <source>Journal of Sea Research</source>
+          <volume>92</volume>
+          <fpage>115</fpage>
+          <lpage>124</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1016/j.seares.2014.02.011</uri>
+          <pub-id pub-id-type="doi">10.1016/j.seares.2014.02.011</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3228914">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Bocher</surname>
+              <given-names>Pierrick</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Piersma</surname>
+              <given-names>Theunis</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dekinga</surname>
+              <given-names>Anne</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kraan</surname>
+              <given-names>Casper</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Yates</surname>
+              <given-names>Michael G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Guyot</surname>
+              <given-names>Thierry</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Folmer</surname>
+              <given-names>Eelke O.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Radenac</surname>
+              <given-names>Gilles</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <article-title>Site- and species-specific distribution patterns of molluscs at five intertidal soft-sediment areas in northwest Europe during a single winter</article-title>
+          <source>Marine Biology</source>
+          <volume>151</volume>
+          <issue>2</issue>
+          <fpage>577</fpage>
+          <lpage>594</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1007/s00227-006-0500-4</uri>
+          <pub-id pub-id-type="doi">10.1007/s00227-006-0500-4</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3317323">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Chapman</surname>
+              <given-names>A. D.</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <source>Principles and Methods of Data Cleaning - Primary Species and Species-Occurrence Data - version 1.0</source>
+          <publisher-name>GBIF</publisher-name>
+          <size units="page">75</size>
+          <uri xlink:type="simple">http://www.gbif.org/orc/?doc_id=1262.</uri>
+        </element-citation>
+      </ref>
+      <ref id="B3229009">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Compton</surname>
+              <given-names>TJ</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Troost</surname>
+              <given-names>TA</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Drent</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kraan</surname>
+              <given-names>C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bocher</surname>
+              <given-names>P</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Leyrer</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dekinga</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Piersma</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>Repeatable sediment associations of burrowing bivalves across six European tidal flat systems</article-title>
+          <source>Marine Ecology Progress Series</source>
+          <volume>382</volume>
+          <fpage>87</fpage>
+          <lpage>98</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.3354/meps07964</uri>
+          <pub-id pub-id-type="doi">10.3354/meps07964</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3277009">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Degré</surname>
+              <given-names>Delphine</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Leguerrier</surname>
+              <given-names>Delphine</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Armynot du Chatelet</surname>
+              <given-names>Eric</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rzeznik</surname>
+              <given-names>Jadwiga</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Auguet</surname>
+              <given-names>Jean-Christophe</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dupuy</surname>
+              <given-names>Christine</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Marquis</surname>
+              <given-names>Elise</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fichet</surname>
+              <given-names>Denis</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Struski</surname>
+              <given-names>Caroline</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Joyeux</surname>
+              <given-names>Emmanuel</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sauriau</surname>
+              <given-names>Pierre-Guy</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Niquil</surname>
+              <given-names>Nathalie</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <article-title>Comparative analysis of the food webs of two intertidal mudflats during two seasons using inverse modelling: Aiguillon Cove and Brouage Mudflat, France</article-title>
+          <source>Estuarine, Coastal and Shelf Science</source>
+          <volume>69</volume>
+          <fpage>107</fpage>
+          <lpage>124</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1016/j.ecss.2006.04.001</uri>
+          <pub-id pub-id-type="doi">10.1016/j.ecss.2006.04.001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3317297">
+        <element-citation publication-type="book" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Hawkins</surname>
+              <given-names>D. M.</given-names>
+            </name>
+          </person-group>
+          <year>1980</year>
+          <source>Identification of outliers</source>
+          <volume>11</volume>
+          <publisher-name>Chapman and Hall</publisher-name>
+          <size units="page">127</size>
+        </element-citation>
+      </ref>
+      <ref id="B3229273">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Hayward</surname>
+              <given-names>P. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ryland</surname>
+              <given-names>J. S.</given-names>
+            </name>
+          </person-group>
+          <year>1996</year>
+          <article-title>Handbook of the marine fauna of north-west Europe, xi, 800p. Oxford University Press, 1995.</article-title>
+          <source>Journal of the Marine Biological Association of the United Kingdom</source>
+          <volume>76</volume>
+          <issue>1</issue>
+          <fpage>264</fpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1017/s0025315400029301</uri>
+          <pub-id pub-id-type="doi">10.1017/s0025315400029301</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3278117">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kraan</surname>
+              <given-names>Casper</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Aarts</surname>
+              <given-names>Geert</given-names>
+            </name>
+            <name name-style="western">
+              <surname>van der Meer</surname>
+              <given-names>Jaap</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Piersma</surname>
+              <given-names>Theunis</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>The role of environmental variables in structuring landscape-scale species distributions in seafloor habitats</article-title>
+          <source>Ecology</source>
+          <volume>91</volume>
+          <issue>6</issue>
+          <fpage>1583</fpage>
+          <lpage>1590</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1890/09-2040.1</uri>
+          <pub-id pub-id-type="doi">10.1890/09-2040.1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3228928">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kraan</surname>
+              <given-names>Casper</given-names>
+            </name>
+            <name name-style="western">
+              <surname>van Gils</surname>
+              <given-names>Jan A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Spaans</surname>
+              <given-names>Bernard</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dekinga</surname>
+              <given-names>Anne</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bijleveld</surname>
+              <given-names>Allert I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Roomen</surname>
+              <given-names>Marc van</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kleefstra</surname>
+              <given-names>Romke</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Piersma</surname>
+              <given-names>Theunis</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>Landscape-scale experiment demonstrates that Wadden Sea intertidal flats are used to capacity by molluscivore migrant shorebirds</article-title>
+          <source>Journal of Animal Ecology</source>
+          <volume>78</volume>
+          <issue>6</issue>
+          <fpage>1259</fpage>
+          <lpage>1268</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1111/j.1365-2656.2009.01564.x</uri>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2656.2009.01564.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3276982">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Philippe</surname>
+              <given-names>Anne S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pinaud</surname>
+              <given-names>David</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cayatte</surname>
+              <given-names>Marie-Laure</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Goulevant</surname>
+              <given-names>Cyril</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lachaussée</surname>
+              <given-names>Nicolas</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pineau</surname>
+              <given-names>Philippe</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Karpytchev</surname>
+              <given-names>Mikhail</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bocher</surname>
+              <given-names>Pierrick</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Influence of environmental gradients on the distribution of benthic resources available for shorebirds on intertidal mudflats of Yves Bay, France</article-title>
+          <source>Estuarine, Coastal and Shelf Science</source>
+          <volume>174</volume>
+          <fpage>71</fpage>
+          <lpage>81</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1016/j.ecss.2016.03.013</uri>
+          <pub-id pub-id-type="doi">10.1016/j.ecss.2016.03.013</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3229034">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Quaintenne</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>van Gils</surname>
+              <given-names>Jan A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bocher</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dekinga</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Piersma</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>Scaling up ideals to freedom: are densities of red knots across western Europe consistent with ideal free distribution?</article-title>
+          <source>Proceedings of the Royal Society B: Biological Sciences</source>
+          <volume>278</volume>
+          <issue>1719</issue>
+          <fpage>2728</fpage>
+          <lpage>2736</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1098/rspb.2011.0026</uri>
+          <pub-id pub-id-type="doi">10.1098/rspb.2011.0026</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3229023">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Quaintenne</surname>
+              <given-names>Gwenael</given-names>
+            </name>
+            <name name-style="western">
+              <surname>van Gils</surname>
+              <given-names>Jan A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bocher</surname>
+              <given-names>Pierrick</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dekinga</surname>
+              <given-names>Anne</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Piersma</surname>
+              <given-names>Theunis</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>Diet selection in a molluscivore shorebird across Western Europe: does it show short- or long-term intake rate-maximization?</article-title>
+          <source>Journal of Animal Ecology</source>
+          <volume>79</volume>
+          <issue>1</issue>
+          <fpage>53</fpage>
+          <lpage>62</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1111/j.1365-2656.2009.01608.x</uri>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2656.2009.01608.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3229283">
+        <element-citation publication-type="software" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Team</surname>
+              <given-names>R Development Core</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>R: A language and environment for statistical computing. R Foundation for Statistical Computing</article-title>
+          <publisher-name>Vienna, Austria</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B3278233">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>van Gils</surname>
+              <given-names>Jan A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>De Rooij</surname>
+              <given-names>Sem R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>van Belle</surname>
+              <given-names>Jelmer</given-names>
+            </name>
+            <name name-style="western">
+              <surname>van der Meer</surname>
+              <given-names>Jaap</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dekinga</surname>
+              <given-names>Anne</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Piersma</surname>
+              <given-names>Theunis</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Drent</surname>
+              <given-names>Rudi</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <article-title>Digestive bottleneck affects foraging decisions in red knots <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Calidris</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">canutus</tp:taxon-name-part></tp:taxon-name>. I. Prey choice</article-title>
+          <source>Journal of Animal Ecology</source>
+          <volume>74</volume>
+          <issue>1</issue>
+          <fpage>105</fpage>
+          <lpage>119</lpage>
+          <uri xlink:type="simple">http://dx.doi.org/10.1111/j.1365-2656.2004.00903.x</uri>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2656.2004.00903.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3443524">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Species</surname>
+              <given-names>World Register of Marine</given-names>
+            </name>
+          </person-group>
+          <article-title>World Register of Marine Species, Webservice</article-title>
+          <uri xlink:type="simple">http://www.marinespecies.org/aphia.php?p=webservice</uri>
+          <date-in-citation content-type="access-date">2016-10-20T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B3443515">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Species</surname>
+              <given-names>World Register of Marine</given-names>
+            </name>
+          </person-group>
+          <article-title>World Register of Marine Species</article-title>
+          <uri xlink:type="simple">http://www.marinespecies.org/index.php</uri>
+          <date-in-citation content-type="access-date">2016-10-20T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B3443533">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Species</surname>
+              <given-names>World Register of Marine</given-names>
+            </name>
+          </person-group>
+          <article-title>WSDL interfcae, World Register of Marine Species</article-title>
+          <uri xlink:type="simple">http://www.marinespecies.org/aphia.php?p=soap&amp;wsdl=1</uri>
+          <date-in-citation content-type="access-date">2016-10-20T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F3230723" position="float" orientation="portrait">
+      <object-id content-type="arpha">E89BD4C8-46CC-5ADC-A36B-C14F38DD46F7</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Sampling site with the 259 regular station, across four study sites, in the Pertuis Charentais, on the French Atlantic coast.</p>
+      </caption>
+      <graphic xlink:href="bdj-05-e10288-g001.jpg" position="float" id="oo_92749.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/92749</uri>
+      </graphic>
+    </fig>
+    <fig id="F3266103" position="float" orientation="portrait">
+      <object-id content-type="arpha">DFFA0D20-9B20-583A-9170-D33AAFD7EED4</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>The harvestable fraction corresponding to the mean bill length of the sandpipers, the dunlin <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Calidris</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">alpina</tp:taxon-name-part></tp:taxon-name></italic> and the red knot <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Calidris</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">canutus</tp:taxon-name-part></tp:taxon-name></italic> and composed of the accessible fraction of benthos (found in the top 4 cm of the mud core) and of ingestible sizes (not too large and not too small). Ingestible sizes are species specific, and depend on the shape of the mollusc. Sizes available for <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">C.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">canutus</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">C.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">alpina</tp:taxon-name-part></tp:taxon-name></italic> species are reported in <xref ref-type="bibr" rid="B3276982">Philippe et al. (2016)</xref>.</p>
+      </caption>
+      <graphic xlink:href="bdj-05-e10288-g002.jpg" position="float" id="oo_89362.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/89362</uri>
+      </graphic>
+    </fig>
+    <fig id="F3264081" position="float" orientation="portrait">
+      <object-id content-type="arpha">E7A8E960-9357-52C1-AF3B-FCB81CE5BC8B</object-id>
+      <label>Figure 3.</label>
+      <caption>
+        <p>Processing of benthic samples in the laboratory.</p>
+      </caption>
+      <graphic xlink:href="bdj-05-e10288-g003.jpg" position="float" id="oo_105933.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/105933</uri>
+      </graphic>
+    </fig>
+    <fig id="F3277053" position="float" orientation="portrait">
+      <object-id content-type="arpha">68A36CB0-7A4C-5C56-99CF-5F03A4FD79D1</object-id>
+      <label>Figure 4.</label>
+      <caption>
+        <p>Benthic monitoring database building steps, from data collection to the production of results</p>
+      </caption>
+      <graphic xlink:href="bdj-05-e10288-g004.jpg" position="float" id="oo_92468.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/92468</uri>
+      </graphic>
+    </fig>
+    <fig id="F3230721" position="float" orientation="portrait">
+      <object-id content-type="arpha">72E16C41-626D-5F84-AA21-609A5595C174</object-id>
+      <label>Figure 5.</label>
+      <caption>
+        <p>Data cleaning using extrapolation curves: an example of shell dry mass extrapolation based on shell length in the bivalve <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Macoma</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">balthica</tp:taxon-name-part></tp:taxon-name></italic>.</p>
+      </caption>
+      <graphic xlink:href="bdj-05-e10288-g005.jpg" position="float" id="oo_90751.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/90751</uri>
+      </graphic>
+    </fig>
+    <fig id="F3230630" position="float" orientation="portrait">
+      <object-id content-type="arpha">AB7DF8D5-1BD3-52D1-90BA-73210436BF18</object-id>
+      <label>Figure 6.</label>
+      <caption>
+        <p>Right side: map of the biomass of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scrobicularia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">plana</tp:taxon-name-part></tp:taxon-name></italic> on Aiguillon Cove on the Charente-Maritime side (AIC) in 2014; Left side: temporal evolution of one station (n° 1698) of this site for biomass in time since 2004.</p>
+      </caption>
+      <graphic xlink:href="bdj-05-e10288-g006.jpg" position="float" id="oo_89698.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/89698</uri>
+      </graphic>
+    </fig>
+    <fig id="F3240621" position="float" orientation="portrait">
+      <object-id content-type="arpha">8E5F6BBA-4EDE-5E19-818B-B6546514E3C3</object-id>
+      <label>Figure 7.</label>
+      <caption>
+        <p>Left side: Variation of mollusc biomass harvestable to red knots between stations of Aiguillon bay on the Charente-Maritime side (AIC) in 2014. Right side: Evolution of mean harvestable biomass of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scrobicularia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species">plana</tp:taxon-name-part></tp:taxon-name></italic> in Aiguillon bay on the Charente-Maritime site (AIC) since 2004.</p>
+      </caption>
+      <graphic xlink:href="bdj-05-e10288-g007.jpg" position="float" id="oo_105935.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/105935</uri>
+      </graphic>
+    </fig>
+    <fig id="F3276955" position="float" orientation="portrait">
+      <object-id content-type="arpha">EDD2F059-5E22-5855-BE75-9428DD015195</object-id>
+      <label>Figure 8.</label>
+      <caption>
+        <p>Biomass share of abundant mollusc genus (<italic>i.e</italic>. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Hydrobia</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Macoma</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Cerastoderma</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Scrobicularia</tp:taxon-name-part></tp:taxon-name></italic> and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Abra</tp:taxon-name-part></tp:taxon-name></italic>) in the four study sites in winter 2013-2014. Radius is proportional to the combined biomass density of the main mollusc species (g<sub>AFDM</sub>.m<sup>-2</sup>).</p>
+      </caption>
+      <graphic xlink:href="bdj-05-e10288-g008.jpg" position="float" id="oo_92752.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/92752</uri>
+      </graphic>
+    </fig>
+    <table-wrap id="T3314601" position="float" orientation="portrait">
+      <label>Table 1.</label>
+      <caption>
+        <p>Table of attributes, with associated column names, description, units and constraints in the benthos dataset.</p>
+      </caption>
+      <table rules="all" border="0" style="border-collapse:collapse; width:596pt">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">Attribute</td>
+            <td rowspan="1" colspan="1">Column_name</td>
+            <td rowspan="1" colspan="1">Description</td>
+            <td rowspan="1" colspan="1">Units</td>
+            <td rowspan="1" colspan="1">Constraints</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">AphiaID</td>
+            <td rowspan="1" colspan="1">AphiaID</td>
+            <td rowspan="1" colspan="1">Unique number corresponding to a described species in WoRMS</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">Integer</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Period</td>
+            <td rowspan="1" colspan="1">"Period"</td>
+            <td rowspan="1" colspan="1">Winter period corresponding to the sampling</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">Text, ["Winter 2003-2004" to "Winter 2013-2014"]</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Sampling date</td>
+            <td rowspan="1" colspan="1">"sampling_date"</td>
+            <td rowspan="1" colspan="1">Date of sampling</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">Datastyle, DMY format</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Site</td>
+            <td rowspan="1" colspan="1">"site"</td>
+            <td rowspan="1" colspan="1">Sampling site</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">'MAROL' refers to Marennes Oléron Bay, and 'AIG' refers to Aiguillon Bay</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Subsite</td>
+            <td rowspan="1" colspan="1">"st_sit_id"</td>
+            <td rowspan="1" colspan="1">Subsite</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">Each site is divided into two subsites (grids of approximately 64 stations). Oléron subsite ('ol') and Moëze subsite ('mo') are part of the site 'MAROL'. Aiguillon Charente subsite ('aic') and Aiguillon Vendée subsite ('aiv') are part of the site 'AIG'.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Station</td>
+            <td rowspan="1" colspan="1">"Poskey"</td>
+            <td rowspan="1" colspan="1">Station number</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">Each station refers to unique coordinates ("st_lat_dd" and "st_long_dd") and is located in a single "site" and "subsite". Subsite 'ol' has 67 stations, and subsites 'mo', 'aic' and 'aiv' have 64</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Latitude</td>
+            <td rowspan="1" colspan="1">"st_lat_dd"</td>
+            <td rowspan="1" colspan="1">Latitude</td>
+            <td rowspan="1" colspan="1">Decimal degrees, WGS84</td>
+            <td rowspan="1" colspan="1">Numeric, together with "st_long_dd" refer to a single "Poskey" value</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Longitude</td>
+            <td rowspan="1" colspan="1">"st_long_dd"</td>
+            <td rowspan="1" colspan="1">Longitude</td>
+            <td rowspan="1" colspan="1">Decimal degrees, WGS84</td>
+            <td rowspan="1" colspan="1">Numeric, together with "st_lat_dd" refer to a single "Poskey" value</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Number</td>
+            <td rowspan="1" colspan="1">"number"</td>
+            <td rowspan="1" colspan="1">Number of individual</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">Integer = 1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Shell length</td>
+            <td rowspan="1" colspan="1">"length"</td>
+            <td rowspan="1" colspan="1">Maximum length of the shell</td>
+            <td rowspan="1" colspan="1">mm</td>
+            <td rowspan="1" colspan="1">Numeric, decimal = 2. 'NA' when "Phylum" is '<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Annelida</tp:taxon-name-part></tp:taxon-name>'. Measured from the apex to the aperture when <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Gastropoda</tp:taxon-name-part></tp:taxon-name>. Measured as the maximum length of the shell when Bivalve. For the species 'hyd', length is rounded to the closest lower integer</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Size class</td>
+            <td rowspan="1" colspan="1">"class_length"</td>
+            <td rowspan="1" colspan="1">Size class of the individual</td>
+            <td rowspan="1" colspan="1">mm</td>
+            <td rowspan="1" colspan="1">Integer, corresponded to the "length" value, rounded to the closest integer</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Shell width</td>
+            <td rowspan="1" colspan="1">"width"</td>
+            <td rowspan="1" colspan="1">Width of the bivalve</td>
+            <td rowspan="1" colspan="1">mm</td>
+            <td rowspan="1" colspan="1">Numerical, decimal = 2, only measured for bivalves as the maximum width when both valves are taken together</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Flesh AFDM</td>
+            <td rowspan="1" colspan="1">"AFDM"</td>
+            <td rowspan="1" colspan="1">Ash-Free Dry Mass of the soft part</td>
+            <td rowspan="1" colspan="1">g</td>
+            <td rowspan="1" colspan="1">Numerical, decimal = 4. 'NA' when "Phylum" is '<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Annelida</tp:taxon-name-part></tp:taxon-name>'</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Shell DM</td>
+            <td rowspan="1" colspan="1">"ShellDM"</td>
+            <td rowspan="1" colspan="1">Dry mass of the shell</td>
+            <td rowspan="1" colspan="1">g</td>
+            <td rowspan="1" colspan="1">Numerical, decimal = 4. 'NA' when "Phylum" is '<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Annelida</tp:taxon-name-part></tp:taxon-name>'</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Sampling mode</td>
+            <td rowspan="1" colspan="1">"car_mod_id"</td>
+            <td rowspan="1" colspan="1">Sampling mode, either by boat or by foot</td>
+            <td rowspan="1" colspan="1">_</td>
+            <td rowspan="1" colspan="1">Integer, value in (1,2). If sampling was made by foot "car_mod_id" = 1. If sampling was made from boats "car-mod_id" = 2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Accessibility</td>
+            <td rowspan="1" colspan="1">"car_top_bottom"</td>
+            <td rowspan="1" colspan="1">Whether or not the top 4 cm were seperated from the rest of the mud core</td>
+            <td rowspan="1" colspan="1">_</td>
+            <td rowspan="1" colspan="1">Logical, if "car_mod_id" = 1 then "car_top_bottom" = TRUE</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Sediment layer</td>
+            <td rowspan="1" colspan="1">"T.B.H"</td>
+            <td rowspan="1" colspan="1">Type of corer used</td>
+            <td rowspan="1" colspan="1">_</td>
+            <td rowspan="1" colspan="1">Integer, value in ('top','bott','hyd','all'). If "car_mod_id" = 1, then "T.B.H" = 'hyd' if "abr" is 'hyd' otherwise if the individual is a different species of mollusc "T.B.H" = 'top' or 'bott' depending on the mud layer processed. If "car_mod_id" = 2 OR "Phylum" = '<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Annelida</tp:taxon-name-part></tp:taxon-name>' then "T.B.H" = 'all'.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Extrapolated Accessibility</td>
+            <td rowspan="1" colspan="1">"newTBH"</td>
+            <td rowspan="1" colspan="1">Extrapolated value, from the column "T.B.H"</td>
+            <td rowspan="1" colspan="1">_</td>
+            <td rowspan="1" colspan="1">Character, value in ('t', 'b'), for other constraints see section "Cleaning process" and the paragraph "Extrapolating top and bottom fractions" of the present article</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Sampled area</td>
+            <td rowspan="1" colspan="1">"area"</td>
+            <td rowspan="1" colspan="1">Sampled area, corresponding to the individual</td>
+            <td rowspan="1" colspan="1">m²</td>
+            <td rowspan="1" colspan="1">Numerical, decimal = 8. If "T.B.H" is 'top' or 'bott' then diameter of the corer is 7.5 cm and area = PI X 0,075². If "T.B.H" is 'hyd' then a smaller corer was used with a 3.5 cm diamater and area= PI X 0,035². If "T.B.H" is 'all' and "car_mod_id" is 1 then area = PI X 0,075². If "T.B.H" is 'all' and "car_mod_id" is 2 then two cores of 10 cm diameter were taken and area = 2 X PI X 0,100²</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Abundance density</td>
+            <td rowspan="1" colspan="1">"dens.ind"</td>
+            <td rowspan="1" colspan="1">Abundance density</td>
+            <td rowspan="1" colspan="1">m-2</td>
+            <td rowspan="1" colspan="1">Numerical, decimal = 4. "number" / "area"</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Biomass density</td>
+            <td rowspan="1" colspan="1">"biomass.dens"</td>
+            <td rowspan="1" colspan="1">Density of flesh Ash-Free Dry Mass</td>
+            <td rowspan="1" colspan="1">g.m-2</td>
+            <td rowspan="1" colspan="1">Numerical, decimal = 4. "AFDM" / "area"</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Scientific name</td>
+            <td rowspan="1" colspan="1">"scientific_name"</td>
+            <td rowspan="1" colspan="1">Scientific name of the species</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">Binomial nomenclature</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Phylum</td>
+            <td rowspan="1" colspan="1">"phylum"</td>
+            <td rowspan="1" colspan="1">Phylum of the sampled individual</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">Character, value in ('<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Annelida</tp:taxon-name-part></tp:taxon-name>', '<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Mollusca</tp:taxon-name-part></tp:taxon-name>')</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Class</td>
+            <td rowspan="1" colspan="1">"class"</td>
+            <td rowspan="1" colspan="1">Class associated to the individual</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">Text, according to WoRMS</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Family</td>
+            <td rowspan="1" colspan="1">"family"</td>
+            <td rowspan="1" colspan="1">Family associated to the individual</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">Text, according to WoRMS</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Genus</td>
+            <td rowspan="1" colspan="1">"genus"</td>
+            <td rowspan="1" colspan="1">Genus associated to the indivual</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">Text, according to WoRMS</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">English common name</td>
+            <td rowspan="1" colspan="1">"English name"</td>
+            <td rowspan="1" colspan="1">English common name associated with the individual</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">Text, according to WoRMS</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Authority</td>
+            <td rowspan="1" colspan="1">"authority"</td>
+            <td rowspan="1" colspan="1">The person credited to have formally named the species for the first time</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">Text, parentheses if the original name of the species has changed</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Number of individuals</td>
+            <td rowspan="1" colspan="1">"nr"</td>
+            <td rowspan="1" colspan="1">Total individuals of this species in the database</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">Integer</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T3244910" position="float" orientation="portrait">
+      <label>Table 2.</label>
+      <caption>
+        <p>Species collected, including total number of specimens in the database, and classification according to the World Register of Marine Species</p>
+      </caption>
+      <table rules="all" border="0" style="border-collapse:collapse; width:480pt">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">AphiaID</td>
+            <td rowspan="1" colspan="1">Scientific name</td>
+            <td rowspan="1" colspan="1">Class</td>
+            <td rowspan="1" colspan="1">Family</td>
+            <td rowspan="1" colspan="1">Genus</td>
+            <td rowspan="1" colspan="1">Common name</td>
+            <td rowspan="1" colspan="1">Authority</td>
+            <td rowspan="1" colspan="1">Nr. of specimens</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">141435</td>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus">Abra</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species">nitida</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Bivalvia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Semelidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="genus">Abra</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">(Müller, 1776)</td>
+            <td rowspan="1" colspan="1">23</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">146467</td>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus">Abra</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species">ovata</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Bivalvia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Semelidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="genus">Abra</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">(Philippi, 1836)</td>
+            <td rowspan="1" colspan="1">3</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">138474</td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Abra</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Bivalvia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Semelidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="genus">Abra</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">Lamarck, 1818</td>
+            <td rowspan="1" colspan="1">10</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">141439</td>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus">Abra</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species">tenuis</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Bivalvia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Semelidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="genus">Abra</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">(Montagu, 1803)</td>
+            <td rowspan="1" colspan="1">3,726</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">138998</td>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus">Cerastoderma</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species">edule</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Bivalvia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Cardiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="genus">Cerastoderma</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">Edible cockle, common cockle</td>
+            <td rowspan="1" colspan="1">(Linnaeus, 1758)</td>
+            <td rowspan="1" colspan="1">1,697</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">139410</td>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus">Corbula</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species">gibba</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Bivalvia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Corbulidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="genus">Corbula</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">European clam, Basket shell</td>
+            <td rowspan="1" colspan="1">(Olivi, 1792)</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">138963</td>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus">Crepidula</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species">fornicata</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Gastropoda</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Calyptraeidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="genus">Crepidula</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">Common Atlantic slippersnail</td>
+            <td rowspan="1" colspan="1">(Linnaeus, 1758)</td>
+            <td rowspan="1" colspan="1">56</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">876816</td>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus">Tritia</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species">neritea</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Gastropoda</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Nassariidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="genus">Tritia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">Cyclope</td>
+            <td rowspan="1" colspan="1">(Linnaeus, 1758)</td>
+            <td rowspan="1" colspan="1">42</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">146905</td>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus">Epitonium</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species">clathrus</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Gastropoda</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Eulimidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="genus">Epitonium</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">European wentletrap</td>
+            <td rowspan="1" colspan="1">(Linnaeus, 1758)</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">140656</td>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus">Crassostrea</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species">gigas</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Bivalvia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Ostreidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="genus">Crassostrea</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">Pacific oyster</td>
+            <td rowspan="1" colspan="1">(Thunberg, 1793)</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">140074</td>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus">Haminoea</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species">hydatis</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Gastropoda</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Haminoeidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="genus">Haminoea</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">(Linnaeus, 1758)</td>
+            <td rowspan="1" colspan="1">55</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">140126</td>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus">Hydrobia</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species">ulvae</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Gastropoda</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Hydrobiidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="genus">Hydrobia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">Mudsnail, laver spire shell</td>
+            <td rowspan="1" colspan="1">(Pennant, 1777)</td>
+            <td rowspan="1" colspan="1">45,796</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">140262</td>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus">Littorina</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species">littorea</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Gastropoda</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Littorinidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="genus">Littorina</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">Common periwinkle</td>
+            <td rowspan="1" colspan="1">(Linnaeus, 1758)</td>
+            <td rowspan="1" colspan="1">38</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">140264</td>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus">Littorina</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species">saxatalis</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Gastropoda</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Littorinidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="genus">Littorina</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">black-lined periwinkle</td>
+            <td rowspan="1" colspan="1">(Olivi, 1792)</td>
+            <td rowspan="1" colspan="1">8</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">141579</td>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus">Macoma</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species">balthica</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Bivalvia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Tellinidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="genus">Macoma</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">Baltic tellin</td>
+            <td rowspan="1" colspan="1">(Linnaeus, 1758)</td>
+            <td rowspan="1" colspan="1">3,930</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">140380</td>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus">Kurtiella</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species">bidentata</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Bivalvia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Montacutidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="genus">Kurtiella</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">(Montagu, 1803)</td>
+            <td rowspan="1" colspan="1">20</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">140480</td>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus">Mytilus</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species">edulis</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Bivalvia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Mytilidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="genus">Mytilus</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">Blue mussel</td>
+            <td rowspan="1" colspan="1">Linnaeus, 1758</td>
+            <td rowspan="1" colspan="1">11</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">138235</td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Nassarius</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Gastropoda</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Nassariidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="genus">Nassarius</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">Duméril, 1805</td>
+            <td rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">22496</td>
+            <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Nereididae</tp:taxon-name-part></tp:taxon-name> indet.</td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Polychaeta</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Nereididae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">Blainville, 1918</td>
+            <td rowspan="1" colspan="1">1,151</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">129370</td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Nepthys</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Polychaeta</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Nephtyidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="genus">Nephtys</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">Cuvier, 1817</td>
+            <td rowspan="1" colspan="1">1,648</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">140589</td>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus">Nucula</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species">nitidosa</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Bivalvia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Nuculidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="genus">Nucula</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">Winckworth, 1930</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">141134</td>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus">Retusa</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species">obtusa</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Gastropoda</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Retusidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="genus">Retusa</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">Arctic barrel-bubble</td>
+            <td rowspan="1" colspan="1">(Montagu, 1803)</td>
+            <td rowspan="1" colspan="1">148</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">141424</td>
+            <td rowspan="1" colspan="1">
+              <italic>
+                <tp:taxon-name>
+                  <tp:taxon-name-part taxon-name-part-type="genus">Scrobicularia</tp:taxon-name-part>
+                  <tp:taxon-name-part taxon-name-part-type="species">plana</tp:taxon-name-part>
+                </tp:taxon-name>
+              </italic>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Bivalvia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Semelidae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="genus">Scrobicularia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">Peppery furrow shell</td>
+            <td rowspan="1" colspan="1">(da Costa, 1778)</td>
+            <td rowspan="1" colspan="1">7,592</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">231748</td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus">Ruditapes</tp:taxon-name-part></tp:taxon-name></italic> sp.</td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="class">Bivalvia</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Veneridae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="genus">Ruditapes</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">Chiamenti, 1900</td>
+            <td rowspan="1" colspan="1">660</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T3314902" position="float" orientation="portrait">
+      <label>Table 3.</label>
+      <caption>
+        <p>Integrity checks, data cleaning and inferring of missing data</p>
+      </caption>
+      <table rules="all" border="1" style="width:682px">
+        <tbody>
+          <tr>
+            <th rowspan="1" colspan="6" style="width: 674px; text-align: center;">
+              <bold>Step 1. Check integrity constraints, misspellings, uniqueness</bold>
+            </th>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Attribute</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Description</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Modified</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Total occurrence</bold>
+            </td>
+            <td rowspan="1" colspan="1">% <bold>corrected</bold></td>
+            <td rowspan="1" colspan="1">
+              <bold>Criteria</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">"abr"</td>
+            <td rowspan="1" colspan="1">Species abbreviation</td>
+            <td rowspan="1" colspan="1">148</td>
+            <td rowspan="1" colspan="1">66,620</td>
+            <td rowspan="1" colspan="1">0.22%</td>
+            <td rowspan="1" colspan="1">misspelling</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">"car_top_bottom"</td>
+            <td rowspan="1" colspan="1">Whether the top fraction of the sediment was sampled separately</td>
+            <td rowspan="1" colspan="1">460</td>
+            <td rowspan="1" colspan="1">7,013</td>
+            <td rowspan="1" colspan="1">6.56%</td>
+            <td rowspan="1" colspan="1">logic</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">"AFDM"</td>
+            <td rowspan="1" colspan="1">Flesh ash-free dry mass</td>
+            <td rowspan="1" colspan="1">2,215</td>
+            <td rowspan="1" colspan="1">11,015</td>
+            <td rowspan="1" colspan="1">20.11%</td>
+            <td rowspan="1" colspan="1">"length" &gt; 8</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">"ShellDM"</td>
+            <td rowspan="1" colspan="1">Shell dry mass</td>
+            <td rowspan="1" colspan="1">2,353</td>
+            <td rowspan="1" colspan="1">11,015</td>
+            <td rowspan="1" colspan="1">21.36%</td>
+            <td rowspan="1" colspan="1">"length" &gt; 8</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="6" style="text-align: center;">
+              <bold>Step 2. Detect &amp; remove outliers, infer missing values</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Attribute</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Description</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Modified</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Total occurence</bold>
+            </td>
+            <td rowspan="1" colspan="1">% <bold>corrected</bold></td>
+            <td rowspan="1" colspan="1">
+              <bold>Criteria</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">"length"</td>
+            <td rowspan="1" colspan="1">Length of the shell</td>
+            <td rowspan="1" colspan="1">140</td>
+            <td rowspan="1" colspan="1">66,620</td>
+            <td rowspan="1" colspan="1">0.21%</td>
+            <td rowspan="1" colspan="1">"length" = 0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">"AFDM"</td>
+            <td rowspan="1" colspan="1">Flesh ash-free dry mass</td>
+            <td rowspan="1" colspan="1">52,127</td>
+            <td rowspan="1" colspan="1">53,533</td>
+            <td rowspan="1" colspan="1">97.37%</td>
+            <td rowspan="1" colspan="1">"length" &lt; 8</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">"ShellDM"</td>
+            <td rowspan="1" colspan="1">Shell dry mass</td>
+            <td rowspan="1" colspan="1">10,308</td>
+            <td rowspan="1" colspan="1">53,533</td>
+            <td rowspan="1" colspan="1">19.26%</td>
+            <td rowspan="1" colspan="1">"length" &lt; 8</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">"newTBH"</td>
+            <td rowspan="1" colspan="1">Whether the individual belongs to the top or the bottom (inferring)</td>
+            <td rowspan="1" colspan="1">10,884</td>
+            <td rowspan="1" colspan="1">21,918</td>
+            <td rowspan="1" colspan="1">49.66%</td>
+            <td rowspan="1" colspan="1">probabilities</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <supplementary-material id="S3277055" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">4B29B6B4-CC2B-52C4-96AE-354BC23A14EE</object-id>
+      <object-id content-type="doi">10.3897/BDJ.5.e10288.suppl1</object-id>
+      <object-id content-type="zenodo_dep_id">904004</object-id>
+      <label>Supplementary material 1</label>
+      <caption>
+        <p>R code for correcting ouliers and NA values in the dataframe</p>
+      </caption>
+      <p>Data type: R code, txt</p>
+      <p>File: oo_92462.txt</p>
+      <media xlink:href="bdj-05-e10288-s001.txt" mimetype="txt file" mime-subtype="txt" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/92462</uri>
+      </media>
+      <attrib specific-use="authors">Dr. Christine Plumejeaud-Perreau, Anne S. Philippe</attrib>
+    </supplementary-material>
+    <supplementary-material id="S3278231" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">4EECD4CB-8531-52FE-96E3-429BD830EE34</object-id>
+      <object-id content-type="doi">10.3897/BDJ.5.e10288.suppl2</object-id>
+      <object-id content-type="zenodo_dep_id">904006</object-id>
+      <label>Supplementary material 2</label>
+      <caption>
+        <p>Script for extrapolation Top/bottom</p>
+      </caption>
+      <p>Data type: R code, txt</p>
+      <p>File: oo_92455.txt</p>
+      <media xlink:href="bdj-05-e10288-s002.txt" mimetype="txt file" mime-subtype="txt" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/92455</uri>
+      </media>
+      <attrib specific-use="authors">Christine Plumejeaud-Perreau, Anne Philippe</attrib>
+    </supplementary-material>
+    <supplementary-material id="S3277056" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">746581F4-5E8B-5322-9A1D-7557C891B366</object-id>
+      <object-id content-type="doi">10.3897/BDJ.5.e10288.suppl3</object-id>
+      <object-id content-type="zenodo_dep_id">904008</object-id>
+      <label>Supplementary material 3</label>
+      <caption>
+        <p>R code for creating results presented in the data paper</p>
+      </caption>
+      <p>Data type: R code, txt</p>
+      <p>File: oo_92457.txt</p>
+      <media xlink:href="bdj-05-e10288-s003.txt" mimetype="txt file" mime-subtype="txt" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/92457</uri>
+      </media>
+      <attrib specific-use="authors">Dr. Christine Plumejeaud-Perreau, Anne S. Philippe</attrib>
+    </supplementary-material>
+  </floats-group>
+</article>

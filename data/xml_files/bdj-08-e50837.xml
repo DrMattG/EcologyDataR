@@ -1,0 +1,2806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.8.e50837</article-id>
+      <article-id pub-id-type="publisher-id">50837</article-id>
+      <article-id pub-id-type="manuscript">12565</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Plantae</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Data analysis &amp; Modelling</subject>
+          <subject>Bioinformatics</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>Americas</subject>
+          <subject>Brazil</subject>
+          <subject>South America</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Using online databases to produce comprehensive accounts of the vascular plants from the Brazilian protected areas: The Parque Nacional do Itatiaia as a case study</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Moreira</surname>
+            <given-names>Marina M</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <name name-style="western">
+            <surname>Carrijo</surname>
+            <given-names>Tatiana T</given-names>
+          </name>
+          <email xlink:type="simple">tcarrijo@gmail.com</email>
+          <uri content-type="orcid">https://orcid.org/0000-0002-8366-0738</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Alves-Araújo</surname>
+            <given-names>Anderson</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0001-5810-5145</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Amorim</surname>
+            <given-names>André M A</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Rapini</surname>
+            <given-names>Alessandro</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>da Silva</surname>
+            <given-names>Andrews V S</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-7276-4259</uri>
+          <xref ref-type="aff" rid="A5">5</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Cosenza</surname>
+            <given-names>Braz A P</given-names>
+          </name>
+          <xref ref-type="aff" rid="A6">6</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Lopes</surname>
+            <given-names>Claudia R</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Delgado</surname>
+            <given-names>Camila N</given-names>
+          </name>
+          <xref ref-type="aff" rid="A7">7</xref>
+          <xref ref-type="aff" rid="A8">8</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Kameyama</surname>
+            <given-names>Cíntia</given-names>
+          </name>
+          <xref ref-type="aff" rid="A9">9</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Couto</surname>
+            <given-names>Dayvid R</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A10">10</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Barbosa</surname>
+            <given-names>Daniel E F</given-names>
+          </name>
+          <xref ref-type="aff" rid="A7">7</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Monteiro</surname>
+            <given-names>Daniele</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Gonzaga</surname>
+            <given-names>Diego R</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Dalcin</surname>
+            <given-names>Eduardo C</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-4661-0272</uri>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Guimarães</surname>
+            <given-names>Elsie F</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>de Lírio</surname>
+            <given-names>Elton John</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-9986-9640</uri>
+          <xref ref-type="aff" rid="A11">11</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Matos</surname>
+            <given-names>Fernando B</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0003-2133-6032</uri>
+          <xref ref-type="aff" rid="A12">12</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Salimena</surname>
+            <given-names>Fátima R G</given-names>
+          </name>
+          <xref ref-type="aff" rid="A7">7</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Oliveira</surname>
+            <given-names>Felipe A</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0003-4011-3504</uri>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Heiden</surname>
+            <given-names>Gustavo</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-0046-6500</uri>
+          <xref ref-type="aff" rid="A13">13</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Lanna</surname>
+            <given-names>João M</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-4455-5142</uri>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Baumgratz</surname>
+            <given-names>José Fernando</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Pastore</surname>
+            <given-names>José F B</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0003-4134-7345</uri>
+          <xref ref-type="aff" rid="A14">14</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Oliveira</surname>
+            <given-names>Juliana R P M</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Barcelos</surname>
+            <given-names>Laísa B</given-names>
+          </name>
+          <xref ref-type="aff" rid="A15">15</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Sylvestre</surname>
+            <given-names>Lana S</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-0486-0898</uri>
+          <xref ref-type="aff" rid="A5">5</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Freitas</surname>
+            <given-names>Leandro</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-4146-2514</uri>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Giacomin</surname>
+            <given-names>Leandro L</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0001-8862-4042</uri>
+          <xref ref-type="aff" rid="A16">16</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Pederneiras</surname>
+            <given-names>Leandro</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0003-1822-227X</uri>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Meireles</surname>
+            <given-names>Leonardo D</given-names>
+          </name>
+          <xref ref-type="aff" rid="A11">11</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Lohmann</surname>
+            <given-names>Lúcia G</given-names>
+          </name>
+          <xref ref-type="aff" rid="A11">11</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Pereira</surname>
+            <given-names>Luciana C</given-names>
+          </name>
+          <xref ref-type="aff" rid="A7">7</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Silva</surname>
+            <given-names>Luis Alexandre E</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-7464-922X</uri>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Neto</surname>
+            <given-names>Luiz M</given-names>
+          </name>
+          <xref ref-type="aff" rid="A7">7</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Souza</surname>
+            <given-names>Marcelo C</given-names>
+          </name>
+          <xref ref-type="aff" rid="A17">17</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Trovó</surname>
+            <given-names>Marcelo</given-names>
+          </name>
+          <xref ref-type="aff" rid="A5">5</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Sobral</surname>
+            <given-names>Marcos E G</given-names>
+          </name>
+          <xref ref-type="aff" rid="A18">18</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Garbin</surname>
+            <given-names>Mário Luís</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Gomes</surname>
+            <given-names>Mario</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Morim</surname>
+            <given-names>Marli P</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Mota</surname>
+            <given-names>Michelle Christine A</given-names>
+          </name>
+          <xref ref-type="aff" rid="A12">12</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Labiak</surname>
+            <given-names>Paulo H</given-names>
+          </name>
+          <xref ref-type="aff" rid="A12">12</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Viana</surname>
+            <given-names>Pedro L</given-names>
+          </name>
+          <xref ref-type="aff" rid="A19">19</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>de Moraes</surname>
+            <given-names>Pedro Luís R</given-names>
+          </name>
+          <xref ref-type="aff" rid="A20">20</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Goldenberg</surname>
+            <given-names>Renato</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-7047-6720</uri>
+          <xref ref-type="aff" rid="A12">12</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Coelho</surname>
+            <given-names>Rubens Luiz G</given-names>
+          </name>
+          <xref ref-type="aff" rid="A21">21</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Furtado</surname>
+            <given-names>Samyra G</given-names>
+          </name>
+          <xref ref-type="aff" rid="A7">7</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>da Silva-Neto</surname>
+            <given-names>Sebastião José</given-names>
+          </name>
+          <xref ref-type="aff" rid="A22">22</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Flores</surname>
+            <given-names>Thiago B</given-names>
+          </name>
+          <xref ref-type="aff" rid="A23">23</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Dutra</surname>
+            <given-names>Valquíria F</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Bueno</surname>
+            <given-names>Vinícius R</given-names>
+          </name>
+          <xref ref-type="aff" rid="A24">24</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Forzza</surname>
+            <given-names>Rafaela C</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-8366-0738</uri>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Universidade Federal do Espírito Santo, Vitória, Brazil</addr-line>
+        <institution>Universidade Federal do Espírito Santo</institution>
+        <addr-line content-type="city">Vitória</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">Jardim Botânico do Rio de Janeiro, Rio de Janeiro, Brazil</addr-line>
+        <institution>Jardim Botânico do Rio de Janeiro</institution>
+        <addr-line content-type="city">Rio de Janeiro</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <aff id="A3">
+        <label>3</label>
+        <addr-line content-type="verbatim">Universidade Estadual de Santa Cruz, Ilhéus, Brazil</addr-line>
+        <institution>Universidade Estadual de Santa Cruz</institution>
+        <addr-line content-type="city">Ilhéus</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <aff id="A4">
+        <label>4</label>
+        <addr-line content-type="verbatim">Universidade Estadual de Feira de Santana, Feira de Santana, Brazil</addr-line>
+        <institution>Universidade Estadual de Feira de Santana</institution>
+        <addr-line content-type="city">Feira de Santana</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <aff id="A5">
+        <label>5</label>
+        <addr-line content-type="verbatim">Universidade Federal do Rio de Janeiro, Rio de Janeiro, Brazil</addr-line>
+        <institution>Universidade Federal do Rio de Janeiro</institution>
+        <addr-line content-type="city">Rio de Janeiro</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <aff id="A6">
+        <label>6</label>
+        <addr-line content-type="verbatim">Universidade do Estado de Minas Gerais, Belo Horizonte, Brazil</addr-line>
+        <institution>Universidade do Estado de Minas Gerais</institution>
+        <addr-line content-type="city">Belo Horizonte</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <aff id="A7">
+        <label>7</label>
+        <addr-line content-type="verbatim">Universidade Federal de Juiz de Fora, Juiz de Fora, Brazil</addr-line>
+        <institution>Universidade Federal de Juiz de Fora</institution>
+        <addr-line content-type="city">Juiz de Fora</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <aff id="A8">
+        <label>8</label>
+        <addr-line content-type="verbatim">Universidade Federal de Alfenas, Alfenas, Brazil</addr-line>
+        <institution>Universidade Federal de Alfenas</institution>
+        <addr-line content-type="city">Alfenas</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <aff id="A9">
+        <label>9</label>
+        <addr-line content-type="verbatim">Instituto de Botânica, São Paulo, Brazil</addr-line>
+        <institution>Instituto de Botânica</institution>
+        <addr-line content-type="city">São Paulo</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <aff id="A10">
+        <label>10</label>
+        <addr-line content-type="verbatim">Universidade Estadual do Norte Fluminense, Campos dos Goytacazes, Brazil</addr-line>
+        <institution>Universidade Estadual do Norte Fluminense</institution>
+        <addr-line content-type="city">Campos dos Goytacazes</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <aff id="A11">
+        <label>11</label>
+        <addr-line content-type="verbatim">Universidade de São Paulo, São Paulo, Brazil</addr-line>
+        <institution>Universidade de São Paulo</institution>
+        <addr-line content-type="city">São Paulo</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <aff id="A12">
+        <label>12</label>
+        <addr-line content-type="verbatim">Universidade Federal do Paraná, Curitiba, Brazil</addr-line>
+        <institution>Universidade Federal do Paraná</institution>
+        <addr-line content-type="city">Curitiba</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <aff id="A13">
+        <label>13</label>
+        <addr-line content-type="verbatim">Embrapa Clima Temperado, Pelotas, Brazil</addr-line>
+        <institution>Embrapa Clima Temperado</institution>
+        <addr-line content-type="city">Pelotas</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <aff id="A14">
+        <label>14</label>
+        <addr-line content-type="verbatim">Universidade Federal de Santa Catarina, Florianópolis, Brazil</addr-line>
+        <institution>Universidade Federal de Santa Catarina</institution>
+        <addr-line content-type="city">Florianópolis</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <aff id="A15">
+        <label>15</label>
+        <addr-line content-type="verbatim">Universidade Federal de Pelotas, Pelotas, Brazil</addr-line>
+        <institution>Universidade Federal de Pelotas</institution>
+        <addr-line content-type="city">Pelotas</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <aff id="A16">
+        <label>16</label>
+        <addr-line content-type="verbatim">Universidade Federal do Oeste do Pará, Santarém, Brazil</addr-line>
+        <institution>Universidade Federal do Oeste do Pará</institution>
+        <addr-line content-type="city">Santarém</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <aff id="A17">
+        <label>17</label>
+        <addr-line content-type="verbatim">Universidade Federal Rural do Rio de Janeiro, Seropédica, Brazil</addr-line>
+        <institution>Universidade Federal Rural do Rio de Janeiro</institution>
+        <addr-line content-type="city">Seropédica</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <aff id="A18">
+        <label>18</label>
+        <addr-line content-type="verbatim">Universidade Federal de São João Del-Rei, São João Del-Rei, Brazil</addr-line>
+        <institution>Universidade Federal de São João Del-Rei</institution>
+        <addr-line content-type="city">São João Del-Rei</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <aff id="A19">
+        <label>19</label>
+        <addr-line content-type="verbatim">Museu Paraense Emílio Goeldi, Belém, Brazil</addr-line>
+        <institution>Museu Paraense Emílio Goeldi</institution>
+        <addr-line content-type="city">Belém</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <aff id="A20">
+        <label>20</label>
+        <addr-line content-type="verbatim">Universidade Estadual Paulista Júlio de Mesquita Filho, São Paulo, Brazil</addr-line>
+        <institution>Universidade Estadual Paulista Júlio de Mesquita Filho</institution>
+        <addr-line content-type="city">São Paulo</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <aff id="A21">
+        <label>21</label>
+        <addr-line content-type="verbatim">The Flowr Corporation, Markham, Canada</addr-line>
+        <institution>The Flowr Corporation</institution>
+        <addr-line content-type="city">Markham</addr-line>
+        <country>Canada</country>
+      </aff>
+      <aff id="A22">
+        <label>22</label>
+        <addr-line content-type="verbatim">Universidade do Estado do Rio de Janeiro, Rio de Janeiro, Brazil</addr-line>
+        <institution>Universidade do Estado do Rio de Janeiro</institution>
+        <addr-line content-type="city">Rio de Janeiro</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <aff id="A23">
+        <label>23</label>
+        <addr-line content-type="verbatim">Universidade Estadual de Campinas, Campinas, Brazil</addr-line>
+        <institution>Universidade Estadual de Campinas</institution>
+        <addr-line content-type="city">Campinas</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <aff id="A24">
+        <label>24</label>
+        <addr-line content-type="verbatim">Universidade Federal do Rio Grande do Sul, Porto Alegre, Brazil</addr-line>
+        <institution>Universidade Federal do Rio Grande do Sul</institution>
+        <addr-line content-type="city">Porto Alegre</addr-line>
+        <country>Brazil</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Tatiana T Carrijo (<email xlink:type="simple">tcarrijo@gmail.com</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Gianniantonio Domina</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2020</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>19</day>
+        <month>05</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>8</volume>
+      <elocation-id>e50837</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/6B83E0E0-9F67-5D7F-B55B-83A15ADAE7C6">6B83E0E0-9F67-5D7F-B55B-83A15ADAE7C6</uri>
+      <history>
+        <date date-type="received">
+          <day>05</day>
+          <month>02</month>
+          <year>2020</year>
+        </date>
+        <date date-type="accepted">
+          <day>02</day>
+          <month>05</month>
+          <year>2020</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Marina M Moreira, Tatiana T Carrijo, Anderson Alves-Araújo, André M A Amorim, Alessandro Rapini, Andrews V S da Silva, Braz A P Cosenza, Claudia R Lopes, Camila N Delgado, Cíntia Kameyama, Dayvid R Couto, Daniel E F Barbosa, Daniele Monteiro, Diego R Gonzaga, Eduardo C Dalcin, Elsie F Guimarães, Elton John de Lírio, Fernando B Matos, Fátima R G Salimena, Felipe A Oliveira, Gustavo Heiden, João M Lanna, José Fernando Baumgratz, José F B Pastore, Juliana R P M Oliveira, Laísa B Barcelos, Lana S Sylvestre, Leandro Freitas, Leandro L Giacomin, Leandro Pederneiras, Leonardo D Meireles, Lúcia G Lohmann, Luciana C Pereira, Luis Alexandre E Silva, Luiz M Neto, Marcelo C Souza, Marcelo Trovó, Marcos E G Sobral, Mário Luís Garbin, Mario Gomes, Marli P Morim, Michelle Christine A Mota, Paulo H Labiak, Pedro L Viana, Pedro Luís R de Moraes, Renato Goldenberg, Rubens Luiz G Coelho, Samyra G Furtado, Sebastião José da Silva-Neto, Thiago B Flores, Valquíria F Dutra, Vinícius R Bueno, Rafaela C Forzza</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>Brazil is one of the most biodiverse countries in the world, with about 37,000 species of land plants. Part of this biodiversity is within protected areas. The development of online databases in the last years greatly improved the available biodiversity data. However, the existing databases do not provide information about the protected areas in which individual plant species occur. The lack of such information is a crucial gap for conservation actions. This study aimed to show how the information captured from online databases, cleaned by a protocol and verified by taxonomists allowed us to obtain a comprehensive list of the vascular plant species from the "Parque Nacional do Itatiaia", the first national park founded in Brazil. All existing records in the online database JABOT (15,100 vouchers) were downloaded, resulting in 11,783 vouchers identified at the species level. Overall, we documented 2,316 species belonging to 176 families and 837 genera of vascular plants in the "Parque Nacional do Itatiaia". Considering the whole vascular flora, 2,238 species are native and 78 are non-native.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>The "Parque Nacional do Itatiaia" houses 13% of the angiosperm and 37% of the fern species known from the Brazilian Atlantic Forest. Amongst these species, 82 have been cited as threatened, following IUCN categories (CR, EN or VU), seven are data deficient (DD) and 15 have been classified as a conservation priority, because they are only known from a single specimen collected before 1969.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>Atlantic Forest</kwd>
+        <kwd>angiosperms</kwd>
+        <kwd>gymnosperms</kwd>
+        <kwd>lycophytes</kwd>
+        <kwd>ferns</kwd>
+        <kwd>plant collection.</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="8"/>
+        <table-count count="1"/>
+        <ref-count count="58"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>Brazil is one of the countries with the highest number of plant species in the world (<xref ref-type="bibr" rid="B5346362">Forzza et al. 2012</xref>). Overall, Brazil hosts about 37,000 species of land plants distributed through six phytogeographical domains (<xref ref-type="bibr" rid="B5350588">Flora do Brasil 2020 under construction 2019</xref>): Atlantic Forest, Amazon, Cerrado, Caatinga, Pampa and Pantanal. Amongst these domains, the Brazilian Atlantic Forest has the greatest species richness (<xref ref-type="bibr" rid="B5345896">BFG 2018</xref>), also representing a biodiversity hotspot (<xref ref-type="bibr" rid="B5346705">Myers et al. 2000</xref>). Over the last 80 years, 2,446 protected areas (Full protection: 777; Sustainable use: 1,669) were created in Brazil for biodiversity conservation (<xref ref-type="bibr" rid="B5346656">MMA 2020</xref>). Nowadays, there are 488 federal protected areas within the Atlantic Forest domain, corresponding to 20% of the existing conservation units in Brazil (<xref ref-type="bibr" rid="B5346656">MMA 2020</xref>). These protected areas are responsible for the defence and management of large reservoirs of biodiversity, carbon stocks and water, with substantial social and economic impact for the country (<xref ref-type="bibr" rid="B5346424">Hassler 2005</xref>, <xref ref-type="bibr" rid="B5346586">Medeiros et al. 2011</xref>). However, the knowledge about the flora within such protected areas is still dispersed in literature. Data access is thus very difficult for professionals who study the biodiversity within these areas, as well as those in charge of protecting and preserving this important biodiversity.</p>
+      <p>The list of species of the Brazilian Flora and the “Flora do Brasil 2020” (<xref ref-type="bibr" rid="B5346314">Forzza et al. 2010</xref>, <xref ref-type="bibr" rid="B5345941">BFG 2015</xref>, <xref ref-type="bibr" rid="B5345896">BFG 2018</xref>), the Red Book of the Brazilian Flora (<xref ref-type="bibr" rid="B5346558">Martinelli and Moraes 2013</xref>) and the Reflora Virtual Herbarium (<xref ref-type="bibr" rid="B5345921">Canteiro et al. 2019</xref>) considerably improved our knowledge about plant species richness and conservation in Brazil. Moreover, there has been a comprehensive advance in the online publication of biodiversity data in the last decades, promoted by the development of biodiversity information systems (e.g. <xref ref-type="bibr" rid="B5765042">PortalBio (2020)</xref>, <xref ref-type="bibr" rid="B5765051">SiBBr (2020)</xref>, <xref ref-type="bibr" rid="B5765060">Reflora (2020)</xref>, <xref ref-type="bibr" rid="B5765070">INCT Herbário Virtual da Flora e dos Fungos (2020)</xref>, <xref ref-type="bibr" rid="B5765079">GBIF (2020)</xref>, <xref ref-type="bibr" rid="B5765088">CNCFlora (2020)</xref>). However, each one of these systems has been designed for specific purposes. For example, the “Centro Nacional para Conservação da Flora” (CNCFlora, National Center for Conservation of the Flora) provides a continuously updated list of threatened plants in the country (<xref ref-type="bibr" rid="B5346647">MMA 2014</xref>). None of these systems provides specialised functions or filters that allow us to retrieve information about plant species occurring within a given protected area. As a result, it is impossible to know how many and which plant species occur within each Brazilian protected area.</p>
+      <p>The “Parque Nacional do Itatiaia” (PNI, Itatiaia National Park) was founded in 1937, representing the first national park of Brazil (<xref ref-type="bibr" rid="B5346463">ICMBio 2013a</xref>). This federally-protected area covers about 30,000 ha between the states of Rio de Janeiro and Minas Gerais. The region where the PNI is located has been the focus of several scientific expeditions since the 19th century (see <xref ref-type="bibr" rid="B5346685">Morim 2006</xref>). Throughout that century, more than 50 Brazilian and European scientists collected plants and enriched herbarium collections with specimens from different locations in this important mountain complex (<xref ref-type="bibr" rid="B5346872">Urban 1906</xref>, <xref ref-type="bibr" rid="B5345906">Brade 1956</xref>, <xref ref-type="bibr" rid="B5346628">Mendes-Júnior et al. 1991</xref>).</p>
+      <p>Auguste François Marie Glaziou was the first botanist to visit the highest portions of Itatiaia (<xref ref-type="bibr" rid="B5345906">Brade 1956</xref>). However, the most significant contribution on Itatiaia’s flora was provided by Ernst Ule, who described the altitudinal zonation of the Park's vegetation back in the 19th century (<xref ref-type="bibr" rid="B5346862">Ule 1896</xref>). In the early 20th century, Per Karl Hjalmar Dusén provided descriptions and illustrations of plant species and considerations about their distribution in Itatiaia (<xref ref-type="bibr" rid="B5346060">Dusén 1903</xref>, <xref ref-type="bibr" rid="B5346070">Dusén 1955</xref>). Another important study conducted in the first half of the 20th century was a botanical survey conducted by Alexander Curt Brade, who published taxonomic treatments for several plant families in the region, as well as lists of species and endemism records, descriptions of phytophysiognomies and interpretations about the origin of the local flora (<xref ref-type="bibr" rid="B5345906">Brade 1956</xref>).</p>
+      <p>The flora of Itatiaia, published by <xref ref-type="bibr" rid="B5345874">Barroso et al. (1957)</xref>, included taxonomic treatments for 20 plant families. Several taxonomic accounts of selected plant genera or families from Itatiaia were also published during the last 15 years (e.g. <xref ref-type="bibr" rid="B5346509">Lima and Guedes-Bruni 2004</xref>, <xref ref-type="bibr" rid="B5346685">Morim 2006</xref>, <xref ref-type="bibr" rid="B5346695">Morim and Barroso 2007</xref>, <xref ref-type="bibr" rid="B5346665">Monteiro and Guimarães 2008</xref>, <xref ref-type="bibr" rid="B5346675">Monteiro and Guimarães 2009</xref>, <xref ref-type="bibr" rid="B5346743">Ramos and Sylvestre 2010</xref>, <xref ref-type="bibr" rid="B5346637">Mezabarba et al. 2013</xref>, <xref ref-type="bibr" rid="B5346404">Giannerini et al. 2015</xref>, <xref ref-type="bibr" rid="B5346771">Rollim and Trovó 2016</xref>, <xref ref-type="bibr" rid="B5346394">Freitas et al. 2017</xref>, <xref ref-type="bibr" rid="B5346414">Gonzaga et al. 2017</xref>). Other studies focused on associations between climate and elevation (e.g. <xref ref-type="bibr" rid="B5349566">Segadas-Vianna 1965</xref>, <xref ref-type="bibr" rid="B5346811">Segadas-Vianna and Dau 1965</xref>), diversity and conservation of various plant groups (e.g. <xref ref-type="bibr" rid="B5346024">Condack and Sylvestre 2009</xref>, <xref ref-type="bibr" rid="B5346050">Costa et al. 2017</xref>, <xref ref-type="bibr" rid="B5346039">da Costa et al. 2015</xref>) and biogeography (e.g. <xref ref-type="bibr" rid="B5346792">Safford 1999a</xref>, <xref ref-type="bibr" rid="B5346782">Safford 1999b</xref>, <xref ref-type="bibr" rid="B5346762">Ribeiro and Medina 2002</xref>). All these studies helped to increase the number of plant specimens collected in the PNI and housed at various Brazilian herbaria. Most of these collections are deposited at the herbarium of the “Jardim Botânico do Rio de Janeiro” (RB, an acronym from Thiers, continuously updated) (<xref ref-type="bibr" rid="B5346519">Lanna et al. 2018</xref>). The digitisation of Brazilian herbaria allowed several databases to be published online in recent years. Despite the great efforts to make biodiversity information freely available, the data currently available is still not sufficient to allow the preparation of species lists for protected areas or lists of threatened taxa.</p>
+      <p>The databases, built over the course of those studies, allow anyone to easily access information on Brazilian plant species collections. This study aims to show how we can build a list of species from an important conservation unit from data recovered from online databases. We further illustrate the additional types of information that can be recovered from such datasets, including information on vegetation types, life forms, endemism, conservation status and number of herbarium records (<xref ref-type="bibr" rid="B5516648">Forzza and Lanna 2019</xref>). We further summarise information on threatened species status (CR, EN and VU categories) available from other resources. We also list the species that should be considered a priority for conservation policy, i.e. those collected more than 50 years ago and known from a single record in our database.</p>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Study extent">
+        <title>Study extent</title>
+        <p>A list of all vascular plant specimens from PNI was downloaded from the database JABOT (“Jardim Botânico do Rio de Janeiro”, JBRJ, Botanical Garden of Rio de Janeiro, <ext-link ext-link-type="uri" xlink:href="http://www.jbrj.gov.br/jabot">www.jbrj.gov.br/jabot</ext-link>; <xref ref-type="bibr" rid="B5346490">Silva et al. 2017</xref>). We performed three searches on 21 March 2018, using the following filters: (1) group = angiosperms, locality = Itatiaia; (2) group = gymnosperms, locality = Itatiaia; and (3) group = lycophytes and ferns, locality = Itatiaia. These searches led to a total of 15,100 records (12,786 angiosperms, 10 gymnosperms and 2,304 lycophytes and ferns).</p>
+        <p>Based on these online records, we created a protocol (Figs <xref ref-type="fig" rid="F5344847">1</xref>, <xref ref-type="fig" rid="F5344855">2</xref>) to clean the database, in order to obtain a list of species with currently accepted nomenclature. The <bold>first step</bold> of this protocol was to manually select all records determined at the species level, which led to the following results: angiosperms (determined = 10,888; undetermined = 1,898), gymnosperms (determined = 6; undetermined = 4) and lycophytes and ferns (determined = 2,214; undetermined = 90; Figs <xref ref-type="fig" rid="F5344847">1</xref>, <xref ref-type="fig" rid="F5344855">2</xref>). Since only 10 records were recovered for gymnosperms, these records were analysed manually. We proceeded to the following steps using the software R, v. 3.4.4 (<xref ref-type="bibr" rid="B5346734">R Development Core Team 2018</xref>).</p>
+        <p>The subsequent steps performed in R were as follows: <bold>(step 2)</bold> removal of records in which the locality did not belong to the area covered by the PNI (angiosperms = 95 records removed; gymnosperms = 1; lycophytes and ferns = 4); <bold>(step 3)</bold> removal of duplicates (angiosperms = 734 records; gymnosperms = 0; lycophytes and ferns = 114). Duplicates were removed from the list based on collector name, collector number and the year in which the sample was collected. After removing all duplicates, 10,059 records for angiosperms, nine for gymnosperms and 2,096 for lycophytes and ferns remained in the list (Figs <xref ref-type="fig" rid="F5344847">1</xref>, <xref ref-type="fig" rid="F5344855">2</xref>). We then updated and corrected the species names and defined the threat categories (<bold>step 4</bold>; Figs <xref ref-type="fig" rid="F5344847">1</xref>, <xref ref-type="fig" rid="F5344855">2</xref>). We used the R function <italic>get.taxa</italic> from the flora package to correct and update species names (<xref ref-type="bibr" rid="B5345979">Carvalho 2017</xref>). This function compares the names in our list with those in the Brazilian Flora online list (Flora do Brasil 2020). Introduced species included in the Brazilian Flora were not recovered by the function <italic>get.taxa</italic> (angiosperms = 319 records; lycophytes and ferns = 97); those records were reviewed manually (Figs <xref ref-type="fig" rid="F5344847">1</xref>, <xref ref-type="fig" rid="F5344855">2</xref>). After these corrections, a preliminary list with 2,121 species of angiosperms and 341 species of lycophytes and ferns was generated and the names and identifications were subsequently checked by taxonomists (<bold>step 5</bold>; Figs <xref ref-type="fig" rid="F5344847">1</xref>, <xref ref-type="fig" rid="F5344855">2</xref>). When plant species names were modified by a taxonomist, at least one specimen of that particular species was updated in the RB herbarium database. After reviewing all names, taxonomists included additional records of species known to occur in the PNI, but only documented in other databases (e.g. INCT Herbário Virtual da Flora e dos Fungos, Herbário Virtual Reflora). At this stage, specimens collected outside PNI were removed; because the R protocol failed to remove several records due to digitisation errors, this process had to be conducted manually. After all these steps, our final list included 11,783 records from the PNI (angiosperms = 9,680 records; gymnosperms = 11; lycophyte and ferns = 2,092; Figs <xref ref-type="fig" rid="F5344847">1</xref>, <xref ref-type="fig" rid="F5344855">2</xref>; Suppl. materials <xref ref-type="supplementary-material" rid="S5412256">1</xref>, <xref ref-type="supplementary-material" rid="S5412257">2</xref>).</p>
+        <p><bold>Vegetation types and life forms</bold>: We obtained information on vegetation type and life form from the Brazilian Flora (<ext-link ext-link-type="uri" xlink:href="http://floradobrasil.jbrj.gov.br/">http://floradobrasil.jbrj.gov.br</ext-link>) for every species included in the clean list. Although the PNI encompasses several different vegetation types, we classified all species as either occurring in forests (all forest types) or grasslands (all types of grasslands and inselbergs) or both. We chose this broader classification system because many records did not have detailed information about vegetation type to allow for finer scale classifications. Life forms were classified into five categories: trees, shrubs, sub-shrubs, lianas and herbs, based on information from the Brazilian Flora website (<ext-link ext-link-type="uri" xlink:href="http://floradobrasil.jbrj.gov.br/">http://floradobrasil.jbrj.gov.br</ext-link>). When the Brazilian Flora provided more than one life form type for a given species, we chose the most frequent life form observed in the herbarium records for PNI (<ext-link ext-link-type="uri" xlink:href="http://floradobrasil.jbrj.gov.br/">http://floradobrasil.jbrj.gov.br</ext-link>).</p>
+        <p><bold>Endemism and threatened species</bold>: To evaluate whether species were native or non-native from Brazil, endemic or non-endemic to Brazil and to assign a threat category, we used information from the Brazilian Flora (<ext-link ext-link-type="uri" xlink:href="http://floradobrasil.jbrj.gov.br/">http://floradobrasil.jbrj.gov.br</ext-link>) and CNCFlora (<ext-link ext-link-type="uri" xlink:href="http://www.cncflora.jbrj.gov.br/portal">http://www.cncflora.jbrj.gov.br/portal</ext-link>), the Red List Authority for plants in Brazil. It should be noted that the vascular species list for PNI provided here does not include infraspecific taxa. In the case of species not included in the Brazilian Flora database, threat category and origin (native/non-native) were obtained from taxonomists. We considered as non-native, all species indicated as not occurring in Brazil or being cultivated or naturalised within the Brazilian Flora database.</p>
+        <p><bold>Priority species for conservation</bold>: We classified a species as a priority for conservation, whenever it presented a single record collected before 1969 (<xref ref-type="bibr" rid="B5471764">Briggs and Leigh 1988</xref>) and was simultaneously categorised as critically endangered (CR), vulnerable (VU), endangered (EN) or data deficient (DD), according to CNC Flora (<ext-link ext-link-type="uri" xlink:href="http://www.cncflora.jbrj.gov.br/portal">http://www.cncflora.jbrj.gov.br/portal</ext-link>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The "Parque Nacional do Itatiaia" (PNI) comprises the municipalities of Bocaina de Minas and Itamonte in the state of Minas Gerais and Itatiaia and Resende in the state of Rio de Janeiro, all within the Serra da Mantiqueira mountain range. The altitudinal range varies from 700 and 2,787 m, the latter at the summit of the “Pico das Agulhas Negras” (Fig. <xref ref-type="fig" rid="F5411703">3</xref><xref ref-type="fig" rid="F5411710">c</xref>). The climate is mesothermic, with an annual average temperature between 15º and 21ºC, depending on the elevation (<xref ref-type="bibr" rid="B5346472">ICMBio 2013b</xref>). The park can be accessed by two entrances: The Lower Portion, characterised by large waterfalls such as "Cachoeira Véu da Noiva" (Fig. <xref ref-type="fig" rid="F5411703">3</xref><xref ref-type="fig" rid="F5411708">a</xref>), "Maromba" and "Itaporani" (Fig. <xref ref-type="fig" rid="F5411703">3</xref><xref ref-type="fig" rid="F5411709">b</xref>) and the Upper Portion, which includes the formations of the "Agulhas Negras" (Fig. <xref ref-type="fig" rid="F5411703">3</xref><xref ref-type="fig" rid="F5411710">c</xref>), "Prateleiras" (Fig. <xref ref-type="fig" rid="F5411703">3</xref><xref ref-type="fig" rid="F5411711">d</xref>) and "Morro do Couto".</p>
+      </sec>
+      <sec sec-type="Coordinates">
+        <title>Coordinates</title>
+        <p>-22º45' and -22º19' Latitude; -44°45' and -44°50' Longitude.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>We recorded 2,316 species of vascular plants for PNI, including native (2,238 species) and non-native (78) (Suppl. material <xref ref-type="supplementary-material" rid="S5412258">3</xref>). For angiosperms, we recorded 1,967 species (native = 1,899; non-native = 68) belonging to 143 families and 722 genera. The native species recorded here represent 6% and 13% of the angiosperms recognised for Brazil and the Atlantic Forest, respectively (<xref ref-type="bibr" rid="B5350588">Flora do Brasil 2020 under construction 2019</xref>). The ten richest families in the PNI (Fig. <xref ref-type="fig" rid="F5725012">4</xref><xref ref-type="fig" rid="F5725017">a</xref>) accounted for 54% (i.e. 1,059 species) of the total species. Seven of these families have also been reported as the ten richest angiosperm families for the Atlantic Forest (<xref ref-type="bibr" rid="B5345941">BFG 2015</xref>). Different from <xref ref-type="bibr" rid="B5345941">BFG (2015)</xref>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Bromeliaceae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Apocynaceae</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Euphorbiaceae</tp:taxon-name-part></tp:taxon-name> are not amongst the ten richest families in the PNI. This is probably due to the great topographic heterogeneity of the Atlantic Forest (Nettesheim et al. 2018), which may not be represented in a single conservation unity. Thirty families are represented by a single species in the PNI. The ten richest genera accounted for 15% (i.e. 294 species) of the total species found in the PNI (Fig. <xref ref-type="fig" rid="F5725012">4</xref><xref ref-type="fig" rid="F5725018">b</xref>). In total, 391 genera are represented by a single species.</p>
+        <p>The seven species of gymnosperms documented in the PNI belong to three families, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Araucariaceae</tp:taxon-name-part></tp:taxon-name> (1 species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Cupressaceae</tp:taxon-name-part></tp:taxon-name> (4) and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Podocarpaceae</tp:taxon-name-part></tp:taxon-name> (2) and six genera: <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Araucaria">Araucaria</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cryptomeria">Cryptomeria</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cunninghamia">Cunninghamia</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cupressus">Cupressus</tp:taxon-name-part></tp:taxon-name></italic>, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Thuja">Thuja</tp:taxon-name-part></tp:taxon-name></italic> (represented by one species each) and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Podocarpus">Podocarpus</tp:taxon-name-part></tp:taxon-name></italic> (represented by two species). All these species of gymnosperms are non-native, except for <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Araucaria">Araucaria</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="angustifolia">angustifolia</tp:taxon-name-part></tp:taxon-name></italic> (Bertol.) Kuntze and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Podocarpus">Podocarpus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="lambertii">lambertii</tp:taxon-name-part></tp:taxon-name></italic> Klotzsch ex Endl.</p>
+        <p>For lycophytes and ferns, we recorded 342 species (native = 337; non-native = 5) belonging to 30 families and 109 genera. The ten richest families in the PNI (Fig. <xref ref-type="fig" rid="F5725031">5</xref><xref ref-type="fig" rid="F5725036">a</xref>) accounted for 84% (286 species) of the total species. Ten families are represented by a single species. The ten richest genera in the PNI accounted for 41% (i.e. 139 species) of the total species (Fig. <xref ref-type="fig" rid="F5725031">5</xref><xref ref-type="fig" rid="F5725037">b</xref>). Amongst the genera, 57 presented a single species. The native species found in the PNI represent 24% and 37% of the lycophytes and ferns documented for Brazil and the Atlantic Forest, respectively (<xref ref-type="bibr" rid="B5350588">Flora do Brasil 2020 under construction 2019</xref>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Traits coverage">
+      <title>Traits coverage</title>
+      <p>The PNI presents diverse environmental conditions (i.e. climatic, altitudinal and edaphic) and includes different vegetation types, such as high montane forests, seasonal rainforests ("florestas altomontanas estacionais semideciduais e ombrófilas densas”; see (<xref ref-type="bibr" rid="B5349586">Veloso et al. 1991</xref>), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Araucaria">Araucaria</tp:taxon-name-part></tp:taxon-name> forests (“florestas com araucária” or “floresta ombrófila mista”), high altitude grasslands (“campos de altitude” and “campos rupestres”) and inselbergs (<xref ref-type="bibr" rid="B5346619">Mello and Mello 1909</xref>, <xref ref-type="bibr" rid="B5346886">Várzea 1942</xref>, <xref ref-type="bibr" rid="B5346534">Machado-Filho et al. 1983</xref>, <xref ref-type="bibr" rid="B5346595">Meireles et al. 2014</xref>).</p>
+      <sec sec-type="Vegetation types and life forms">
+        <title>Vegetation types and life forms</title>
+        <p>Amongst angiosperms, 73% (1,437) of the species are restricted to forests, 16% (320) are restricted to grasslands and 7% (136) occur in both forests and grasslands. We did not have information on vegetation type for 4% (74) of the angiosperm species recorded (Suppl. material <xref ref-type="supplementary-material" rid="S5412258">3</xref>). For gymnosperms, 57% (4) of the species are restricted to forests and we did not have information on vegetation type for 43% (3) of the species recorded. For lycophytes and ferns, 73% (249) of the species are restricted to forests, 16% (55) occur in forests and grasslands and 9% (32) are restricted to grasslands. We did not have information on vegetation type for 2% (6) of the lycophyte and fern species (Suppl. material <xref ref-type="supplementary-material" rid="S5412258">3</xref>).</p>
+        <p>Overall, 38% (738 species) of all angiosperms recorded are herbs, followed by trees (25%; 488), shrubs (17%; 341), lianas (12%; 242) and subshrubs (7%; 139; Fig. <xref ref-type="fig" rid="F5344879">6</xref>; Suppl. material <xref ref-type="supplementary-material" rid="S5412258">3</xref>). Life form information was not available for 1% (19 species) of all species recorded (Suppl. material <xref ref-type="supplementary-material" rid="S5412258">3</xref>). All gymnosperms recorded are trees (Suppl. material <xref ref-type="supplementary-material" rid="S5412258">3</xref>). For lycophytes and ferns, 95.3% (326 species) of the species recorded are herbs, 3.2% (11) are trees and 0.3% (1) are lianas. We did not have information about life form for 1.2% (four species) of all species recorded (Fig. <xref ref-type="fig" rid="F5344879">6</xref>; Suppl. material <xref ref-type="supplementary-material" rid="S5412258">3</xref>).</p>
+      </sec>
+      <sec sec-type="Endemism, conservation status, unique and old records">
+        <title>Endemism, conservation status, unique and old records</title>
+        <p>As far as the endemic species are concerned, 58% (1,140) of the angiosperms and 41% (140) of the lycophytes and ferns are endemic to Brazil. For gymnosperms, a single species is endemic (Suppl. material <xref ref-type="supplementary-material" rid="S5412258">3</xref>).</p>
+        <p>Amongst angiosperms, 66.2% (1,303 species) were recorded recently (i.e. after 1969), while 33.1% (650) have only old records; we did not have information about the collection year for 0.7% (14; Suppl. material <xref ref-type="supplementary-material" rid="S5412258">3</xref>). For gymnosperms, 29% (2) of the species have recent records, while 71% (5) have only old records (Suppl. material <xref ref-type="supplementary-material" rid="S5412258">3</xref>). The proportion of species with recent records was higher in lycophytes and ferns than other groups, with 76.9% (263) of all species presenting recent records, 22.8% (78) presenting old records exclusively and 0.3% (1) not presenting information on the collection year (Suppl. material <xref ref-type="supplementary-material" rid="S5412258">3</xref>).</p>
+        <p>Considering the species with unique records, we observed that 30% (597 species) of the angiosperms have a single record, 16% (315) have two records and 11% (226) have three records (Suppl. material <xref ref-type="supplementary-material" rid="S5412258">3</xref>). For gymnosperms, 71% (five species) have a single record (Suppl. material <xref ref-type="supplementary-material" rid="S5412258">3</xref>). For lycophytes and ferns, this proportion was lower than in the other groups, with 21% of the species (73) showing unique records (Suppl. material <xref ref-type="supplementary-material" rid="S5412258">3</xref>).</p>
+        <p>We recorded 73 species of angiosperms that have already been cited as threatened (Fig. <xref ref-type="fig" rid="F5381035">7</xref>), either as critically endangered (three species), endangered (41) or vulnerable (29) and seven species with deficient data (DD; Suppl. material <xref ref-type="supplementary-material" rid="S5412259">4</xref>). These species belong to 39 families, with the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Orchidaceae</tp:taxon-name-part></tp:taxon-name> showing the highest number of threatened species (10 species) followed by <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Asteraceae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Bromeliaceae</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Myrtaceae</tp:taxon-name-part></tp:taxon-name> (six species each), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Fabaceae</tp:taxon-name-part></tp:taxon-name> (four species), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Cactaceae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Lauraceae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Poaceae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Rubiaceae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Symplocaceae</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Xyridaceae</tp:taxon-name-part></tp:taxon-name> (three species each), <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Piperaceae</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Smilacaceae</tp:taxon-name-part></tp:taxon-name> (two species each) and 26 families with a single species in the list (Suppl. material <xref ref-type="supplementary-material" rid="S5412259">4</xref>). A single gymnosperm, <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Araucaria">Araucaria</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="angustifolia">angustifolia</tp:taxon-name-part></tp:taxon-name></italic>, is threatened (EN) (Suppl. material <xref ref-type="supplementary-material" rid="S5412259">4</xref>). We recorded eight threatened species within lycophytes and ferns (EN = 6 species; VU = 2) belonging to five families (Suppl. material <xref ref-type="supplementary-material" rid="S5412259">4</xref>). The endangered species of PNI represent 5% of the endangered Atlantic Forest flora (species evaluated = 3,595; endangered species = 1,544) and 3% (265) of the species classified as data deficient in the Brazilian Flora’s Red Book (<xref ref-type="bibr" rid="B5346558">Martinelli and Moraes 2013</xref>).</p>
+      </sec>
+      <sec sec-type="Priority species for conservation in the PNI">
+        <title>Priority species for conservation in the PNI</title>
+        <p>We selected 15 angiosperm species as a priority for conservation in the PNI (Table <xref ref-type="table" rid="T5344893">1</xref>). Amongst gymnosperms, only <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Araucaria">Araucaria</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="angustifolia">angustifolia</tp:taxon-name-part></tp:taxon-name></italic> is a priority for conservation. Although we found a single record of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Araucaria">A.</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="angustifolia">angustifolia</tp:taxon-name-part></tp:taxon-name></italic> collected before 1969 in the RB database, this species is not rare in the PNI, as observed during fieldwork. However, we decided to maintain this species as a priority for conservation. We did not find any threatened species of lycophytes and ferns that fit the criteria here adopted for conservation priority. Indeed, all threatened species in this group have more than one recent record deposited at RB (except <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Grammitis">Grammitis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="fluminensis">fluminensis</tp:taxon-name-part></tp:taxon-name></italic>, which has a single recent record at RB; Suppl. material <xref ref-type="supplementary-material" rid="S5412258">3</xref>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <sec sec-type="Notes">
+        <title>Notes</title>
+        <p>Amongst the 11,783 records from the PNI, 11,737 (99.6%) are from RB (Suppl. material <xref ref-type="supplementary-material" rid="S5412256">1</xref>), while 46 (0.4%) are from other herbaria (Suppl. material <xref ref-type="supplementary-material" rid="S5412257">2</xref>). The oldest angiosperm record housed at RB was a sample collected by Auguste François Marie Glaziou in 1871 (RB01181837, RB00084452; Suppl. material <xref ref-type="supplementary-material" rid="S5412256">1</xref>). For gymnosperms, the oldest record deposited at RB was a sample without the named collector from 1932 (RBcarpo00776085, Suppl. material <xref ref-type="supplementary-material" rid="S5412256">1</xref>). For lycophytes and ferns, the oldest record was a sample collected by Glaziou in 1871 (RB00640274; Suppl. material <xref ref-type="supplementary-material" rid="S5412256">1</xref>).</p>
+        <p>The year with the highest number of collections of angiosperms deposited at RB was 1995 (729 records), followed by 1942 (431) and 1994 (359; Fig. <xref ref-type="fig" rid="F5344859">8</xref>). The large number of collections between 1994 and 1995 results from intense efforts conducted by the team of the "Programa Mata Atlântica" (PMA, Atlantic Forest Program). The PMA was coordinated by a group of researchers from JBRJ who surveyed several Atlantic Forest remnants in the state of Rio de Janeiro. The high number of records in 1942 was mostly due to collections by Alexander Curt Brade (Brade 1956). We did not obtain information on the collection year for 177 specimens (Suppl. material <xref ref-type="supplementary-material" rid="S5412256">1</xref>). For gymnosperms, we recorded a single sample for each year; one record did not include a collection date (Suppl. material <xref ref-type="supplementary-material" rid="S5412256">1</xref>). For lycophytes and ferns, the year with the highest number of records deposited at RB was 2006 (207 records), followed by 2005 (180), 2009 (156) and 2004 (148; Fig. <xref ref-type="fig" rid="F5344859">8</xref>). The high number of records between 2004 and 2009 was mostly due to collections by João Paulo Santos Condack (<xref ref-type="bibr" rid="B5346015">Condack 2006</xref>), Carla Gabriela Vargas Ramos and Lana da Silva Sylvestre (<xref ref-type="bibr" rid="B5346743">Ramos and Sylvestre 2010</xref>). The collection year was lacking for 18 records (Suppl. material <xref ref-type="supplementary-material" rid="S5412256">1</xref>).</p>
+        <p>The angiosperm records deposited at RB were collected by 294 collectors, while gymnosperm records were collected by eight collectors and lycophyte and fern records were collected by 85 collectors. For angiosperms, the collectors with more samples deposited at RB were Alexander Curt Brade (1,110 samples), João Marcelo Alvarenga Braga (953), Paulo de Campos Porto (849), Wanderbilt Duarte de Barros (698), Sócrates de Andrade (403), Sebastião da Silva Neto (348), Luiz Lanstyak (306), Edmundo Pereira (237), Felipe F. V. A. Barberena (189) and Gustavo Martinelli (186; Suppl. material <xref ref-type="supplementary-material" rid="S5412256">1</xref>). Collector name is missing in 132 records of angiosperms (Suppl. material <xref ref-type="supplementary-material" rid="S5412256">1</xref>). For gymnosperms, the main collectors were Sócrates de Andrade (2) and Wanderbilt Duarte de Barros (two samples); the other collectors collected a single sample (Suppl. material <xref ref-type="supplementary-material" rid="S5412256">1</xref>). One sample lacks the collector name (Suppl. material <xref ref-type="supplementary-material" rid="S5412256">1</xref>). For lycophytes and ferns, the main collectors in RB were Alexander Curt Brade (461 samples), Elaine Ribeiro Damasceno (240), João Paulo Santos Condack (231), Lana da Silva Sylvestre (226), Paulo de Campos Porto (194), João Marcelo Alvarenga Braga (78), Carla Gabriela Vargas Ramos (62), Roberto L. Cordeiro (59), Sócrates de Andrade (53) and Firmino Tamandaré de Toledo Júnior (53). Collector name is missing in 21 records (Suppl. material <xref ref-type="supplementary-material" rid="S5412256">1</xref>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Open Data Commons Attribution License</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="http://ipt.jbrj.gov.br/jbrj/manage/resource.do?r=catalogoucs">Catálogo de Plantas das Unidades de Conservação do Brasil - Parque Nacional do Itatiaia (PNI)</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="http://ipt.jbrj.gov.br/jbrj/resource?r=catalogoucs">http://ipt.jbrj.gov.br/jbrj/resource?r=catalogoucs</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Alternative identifiers">
+        <title>Alternative identifiers</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="http://www.gbif.org/dataset/021cf0d3-aae6-417d-8682-ae535d17de89">www.gbif.org/dataset/021cf0d3-aae6-417d-8682-ae535d17de89</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>1</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="https://www.gbif.org/dataset/021cf0d3-aae6-417d-8682-ae535d17de89">Catálogo de Plantas das Unidades de Conservação do Brasil - Parque Nacional do Itatiaia (PNI)</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Darwin Core Archive</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>19</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="http://ipt.jbrj.gov.br/jbrj/archive.do?r=catalogoucs&amp;v=1.34">http://ipt.jbrj.gov.br/jbrj/archive.do?r=catalogoucs&amp;v=1.34</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="">
+          <title/>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">taxonID</td>
+                  <td rowspan="1" colspan="1">The unique identifier for the Taxon.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificName</td>
+                  <td rowspan="1" colspan="1">The full scientific name, including authorship.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">kingdom</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the kingdom in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">family</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the family in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">genus</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the genus in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">specificEpithet</td>
+                  <td rowspan="1" colspan="1">The name of the first or specific epithet of the scientificName.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">taxonRank</td>
+                  <td rowspan="1" colspan="1">The name of the lowest or terminal infraspecific epithet of the scientificName.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificNameAuthorship</td>
+                  <td rowspan="1" colspan="1">The authorship information for the scientificName.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">modified</td>
+                  <td rowspan="1" colspan="1">The most recent date-time on which the resource was changed.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">rightsHolder</td>
+                  <td rowspan="1" colspan="1">A person or organisation owning or managing rights over the resource.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">typeStatus</td>
+                  <td rowspan="1" colspan="1">Status of the type. Controlled vocabulary of terms (holotype, lectotype, isotype, syntype, paratype, neotype, epitype, typus). The category "typus" is used for undefined type status.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">taxonRank</td>
+                  <td rowspan="1" colspan="1">The taxonomic rank of the detailed identification name in the scientificName.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">collectionCode</td>
+                  <td rowspan="1" colspan="1">The name, acronym, coden or initial identifying the collection or dataset from which the record was derived.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">catalogNumber</td>
+                  <td rowspan="1" colspan="1">Specimen barcode.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">locality</td>
+                  <td rowspan="1" colspan="1">Detailed description of the locality where a specimen was collected. Less specific geographic information can be provided in other geographic terms (higherGeography, continent, country, stateProvince, county, municipality, waterBody, island, islandGroup). This term may contain information modified from the original to correct perceived errors or to standardise the description.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">recordedBy</td>
+                  <td rowspan="1" colspan="1">A list (concatenated and separated) of names of people, groups or organisations responsible for recording the original occurrence.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">EventDate</td>
+                  <td rowspan="1" colspan="1">Date of collection.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">verbatimLongitude</td>
+                  <td rowspan="1" colspan="1">The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic centre of a locality. Positive values are east of the Greenwich Meridian, negative values are west of it. Legal values lie between -180 and 180, inclusive.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">verbatimLatitude</td>
+                  <td rowspan="1" colspan="1">The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic centre of a location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive.</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+    <sec sec-type="Additional information">
+      <title>Additional information</title>
+      <sec sec-type="Conclusions and prospects">
+        <title>Conclusions and prospects</title>
+        <p>The information captured from online databases, cleaned by a protocol and checked by taxonomists allowed us to build a comprehensive list of vascular plant species for the PNI that is available publicly through the site “Catálogo de Plantas das Unidades de Conservação do Brasil” (Catalogue of the Plants in Protected Areas of Brazil, <ext-link ext-link-type="uri" xlink:href="http://ipt.jbrj.gov.br/jbrj/resource?r=catalogoucs">http://ipt.jbrj.gov.br/jbrj/resource?r=catalogoucs</ext-link>). The catalogue provides prompt access to information on the PNI flora, indicating the importance of the park for the conservation of plant species from the Atlantic Forest of Brazil. The PNI list includes species that are scarcely represented in herbarium collections and species that are documented through a single herbarium specimen collected, as well as those that are endangered but occur in the PNI and species that are still poorly studied to ensure on-site conservation.</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>The authors thank the “Instituto Chico Mendes de Conservação da Biodiversidade” (ICMBio), “Conselho Nacional de Desenvolvimento Científico e Tecnológico” (CNPq 421276/2017-7) and “Fundação de Amparo à Pesquisa e Inovação do Espírito Santo” (FAPES 34/2018) for a research grant ("Chamada CNPq/ICMBio/FAPs Nº 18/2017 - Pesquisa em Unidades de Conservação da Caatinga e Mata Atlântica"); the managing team of the “Parque Nacional do Itatiaia” for support during fieldwork; the “Jardim Botânico do Rio de Janeiro” and “Universidade Federal do Espírito Santo” for logistical support. We also thank the curators of all the herbaria that agreed to get imagens for their collections and publish those in the Reflora Virtual Herbarium. AMA Amorim, A Rapini, JF Baumgratz, JFB Pastore, L Freitas, LG Lohmann, PHE Labiak, MLGarbin, M Trovó, PLR Moraes, R Goldenberg, RC Forzza and TT Carrijo are also grateful to CNPq for their respective grants (“Produtividade em Pesquisa”); A Alves-Araújo thanks FAPES for a research grant ("Bolsa Pesquisador Capixaba," N# 525/2018). L Freitas and RC Forzza thank FAPERJ for additional funding ("Programa Cientistas do Nosso Estado processes," #E-26/202.775/2018 and #E-26/202.778/2018).</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B5345874">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Barroso</surname>
+              <given-names>G. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vattimo-Gil</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brade</surname>
+              <given-names>A. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pereira</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Falcão</surname>
+              <given-names>J. I.A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gomes</surname>
+              <given-names>J. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rizzini</surname>
+              <given-names>C. T.</given-names>
+            </name>
+          </person-group>
+          <year>1957</year>
+          <article-title>Flora do Itatiaia I</article-title>
+          <source>Rodriguésia</source>
+          <volume>20</volume>
+          <fpage>28</fpage>
+          <lpage>244</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5345941">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>BFG</surname>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Growing knowledge: an overview of seed plant diversity in Brazil</article-title>
+          <source>Rodriguésia</source>
+          <volume>66</volume>
+          <issue>4</issue>
+          <fpage>1085</fpage>
+          <lpage>1113</lpage>
+          <pub-id pub-id-type="doi">10.1590/2175-7860201869402</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5345896">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>BFG</surname>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC)</article-title>
+          <source>Rodriguésia</source>
+          <volume>69</volume>
+          <issue>4</issue>
+          <fpage>1513</fpage>
+          <lpage>1527</lpage>
+          <pub-id pub-id-type="doi">10.1590/2175-7860201566411</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5345906">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Brade</surname>
+              <given-names>A. C.</given-names>
+            </name>
+          </person-group>
+          <year>1956</year>
+          <article-title>Flora do Parque Nacional de Itatiaia</article-title>
+          <source>Boletim do Parque Nacional de Itatiaia</source>
+          <volume>5</volume>
+          <fpage>7</fpage>
+          <lpage>85</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5471764">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Briggs</surname>
+              <given-names>J. D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Leigh</surname>
+              <given-names>J. H.</given-names>
+            </name>
+          </person-group>
+          <year>1988</year>
+          <source>Rare or Threatened Australian Plants. Special Publication No. 14</source>
+          <publisher-name>Australian National Parks and Wildlife Service</publisher-name>
+          <publisher-loc>Canberra</publisher-loc>
+          <isbn>0642526729</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B5345921">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Canteiro</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barcelos</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Filardi</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Forzza</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Green</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lanna</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Leitman</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Milliken</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Morim</surname>
+              <given-names>M. P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Patmore</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Phillips</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Walker</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Weech</surname>
+              <given-names>M. H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lughadha</surname>
+              <given-names>E. N.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Enhancement of conservation knowledge through increased access to botanical information</article-title>
+          <source>Conservation Biology</source>
+          <volume>33</volume>
+          <issue>3</issue>
+          <fpage>523</fpage>
+          <lpage>533</lpage>
+          <pub-id pub-id-type="doi">10.1111/cobi.13291.</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5345979">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Carvalho</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>flora: Tools for interacting with the Brazilian flora 2020. R package version 0.3.0</article-title>
+          <uri>https://cran.r-project.org/web/packages/flora/index.html</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5765088">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>CNCFlora</surname>
+            </name>
+          </person-group>
+          <uri>www.cncflora.jbrj.gov.br/portal</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5346015">
+        <element-citation publication-type="thesis">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Condack</surname>
+              <given-names>J. P.S.</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <source>Pteridófitas ocorrentes na região alto montana do Parque Nacional do Itatiaia: análise florística e estrutural</source>
+          <publisher-name>Dissertação de Mestrado. Jardim Botânico do Rio de Janeiro</publisher-name>
+          <publisher-loc>Rio de Janeiro</publisher-loc>
+        </element-citation>
+      </ref>
+      <ref id="B5346024">
+        <element-citation publication-type="chapter">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Condack</surname>
+              <given-names>J. P.S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sylvestre</surname>
+              <given-names>L. S.</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <chapter-title>Structure of fern community in the high mountain forest of Itatiaia National Park, Brazil</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Verma</surname>
+              <given-names>S. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Khullar</surname>
+              <given-names>S. P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cheema</surname>
+              <given-names>H. K.</given-names>
+            </name>
+          </person-group>
+          <source>Perspective in Pteridophytes</source>
+          <edition>Bishen Singh Mahendra Pal Singh</edition>
+          <publisher-loc>Lucknow</publisher-loc>
+          <size units="page">514</size>
+          <isbn>9788121107020</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B5346050">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Costa</surname>
+              <given-names>T V</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Damasceno</surname>
+              <given-names>E R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sylvestre</surname>
+              <given-names>L S</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Diversidade epifítica da flora montana de samambaias e licófitas do Parque Nacional do Itatiaia, Brasil</article-title>
+          <source>Rodriguésia</source>
+          <volume>68</volume>
+          <issue>2</issue>
+          <fpage>379</fpage>
+          <lpage>389</lpage>
+          <pub-id pub-id-type="doi">10.1590/2175-7860201768207</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5346039">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>da Costa</surname>
+              <given-names>Denise Pinheiro</given-names>
+            </name>
+            <name name-style="western">
+              <surname>dos Santos</surname>
+              <given-names>Nivea Dias</given-names>
+            </name>
+            <name name-style="western">
+              <surname>de Rezende</surname>
+              <given-names>Maria Alice</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Buck</surname>
+              <given-names>William R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schäfer-Verwimp</surname>
+              <given-names>Alfons</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Bryoflora of the Itatiaia National Park along an elevation gradient: diversity and conservation</article-title>
+          <source>Biodiversity and Conservation</source>
+          <volume>24</volume>
+          <issue>9</issue>
+          <fpage>2199</fpage>
+          <lpage>2212</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10531-015-0979-4</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5346060">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Dusén</surname>
+              <given-names>P. K.</given-names>
+            </name>
+          </person-group>
+          <year>1903</year>
+          <article-title>Sur La flore de la Serra do Itatiaya au Brésil</article-title>
+          <source>Archivos do Museu Nacional do Rio de Janeiro</source>
+          <volume>13</volume>
+          <fpage>1</fpage>
+          <lpage>119</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5346070">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Dusén</surname>
+              <given-names>P. K.H.</given-names>
+            </name>
+          </person-group>
+          <year>1955</year>
+          <article-title>Contribuições para Flora do Itatiaia. Tradução de Wanderbilt Duarte de Barros</article-title>
+          <source>Boletim</source>
+          <volume>4</volume>
+          <fpage>9</fpage>
+          <lpage>91</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5350588">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>construction</surname>
+              <given-names>Flora do Brasil 2020 under</given-names>
+            </name>
+          </person-group>
+          <uri>http://floradobrasil.jbrj.gov.br/</uri>
+          <date-in-citation content-type="access-date">2019-06-20T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5516648">
+        <element-citation publication-type="software">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Forzza</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lanna</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Catálogo de Plantas das Unidades de Conservação do Brasil - Parque Nacional do Itatiaia (PNI). Checklist dataset</article-title>
+          <publisher-name>Instituto de Pesquisas Jardim Botanico do Rio de Janeiro</publisher-name>
+          <pub-id pub-id-type="doi">10.15468/afdpuk</pub-id>
+          <comment content-type="Version">Version 1.34</comment>
+        </element-citation>
+      </ref>
+      <ref id="B5346314">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Forzza</surname>
+              <given-names>R. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Baumgratz</surname>
+              <given-names>J. F.A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bicudo</surname>
+              <given-names>C. E.M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Carvalho Jr.</surname>
+              <given-names>A. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Costa</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Costa</surname>
+              <given-names>D. P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hopkins</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Leitman</surname>
+              <given-names>P. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lohmann</surname>
+              <given-names>L. G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maia</surname>
+              <given-names>L. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Martinelli</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Menezes</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Morim</surname>
+              <given-names>M. P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nadruz</surname>
+              <given-names>M. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Peixoto</surname>
+              <given-names>A. L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pirani</surname>
+              <given-names>J. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Prado</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Queiroz</surname>
+              <given-names>L. P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Souza</surname>
+              <given-names>V. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stehmann</surname>
+              <given-names>J. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sylvestre</surname>
+              <given-names>L. S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Walter</surname>
+              <given-names>B. M.T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zappi</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <source>Catálogo das Plantas e Fungos do Brasil, 2 vols</source>
+          <publisher-name>Andrea Jakobsson Estúdio and Rio de Janeiro Botanical Garden</publisher-name>
+          <pub-id pub-id-type="doi">10.7476/9788560035090</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5346362">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Forzza</surname>
+              <given-names>R. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Baumgratz</surname>
+              <given-names>José Fernando A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bicudo</surname>
+              <given-names>Carlos Eduardo M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Canhos</surname>
+              <given-names>Dora A. L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Carvalho</surname>
+              <given-names>Anibal A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Coelho</surname>
+              <given-names>Marcus A. Nadruz</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Costa</surname>
+              <given-names>Andrea F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Costa</surname>
+              <given-names>Denise P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hopkins</surname>
+              <given-names>Michael G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Leitman</surname>
+              <given-names>Paula M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lohmann</surname>
+              <given-names>Lucia G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lughadha</surname>
+              <given-names>Eimear Nic</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maia</surname>
+              <given-names>Leonor Costa</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Martinelli</surname>
+              <given-names>Gustavo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Menezes</surname>
+              <given-names>Mariângela</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Morim</surname>
+              <given-names>Marli Pires</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Peixoto</surname>
+              <given-names>Ariane Luna</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pirani</surname>
+              <given-names>José R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Prado</surname>
+              <given-names>Jefferson</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Queiroz</surname>
+              <given-names>Luciano P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Souza</surname>
+              <given-names>Sidnei</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Souza</surname>
+              <given-names>Vinicius Castro</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stehmann</surname>
+              <given-names>João R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sylvestre</surname>
+              <given-names>Lana S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Walter</surname>
+              <given-names>Bruno M. T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zappi</surname>
+              <given-names>Daniela C.</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>New Brazilian floristic list highlights conservation challenges</article-title>
+          <source>BioScience</source>
+          <volume>62</volume>
+          <issue>1</issue>
+          <fpage>39</fpage>
+          <lpage>45</lpage>
+          <pub-id pub-id-type="doi">10.1525/bio.2012.62.1.8</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5346394">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Freitas</surname>
+              <given-names>Hugo Dolsan de</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Baleeiro</surname>
+              <given-names>Paulo Cesar</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Trovó</surname>
+              <given-names>Marcelo</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Lentibulariaceae</tp:taxon-name-part></tp:taxon-name> do Parque Nacional do Itatiaia, Brasil</article-title>
+          <source>Rodriguésia</source>
+          <volume>68</volume>
+          <issue>1</issue>
+          <fpage>223</fpage>
+          <lpage>231</lpage>
+          <pub-id pub-id-type="doi">10.1590/2175-7860201768127</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5765079">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>GBIF</surname>
+            </name>
+          </person-group>
+          <uri>www.gbif.org/</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5346404">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Giannerini</surname>
+              <given-names>Ana Carolina</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Quinet</surname>
+              <given-names>Alexandre</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Andreata</surname>
+              <given-names>Regina Helena Potsch</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Lauraceae</tp:taxon-name-part></tp:taxon-name> in Itatiaia National Park, Brazil</article-title>
+          <source>Rodriguésia</source>
+          <volume>66</volume>
+          <issue>3</issue>
+          <fpage>863</fpage>
+          <lpage>880</lpage>
+          <pub-id pub-id-type="doi">10.1590/2175-7860201566314</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5346414">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Gonzaga</surname>
+              <given-names>Diego Rafael</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Menini Neto</surname>
+              <given-names>Luiz</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Peixoto</surname>
+              <given-names>Ariane Luna</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Cactaceae</tp:taxon-name-part></tp:taxon-name> no Parque Nacional do Itatiaia, Serra da Mantiqueira, Brasil</article-title>
+          <source>Rodriguésia</source>
+          <volume>68</volume>
+          <issue>4</issue>
+          <fpage>1397</fpage>
+          <lpage>1410</lpage>
+          <pub-id pub-id-type="doi">10.1590/2175-7860201768420</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5346424">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Hassler</surname>
+              <given-names>M. L.</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <article-title>A importância das Unidades de Conservação no Brasil</article-title>
+          <source>Sociedade &amp; Natureza, Uberlândia</source>
+          <volume>17</volume>
+          <issue>33</issue>
+          <fpage>79</fpage>
+          <lpage>89</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5346463">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>ICMBio</surname>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <source>Instituto Chico Mendes de Conservação da Biodiversidade. Plano de manejo do Parque Nacional do Itatiaia - encarte 1</source>
+          <publisher-name>Ministério do Meio Ambiente</publisher-name>
+          <publisher-loc>Brasília</publisher-loc>
+          <size units="page">82</size>
+          <uri>http://www.icmbio.gov.br/portal/component/content/article?id=2181:parna-do-itatiaia</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5346472">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>ICMBio</surname>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <source>Instituto Chico Mendes de Conservação da Biodiversidade. Plano de manejo do Parque Nacional do Itatiaia - encarte 2</source>
+          <publisher-name>Ministério do Meio Ambiente</publisher-name>
+          <publisher-loc>Brasília</publisher-loc>
+          <size units="page">117</size>
+          <uri>http://www.icmbio.gov.br/portal/component/content/article?id=2181:parna-do-itatiaia</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5765070">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Fungos</surname>
+              <given-names>INCT Herbário Virtual da Flora e dos</given-names>
+            </name>
+          </person-group>
+          <uri>inct.florabrasil.net/</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5346519">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lanna</surname>
+              <given-names>João</given-names>
+            </name>
+            <name name-style="western">
+              <surname>da Silva</surname>
+              <given-names>Luís Alexandre</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Morim</surname>
+              <given-names>Marli</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Leitman</surname>
+              <given-names>Paula</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Queiroz</surname>
+              <given-names>Natália</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Filardi</surname>
+              <given-names>Fabiana</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dalcin</surname>
+              <given-names>Eduardo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Oliveira</surname>
+              <given-names>Felipe</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Forzza</surname>
+              <given-names>Rafaela</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Herbarium collection of the Rio de Janeiro Botanical Garden (RB), Brazil</article-title>
+          <source>Biodiversity Data Journal</source>
+          <volume>6</volume>
+          <pub-id pub-id-type="doi">10.3897/bdj.6.e22757</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5346509">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lima</surname>
+              <given-names>William Gomes</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Guedes-Bruni</surname>
+              <given-names>Rejan R</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <article-title><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Myrceugenia">Myrceugenia</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Myrtaceae</tp:taxon-name-part></tp:taxon-name>) ocorrentes no Parque Nacional do Itatiaia, Rio de Janeiro</article-title>
+          <source>Rodriguésia</source>
+          <volume>55</volume>
+          <issue>85</issue>
+          <fpage>73</fpage>
+          <lpage>94</lpage>
+          <pub-id pub-id-type="doi">10.1590/2175-78602004558505</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5346534">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Machado-Filho</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ribeiro</surname>
+              <given-names>M. W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gonzalez</surname>
+              <given-names>S. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schemini</surname>
+              <given-names>C. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Santos Neto</surname>
+              <given-names>A. S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Palmeira</surname>
+              <given-names>R. C.B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pires</surname>
+              <given-names>I. L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Teixeira</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Castro</surname>
+              <given-names>H. F.</given-names>
+            </name>
+          </person-group>
+          <year>1983</year>
+          <article-title>Folhas SF 23/24 Rio de Janeiro e Vitória</article-title>
+          <source>Geologia. RADAMBRASIL</source>
+          <volume>32</volume>
+        </element-citation>
+      </ref>
+      <ref id="B5346558">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Martinelli</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Moraes</surname>
+              <given-names>M. A.</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <source>Livro vermelho da flora do Brasil</source>
+          <publisher-name>Jardim Botânico do Rio de Janeiro</publisher-name>
+          <uri>http://cncflora.jbrj.gov.br</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5346586">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Medeiros</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Young</surname>
+              <given-names>C. E.F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pavese</surname>
+              <given-names>H. B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Araújo</surname>
+              <given-names>F. F.S.</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <source>Contribuição das unidades de conservação brasileiras para a economia nacional: Sumário Executivo</source>
+          <publisher-name>UNEP-WCMC</publisher-name>
+          <publisher-loc>Brasília</publisher-loc>
+          <size units="page">44</size>
+        </element-citation>
+      </ref>
+      <ref id="B5346595">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Meireles</surname>
+              <given-names>Leonardo Dias</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kinoshita</surname>
+              <given-names>Luiza Sumiko</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Shepherd</surname>
+              <given-names>George John</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>Composição florística da vegetação altimontana do distrito de Monte Verde (Camanducaia, MG), Serra da Mantiqueira Meridional, Sudeste do Brasil</article-title>
+          <source>Rodriguésia</source>
+          <volume>65</volume>
+          <issue>4</issue>
+          <fpage>831</fpage>
+          <lpage>859</lpage>
+          <pub-id pub-id-type="doi">10.1590/2175-7860201465403</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5346619">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Mello</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mello</surname>
+              <given-names>F. H.</given-names>
+            </name>
+          </person-group>
+          <year>1909</year>
+          <source>Atlas do Brazil</source>
+          <publisher-name>F. Briguiet &amp; Cia. Editores</publisher-name>
+          <publisher-loc>Rio de Janeiro</publisher-loc>
+          <size units="page">70</size>
+        </element-citation>
+      </ref>
+      <ref id="B5346628">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Mendes-Júnior</surname>
+              <given-names>L. O.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Antoniazzi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vieira</surname>
+              <given-names>M. C.W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Susemihl</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <year>1991</year>
+          <source>Relatório Mantiqueira</source>
+          <publisher-name>FEDAPAM (Frente de Defesa da Mantiqueira)</publisher-name>
+          <publisher-loc>São Paulo</publisher-loc>
+          <size units="page">54</size>
+        </element-citation>
+      </ref>
+      <ref id="B5346637">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Mezabarba</surname>
+              <given-names>Viviane</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vianna Filho</surname>
+              <given-names>Marcelo Dias Machado</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Borges</surname>
+              <given-names>Rafael Augusto Xavier</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mansano</surname>
+              <given-names>Vidal de Freitas</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Ericaceae</tp:taxon-name-part></tp:taxon-name> do Parque Nacional do Itatiaia, RJ, Brasil</article-title>
+          <source>Hoehnea</source>
+          <volume>40</volume>
+          <issue>1</issue>
+          <fpage>115</fpage>
+          <lpage>130</lpage>
+          <pub-id pub-id-type="doi">10.1590/s2236-89062013000100006</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5346647">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>MMA</surname>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <source>Portaria n° 443, de 17 de dezembro de 2014. Lex: reconhece como espécies da flora brasileira ameaçadas de extinção aquelas constantes da “Lista Nacional Oficial de Espécies da Flora Ameaçadas de Extinção”</source>
+          <publisher-name>Ministério do Meio Ambiente</publisher-name>
+          <uri>http://cncflora.jbrj.gov.br/portal/static/pdf/portaria_mma_443_2014.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5346656">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>MMA</surname>
+            </name>
+          </person-group>
+          <year>2020</year>
+          <source>Unidades de Conservação - Mata Atlântica</source>
+          <publisher-name>Ministério do Meio Ambiente</publisher-name>
+          <uri>http://www.icmbio.gov.br/portal/unidadesdeconservacao/biomas-brasileiros/mata-atlantica/unidades-de-conservacao-mata-atlantica</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5346665">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Monteiro</surname>
+              <given-names>Daniele</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Guimarães</surname>
+              <given-names>Elsie Franklin</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Flora do Parque Nacional do Itatiaia - Brasil: <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Peperomia">Peperomia</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Piperaceae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Rodriguésia</source>
+          <volume>59</volume>
+          <issue>1</issue>
+          <fpage>161</fpage>
+          <lpage>195</lpage>
+          <pub-id pub-id-type="doi">10.1590/2175-7860200859111</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5346675">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Monteiro</surname>
+              <given-names>Daniele</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Guimarães</surname>
+              <given-names>Elsie Franklin</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>Flora do Parque Nacional do Itatiaia – Brasil: <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Manekia">Manekia</tp:taxon-name-part></tp:taxon-name></italic> e <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Piper">Piper</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Piperaceae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+          <source>Rodriguésia</source>
+          <volume>60</volume>
+          <issue>4</issue>
+          <fpage>999</fpage>
+          <lpage>1024</lpage>
+          <pub-id pub-id-type="doi">10.1590/2175-7860200960413</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5346685">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Morim</surname>
+              <given-names>Marli Pires</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <article-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Leguminosae</tp:taxon-name-part></tp:taxon-name> arbustivas e arbóreas da floresta atlântica do Parque Nacional do Itatiaia, sudeste do Brasil: padrões de distribuição</article-title>
+          <source>Rodriguésia</source>
+          <volume>57</volume>
+          <issue>1</issue>
+          <fpage>27</fpage>
+          <lpage>45</lpage>
+          <pub-id pub-id-type="doi">10.1590/2175-7860200657103</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5346695">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Morim</surname>
+              <given-names>Marli Pires</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barroso</surname>
+              <given-names>Graziela Maciel</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <article-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Leguminosae</tp:taxon-name-part></tp:taxon-name> arbustivas e arbóreas da Floresta Atlântica do Parque Nacional do Itatiaia, sudeste do Brasil: subfamílias <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Caesalpinioideae</tp:taxon-name-part></tp:taxon-name> e <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="subfamily">Mimosoideae</tp:taxon-name-part></tp:taxon-name></article-title>
+          <source>Rodriguésia</source>
+          <volume>58</volume>
+          <issue>2</issue>
+          <fpage>423</fpage>
+          <lpage>468</lpage>
+          <pub-id pub-id-type="doi">10.1590/2175-7860200758216</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5346705">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Myers</surname>
+              <given-names>Norman</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mittermeier</surname>
+              <given-names>Russell A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mittermeier</surname>
+              <given-names>Cristina G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>da Fonseca</surname>
+              <given-names>Gustavo A. B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kent</surname>
+              <given-names>Jennifer</given-names>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <article-title>Biodiversity hotspots for conservation priorities</article-title>
+          <source>Nature</source>
+          <volume>403</volume>
+          <issue>6772</issue>
+          <fpage>853</fpage>
+          <lpage>858</lpage>
+          <pub-id pub-id-type="doi">10.1038/35002501</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5765042">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>PortalBio</surname>
+            </name>
+          </person-group>
+          <uri>portaldabiodiversidade.icmbio.gov.br/portal</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5346743">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ramos</surname>
+              <given-names>Carla Gabriela Vargas</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sylvestre</surname>
+              <given-names>Lana da Silva</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Lycopodiaceae</tp:taxon-name-part></tp:taxon-name> no Parque Nacional do Itatiaia, RJ e MG, Brasil</article-title>
+          <source>Acta Botanica Brasilica</source>
+          <volume>24</volume>
+          <issue>1</issue>
+          <fpage>25</fpage>
+          <lpage>46</lpage>
+          <pub-id pub-id-type="doi">10.1590/s0102-33062010000100004</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5346734">
+        <element-citation publication-type="software">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Team</surname>
+              <given-names>R Development Core</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>R: A language and environment for statistical computing</article-title>
+          <publisher-name>R Foundation for Statistical Computing, Vienna, Austria</publisher-name>
+          <uri>http://www.Rproject.org/</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5765060">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Reflora</surname>
+            </name>
+          </person-group>
+          <uri>reflora.jbrj.gov.br/reflora/herbarioVirtual</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5346762">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ribeiro</surname>
+              <given-names>K. T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Medina</surname>
+              <given-names>B. O.</given-names>
+            </name>
+          </person-group>
+          <year>2002</year>
+          <source>Estrutura, Dinâmica e Biogeografia das Ilhas de Vegetação sobre Rocha do Planalto do Itatiaia, RJ</source>
+          <edition>10</edition>
+          <publisher-name>Boletim do Parque Nacional do Itatiaia</publisher-name>
+          <publisher-loc>Itatiaia, RJ</publisher-loc>
+          <size units="page">84</size>
+        </element-citation>
+      </ref>
+      <ref id="B5346771">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Rollim</surname>
+              <given-names>Isis de Mello</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Trovó</surname>
+              <given-names>Marcelo</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Campanulaceae</tp:taxon-name-part></tp:taxon-name> no Parque Nacional do Itatiaia, Brasil</article-title>
+          <source>Rodriguésia</source>
+          <volume>67</volume>
+          <issue>4</issue>
+          <fpage>1025</fpage>
+          <lpage>1030</lpage>
+          <pub-id pub-id-type="doi">10.1590/2175-7860201667412</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5346792">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Safford</surname>
+              <given-names>H. D.</given-names>
+            </name>
+          </person-group>
+          <year>1999</year>
+          <article-title>Brazilian Páramos II. Macro- and mesoclimate of the campos de altitude and affinities with high mountain climates of the tropical Andes and Costa Rica</article-title>
+          <source>Journal of Biogeography</source>
+          <volume>26</volume>
+          <issue>4</issue>
+          <pub-id pub-id-type="doi">10.1046/j.1365-2699.1999.00312.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5346782">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Safford</surname>
+              <given-names>H. D.</given-names>
+            </name>
+          </person-group>
+          <year>1999</year>
+          <article-title>Brazilian Paramos I. An introduction to the physical environment and vegetation of the campos de altitude</article-title>
+          <source>Journal of Biogeography</source>
+          <volume>26</volume>
+          <issue>4</issue>
+          <fpage>693</fpage>
+          <lpage>712</lpage>
+          <pub-id pub-id-type="doi">10.1046/j.1365-2699.1999.00313.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5349566">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Segadas-Vianna</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <year>1965</year>
+          <article-title>Ecology of the Itatiaia range, southeastern Brazil. I . Altitudinal zonation of the vegetation</article-title>
+          <source>Arquivos do Museu Nacional</source>
+          <volume>53</volume>
+          <fpage>7</fpage>
+          <lpage>30</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5346811">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Segadas-Vianna</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dau</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <year>1965</year>
+          <article-title>Ecology of Itatiaia range, southeastern Brazil. II. Climates and altitudinal climatic zonation</article-title>
+          <source>Arquivos Museu Nacional Rio de Janeiro</source>
+          <volume>53</volume>
+          <fpage>31</fpage>
+          <lpage>53</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5765051">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>SiBBr</surname>
+            </name>
+          </person-group>
+          <uri>www.sibbr.gov.br/</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5346490">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Silva</surname>
+              <given-names>Luís Alexandre Estevão da</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fraga</surname>
+              <given-names>Claudio Nicoletti de</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Almeida</surname>
+              <given-names>Thaís Moreira Hidalgo de</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gonzalez</surname>
+              <given-names>Marcos</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lima</surname>
+              <given-names>Rafael Oliveira</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rocha</surname>
+              <given-names>Mônica Sousa da</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bellon</surname>
+              <given-names>Ernani</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ribeiro</surname>
+              <given-names>Rafael da Silva</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Oliveira</surname>
+              <given-names>Felipe Alves de</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Clemente</surname>
+              <given-names>Leonardo da Silva</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Magdalena</surname>
+              <given-names>Ulises Rodrigo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Medeiros</surname>
+              <given-names>Erika von Sohsten</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Forzza</surname>
+              <given-names>Rafaela Campostrini</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Jabot - Sistema de Gerenciamento de Coleções Botânicas: a experiência de uma década de desenvolvimento e avanços</article-title>
+          <source>Rodriguésia</source>
+          <volume>68</volume>
+          <issue>2</issue>
+          <fpage>391</fpage>
+          <lpage>410</lpage>
+          <pub-id pub-id-type="doi">10.1590/2175-7860201768208</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5346862">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ule</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <year>1896</year>
+          <article-title>Relatório de uma excursão botânica feita na serra do Itatiaya.</article-title>
+          <source>Archivos do Museu Nacional do Rio de Janeiro</source>
+          <volume>11</volume>
+          <fpage>185</fpage>
+          <lpage>223</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5346872">
+        <element-citation publication-type="chapter">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Urban</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <year>1906</year>
+          <chapter-title>Vitae itineraque collectorum botanicorum, notae collaboratorum biographicae, florae brasiliensis ratio edendi choronologica, systema, indexfamiliarum</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Martius</surname>
+              <given-names>C. F.P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Eichler</surname>
+              <given-names>A. G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Urban</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <source>Flora Brasiliensis</source>
+          <volume>1</volume>
+          <publisher-name>Fleicher</publisher-name>
+          <publisher-loc>Liepizig</publisher-loc>
+        </element-citation>
+      </ref>
+      <ref id="B5346886">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Várzea</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <year>1942</year>
+          <article-title>Relevo do Brasil</article-title>
+          <source>Revista Brasileira de Geografia</source>
+          <volume>4</volume>
+          <fpage>97</fpage>
+          <lpage>130</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5349586">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Veloso</surname>
+              <given-names>H. P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rangel Filho</surname>
+              <given-names>A. L.R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lima</surname>
+              <given-names>J. C.A.</given-names>
+            </name>
+          </person-group>
+          <year>1991</year>
+          <source>Classificação da vegetação brasileira, adaptada a um sistema universal</source>
+          <publisher-name>Instituto Brasileiro de Geografia e Estatísitca</publisher-name>
+          <publisher-loc>Rio de Janeiro</publisher-loc>
+          <size units="page">116</size>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F5344847" position="float" orientation="portrait">
+      <object-id content-type="arpha">515EC175-7A45-50B7-8E67-01C804F604CD</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e50837.figure1</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Stages of data cleaning performed in R to obtain a list of angiosperm species from the “Parque Nacional do Itatiaia,” Brazil, from the RB herbarium database. The specimens kept on the list are shown in green, while the specimens removed are shown in red.</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e50837-g001.jpg" position="float" id="oo_400046.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/400046</uri>
+      </graphic>
+    </fig>
+    <fig id="F5344855" position="float" orientation="portrait">
+      <object-id content-type="arpha">20D19E8C-7E88-56FF-93F9-20ABF015EEAB</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e50837.figure2</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>Stages of data cleaning performed in R to obtain a list of lycophyte and fern species from the “Parque Nacional do Itatiaia,” Brazil, from the RB herbarium database. The specimens kept on the list are shown in green, while the specimens removed are shown in red.</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e50837-g002.jpg" position="float" id="oo_400047.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/400047</uri>
+      </graphic>
+    </fig>
+    <fig-group id="F5411703" position="float" orientation="portrait">
+      <caption>
+        <p>Lower and Upper Portions of the "Parque Nacional do Itatiaia", Brazil:</p>
+      </caption>
+      <fig id="F5411708" position="float" orientation="portrait">
+        <object-id content-type="arpha">9FA57859-9503-5259-9C60-6EC092544960</object-id>
+        <object-id content-type="doi">10.3897/BDJ.8.e50837.figure3a</object-id>
+        <label>Figure 3a.</label>
+        <caption>
+          <p>"Véu da Noiva" walterfalls</p>
+        </caption>
+        <graphic xlink:href="bdj-08-e50837-g003_a.jpg" xlink:type="simple" position="float" orientation="portrait" id="oo_401451.jpg">
+          <uri content-type="original_file">https://binary.pensoft.net/fig/401451</uri>
+        </graphic>
+      </fig>
+      <fig id="F5411709" position="float" orientation="portrait">
+        <object-id content-type="arpha">FBBB3D0F-EBE0-5D63-B6D4-90783641C84A</object-id>
+        <object-id content-type="doi">10.3897/BDJ.8.e50837.figure3b</object-id>
+        <label>Figure 3b.</label>
+        <caption>
+          <p>"Itaporani" walterfalls</p>
+        </caption>
+        <graphic xlink:href="bdj-08-e50837-g003_b.jpg" xlink:type="simple" position="float" orientation="portrait" id="oo_401450.jpg">
+          <uri content-type="original_file">https://binary.pensoft.net/fig/401450</uri>
+        </graphic>
+      </fig>
+      <fig id="F5411710" position="float" orientation="portrait">
+        <object-id content-type="arpha">D37A7B82-2097-5420-99F1-B69DF842C84C</object-id>
+        <object-id content-type="doi">10.3897/BDJ.8.e50837.figure3c</object-id>
+        <label>Figure 3c.</label>
+        <caption>
+          <p>“Pico das Agulhas Negras”</p>
+        </caption>
+        <graphic xlink:href="bdj-08-e50837-g003_c.jpg" xlink:type="simple" position="float" orientation="portrait" id="oo_401459.jpg">
+          <uri content-type="original_file">https://binary.pensoft.net/fig/401459</uri>
+        </graphic>
+      </fig>
+      <fig id="F5411711" position="float" orientation="portrait">
+        <object-id content-type="arpha">FAA20CB2-A8A1-58A1-A060-77B5506A1761</object-id>
+        <object-id content-type="doi">10.3897/BDJ.8.e50837.figure3d</object-id>
+        <label>Figure 3d.</label>
+        <caption>
+          <p>“Prateleiras”</p>
+        </caption>
+        <graphic xlink:href="bdj-08-e50837-g003_d.jpg" xlink:type="simple" position="float" orientation="portrait" id="oo_401460.JPG">
+          <uri content-type="original_file">https://binary.pensoft.net/fig/401460</uri>
+        </graphic>
+      </fig>
+    </fig-group>
+    <fig-group id="F5725012" position="float" orientation="portrait">
+      <caption>
+        <p>Richest 10 families (a) and genera (b) of angiosperms of the “Parque Nacional do Itatiaia,” Brazil.</p>
+      </caption>
+      <fig id="F5725017" position="float" orientation="portrait">
+        <object-id content-type="arpha">204A6471-A5D3-5CFA-A8F1-36E690006F0B</object-id>
+        <object-id content-type="doi">10.3897/BDJ.8.e50837.figure4a</object-id>
+        <label>Figure 4a.</label>
+        <graphic xlink:href="bdj-08-e50837-g004_a.png" xlink:type="simple" position="float" orientation="portrait" id="oo_400042.png">
+          <uri content-type="original_file">https://binary.pensoft.net/fig/400042</uri>
+        </graphic>
+      </fig>
+      <fig id="F5725018" position="float" orientation="portrait">
+        <object-id content-type="arpha">BA622F58-D0F1-5645-B8B4-38C0AA3864ED</object-id>
+        <object-id content-type="doi">10.3897/BDJ.8.e50837.figure4b</object-id>
+        <label>Figure 4b.</label>
+        <graphic xlink:href="bdj-08-e50837-g004_b.png" xlink:type="simple" position="float" orientation="portrait" id="oo_400043.png">
+          <uri content-type="original_file">https://binary.pensoft.net/fig/400043</uri>
+        </graphic>
+      </fig>
+    </fig-group>
+    <fig-group id="F5725031" position="float" orientation="portrait">
+      <caption>
+        <p>Richest 10 families (a) and genera (b) of lycophytes and ferns from the “Parque Nacional do Itatiaia,” Brazil.</p>
+      </caption>
+      <fig id="F5725036" position="float" orientation="portrait">
+        <object-id content-type="arpha">09B850DB-0928-5B67-A66D-DB1BA15C64DB</object-id>
+        <object-id content-type="doi">10.3897/BDJ.8.e50837.figure5a</object-id>
+        <label>Figure 5a.</label>
+        <graphic xlink:href="bdj-08-e50837-g005_a.png" xlink:type="simple" position="float" orientation="portrait" id="oo_400044.png">
+          <uri content-type="original_file">https://binary.pensoft.net/fig/400044</uri>
+        </graphic>
+      </fig>
+      <fig id="F5725037" position="float" orientation="portrait">
+        <object-id content-type="arpha">F403A830-ED92-55F0-83EC-92FDD0FCD608</object-id>
+        <object-id content-type="doi">10.3897/BDJ.8.e50837.figure5b</object-id>
+        <label>Figure 5b.</label>
+        <graphic xlink:href="bdj-08-e50837-g005_b.png" xlink:type="simple" position="float" orientation="portrait" id="oo_400045.png">
+          <uri content-type="original_file">https://binary.pensoft.net/fig/400045</uri>
+        </graphic>
+      </fig>
+    </fig-group>
+    <fig id="F5344879" position="float" orientation="portrait">
+      <object-id content-type="arpha">24D56465-60AB-5A43-98AB-E87F4729377C</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e50837.figure6</object-id>
+      <label>Figure 6.</label>
+      <caption>
+        <p>Life forms of the vascular plant species occurring in the “Parque Nacional do Itatiaia,” Brazil. The values within bars represent the number of species in each category. Green bars represent species of angiospem and blue bars represent species of lycophytes and ferns.</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e50837-g006.png" position="float" id="oo_367145.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/367145</uri>
+      </graphic>
+    </fig>
+    <fig-group id="F5381035" position="float" orientation="portrait">
+      <caption>
+        <p>Some threatened species of the “Parque Nacional do Itatiaia,” Brazil. Photos: Moreira M.M.</p>
+      </caption>
+      <fig id="F5724955" position="float" orientation="portrait">
+        <object-id content-type="arpha">50526FE3-58F0-5040-ACBA-BE022010C370</object-id>
+        <object-id content-type="doi">10.3897/BDJ.8.e50837.figure7a</object-id>
+        <label>Figure 7a.</label>
+        <caption>
+          <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Aechmea">Aechmea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="vanhoutteana">vanhoutteana</tp:taxon-name-part></tp:taxon-name></italic> (Van Houtte) Mez - Vunerable (VU)</p>
+        </caption>
+        <graphic xlink:href="bdj-08-e50837-g007_a.jpg" xlink:type="simple" position="float" orientation="portrait" id="oo_401461.jpg">
+          <uri content-type="original_file">https://binary.pensoft.net/fig/401461</uri>
+        </graphic>
+      </fig>
+      <fig id="F5724956" position="float" orientation="portrait">
+        <object-id content-type="arpha">F08686AF-75F6-5990-B282-00FE533F363E</object-id>
+        <object-id content-type="doi">10.3897/BDJ.8.e50837.figure7b</object-id>
+        <label>Figure 7b.</label>
+        <caption>
+          <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Barbacenia">Barbacenia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="gounelleana">gounelleana</tp:taxon-name-part></tp:taxon-name></italic> Beauverd - Endangered (EN)</p>
+        </caption>
+        <graphic xlink:href="bdj-08-e50837-g007_b.jpg" xlink:type="simple" position="float" orientation="portrait" id="oo_401463.jpg">
+          <uri content-type="original_file">https://binary.pensoft.net/fig/401463</uri>
+        </graphic>
+      </fig>
+      <fig id="F5724957" position="float" orientation="portrait">
+        <object-id content-type="arpha">180D218C-8533-51C6-AE6F-D7EEB95941CA</object-id>
+        <object-id content-type="doi">10.3897/BDJ.8.e50837.figure7c</object-id>
+        <label>Figure 7c.</label>
+        <caption>
+          <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Buddleja">Buddleja</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="speciosissima">speciosissima</tp:taxon-name-part></tp:taxon-name></italic> Taub. - Vunerable (VU)</p>
+        </caption>
+        <graphic xlink:href="bdj-08-e50837-g007_c.jpg" xlink:type="simple" position="float" orientation="portrait" id="oo_401464.JPG">
+          <uri content-type="original_file">https://binary.pensoft.net/fig/401464</uri>
+        </graphic>
+      </fig>
+      <fig id="F5724958" position="float" orientation="portrait">
+        <object-id content-type="arpha">A8A14426-7720-5631-BACF-AFD6F8A2A462</object-id>
+        <object-id content-type="doi">10.3897/BDJ.8.e50837.figure7d</object-id>
+        <label>Figure 7d.</label>
+        <caption>
+          <p><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Fernseea">Fernseea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="itatiaiae">itatiaiae</tp:taxon-name-part></tp:taxon-name></italic> (Wawra) Baker - Endangered (EN)</p>
+        </caption>
+        <graphic xlink:href="bdj-08-e50837-g007_d.jpg" xlink:type="simple" position="float" orientation="portrait" id="oo_401465.JPG">
+          <uri content-type="original_file">https://binary.pensoft.net/fig/401465</uri>
+        </graphic>
+      </fig>
+    </fig-group>
+    <fig id="F5344859" position="float" orientation="portrait">
+      <object-id content-type="arpha">BA2E2EE5-0589-58AF-8255-616061B11AFA</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e50837.figure8</object-id>
+      <label>Figure 8.</label>
+      <caption>
+        <p>Number of specimens collected over time in the “Parque Nacional do Itatiaia” and housed in the RB herbarium. Green lines represent species of angiospem, while blue lines represent species of lycophytes and ferns.</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e50837-g008.png" position="float" id="oo_338645.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/338645</uri>
+      </graphic>
+    </fig>
+    <table-wrap id="T5344893" position="float" orientation="portrait">
+      <label>Table 1.</label>
+      <caption>
+        <p>List of species considered as a priority for conservation in the “Parque Nacional do Itatiaia”, Brazil. (CR = critically endangered, VU = vulnerable, EN = endangered and DD = data deficient), according to CNC Flora (<ext-link ext-link-type="uri" xlink:href="http://www.cncflora.jbrj.gov.br/portal">http://www.cncflora.jbrj.gov.br/portal</ext-link>).</p>
+      </caption>
+      <table rules="all">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Group</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Family</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Species</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Category</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Angiosperms</td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Aquifoliaceae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Ilex">Ilex</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="loranthoides">loranthoides</tp:taxon-name-part></tp:taxon-name></italic> Mart. ex Reissek</td>
+            <td rowspan="1" colspan="1">VU</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Angiosperms</td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Asteraceae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Campuloclinium">Campuloclinium</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="parvulum">parvulum</tp:taxon-name-part></tp:taxon-name></italic> (Glaz.) R.M.King &amp; H.Rob.</td>
+            <td rowspan="1" colspan="1">VU</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Angiosperms</td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Bromeliaceae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Vriesea">Vriesea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="morrenii">morrenii</tp:taxon-name-part></tp:taxon-name></italic> Wawra</td>
+            <td rowspan="1" colspan="1">DD</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Angiosperms</td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Bromeliaceae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Vriesea">Vriesea</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="sazimae">sazimae</tp:taxon-name-part></tp:taxon-name></italic> Leme</td>
+            <td rowspan="1" colspan="1">VU</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Angiosperms</td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Chrysobalanaceae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Licania">Licania</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="indurata">indurata</tp:taxon-name-part></tp:taxon-name></italic> Pilg.</td>
+            <td rowspan="1" colspan="1">EN</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Angiosperms</td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Cyperaceae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Cryptangium">Cryptangium</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="polyphyllum">polyphyllum</tp:taxon-name-part></tp:taxon-name></italic> (Nees) Boeckeler</td>
+            <td rowspan="1" colspan="1">EN</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Angiosperms</td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Lauraceae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Beilschmiedia">Beilschmiedia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="rigida">rigida</tp:taxon-name-part></tp:taxon-name></italic> (Mez) Kosterm.</td>
+            <td rowspan="1" colspan="1">EN</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Angiosperms</td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Orchidaceae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Anathallis">Anathallis</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="tigridens">tigridens</tp:taxon-name-part></tp:taxon-name></italic> (Loefgr.) F.Barros &amp; Barberena</td>
+            <td rowspan="1" colspan="1">VU</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Angiosperms</td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Orchidaceae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Grandiphyllum">Grandiphyllum</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="divaricatum">divaricatum</tp:taxon-name-part></tp:taxon-name></italic> (Lindl.) Docha Neto</td>
+            <td rowspan="1" colspan="1">VU</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Angiosperms</td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Orchidaceae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Habenaria">Habenaria</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="achalensis">achalensis</tp:taxon-name-part></tp:taxon-name></italic> Kraenzl.</td>
+            <td rowspan="1" colspan="1">VU</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Angiosperms</td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Orchidaceae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Isabelia">Isabelia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="virginalis">virginalis</tp:taxon-name-part></tp:taxon-name></italic> Barb.Rodr.</td>
+            <td rowspan="1" colspan="1">VU</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Angiosperms</td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Orchidaceae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Octomeria">Octomeria</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="decumbens">decumbens</tp:taxon-name-part></tp:taxon-name></italic> Cogn.</td>
+            <td rowspan="1" colspan="1">DD</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Angiosperms</td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Orchidaceae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pabstia">Pabstia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="jugosa">jugosa</tp:taxon-name-part></tp:taxon-name></italic> (Lindl.) Garay</td>
+            <td rowspan="1" colspan="1">EN</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Angiosperms</td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Violaceae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Viola">Viola</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="gracillima">gracillima</tp:taxon-name-part></tp:taxon-name></italic> A.St.-Hil.</td>
+            <td rowspan="1" colspan="1">EN</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Gymnosperms</td>
+            <td rowspan="1" colspan="1">
+              <tp:taxon-name>
+                <tp:taxon-name-part taxon-name-part-type="family">Araucariaceae</tp:taxon-name-part>
+              </tp:taxon-name>
+            </td>
+            <td rowspan="1" colspan="1"><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Araucaria">Araucaria</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="angustifolia">angustifolia</tp:taxon-name-part></tp:taxon-name></italic> (Bertol.) Kuntze</td>
+            <td rowspan="1" colspan="1">EN</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <supplementary-material id="S5412256" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">2D267731-E12D-5EEB-9E92-C7FE3B7FA674</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e50837.suppl1</object-id>
+      <label>Supplementary material 1</label>
+      <caption>
+        <p>Records obtained from the online database, after the filtering protocol.</p>
+      </caption>
+      <statement content-type="dataType">
+        <label>Data type</label>
+        <p>occurrences</p>
+      </statement>
+      <p>File: oo_367152.txt</p>
+      <media xlink:href="bdj-08-e50837-s001.txt" mimetype="txt file" mime-subtype="txt" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/367152</uri>
+      </media>
+      <attrib specific-use="authors">Moreira et al.</attrib>
+    </supplementary-material>
+    <supplementary-material id="S5412257" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">EA68EE22-4BA8-5A7E-8CD9-F9BCF834070F</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e50837.suppl2</object-id>
+      <label>Supplementary material 2</label>
+      <caption>
+        <p>Records obtained from other online databases.</p>
+      </caption>
+      <statement content-type="dataType">
+        <label>Data type</label>
+        <p>occurrences</p>
+      </statement>
+      <p>File: oo_367151.txt</p>
+      <media xlink:href="bdj-08-e50837-s002.txt" mimetype="txt file" mime-subtype="txt" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/367151</uri>
+      </media>
+      <attrib specific-use="authors">Moreira et al.</attrib>
+    </supplementary-material>
+    <supplementary-material id="S5412258" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">E05C3B92-E46D-535E-B62A-4F8D7DC7542E</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e50837.suppl3</object-id>
+      <label>Supplementary material 3</label>
+      <caption>
+        <p>List of vascular plants occurring in the "Parque Nacional do Itatiaia" providing information on the number of specimens per species in the database, threat category, presence of old records (True = presence of only old records, False = presence of old and new records), life form, origin (native vs. non-native), endemism and vegetation type. No information = indicates that data is lacking for that species.</p>
+      </caption>
+      <statement content-type="dataType">
+        <label>Data type</label>
+        <p>List of species</p>
+      </statement>
+      <p>File: oo_401424.txt</p>
+      <media xlink:href="bdj-08-e50837-s003.txt" mimetype="txt file" mime-subtype="txt" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/401424</uri>
+      </media>
+      <attrib specific-use="authors">Moreira et al.</attrib>
+    </supplementary-material>
+    <supplementary-material id="S5412259" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">8F09A07A-C7FE-51CA-92AC-BA0EC44D0E3A</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e50837.suppl4</object-id>
+      <label>Supplementary material 4</label>
+      <caption>
+        <p>Threatened and data deficient species of vascular plants occurring in the “Parque Nacional do Itatiaia,” their respective groups, families and threat category (CR = critically endangered, VU = vulnerable, EN = endangered and DD = data deficient).</p>
+      </caption>
+      <statement content-type="dataType">
+        <label>Data type</label>
+        <p>List of species</p>
+      </statement>
+      <p>File: oo_352210.txt</p>
+      <media xlink:href="bdj-08-e50837-s004.txt" mimetype="txt file" mime-subtype="txt" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/352210</uri>
+      </media>
+      <attrib specific-use="authors">Moreira et al.</attrib>
+    </supplementary-material>
+  </floats-group>
+</article>

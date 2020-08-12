@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.8.e51928</article-id>
+      <article-id pub-id-type="publisher-id">51928</article-id>
+      <article-id pub-id-type="manuscript">13106</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="conference-part">
+          <subject>Azores Biota</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Cyanobacteria</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Biodiversity &amp; Conservation</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>Europe</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cyanobacteria</tp:taxon-name-part></tp:taxon-name> from freshwater lakes in the Azores archipelago, Portugal: data from long term phytoplankton monitoring</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes">
+          <name name-style="western">
+            <surname>Luz</surname>
+            <given-names>Rúben</given-names>
+          </name>
+          <email xlink:type="simple">ruben.fs.luz@uac.pt</email>
+          <uri content-type="orcid">https://orcid.org/0000-0001-8223-5943</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Cordeiro</surname>
+            <given-names>Rita</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0001-8713-6370</uri>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Vilaverde</surname>
+            <given-names>Joana</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-2738-1451</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Raposeiro</surname>
+            <given-names>Pedro M.</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-7461-0851</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Fonseca</surname>
+            <given-names>Amélia</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Gonçalves</surname>
+            <given-names>Vítor</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-5737-296X</uri>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">CIBIO, Centro de Investigação em Biodiversidade e Recursos Genéticos, InBIO Laboratório Associado, Pólo dos Açores, Ponta Delgada, Portugal</addr-line>
+        <institution>CIBIO, Centro de Investigação em Biodiversidade e Recursos Genéticos, InBIO Laboratório Associado, Pólo dos Açores</institution>
+        <addr-line content-type="city">Ponta Delgada</addr-line>
+        <country>Portugal</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">Faculdade de Ciências e Tecnologia, Universidade dos Açores, Ponta Delgada, Portugal</addr-line>
+        <institution>Faculdade de Ciências e Tecnologia, Universidade dos Açores</institution>
+        <addr-line content-type="city">Ponta Delgada</addr-line>
+        <country>Portugal</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Rúben Luz (<email xlink:type="simple">ruben.fs.luz@uac.pt</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Anne Thessen</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2020</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>09</day>
+        <month>06</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>8</volume>
+      <elocation-id>e51928</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/59ACB190-5DFE-555A-8DD9-B31A415A50A8">59ACB190-5DFE-555A-8DD9-B31A415A50A8</uri>
+      <history>
+        <date date-type="received">
+          <day>10</day>
+          <month>03</month>
+          <year>2020</year>
+        </date>
+        <date date-type="accepted">
+          <day>27</day>
+          <month>05</month>
+          <year>2020</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Rúben Luz, Rita Cordeiro, Joana Vilaverde, Pedro M. Raposeiro, Amélia Fonseca, Vítor Gonçalves</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>The Azores are oceanic islands located in the Northern Atlantic Ocean and are particularly rich in aquatic systems, ranging from freshwater, brackish, marine and thermal habitats. Due to the increase in local anthropogenic pressures and global warming, several azorean lakes began to reveal signs of eutrophication that led to the implementation of monitoring programmes and management strategies on the most impacted lakes. Later, the Water Framework Directive (2000/60/EC) demanded the establishment of biomonitoring programmes for European freshwater ecosystems and the limited Azorean monitoring programmes were extended to a larger set of lakes. Since the establishment of the aquatic systems monitoring programme in the Azores archipelago, lakes have been regularly sampled, producing innumerous unpublished records of cyanobacteria that are difficult to access.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>Here we present the occurrences of cyanobacteria in Azorean lakes that result from 22 years of phytoplankton monitoring in a total of 1948 cyanobacteria occurrences from 968 phytoplankton sampling events on Azorean lakes done between 1996 and 2018 as part of regional inland aquatic ecosystems monitoring programmes. Forty two cyanobacteria taxa were identified in those events, 28 species and 14 at genus level. This information is crucial for conservation, biodiversity studies and lake management, as some of the cyanobacteria species present are bloom-forming and have the ability to produce toxins. This will also allow for the identification of invasive species and possible targeted control and mitigation programmes, according to the species present in the Azorean lakes.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>cyanobacteria</kwd>
+        <kwd>freshwater</kwd>
+        <kwd>oceanic islands</kwd>
+        <kwd>phytoplankton</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <named-content content-type="project_title">Research Network in Biodiversity and Evolutionary Biology</named-content>
+            <named-content content-type="project_identifier">147365</named-content>
+          </funding-source>
+        </award-group>
+      </funding-group>
+      <counts>
+        <fig-count count="1"/>
+        <table-count count="0"/>
+        <ref-count count="19"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cyanobacteria</tp:taxon-name-part></tp:taxon-name> are common inhabitants of lake plankton from oligotrophic pristine environments to heavily-impacted eutrophic lakes (<xref ref-type="bibr" rid="B5534398">Whitton and Potts 2012</xref>). Although they can be very important in oligotrophic lakes, especially through unicellular small-size species (<xref ref-type="bibr" rid="B5534408">Stockner et al. 2007</xref>), they are especially dominant in eutrophic lakes, where filamentous and larger colonial species form frequent blooms that can cause surface scums and unpleasant odours (<xref ref-type="bibr" rid="B5534426">Reynolds and Petersen 2000</xref>). Furthermore, several bloom-forming cyanobacteria species produce toxins that can cause an impact on the ecosystem biodiversity, as well as on the safety of water resources for several uses (<xref ref-type="bibr" rid="B5534444">Watson et al. 2015</xref>). Several factors may contribute to the dominance of cyanobacteria in lakes, including higher temperature and lower TN/TP optima compared to other phytoplankton groups, low light-energy requirements, superior uptake kinetics for inorganic carbon, the ability to fix molecular nitrogen and buoyancy, amongst others (<xref ref-type="bibr" rid="B5534456">Dokulil and Teubner 2000</xref>).</p>
+      <p>In the last decades of the 20th century, several Azorean lakes started to show signs of eutrophication (<xref ref-type="bibr" rid="B5468591">Porteiro 2000</xref>), with increased cyanobacteria abundance and the occurrence of blooms (<xref ref-type="bibr" rid="B5468406">Santos et al. 2005</xref>). This caused generalised concern amongst local authorities and population and monitoring programmes to access lake trophic status and ecosystem health were implemented in the region.</p>
+      <p>The Azores are a nine-island archipelago in the middle of the North Atlantic Ocean, distant roughly 1500 km from Europe and 1900 km from North America, divided into three groups according to their geographical position. Aligned along 615 km in WNW-ESE trend, the western group includes Flores and Corvo islands, the central group being composed by Graciosa, Faial, Pico, São Jorge and Terceira islands, while the eastern group comprises Santa Maria and São Miguel islands. Despite their geographical proximity, islands have distinct features that distinguish them, such as their geological setting (<xref ref-type="bibr" rid="B5468455">Moore 1990</xref>, <xref ref-type="bibr" rid="B5468375">Azevedo and Portugal Ferreira 2006</xref>, <xref ref-type="bibr" rid="B5468363">Cole et al. 2008</xref>) and their age (<xref ref-type="bibr" rid="B5468341">Ávila et al. 2016</xref>).</p>
+      <p>The diversity of habitats amongst islands differs naturally due to their geological setting and origin, allowing a great diversity of inland habitats, such as freshwater lakes (<xref ref-type="bibr" rid="B5468591">Porteiro 2000</xref>, <xref ref-type="bibr" rid="B5468581">Cruz and França 2006</xref>, <xref ref-type="bibr" rid="B5468600">Morton 2014</xref>). According to <xref ref-type="bibr" rid="B5468591">Porteiro 2000</xref>, the Azores have 88 lakes, located in São Miguel, Terceira, Pico, São Jorge, Flores and Corvo islands. The lakes can be classified into two types, according to their origin: i) lakes within volcanic depressions and ii) lakes in topographically depressed areas (<xref ref-type="bibr" rid="B5525812">Constância et al. 2000</xref>, <xref ref-type="bibr" rid="B5525873">Antunes 2004</xref>). Azorean lakes presented great differences in their size, elevation and depth. The largest lake is in São Miguel island (358.7 ha - Lagoa Azul), while the small lakes &lt; 1 ha are present in São Miguel, Pico, Terceira and São Jorge (<xref ref-type="bibr" rid="B5468591">Porteiro 2000</xref>). Most of the lakes are located between 600 and 800 m altitude, while the range is from 230 m (São Miguel island) and 1,050 m altitude (Pico island). Most of the lakes are shallow with maximum depths ranging from 0.4 to 7 metres. These lakes are permanently mixed and cyanobacteria rarely dominate their phytoplankton. Deeper lakes, with maximum depth between 14 and 115 m, have a monomictic warm thermal regime, presenting stratification normally between April and October. Contrary to shallow lakes, deep, stratified lakes, located at lower altitudes where human activities are more intense, have undergone eutrophication and their phytoplankton is dominated by cyanobacteria, especially during the stratification period.</p>
+      <p>Here we present detailed data on the distribution of species belonging to several groups of cyanobacteria in Azorean lakes from 22 years (1996-2018) of lake phytoplankton monitoring for trophic and ecological status assessment (<xref ref-type="bibr" rid="B5540640">Luz et al. 2020</xref>).</p>
+    </sec>
+    <sec sec-type="Project description">
+      <title>Project description</title>
+      <sec sec-type="Title">
+        <title>Title</title>
+        <p><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cyanobacteria</tp:taxon-name-part></tp:taxon-name> from freshwater lakes in the Azores Archipelago, Portugal</p>
+      </sec>
+      <sec sec-type="Personnel">
+        <title>Personnel</title>
+        <p>Vítor Gonçalves, Rúben Luz</p>
+      </sec>
+      <sec sec-type="Funding">
+        <title>Funding</title>
+        <p>This research was funded by Secretaria Regional do Ambiente – Governo dos Açores (Contrato Nº 8/2003/DROTRH), Secretaria Regional do Ambiente e do Mar – Governo dos Açores (Ajuste Direto Nº 18/2009; Concurso Público Nº 3/2009; Contrato Nº 3/2011), Secretaria Regional dos Recursos Naturais – Governo dos Açores (Concurso Público 1/DRA/2014), Fundo Regional para a Ciência e Tecnologia – Governo dos Açores (M3.1.a/F/017/2015) and by FEDER funds through the Interreg-MAC 2014-2020 Programme under the REBECA project - Red de excelencia en biotecnología azul (algas) de la región macaronesia (MAC1.1a/060). This work was also funded by Portuguese National Funds, through FCT − Fundação para a Ciência e a Tecnologia, the European Union, QREN, FEDER, COMPETE, by funding the CIBIO/InBIO (project UID/BIA/50027/2013 and POCI-01-0145-FEDER-006821). This manuscript is also a contribution to the updated checklist of Azorean cyanobacteria that is being prepared within the newly-launched project AZORESBIOPORTAL – PORBIOTA (ACORES-01-0145-FEDER-000072), financed by FEDER at 85% and by Azorean Public funds by 15% through Operational Programme Azores 2020.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Study extent">
+        <title>Study extent</title>
+        <p>Phytoplankton samples from 24 lakes in Corvo (1), Flores (6), Pico (5) and São Miguel (12) islands in the Azores archipelago were collected seasonally between 1996 and 2018.</p>
+      </sec>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>Phytoplankton samples were taken using a Van Dorn bottle and a 10 µm mesh plankton net at the lake's maximum depth point. In deep lakes (maximum depth &gt; 10 m), until 2010, discrete samples were collected at surface, mid-water column depth and 1 m above the sediment. After 2010, a combined sample of the euphotic zone was obtained by mixing discrete 1 litre samples collected at 1 m intervals from the surface to the bottom of the euphotic zone. In shallow lakes (maximum depth &lt; 10 m), a surface sample (integrated sample of the first metre of the water column) was collected. Net samples were obtained by a trawl from 1 m above the sediment to the water column surface. All samples were preserved with 1% Lugol solution (v/v) and taxa were identified to the lowest taxonomical level possible using light microscopy. For regular cyanobacteria identification and quantification, bottle samples were used, whereas net samples were used to detect rare or uncommon species that could be missed in the Van Dorn bottle samples. A final occurrence list was built by combining data from both samples. Preserved samples after analysis were deposited in Faculdade de Ciências e Tecnologia, Universidade dos Açores.</p>
+      </sec>
+      <sec sec-type="Step description">
+        <title>Step description</title>
+        <p><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cyanobacteria</tp:taxon-name-part></tp:taxon-name> were identified according to <xref ref-type="bibr" rid="B5515525">Komárek and Anagnostidis (1998)</xref>, <xref ref-type="bibr" rid="B5515515">Komárek and Anagnostidis (2008)</xref> and <xref ref-type="bibr" rid="B5514416">Komárek (2013)</xref>.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>Azores archipelago, Portugal (Fig. <xref ref-type="fig" rid="F5468579">1</xref>)</p>
+      </sec>
+      <sec sec-type="Coordinates">
+        <title>Coordinates</title>
+        <p>36.9 and 39.8 Latitude; -31.5 and -24.9 Longitude.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cyanobacteria</tp:taxon-name-part></tp:taxon-name> were identified to genus or species level. Nomenclature was updated to the most recent taxonomic treatment.</p>
+      </sec>
+      <sec sec-type="Taxa included">
+        <title>Taxa included</title>
+        <table-wrap id="taxonomic_coverage" position="anchor" orientation="portrait">
+          <table rules="all">
+            <thead>
+              <tr>
+                <th rowspan="1" colspan="1">Rank</th>
+                <th rowspan="1" colspan="1">Scientific Name</th>
+                <th rowspan="1" colspan="1">Common Name</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">class</td>
+                <td rowspan="1" colspan="1"><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Cyanophyceae</tp:taxon-name-part></tp:taxon-name> Schaffner</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="class">Cyanophyceae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+    </sec>
+    <sec sec-type="Traits coverage">
+      <title>Traits coverage</title>
+      <sec sec-type="Data coverage of traits">
+        <title>Data coverage of traits</title>
+        <p>PLEASE FILL IN TRAIT INFORMATION HERE</p>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <sec sec-type="Notes">
+        <title>Notes</title>
+        <p>1996-12-16 through 2018-06-21</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Other</p>
+      </sec>
+      <sec sec-type="IP rights notes">
+        <title>IP rights notes</title>
+        <p>This work is licensed under a Creative Commons Attribution (CC-BY) 4.0 Licence.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cyanobacteria</tp:taxon-name-part></tp:taxon-name> from freshwater lakes in the Azores Archipelago, Portugal</p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="http://ipt.gbif.pt/ipt/resource?r=cyanobacteria_ocurrence">http://ipt.gbif.pt/ipt/resource?r=cyanobacteria_ocurrence</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Alternative identifiers">
+        <title>Alternative identifiers</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="https://www.gbif.org/dataset/9d9d16b2-b6ad-433f-9baa-5354132896ac">https://www.gbif.org/dataset/9d9d16b2-b6ad-433f-9baa-5354132896ac</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>2</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cyanobacteria</tp:taxon-name-part></tp:taxon-name> from freshwater lakes in the Azores Archipelago, Portugal - event</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Darwin Core</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>18</p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cyanobacteria</tp:taxon-name-part></tp:taxon-name> sampling events in lakes from the Azores Archipelago, based on data from monitoring programmes dated from 1996 to 2018.</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">id</td>
+                  <td rowspan="1" colspan="1">Unique Identifier</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">type</td>
+                  <td rowspan="1" colspan="1">The nature of the resource</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventID</td>
+                  <td rowspan="1" colspan="1">Identifier unique for the dataset</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">parentEventID</td>
+                  <td rowspan="1" colspan="1">Identifier of the sampling campaign, unique for the dataset</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">samplingProtocol</td>
+                  <td rowspan="1" colspan="1">The sampling method used</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventDate</td>
+                  <td rowspan="1" colspan="1">Date when the event occurred</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">habitat</td>
+                  <td rowspan="1" colspan="1">The habitat type in which the event occurred</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">continent</td>
+                  <td rowspan="1" colspan="1">Continent body in which sampling location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">waterBody</td>
+                  <td rowspan="1" colspan="1">Water body in which sampling location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">islandGroup</td>
+                  <td rowspan="1" colspan="1">Island group in which sampling location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">island</td>
+                  <td rowspan="1" colspan="1">Island in which sampling location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">country</td>
+                  <td rowspan="1" colspan="1">Country in which sampling location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">countryCode</td>
+                  <td rowspan="1" colspan="1">Country Code in which sampling location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">municipality</td>
+                  <td rowspan="1" colspan="1">Municipality in which sampling location occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">locality</td>
+                  <td rowspan="1" colspan="1">The specific description of the place in which sampling occurs</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLatitude</td>
+                  <td rowspan="1" colspan="1">The geographic latitude, in decimal degrees</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLongitude</td>
+                  <td rowspan="1" colspan="1">The geographic longitude, in decimal degrees</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">geodeticDatum</td>
+                  <td rowspan="1" colspan="1">The reference point for the various coordinate systems used in mapping the earth</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+      <sec sec-type="Data set 2">
+        <title>Data set 2.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cyanobacteria</tp:taxon-name-part></tp:taxon-name> from freshwater lakes in the Azores Archipelago, Portugal - occurrence</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Darwin Core</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>12</p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cyanobacteria</tp:taxon-name-part></tp:taxon-name> occurrence in lakes from the Azores Archipelago, based on data from monitoring programmes dated from 1996 to 2018.</p>
+          <table-wrap id="DS2" orientation="portrait" position="anchor">
+            <label>Data set 2.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">id</td>
+                  <td rowspan="1" colspan="1">Identifier</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">type</td>
+                  <td rowspan="1" colspan="1">The nature of the resource</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">basisOfRecord</td>
+                  <td rowspan="1" colspan="1">The nature of the data record</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceID</td>
+                  <td rowspan="1" colspan="1">Identifier of the occurrence, coded as a global unique identifier</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventID</td>
+                  <td rowspan="1" colspan="1">Identifier of the event from where the occurrence is based</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">identifiedBy</td>
+                  <td rowspan="1" colspan="1">The person responsible for assigning the taxon to the subject</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificName</td>
+                  <td rowspan="1" colspan="1">The full scientific name including author</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">acceptedNameUsage</td>
+                  <td rowspan="1" colspan="1">The full scientific name including author currently accepted</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">kingdom</td>
+                  <td rowspan="1" colspan="1">Kingdom name in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">phylum</td>
+                  <td rowspan="1" colspan="1">Phylum name in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">class</td>
+                  <td rowspan="1" colspan="1">Class name in which the taxon is classified</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">taxonRank</td>
+                  <td rowspan="1" colspan="1">Lowest taxonomic rank of the taxon</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>Part of this study was financed by Portuguese National Funds, through FCT − Fundação para a Ciência e a Tecnologia, the European Union, QREN, FEDER, COMPETE, by funding the CIBIO/InBIO (project UID/BIA/50027/2013 and POCI-01-0145-FEDER-006821) and P. M. Raposeiro (DL57/2016/ ICETA/EEC2018/25). R. Luz and R. Cordeiro were financed by the European Interreg MAC 2014-2020 projects REBECA (MAC/1.1a/060) and FRCT - Fundo Regional de Ciência e Tecnologia (SRMCT - Secretaria Regional do Mar, Ciência e Tecnologia, Governo Regional dos Açores) grant refª M3.1.a/F/017/2015, respectively. We thanks DRCT (Azores Regional Government) for co-financing Interreg projects REBECA and for funding Azorean branch of CIBIO/InBIO (CIBIO-Açores). The surveys performed comply with the current laws of Portugal.</p>
+    </ack>
+    <sec sec-type="Author contributions">
+      <title>Author contributions</title>
+      <p>Each author contributed equally to manuscript preparation.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="B5525873">
+        <element-citation publication-type="thesis">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Antunes</surname>
+              <given-names>P. C. P.</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <source>Lagos vulcânicos dos Açores: caracterização geoquímica e Monitorização vulcanológica</source>
+          <publisher-name>Departamento de Geociências, Universidade dos Açores</publisher-name>
+          <size units="page">132</size>
+        </element-citation>
+      </ref>
+      <ref id="B5468341">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ávila</surname>
+              <given-names>Sérgio P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Melo</surname>
+              <given-names>Carlos</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Berning</surname>
+              <given-names>Björn</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cordeiro</surname>
+              <given-names>Ricardo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Landau</surname>
+              <given-names>Bernard</given-names>
+            </name>
+            <name name-style="western">
+              <surname>da Silva</surname>
+              <given-names>Carlos Marques</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title><italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Persististrombus">Persististrombus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="coronatus">coronatus</tp:taxon-name-part></tp:taxon-name></italic> (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Mollusca</tp:taxon-name-part></tp:taxon-name>: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Strombidae</tp:taxon-name-part></tp:taxon-name>) in the lower Pliocene of Santa Maria Island (Azores, NE Atlantic): Paleoecology, paleoclimatology and paleobiogeographic implications</article-title>
+          <source>Palaeogeography, Palaeoclimatology, Palaeoecology</source>
+          <volume>441</volume>
+          <fpage>912</fpage>
+          <lpage>923</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.palaeo.2015.10.043</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5468375">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Azevedo</surname>
+              <given-names>J. M.M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Portugal Ferreira</surname>
+              <given-names>M. R.</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <article-title>The volcanotectonic evolution of Flores Island, Azores (Portugal)</article-title>
+          <source>Journal of Volcanology and Geothermal Research</source>
+          <volume>156</volume>
+          <fpage>90</fpage>
+          <lpage>102</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jvolgeores.2006.03.011</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5468363">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Cole</surname>
+              <given-names>P. D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pacheco</surname>
+              <given-names>J. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gunasekera</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Queiroz</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gonçalves</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gaspar</surname>
+              <given-names>J. L.</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Contrasting styles of explosive eruption at Sete Cidades, São Miguel, Azores, in the last 5000 years: Hazard implications from modelling</article-title>
+          <source>Journal of Volcanology and Geothermal Research</source>
+          <volume>178</volume>
+          <issue>3</issue>
+          <fpage>574</fpage>
+          <lpage>591</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jvolgeores.2008.01.008</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5525812">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Constância</surname>
+              <given-names>J. P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Braga</surname>
+              <given-names>T. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nunes</surname>
+              <given-names>J. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Machado</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Silva</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <source>Lagoas e Lagoeiros da Ilha de São Miguel</source>
+          <publisher-name>Amigos dos Açores – Associação Ecológica</publisher-name>
+          <publisher-loc>Ponta Delgada</publisher-loc>
+        </element-citation>
+      </ref>
+      <ref id="B5468581">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Cruz</surname>
+              <given-names>J. Virgílio</given-names>
+            </name>
+            <name name-style="western">
+              <surname>França</surname>
+              <given-names>Zilda</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <article-title>Hydrogeochemistry of thermal and mineral water springs of the Azores archipelago (Portugal)</article-title>
+          <source>Journal of Volcanology and Geothermal Research</source>
+          <volume>151</volume>
+          <issue>4</issue>
+          <fpage>382</fpage>
+          <lpage>398</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jvolgeores.2005.09.001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5534456">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Dokulil</surname>
+              <given-names>Martin T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Teubner</surname>
+              <given-names>Katrin</given-names>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <article-title>Cyanobacterial dominance in lakes</article-title>
+          <source>Hydrobiologia</source>
+          <volume>438</volume>
+          <fpage>1</fpage>
+          <lpage>12</lpage>
+          <pub-id pub-id-type="doi">10.1023/a:1004155810302</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5515525">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Komárek</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Anagnostidis</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <year>1998</year>
+          <source>Süßwasserflora von Mitteleuropa: Cyanoprokaryota 1. Teil: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Chroococcales</tp:taxon-name-part></tp:taxon-name></source>
+          <publisher-name>Spektrum Akademischer Verlag</publisher-name>
+          <size units="page">548</size>
+          <isbn>3-8274-0890-3</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B5515515">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Komárek</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Anagnostidis</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <source>Süßwasserflora von Mitteleuropa. Cyanoprokaryota 2. Teil: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Oscillatoriales</tp:taxon-name-part></tp:taxon-name></source>
+          <publisher-name>Spektrum Akademischer Verlag</publisher-name>
+          <size units="page">759</size>
+          <isbn>978-3-8274-1914-9</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B5514416">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Komárek</surname>
+              <given-names>Jiři</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <source>Süßwasserflora von Mitteleuropa, Bd. 19/3: Cyanoprokaryota</source>
+          <publisher-name>Springer Spektrum</publisher-name>
+          <size units="page">1131</size>
+          <isbn>978-3-8274-0932-4</isbn>
+          <pub-id pub-id-type="doi">10.1007/978-3-8274-2737-3</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5540640">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Luz</surname>
+              <given-names>R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cordeiro</surname>
+              <given-names>R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vilaverde</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Raposeiro</surname>
+              <given-names>P M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fonseca</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gonçalves</surname>
+              <given-names>V</given-names>
+            </name>
+          </person-group>
+          <article-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cyanobacteria</tp:taxon-name-part></tp:taxon-name> from freshwater lakes in the Azores Archipelago, Portugal. Version 1.5.Universidade dos Açores. Sampling event dataset</article-title>
+          <pub-id pub-id-type="doi">10.15468/gt8gpm</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5468455">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Moore</surname>
+              <given-names>Richard B</given-names>
+            </name>
+          </person-group>
+          <year>1990</year>
+          <article-title>Volcanic geology and eruption frequency, São Miguel, Azores</article-title>
+          <source>Bulletin of Volcanology</source>
+          <volume>52</volume>
+          <issue>8</issue>
+          <fpage>602</fpage>
+          <lpage>614</lpage>
+          <pub-id pub-id-type="doi">10.1007/bf00301211</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5468600">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Morton</surname>
+              <given-names>Brian</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>The conservation of important wetland, lagoonal, habitats in the Açores and a proposal for Fajã dos Cubres and Fajã de Santo Cristo,São Jorge, to be designated as a world heritage site</article-title>
+          <source>Boletim do Núcleo Cultural da Horta</source>
+          <volume>23</volume>
+          <fpage>115</fpage>
+          <lpage>134</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5468591">
+        <element-citation publication-type="thesis">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Porteiro</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <source>Lagoas dos Açores. Elementos de Suporte ao Planeamento Integrado</source>
+          <publisher-name>Universidade dos Açores</publisher-name>
+          <publisher-loc>Ponta Delgada</publisher-loc>
+          <size units="page">344</size>
+        </element-citation>
+      </ref>
+      <ref id="B5534426">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Reynolds</surname>
+              <given-names>C. S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Petersen</surname>
+              <given-names>A. C.</given-names>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <article-title>The distribution of planktonic <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cyanobacteria</tp:taxon-name-part></tp:taxon-name> in Irish lakes in relation to their trophic states</article-title>
+          <source>Hydrobiologia</source>
+          <volume>424</volume>
+          <issue>1</issue>
+          <fpage>91</fpage>
+          <lpage>99</lpage>
+          <pub-id pub-id-type="doi">10.1023/a:1003901012233</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5468406">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Santos</surname>
+              <given-names>Maria da Conceição Raimundo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pacheco</surname>
+              <given-names>Dina Maria Medeiros</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Santana</surname>
+              <given-names>Fernando</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Muelle</surname>
+              <given-names>Helena</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <article-title><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cyanobacteria</tp:taxon-name-part></tp:taxon-name> blooms in Sete-Cidades lake (S. Miguel Island – Azores)</article-title>
+          <source>Algological Studies</source>
+          <volume>117</volume>
+          <issue>1</issue>
+          <fpage>393</fpage>
+          <lpage>406</lpage>
+          <pub-id pub-id-type="doi">10.1127/1864-1318/2005/0117-0393</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5534408">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Stockner</surname>
+              <given-names>John</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Callieri</surname>
+              <given-names>Cristiana</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cronberg</surname>
+              <given-names>Gertrud</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <article-title>Picoplankton and other non-bloom-formingCyanobacteria in lakes</article-title>
+          <source>The Ecology of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cyanobacteria</tp:taxon-name-part></tp:taxon-name></source>
+          <fpage>195</fpage>
+          <lpage>231</lpage>
+          <pub-id pub-id-type="doi">10.1007/0-306-46855-7_7</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5534444">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Watson</surname>
+              <given-names>Sue B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Whitton</surname>
+              <given-names>Brian A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Higgins</surname>
+              <given-names>Scott N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Paerl</surname>
+              <given-names>Hans W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brooks</surname>
+              <given-names>Bryan W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wehr</surname>
+              <given-names>John D.</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Harmful algal blooms</article-title>
+          <source>Freshwater <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="above-genus">Algae</tp:taxon-name-part></tp:taxon-name> of North America</source>
+          <fpage>873</fpage>
+          <lpage>920</lpage>
+          <pub-id pub-id-type="doi">10.1016/b978-0-12-385876-4.00020-7</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5534398">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Whitton</surname>
+              <given-names>Brian A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Potts</surname>
+              <given-names>Malcolm</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Introduction to the <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cyanobacteria</tp:taxon-name-part></tp:taxon-name></article-title>
+          <source>Ecology of <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">Cyanobacteria</tp:taxon-name-part></tp:taxon-name> II</source>
+          <fpage>1</fpage>
+          <lpage>13</lpage>
+          <pub-id pub-id-type="doi">10.1007/978-94-007-3855-3_1</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F5468579" position="float" orientation="portrait">
+      <object-id content-type="arpha">79897912-7FBF-5A99-8959-E50100031DE9</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e51928.figure1</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Azores archipelago position and island distribution.</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e51928-g001.png" position="float" id="oo_365932.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/365932</uri>
+      </graphic>
+    </fig>
+  </floats-group>
+</article>

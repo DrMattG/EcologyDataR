@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article" dtd-version="3.0" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.7.e33264</article-id>
+      <article-id pub-id-type="publisher-id">33264</article-id>
+      <article-id pub-id-type="manuscript">10497</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Araneae</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Zoology &amp; Animal Biology</subject>
+          <subject>Biodiversity &amp; Conservation</subject>
+        </subj-group>
+        <subj-group subj-group-type="Chronological classification">
+          <subject>Cenozoic</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>World</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Globally distributed occurrences utilised in 200 spider species conservation profiles (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Arachnida</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>)</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes" xlink:type="simple">
+          <name name-style="western">
+            <surname>Cardoso</surname>
+            <given-names>Pedro</given-names>
+          </name>
+          <email xlink:type="simple">pedro.cardoso@helsinki.fi</email>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Shirey</surname>
+            <given-names>Vaughn</given-names>
+          </name>
+          <uri content-type="orcid" xlink:type="simple">https://orcid.org/0000-0002-3589-9699</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Seppälä</surname>
+            <given-names>Sini</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Henriques</surname>
+            <given-names>Sergio</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Draney</surname>
+            <given-names>Michael L</given-names>
+          </name>
+          <xref ref-type="aff" rid="A5">5</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Foord</surname>
+            <given-names>Stefan</given-names>
+          </name>
+          <uri content-type="orcid" xlink:type="simple">https://orcid.org/0000-0002-9195-2562</uri>
+          <xref ref-type="aff" rid="A6">6</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Gibbons</surname>
+            <given-names>Alastair T</given-names>
+          </name>
+          <xref ref-type="aff" rid="A7">7</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Gomez</surname>
+            <given-names>Luz A</given-names>
+          </name>
+          <xref ref-type="aff" rid="A8">8</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Kariko</surname>
+            <given-names>Sarah</given-names>
+          </name>
+          <xref ref-type="aff" rid="A9">9</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Malumbres-Olarte</surname>
+            <given-names>Jagoba</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A10">10</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Milne</surname>
+            <given-names>Marc</given-names>
+          </name>
+          <xref ref-type="aff" rid="A11">11</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" xlink:type="simple">
+          <name name-style="western">
+            <surname>Vink</surname>
+            <given-names>Cor J</given-names>
+          </name>
+          <uri content-type="orcid" xlink:type="simple">https://orcid.org/0000-0003-4237-0117</uri>
+          <xref ref-type="aff" rid="A12">12</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">LIBRe - Laboratory for Integrative Biodiversity Research, Finnish Museum of Natural History, University of Helsinki, Helsinki, Finland</addr-line>
+        <institution xlink:type="simple">LIBRe - Laboratory for Integrative Biodiversity Research, Finnish Museum of Natural History, University of Helsinki</institution>
+        <addr-line content-type="city">Helsinki</addr-line>
+        <country>Finland</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">IUCN SSC Spider &amp; Scorpion Specialist Group, Helsinki, Finland</addr-line>
+        <institution xlink:type="simple">IUCN SSC Spider &amp; Scorpion Specialist Group</institution>
+        <addr-line content-type="city">Helsinki</addr-line>
+        <country>Finland</country>
+      </aff>
+      <aff id="A3">
+        <label>3</label>
+        <addr-line content-type="verbatim">Georgetown University, Department of Biology, Washington, DC, United States of America</addr-line>
+        <institution xlink:type="simple">Georgetown University, Department of Biology</institution>
+        <addr-line content-type="city">Washington, DC</addr-line>
+        <country>United States of America</country>
+      </aff>
+      <aff id="A4">
+        <label>4</label>
+        <addr-line content-type="verbatim">University College London, London, United Kingdom</addr-line>
+        <institution xlink:type="simple">University College London</institution>
+        <addr-line content-type="city">London</addr-line>
+        <country>United Kingdom</country>
+      </aff>
+      <aff id="A5">
+        <label>5</label>
+        <addr-line content-type="verbatim">University of Wisconsin-Green Bay, Green Bay, United States of America</addr-line>
+        <institution xlink:type="simple">University of Wisconsin-Green Bay</institution>
+        <addr-line content-type="city">Green Bay</addr-line>
+        <country>United States of America</country>
+      </aff>
+      <aff id="A6">
+        <label>6</label>
+        <addr-line content-type="verbatim">University of Venda, Thohoyandou, South Africa</addr-line>
+        <institution xlink:type="simple">University of Venda</institution>
+        <addr-line content-type="city">Thohoyandou</addr-line>
+        <country>South Africa</country>
+      </aff>
+      <aff id="A7">
+        <label>7</label>
+        <addr-line content-type="verbatim">University of Nottingham, Nottingham, United Kingdom</addr-line>
+        <institution xlink:type="simple">University of Nottingham</institution>
+        <addr-line content-type="city">Nottingham</addr-line>
+        <country>United Kingdom</country>
+      </aff>
+      <aff id="A8">
+        <label>8</label>
+        <addr-line content-type="verbatim">Universidad Nacional de Colombia, Bogotá, Colombia</addr-line>
+        <institution xlink:type="simple">Universidad Nacional de Colombia</institution>
+        <addr-line content-type="city">Bogotá</addr-line>
+        <country>Colombia</country>
+      </aff>
+      <aff id="A9">
+        <label>9</label>
+        <addr-line content-type="verbatim">Museum of Comparative Zoology, Harvard University, Cambridge, United States of America</addr-line>
+        <institution xlink:type="simple">Museum of Comparative Zoology, Harvard University</institution>
+        <addr-line content-type="city">Cambridge</addr-line>
+        <country>United States of America</country>
+      </aff>
+      <aff id="A10">
+        <label>10</label>
+        <addr-line content-type="verbatim">cE3c - Centre for Ecology, Evolution and Environmental Changes, University of the Azores, Angra do Heroísmo, Portugal</addr-line>
+        <institution xlink:type="simple">cE3c - Centre for Ecology, Evolution and Environmental Changes, University of the Azores</institution>
+        <addr-line content-type="city">Angra do Heroísmo</addr-line>
+        <country>Portugal</country>
+      </aff>
+      <aff id="A11">
+        <label>11</label>
+        <addr-line content-type="verbatim">University of Indianapolis, Indianapolis, United States of America</addr-line>
+        <institution xlink:type="simple">University of Indianapolis</institution>
+        <addr-line content-type="city">Indianapolis</addr-line>
+        <country>United States of America</country>
+      </aff>
+      <aff id="A12">
+        <label>12</label>
+        <addr-line content-type="verbatim">Canterbury Museum, Christchurch, New Zealand</addr-line>
+        <institution xlink:type="simple">Canterbury Museum</institution>
+        <addr-line content-type="city">Christchurch</addr-line>
+        <country>New Zealand</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Pedro Cardoso (<email xlink:type="simple">pedro.cardoso@helsinki.fi</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Pavel Stoev</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>02</day>
+        <month>04</month>
+        <year>2019</year>
+      </pub-date>
+      <volume>7</volume>
+      <elocation-id>e33264</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/CF261D57-DDAA-5FF1-A3F9-AC2243B029E1">CF261D57-DDAA-5FF1-A3F9-AC2243B029E1</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/2634637">2634637</uri>
+      <history>
+        <date date-type="received">
+          <day>22</day>
+          <month>01</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>27</day>
+          <month>03</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Pedro Cardoso, Vaughn Shirey, Sini Seppälä, Sergio Henriques, Michael L Draney, Stefan Foord, Alastair T Gibbons, Luz A Gomez, Sarah Kariko, Jagoba Malumbres-Olarte, Marc Milne, Cor J Vink</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>Data on 200 species of spiders were collected to assess the global threat status of the group worldwide. To supplement existing digital occurrence records from GBIF, a dataset of new occurrence records was compiled for all species using published literature or online sources, from which geographic coordinates were extracted or interpreted from locality description data.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>A total of 5,104 occurrence records were obtained, of which 2,378 were from literature or online sources other than GBIF. Of these, 2,308 had coordinate data. Reporting years ranged from 1834 to 2017. Most records were from North America and Europe, with Brazil, China, India and Australia also well represented.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>
+          <tp:taxon-name>
+            <tp:taxon-name-part taxon-name-part-type="phylum">Arthropoda</tp:taxon-name-part>
+          </tp:taxon-name>
+        </kwd>
+        <kwd>bibliography search</kwd>
+        <kwd>IUCN</kwd>
+        <kwd>threat status</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="8"/>
+        <table-count count="0"/>
+        <ref-count count="8"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>Spiders (<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="class">Arachnida</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part></tp:taxon-name>) are a largely under-represented group amongst reported biodiversity occurrence records in the Global Biodiversity Information Facility (GBIF; <xref ref-type="bibr" rid="B4729540">Troudet et al. 2017</xref>). As such, aggregating new information regarding their distribution through time and space is crucial towards remedying shortfalls associated with the lack of data on species distributions – the Wallacean Shortfall (<xref ref-type="bibr" rid="B4905086">Lomolino 2004</xref>). These knowledge gaps can confound conservation efforts, particularly of invertebrates, a group that is already largely understudied (<xref ref-type="bibr" rid="B4729467">Cardoso et al. 2011</xref>).</p>
+      <p>A sample of 200 species of spiders were randomly selected from the <xref ref-type="bibr" rid="B4784991">World Spider Catalog (2018)</xref> as required by IUCN for the Sampled Red List Index. The World Spider Catalogue is an updated global database containing all recognised species names for the group and the best source of information for this type of analysis. Species data were collected from all taxonomic bibliography available at the <xref ref-type="bibr" rid="B4784991">World Spider Catalog 2018</xref> and complemented by data in other publications found through Google Scholar or other sources (<ext-link ext-link-type="uri" xlink:href="https://www.biodiversitylibrary.org/" xlink:type="simple">https://www.biodiversitylibrary.org</ext-link>; <ext-link ext-link-type="uri" xlink:href="https://login.webofknowledge.com/" xlink:type="simple">https://login.webofknowledge.com</ext-link>; <ext-link ext-link-type="uri" xlink:href="http://srs.britishspiders.org.uk/" xlink:type="simple">http://srs.britishspiders.org.uk</ext-link>; <ext-link ext-link-type="uri" xlink:href="http://symbiota4.acis.ufl.edu/scan/portal" xlink:type="simple">http://symbiota4.acis.ufl.edu/scan/portal</ext-link>; <ext-link ext-link-type="uri" xlink:href="https://lepus.unine.ch/" xlink:type="simple">https://lepus.unine.ch</ext-link>; <ext-link ext-link-type="uri" xlink:href="http://www.tuite.nl/iwg/Araneae/SpiBenelux/?species" xlink:type="simple">http://www.tuite.nl/iwg/Araneae/SpiBenelux/?species</ext-link>; <ext-link ext-link-type="uri" xlink:href="http://https//atlas.arages.de" xlink:type="simple">https://atlas.arages.de</ext-link>; <ext-link ext-link-type="uri" xlink:href="https://arachnology.cz/rad/araneae-1.html" xlink:type="simple">https://arachnology.cz/rad/araneae-1.html</ext-link>; <ext-link ext-link-type="uri" xlink:href="http://biodiversityresearch.org/research/biogeography/iberia/" xlink:type="simple">http://biodiversityresearch.org/research/biogeography/iberia</ext-link>).</p>
+      <p>These data were used previously in assessing the global threat status of spider species worldwide (<xref ref-type="bibr" rid="B4729489">Seppälä et al. 2018a</xref>, <xref ref-type="bibr" rid="B4729506">Seppälä et al. 2018b</xref>, <xref ref-type="bibr" rid="B4729523">Seppälä et al. 2018c</xref>, <xref ref-type="bibr" rid="B4974668">Seppälä et al. 2018d</xref>). This will serve as the basis for a future Sampled Red List Index (SRLI) for spiders. SRLI are typically employed to assess the conservation priorities and trends of large organismal groups and are thus suited for assessing the conservation trends of large taxa as a whole. The present paper compiles all data used in these assessments beyond those already present in GBIF and makes accessible all geographical information currently available on these 200 species.</p>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>Global.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Taxa included">
+        <title>Taxa included</title>
+        <table-wrap id="taxonomic_coverage" position="anchor" orientation="portrait">
+          <table rules="all">
+            <thead>
+              <tr>
+                <th rowspan="1" colspan="1">Rank</th>
+                <th rowspan="1" colspan="1">Scientific Name</th>
+                <th rowspan="1" colspan="1">Common Name</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">order</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="order">Araneae</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1">Spiders</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <p><bold>Data range:</bold> 1834-1-01 – 2017-12-31.</p>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Creative Commons Public Domain Waiver (CC-Zero)</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>Global Spider Red List Index</p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="http://ipt.pensoft.net/resource?r=srli_global_araneae" xlink:type="simple">http://ipt.pensoft.net/resource?r=srli_global_araneae</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>1</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>SRLI_Global_Araneae</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>21</p>
+        </sec>
+        <sec sec-type="Description">
+          <title>Description</title>
+          <p>The goal of this project is to serve as the basis for a future Sampled Red List Index (SRLI) for spiders.</p>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceID</td>
+                  <td rowspan="1" colspan="1">An identifier for the Occurrence (as opposed to a particular digital record of the occurrence).</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">basisOfRecord</td>
+                  <td rowspan="1" colspan="1">The specific nature of the data record.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">taxonRank</td>
+                  <td rowspan="1" colspan="1">The taxonomic rank of the most specific name in the scientificName.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">phylum</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the phylum or division in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">class</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the class in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">order</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the order in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">family</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the family in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">genus</td>
+                  <td rowspan="1" colspan="1">The full scientific name of the genus in which the taxon is classified.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">specificEpithet</td>
+                  <td rowspan="1" colspan="1">The name of the first or species epithet of the scientificName.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificName</td>
+                  <td rowspan="1" colspan="1">The full scientific name, with authorship and date information if known.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificNameAuthorship</td>
+                  <td rowspan="1" colspan="1">The authorship information for the scientificName formatted according to the conventions of the applicable nomenclaturalCode.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">verbatimLocality</td>
+                  <td rowspan="1" colspan="1">The original textual description of the place.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">country</td>
+                  <td rowspan="1" colspan="1">The name of the country or major administrative unit in which the Location occurs.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLatitude</td>
+                  <td rowspan="1" colspan="1">The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic centre of a Location.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">decimalLongitude</td>
+                  <td rowspan="1" colspan="1">The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic centre of a Location.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">geodeticDatum</td>
+                  <td rowspan="1" colspan="1">The ellipsoid, geodetic datum or spatial reference system (SRS) upon which the geographic coordinates given in decimalLatitude and decimalLongitude as based.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">georeferencedBy</td>
+                  <td rowspan="1" colspan="1">A list (concatenated and separated) of names of people, groups or organisations who determined the georeference (spatial representation) for the Location.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">georeferenceProtocol</td>
+                  <td rowspan="1" colspan="1">A description or reference to the methods used to determine the spatial footprint, coordinates and uncertainties.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">verbatimEventDate</td>
+                  <td rowspan="1" colspan="1">The verbatim original representation of the date and time information for an Event. The nature of the event is dependent on the source, including individual samples or entire sampling seasons in single sites or regions.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventDate</td>
+                  <td rowspan="1" colspan="1">The date-time or interval during which an Event occurred.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">associatedReferences</td>
+                  <td rowspan="1" colspan="1">A list (concatenated and separated) of identifiers (publication, bibliographic reference, global unique identifier, URI) of literature associated with the Occurrence.</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+    <sec sec-type="Additional information">
+      <title>Additional information</title>
+      <p>A total of 5,104 occurrence records were obtained, of which 2,378 were from literature or online sources other than GBIF and are included in this dataset. Of these, 2,308 had coordinate data. We should note that, following the IUCN guidelines, records outside the native range of a species are not included in analyses, here or in the conservation profiles. Reporting years ranged from 1834 to 2017. Most records of the 200 species that we selected randomly from all those known at the global level were from a few better-known regions (Fig. <xref ref-type="fig" rid="F4732537">1</xref>). Higher numbers of records were found in the USA, Canada, Brazil and Australia (Fig. <xref ref-type="fig" rid="F4733606">2</xref>) and higher numbers of species in the USA, China, India and Australia (Fig. <xref ref-type="fig" rid="F4733610">3</xref>). Yet, when corrected by area, higher densities of both records and species were found in several European countries (Figs <xref ref-type="fig" rid="F4788379">4</xref>, <xref ref-type="fig" rid="F4788375">5</xref>).</p>
+      <p>We also assessed temporal trends within the data. As is common for multiple taxa and regions, the number of records increased with time, with most being published during the last few decades (Fig. <xref ref-type="fig" rid="F4785728">6</xref>). The number of unique species recorded per decade is also increasing, although in a less dramatic way (Fig. <xref ref-type="fig" rid="F4785769">7</xref>).</p>
+      <p>Finally, the species (record) abundance distribution (Fig. <xref ref-type="fig" rid="F4785762">8</xref>) shows that most species have very few records, with more than one third of the species having a single record and more than half with three or less.</p>
+      <p>Although we have only looked at a sample of 200 species, given the random nature of their selection, the trends we found should be representative of spiders as a whole. There is a clear geographical bias of available data towards some regions, an increase in the number of studies reporting useful locality data during the latter decades and yet, most species at a global level are still almost entirely unknown beyond a name and an often old and incomplete taxonomic description.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>Paula Cushing helped organising a redlisting workshop during the XXth International Congress of Arachnology, Golden, Colorado, July 2016, where this project started. The Chicago Zoological Society CBOT Endangered Species Fund made such workshop possible through targeted funding.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B4729467">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Cardoso</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Erwin</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Borges</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>New</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>The seven impediments in invertebrate conservation and how to overcome them</article-title>
+          <source>Biological Conservation</source>
+          <volume>144</volume>
+          <fpage>2647</fpage>
+          <lpage>2655</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.biocon.2011.07.024</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4905086">
+        <element-citation publication-type="chapter" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lomolino</surname>
+              <given-names>M. V.</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <chapter-title>Conservation Biogeography</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Lomolino</surname>
+              <given-names>M. V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Heaney</surname>
+              <given-names>L. R.</given-names>
+            </name>
+          </person-group>
+          <source>Frontiers of Biogeography: New Directions in the Geography of Nature</source>
+          <publisher-name>Sinauer Associates</publisher-name>
+          <publisher-loc>Sunderland, MA</publisher-loc>
+          <size units="page">293-29</size>
+        </element-citation>
+      </ref>
+      <ref id="B4729489">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Seppälä</surname>
+              <given-names>Sini</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Henriques</surname>
+              <given-names>Sérgio</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Draney</surname>
+              <given-names>Michael</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Foord</surname>
+              <given-names>Stefan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gibbons</surname>
+              <given-names>Alastair</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gomez</surname>
+              <given-names>Luz</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kariko</surname>
+              <given-names>Sarah</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Malumbres-Olarte</surname>
+              <given-names>Jagoba</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Milne</surname>
+              <given-names>Marc</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vink</surname>
+              <given-names>Cor</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cardoso</surname>
+              <given-names>Pedro</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Species conservation profiles of a random sample of world spiders I: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Agelenidae</tp:taxon-name-part></tp:taxon-name> to <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Filistatidae</tp:taxon-name-part></tp:taxon-name></article-title>
+          <source>Biodiversity Data Journal</source>
+          <volume>6</volume>
+          <fpage>e23555</fpage>
+          <pub-id pub-id-type="doi">10.3897/bdj.6.e23555</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4729506">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Seppälä</surname>
+              <given-names>Sini</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Henriques</surname>
+              <given-names>Sérgio</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Draney</surname>
+              <given-names>Michael</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Foord</surname>
+              <given-names>Stefan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gibbons</surname>
+              <given-names>Alastair</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gomez</surname>
+              <given-names>Luz</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kariko</surname>
+              <given-names>Sarah</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Malumbres-Olarte</surname>
+              <given-names>Jagoba</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Milne</surname>
+              <given-names>Marc</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vink</surname>
+              <given-names>Cor</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cardoso</surname>
+              <given-names>Pedro</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Species conservation profiles of a random sample of world spiders II: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Gnaphosidae</tp:taxon-name-part></tp:taxon-name> to <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Nemesiidae</tp:taxon-name-part></tp:taxon-name></article-title>
+          <source>Biodiversity Data Journal</source>
+          <volume>6</volume>
+          <fpage>e26203</fpage>
+          <pub-id pub-id-type="doi">10.3897/bdj.6.e26203</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4729523">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Seppälä</surname>
+              <given-names>Sini</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Henriques</surname>
+              <given-names>Sérgio</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Draney</surname>
+              <given-names>Michael</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Foord</surname>
+              <given-names>Stefan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gibbons</surname>
+              <given-names>Alastair</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gomez</surname>
+              <given-names>Luz</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kariko</surname>
+              <given-names>Sarah</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Malumbres-Olarte</surname>
+              <given-names>Jagoba</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Milne</surname>
+              <given-names>Marc</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vink</surname>
+              <given-names>Cor</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cardoso</surname>
+              <given-names>Pedro</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Species conservation profiles of a random sample of world spiders III: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Oecobiidae</tp:taxon-name-part></tp:taxon-name> to <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Salticidae</tp:taxon-name-part></tp:taxon-name></article-title>
+          <source>Biodiversity Data Journal</source>
+          <volume>6</volume>
+          <fpage>e27004</fpage>
+          <pub-id pub-id-type="doi">10.3897/bdj.6.e27004</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4974668">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Seppälä</surname>
+              <given-names>Sini</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Henriques</surname>
+              <given-names>Sérgio</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Draney</surname>
+              <given-names>Michael L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Foord</surname>
+              <given-names>Stefan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gibbons</surname>
+              <given-names>Alastair T</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gomez</surname>
+              <given-names>Luz A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kariko</surname>
+              <given-names>Sarah</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Malumbres-Olarte</surname>
+              <given-names>Jagoba</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Milne</surname>
+              <given-names>Marc</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vink</surname>
+              <given-names>Cor J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cardoso</surname>
+              <given-names>Pedro</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Species conservation profiles of a random sample of world spiders IV: <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Scytodidae</tp:taxon-name-part></tp:taxon-name> to <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Zoropsidae</tp:taxon-name-part></tp:taxon-name></article-title>
+          <source>Biodiversity Data Journal</source>
+          <volume>6</volume>
+          <fpage>e30842</fpage>
+          <pub-id pub-id-type="doi">10.3897/BDJ.6.e30842</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4729540">
+        <element-citation publication-type="article" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Troudet</surname>
+              <given-names>Julien</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Grandcolas</surname>
+              <given-names>Philippe</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Blin</surname>
+              <given-names>Amandine</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vignes-Lebbe</surname>
+              <given-names>Régine</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Legendre</surname>
+              <given-names>Frédéric</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Taxonomic bias in biodiversity data and societal preferences</article-title>
+          <source>Scientific Reports</source>
+          <volume>7</volume>
+          <fpage>9132</fpage>
+          <pub-id pub-id-type="doi">10.1038/s41598-017-09084-6</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4784991">
+        <element-citation publication-type="website" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Catalog</surname>
+              <given-names>World Spider</given-names>
+            </name>
+          </person-group>
+          <article-title>World Spider Catalog; Natural History Museum Bern</article-title>
+          <uri xlink:type="simple">https://wsc.nmbe.ch/</uri>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F4732537" position="float" orientation="portrait">
+      <object-id content-type="arpha">487484C8-9AFF-5749-A28B-4F0AFABBAD34</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e33264.figure1</object-id>
+      <object-id content-type="zenodo_dep_id">2634647</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Map of distribution of records.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e33264-g001.png" position="float" id="oo_237579.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/237579</uri>
+      </graphic>
+    </fig>
+    <fig id="F4733606" position="float" orientation="portrait">
+      <object-id content-type="arpha">57AA3DC0-2E3C-5F6E-90F1-DEA357CC6EDC</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e33264.figure2</object-id>
+      <object-id content-type="zenodo_dep_id">2634649</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>Map of records per country.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e33264-g002.png" position="float" id="oo_238159.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/238159</uri>
+      </graphic>
+    </fig>
+    <fig id="F4733610" position="float" orientation="portrait">
+      <object-id content-type="arpha">CEFF1789-7460-51C4-810A-3F3D1346030E</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e33264.figure3</object-id>
+      <object-id content-type="zenodo_dep_id">2634651</object-id>
+      <label>Figure 3.</label>
+      <caption>
+        <p>Map of species per country.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e33264-g003.png" position="float" id="oo_238160.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/238160</uri>
+      </graphic>
+    </fig>
+    <fig id="F4788379" position="float" orientation="portrait">
+      <object-id content-type="arpha">596246D3-CCFB-5D0B-BE1E-BBDE5822564D</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e33264.figure4</object-id>
+      <object-id content-type="zenodo_dep_id">2634653</object-id>
+      <label>Figure 4.</label>
+      <caption>
+        <p>Number of records per country, standardised by country area.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e33264-g004.jpg" position="float" id="oo_241090.JPG" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/241090</uri>
+      </graphic>
+    </fig>
+    <fig id="F4788375" position="float" orientation="portrait">
+      <object-id content-type="arpha">76DB4777-0890-5296-9387-F44A9986CDDA</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e33264.figure5</object-id>
+      <object-id content-type="zenodo_dep_id">2634655</object-id>
+      <label>Figure 5.</label>
+      <caption>
+        <p>Number of species per country, standardised by country area.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e33264-g005.jpg" position="float" id="oo_241089.JPG" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/241089</uri>
+      </graphic>
+    </fig>
+    <fig id="F4785728" position="float" orientation="portrait">
+      <object-id content-type="arpha">2B93DF5B-29FB-56CD-995E-D0F29AA63C2B</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e33264.figure6</object-id>
+      <object-id content-type="zenodo_dep_id">2634657</object-id>
+      <label>Figure 6.</label>
+      <caption>
+        <p>Number of records published per decade (bars) and respective accumulation curve (line).</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e33264-g006.png" position="float" id="oo_250832.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/250832</uri>
+      </graphic>
+    </fig>
+    <fig id="F4785769" position="float" orientation="portrait">
+      <object-id content-type="arpha">E25F4E70-B4D9-5FAC-A33D-97E36B67F5D2</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e33264.figure7</object-id>
+      <object-id content-type="zenodo_dep_id">2634659</object-id>
+      <label>Figure 7.</label>
+      <caption>
+        <p>Number of species published per decade (bars) and respective accumulation curve (line).</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e33264-g007.png" position="float" id="oo_250833.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/250833</uri>
+      </graphic>
+    </fig>
+    <fig id="F4785762" position="float" orientation="portrait">
+      <object-id content-type="arpha">9AD1CF45-01D7-5C6D-B47C-4E1F9986D987</object-id>
+      <object-id content-type="doi">10.3897/BDJ.7.e33264.figure8</object-id>
+      <object-id content-type="zenodo_dep_id">2634661</object-id>
+      <label>Figure 8.</label>
+      <caption>
+        <p>Abundance distribution of all species records.</p>
+      </caption>
+      <graphic xlink:href="bdj-07-e33264-g008.png" position="float" id="oo_250835.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/250835</uri>
+      </graphic>
+    </fig>
+  </floats-group>
+</article>

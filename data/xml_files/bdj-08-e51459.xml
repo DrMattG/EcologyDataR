@@ -1,0 +1,1465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.8.e51459</article-id>
+      <article-id pub-id-type="publisher-id">51459</article-id>
+      <article-id pub-id-type="manuscript">13338</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Taxon classification">
+          <subject>Basidiomycota</subject>
+          <subject>Ascomycota</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Biogeography</subject>
+          <subject>Biodiversity &amp; Conservation</subject>
+          <subject>Global change</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>World</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>A database of the global distribution of alien macrofungi</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Monteiro</surname>
+            <given-names>Miguel</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Reino</surname>
+            <given-names>Luís</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-9768-1097</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Schertler</surname>
+            <given-names>Anna</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Essl</surname>
+            <given-names>Franz</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Figueira</surname>
+            <given-names>Rui</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-8351-4028</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref ref-type="aff" rid="A5">5</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Ferreira</surname>
+            <given-names>Maria Teresa</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <name name-style="western">
+            <surname>Capinha</surname>
+            <given-names>César</given-names>
+          </name>
+          <email xlink:type="simple">cesarcapinha@campus.ul.pt</email>
+          <uri content-type="orcid">https://orcid.org/0000-0002-0666-9755</uri>
+          <xref ref-type="aff" rid="A6">6</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">CIBIO/InBIO, Centro de Investigação em Biodiversidade e Recursos Genéticos, Universidade do Porto, Porto, Portugal</addr-line>
+        <institution>CIBIO/InBIO, Centro de Investigação em Biodiversidade e Recursos Genéticos, Universidade do Porto</institution>
+        <addr-line content-type="city">Porto</addr-line>
+        <country>Portugal</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">CIBIO/InBIO, Centro de Investigação em Biodiversidade e Recursos Genéticos, Instituto Superior de Agronomia, Universidade de Lisboa, Lisboa, Portugal</addr-line>
+        <institution>CIBIO/InBIO, Centro de Investigação em Biodiversidade e Recursos Genéticos, Instituto Superior de Agronomia, Universidade de Lisboa</institution>
+        <addr-line content-type="city">Lisboa</addr-line>
+        <country>Portugal</country>
+      </aff>
+      <aff id="A3">
+        <label>3</label>
+        <addr-line content-type="verbatim">Centro de Estudos Florestais, Instituto Superior de Agronomia, Universidade de Lisboa, Lisboa, Portugal</addr-line>
+        <institution>Centro de Estudos Florestais, Instituto Superior de Agronomia, Universidade de Lisboa</institution>
+        <addr-line content-type="city">Lisboa</addr-line>
+        <country>Portugal</country>
+      </aff>
+      <aff id="A4">
+        <label>4</label>
+        <addr-line content-type="verbatim">Division of Conservation Biology, Vegetation Ecology and Landscape Ecology, Department of Botany and Biodiversity Research, University of Vienna, Vienna, Austria</addr-line>
+        <institution>Division of Conservation Biology, Vegetation Ecology and Landscape Ecology, Department of Botany and Biodiversity Research, University of Vienna</institution>
+        <addr-line content-type="city">Vienna</addr-line>
+        <country>Austria</country>
+      </aff>
+      <aff id="A5">
+        <label>5</label>
+        <addr-line content-type="verbatim">LEAF-Linking Landscape, Environment, Agriculture and Food, Instituto Superior de Agronomia, Universidade de Lisboa, Lisboa, Portugal</addr-line>
+        <institution>LEAF-Linking Landscape, Environment, Agriculture and Food, Instituto Superior de Agronomia, Universidade de Lisboa</institution>
+        <addr-line content-type="city">Lisboa</addr-line>
+        <country>Portugal</country>
+      </aff>
+      <aff id="A6">
+        <label>6</label>
+        <addr-line content-type="verbatim">Centro de Estudos Geográficos, Instituto de Geografia e Ordenamento do Território - IGOT, Universidade de Lisboa, Lisboa, Portugal</addr-line>
+        <institution>Centro de Estudos Geográficos, Instituto de Geografia e Ordenamento do Território - IGOT, Universidade de Lisboa</institution>
+        <addr-line content-type="city">Lisboa</addr-line>
+        <country>Portugal</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: César Capinha (<email xlink:type="simple">cesarcapinha@campus.ul.pt</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Dmitry Schigel</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2020</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>01</day>
+        <month>04</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>8</volume>
+      <elocation-id>e51459</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/4CC0F4D7-DEA8-5B04-8FD9-E571153DF78C">4CC0F4D7-DEA8-5B04-8FD9-E571153DF78C</uri>
+      <history>
+        <date date-type="received">
+          <day>25</day>
+          <month>02</month>
+          <year>2020</year>
+        </date>
+        <date date-type="accepted">
+          <day>16</day>
+          <month>03</month>
+          <year>2020</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Miguel Monteiro, Luís Reino, Anna Schertler, Franz Essl, Rui Figueira, Maria Teresa Ferreira, César Capinha</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>Human activities are allowing the ever-increasing dispersal of taxa to beyond their native ranges. Understanding the patterns and implications of these distributional changes requires comprehensive information on the geography of introduced species. Current knowledge about the alien distribution of macrofungi is limited taxonomically and temporally, which severely hinders the study of human-mediated distribution changes for this taxonomic group.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>Here, we present a database on the global alien distribution of macrofungi species. Data on the distribution of alien macrofungi were searched in a large number of data sources, including scientific publications, grey literature and online databases. The database compiled includes 1966 records (i.e. species x region combinations) representing 2 phyla, 7 classes, 22 orders, 82 families, 207 genera, 648 species and 31 varieties, forms or subspecies. Dates of introduction records range from 1753 to 2018. Each record includes the location where the alien taxon was identified and, when available, the date of first observation, the host taxa or other important information. This database is a major step forward to the understanding of human-mediated changes in the distribution of macrofungal taxa.</p>
+        </sec>
+      </abstract>
+      <counts>
+        <fig-count count="4"/>
+        <table-count count="0"/>
+        <ref-count count="18"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>In this publication, we present the recently completed Global Alien Macrofungi Database, a database of distribution records of alien macrofungi aggregated from all relevant sources we could identify, namely publications, reports, databases on invasive alien species and citizen science observations. In total, the dataset contains occurrences for nearly 650 alien species, registered in more than 140 countries and sub-national administrative divisions. This represents an increase of nearly 2.5 times the number of alien records and 3.2 times the number of alien species found in the most comprehensive distribution database for alien ectomycorrhizal fungi available prior to our work (<xref ref-type="bibr" rid="B5521836">Vellinga et al. 2009</xref>). The presented database is expected to provide a valuable contribution towards the increasing understanding of the spatial and temporal dynamics of biological invasions worldwide.</p>
+    </sec>
+    <sec sec-type="General description">
+      <title>General description</title>
+      <sec sec-type="Purpose">
+        <title>Purpose</title>
+        <p>The main goal was to create a comprehensive global repository of distribution records of macrofungi outside their native ranges, as the under-representation of these species in studies of broad-scale invasion patterns reflects a lack of readily available synthesised information about their distribution in the world (<xref ref-type="bibr" rid="B5521773">Troudet et al. 2017</xref>). Macrofungi, i.e. fungi that exhibit macroscopic spore bearing structures, are an artificial group mostly comprised of ectomycorrhizal and saprotroph fungal species. Those are widely missing in alien invasive species databases, such as the CABI Invasive Species Compendium (<ext-link ext-link-type="uri" xlink:href="https://www.cabi.org/ISC">https://www.cabi.org/ISC</ext-link>; <xref ref-type="bibr" rid="B5521478">CABI 2019</xref>) and Global Invasive Species Database (<ext-link ext-link-type="uri" xlink:href="http://www.iucngisd.org/gisd">http://www.iucngisd.org/gisd</ext-link>; <xref ref-type="bibr" rid="B5521679">IUCN 2019</xref>), because their impacts on native biota are hard to assess and remain largely unknown (<xref ref-type="bibr" rid="B5521521">Desprez-Loustau 2009</xref>, <xref ref-type="bibr" rid="B5521535">Desprez-Loustau et al. 2010</xref>,<xref ref-type="bibr" rid="B5521798">Vizzini et al. 2009</xref>). Nevertheless, macrofungi have been massively introduced into new geographic regions particularly as hitchhikers of exotic plants, in infested wood or soil (<xref ref-type="bibr" rid="B5521521">Desprez-Loustau 2009</xref>).</p>
+        <p>The specific objectives of our work were:</p>
+        <p><list list-type="order">
+          <list-item>
+            <p>To update and expand previous compilations of the global alien distribution of macrofungi, particularly the work of <xref ref-type="bibr" rid="B5521836">Vellinga et al. (2009)</xref>, who compiled data on the distribution of alien ectomycorrhizal fungi worldwide. Here, we integrate their data and extend it both taxonomically (i.e. by considering all macrofungi) and temporally (i.e. by including records published more recently).</p>
+          </list-item>
+          <list-item>
+            <p>To highlight the relevance of data circulating outside the scientific community and its importance for the comprehensive representation of alien fungal distributions. For compiling the Global Alien Macrofungi Database, a substantial number of alien records were collected from citizen-science-based websites. Often these data sources were the only ones mentioning alien distributions of taxa for given regions, particularly for species best known by the general public, such as the fly agaric (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Amanita">Amanita</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="muscaria">muscaria</tp:taxon-name-part></tp:taxon-name></italic> (L.) Lam.) or the oyster mushroom (<italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Pleurotus">Pleurotus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="ostreatus">ostreatus</tp:taxon-name-part></tp:taxon-name></italic> (Jacq.) P. Kumm.). Two notable examples of such online databases of biodiversity observations used in the research process were iNaturalist (<ext-link ext-link-type="uri" xlink:href="https://www.inaturalist.org">https://www.inaturalist.org</ext-link>; <xref ref-type="bibr" rid="B5521716">iNaturalist 2019</xref>) and mushroom observer (<ext-link ext-link-type="uri" xlink:href="https://mushroomobserver.org">https://mushroomobserver.org</ext-link>; <xref ref-type="bibr" rid="B5521827">Wilson and Hollinger 2019</xref>).</p>
+          </list-item>
+          <list-item>
+            <p>To provide a detailed representation of the distribution records of alien macrofungi worldwide, which will be pivotal for advancing current knowledge about the spatio-temporal and taxonomic patterns of fungal invasions and establishing a baseline for comparison with new data collected in the future.</p>
+          </list-item>
+        </list></p>
+      </sec>
+    </sec>
+    <sec sec-type="Project description">
+      <title>Project description</title>
+      <sec sec-type="Title">
+        <title>Title</title>
+        <p>A global database of alien macrofungi.</p>
+      </sec>
+      <sec sec-type="Personnel">
+        <title>Personnel</title>
+        <p>Monteiro, M.; Reino, L.; Schertler, A.; Essl, F.; Figueira, R.; Ferreira, M.T.; Capinha, C.</p>
+      </sec>
+      <sec sec-type="Study area description">
+        <title>Study area description</title>
+        <p>Countries from all continents except Antarctica and the first-order administrative divisions of the six largest countries in the world (Australia, Brazil, Canada, China, Russia and United States).</p>
+      </sec>
+      <sec sec-type="Design description">
+        <title>Design description</title>
+        <p>The creation of the “Global Alien Macrofungi Database” followed a two-step approach. First, we performed an exhaustive search for data sources supplying occurrence records of macrofungi. Then, we critically assessed and harmonised the collected data and entered it into a standardised database.</p>
+        <p>Our search and collation of alien macrofungi records were carried out during the years 2017-2019. For the first step, we analysed the database made available by <xref ref-type="bibr" rid="B5521836">Vellinga et al. (2009)</xref>, who collected a total of 770 distribution records of ectomycorrhizal fungi from more than 190 publications. However, given the exclusive focus of the database on ectomycorrhizal fungi and the consequential absence of data on saprotrophic species, it can hardly be assumed that the patterns represented in <xref ref-type="bibr" rid="B5521836">Vellinga et al. (2009)</xref> provide a comprehensive portrayal of the global biogeography of alien macrofungi. Hence, we performed a complementary search for alien saprotroph fungi and searched for new records of alien ectomycorrhizal fungi.</p>
+        <p>For the second step, all collected records were entered into two different datasets. First, we compiled a taxonomic checklist that accounts for all macrofungi taxa we found to be introduced outside their native range. Secondly, we described the alien occurrences of those taxa by including additional data when available, such as dates of introduction, host information and invasion status (e.g. casual, established) in the invaded regions. Here, each entry corresponded to a single record described as an alien taxon in a specific location. If a taxon in a given locality were reported multiple times by different sources, we merged the information into a single database entry and cited the earliest reference in time reporting the record.</p>
+      </sec>
+      <sec sec-type="Funding">
+        <title>Funding</title>
+        <p>This work was funded by the FEDER Funds through the Operational Competitiveness Factors Programme - COMPETE and by National Funds through FCT, I.P. - Foundation for Science and Technology within the scope of the project “PTDC/BIA-EVL/30931/2017- POCI-01-0145-FEDER-030931”. Miguel Monteiro was funded by a PhD fellowship SFRH/BD/119170/2016. César Capinha and Luís Reino were funded by National Funds through FCT, I.P., under the programme of ‘Stimulus of Scientific Employment – Individual Support’ within contracts 'CEECIND/02037/2017' and ‘CEECIND/00445/2017’, respectively. Franz Essl and Anna Schertler received funding by the Austrian Science Foundation FWF (grant 3757-B29).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Study extent">
+        <title>Study extent</title>
+        <p>We built our database by compiling occurrences of introduced macrofungal species based on an exhaustive search in published and unpublished sources. Data were extracted from peer-reviewed articles, scientific and technical reports, books and book chapters, alien species databases and online citizen-science repositories. Finally, we also approached selected mycologists via email. These experts were contacted and asked if they were aware of records of alien macrofungi or of data resources other than the ones we identified through online searches.</p>
+      </sec>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>The data collection process consisted of three different procedures, as is explained below.</p>
+        <p>
+          <bold>Identifying and obtaining relevant records from publications</bold>
+        </p>
+        <p>During the search process, we initially looked for records in broader introduced taxa databases, such as the ones for Delivering Alien Invasive Species Inventories for Europe (<xref ref-type="bibr" rid="B5521652">Hulme et al. 2019</xref>), the Global Register of Introduced and Invasive Species (<xref ref-type="bibr" rid="B5521725">Pagad et al. 2019</xref>) and the European Alien Species Information Network (<xref ref-type="bibr" rid="B5521688">Katsanevakis et al. 2019</xref>). In addition, we used general-purpose search engines (i.e. Google) and scientific search engines (Google Scholar, Science Direct and JSTOR) to gather more information from relevant literature. We entered key terms related to fungal invasions in different languages including English, German, French, Spanish and Portuguese. The terms used were ‘introduced´, ’invasive’, ‘established’, ‘alien’, ‘non-native’ and ‘exotic’, which were combined with fungal taxonomic terms, ranging from a generic and higher denomination (e.g. ‘fungi’, ‘macromycetes’, ‘<tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">basidiomycota</tp:taxon-name-part></tp:taxon-name>’) to a more specific designation, such as the scientific name (e.g. <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Amanita">Amanita</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="muscaria">muscaria</tp:taxon-name-part></tp:taxon-name> (L.) Lam., <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Amanita">Amanita</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="phalloides">phalloides</tp:taxon-name-part></tp:taxon-name> Secr.</italic>) or a common name (e.g. fly agaric, death cap). For each combination, we repeated the searches by adding the name of one continent or country, until all continents and countries were being considered. As examples, final search terms would be like ‘European alien fungi’, ‘introduced <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="phylum">basidiomycota</tp:taxon-name-part></tp:taxon-name> in United States’ or ‘introduced <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Amanita">Amanita</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="muscaria">muscaria</tp:taxon-name-part></tp:taxon-name> + South America’.</p>
+        <p>
+          <bold>Cross-checking of alien status</bold>
+        </p>
+        <p>For each record, we assessed the reliability of the alien status given by the original data sources. Records collected from sources explicitly dealing with alien taxa (e.g. <xref ref-type="bibr" rid="B5521836">Vellinga et al. 2009</xref>), retained the nativity status given by the data. These statuses corresponded either to ‘alien’ or to ‘cryptogenic’ (<italic>sensu</italic> <xref ref-type="bibr" rid="B5521551">Essl et al. 2018</xref>). Records collected from non-specialised sources (e.g. species checklists not considering nativity, grey literature and citizen-science data) were cross-checked against biogeographical information available in scientific literature or with mycologists. Cases where the records referred to regions outside known native ranges, were coded as ‘alien’. Cases in clear biogeographical conflict with known native ranges were not considered for inclusion in our database. Finally, cases where the native or alien status was not possible to identify unambiguously were also not considered.</p>
+        <p>
+          <bold>Occurrence data entry</bold>
+        </p>
+        <p>To be included in our database, records had to meet specific criteria regarding taxonomy and locality description. First, a record must describe a macrofungal species having sporocarps of at least 2 mm in size, irrespective of phylogenetic placement (<xref ref-type="bibr" rid="B5521764">Senn-Irlet et al. 2007</xref>). As this was not always clear, we had to double-check our data with relevant fungal literature to be sure that the families or even the orders of the referred species were cited as part of the macroscopic fungi checklists. We also had to be certain that the records were identified at least to the species level, as a way of knowing that all contemplated species were, in fact, alien organisms in the non-native places. Furthermore, the records had to be accompanied by geospatial coordinates or, at minimum, an unambiguous textual designation of location level reference (e.g. region, country and locality). Finally, the record had to represent a fungal species introduced by human activity to a region outside its native range. These tasks were accomplished by the main author (MM) during the years 2017-2019 with the supervision of experts in fungal ecology and biogeography. These experts were also consulted and asked if they were aware of records of alien macrofungi or of data resources other than the ones we identified through online searches.</p>
+      </sec>
+      <sec sec-type="Quality control">
+        <title>Quality control</title>
+        <p>For the development of the dataset, the records from the original sources were revised by the first author because some of the names of the species were not updated or sometimes misspelled. As a result, some changes at any of the taxonomic ranks (e.g. order, family, genus or species) had to be adopted in conformity with the used nomenclature. Even though, in cases of synonyms, both scientific names were included. The taxonomic revision of scientific names and data checking were performed by using Index Fungorum (<xref ref-type="bibr" rid="B5521661">Index Fungorum 2019</xref>) and Mycobank (<xref ref-type="bibr" rid="B5521736">Robert et al. 2019</xref>). To publish our dataset in the GBIF network, we adjusted our records with the Darwin Core specifications (<xref ref-type="bibr" rid="B5521860">Wieczorek et al. 2012</xref>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>Geographic coverage corresponded to all continental areas, except Antarctica. We collected data from 81 different countries and 61 first-order administrative divisions of the six largest countries. The continent with the highest number of records was Europe (38.78% of records) and the one with the lowest number was Asia (4.7% of records) (Fig. <xref ref-type="fig" rid="F5527248">1</xref>). A map showing the number of introduced species per country and administrative divisions, respectively is presented for the world and Europe (Fig. <xref ref-type="fig" rid="F5527252">2</xref>). For 26 of the records collected, only the continental-level distribution was possible to assign, as more precise geographical information was unavailable.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Taxonomic coverage">
+      <title>Taxonomic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>The dataset includes distribution records of alien macrofungi taxa from 2 phyla, 7 classes, 22 orders, 82 families, 207 genera, 648 species and 31 varieties, forms or subspecies (<xref ref-type="bibr" rid="B5540862">Monteiro et al. 2020</xref>). <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Agaricales</tp:taxon-name-part></tp:taxon-name> is the best represented order (44.2% of the records), followed by <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Boletales</tp:taxon-name-part></tp:taxon-name> (29.2% of records) and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="order">Russulales</tp:taxon-name-part></tp:taxon-name> (6.7% of records). The <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Suillaceae</tp:taxon-name-part></tp:taxon-name>, <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Agaricaceae</tp:taxon-name-part></tp:taxon-name> and <tp:taxon-name><tp:taxon-name-part taxon-name-part-type="family">Sclerodermataceae</tp:taxon-name-part></tp:taxon-name> are the families with most alien records (224, 199 and 135 records, respectively) (Fig. <xref ref-type="fig" rid="F5527244">3</xref>). Twelve records belong to taxa that were placed <italic>incertae sedis</italic> within their orders as the assignment to a family is yet unclear. Finally, the species with the highest number of alien records are <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Suillus">Suillus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="luteus">luteus</tp:taxon-name-part></tp:taxon-name></italic> (L.) Roussel (44 records), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Phellinus">Phellinus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="noxius">noxius</tp:taxon-name-part></tp:taxon-name></italic> (Corner) G. Cunn. (43 records), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Amanita">Amanita</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="muscaria">muscaria</tp:taxon-name-part></tp:taxon-name></italic> (L.) Lam. (38 records), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Amanita">Amanita</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="phalloides">phalloides</tp:taxon-name-part></tp:taxon-name></italic> Secr. (37 records), <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Suillus">Suillus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="granulatus">granulatus</tp:taxon-name-part></tp:taxon-name></italic> (L.) Roussel (34 records) and <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Hymenoscyphus">Hymenoscyphus</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="fraxineus">fraxineus</tp:taxon-name-part></tp:taxon-name></italic> (T. Kowalski) Baral, Queloz &amp; Hosoya (34 records).</p>
+        <p>Two official fungal nomenclatural repositories, Index Fungorum (<xref ref-type="bibr" rid="B5521661">Index Fungorum 2019</xref>) and Mycobank (<xref ref-type="bibr" rid="B5521736">Robert et al. 2019</xref>), were used to resolve taxa and properly attribute the most recent valid names. Index Fungorum was considered our main reference and Mycobank was a secondary resource for some ambiguous cases. Both repositories are currently responsible for documenting the list of scientific names that have been validly defined for fungal taxa.</p>
+      </sec>
+      <sec sec-type="Taxa included">
+        <title>Taxa included</title>
+        <table-wrap id="taxonomic_coverage" position="anchor" orientation="portrait">
+          <table rules="all">
+            <thead>
+              <tr>
+                <th rowspan="1" colspan="1">Rank</th>
+                <th rowspan="1" colspan="1">Scientific Name</th>
+                <th rowspan="1" colspan="1"/>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="1" colspan="1">phylum</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="phylum">Basidiomycota</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">kingdom</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="kingdom">Fungi</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">phylum</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="phylum">Ascomycota</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">class</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="class">Agarocomycetes</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">order</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="order">Agaricales</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">order</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="order">Amylocorticiales</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">order</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="order">Auriculariales</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">order</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="order">Boletales</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">order</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="order">Cantharellales</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">order</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="order">Geastrales</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">order</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="order">Gloeophyllales</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">order</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="order">Gomphales</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">order</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="order">Hymenochaetales</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">order</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="order">Hysterangiales</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">order</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="order">Phallales</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">order</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="order">Polyporales</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">order</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="order">Russulales</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">order</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="order">Thelephorales</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">class</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="class">Dacrymycetes</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">order</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="order">Dacrymycetales</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">class</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="class">Tremellomycetes</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">order</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="order">Tremellales</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">class</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="class">Dothideomycetes</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">order</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="order">Pleosporales</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">order</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="order">Helotiales</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">class</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="class">Leotiomycetes</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">class</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="class">Pezizomycetes</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">order</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="order">Pezizales</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">class</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="class">Sordariomycetes</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td rowspan="1" colspan="1">order</td>
+                <td rowspan="1" colspan="1">
+                  <tp:taxon-name>
+                    <tp:taxon-name-part taxon-name-part-type="order">Xylariales</tp:taxon-name-part>
+                  </tp:taxon-name>
+                </td>
+                <td rowspan="1" colspan="1"/>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </sec>
+    </sec>
+    <sec sec-type="Temporal coverage">
+      <title>Temporal coverage</title>
+      <p><bold>Data range:</bold> 1785-1-01 – 2018-12-31.</p>
+      <sec sec-type="Notes">
+        <title>Notes</title>
+        <p>Data sources provided the dates when the species was detected for the first time in a given region for 755 of the 1966 records included in the dataset. The earliest first record dates back to 1753 and the most recent event occurred in 2018. The lowest number of first records is reported between 1900-1925 and the highest number occurred between 1975-2000. Nevertheless, the cumulative number of those introductions grew in a steady way during the referenced period (Fig. <xref ref-type="fig" rid="F5527256">4</xref>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Other</p>
+      </sec>
+      <sec sec-type="IP rights notes">
+        <title>IP rights notes</title>
+        <p>CC-BY 4.0</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>Global database of alien macrofungi</p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="https://www.gbif.org/dataset/da3542b4-9a73-4054-b9a3-2d762e172199">https://www.gbif.org/dataset/da3542b4-9a73-4054-b9a3-2d762e172199</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Alternative identifiers">
+        <title>Alternative identifiers</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15468/2qky1q">https://doi.org/10.15468/2qky1q</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>2</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Darwin Core Archive Occurrence dataset</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Darwin Core Archive format</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>11</p>
+        </sec>
+        <sec sec-type="Character set">
+          <title>Character set</title>
+          <p>UTF-8</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="http://ipt.gbif.pt/ipt/resource?r=global_database_alien_macrofungi&amp;amp;v=1.2">https://www.gbif.org/dataset/da3542b4-9a73-4054-b9a3-2d762e172199</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Data format version">
+          <title>Data format version</title>
+          <p>2.0</p>
+        </sec>
+        <sec sec-type="">
+          <title/>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">id</td>
+                  <td rowspan="1" colspan="1">Record identifier.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">basisOfRecord</td>
+                  <td rowspan="1" colspan="1">The specific nature of the data record.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceID</td>
+                  <td rowspan="1" colspan="1">Occurrence identifier.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">occurrenceRemarks</td>
+                  <td rowspan="1" colspan="1">Occurrence remarks.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">establishmentMeans</td>
+                  <td rowspan="1" colspan="1">Establishment means.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">associatedReferences</td>
+                  <td rowspan="1" colspan="1">Associated references.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">associatedTaxa</td>
+                  <td rowspan="1" colspan="1">Associated taxa.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">eventDate</td>
+                  <td rowspan="1" colspan="1">Event date.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">countryCode</td>
+                  <td rowspan="1" colspan="1">Country code.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">locality</td>
+                  <td rowspan="1" colspan="1">Locality.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">taxonID</td>
+                  <td rowspan="1" colspan="1">Taxon identifier.</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+      <sec sec-type="Data set 2">
+        <title>Data set 2.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Darwin Core Archive Taxon dataset</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Darwin Core Archive format</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>18</p>
+        </sec>
+        <sec sec-type="Character set">
+          <title>Character set</title>
+          <p>UTF-8</p>
+        </sec>
+        <sec sec-type="Download URL">
+          <title>Download URL</title>
+          <p>
+            <ext-link ext-link-type="uri" xlink:href="http://ipt.gbif.pt/ipt/resource?r=global_database_alien_macrofungi&amp;amp;v=1.2">https://www.gbif.org/dataset/da3542b4-9a73-4054-b9a3-2d762e172199</ext-link>
+          </p>
+        </sec>
+        <sec sec-type="Data format version">
+          <title>Data format version</title>
+          <p>2.0</p>
+        </sec>
+        <sec sec-type="">
+          <title/>
+          <table-wrap id="DS2" orientation="portrait" position="anchor">
+            <label>Data set 2.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">id</td>
+                  <td rowspan="1" colspan="1">Record identifier.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">taxonID</td>
+                  <td rowspan="1" colspan="1">Taxon identifier.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificName</td>
+                  <td rowspan="1" colspan="1">The full scientific name, with authorship.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">acceptedNameUsage</td>
+                  <td rowspan="1" colspan="1">The full name, with authorship and date information, if known, of the currently valid taxon.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">namePublishedIn</td>
+                  <td rowspan="1" colspan="1">A reference for the publication in which the scientificName was originally established under the rules of the associated nomenclaturalCode.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">namePublishedInYear</td>
+                  <td rowspan="1" colspan="1">The four-digit year in which scientificName was published.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">kingdom</td>
+                  <td rowspan="1" colspan="1">Kingdom name.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">phylum</td>
+                  <td rowspan="1" colspan="1">Phylum name.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">class</td>
+                  <td rowspan="1" colspan="1">Class name.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">order</td>
+                  <td rowspan="1" colspan="1">Order name.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">family</td>
+                  <td rowspan="1" colspan="1">Family name.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">genus</td>
+                  <td rowspan="1" colspan="1">Genus name.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">specificEpithet</td>
+                  <td rowspan="1" colspan="1">Specific epithet.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">infraspecificEpithet</td>
+                  <td rowspan="1" colspan="1">Infraspecific epithet.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">taxonRank</td>
+                  <td rowspan="1" colspan="1">Taxonomic rank.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">scientificNameAuthorship</td>
+                  <td rowspan="1" colspan="1">The authorship information for the scientificName formatted according to the conventions of the applicable nomenclaturalCode.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">language</td>
+                  <td rowspan="1" colspan="1">Language of the resource.</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">datasetName</td>
+                  <td rowspan="1" colspan="1">Dataset name.</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>We would like to thank Carlos Vila-Viçosa, the German Society for Mycology, DGfM, Petr Pyšek and Shyama Pagad, for having sent us data that complemented our database.</p>
+    </ack>
+    <sec sec-type="Author contributions">
+      <title>Author contributions</title>
+      <p>M.M. led data collection with contributions from A.S. and C.C.; M.M. and C.C. prepared figures and the first draft of the manuscript; all authors contributed in reviewing the manuscript.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="B5521478">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>CABI</surname>
+            </name>
+          </person-group>
+          <article-title>Invasive species compendium</article-title>
+          <uri>https://www.cabi.org</uri>
+          <date-in-citation content-type="access-date">2018-10-10T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5521535">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Desprez-Loustau</surname>
+              <given-names>Marie-Laure</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Courtecuisse</surname>
+              <given-names>Régis</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Robin</surname>
+              <given-names>Cécile</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Husson</surname>
+              <given-names>Claude</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Moreau</surname>
+              <given-names>Pierre-Arthur</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Blancard</surname>
+              <given-names>Dominique</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Selosse</surname>
+              <given-names>Marc-André</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lung-Escarmant</surname>
+              <given-names>Brigitte</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Piou</surname>
+              <given-names>Dominique</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sache</surname>
+              <given-names>Ivan</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>Species diversity and drivers of spread of alien fungi (sensu lato) in Europe with a particular focus on France</article-title>
+          <source>Biological Invasions</source>
+          <volume>12</volume>
+          <issue>1</issue>
+          <fpage>157</fpage>
+          <lpage>172</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10530-009-9439-y</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5521521">
+        <element-citation publication-type="chapter">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Desprez-Loustau</surname>
+              <given-names>Marie - Laure</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <chapter-title>Alien fungi of Europe</chapter-title>
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>DAISIE</surname>
+            </name>
+          </person-group>
+          <source>Handbook of alien species in Europe</source>
+          <publisher-name>Springer</publisher-name>
+          <size units="page">14</size>
+        </element-citation>
+      </ref>
+      <ref id="B5521551">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Essl</surname>
+              <given-names>Franz</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bacher</surname>
+              <given-names>Sven</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Genovesi</surname>
+              <given-names>Piero</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hulme</surname>
+              <given-names>Philip E</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jeschke</surname>
+              <given-names>Jonathan M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Katsanevakis</surname>
+              <given-names>Stelios</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kowarik</surname>
+              <given-names>Ingo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kühn</surname>
+              <given-names>Ingolf</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pyšek</surname>
+              <given-names>Petr</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rabitsch</surname>
+              <given-names>Wolfgang</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schindler</surname>
+              <given-names>Stefan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>van Kleunen</surname>
+              <given-names>Mark</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vilà</surname>
+              <given-names>Montserrat</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wilson</surname>
+              <given-names>John R U</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Richardson</surname>
+              <given-names>David M</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Which taxa are alien? Criteria, applications, and uncertainties</article-title>
+          <source>BioScience</source>
+          <volume>68</volume>
+          <issue>7</issue>
+          <fpage>496</fpage>
+          <lpage>509</lpage>
+          <pub-id pub-id-type="doi">10.1093/biosci/biy057</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5521652">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Hulme</surname>
+              <given-names>PE</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nentwig</surname>
+              <given-names>W</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pyšek</surname>
+              <given-names>P</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vilà</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>DAISIE: Delivering alien invasive species inventories for Europe</article-title>
+          <uri>http://www.europe-aliens.org</uri>
+          <date-in-citation content-type="access-date">2017-09-20T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5521716">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>iNaturalist</surname>
+            </name>
+          </person-group>
+          <article-title>iNaturalist research‐grade observations</article-title>
+          <uri>https://www.inaturalist.org</uri>
+          <date-in-citation content-type="access-date">2017-09-18T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5521661">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Fungorum</surname>
+              <given-names>Index</given-names>
+            </name>
+          </person-group>
+          <article-title>Index Fungorum</article-title>
+          <uri>http://www. indexfungorum.org</uri>
+          <date-in-citation content-type="access-date">2018-01-20T00:00:00+02:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5521679">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>IUCN</surname>
+            </name>
+          </person-group>
+          <article-title>Global Invasive Species Database GISD. Invasive Species Specialist Group ISSG</article-title>
+          <uri>http://www.iucngisd.org/gisd/</uri>
+          <date-in-citation content-type="access-date">2017-09-10T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5521688">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Katsanevakis</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Deriu</surname>
+              <given-names>I</given-names>
+            </name>
+            <name name-style="western">
+              <surname>D’Amico</surname>
+              <given-names>F</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nunes</surname>
+              <given-names>AL</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sanchez</surname>
+              <given-names>SP</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Crocetta</surname>
+              <given-names>F</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Arianoutsou</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bazos</surname>
+              <given-names>I</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Christopoulou</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Curto</surname>
+              <given-names>G</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Delipetrou</surname>
+              <given-names>P</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kokkoris</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Panov</surname>
+              <given-names>V</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rabitsch</surname>
+              <given-names>W</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Roques</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Scalera</surname>
+              <given-names>R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Shirley</surname>
+              <given-names>SM</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tricarino</surname>
+              <given-names>E</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vannini</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zenetos</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zervou</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zikos</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cardoso</surname>
+              <given-names>AC</given-names>
+            </name>
+          </person-group>
+          <article-title>European Alien Species Information Network (EASIN): supporting European policies and scientific research</article-title>
+          <uri>https://easin.jrc.ec.europa.eu/easin</uri>
+          <date-in-citation content-type="access-date">2017-09-18T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5540862">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Monteiro</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Reino</surname>
+              <given-names>L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schertler</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Essl</surname>
+              <given-names>F</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ferreira</surname>
+              <given-names>M T</given-names>
+            </name>
+            <name name-style="western">
+              <surname>R</surname>
+              <given-names>Figueira</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Capinha</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <article-title>Global database of alien macrofungi. Version 1.4. CIBIO (Research Center in Biodiversity and Genetic Resources) Portugal. Checklist dataset</article-title>
+          <pub-id pub-id-type="doi">10.15468/2qky1q</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5521725">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Pagad</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Genovesi</surname>
+              <given-names>P</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Carnevali</surname>
+              <given-names>L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schigel</surname>
+              <given-names>D</given-names>
+            </name>
+            <name name-style="western">
+              <surname>McGeoch</surname>
+              <given-names>MA</given-names>
+            </name>
+          </person-group>
+          <article-title>Global Register of Introduced and Invasive Species – GRIIS</article-title>
+          <uri>http://www.griis.org/about.php</uri>
+          <date-in-citation content-type="access-date">2017-11-15T00:00:00+02:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5521736">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Robert</surname>
+              <given-names>V</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stegehuis</surname>
+              <given-names>G</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stalpers</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>The MycoBank engine and related databases</article-title>
+          <uri>http://www.mycobank.org</uri>
+          <date-in-citation content-type="access-date">2018-02-12T00:00:00+02:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5521764">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Senn-Irlet</surname>
+              <given-names>B</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Heilmann-Clausen</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Genney</surname>
+              <given-names>D</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dahlberg</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <source>Guidance for conservation of macrofungi in Europe</source>
+          <publisher-name>Directorate of Culture and Cultural and Natural Heritage Council of Europe</publisher-name>
+          <publisher-loc>Strasbourg</publisher-loc>
+        </element-citation>
+      </ref>
+      <ref id="B5521773">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Troudet</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Grandcolas</surname>
+              <given-names>P</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Blin</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vignes-Lebbe</surname>
+              <given-names>R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Legendre</surname>
+              <given-names>F</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Taxonomic bias in biodiversity data and societal preferences</article-title>
+          <source>Scientific Reports</source>
+          <volume>7</volume>
+          <fpage>9132</fpage>
+          <pub-id pub-id-type="doi">10.1038/s41598-017-09084-6</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5521836">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Vellinga</surname>
+              <given-names>EC</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wolfe</surname>
+              <given-names>BE</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pringle</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>Global patterns of ectomycorrhizal introductions</article-title>
+          <source>New Phytologist</source>
+          <volume>181</volume>
+          <issue>4</issue>
+          <fpage>960</fpage>
+          <lpage>973</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1469-8137.2008.02728.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5521798">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Vizzini</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zotti</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mello</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>Alien fungal species distribution: the study case of <italic><tp:taxon-name><tp:taxon-name-part taxon-name-part-type="genus" reg="Favolaschia">Favolaschia</tp:taxon-name-part> <tp:taxon-name-part taxon-name-part-type="species" reg="calocera">calocera</tp:taxon-name-part></tp:taxon-name></italic></article-title>
+          <source>Biological invasions</source>
+          <volume>11</volume>
+          <issue>2</issue>
+          <fpage>417</fpage>
+          <lpage>429</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10530-008-9259-5</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5521860">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Wieczorek</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bloom</surname>
+              <given-names>D</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Guralnick</surname>
+              <given-names>R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Blum</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Döring</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Giovanni</surname>
+              <given-names>R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Robertson</surname>
+              <given-names>T</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vieglais</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Darwin Core: An evolving community-developed biodiversity data standard</article-title>
+          <source>PLOS One</source>
+          <volume>7</volume>
+          <fpage>e29715</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0029715</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5521827">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Wilson</surname>
+              <given-names>N</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hollinger</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Mushroom Observer</article-title>
+          <uri>https://mushroomobserver.org</uri>
+          <date-in-citation content-type="access-date">2018-01-28T00:00:00+02:00</date-in-citation>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F5527248" position="float" orientation="portrait">
+      <object-id content-type="arpha">0BE469CD-94D5-5369-A97B-3F9A879D0D7F</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e51459.figure1</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Percentage of introduction records per continent.</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e51459-g001.png" position="float" id="oo_379950.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/379950</uri>
+      </graphic>
+    </fig>
+    <fig id="F5527252" position="float" orientation="portrait">
+      <object-id content-type="arpha">9819A887-ABB4-52CF-9D22-3BF6132214D4</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e51459.figure2</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>The global (a) and European (b) distribution of the introduced macrofungi. Blue colour represents countries/administrative divisions with at least one introduced species. Circles represent the number of species that have been reported as introduced by both size and colour.</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e51459-g002.png" position="float" id="oo_379951.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/379951</uri>
+      </graphic>
+    </fig>
+    <fig id="F5527244" position="float" orientation="portrait">
+      <object-id content-type="arpha">D759290F-A5B0-506B-9490-8877733CC566</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e51459.figure3</object-id>
+      <label>Figure 3.</label>
+      <caption>
+        <p>Number of introduction records per family. Only families with more than 17 records are shown. All families were coloured according to their associated order.</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e51459-g003.png" position="float" id="oo_379949.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/379949</uri>
+      </graphic>
+    </fig>
+    <fig id="F5527256" position="float" orientation="portrait">
+      <object-id content-type="arpha">EEE2B448-9BED-5281-A41C-C49D66A3CD31</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e51459.figure4</object-id>
+      <label>Figure 4.</label>
+      <caption>
+        <p>Temporal accumulation of the number of first records in 25‐year periods. The temporal progression is based on 38% of the total of distribution records included in the dataset.</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e51459-g004.png" position="float" id="oo_379952.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/379952</uri>
+      </graphic>
+    </fig>
+  </floats-group>
+</article>

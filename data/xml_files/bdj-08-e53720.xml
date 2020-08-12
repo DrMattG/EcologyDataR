@@ -1,0 +1,1958 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">1</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:F9B2E808-C883-5F47-B276-6D62129E4FF4</journal-id>
+      <journal-id journal-id-type="aggregator">urn:lsid:zoobank.org:pub:245B00E9-BFE5-4B4F-B76E-15C30BA74C02</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">Biodiversity Data Journal</journal-title>
+        <abbrev-journal-title xml:lang="en">BDJ</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1314-2836</issn>
+      <issn pub-type="epub">1314-2828</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/BDJ.8.e53720</article-id>
+      <article-id pub-id-type="publisher-id">53720</article-id>
+      <article-id pub-id-type="manuscript">13881</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Data Paper (Biosciences)</subject>
+        </subj-group>
+        <subj-group subj-group-type="Subject classification">
+          <subject>Biogeography</subject>
+        </subj-group>
+        <subj-group subj-group-type="Geographical classification">
+          <subject>Europe</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>A grid-based map for the Biogeographical Regions of Europe</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes">
+          <name name-style="western">
+            <surname>Cervellini*</surname>
+            <given-names>Marco</given-names>
+          </name>
+          <email xlink:type="simple">marcocervellini@gmail.com</email>
+          <uri content-type="orcid">https://orcid.org/0000-0002-0853-2330</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Zannini*</surname>
+            <given-names>Piero</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0003-2466-4402</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Di Musciano</surname>
+            <given-names>Michele</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-3130-7270</uri>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Fattorini</surname>
+            <given-names>Simone</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Jiménez-Alfaro</surname>
+            <given-names>Borja</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Rocchini</surname>
+            <given-names>Duccio</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Field</surname>
+            <given-names>Richard</given-names>
+          </name>
+          <xref ref-type="aff" rid="A5">5</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>R. Vetaas</surname>
+            <given-names>Ole</given-names>
+          </name>
+          <xref ref-type="aff" rid="A6">6</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Irl</surname>
+            <given-names>Severin D.H.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A7">7</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Beierkuhnlein</surname>
+            <given-names>Carl</given-names>
+          </name>
+          <xref ref-type="aff" rid="A8">8</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Hoffmann</surname>
+            <given-names>Samuel</given-names>
+          </name>
+          <xref ref-type="aff" rid="A8">8</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Fischer</surname>
+            <given-names>Jan-Christopher</given-names>
+          </name>
+          <xref ref-type="aff" rid="A8">8</xref>
+          <xref ref-type="aff" rid="A9">9</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Casella</surname>
+            <given-names>Laura</given-names>
+          </name>
+          <xref ref-type="aff" rid="A10">10</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Angelini</surname>
+            <given-names>Pierangela</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-5321-9757</uri>
+          <xref ref-type="aff" rid="A10">10</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Genovesi</surname>
+            <given-names>Piero</given-names>
+          </name>
+          <xref ref-type="aff" rid="A10">10</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Nascimbene</surname>
+            <given-names>Juri</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Chiarucci</surname>
+            <given-names>Alessandro</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0003-1160-235X</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Department of Biological, Geological and Environmental Sciences (BiGeA), University of Bologna, Bologna, Italy</addr-line>
+        <institution>Department of Biological, Geological and Environmental Sciences (BiGeA), University of Bologna</institution>
+        <addr-line content-type="city">Bologna</addr-line>
+        <country>Italy</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">Department of Life, Health &amp; Environmental Science, University of L’Aquila, Coppito, L’Aquila, Italy</addr-line>
+        <institution>Department of Life, Health &amp; Environmental Science, University of L’Aquila</institution>
+        <addr-line content-type="city">Coppito, L’Aquila</addr-line>
+        <country>Italy</country>
+      </aff>
+      <aff id="A3">
+        <label>3</label>
+        <addr-line content-type="verbatim">Research Unit of Biodiversity (CSIC/UO/PA), Univ. of Oviedo, Mieres, Principado de Asturias, Spain</addr-line>
+        <institution>Research Unit of Biodiversity (CSIC/UO/PA), Univ. of Oviedo</institution>
+        <addr-line content-type="city">Mieres, Principado de Asturias</addr-line>
+        <country>Spain</country>
+      </aff>
+      <aff id="A4">
+        <label>4</label>
+        <addr-line content-type="verbatim">Czech University of Life Sciences Prague, Faculty of Environmental Sciences, Department of Applied Geoinformatics and Spatial Planning, Praha, Czech Republic</addr-line>
+        <institution>Czech University of Life Sciences Prague, Faculty of Environmental Sciences, Department of Applied Geoinformatics and Spatial Planning</institution>
+        <addr-line content-type="city">Praha</addr-line>
+        <country>Czech Republic</country>
+      </aff>
+      <aff id="A5">
+        <label>5</label>
+        <addr-line content-type="verbatim">University of Nottingham, Nottingham, United Kingdom</addr-line>
+        <institution>University of Nottingham</institution>
+        <addr-line content-type="city">Nottingham</addr-line>
+        <country>United Kingdom</country>
+      </aff>
+      <aff id="A6">
+        <label>6</label>
+        <addr-line content-type="verbatim">Department of Geography, University of Bergen, Bergen, Norway</addr-line>
+        <institution>Department of Geography, University of Bergen</institution>
+        <addr-line content-type="city">Bergen</addr-line>
+        <country>Norway</country>
+      </aff>
+      <aff id="A7">
+        <label>7</label>
+        <addr-line content-type="verbatim">Biogeography and Biodiversity Lab, Institute of Physical Geography, Goethe-University, Frankfurt, Germany</addr-line>
+        <institution>Biogeography and Biodiversity Lab, Institute of Physical Geography, Goethe-University</institution>
+        <addr-line content-type="city">Frankfurt</addr-line>
+        <country>Germany</country>
+      </aff>
+      <aff id="A8">
+        <label>8</label>
+        <addr-line content-type="verbatim">Biogeography Department, University of Bayreuth, Bayreuth, Germany</addr-line>
+        <institution>Biogeography Department, University of Bayreuth</institution>
+        <addr-line content-type="city">Bayreuth</addr-line>
+        <country>Germany</country>
+      </aff>
+      <aff id="A9">
+        <label>9</label>
+        <addr-line content-type="verbatim">School of Earth Sciences, University of Bristol, Bristol, United Kingdom</addr-line>
+        <institution>School of Earth Sciences, University of Bristol</institution>
+        <addr-line content-type="city">Bristol</addr-line>
+        <country>United Kingdom</country>
+      </aff>
+      <aff id="A10">
+        <label>10</label>
+        <addr-line content-type="verbatim">Institute for Environmental Protection and Research, Rome, Italy</addr-line>
+        <institution>Institute for Environmental Protection and Research</institution>
+        <addr-line content-type="city">Rome</addr-line>
+        <country>Italy</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Marco Cervellini* (<email xlink:type="simple">marcocervellini@gmail.com</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Vincent Smith</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2020</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>19</day>
+        <month>06</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>8</volume>
+      <elocation-id>e53720</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/24A36360-A319-5165-A907-01F74CE09D98">24A36360-A319-5165-A907-01F74CE09D98</uri>
+      <history>
+        <date date-type="received">
+          <day>28</day>
+          <month>04</month>
+          <year>2020</year>
+        </date>
+        <date date-type="accepted">
+          <day>17</day>
+          <month>06</month>
+          <year>2020</year>
+        </date>
+      </history>
+      <permissions>
+        <license license-type="creative-commons-attribution" xlink:href="https://creativecommons.org/share-your-work/public-domain/cc0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the CC0 Public Domain Dedication.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <sec sec-type="background">
+          <title>Background</title>
+          <p>Biogeographical units are widely adopted in ecological research and nature conservation management, even though biogeographical regionalisation is still under scientific debate. The European Environment Agency provided an official map of the European Biogeographical Regions (EBRs), which contains the official boundaries used in the Habitats and Birds Directives. However, these boundaries bisect cells in the official EU 10 km × 10 km grid used for many purposes, including reporting species and habitat data, meaning that 6881 cells overlap two or more regions. Therefore, superimposing the EBRs vector map over the grid creates ambiguities in associating some cells with European Biogeographical Regions.</p>
+        </sec>
+        <sec sec-type="new information">
+          <title>New information</title>
+          <p>To provide an operational tool to unambiguously define the boundaries of the eleven European Biogeographical Regions, we provide a specifically developed raster map of Grid-Based European Biogeographical Regions (GB-EBRs). In this new map, the borders of the EBRs are reshaped to coherently match the standard European 10 km × 10 km grid imposed for reporting tasks by Article 17 of the Habitats Directive and used for many other datasets. We assign each cell to the EBR with the largest area within the cell.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>biogeography</kwd>
+        <kwd>biogeographical boundaries</kwd>
+        <kwd>biodiversity monitoring</kwd>
+        <kwd>habitat</kwd>
+        <kwd>redefining</kwd>
+        <kwd>regionalisation.</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="3"/>
+        <table-count count="1"/>
+        <ref-count count="52"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>
+        <bold>Statement of the problem</bold>
+      </p>
+      <p>The study of the distributional patterns of biological diversity has long been a cornerstone in biogeography. These patterns are observed at many scales, from genes to ecosystems and are driven by ecological conditions, historical processes, geographic constraints and/or evolutionary processes (<xref ref-type="bibr" rid="B5750116">Lomolino et al. 2005</xref>). Dividing the geographical space into relatively-homogeneous units is one of the most traditional approaches in biogeography (<xref ref-type="bibr" rid="B5749890">Fattorini 2016</xref>). Unlike biomes, which are based on similar physiognomic vegetation structure across continents (<xref ref-type="bibr" rid="B5750144">Mucina 2019</xref>), biogeographical regions are recognised on the basis of distinct biotas, especially in terms of endemic and/or spatially clearly limited taxa and communities (e.g. <xref ref-type="bibr" rid="B5750217">Rueda et al. 2010</xref>,<xref ref-type="bibr" rid="B5750349">Morrone 2015</xref>, <xref ref-type="bibr" rid="B5749900">Fattorini 2017</xref>).</p>
+      <p>Biogeographical regions are an example of broad-scale biogeographical units; the hierarchical system in which biogeography categorises geographical areas, based on their biotas, is defined as ‘biogeographical regionalization’ (<xref ref-type="bibr" rid="B5750134">Morrone 2018</xref>). However, detecting boundaries between different biogeographical realms, regions or units is not straightforward and some recent tests using biodiversity data question the validity of traditionally-established regionalisations (<xref ref-type="bibr" rid="B5749577">Bailey 2005</xref>, <xref ref-type="bibr" rid="B5750087">Kreft and Jetz 2010</xref>,<xref ref-type="bibr" rid="B5750020">Holt et al. 2013a</xref>, <xref ref-type="bibr" rid="B5749971">Ficetola et al. 2017</xref>, <xref ref-type="bibr" rid="B5750134">Morrone 2018</xref>, <xref ref-type="bibr" rid="B5749748">Chiarucci et al. 2019</xref>). Furthermore, nature typically lacks clear discontinuities and transition zones can be recognised between adjacent biogeographical units (<xref ref-type="bibr" rid="B5750266">Walter and Breckle 2002</xref>,<xref ref-type="bibr" rid="B5759529">Holt et al. 2013b</xref>, <xref ref-type="bibr" rid="B5750097">Kreft and Jetz 2013</xref>, <xref ref-type="bibr" rid="B5749910">Ferro and Morrone 2014</xref>).</p>
+      <p>Despite such concerns, ‘biogeographical regionalisation’ is needed in order to provide reference areas for large-scale ecological analyses, as well as conservation and management practices. A prominent example is the classification of European Biogeographical Regions (EBRs), which has been adopted as an official tool for the EU Habitats Directive (<xref ref-type="bibr" rid="B5749981">92/43/EEC 1992</xref>) and Birds Directive (<xref ref-type="bibr" rid="B5749686">79/409/EEC 1979</xref>). A map of the EBRs is available on the website of the European Environment Agency (<xref ref-type="bibr" rid="B5749871">EEA 2019</xref>). This contains the official delineations used in the Habitats Directive and its extension through the EMERALD Network under the Convention on the Conservation of European Wildlife and Natural Habitats (Bern Convention).</p>
+      <p>The EBRs were delineated largely based on a map of European vegetation (<xref ref-type="bibr" rid="B5750154">Noirfalse 1987</xref>). The geographic units of that map were reclassified and vegetation types allocated to an initial set of six EBRs (<xref ref-type="bibr" rid="B5749805">Evans 2005</xref>, <xref ref-type="bibr" rid="B5749880">Evans 2012</xref>). As new Member States joined the EU, five new EBRs were then successively added. Unfortunately, a digital map of natural European vegetation did not exist when the EBRs map was created and the paper edition of <italic>The Map of</italic> ’<italic>Natural Vegetation of Europe</italic>’ was adopted (<xref ref-type="bibr" rid="B5749695">Bohn 1993</xref>, <xref ref-type="bibr" rid="B5749707">Bohn et al. 2000</xref>). Boundaries of mapping units were digitised by hand, resulting in cartographic errors (<xref ref-type="bibr" rid="B5866623">Roekaerts 2002</xref>, <xref ref-type="bibr" rid="B5749853">ETC/BD 2006</xref>). Several improved versions of the EBRs map were later produced, discussed and approved by the national experts of the Member States, resulting in the current version of the “Indicative Map of the Biogeographical Regions” adopted by the Habitats Committee in its meeting of April 2005 (<xref ref-type="bibr" rid="B5749853">ETC/BD 2006</xref>).</p>
+      <p>Although the EBRs map is now a fundamental tool for biodiversity conservation planning in Europe and is widely used by biogeographers, ecologists and conservation biologists (e.g. see <xref ref-type="bibr" rid="B5749763">Chytrý et al. 2009</xref>, <xref ref-type="bibr" rid="B5750062">Ibáñez et al. 2013</xref>, <xref ref-type="bibr" rid="B5750236">Templ et al. 2017</xref>, <xref ref-type="bibr" rid="B5750163">Ordynets et al. 2018</xref>, <xref ref-type="bibr" rid="B5749748">Chiarucci et al. 2019</xref>, <xref ref-type="bibr" rid="B5750010">Hoffmann et al. 2019</xref>), it is important to recognise that other systems have been introduced. Examples include the phytogeographical map proposed by <xref ref-type="bibr" rid="B5866601">Walter (1954)</xref> and adapted to the fauna by <xref ref-type="bibr" rid="B5866574">Freitag (1962)</xref> and the subdivision proposed by <xref ref-type="bibr" rid="B5866583">Illies (1967)</xref>, <xref ref-type="bibr" rid="B5866592">Illies (1978)</xref> for the limnofauna, which remains the standard reference for studies dealing with European freshwater animals. Amongst the most recent proposals for a European biogeographical regionalisation is the Biogeographic Map of Europe by <italic><xref ref-type="bibr" rid="B5866632">Rivas-Martinez and Rivas-Saenz (2020)</xref></italic><ext-link ext-link-type="uri" xlink:href="https://www.globalbioclimatics.org/form/bg_med.htm">.</ext-link> This includes fewer biogeographical regions, which are then divided into subregions, based primarily on endemics or spatially-delimited taxa and on a phytosociological legacy. Nonetheless, the EBRs map is the most commonly used and referenced scheme and the European Commission and the Council of Europe have adopted it for nature conservation purposes.</p>
+      <p>The current vector format version, published on the EEA website, contains 12 EBRs, including the ‘outside data coverage’ type (<xref ref-type="bibr" rid="B5749871">EEA 2019</xref>). Operational problems arise, however, when it is used in combination with the data used for reporting species and habitat information according to Article 17 of the Habitats Directive (<xref ref-type="bibr" rid="B5749820">Eionet Portal 2019a</xref>). These data are based on a grid of 7809 x 10 km × 10 km cells that covers the European territory (EEA 2017, <xref ref-type="bibr" rid="B5749829">Eionet Portal 2019b</xref>). Indeed, superimposing the vector format EBRs map on the European grid does not allow users to unambiguously associate a substantial number (6881, ~5.87%) of the total of 117,177 individual 10 km × 10 km grid cells to corresponding EBRs, since those cells overlap two or more biogeographical regions (Fig. <xref ref-type="fig" rid="F5750307">1</xref>). In addition, 928 (~0.84%) cells overlap one biogeographical region plus part of the ‘outside’ data area (Fig. <xref ref-type="fig" rid="F5750307">1</xref>).</p>
+    </sec>
+    <sec sec-type="General description">
+      <title>General description</title>
+      <sec sec-type="Purpose">
+        <title>Purpose</title>
+        <p>Here we present a new grid-based version of the European Biogeographical Regions map (GB-EBRs map). The dataset underpinning the GB-EBRs map is provided in Suppl. material <xref ref-type="supplementary-material" rid="S5759521">1</xref>. We have designed the GB-EBRs map to provide an operational tool for using the EBRs map along with grid-based data collected and used within the framework of the EU Habitats and Birds Directives. Our map aligns the EBR boundaries with the grid-cell boundaries, so that data associated with all the cells in the 10 km × 10 km grid adopted for data reporting by Article 17 of the Habitats Directive can be unambiguously assigned to the 12 EBR classes (11 EBRs plus the ‘outside data coverage’ class). Our resulting map and the related dataset are available as an open-access resource for anyone wishing to use the EBRs map and data in the context of grid-based data.</p>
+      </sec>
+      <sec sec-type="Additional information">
+        <title>Additional information</title>
+        <p>Our operational map represents a step towards standardising the regionalisation process of the EBRs, in compliance with the actions needed for monitoring the conservation status of habitats and species. These include the National Reports on the measures implemented and their effectiveness (Articles 11 and 17 of the Habitats Directive and Article 12 of the Birds Directive). Indeed, the monitoring of habitat types and species is strictly linked to the assessment of conservation status at the continental scale, i.e. the biogeographical regions (<xref ref-type="bibr" rid="B5749838">Ellwanger et al. 2018</xref>).</p>
+        <p>Applications of the GB-EBRs map go well beyond the data mandated by the Habitats and Birds Directives, since the same 10 km × 10 km grid is widely used for both biotic and abiotic environmental variables. Many studies use these datasets for a broad range of purposes, including spatial investigations of species and habitat distributions (e.g. <xref ref-type="bibr" rid="B5749999">Hoffmann et al. 2018</xref>), improved climatologies for environmental and ecological studies (e.g. <xref ref-type="bibr" rid="B5750072">Karger et al. 2017</xref>), biodiversity conservation and prevention of habitat loss (<xref ref-type="bibr" rid="B5866610">Maiorano et al. 2015</xref>). In addition, the GB-EBRs map could be used to answer novel research questions, such as analysing beta diversity patterns amongst and within biogeographical regions (e.g. <italic><xref ref-type="bibr" rid="B5749748">Chiarucci et al. 2019</xref></italic>).</p>
+        <p>The GB-EBRs map is provided in Suppl. material <xref ref-type="supplementary-material" rid="S5760279">2</xref> as a raster file at 10 km resolution containing distribution and boundaries of the 12 European Biogeographical Regions (EBRs – including the ‘outside data coverage’ EBR; see Fig. <xref ref-type="fig" rid="F5750311">2</xref> for an outline). Details of the differences between the EBR boundaries reported in the official version of the EBRs map and the new ones reshaped on the new raster version (GB-EBRs) are shown in Fig. <xref ref-type="fig" rid="F5750315">3</xref>.</p>
+        <p>The GB-EBRs map is composed of 117,177 x 10 km × 10 km cells covering the 11 EBRs (Table <xref ref-type="table" rid="T5760337">1</xref>). The total area of the EBRs (sum of the surface in km<sup>2</sup> for each 10 km × 10 km cell belonging to each EBR) in this GB-EBRs map is a bit larger than in the official EBRs map since the inclusion of all the land surface in the GB-EBRs map resulted in some grid cells including some ‘outside’ areas, sea and oceans. This is particularly evident for the Macaronesian region, which is the smallest one and is composed only of islands; the area of this region is 10,255 km<sup>2</sup> in the official EBRs map, but the cells assigned to it in our map total 24,700 km<sup>2</sup>. Nevertheless, the percentage of the surface area covered by 11 regions does not statistically differ between the original EBRs and the GB-EBRs map (Wilcoxon test for paired samples, W = 61, P = 1.000).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Sampling methods">
+      <title>Sampling methods</title>
+      <sec sec-type="Sampling description">
+        <title>Sampling description</title>
+        <p>To develop the GB-EBRs map (Version 1.0), we adopted the following procedure that can be easily repeated (in case of changes in the EU territory or in the case of some eventual improvement or development of the EBRs). For each 10 km × 10 km cell in the European grid, we calculated the percentage of area covered by each EBR. Then we assigned each cell to the EBR with the largest cover value therein. Assigning each cell to a region based only on area means that the assignment is not affected by the vagaries of cell centroids (e.g. the centroid happening to be in a class covering only a small proportion of the cell), as happens with common rasterisation algorithms. We also calculated the area of each EBR both in vector (i.e. official map) and raster (i.e. new map) format, in order to investigate the size differences. Data processing was performed with R 3.6.3 (<xref ref-type="bibr" rid="B5750208">R Core Team 2019</xref>), using the packages <italic>exactextractr</italic> (<xref ref-type="bibr" rid="B5749677">Baston 2019</xref>), <italic>sf</italic> (<xref ref-type="bibr" rid="B5750189">Pebesma 2018</xref>) and <italic>raster</italic> (<xref ref-type="bibr" rid="B5749990">Hijmans 2019</xref>). Figures were made with <italic>ggplot2</italic> package (<xref ref-type="bibr" rid="B5750284">Wickham 2016</xref>) with the support of <italic>RStoolbox</italic> (<xref ref-type="bibr" rid="B5750107">Leutner et al. 2019</xref>), <italic>rmapshaper</italic> (<xref ref-type="bibr" rid="B5750227">Teucher and Russell 2020</xref>), <italic>magrittr</italic> (<xref ref-type="bibr" rid="B5749663">Bache and Wickham 2014</xref>) and <italic>dplyr</italic> (<xref ref-type="bibr" rid="B5750293">Wickham et al. 2020</xref>) packages. We finally used the package <italic>Diplyr</italic> (<xref ref-type="bibr" rid="B5750293">Wickham et al. 2020</xref>) to realise the table with the dataset underpinning the GB-EBR map. The R code used to produce the GB-EBR map and the related dataset is provided in Suppl. material <xref ref-type="supplementary-material" rid="S5760290">3</xref></p>
+      </sec>
+    </sec>
+    <sec sec-type="Geographic coverage">
+      <title>Geographic coverage</title>
+      <sec sec-type="Description">
+        <title>Description</title>
+        <p>Description: The map covers the European territory including the Azores, Madeira and the Canary Islands, but excludes seven outermost regions and the 13 overseas countries and territories.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Usage rights">
+      <title>Usage rights</title>
+      <sec sec-type="Use license">
+        <title>Use license</title>
+        <p>Other</p>
+      </sec>
+      <sec sec-type="IP rights notes">
+        <title>IP rights notes</title>
+        <p>The dataset is to be used in accordance with the terms and conditions of Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0) (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">https://creativecommons.org/licenses/by-nc/3.0/</ext-link>)</p>
+      </sec>
+    </sec>
+    <sec sec-type="Data resources">
+      <title>Data resources</title>
+      <sec sec-type="Data package title">
+        <title>Data package title</title>
+        <p>Dataset of the grid-based map for the Biogeographical Regions of Europe (GB-EBR)</p>
+      </sec>
+      <sec sec-type="Resource link">
+        <title>Resource link</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="https://zenodo.org/record/3766175#.XqaHI2gzZPZ">https://zenodo.org/record/3766175#.XqaHI2gzZPZ</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Alternative identifiers">
+        <title>Alternative identifiers</title>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5281/zenodo.3766175">https://doi.org/10.5281/zenodo.3766175</ext-link>
+        </p>
+      </sec>
+      <sec sec-type="Number of data sets">
+        <title>Number of data sets</title>
+        <p>1</p>
+      </sec>
+      <sec sec-type="Data set 1">
+        <title>Data set 1.</title>
+        <sec sec-type="Data set name">
+          <title>Data set name</title>
+          <p>Dataset underpinning the map entitled "A grid-based map for the Biogeographical Regions of Europe (GB-EBR)</p>
+        </sec>
+        <sec sec-type="Data format">
+          <title>Data format</title>
+          <p>Table</p>
+        </sec>
+        <sec sec-type="Number of columns">
+          <title>Number of columns</title>
+          <p>5</p>
+        </sec>
+        <sec sec-type="">
+          <title/>
+          <table-wrap id="DS1" orientation="portrait" position="anchor">
+            <label>Data set 1.</label>
+            <table rules="all">
+              <thead>
+                <tr>
+                  <th rowspan="1" colspan="1">Column label</th>
+                  <th rowspan="1" colspan="1">Column description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="1">ID</td>
+                  <td rowspan="1" colspan="1">Unique primary key</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">CellCode</td>
+                  <td rowspan="1" colspan="1">10 km × 10 km cell identification code with reference to longitude and latitude</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">biogeographical_region</td>
+                  <td rowspan="1" colspan="1">Biogeographical Region unambiguously associated to each 10 km × 10 km cell</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">X</td>
+                  <td rowspan="1" colspan="1">Longitude of the 10 km × 10 km cell centroid</td>
+                </tr>
+                <tr>
+                  <td rowspan="1" colspan="1">Y</td>
+                  <td rowspan="1" colspan="1">Latitude of the 10 km × 10 km cell centroid</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <sec sec-type="Author contributions">
+      <title>Author contributions</title>
+      <p>AC conceived the idea and supervised the project; MC and PZ developed the process for arriving to the GB-EBR map; DR conceived the approach and PZ developed the <italic>R</italic> code to obtain the GB-EBR map. All the authors provided critical elements to the development of the GB-EBR map; MC drafted the first version of the manuscript. All the authors contributed to shape the final manuscript. Note: MC and PZ are equally contributing authors.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="B5749686">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>79/409/EEC</surname>
+            </name>
+          </person-group>
+          <article-title>The Birds Directive</article-title>
+          <uri>https://ec.europa.eu/environment/nature/legislation/birdsdirective/index_en.htm</uri>
+          <date-in-citation content-type="access-date">2020-04-24T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5749981">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>92/43/EEC</surname>
+            </name>
+          </person-group>
+          <article-title>The Habitats Directive</article-title>
+          <uri>https://ec.europa.eu/environment/nature/legislation/habitatsdirective/index_en.htm</uri>
+          <date-in-citation content-type="access-date">2020-04-24T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5749663">
+        <element-citation publication-type="software">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Bache</surname>
+              <given-names>SM.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wickham</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title><italic>magrittr</italic>: A forward-pipe operator for R. R package version 1.5.</article-title>
+          <uri>https://CRAN.R-project.org/package=magrittr</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5749577">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Bailey</surname>
+              <given-names>R. G.</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <article-title>Identifying ecoregion boundaries</article-title>
+          <source>Environmental Management</source>
+          <volume>34</volume>
+          <issue>Suppl. 1</issue>
+          <fpage>14</fpage>
+          <lpage>26</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00267-003-0163-6</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5749677">
+        <element-citation publication-type="software">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Baston</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>exactextractr: Fast extraction from raster datasets using polygons. R package version 0.1.1.</article-title>
+          <uri>https://CRAN.R-project.org/package=exactextractr</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5749695">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Bohn</surname>
+              <given-names>U.</given-names>
+            </name>
+          </person-group>
+          <year>1993</year>
+          <article-title>Natural vegetation of Europe and Turkey</article-title>
+          <source>General Map 1:10.000.000.</source>
+          <volume>1</volume>
+          <issue>10</issue>
+        </element-citation>
+      </ref>
+      <ref id="B5749707">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Bohn</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gollub</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hettwer</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <source>Karte der natrlichen Vegetation Europas. Massstab 1:2.500.000 Karten und Legende</source>
+          <publisher-name>Bundesamt fr Naturschutz</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B5749748">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Chiarucci</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nascimbene</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Campetella</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chelli</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dainese</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Giorgini</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Landi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lelli</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Canullo</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Exploring patterns of betadiversity to test the consistency of biogeographical boundaries: A case study across forest plant communities of Italy</article-title>
+          <source>Ecology and Evolution</source>
+          <volume>9</volume>
+          <fpage>11716</fpage>
+          <lpage>11723</lpage>
+          <pub-id pub-id-type="doi">10.1002/ece3.5669</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5749763">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Chytrý</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pyšek</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wild</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pino</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maskell</surname>
+              <given-names>L. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vilà</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>European map of alien plant invasions based on the quantitative assessment across habitats</article-title>
+          <source>Diversity and Distributions</source>
+          <volume>15</volume>
+          <issue>1</issue>
+          <fpage>98</fpage>
+          <lpage>107</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1472-4642.2008.00515.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5749862">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>EEA</surname>
+            </name>
+          </person-group>
+          <article-title>EEA reference grid.</article-title>
+          <uri>https://www.eea.europa.eu/data-and-maps/data/eea-reference-grids-2</uri>
+          <date-in-citation content-type="access-date">2020-04-24T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5749871">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>EEA</surname>
+            </name>
+          </person-group>
+          <article-title>Biogeographical Regions.</article-title>
+          <uri>https://www.eea.europa.eu/data-and-maps/data/biogeographical-regions-europe-3#tab-metadata</uri>
+          <date-in-citation content-type="access-date">2020-04-24T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5749820">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Portal</surname>
+              <given-names>Eionet</given-names>
+            </name>
+          </person-group>
+          <article-title>Reporting under Article 17 of the Habitats Directive</article-title>
+          <uri>https://www.eionet.europa.eu/etcs/etc-bd/activities/reporting/article-17</uri>
+          <date-in-citation content-type="access-date">2020-04-24T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5749829">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Portal</surname>
+              <given-names>Eionet</given-names>
+            </name>
+          </person-group>
+          <article-title>Eionet Central Data Repository</article-title>
+          <uri>https://cdr.eionet.europa.eu</uri>
+          <date-in-citation content-type="access-date">2020-04-24T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5749838">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ellwanger</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Runge</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wagner</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ackermann</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Neukirchen</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Frederking</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mller</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ssymank</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sukopp</surname>
+              <given-names>U.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Current status of habitat monitoring in the European Union according to Article 17 of the Habitats Directive, with an emphasis on habitat structure and functions and on Germany</article-title>
+          <source>Nature Conservation</source>
+          <volume>29</volume>
+          <fpage>57</fpage>
+          <lpage>78</lpage>
+          <pub-id pub-id-type="doi">10.3897/natureconservation.29.27273</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5749853">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>ETC/BD</surname>
+            </name>
+          </person-group>
+          <article-title>The indicative map of Euro­pean biogeographical regions: methodology and development.</article-title>
+          <uri>https://www.eea.europa.eu/data-and-maps/data/biogeographical-regions-europe-2005/methodology-description-pdf-format/methodology-description-pdf-format/download</uri>
+          <date-in-citation content-type="access-date">2020-04-24T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5749805">
+        <element-citation publication-type="conference-paper">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Evans</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <article-title>Some uses of the map of the natural vegetation of Europe for Natura 2000. Conference paper.</article-title>
+          <source>Conference: Application and Analysis of the Map of the Natural Vegetation of Europe 2005, 195-204 Bundesamt für Naturschutz</source>
+        </element-citation>
+      </ref>
+      <ref id="B5749880">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Evans</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Building the European Unions Natura 2000 network</article-title>
+          <source>Nature Conservation</source>
+          <volume>1</volume>
+          <fpage>11</fpage>
+          <lpage>26</lpage>
+          <pub-id pub-id-type="doi">10.3897/natureconservation.1.1808</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5749890">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Fattorini</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>A history of chorological categories</article-title>
+          <source>History and Philosophy of the Life Sciences</source>
+          <volume>38</volume>
+          <issue>12</issue>
+          <pub-id pub-id-type="doi">10.1007/s40656-016-0114-1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5749900">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Fattorini</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Endemism in historical biogeography and conservation biology: concepts and implications</article-title>
+          <source>Biogeographia - The Journal of Integrative Biogeography</source>
+          <volume>32</volume>
+          <fpage>47</fpage>
+          <lpage>75</lpage>
+          <pub-id pub-id-type="doi">10.21426/B632136433</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5749910">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ferro</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Morrone</surname>
+              <given-names>J. J.</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>Biogeographical transition zones: a search for conceptual synthesis</article-title>
+          <source>Biological Journal of the Linnean Society</source>
+          <volume>113</volume>
+          <issue>1</issue>
+          <fpage>1</fpage>
+          <lpage>12</lpage>
+          <pub-id pub-id-type="doi">10.1111/bij.12333</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5749971">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ficetola</surname>
+              <given-names>G. F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mazel</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Thuiller</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Global determinants of zoogeographical boundaries</article-title>
+          <source>Nature Ecology &amp; Evolution</source>
+          <volume>1</volume>
+          <fpage>89</fpage>
+          <pub-id pub-id-type="doi">10.1038/s41559-017-0089</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5866574">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Freitag</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <year>1962</year>
+          <source>Einführung in die Biogeographie von Mitteleuropa – unter besonderer Berücksichtigung von Deutschland</source>
+          <publisher-name>Fischer</publisher-name>
+          <publisher-loc>Stuttgar</publisher-loc>
+          <size units="page">216</size>
+        </element-citation>
+      </ref>
+      <ref id="B5749990">
+        <element-citation publication-type="software">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Hijmans</surname>
+              <given-names>R. J.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>raster: Geographic data analysis and modeling. R package version 3.0-7</article-title>
+          <uri>https://CRAN.R-project.org/package=raster</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5749999">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Hoffmann</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Beierkuhnlein</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Field</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Provenzale</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chiarucci</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Uniqueness of protected areas for conservation strategies in the European Union</article-title>
+          <source>Scientific Reports</source>
+          <volume>8</volume>
+          <issue>6445</issue>
+          <pub-id pub-id-type="doi">10.1038/s41598-018-24390-3</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5750010">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Hoffmann</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Irl S</surname>
+              <given-names>D. H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Beierkuhnlein</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Predicted climate shifts within terrestrial protected areas worldwide</article-title>
+          <source>Nature Communications</source>
+          <volume>10</volume>
+          <issue>4787</issue>
+          <pub-id pub-id-type="doi">10.1038/s41467-019-12603-w</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5750020">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Holt</surname>
+              <given-names>B. G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lessard</surname>
+              <given-names>J. P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Borregaard</surname>
+              <given-names>M. K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fritz</surname>
+              <given-names>S. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Araújo</surname>
+              <given-names>M. B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dimitrov</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fabre</surname>
+              <given-names>P. H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Graham</surname>
+              <given-names>C. H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Graves</surname>
+              <given-names>G. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jønsson</surname>
+              <given-names>K. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nogués-Bravo</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Whittaker</surname>
+              <given-names>R. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fjeldså</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rahbek</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>An update of Wallaces zoogeographic regions of the World</article-title>
+          <source>Science</source>
+          <volume>339</volume>
+          <issue>6115</issue>
+          <fpage>74</fpage>
+          <lpage>78</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.1228282</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5759529">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Holt</surname>
+              <given-names>B. G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lessard</surname>
+              <given-names>J. P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Borregaard</surname>
+              <given-names>M. K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fritz</surname>
+              <given-names>S. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Araújo</surname>
+              <given-names>M. B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dimitrov</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fabre</surname>
+              <given-names>P. H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Graham</surname>
+              <given-names>C. H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Graves</surname>
+              <given-names>G. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jønsson</surname>
+              <given-names>K. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nogués-Bravo</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Whittaker</surname>
+              <given-names>R. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fjeldså</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rahbek</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Response to comment on an update of Wallaces zoogeographic regions of the World</article-title>
+          <source>Science</source>
+          <volume>341</volume>
+          <issue>6144</issue>
+          <fpage>74</fpage>
+          <lpage>78</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.1237541</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5750062">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ibáñez</surname>
+              <given-names>J. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zinck</surname>
+              <given-names>J. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dazzi</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Soil geography and diversity of the European biogeographical regions</article-title>
+          <source>Geoderma</source>
+          <volume>192</volume>
+          <fpage>142</fpage>
+          <lpage>153</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.geoderma.2012.07.024</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5866583">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Illies</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <year>1967</year>
+          <source>Limnofauna Europaea. Eine Zusammenstellung aller die europäischen Binnengewässer bewohnenden mehrzelligen Tierarten m. Angaben über d. Verbreitung u. Ökologie</source>
+          <edition>1st Edition</edition>
+          <publisher-name>Fischer</publisher-name>
+          <publisher-loc>Stuttgart</publisher-loc>
+          <size units="page">474</size>
+        </element-citation>
+      </ref>
+      <ref id="B5866592">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Illies</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <year>1978</year>
+          <source>Limnofauna Europaea. A checklist of the animals inhabiting European inland waters, with an account of their distribution and ecology</source>
+          <edition>2nd Edition</edition>
+          <publisher-name>Fischer Verlag</publisher-name>
+          <publisher-loc>Stuttgart</publisher-loc>
+          <size units="page">552</size>
+        </element-citation>
+      </ref>
+      <ref id="B5750072">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Karger</surname>
+              <given-names>D. N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Conrad</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bhner</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kawohl</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kreft</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>R.W</surname>
+              <given-names>Soria-Auza</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zimmermann</surname>
+              <given-names>N. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Linder</surname>
+              <given-names>H. P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kessler</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Climatologies at high resolution for the earths land surface areas</article-title>
+          <source>Scientific Data</source>
+          <volume>4</volume>
+          <issue>170122</issue>
+          <pub-id pub-id-type="doi">10.1038/sdata.2017.122</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5750087">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kreft</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jetz</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>A framework for delineating biogeographical regions based on species distributions</article-title>
+          <source>Journal of Biogeography</source>
+          <volume>37</volume>
+          <issue>11</issue>
+          <fpage>2029</fpage>
+          <lpage>2053</lpage>
+          <pub-id pub-id-type="doi">10.1111/jbi.2010.37</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5750097">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kreft</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jetz</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Comment on An update of Wallaces zoogeographic regions of the world</article-title>
+          <source>Science</source>
+          <volume>341</volume>
+          <issue>6144</issue>
+          <fpage>343</fpage>
+          <pub-id pub-id-type="doi">10.1126/science.1237471</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5750107">
+        <element-citation publication-type="software">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Leutner</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Horning</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schwalb-Willmann</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title><italic>RStoolbox</italic>: Tools for remote sensing data analysis. R package version 0.2.6.</article-title>
+          <uri>https://CRAN.R-project.org/package=RStoolbox</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5750116">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lomolino</surname>
+              <given-names>M. V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Riddle</surname>
+              <given-names>B. R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Whittaker</surname>
+              <given-names>R. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brown</surname>
+              <given-names>J. H.</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <source>Biogeography</source>
+          <edition>4th</edition>
+          <publisher-name>Sinauer Associates</publisher-name>
+          <size units="page">375</size>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2699.2005.01314.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5866610">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Maiorano</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Amori</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Montemaggiori</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rondinini</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Santini</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Saura</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Boitani</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>On how biodiversity is covered in Europe by national protected areas and by the Natura 2000 network: insights from terrestrial vertebrates</article-title>
+          <source>Conservation Biology</source>
+          <volume>29</volume>
+          <issue>4</issue>
+          <fpage>986</fpage>
+          <lpage>995</lpage>
+          <pub-id pub-id-type="doi">10.1111/cobi.12535</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5750349">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Morrone</surname>
+              <given-names>J. J.</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Biogeographical regionalization of the world: a reappraisal</article-title>
+          <source>Australian Systematic Botany</source>
+          <volume>28</volume>
+          <issue>3</issue>
+          <fpage>81</fpage>
+          <lpage>81</lpage>
+          <pub-id pub-id-type="doi">10.1071/SB14042</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5750134">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Morrone</surname>
+              <given-names>J. J.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>The spectre of biogeographical regionalization</article-title>
+          <source>Journal of Biogeography</source>
+          <volume>45</volume>
+          <issue>2</issue>
+          <fpage>282</fpage>
+          <lpage>288</lpage>
+          <pub-id pub-id-type="doi">10.1111/jbi.13135</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5750144">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Mucina</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Biome: evolution of a crucial ecological and biogeographical concept</article-title>
+          <source>New Phytologist</source>
+          <volume>222</volume>
+          <issue>1</issue>
+          <fpage>97</fpage>
+          <lpage>114</lpage>
+          <pub-id pub-id-type="doi">10.1111/nph.15609</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5750154">
+        <element-citation publication-type="software">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Noirfalse</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <year>1987</year>
+          <article-title>Carte de la végétation naturelle des Etats membres des Communautés européennes et du Conseil de l'Europe. 1: 3.000.000, deuxième édition. Luxembourg</article-title>
+          <publisher-name>(Office public. off. Comm. europ.), feuilles 1-4</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B5750163">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ordynets</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Heilmann-Clausen</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Savchenko</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bässler</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Volobuev</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Akulov</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Karadelev</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kotiranta</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Saitta</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Langer</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Abrego</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Do plant-based biogeographical regions shape aphyllophoroid fungal communities in Europe?</article-title>
+          <source>Journal of Biogeography</source>
+          <volume>45</volume>
+          <issue>5</issue>
+          <fpage>1182</fpage>
+          <lpage>1195</lpage>
+          <pub-id pub-id-type="doi">10.1111/jbi.13203</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5750189">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Pebesma</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Simple features for R: Standardized support for spatial vector data</article-title>
+          <source>The R Journal</source>
+          <volume>10</volume>
+          <issue>1</issue>
+          <fpage>439</fpage>
+          <lpage>446</lpage>
+          <pub-id pub-id-type="doi">10.32614/RJ-2018-009</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5750208">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Team</surname>
+              <given-names>R Core</given-names>
+            </name>
+          </person-group>
+          <article-title>R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria.</article-title>
+          <uri>https://www.R-project.org/</uri>
+          <date-in-citation content-type="access-date">2020-04-24T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5866632">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Rivas-Martinez</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rivas-Saenz</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Worldwide Bioclimatic Classification System, Phytosociological Research Center, Spain</article-title>
+          <uri>http://www.globalbioclimatics.org</uri>
+          <date-in-citation content-type="access-date">2020-06-08T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5866623">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Roekaerts</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Biogeographical Regions Map of Europe. Basic principles of its creation and overview of its development. European Topic Centre Nature Protection and Biodiversity (EEA)</article-title>
+          <uri>https://www.eea.europa.eu/data-and-maps/data/biogeographical-regions-europe-2001/methodology-basic-principles-of-the-biogeographical-regions-map-creation-and-overview-of-its-development/methodology-basic-principles-of-the-biogeographical-regions-map-creation-and-overview-of-its-development/at_download/file</uri>
+          <date-in-citation content-type="access-date">2020-06-08T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5750217">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Rueda</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rodríguez</surname>
+              <given-names>M. Á.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hawkins</surname>
+              <given-names>B. A.</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>Towards a biogeographic regionalization of the European biota</article-title>
+          <source>Journal of Biogeography</source>
+          <volume>37</volume>
+          <issue>11</issue>
+          <fpage>2067</fpage>
+          <lpage>2076</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2699.2010.02388.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5750236">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Templ</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Templ</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Filzmoser</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lehoczky</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bakšienè</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fleck</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gregow</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hodzic</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kalvane</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kubin</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Palm</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Romanovskaja</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vučetić</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>žust</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Czúcz</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>NS-Pheno Team</surname>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Phenological patterns of flowering across biogeographical regions of Europe</article-title>
+          <source>International Journal of Biometeorology</source>
+          <volume>61</volume>
+          <fpage>1347</fpage>
+          <lpage>1358</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00484-017-1312-6</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5750227">
+        <element-citation publication-type="software">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Teucher</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Russell</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <year>2020</year>
+          <article-title><italic>rmapshaper</italic>: Client for 'mapshaper' for 'Geospatial' Operations. R package version 0.4.3.</article-title>
+          <uri>https://CRAN.R-project.org/package=rmapshaper</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5866601">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Walter</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <year>1954</year>
+          <source>Arealkunde. Einführung in die Phytologie III/2</source>
+          <publisher-name>Ulmer</publisher-name>
+          <publisher-loc>Stuttgart</publisher-loc>
+          <size units="page">245</size>
+        </element-citation>
+      </ref>
+      <ref id="B5750266">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Walter</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Breckle</surname>
+              <given-names>S. W.</given-names>
+            </name>
+          </person-group>
+          <year>2002</year>
+          <source>Walters vegetation of the Earth - The ecological systems of the geo-biosphere</source>
+          <publisher-name>Springer</publisher-name>
+          <size units="page">572</size>
+        </element-citation>
+      </ref>
+      <ref id="B5750284">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Wickham</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <source>ggplot2: Elegant graphics for data analysis.</source>
+          <publisher-name>Springer-Verlag. (VIII)</publisher-name>
+          <size units="page">213</size>
+          <pub-id pub-id-type="doi">10.1007/978-3-319-24277-4</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5750293">
+        <element-citation publication-type="software">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Wickham</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>François</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Henry</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Müller</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <year>2020</year>
+          <article-title><italic>dplyr</italic>: A Grammar of Data Manipulation. R package version 0.8.5.</article-title>
+          <uri>https://CRAN.R-project.org/package=dplyr</uri>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F5750307" position="float" orientation="portrait">
+      <object-id content-type="arpha">984FEA38-86D2-55A4-93E1-132F3A4C97D7</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e53720.figure1</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Map of the 11 European Biogeographical Regions (EBRs) showing the 7809 x 10 km × 10 km cells containing two or more EBR boundaries. These cells are displayed as empty quadrats with black borders, but given the scale, appear as black lines unless zoomed in. (The ‘outside data coverage’ is here added in grey to show the geographical boundaries with the EBRs).</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e53720-g001.png" position="float" id="oo_403218.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/403218</uri>
+      </graphic>
+    </fig>
+    <fig id="F5750311" position="float" orientation="portrait">
+      <object-id content-type="arpha">9994F038-F88A-59A7-8AD9-474CBE6CEDAB</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e53720.figure2</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>Grid-Based Map of the 11 European Biogeographical Regions (plus the ‘outside data coverage’ in grey) at 10 km × 10 km resolution (GB-EBR Map). This figure is provided only for the reader’s convenience. The raster file is available at the URL: <ext-link ext-link-type="uri" xlink:href="https://zenodo.org/record/3760925#.XqBOKcgzZPY">https://zenodo.org/record/3760925#.XqBOKcgzZPY</ext-link></p>
+      </caption>
+      <graphic xlink:href="bdj-08-e53720-g002.png" position="float" id="oo_403219.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/403219</uri>
+      </graphic>
+    </fig>
+    <fig id="F5750315" position="float" orientation="portrait">
+      <object-id content-type="arpha">8AC3C1B1-04D8-562B-B169-D06353ACE6E7</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e53720.figure3</object-id>
+      <label>Figure 3.</label>
+      <caption>
+        <p>Conversion of the EBR boundaries from the EBRs (vector) to the GB-EBRs (raster) map in two different geographical zones. Top row: Pyrenees - (a) Vector boundaries of Alpine, Atlantic, Continental and Mediterranean biogeographical regions, (b) 10 km × 10 km cells that overlap two or more biogeographical regions, (c) comparison between the vector boundaries and the new grid-based ones in the GB-EBRs map. Bottom row: Caucasus - (d) Vector boundaries of Alpine, Anatolian, Steppic biogeographical regions plus ‘outside data coverage’, (e) 10 km × 10 km cells that overlap two or more biogeographical regions, (f) comparison between the vector boundaries and the new grid-based ones, reshaped in the GB-EBRs map.</p>
+      </caption>
+      <graphic xlink:href="bdj-08-e53720-g003.png" position="float" id="oo_403221.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/403221</uri>
+      </graphic>
+    </fig>
+    <table-wrap id="T5760337" position="float" orientation="portrait">
+      <label>Table 1.</label>
+      <caption>
+        <p>Comparison of the absolute and relative areas of each European Biogeographical Region according to the new proposed Grid-Based map (GB-EBRs Map) in comparison to the official vector map by the European Environmental Agency (EBRs Map).</p>
+      </caption>
+      <table rules="all" border="0" style="width:569px">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="3">GB-BGRs Map</td>
+            <td rowspan="1" colspan="2">EBRs map</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>Biogeographical Region</italic>
+            </td>
+            <td rowspan="1" colspan="1">
+              <italic>N° of cells</italic>
+            </td>
+            <td rowspan="1" colspan="1">
+              <italic>Area</italic>
+              <break/>
+              <italic>(km²)</italic>
+            </td>
+            <td rowspan="1" colspan="1">
+              <italic>Area</italic>
+              <break/>
+              <italic>(%)</italic>
+            </td>
+            <td rowspan="1" colspan="1">
+              <italic>Area</italic>
+              <break/>
+              <italic>(km²)</italic>
+            </td>
+            <td rowspan="1" colspan="1">
+              <italic>Area</italic>
+              <break/>
+              <italic>(%)</italic>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>Alpine</italic>
+            </td>
+            <td rowspan="1" colspan="1">9731</td>
+            <td rowspan="1" colspan="1">973100</td>
+            <td rowspan="1" colspan="1">8.30</td>
+            <td rowspan="1" colspan="1">948235</td>
+            <td rowspan="1" colspan="1">8.60</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>Anatolian</italic>
+            </td>
+            <td rowspan="1" colspan="1">4468</td>
+            <td rowspan="1" colspan="1">446800</td>
+            <td rowspan="1" colspan="1">3.81</td>
+            <td rowspan="1" colspan="1">437310</td>
+            <td rowspan="1" colspan="1">3.97</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>Artic</italic>
+            </td>
+            <td rowspan="1" colspan="1">6877</td>
+            <td rowspan="1" colspan="1">687700</td>
+            <td rowspan="1" colspan="1">5.87</td>
+            <td rowspan="1" colspan="1">568701</td>
+            <td rowspan="1" colspan="1">5.16</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>Atlantic</italic>
+            </td>
+            <td rowspan="1" colspan="1">10127</td>
+            <td rowspan="1" colspan="1">1012700</td>
+            <td rowspan="1" colspan="1">8.64</td>
+            <td rowspan="1" colspan="1">861356</td>
+            <td rowspan="1" colspan="1">7.81</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>Black Sea</italic>
+            </td>
+            <td rowspan="1" colspan="1">1552</td>
+            <td rowspan="1" colspan="1">155200</td>
+            <td rowspan="1" colspan="1">1.32</td>
+            <td rowspan="1" colspan="1">139682</td>
+            <td rowspan="1" colspan="1">1.27</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>Boreal</italic>
+            </td>
+            <td rowspan="1" colspan="1">29337</td>
+            <td rowspan="1" colspan="1">2933700</td>
+            <td rowspan="1" colspan="1">25.04</td>
+            <td rowspan="1" colspan="1">2845317</td>
+            <td rowspan="1" colspan="1">25.81</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>Continental</italic>
+            </td>
+            <td rowspan="1" colspan="1">26021</td>
+            <td rowspan="1" colspan="1">2602100</td>
+            <td rowspan="1" colspan="1">22.21</td>
+            <td rowspan="1" colspan="1">2558880</td>
+            <td rowspan="1" colspan="1">23.21</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>Macaronesian</italic>
+            </td>
+            <td rowspan="1" colspan="1">247</td>
+            <td rowspan="1" colspan="1">24700</td>
+            <td rowspan="1" colspan="1">0.21</td>
+            <td rowspan="1" colspan="1">10255</td>
+            <td rowspan="1" colspan="1">0.09</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>Mediterranean</italic>
+            </td>
+            <td rowspan="1" colspan="1">13694</td>
+            <td rowspan="1" colspan="1">1369400</td>
+            <td rowspan="1" colspan="1">11.69</td>
+            <td rowspan="1" colspan="1">1192947</td>
+            <td rowspan="1" colspan="1">10.82</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>Pannonian</italic>
+            </td>
+            <td rowspan="1" colspan="1">1517</td>
+            <td rowspan="1" colspan="1">151700</td>
+            <td rowspan="1" colspan="1">1.29</td>
+            <td rowspan="1" colspan="1">151207</td>
+            <td rowspan="1" colspan="1">1.37</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>Steppic</italic>
+            </td>
+            <td rowspan="1" colspan="1">13606</td>
+            <td rowspan="1" colspan="1">1360600</td>
+            <td rowspan="1" colspan="1">11.61</td>
+            <td rowspan="1" colspan="1">1309196</td>
+            <td rowspan="1" colspan="1">11.88</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>Total</italic>
+            </td>
+            <td rowspan="1" colspan="1">117177</td>
+            <td rowspan="1" colspan="1">11717700</td>
+            <td rowspan="1" colspan="1">100</td>
+            <td rowspan="1" colspan="1">11023086</td>
+            <td rowspan="1" colspan="1">100</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <supplementary-material id="S5759521" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">C50AFB8A-280E-52A4-94CC-1BDB6863E5A2</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e53720.suppl1</object-id>
+      <label>Supplementary material 1</label>
+      <caption>
+        <p>Dataset of the grid-based map for the Biogeographical Regions of Europe (GB-EBR) - (Version 0.1.0)</p>
+      </caption>
+      <statement content-type="dataType">
+        <label>Data type</label>
+        <p>dataset</p>
+      </statement>
+      <statement content-type="notes">
+        <label>Brief description</label>
+        <p>Here we provide the dataset underpinning the map entitled "A grid-based map for the Biogeographical Regions of Europe (GB-EBR)"</p>
+        <p>https://zenodo.org/record/3766175#.XqbP5GgzZPZ</p>
+      </statement>
+      <p>File: oo_404222.csv</p>
+      <media xlink:href="bdj-08-e53720-s001.csv" mimetype="Comma Separated Values File" mime-subtype="csv" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/404222</uri>
+      </media>
+      <attrib specific-use="authors">Cervellini M, Zannini P, Di Musciano M, Fattorini S, Jiménez-Alfaro B, Rocchini D, Field R, Vetaas OR, Irl SDH, Beierkuhnlein C, Hoffmann S, Fischer JC, Casella L, Angelini P, Genovesi P, Nascimbene J, Chiarucci A</attrib>
+    </supplementary-material>
+    <supplementary-material id="S5760279" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">7BF3FD24-3CAE-5D92-9FA6-A8717213D1C2</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e53720.suppl2</object-id>
+      <label>Supplementary material 2</label>
+      <caption>
+        <p>A grid-based map for the Biogeographical Regions of Europe (GB-EBR)</p>
+      </caption>
+      <statement content-type="dataType">
+        <label>Data type</label>
+        <p>raster</p>
+      </statement>
+      <statement content-type="notes">
+        <label>Brief description</label>
+        <p>Here we provide the grid-based map of the European Biogeographical Regions of Europe (GB-EBR). The borders of the EBRs are reshaped to coherently match the standard European 10 km × 10 km grid, thus allowing each EBR to be unambiguously assigned to a single 10 km × 10 km cell.</p>
+        <p>https://zenodo.org/record/3760925#.XqbHtGgzZPZ</p>
+      </statement>
+      <p>File: oo_404485.tif</p>
+      <media xlink:href="bdj-08-e53720-s002.tif" mimetype="Tagged Image File" mime-subtype="tif" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/404485</uri>
+      </media>
+      <attrib specific-use="authors">Cervellini M, Zannini P, Di Musciano M, Fattorini S, Jiménez-Alfaro B, Rocchini D, Field R, Vetaas OR, Irl SDH, Beierkuhnlein C, Hoffmann S, Fischer JC, Casella L, Angelini P, Genovesi P, Nascimbene J, Chiarucci A</attrib>
+    </supplementary-material>
+    <supplementary-material id="S5760290" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">26902E94-9FA4-5D75-8CA2-9F2D6B7D3AA2</object-id>
+      <object-id content-type="doi">10.3897/BDJ.8.e53720.suppl3</object-id>
+      <label>Supplementary material 3</label>
+      <caption>
+        <p>The R code developed to produce the GB-EBR map</p>
+      </caption>
+      <statement content-type="dataType">
+        <label>Data type</label>
+        <p>script; text</p>
+      </statement>
+      <p>File: oo_404486.R</p>
+      <media xlink:href="bdj-08-e53720-s003.r" mimetype="R file" mime-subtype="R" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/404486</uri>
+      </media>
+      <attrib specific-use="authors">Zannini P</attrib>
+    </supplementary-material>
+  </floats-group>
+</article>
