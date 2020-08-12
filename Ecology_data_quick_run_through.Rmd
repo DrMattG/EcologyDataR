@@ -20,7 +20,7 @@ My quick thoughts and some example code on how we can get a representive (ish) s
 ### Step 1 - get a list of ecology packages
 
 ```{r step 1}
-packagefinder::findPackage(keywords = "ecology",display = "console",limit.results = 1000)
+packagefinder::findPackage(keywords = "ecology",display = "console",limit.results = 1000)# return.df=TRUE
 
 ```
 
@@ -29,6 +29,9 @@ packagefinder::findPackage(keywords = "ecology",display = "console",limit.result
 * we need a better set of search terms as this really only gives a small subset of ecology focused packages (maybe someone somewhere has a list - maybe I can ask on Twitter)
 
 * how do I get a list of packages from this? I submitted an issue at the package github page in the meantime it will have to be our old friend excel
+
+> Just got a reply to my issue - I just need to add in return.df = TRUE to get a dataframe!
+
 
 
 ### Step 2 - install all these packages 
