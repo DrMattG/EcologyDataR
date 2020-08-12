@@ -375,7 +375,7 @@ summary {
 </div>
 <div id="step-1---get-a-list-of-ecology-packages" class="section level3">
 <h3>Step 1 - get a list of ecology packages</h3>
-<pre class="r"><code>packagefinder::findPackage(keywords = &quot;ecology&quot;,display = &quot;console&quot;,limit.results = 1000)</code></pre>
+<pre class="r"><code>packagefinder::findPackage(keywords = &quot;ecology&quot;,display = &quot;console&quot;,limit.results = 1000)# return.df=TRUE</code></pre>
 <pre><code>## Your are searching packages for the term &#39;ecology&#39;
 ## 
 ## Please wait while index is being searched...
@@ -738,6 +738,9 @@ summary {
 <li><p>we need a better set of search terms as this really only gives a small subset of ecology focused packages (maybe someone somewhere has a list - maybe I can ask on Twitter)</p></li>
 <li><p>how do I get a list of packages from this? I submitted an issue at the package github page in the meantime it will have to be our old friend excel</p></li>
 </ul>
+<blockquote>
+<p>Just got a reply to my issue - I just need to add in return.df = TRUE to get a dataframe!</p>
+</blockquote>
 </div>
 <div id="step-2---install-all-these-packages" class="section level3">
 <h3>Step 2 - install all these packages</h3>
